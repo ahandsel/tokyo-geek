@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Travel guides
-      link: /guides
+      link: /guides/start-here
     - theme: alt
       text: Living in Japan
       link: /local
