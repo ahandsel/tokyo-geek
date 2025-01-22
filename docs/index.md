@@ -8,26 +8,21 @@ hero:
   tagline: Collection of my random notes about Japan
   actions:
     - theme: brand
-      text: Travel Tips
-      link: /travel-tips
-    - theme: alt
-      text: Travel Guides
-      link: /travel-guides
+      text: Travel guides
+      link: /guides
     - theme: alt
       text: Living in Japan
-      link: /local-life
+      link: /local
     - theme: alt
-      text: Random
-      link: /random
+      text: Random tips
+      link: /tips
 
 features:
-  - title: Travel Tips
-    details: Helpful websites, useful apps, and other tips when exploring Japan
-  - title: Travel Guides
+  - title: Travel guides
     details: Example itineraries, places to visit, and other suggestions for your trip
   - title: Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
-  - title: Random
-    details: Miscellaneous notes about Japan
+  - title: Random tips
+    details: Tips and tricks about Japan
 ---
 
