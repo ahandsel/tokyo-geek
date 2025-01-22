@@ -14,7 +14,8 @@ outline: deep
 * Neighborhood: Nagoya City's Moricoro Park
 * Prefecture: Aichi
 * Near Station: [Ai-Chikyuhaku-Kinen-Koen Station / 愛・地球博記念公園駅](https://goo.gl/maps/34rFhnEzSYYrm5JS8)
-
+* English website: <https://ghibli-park.jp/en/>
+* English ticketing website: [klook.com/en-US/activity/132673-ghibli-park-ticket/](https://www.klook.com/en-US/activity/132673-ghibli-park-ticket/)
 
 ## 1 Month ahead
 
@@ -152,8 +153,3 @@ Additional Notes:
 * Near Station:
   * [Kiba Station / 木場駅](https://goo.gl/maps/RhiShAqYYdyfU93w5)
   * [Kiyosumi-Shirakawa Station / 清澄白河駅](https://goo.gl/maps/mVqj5cs8MBreSEdC7)
-
-
-## Events
-
-* [Tokyo Art Beat - The source for What's happening in the art scene in Japan and around the world](https://www.tokyoartbeat.com/en)
