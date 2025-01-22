@@ -27,23 +27,23 @@ For the full list of places to book ahead, check out the [Places to book ahead f
 
 ## Brainstorm & Booking Resources
 
-- [Japan Trip Reserve Ahead](https://ahandsel.gitbook.io/japan-blog/japan_trip_reserve_ahead)
-- [Shinkansen Tickets - Japan Bullet Train Tickets and Schedule | Klook](https://www.klook.com/japan-rail/shinkansen/)
+* [Japan Trip Reserve Ahead](https://ahandsel.gitbook.io/japan-blog/japan_trip_reserve_ahead)
+* [Shinkansen Tickets - Japan Bullet Train Tickets and Schedule | Klook](https://www.klook.com/japan-rail/shinkansen/)
 
 ## Events
 
-- [Explore Events in Tokyo | Tokyo Cheapo](https://tokyocheapo.com/events/)
+* [Explore Events in Tokyo | Tokyo Cheapo](https://tokyocheapo.com/events/)
 
 ## YouTube Channels
 
-- [Paolo from Tokyo](https://youtube.com/@paolofromtokyo?si=wJke5ltyrPHHHSeM)
-- [Abroad in Japan](https://youtube.com/@abroadinjapan?si=bwGnTcn_mJWBMBLL)
+* [Paolo from Tokyo](https://youtube.com/@paolofromtokyo?si=wJke5ltyrPHHHSeM)
+* [Abroad in Japan](https://youtube.com/@abroadinjapan?si=bwGnTcn_mJWBMBLL)
 
 ## Things to Do
 
-- [Entertainment and Attractions in Tokyo | Tokyo Cheapo](https://tokyocheapo.com/entertainment/)
-- [Comprehensive Japan Travel Guide | Japan Guide](https://www.japan-guide.com)
+* [Entertainment and Attractions in Tokyo | Tokyo Cheapo](https://tokyocheapo.com/entertainment/)
+* [Comprehensive Japan Travel Guide | Japan Guide](https://www.japan-guide.com)
 
 ## Preparation
 
-- [Essential Apps for Traveling in Japan](https://ahandsel.gitbook.io/japan-blog/apps)
+* [Essential Apps for Traveling in Japan](https://ahandsel.gitbook.io/japan-blog/apps)
