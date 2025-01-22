@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Collection of my random notes about Japan",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    footer: {
+      message: 'Was this helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
+    },
     search: {
       provider: 'local',
     },
