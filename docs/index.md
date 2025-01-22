@@ -4,22 +4,30 @@ layout: home
 
 hero:
   name: "Tokyo Geek"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  # text: "Collection of my random notes about Japan"
+  tagline: Collection of my random notes about Japan
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Travel Tips
+      link: /travel-tips
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Travel Guides
+      link: /travel-guides
+    - theme: alt
+      text: Living in Japan
+      link: /local-life
+    - theme: alt
+      text: Random
+      link: /random
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Travel Tips
+    details: Helpful websites, useful apps, and other tips when exploring Japan
+  - title: Travel Guides
+    details: Example itineraries, places to visit, and other suggestions for your trip
+  - title: Living in Japan
+    details: Few things for the locals or those who are planning to live in Japan
+  - title: Random
+    details: Miscellaneous notes about Japan
 ---
 
