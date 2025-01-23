@@ -17,6 +17,7 @@ outline: deep
 * English website: <https://ghibli-park.jp/en/>
 * English ticketing website: [klook.com/en-US/activity/132673-ghibli-park-ticket/](https://www.klook.com/en-US/activity/132673-ghibli-park-ticket/)
 
+
 ## 1 Month ahead
 
 

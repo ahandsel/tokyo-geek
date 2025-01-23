@@ -117,6 +117,7 @@ Please see [Platto Kodama Reserved Seat Plan](https://www.jrtours.co.jp/service/
 
 You cannot book tickets during this time.
 
+
 # Tokyo to Nagoya Cheaper Shinkansen Tickets
 
 This is a translation of the [新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所](https://shinkansen.tabiris.com/tokyo_nagoya.html) Japanese post.
