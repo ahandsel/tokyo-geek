@@ -7,7 +7,7 @@
 * [Itinerary ideas](#itinerary-ideas)
   * [Central Kyoto](#central-kyoto)
   * [Eastern Kyoto Full Day](#eastern-kyoto-full-day)
-  * [Kiyomizudera Temple + Higashiyama District](#kiyomizudera-temple--higashiyama-district)
+  * [Kiyomizudera temple and Higashiyama district](#kiyomizudera-temple-and-higashiyama-district)
   * [Fushimi Inari Shrine](#fushimi-inari-shrine)
 * [References](#references)
 * [Breakfast Near Kyoto Station](#breakfast-near-kyoto-station)
@@ -37,10 +37,10 @@
 * [Details](https://www.japan-guide.com/e/e3931.html)
 
 
-### Eastern Kyoto Full Day
+### Eastern Kyoto full day
 
 
-### Kiyomizudera Temple + Higashiyama District
+### Kiyomizudera temple and Higashiyama district
 
 [Kiyomizu-dera / 清水寺](https://goo.gl/maps/zDvdAWSbEpHUhWRL7)
 * Temple with an iconic wooden stage
@@ -96,6 +96,4 @@ Open till 20:00
 
 ## Kyoto Hotel
 
-* Wed, Nov 30 ~ Sun, Dec 04, 🏖 (4 nights)
 * [JP INN Kyoto Ekimae Izutsucho (JP INN 京都駅前 井筒町)](https://goo.gl/maps/XZbs3aWaeXVJMfKc8)
-* Price: 38,702 JPY for 4 nights
