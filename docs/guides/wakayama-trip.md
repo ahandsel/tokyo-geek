@@ -2,38 +2,7 @@
 
 Wakayama Prefecture, located in the Kansai region of Japan, offers a rich blend of cultural heritage, natural beauty, and culinary delights.
 
-
-## Table of Contents <!-- omit in toc -->
-
-* [One-week Itinerary](#one-week-itinerary)
-  * [Day 1: Arrival in Wakayama City](#day-1-arrival-in-wakayama-city)
-  * [Day 2: Adventure in Shirahama](#day-2-adventure-in-shirahama)
-  * [Day 3: Spiritual Journey in Koyasan](#day-3-spiritual-journey-in-koyasan)
-  * [Day 4: Nachi Waterfall and Kumano Kodo Pilgrimage](#day-4-nachi-waterfall-and-kumano-kodo-pilgrimage)
-  * [Day 5: Adventure in the Kumano Region](#day-5-adventure-in-the-kumano-region)
-  * [Day 6: Relax in Ryujin Onsen](#day-6-relax-in-ryujin-onsen)
-  * [Day 7: Return to Wakayama City and Departure](#day-7-return-to-wakayama-city-and-departure)
-  * [Additional Tips](#additional-tips)
-* [Things to do in in Wakayama Prefecture](#things-to-do-in-in-wakayama-prefecture)
-  * [Adventure World](#adventure-world)
-  * [Engetsu Island](#engetsu-island)
-  * [Hashigui-iwa Rocks](#hashigui-iwa-rocks)
-  * [Kishi Station](#kishi-station)
-  * [Koyasan](#koyasan)
-  * [Kozan-ji Temple](#kozan-ji-temple)
-  * [Kumano Hongu Taisha](#kumano-hongu-taisha)
-  * [Kumano Hayatama Taisha](#kumano-hayatama-taisha)
-  * [Kumano-Kodo Nakahechi Pilgrimage Route](#kumano-kodo-nakahechi-pilgrimage-route)
-  * [Kumano-Nachi Taisha](#kumano-nachi-taisha)
-  * [Nachi Falls](#nachi-falls)
-  * [Ryujin Hot Spring](#ryujin-hot-spring)
-  * [Saki-no-Yu Onsen Spa](#saki-no-yu-onsen-spa)
-  * [Sandanbeki Cave](#sandanbeki-cave)
-  * [Senjojiki Rock Plateau](#senjojiki-rock-plateau)
-  * [Shirahama beach](#shirahama-beach)
-  * [Shirahama Energy Land](#shirahama-energy-land)
-  * [Wakayama Castle](#wakayama-castle)
-  * [Wakayama Marina City](#wakayama-marina-city)
+[[toc]]
 
 
 ## One-week Itinerary

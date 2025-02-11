@@ -1,20 +1,7 @@
 # Kamakura (鎌倉) & Enoshima (江の島)
 
+[[toc]]
 
-## Overview<!-- omit in toc -->
-<!-- markdownlint-disable MD007 -->
-* [Things to do in Kamakura (鎌倉)](#things-to-do-in-kamakura-鎌倉)
-  * [Hiking in Kamakura](#hiking-in-kamakura)
-* [Things to do in Enoshima (江の島)](#things-to-do-in-enoshima-江の島)
-* [Enoshima-Kamakura Freepass](#enoshima-kamakura-freepass)
-* [EMOT Deals](#emot-deals)
-  * [Enoshima Sea Candle Bundle](#enoshima-sea-candle-bundle)
-  * [Enoshima-Kamakura Free Pass](#enoshima-kamakura-free-pass)
-  * [Enoden 1-Day pass "Noriori-kun"](#enoden-1-day-pass-noriori-kun)
-* [Eating in Kamakura](#eating-in-kamakura)
-* [Hotels](#hotels)
-  * [Kamakura Cheap Hotel](#kamakura-cheap-hotel)
-<!-- markdownlint-enable MD007 -->
 
 ## Things to do in Kamakura (鎌倉)
 

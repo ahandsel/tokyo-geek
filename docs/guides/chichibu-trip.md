@@ -1,6 +1,5 @@
 # 3-Day Weekend Trip to Chichibu
 
-
 [[toc]]
 
 

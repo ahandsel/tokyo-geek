@@ -1,6 +1,5 @@
 # Izu/Hakone Weekend Trip Itinerary
 
-
 [[toc]]
 
 

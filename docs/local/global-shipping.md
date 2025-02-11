@@ -1,6 +1,5 @@
 # Notes on International Shipping from and to Japan
 
-
 [[toc]]
 
 

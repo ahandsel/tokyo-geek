@@ -1,5 +1,7 @@
 # Kyushu (九州) Trip
 
+[[toc]]
+
 
 ## Notes
 

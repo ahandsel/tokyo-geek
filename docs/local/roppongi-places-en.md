@@ -1,6 +1,5 @@
 # Roppongi and Azabu spots
 
-
 [[toc]]
 
 

@@ -1,5 +1,7 @@
 # Studio Ghibli Park Notes
 
+[[toc]]
+
 
 ## Tips
 

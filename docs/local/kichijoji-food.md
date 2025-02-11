@@ -2,11 +2,7 @@
 
 Lunch / Dinner Options in Kichijoji
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Cheap $](#cheap-)
-* [Good Deal $$](#good-deal-)
+[[toc]]
 
 
 ## Cheap $

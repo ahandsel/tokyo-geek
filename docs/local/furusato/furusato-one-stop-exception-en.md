@@ -2,27 +2,7 @@
 
 * Hometown tax payment site: [さとふる / Satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Introduction to the Hometown Tax One-Stop Special Exception System \& Special Application Form](#introduction-to-the-hometown-tax-one-stop-special-exception-system--special-application-form)
-* [What is the One-Stop Special Exception System?](#what-is-the-one-stop-special-exception-system)
-  * [Benefits of the One-Stop Special Exception System](#benefits-of-the-one-stop-special-exception-system)
-  * [Eligibility Requirements for the One-Stop Special Exception System](#eligibility-requirements-for-the-one-stop-special-exception-system)
-    * [⚠️ Important Points for the One-Stop Special Exception System](#️-important-points-for-the-one-stop-special-exception-system)
-  * [Timeline for the One-Stop Special Exception System](#timeline-for-the-one-stop-special-exception-system)
-* [Process for Using the One-Stop Special Exception System](#process-for-using-the-one-stop-special-exception-system)
-* [STEP 1](#step-1)
-  * [Gather the Required Documents](#gather-the-required-documents)
-    * [How to Obtain the One-Stop Special Application Form](#how-to-obtain-the-one-stop-special-application-form)
-    * [Identification Documents](#identification-documents)
-* [STEP 2](#step-2)
-  * [Complete the Application Form](#complete-the-application-form)
-* [STEP 3](#step-3)
-  * [Mail the Documents to Each Municipality by the Deadline](#mail-the-documents-to-each-municipality-by-the-deadline)
-  * [Pre-submission Checklist](#pre-submission-checklist)
-* [Difference Between the One-Stop Special Exception System and Tax Return](#difference-between-the-one-stop-special-exception-system-and-tax-return)
-* [FAQ for the One-Stop Special Exception System](#faq-for-the-one-stop-special-exception-system)
+[[toc]]
 
 
 ## Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form

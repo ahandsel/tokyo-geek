@@ -3,6 +3,8 @@
 Congratulations on deciding to visit Japan!  
 This guide will help you get started by outlining the key things you need to know before you go.
 
+[[toc]]
+
 
 ## YouTube channels to check out about Japan
 

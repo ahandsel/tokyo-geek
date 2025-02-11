@@ -4,44 +4,7 @@
 
 [tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
 
-
-## Table of Contents <!-- omit in toc -->
-
-* [TL;DR](#tldr)
-* [Shinjuku -- Central, Vibrant, and Great for First-Time Visitors](#shinjuku----central-vibrant-and-great-for-first-time-visitors)
-  * [Notable Areas](#notable-areas)
-  * [Things to Do](#things-to-do)
-  * [Drawbacks](#drawbacks)
-* [Shibuya -- Fashion, Coffee, Indie Culture, and Nightlife](#shibuya----fashion-coffee-indie-culture-and-nightlife)
-  * [Notable Areas](#notable-areas-1)
-  * [Things to Do](#things-to-do-1)
-  * [Drawbacks](#drawbacks-1)
-* [Ginza \& Tokyo Station -- Central, Sophisticated \& Upscale](#ginza--tokyo-station----central-sophisticated--upscale)
-  * [Notable Areas](#notable-areas-2)
-  * [Things to Do](#things-to-do-2)
-  * [Drawbacks](#drawbacks-2)
-* [Ueno -- The Best Area for Museums \& Budget Hotels](#ueno----the-best-area-for-museums--budget-hotels)
-  * [Notable Areas](#notable-areas-3)
-  * [Things to Do](#things-to-do-3)
-  * [Drawbacks](#drawbacks-3)
-* [Asakusa -- Tokyo's Traditional East Side](#asakusa----tokyos-traditional-east-side)
-  * [Notable Areas](#notable-areas-4)
-  * [Things to Do](#things-to-do-4)
-  * [Drawbacks](#drawbacks-4)
-* [Akihabara \& Iidabashi -- Geek Culture and Budget Accommodations](#akihabara--iidabashi----geek-culture-and-budget-accommodations)
-  * [Notable Areas](#notable-areas-5)
-  * [Things to Do](#things-to-do-5)
-  * [Drawbacks](#drawbacks-5)
-* [Roppongi -- Tokyo's Cosmopolitan Area](#roppongi----tokyos-cosmopolitan-area)
-  * [Notable Areas](#notable-areas-6)
-  * [Things to Do](#things-to-do-6)
-  * [Drawbacks](#drawbacks-6)
-* [Odaiba \& Tokyo Bay -- Modern Family-Oriented Resorts](#odaiba--tokyo-bay----modern-family-oriented-resorts)
-  * [Notable Areas](#notable-areas-7)
-  * [Things to Do](#things-to-do-7)
-  * [Drawbacks](#drawbacks-7)
-* [Great Articles to Read](#great-articles-to-read)
-* [Helpful Videos to Watch](#helpful-videos-to-watch)
+[[toc]]
 
 ---
 

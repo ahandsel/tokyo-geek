@@ -2,7 +2,6 @@
 
 Platto Kodama (`ぷらっとこだま`) Regular Car; Reserved seat plan
 
-
 [[toc]]
 
 

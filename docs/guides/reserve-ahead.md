@@ -1,8 +1,6 @@
----
-outline: deep
----
-
 # Places to book ahead for a Japan Trip
+
+[[toc]]
 
 
 ## 2 ~ 3 months ahead

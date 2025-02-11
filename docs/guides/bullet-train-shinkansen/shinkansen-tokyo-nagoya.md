@@ -2,7 +2,6 @@
 
 Cheaper Shinkansen tickets between Tokyo and Nagoya
 
-
 [[toc]]
 
 

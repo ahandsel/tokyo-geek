@@ -1,5 +1,7 @@
 # Trip to Nagoya
 
+[[toc]]
+
 
 ## Tokyo to Nagoya Transport
 

@@ -1,5 +1,7 @@
 # Osaka Trip Notes
 
+[[toc]]
+
 
 ## Things to Do in Osaka
 

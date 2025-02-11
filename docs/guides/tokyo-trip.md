@@ -1,18 +1,6 @@
 # Tokyo Trip Ideas
 
-
-## Outline <!-- omit in toc -->
-
-* [Overview of Things to Do in Tokyo](#overview-of-things-to-do-in-tokyo)
-* [Things to Book in Advance](#things-to-book-in-advance)
-* [Google Maps Lists](#google-maps-lists)
-* [Shibuya + Harajuku](#shibuya--harajuku)
-* [Shinjuku / 新宿](#shinjuku--新宿)
-* [Central Tokyo / 東京](#central-tokyo--東京)
-* [Tokyo Tower + Minatoku](#tokyo-tower--minatoku)
-* [Asakusa and SkyTree](#asakusa-and-skytree)
-* [Akihabara + Ueno](#akihabara--ueno)
-* [Last-Minute Hotel Options in Tokyo](#last-minute-hotel-options-in-tokyo)
+[[toc]]
 
 
 ## Overview of Things to Do in Tokyo
