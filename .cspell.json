@@ -16,7 +16,8 @@
     "kodama",
     "roppongi",
     "Satofull",
-    "Satoru"
+    "Satoru",
+    "vitepress"
   ],
   // flagWords - list of words to be always considered incorrect
   // "flagWords": [""],
