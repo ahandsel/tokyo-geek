@@ -1,0 +1,42 @@
+// cSpell Settings
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "chichibu",
+    "enoshima",
+    "furusato",
+    "ghibli",
+    "hakone",
+    "kichijoji",
+    "kodama",
+    "roppongi",
+    "Satofull",
+    "Satoru",
+    "vitepress"
+  ],
+  // flagWords - list of words to be always considered incorrect
+  // "flagWords": [""],
+  // ignorePaths - list of glob patterns to ignore file paths
+  "ignorePaths": [
+    "node_modules/**",
+    "bin"
+  ],
+  // allowCompoundWords - (default: false) allow compound words (e.g., arraylength)
+  "allowCompoundWords": false,
+  // ignoreRegExpList - list of regular expressions to ignore
+  "ignoreRegExpList": []
+  // "dictionaries": [
+  //   "words-to-avoid"
+  // ],
+  // "dictionaryDefinitions": [
+  //   {
+  //     "name": "words-to-avoid",
+  //     "path": "./words-to-avoid.txt"
+  //   }
+  // ]
+}

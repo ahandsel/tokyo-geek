@@ -1,0 +1,13 @@
+{
+  "projectBaseUrl": "${workspaceFolder}",
+  "ignorePatterns": [
+    { "pattern": "^https://github.com/" },
+    { "pattern": "^www.apahotel.com" },
+    { "pattern": "^https://www.satofull.jp" }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
+}
