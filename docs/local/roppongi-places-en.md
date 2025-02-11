@@ -1,4 +1,4 @@
-# Roppongi/Azabu Spots
+# Roppongi and Azabu spots
 
 
 ## Outline <!-- omit in toc -->
