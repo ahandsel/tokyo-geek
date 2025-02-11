@@ -29,3 +29,4 @@ features:
     details: Tips and tricks about Japan
 ---
 
+[[toc]]
