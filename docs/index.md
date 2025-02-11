@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Tokyo Geek
+titleTemplate: Collection of my random notes about Japan
+
 hero:
   name: "Tokyo Geek"
   # text: "Collection of my random notes about Japan"
@@ -12,10 +15,10 @@ hero:
       link: /guides/start-here
     - theme: alt
       text: Living in Japan
-      link: /local
+      link: /local/local.md
     - theme: alt
       text: Random tips
-      link: /tips
+      link: /tips/tips.md
 
 features:
   - title: Travel guides
