@@ -19,7 +19,7 @@
   * Service Hours
     * Weekdays: 8:00～21:00
     * Saturdays, Sundays, and holidays: 9:00～21:00
-* Upload contacts in bulk using [JPpostUpload.csv](../guides/content/JPpostUpload.csv)
+* Upload contacts in bulk using [jp-post-contact-upload.csv](./global-shipping/jp-post-contact-upload.csv)
 * As of March 29, 2021, JAPAN POST is only sending [Small Packets](https://www.post.japanpost.jp/int/service/small_packing_en.html) to USA.
   * Although the default option for [International Mail My Page Service](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do) is the `International ePacket`, this is not available!
 * The type of Shipping: [Small Packets](https://www.post.japanpost.jp/int/service/small_packing_en.html) & `AIR`
@@ -28,7 +28,7 @@
 #### Tips for Using JAPAN POST
 
 * Upload contacts in bulk using the add [Address book](https://www.post.japanpost.jp/intmypage/address_en.html) feature.
-  * Use [JPPOST_Upload.csv](../guides/content/JPPOST_Upload.csv) as a template
+  * Use [jp-post-contact-upload.csv](./global-shipping/jp-post-contact-upload.csv) as a template
   * Make sure all text is inside quotes (`"`) and no space between the quotes & comma (`","`)
   * First line should contain the header:
 
@@ -39,9 +39,9 @@
   * Last light should be empty.
 * Register the items to be shipped ahead of creating the label using [Contents List](https://www.post.japanpost.jp/intmypage/contents_en.html) tool.
 
-|     | Home | Address book | Data Import for Address book |
-| --- | ---- | ------------ | ---------------------------- |
-| | ![Global_Shipping_Home](../guides/content/Global_Shipping_Home.png) | ![Global_Shipping_Address1](../guides/content/Global_Shipping_Address1.png) | ![Global_Shipping_Address2](../guides/content/Global_Shipping_Address2.png) |
+|     | Home                                                                | Address book                                                                | Data Import for Address book                                                |
+| --- | ------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+|     | ![global-shipping-home](./global-shipping/global-shipping-home.png) | ![global-shipping-address1](./global-shipping/global-shipping-address1.png) | ![global-shipping-address2](./global-shipping/global-shipping-address2.png) |
 
 
 #### Demo
@@ -57,4 +57,4 @@ Pages went over by the demo videos:
   8. Confirmation
   9. Save & Print Label
 
-  ![Global_Shipping_Demo.gif](../guides/content/Global_Shipping_Demo.gif)
+  ![global-shipping-demo.gif](./global-shipping/global-shipping-demo.gif)
