@@ -63,7 +63,7 @@ Day of the visit
 * You can reserve exactly 1 month ahead of time. (e.g. For August 1st, you can reserve from July 1st)
 
 ⚙️ How to make reservations?
-* Go to <https://reserve.pokemon-cafe.jp/reserve/agree>
+* Go to <https://reserve.pokemon-cafe.jp/>
 * Check the `同意する` box and click `同意して進む` button
 * Click the `選択してください` dropdown and select the number of people
   * Ex/ `1名` for 1 person

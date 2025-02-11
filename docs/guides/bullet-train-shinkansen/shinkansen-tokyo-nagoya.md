@@ -63,7 +63,7 @@ Excluded dates for 2023
 
 ## Platto Kodama Reserved Seat Plan
 
-Refer to [Shinkansen_Discount_Tokyo_Osaka.md](Shinkansen_Discount_Tokyo_Osaka.md) for more details.
+Refer to [Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka](./shinkansen-tokyo-osaka.md) for more details.
 
 
 ## ⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️

@@ -1,6 +1,6 @@
 # Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form - Hometown Tax Website "Satoru"
 
-* Hometown tax payment site: [satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)
+* Hometown tax payment site: [さとふる / Satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)
 
 
 ## Table of contents <!-- omit in toc -->
@@ -37,7 +37,7 @@ To use the One-Stop Special Exception System, you must submit the required docum
 
 | Example of donating to 5 or fewer municipalities                      | Tax Deduction System                                                                                                                    | Steps Translation                                                                                                                                                                                                                                  |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Example of donating to 5 or fewer municipalities](./img/img_01.png) | ![Tax deduction mechanism: simple application enables deduction from individual residential tax without a tax return](./img/img_02.png) | [Donor] → <br> (1) Donation + Submission of One-Stop Special Application Form → <br> [Recipient Municipality] → <br> (2) Notification → <br> [Resident Municipality] → <br> (3) Deduction from the following year's residential tax → <br> [Donor] |
+| ![Example of donating to 5 or fewer municipalities](./img/img-01.png) | ![Tax deduction mechanism: simple application enables deduction from individual residential tax without a tax return](./img/img-02.png) | [Donor] → <br> (1) Donation + Submission of One-Stop Special Application Form → <br> [Recipient Municipality] → <br> (2) Notification → <br> [Resident Municipality] → <br> (3) Deduction from the following year's residential tax → <br> [Donor] |
 
 
 ### Benefits of the One-Stop Special Exception System
@@ -77,7 +77,7 @@ In simpler terms, this system is available to those with no other tax filings ou
 
 ### Timeline for the One-Stop Special Exception System
 
-![Timeline: donations made between 1/1 and 12/31; application must arrive by January 10th the following year; deduction from residential tax occurs from June to May of the subsequent year](./img/img_03.png)
+![Timeline: donations made between 1/1 and 12/31; application must arrive by January 10th the following year; deduction from residential tax occurs from June to May of the subsequent year](./img/img-03.png)
 
 The application deadline for the One-Stop Special Exception System is January 10 of the following year after the donation was made.  
 For donations made between January 1 and December 31 of the current year, prepare an application form and required documents for each donation and send them to the municipality by the deadline.  
@@ -89,14 +89,14 @@ If you miss the deadline, you must file a tax return to claim the deduction.
 
 ## STEP 1
 
-![STEP1](./img/bar_step_01.png)  
+![STEP1](./img/bar-step-01.png)  
 
 
 ### Gather the Required Documents
 
 To use the One-Stop Special Exception System, first gather the following documents.
 
-![Required items: One-Stop Special Application Form; A/B/C Identification Document Options](./img/img_04.png)
+![Required items: One-Stop Special Application Form; A/B/C Identification Document Options](./img/img-04.png)
 
 It is essential to send a completed One-Stop Special Application Form (Application for Special Deduction for Donations) to each municipality you donated to.
 
@@ -116,7 +116,7 @@ Attach copies of both your My Number and an identity verification document.
 
 Please prepare the documents using one of the following methods:
 
-![Document Options for Identity Verification](./img/pattern_01.png)
+![Document Options for Identity Verification](./img/pattern-01.png)
 
 1. **Option A**
    * Both sides of the My Number card (copy)
@@ -134,20 +134,20 @@ Please prepare the documents using one of the following methods:
 
 ## STEP 2
 
-![STEP2](./img/bar_step_02.png)  
+![STEP2](./img/bar-step-02.png)  
 
 
 ### Complete the Application Form
 
 Fill out the necessary information on the One-Stop Special Application Form (Application for Special Deduction for Donations).  
-Refer to the [Sample Form] for guidance.
+Refer to the sample form for guidance.
 
 ![Sample Form](./img/example.png)
 
 
 ## STEP 3
 
-![STEP3](./img/bar_step_03.png)  
+![STEP3](./img/bar-step-03.png)  
 
 
 ### Mail the Documents to Each Municipality by the Deadline

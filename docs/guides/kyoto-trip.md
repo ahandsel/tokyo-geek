@@ -48,7 +48,7 @@
 
 Higashiyama Streets
 * Winding streets lined with traditional shop houses
-* ![HigashiyamaStreets.png](content/HigashiyamaStreets.png)
+* ![kyoto-trip-higashiyamastreets.png](./img/kyoto-trip-higashiyamastreets.png)
 
 Kodaiji Temple
 * Zen temple with impressive gardens

@@ -165,7 +165,7 @@
 [ginza-map]: https://www.google.com/maps/d/viewer?mid=1J26-ejxq53uFIlFY7M6q83fxUDQ&ll=35.673853299559994%2C139.76779762299805&z=13
 [ginza-six]: https://ginza6.tokyo/
 [ginza-mitsukoshi]: https://www.mistore.jp/store/ginza.html
-[ginza-wako]: https://www.wako.co.jp/en/
+[ginza-wako]: https://www.wako.co.jp/
 
 ---
 

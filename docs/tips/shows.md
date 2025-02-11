@@ -3,12 +3,13 @@
 
 ## Anime
 
-* [Aggretsuko](https://www.netflix.com/jp-en/title/80198505)
-* [Parasite](https://www.netflix.com/jp-en/title/81221938)
+* [Aggretsuko](https://g.co/kgs/97XxAeU)
+* [Erased](https://g.co/kgs/vREZn6k)
+* [Parasite](https://g.co/kgs/zjYjM7o)
+* [Tokyo Godfathers](https://g.co/kgs/EfVy59C)
 
 
 ## Drama
 
-* [Midnight Diner: Tokyo Stories](https://www.netflix.com/jp-en/title/80113037)
-* [Erased](https://www.netflix.com/jp-en/title/80114225)
-* [Tokyo Godfathers](https://www.netflix.com/jp-en/title/60034521)
+* [Midnight Diner: Tokyo Stories](https://g.co/kgs/Sj2CuX8)
+* [The Naked Director](https://g.co/kgs/zQzsW7B)
