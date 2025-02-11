@@ -1,9 +1,9 @@
 # Tokyo Geek
 
-A revamp to my Japan_Guide blog using vitepress.
+A revamp to my Japan_Guide blog using [VitePress static site generator](https://vitepress.dev/).
 
 
-## Dev Notes
+## Dev notes
 
 Markdown Linting
 
