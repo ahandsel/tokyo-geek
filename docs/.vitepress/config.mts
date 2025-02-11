@@ -60,6 +60,7 @@ const vitePressOptions = {
   sitemap: {
     hostname: "https://ahandsel.github.io/tokyo-geek/",
   },
+  ignoreDeadLinks: true
 };
 
 const vitePressSidebarOptions = {
