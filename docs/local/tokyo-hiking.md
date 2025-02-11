@@ -1,12 +1,6 @@
 # Hiking in Tokyo
 
-
-## Table of Contents <!-- omit in toc -->
-
-* [\[ \] Mount Kawanori: Enthusiast](#--mount-kawanori-enthusiast)
-* [\[ \] Mount Mitsumine: Enthusiast](#--mount-mitsumine-enthusiast)
-* [\[x\] Mount Mitake: Enthusiast](#x-mount-mitake-enthusiast)
-* [\[x\] Oyama (大山)](#x-oyama-大山)
+[[toc]]
 
 Okutama Station -> Ogouchi Jinja Bus Stop -> Mount Iyo -> Mount Nukazasu -> Mount Mito -> Musashi Itsukaichi Station
 * Duration: >4 hours

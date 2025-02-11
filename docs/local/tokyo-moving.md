@@ -1,17 +1,6 @@
 # Moving to Tokyo, Japan
 
-
-## Outline <!-- omit in toc -->
-
-* [Internet + Cell Service](#internet--cell-service)
-  * [Payment Methods](#payment-methods)
-  * [Notes on Cell Phone Plans in Japan](#notes-on-cell-phone-plans-in-japan)
-* [Buying Used Items on Facebook](#buying-used-items-on-facebook)
-* [Home Centers in Tokyo](#home-centers-in-tokyo)
-* [Great Things To Buys](#great-things-to-buys)
-  * [Dryer for clothes](#dryer-for-clothes)
-* [Other Resources](#other-resources)
-* [Japanese Review Sites](#japanese-review-sites)
+[[toc]]
 
 
 ## Internet + Cell Service
