@@ -28,3 +28,4 @@ features:
   - title: Random tips
     details: Tips and tricks about Japan
 ---
+
