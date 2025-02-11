@@ -1,21 +1,7 @@
 # Izu/Hakone Weekend Trip Itinerary
 
 
-## Table of Contents <!-- omit in toc -->
-
-* [Friday - Head to and Explore Shuzenji](#friday---head-to-and-explore-shuzenji)
-  * [Morning](#morning)
-  * [Afternoon](#afternoon)
-  * [Evening](#evening)
-* [Saturday - Head to Hakone](#saturday---head-to-hakone)
-  * [Morning](#morning-1)
-  * [Afternoon](#afternoon-1)
-  * [Evening](#evening-1)
-* [Sunday - Explore Hakone and Return to Tokyo](#sunday---explore-hakone-and-return-to-tokyo)
-  * [Morning](#morning-2)
-  * [Afternoon](#afternoon-2)
-  * [Evening](#evening-2)
-* [Reference](#reference)
+[[toc]]
 
 
 ## Friday - Head to and Explore Shuzenji

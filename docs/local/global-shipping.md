@@ -1,12 +1,7 @@
 # Notes on International Shipping from and to Japan
 
 
-## Table of contents <!-- omit in toc -->
-
-* [JAPAN Post - International Mail](#japan-post---international-mail)
-* [International Mail My Page Service](#international-mail-my-page-service)
-  * [Tips for Using JAPAN POST](#tips-for-using-japan-post)
-  * [Demo](#demo)
+[[toc]]
 
 
 ## JAPAN Post - International Mail

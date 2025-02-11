@@ -3,37 +3,7 @@
 Platto Kodama (`ぷらっとこだま`) Regular Car; Reserved seat plan
 
 
-## Outline <!-- omit in toc -->
-
-* [Overview](#overview)
-  * [Travel time between Tokyo \& Kyoto](#travel-time-between-tokyo--kyoto)
-* [Naming](#naming)
-* [Pricing](#pricing)
-* [Restrictions](#restrictions)
-* [Is it worth it?](#is-it-worth-it)
-* [Details](#details)
-* [Booking Methods](#booking-methods)
-  * [In-Person Booking](#in-person-booking)
-  * [Online Booking](#online-booking)
-    * [Search Query](#search-query)
-    * [Online Booking Steps](#online-booking-steps)
-* [Vouchers You Will Get](#vouchers-you-will-get)
-* [Platt Free Drink](#platt-free-drink)
-* [Pick Up The Platt Kodama Tickets](#pick-up-the-platt-kodama-tickets)
-  * [Prep - Getting the ticket's pickup QR Code and confirmation code](#prep---getting-the-tickets-pickup-qr-code-and-confirmation-code)
-  * [Pickup - Using the Ticket Machine](#pickup---using-the-ticket-machine)
-  * [Pickup Locations](#pickup-locations)
-  * [Pick Up at Tokyo Station](#pick-up-at-tokyo-station)
-  * [Pick Up at Shinagawa station](#pick-up-at-shinagawa-station)
-  * [Pick Up at Shin-Yokohama station](#pick-up-at-shin-yokohama-station)
-  * [Pick Up at Nagoya station](#pick-up-at-nagoya-station)
-  * [Pick Up at Kyoto Station](#pick-up-at-kyoto-station)
-    * [1st Floor Kyoto Branch](#1st-floor-kyoto-branch)
-    * [2nd Floor Kyoto Branch](#2nd-floor-kyoto-branch)
-  * [Pick Up at Shin-Osaka Station](#pick-up-at-shin-osaka-station)
-* [Call JR Tokai Tours Support](#call-jr-tokai-tours-support)
-* [Sources](#sources)
-* [⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️](#️-jr-centrals-servers-are-down-from-2330--500-jst-️)
+[[toc]]
 
 
 ## Overview

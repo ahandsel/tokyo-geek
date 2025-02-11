@@ -55,7 +55,7 @@ If you are a local or a long-term resident wanting discounts on Shinkansen ticke
 
 ## Preparation
 
-* [Essential Apps for Traveling in Japan](./Apps.md)
+* [Essential Apps for Traveling in Japan](./apps.md)
 
 
 ## Brainstorming

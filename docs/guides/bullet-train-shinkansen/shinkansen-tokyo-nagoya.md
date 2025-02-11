@@ -1,18 +1,12 @@
-# Tokyo to Nagoya Shinkansen Option
+# Tokyo to Nagoya 🚅
+
+Cheaper Shinkansen tickets between Tokyo and Nagoya
 
 
-## Outline <!-- omit in toc -->
-
-* [Travel Time Between Tokyo \& Nagoya](#travel-time-between-tokyo--nagoya)
-* [Shinkansen Ticket Option Overview](#shinkansen-ticket-option-overview)
-* [Discounted Tickets](#discounted-tickets)
-  * [EX Kodama Family Early Special](#ex-kodama-family-early-special)
-* [Platto Kodama Reserved Seat Plan](#platto-kodama-reserved-seat-plan)
-* [⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️](#️-jr-centrals-servers-are-down-from-2330--500-jst-️)
-* [References](#references)
+[[toc]]
 
 
-## Travel Time Between Tokyo & Nagoya
+## Travel Time Between Tokyo and Nagoya
 
 | Name   | JP       | Time     | Note                                       |
 | ------ | -------- | -------- | ------------------------------------------ |

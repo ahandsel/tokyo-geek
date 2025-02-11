@@ -1,10 +1,14 @@
-# Useful iOS Apps In Japan
+# Apps for Japan
 
 Here are some useful iOS Apps that you can use in Japan.
 
-⚠️ Some apps are limited to the Japanese App Store
+⚠️ Some apps are limited to the Japanese App Store  
 * Apps with 🇯🇵 are limited to the Japanese App Store
 * Apps with 🌎 are available to all App Stores
+
+---
+
+[[toc]]
 
 
 ## Weather & Natural Disaster Warning

@@ -10,6 +10,7 @@ const vitePressOptions = {
     footer: {
       message:
         'Was this helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
+        // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
     },
     search: {
       provider: "local",
@@ -60,15 +61,35 @@ const vitePressOptions = {
   sitemap: {
     hostname: "https://ahandsel.github.io/tokyo-geek/",
   },
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
 };
 
-const vitePressSidebarOptions = {
+const vitePressSidebarOptions = [
   // VitePress Sidebar's options here...
-  documentRootPath: "/docs",
-  collapsed: false,
-  capitalizeFirst: true,
-};
+
+  {
+    documentRootPath: "docs",
+    scanStartPath: "guides",
+    basePath: "/guides/",
+    resolvePath: "/guides/",
+    useTitleFromFileHeading: true,
+    includeDotFiles: true,
+  },
+  {
+    documentRootPath: "docs",
+    scanStartPath: "local",
+    resolvePath: "/local/",
+    useTitleFromFileHeading: true,
+    includeDotFiles: true,
+  },
+  {
+    documentRootPath: "docs",
+    scanStartPath: "tips",
+    resolvePath: "/tips/",
+    useTitleFromFileHeading: true,
+    includeDotFiles: true,
+  },
+];
 
 export default defineConfig(
   withSidebar(vitePressOptions, vitePressSidebarOptions)

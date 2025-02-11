@@ -1,21 +1,7 @@
 # 3-Day Weekend Trip to Chichibu
 
 
-## Table of Contents <!-- omit in toc -->
-
-* [Random Notes](#random-notes)
-* [Hotel Options](#hotel-options)
-* [Day 1](#day-1)
-  * [Morning to Afternoon](#morning-to-afternoon)
-  * [Evening](#evening)
-* [Day 2](#day-2)
-  * [Morning](#morning)
-  * [Afternoon](#afternoon)
-  * [Evening](#evening-1)
-* [Day 3](#day-3)
-  * [Morning](#morning-1)
-  * [Afternoon](#afternoon-1)
-  * [Evening](#evening-2)
+[[toc]]
 
 
 ## Random Notes
