@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
-import SidebarBuilder from "@stuyk/vitepress-sidebar-builder";
+import { withSidebar } from "vitepress-sidebar";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressOptions = {
   title: "Tokyo Geek",
   description: "Collection of my random notes about Japan",
   themeConfig: {
@@ -17,8 +17,8 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Travel guides", link: "/guides/start-here" },
-      { text: "Living in Japan", link: "/local" },
-      { text: "Random Tips", link: "/tips" },
+      { text: "Living in Japan", link: "/local/local" },
+      { text: "Random Tips", link: "/tips/tips" },
     ],
 
     sidebar: [
@@ -60,4 +60,15 @@ export default defineConfig({
   sitemap: {
     hostname: "https://ahandsel.github.io/tokyo-geek/",
   },
-});
+};
+
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: "/docs",
+  collapsed: false,
+  capitalizeFirst: true,
+};
+
+export default defineConfig(
+  withSidebar(vitePressOptions, vitePressSidebarOptions)
+);
