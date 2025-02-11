@@ -1,10 +1,15 @@
 # Food Options in Kichijoji
 
+Lunch / Dinner Options in Kichijoji
 
-## 🍙 Lunch / Dinner Options in Kichijoji
+
+## Table of contents <!-- omit in toc -->
+
+* [Cheap $](#cheap-)
+* [Good Deal $$](#good-deal-)
 
 
-### Cheap $
+## Cheap $
 
 | Restaurant                                                              | Description                    |
 | ----------------------------------------------------------------------- | ------------------------------ |
@@ -13,7 +18,7 @@
 | [Kanibaru Kichijojiten](https://maps.app.goo.gl/xSgtL983NvRYZgdr6)      | Dei                            |
 
 
-### Good Deal $$
+## Good Deal $$
 
 | Restaurant                                                                 | Description                    | Type                   |
 | -------------------------------------------------------------------------- | ------------------------------ | ---------------------- |
@@ -25,8 +30,6 @@
 | [Monks Foods](https://maps.app.goo.gl/zPZq5UCxk1Z4PGmT8)                   | Teshioku                       | Lunch & dinner         |
 | [La Cour Cafe](https://maps.app.goo.gl/etiXNNpirrMYdBZV7)                  | Cafe                           | Lunch, coffee          |
 | [with PADDY](https://maps.app.goo.gl/g37xDoetasYqhRzT8)                    | Burrito                        | Weekday lunch & dinner |
-| [Rojiura Curry SAMURAI](https://maps.app.goo.gl/K7Ly6BfkGVDbwMD99)         | Soup Curry                     | Lunch & dinner         |
-| [Kichijoji TKG A Story of Eggs](https://maps.app.goo.gl/sYHNQFVQfJkHcfHf8) | Egg over rice                  | Lunch & dinner         |
 | [Mother Goose](https://maps.app.goo.gl/xFxBiYDsMrod8xzm9)                  | Pasta                          | Lunch & dinner         |
 | [Tamjai SamGor Mixian](https://maps.app.goo.gl/54i5yRxxWEdm6mZ58)          | Chinese noodle                 | Lunch & dinner         |
 | [Daipandang 105](https://maps.app.goo.gl/zgLugVeCtfeXxgjT6)                | Taiwanese                      | Lunch & dinner         |
@@ -39,6 +42,14 @@
 | [Garage 50](https://maps.app.goo.gl/KbrHhif2bNtcyaUm8)                     | Pizza                          | Lunch & dinner         |
 | [029 Kichijoji Restaurant](https://maps.app.goo.gl/7M9BCKyJykCyqvCu5)      | Teishoku                       | Lunch                  |
 | [Mogame Shokudo](https://maps.app.goo.gl/8WokwKfQLAfmrTMp9)                | Teishoku                       | Lunch & dinner         |
-| [King of Kale Kichijoji Shop](https://maps.app.goo.gl/DAmGmcfp9aJyyojE6)   | Salad, burritos, and bowls     | Lunch & early dinner   |
 | [Sippo](https://maps.app.goo.gl/77LLhYBXxUJT91BC8)                         | Teishoku                       | Lunch & dinner         |
+
+
+## Slightly More Expensive $$$
+
+| Restaurant                                                                 | Description                    | Type                   |
+| -------------------------------------------------------------------------- | ------------------------------ | ---------------------- |
+| [Rojiura Curry SAMURAI](https://maps.app.goo.gl/K7Ly6BfkGVDbwMD99)         | Soup Curry                     | Lunch & dinner         |
+| [King of Kale Kichijoji Shop](https://maps.app.goo.gl/DAmGmcfp9aJyyojE6)   | Salad, burritos, and bowls     | Lunch & early dinner   |
 | [Bánh mì Bà Ba Kichijoji](https://maps.app.goo.gl/6RaTZG1E9baHLfgp8)       | Vietnamese; Banh Mi Sandwiches | Lunch & dinner         |
+| [Kichijoji TKG A Story of Eggs](https://maps.app.goo.gl/sYHNQFVQfJkHcfHf8) | Egg over rice                  | Lunch & dinner         |
