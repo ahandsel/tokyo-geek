@@ -7,22 +7,6 @@ Here are some useful iOS Apps that you can use in Japan.
 * Apps with 🌎 are available to all App Stores
 
 
-## Outline <!-- omit in toc -->
-
-* [Weather \& Natural Disaster Warning](#weather--natural-disaster-warning)
-* [Payment and Reward Points](#payment-and-reward-points)
-* [City Life](#city-life)
-* [Food](#food)
-* [Transportation](#transportation)
-  * [Bicycle 🚲](#bicycle-)
-  * [Train 🚂](#train-)
-  * [Taxi 🚕](#taxi-)
-  * [Airplane ✈️](#airplane-️)
-* [Entertainment](#entertainment)
-* [Hiking Maps](#hiking-maps)
-* [Convenience Store](#convenience-store)
-
-
 ## Weather & Natural Disaster Warning
 
 * 🌎 [NERV Disaster Prevention](https://apps.apple.com/us/app/id1472338480?l=en) - Get English earthquake, tsunami, volcanic eruption and emergency warnings
