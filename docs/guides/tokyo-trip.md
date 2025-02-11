@@ -10,7 +10,7 @@
 * [Shinjuku / 新宿](#shinjuku--新宿)
 * [Central Tokyo / 東京](#central-tokyo--東京)
 * [Tokyo Tower + Minatoku](#tokyo-tower--minatoku)
-* [Asakusa ⛩️ + SkyTree 🗼](#asakusa-️--skytree-)
+* [Asakusa and SkyTree](#asakusa-and-skytree)
 * [Akihabara + Ueno](#akihabara--ueno)
 * [Last-Minute Hotel Options in Tokyo](#last-minute-hotel-options-in-tokyo)
 
@@ -73,7 +73,9 @@ Ghibli Museum / 三鷹の森ジブリ美術館
   * [NEW NEW YORK CLUB BAGEL & SANDWICH SHOP](https://goo.gl/maps/skxsWoP7Mz3ooeHj8)
 
 
-## Asakusa ⛩️ + SkyTree 🗼
+## Asakusa and SkyTree
+
+⛩️ & 🗼
 
 * [Suzukien Asakusa / 壽々喜園](https://maps.app.goo.gl/5KjYkA3bT34sz2kf7)
   * Famous matcha ice cream

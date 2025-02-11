@@ -6,13 +6,6 @@
 * Updated as of 2023-05-31
 * List ordered by monthly membership fee
 
-A-1EXPRESS 吉祥寺店
-* 3.7 stars (18 reviews)
-* Membership: 6028 yen per month
-* Initial fee: 7150 yen (5500 yen Admin fee + 1650 yen Security fee)
-* Google Maps: <https://maps.app.goo.gl/ZXXY5RWhnXqUtT5SA>
-* Website: <https://a-1express.jp/shop/kichijoji/>
-
 TIPNESS
 * 3.5 stars (85 reviews)
 * Membership: 6710 yen per month

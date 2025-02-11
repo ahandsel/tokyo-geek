@@ -56,7 +56,7 @@
 
 * **Head to Mishima Skywalk**
   * [Shuzenji Station](https://maps.app.goo.gl/jir8kSymdUf2Uz3v5) → [Mishima Station](https://maps.app.goo.gl/AzxpqtjY8KGoAmpWA) via train
-  * [Mishima Station](https://maps.app.goo.gl/AzxpqtjY8KGoAmpWA) → [Mishima Skywalk](https://maps.app.goo.gl/GDfZuQpMNSbRYSrm6) via `Ｎ６５：三島駅～ＦＰ～元箱根港` bus
+  * [Mishima Station](https://maps.app.goo.gl/AzxpqtjY8KGoAmpWA) → [Mishima Skywalk](https://maps.app.goo.gl/zAxVNayHnP87DB6r6) via `Ｎ６５：三島駅～ＦＰ～元箱根港` bus
 * [Mishima Sky Walk](https://goo.gl/maps/GDfZuQpMNSbRYSrm6)
   * Additional Info: [Hakone Navi](https://www.hakonenavi.jp/international/en/spot/252)
   * Purchase the [Mishima 1-day ticket](https://www.emot.jp/service/detail/tokaibus_mishimaru.html) via the [EMot](https://apps.apple.com/us/app/id1472652885?l=en) app for discounts.
@@ -65,7 +65,7 @@
 ### Afternoon
 
 * **Head to Hakone**
-  * [Mishima Skywalk](https://maps.app.goo.gl/GDfZuQpMNSbRYSrm6) → [Hakone Tokaido Checkpoint](https://goo.gl/maps/Aykm9qHBjAea5nso9) via `Ｎ６５：三島駅～ＦＰ～元箱根港` bus
+  * [Mishima Skywalk](https://maps.app.goo.gl/zAxVNayHnP87DB6r6) → [Hakone Tokaido Checkpoint](https://goo.gl/maps/Aykm9qHBjAea5nso9) via `Ｎ６５：三島駅～ＦＰ～元箱根港` bus
   * ⚠️ There are only a few [N65 三島駅→FP→スカイウォーク→元箱根港(8650011) - バスルート](https://bus-routes.net/gtfs_line.php?roid=17549) buses per day. Plan accordingly.
 * [Onshi-Hakone Park / 神奈川県立恩賜箱根公園](https://goo.gl/maps/BqRdgQ18cxQJygw8A)
 * Hiking the Old Trail
