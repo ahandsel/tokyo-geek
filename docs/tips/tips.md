@@ -1,4 +1,7 @@
-# Shows and movies with Japanese vibes
+# Tips
+
+
+## Shows and movies with Japanese vibes
 
 
 ## Anime
