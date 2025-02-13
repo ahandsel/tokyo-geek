@@ -50,7 +50,3 @@ Quick tips on using the ZipAir airline.
 ## Onboard WiFi
 
 - **Very slow** – Limited to iMessage and Spotify.
-
----
-
-This markdown file is now formatted for your blog post. Let me know if you need any adjustments!
