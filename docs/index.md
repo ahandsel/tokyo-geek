@@ -26,6 +26,6 @@ features:
   - title: Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
   - title: Random tips
-    details: Tips and tricks about Japan
+    details: Tips and miscellaneous notes
 ---
 
