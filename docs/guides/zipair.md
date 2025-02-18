@@ -80,6 +80,6 @@ Here are some quick tips for using the ZIPAIR airline.
 * **Seats 19D and 19E are not separated by a hard border**.
 
 
-## Onboard wifi
+## Onboard Wi-Fi
 
-* **Very slow** - Limited to iMessage and Spotify.
+* Onboard Wi-Fi is free but **very slow**. Messaging apps work fine but do not expect browsing.
