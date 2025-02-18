@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
-import { withPwa } from '@vite-pwa/vitepress'
+import { withPwa } from "@vite-pwa/vitepress";
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -11,7 +11,7 @@ const vitePressOptions = {
     footer: {
       message:
         'Was this helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
-        // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
+      // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
     },
     search: {
       provider: "local",
@@ -93,4 +93,20 @@ const vitePressSidebarOptions = [
 ];
 
 // export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-export default withPwa(defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)));
+export default withPwa(
+  defineConfig(
+    withSidebar(
+      { 
+        ...vitePressOptions,
+        pwa: {
+          strategies: 'generateSW',
+          workbox: { /* your workbox configuration if any */ },
+          experimental: {
+            includeAllowlist: true
+          }
+        }
+      },
+      vitePressSidebarOptions
+    )
+  )
+);
