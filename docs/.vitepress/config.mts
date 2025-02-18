@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
+import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -91,6 +92,5 @@ const vitePressSidebarOptions = [
   },
 ];
 
-export default defineConfig(
-  withSidebar(vitePressOptions, vitePressSidebarOptions)
-);
+// export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+export default withPwa(defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)));
