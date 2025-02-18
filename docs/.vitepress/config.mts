@@ -5,7 +5,17 @@ import { withPwa } from "@vite-pwa/vitepress";
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
   title: "Tokyo Geek",
-  description: "Collection of my random notes about Japan",
+  description: "Let's go to Japan!",
+  head: [
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
@@ -63,6 +73,32 @@ const vitePressOptions = {
     hostname: "https://ahandsel.github.io/tokyo-geek/",
   },
   ignoreDeadLinks: true,
+  pwa: {
+    strategies: "generateSW",
+    mode: "development",
+    registerType: "autoUpdate",
+    injectRegister: "script-defer",
+    includeAssets: ["favicon.svg"],
+    manifest: {
+      name: "Tokyo Geek",
+      short_name: "Tokyo-Geek",
+      theme_color: "#ffffff",
+    },
+    pwaAssets: {
+      config: true,
+    },
+    workbox: {
+      globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
+    },
+    experimental: {
+      includeAllowlist: true,
+    },
+    devOptions: {
+      enabled: false,
+      suppressWarnings: true,
+      navigateFallback: "/",
+    },
+  },
 };
 
 const vitePressSidebarOptions = [
@@ -92,21 +128,4 @@ const vitePressSidebarOptions = [
   },
 ];
 
-// export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-export default withPwa(
-  defineConfig(
-    withSidebar(
-      { 
-        ...vitePressOptions,
-        pwa: {
-          strategies: 'generateSW',
-          workbox: { /* your workbox configuration if any */ },
-          experimental: {
-            includeAllowlist: true
-          }
-        }
-      },
-      vitePressSidebarOptions
-    )
-  )
-);
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
