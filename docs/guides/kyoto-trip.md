@@ -37,7 +37,7 @@
 
 Higashiyama Streets
 * Winding streets lined with traditional shop houses
-* ![kyoto-trip-higashiyamastreets.png](./img/kyoto-trip-higashiyamastreets.png)
+* ![kyoto-trip-higashiyamastreets.png](../img/kyoto-trip-higashiyamastreets.png)
 
 Kodaiji Temple
 * Zen temple with impressive gardens
@@ -50,6 +50,26 @@ Gion
 
 * [Fushimi Inari Shrine - Japan Guide](https://www.japan-guide.com/e/e3915.html)
 * Google Maps: [Fushimi Inari Taisha / 伏見稲荷大社](https://goo.gl/maps/9e6EdUNDE18LuEwR7)
+
+
+### Mount Daimonji
+
+A light hike with a view of Kyoto city from the top
+* [Mount Daimonji / 大文字山](https://maps.app.goo.gl/583hPKg7SDn7S8cr5)
+
+
+## Places to Eat
+
+
+### Roof Top Bar
+
+* [in the Moon](https://maps.app.goo.gl/S1WsGQvCxUiUDcGX9)
+
+
+### Cafes
+
+* [WEEKENDERS COFFEE TOMINOKOJI](https://maps.app.goo.gl/u1uJDTjmfRkX14hXA)
+* [Farmoon](https://maps.app.goo.gl/KiFDyxcGvD9XFGuQ9)
 
 
 ## References
