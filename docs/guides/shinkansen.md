@@ -1,48 +1,48 @@
-# Bullet Train - Shinkansen Guide
+# Bullet train - Shinkansen guide
 
 
 ## Table of contents <!-- omit in toc -->
 
-* [Main Shinkansen Lines](#main-shinkansen-lines)
+* [Main Shinkansen lines](#main-shinkansen-lines)
 * [How to buy Shinkansen tickets](#how-to-buy-shinkansen-tickets)
 * [SmartEX - Tokaido, Sanyo, and Kyushu Shinkansen lines](#smartex---tokaido-sanyo-and-kyushu-shinkansen-lines)
   * [Which train stations are covered by the Tokaido, Sanyo, and Kyushu Shinkansen lines?](#which-train-stations-are-covered-by-the-tokaido-sanyo-and-kyushu-shinkansen-lines)
   * [How to use SmartEX](#how-to-use-smartex)
-  * [Confirm, change and refund reservations](#confirm-change-and-refund-reservations)
+  * [Confirm, change, and refund reservations](#confirm-change-and-refund-reservations)
   * [Important notes about SmartEX](#important-notes-about-smartex)
   * [Additional notes on using SmartEX](#additional-notes-on-using-smartex)
   * [Quick breakdown of Tokaido, Sanyo, and Kyushu Shinkansen lines](#quick-breakdown-of-tokaido-sanyo-and-kyushu-shinkansen-lines)
 * [More information](#more-information)
 
 
-## Main Shinkansen Lines
+## Main Shinkansen lines
 
 Here is the map of the main Shinkansen lines in Japan:
-![Map of Japan with all the main Shinkansen lines outlines](../img/shinkansen-map.png)
+![Map of Japan with all the main Shinkansen lines outlined](../img/shinkansen-map.png)
 
-**Hokkaido shinkansen line**
+**Hokkaido Shinkansen line**
 * Shin-Hakodate-Hokuto
 
-**Akita shinkansen line**
+**Akita Shinkansen line**
 * Akita
 
-**Yamagata shinkansen line**
+**Yamagata Shinkansen line**
 * Yamagata
 
-**Joetsu shinkansen line**
+**Joetsu Shinkansen line**
 * Niigata
 
-**Hokuriku shinkansen line**
+**Hokuriku Shinkansen line**
 * Toyama
 * Kanazawa
 
-**Tohoku shinkansen line**
+**Tohoku Shinkansen line**
 * Shin-Aomori
 * Morioka
 * Sendai
 * Fukushima
 
-**Tokaido shinkansen line**
+**Tokaido Shinkansen line**
 * Tokyo
 * Shin-Yokohama
 * Odawara
@@ -50,36 +50,36 @@ Here is the map of the main Shinkansen lines in Japan:
 * Kyoto
 * Shin-Osaka
 
-**Sanyo shinkansen line**
+**Sanyo Shinkansen line**
 * Okayama
 * Hiroshima
 * Hakata
 
-**Kyushu shinkansen line**
+**Kyushu Shinkansen line**
 * Kumamoto
 * Kagoshima-Chuo
 
 
 ## How to buy Shinkansen tickets
 
-There are 3 websites that you can use to buy Shinkansen tickets:
-* SmartEX - run by JR Central; English fully supported
-* Eki-net.com - run by JR East; English partially supported
-* Klook - a third-party website that sells Shinkansen tickets
+There are three websites that you can use to buy Shinkansen tickets:
+* SmartEX - run by JR Central; fully supports English.
+* Eki-net.com - run by JR East; partially supports English.
+* Klook - a third-party website that sells Shinkansen tickets.
 
-How do these 3 websites compare?
+How do these three websites compare?
 
-| Website                                                                  | Converge                                        | Pro                                  | Con                                                     | Who should use?                                                                          |
-| ------------------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [SmartEX](https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm) | All Shinkansen stations south of Tokyo          | English fully supported              | Account setup required (30 min)                         | Anyone who is buying tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines         |
-| [Eki-net](https://www.eki-net.com/en/jreast-train-reservation/Top/Index) | All Shinkansen stations West and North of Tokyo | Reserve seats for JR rail pass users | Limited English support                                 | JR rail pass users who are traveling on the Joetsu, Hokuriku, Tohoku, and Hokkaido lines |
-| [Klook](https://www.klook.com/japan-rail/shinkansen/)                    | All Shinkansen stations                         | Easiest to use                       | Additional fees are charged; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
+| Website                                                                  | Coverage                                       | Pros                                   | Cons                                                    | Who should use it?                                                                          |
+| ------------------------------------------------------------------------ | ---------------------------------------------- | -------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [SmartEX](https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm) | All Shinkansen stations south of Tokyo         | Fully supports English                 | Account setup required (30 minutes)                     | Anyone buying tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines                   |
+| [Eki-net](https://www.eki-net.com/en/jreast-train-reservation/Top/Index) | All Shinkansen stations west and north of Tokyo | Allows seat reservations for JR Rail Pass users | Limited English support                         | JR Rail Pass users traveling on the Joetsu, Hokuriku, Tohoku, and Hokkaido lines            |
+| [Klook](https://www.klook.com/japan-rail/shinkansen/)                    | All Shinkansen stations                         | Easiest to use                        | Additional fees; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
 
 
 ## SmartEX - Tokaido, Sanyo, and Kyushu Shinkansen lines
 
 I recommend using SmartEX to buy Shinkansen tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines.
-* SmartEX is run by JR Central offering the best support both online and in-person at the stations.
+* SmartEX is run by JR Central and offers the best support both online and in-person at stations.
 * SmartEX is available in English and is relatively easy to use.
 
 
@@ -88,47 +88,47 @@ I recommend using SmartEX to buy Shinkansen tickets for the Tokaido, Sanyo, and 
 The following are the major Shinkansen stations covered by the Tokaido, Sanyo, and Kyushu Shinkansen lines:
 1. Tokyo
 2. Shinagawa
-3. Shin-Yokohama (near Yokohama station)
+3. Shin-Yokohama (near Yokohama Station)
 4. Nagoya
 5. Kyoto
-6. Shin-Osaka (near Osaka station)
-7. Shin-Kōbe
-1. Okayama
-1. Hiroshima
-1. Kokura
-1. Hakata
-1. Kumamoto
-1. Kagoshima-Chuo (near Kagoshima station)
+6. Shin-Osaka (near Osaka Station)
+7. Shin-Kobe
+8. Okayama
+9. Hiroshima
+10. Kokura
+11. Hakata
+12. Kumamoto
+13. Kagoshima-Chuo (near Kagoshima Station)
 
 
 ### How to use SmartEX
 
-1. [Create a Smart EX account](https://smart-ex.jp/en/beginner/entry/sp/)
-1. [Make Reservations](https://smart-ex.jp/en/reservation/reserve_smart/sp/)
-1. [Purchase History/Receipt](https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/)
-[Confirm Reservations](https://smart-ex.jp/en/reservation/guide/referral/)
+1. [Create a SmartEX account](https://smart-ex.jp/en/beginner/entry/sp/)
+2. [Make reservations](https://smart-ex.jp/en/reservation/reserve_smart/sp/)
+3. [Purchase history/receipt](https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/)
+4. [Confirm reservations](https://smart-ex.jp/en/reservation/guide/referral/)
 
 
-### Confirm, change and refund reservations
+### Confirm, change, and refund reservations
 
 How to change a reservation?
 * Steps: [How to change](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* Details: [Change Reservations](https://smart-ex.jp/en/reservation/change/)
+* Details: [Change reservations](https://smart-ex.jp/en/reservation/change/)
 
 How to cancel a reservation and get a refund?
 * Steps: [How to refund](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* Details: [Refund Reservations](https://smart-ex.jp/en/reservation/guide/cancel/)
+* Details: [Refund reservations](https://smart-ex.jp/en/reservation/guide/cancel/)
 
 
 ### Important notes about SmartEX
 
 * SmartEX only supports tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines.
   * Use either Eki-net or Klook for other Shinkansen lines.
-* You can not use SmartEX and Japan Rail Pass or other passes together.
+* You cannot use SmartEX with the Japan Rail Pass or other passes.
 * When you click `Purchase`, your credit card will be charged.
   * After this point, there is a cancellation fee.
   * Changing the reservation is free.
-* Luggage - you will need to reserve a seat with oversized baggage area if you have a larger than carry-on size luggage. [Details](https://smart-ex.jp/en/entraining/oversized-baggage/)
+* Luggage - you must reserve a seat with an oversized baggage area if you have luggage larger than carry-on size. [Details](https://smart-ex.jp/en/entraining/oversized-baggage/)
 
 
 ### Additional notes on using SmartEX
@@ -138,9 +138,9 @@ How to cancel a reservation and get a refund?
 * If you want a paper ticket, you will need the `pickup code` and account login credentials.
 * If your credit card does not support [3-D Secure Authentication](https://smart-ex.jp/en/reservation/reserve_smart/3dsecure/), you will need to enter a security code each time you buy a ticket.
 * You cannot mix train classes (regular vs. Green) on the same ticket.
-  * Example: You need two tickets if you want to use the Green car (First class car) on the 1st train, followed by an reserved car (ordinary car) on the 2nd train.
+  * Example: You need two tickets if you want to use the Green car (first-class car) on the first train, followed by a reserved car (ordinary car) on the second train.
 * You cannot mix train types (express vs. local) on the same ticket.
-  * Example: You need two tickets if you want to use the Nozomi on the 1st train, followed by a Hikari on the 2nd train.
+  * Example: You need two tickets if you want to use the Nozomi on the first train, followed by a Hikari on the second train.
 
 
 ### Quick breakdown of Tokaido, Sanyo, and Kyushu Shinkansen lines
@@ -153,6 +153,6 @@ How to cancel a reservation and get a refund?
 ## More information
 
 * [Shinkansen (Japanese Bullet Train)](https://www.japan-guide.com/e/e2018.html#ticket)
-* [Shinkansen Travel Tips | Japan Experience - Japan Rail Pass](https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen)
+* [Shinkansen travel tips | Japan Experience - Japan Rail Pass](https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen)
 * SmartEX - [About Tokaido Sanyo Kyushu Shinkansen](https://smart-ex.jp/en/reservation/equipment/)
 * [Using Ekinet to make online seat reservations with the Japan Rail Pass.](https://www.jrpass.com/blog/using-ekinet-to-make-online-seat-reservations-with-the-japan-rail-pass)
