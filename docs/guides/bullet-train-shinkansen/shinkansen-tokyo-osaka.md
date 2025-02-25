@@ -304,3 +304,41 @@ Hours:
 ## ⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️
 
 You cannot book tickets during this time.
+
+
+## Takaido Shinkansen Line - JR Central
+
+* JR Central operates the Tokaido Shinkansen Line, which connects Tokyo and Shin-Osaka.
+* The line is served by 3 types of trains: Nozomi, Hikari, and Kodama
+  * Nozomi is the fastest, express train. Nozomi is not covered by the Japan Rail Pass.
+  * Hikari is the second fastest. Hikari is covered by the Japan Rail Pass.
+  * Kodama is the slowest, stopping at every station. Kodama is covered by the Japan Rail Pass.
+
+
+### Stations on the Tokaido Shinkansen Line
+
+| Station       | Nozomi | Hikari | Kodama |
+| ------------- | ------ | ------ | ------ |
+| TOKYO         | ⬤      | ⬤      | ⬤      |
+| SHINAGAWA     | ⬤      | ⬤      | ⬤      |
+| SHIN-YOKOHAMA | ⬤      | ⬤      | ⬤      |
+| ODAWARA       |        | ▲      | ⬤      |
+| ATAMI         |        | ▲      | ⬤      |
+| MISHIMA       |        | ▲      | ⬤      |
+| SHIN-FUJI     |        | ▲      | ⬤      |
+| SHIZUOKA      |        | ⬤      | ⬤      |
+| KAKEGAWA      |        | ▲      | ⬤      |
+| HAMAMATSU     |        | ▲      | ⬤      |
+| TOYOHASHI     |        | ▲      | ⬤      |
+| MIKAWA-ANJO   |        | ▲      | ⬤      |
+| NAGOYA        | ⬤      | ⬤      | ⬤      |
+| GIFU-HASHIMA  |        | ▲      | ⬤      |
+| MAIBARA       |        | ▲      | ⬤      |
+| KYOTO         | ⬤      | ⬤      | ⬤      |
+| SHIN-OSAKA    | ⬤      | ⬤      | ⬤      |
+
+**Legend**
+
+* ⬤ = Stop
+* ▲ = Some trains stop
+* (Blank) = No stop
