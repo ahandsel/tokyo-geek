@@ -128,4 +128,5 @@ const vitePressSidebarOptions = [
   },
 ];
 
-export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+// export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+export default defineConfig(withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions)));
