@@ -7,14 +7,12 @@ const vitePressOptions = {
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
   head: [
-    [
-      "meta",
-      {
-        name: "keywords",
-        content:
-          "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress",
-      },
-    ],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#ffffff' }],
+    ['meta', { name: 'keywords', content: "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress", }],
+    ['link', { rel: 'apple-touch-icon', href: '/pwa-192x192.png', sizes: '192x192' }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -78,7 +76,7 @@ const vitePressOptions = {
     mode: "development",
     registerType: "autoUpdate",
     injectRegister: "script-defer",
-    includeAssets: ["favicon.svg"],
+    includeAssets: ["favicon.ico", "pwa-192x192.png"],
     manifest: {
       name: "Tokyo Geek",
       short_name: "Tokyo-Geek",
