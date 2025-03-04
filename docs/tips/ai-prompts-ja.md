@@ -1,5 +1,7 @@
 # Japanese related AI prompts
 
+Here are ChatGPT prompts that I use for Japanese related tasks.
+
 
 ## Writing check for business Japanese
 
