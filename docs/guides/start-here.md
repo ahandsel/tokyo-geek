@@ -17,13 +17,13 @@ Here are some YouTube channels (ordered by recommendation) run by locals or expa
 1. [Tokyo Zebra](https://youtube.com/@TokyoZebra)
 
 
-## Book ahead - even before your hotel
+## Book ahead - even before your hotel 🎟️
 
-Especially if you are planning to visit Japan during the high season, it is recommended to book your tickets for key attractions and experiences far in advance!
+Especially if you are planning to visit Japan during the peak season, it is recommended to book your tickets for key attractions and experiences far in advance!
 
 Notable places to book ahead:
 * [Ghibli Park](./reserve-ahead.md#ghibli-park)  
-  For more details, check out the [Studio Ghibli Park Notes](./nagoya-ghibli-park-trip.md) guide.
+  * For more details, check out the [Studio Ghibli Park Notes](./nagoya-ghibli-park-trip.md) guide.
 * [Ghibli Museum](./reserve-ahead.md#ghibli-museum)
 * [Pokémon Café](./reserve-ahead.md#pokémon-café)
 * [teamLab Planets TOKYO](./reserve-ahead.md#teamlab-planets-tokyo)
@@ -31,7 +31,7 @@ Notable places to book ahead:
 For the full list of places to book ahead, check out the [Places to Book Ahead for a Japan Trip](./reserve-ahead.md) guide.
 
 
-## Bullet Train / Shinkansen
+## Bullet Train / Shinkansen 🚅
 
 The Shinkansen is a high-speed train service in Japan that connects major cities.  
 It is a convenient and efficient way to travel around Japan.  
@@ -44,23 +44,24 @@ If you are a local or a long-term resident wanting discounts on Shinkansen ticke
 * [Tokyo to Kanazawa Shinkansen Options](./bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
 
 
-## Events
+## Events 🗓️
 
 * [Explore Events in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/events/)
 
 
-## Things to Do
+## Things to Do 🎉
 
 * [Entertainment and Attractions in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/entertainment/)
 * [Comprehensive Japan Travel Guide - Japan Guide](https://www.japan-guide.com)
 
 
-## Preparation
+## Preparation ⚙️
 
-* [Essential Apps for Traveling in Japan](./apps.md)
+* [Checkout these useful apps for your Japan trip](./apps.md) - From navigation to translation
+* [Figure out how to get mobile data in Japan](./mobile-data.md) - eSIM vs Pocket Wi-Fi
 
 
-## Brainstorming
+## Brainstorming 🤔
 
 Here are some of my notes from past trips to give you some ideas:
 * [Chichibu](./chichibu-trip.md)
