@@ -18,7 +18,7 @@ Google Apps Script automation that appends a template Google Doc to another Goog
 function insertDocContentAfterPhrase() {
     var sourceDocId = 'SOURCE_GOOGLE_DOC_ID'; // Replace with the source Google Doc ID 
     var targetDocId = 'TARGET_GOOGLE_DOC_ID'; // Replace with the target Google Doc ID 
-    var phraseToFind = "panda:"; // Target phrase
+    var phraseToFind = "INSERT NEXT WEEK'S TEMPLATE HERE:"; // Target phrase
 
     var sourceDoc = DocumentApp.openById(sourceDocId);
     var targetDoc = DocumentApp.openById(targetDocId);
@@ -77,7 +77,11 @@ function insertDocContentAfterPhrase() {
 3. **Replace 'GOOGLE_DOC_ID'**  
     * Open your Google Doc → Copy its ID from the URL (between `/d/` and `/edit`).
     * Replace `'GOOGLE_DOC_ID'` in the script.
-4. **Set up a trigger to run weekly**  
+4. **Replace the target phrase**  
+    * Replace `"INSERT NEXT WEEK'S TEMPLATE HERE:"` with the phrase in the target Google Doc where you want to insert the template.
+5. **Save the script**  
+    * Click **File** → **Save**.
+6. **Set up a trigger to run weekly**  
     * Click on **Triggers** (clock icon in Apps Script).
     * Click **+ Add Trigger**.
     * Choose function: `insertDocContentAfterPhrase`
