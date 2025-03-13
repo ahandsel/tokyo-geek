@@ -18,7 +18,7 @@ const vitePressOptions = {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
       message:
-        'Was this helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
+        'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
     },
     search: {
