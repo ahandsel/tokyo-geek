@@ -15,64 +15,7 @@ Google Apps Script automation that appends a template Google Doc to another Goog
 
 ## Google Apps Script code
 
-```javascript
-function insertDocContentAfterPhrase() {
-  const sourceDocId = 'SOURCE_GOOGLE_DOC_ID'; // Source Google Doc ID
-  const targetDocId = 'TARGET_GOOGLE_DOC_ID'; // Target Google Doc ID
-  const insertLocation = "Insert Below:"; // Target phrase
-  const separator = "----------------------";
-
-  const sourceDoc = DocumentApp.openById(sourceDocId);
-  const targetDoc = DocumentApp.openById(targetDocId);
-
-  const sourceBody = sourceDoc.getBody();
-  const targetBody = targetDoc.getBody();
-
-  // Find the paragraph index that contains the phrase using Array.findIndex
-  const targetParagraphs = targetBody.getParagraphs();
-  const targetIndex = targetParagraphs.findIndex(paragraph => 
-    paragraph.getText().includes(insertLocation)
-  );
-  if (targetIndex === -1) {
-    Logger.log("Phrase not found in the target document.");
-    return;
-  }
-
-  let insertIndex = targetIndex + 1;
-  
-  // Insert a separator for clarity
-  targetBody.insertParagraph(insertIndex, separator);
-  insertIndex++;
-
-  // Build an array of copied source elements using Array.from
-  const numChildren = sourceBody.getNumChildren();
-  const sourceElements = Array.from({ length: numChildren }, (_, j) =>
-    sourceBody.getChild(j).copy()
-  );
-
-  // Use forEach to insert each copied element into the target document
-  sourceElements.forEach(element => {
-    const type = element.getType();
-    switch (type) {
-      case DocumentApp.ElementType.PARAGRAPH:
-        targetBody.insertParagraph(insertIndex, element);
-        break;
-      case DocumentApp.ElementType.TABLE:
-        targetBody.insertTable(insertIndex, element);
-        break;
-      case DocumentApp.ElementType.LIST_ITEM:
-        targetBody.insertListItem(insertIndex, element);
-        break;
-      default:
-        targetBody.insertParagraph(insertIndex, element);
-        break;
-    }
-    insertIndex++;
-  });
-
-  Logger.log("Content inserted successfully after the target phrase.");
-}
-```
+<<< @/tips/google-doc-auto-appending.js
 
 
 ## Setup instructions
@@ -80,11 +23,11 @@ function insertDocContentAfterPhrase() {
 1. **Create a Google Apps Script project**  
     * Open Google Drive → Click **+ New** → More → Google Apps Script.
 2. **Paste the script above.**
-3. **Replace 'GOOGLE_DOC_ID'**  
-    * Open your Google Doc → Copy its ID from the URL (between `/d/` and `/edit`).
-    * Replace `'GOOGLE_DOC_ID'` in the script.
+3. **Add the Google Doc IDs**  
+    * Replace the placeholders `SOURCE_GOOGLE_DOC_ID` and `TARGET_GOOGLE_DOC_ID` with the actual Google Doc IDs.
+    * The Google Doc ID is the unique identifier found in the URL of the document. For example, in `https://docs.google.com/document/d/1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU/edit`, the ID is `1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU`.
 4. **Replace the target phrase**  
-    * Replace `"INSERT NEXT WEEK'S TEMPLATE HERE:"` with the phrase in the target Google Doc where you want to insert the template.
+    * Replace `Insert Below:` with the phrase in the target Google Doc where you want to insert the template.
 5. **Save the script**  
     * Click **File** → **Save**.
 6. **Set up a trigger to run weekly**  
@@ -166,9 +109,15 @@ const sourceElements = Array.from({ length: numChildren }, (_, j) =>
 ### Insert copied content into the target document
 
 ```javascript
-sourceElements.forEach(element => {
+sourceElements.forEach((element) => {
   const type = element.getType();
   switch (type) {
+    case DocumentApp.ElementType.INLINE_IMAGE:
+      targetBody.insertImage(insertIndex, element);
+      break;
+    case DocumentApp.ElementType.PAGE_BREAK:
+      targetBody.insertPageBreak(insertIndex, element);
+      break;
     case DocumentApp.ElementType.PARAGRAPH:
       targetBody.insertParagraph(insertIndex, element);
       break;
@@ -179,6 +128,7 @@ sourceElements.forEach(element => {
       targetBody.insertListItem(insertIndex, element);
       break;
     default:
+      // For any unhandled element types, default to inserting as a paragraph.
       targetBody.insertParagraph(insertIndex, element);
       break;
   }
@@ -194,9 +144,6 @@ sourceElements.forEach(element => {
   * If the element is a list item, insert it using `insertListItem()`.
   * Insert as a paragraph by default.
 
-> [!TIP]
-> If your documents include other types of elements, you may want to add additional cases to handle them appropriately.
-
 
 ### Log a success message
 
@@ -208,13 +155,6 @@ After all elements are inserted into the target document, a log message is gener
 
 
 ### Notes and considerations
-
-* Expanding the switch statement:
-  * The switch statement handles paragraphs, tables, and list items.
-• Optimizing content copying:
-If the source document is very large, copying every element might slow down the process. In such cases, consider inserting only the necessary portions or using batch processing techniques.
-• Using Logger for debugging:
-The Logger.log statements are useful for tracking the progress of your script. They can be replaced with other debugging methods if required.
 
 > [!IMPORTANT]  
 > Google Doc permissions: Make sure to give your script the permission to access and modify both the source and target documents. Set the sharing permissions accordingly before running the script.
