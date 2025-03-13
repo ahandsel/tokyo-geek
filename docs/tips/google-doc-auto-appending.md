@@ -218,3 +218,9 @@ The Logger.log statements are useful for tracking the progress of your script. T
 
 > [!IMPORTANT]  
 > Google Doc permissions: Make sure to give your script the permission to access and modify both the source and target documents. Set the sharing permissions accordingly before running the script.
+
+
+## References
+
+* [Enum ElementType - Apps Script - Google for Developers](https://developers.google.com/apps-script/reference/document/element-type)
+* [Class Body - Apps Script - Google for Developers](https://developers.google.com/apps-script/reference/document/body)
