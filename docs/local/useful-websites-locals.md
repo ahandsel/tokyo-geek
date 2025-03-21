@@ -6,7 +6,7 @@ Here are useful websites for living and traveling in Japan.
 > Be careful translation websites when filling out forms.  
 > Sometimes the translation tool breaks the website's functionality and forms are not submitted correctly.
 
-[TOC]
+[toc]
 
 
 ## Events
