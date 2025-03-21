@@ -20,6 +20,9 @@ Here are useful websites for living and traveling in Japan.
 * Restaurant review website
 * Best way to find and book restaurants in Japan
 
+[Tokyo Terraces - Find outdoor restaurants and rooftop bars in Tokyo](https://tokyoterraces.com/)
+* Discover outdoor dining and rooftop bars in Tokyo
+
 
 ## General information
 
