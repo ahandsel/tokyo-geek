@@ -32,6 +32,9 @@ Here are useful websites for living and traveling in Japan.
 [japan-guide.com - Japan Travel and Living Guide](https://www.japan-guide.com/e/e625.html)
 * Comprehensive guide about Japan
 
+[Tokyo Weekender](https://www.tokyoweekender.com/)
+* A guide to Tokyo's culture, events, and lifestyle
+
 
 ## Transportation
 
