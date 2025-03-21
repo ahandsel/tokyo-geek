@@ -20,6 +20,11 @@ const vitePressOptions = {
       message:
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
+      copyright: `
+        <div id="share-button-container">
+          <ShareButton />
+        </div>
+      `,
     },
     search: {
       provider: "local",
