@@ -10,7 +10,7 @@ hero:
   # text: "Collection of my random notes about Japan"
   tagline: Collection of my random notes about Japan
   image:
-    # src: /favicon.ico
+    src: /favicon.ico
     # alt: VitePress
   actions:
     - theme: brand
@@ -24,28 +24,22 @@ hero:
       link: /tips/tips
 
 features:
-  - title: Travel guides
-    icon: ✈️
+  - title: ✈️ Travel guides
     details: Example itineraries, places to visit, and other suggestions for your trip
     link: /guides/start-here
-  - title: Living in Japan
-    icon: 🏠
+  - title: 🏠 Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
     link: /local/local
-  - title: Random tips
-    icon: 💡
+  - title: 💡 Random tips
     details: Tips and miscellaneous notes
     link: /tips/tips
-  - title: Apps to download before you go
-    icon: 📲
+  - title: 📲 Apps to download before you go
     details: Here are some useful iOS Apps that you can use in Japan.
     link: /guides/apps
-  - title: Useful Japanese Websites
-    icon: 🔖
+  - title: 🔖 Useful Japanese Websites
     details: Quick list of Japanese websites that you might find useful
     link: local/useful-websites-locals
-  - title: Tokyo Neighborhoods Overview
-    icon: 🏙️
+  - title: 🏙️ Tokyo Neighborhoods Overview
     details: Quick breakdown of neighborhoods by what they are known for
     link: /guides/tokyo-neighborhoods
 ---
