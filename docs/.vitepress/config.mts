@@ -6,20 +6,26 @@ import { withPwa } from "@vite-pwa/vitepress";
 const vitePressOptions = {
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
-  head: [
-    ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#ffffff' }],
-    ['meta', { name: 'keywords', content: "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress", }],
-    ['link', { rel: 'apple-touch-icon', href: '/pwa-192x192.png', sizes: '192x192' }],
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/pwa-192x192.png",
+    head: [
+      ['meta', { name: 'theme-color', content: '#ffffff' }],
+      ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#ffffff' }],
+      ['meta', { name: 'keywords', content: "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress", }],
+      ['link', { rel: 'apple-touch-icon', href: '/pwa-192x192.png', sizes: '192x192' }],
+      // ["link", { rel: "icon", href: "/favicon.ico" }],
+    ],
     footer: {
       message:
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
+      copyright: `
+        <div id="share-button-container">
+          <ShareButton />
+        </div>
+      `,
     },
     search: {
       provider: "local",
@@ -76,7 +82,7 @@ const vitePressOptions = {
     mode: "development",
     registerType: "autoUpdate",
     injectRegister: "script-defer",
-    includeAssets: ["favicon.ico", "pwa-192x192.png"],
+    includeAssets: ["/favicon.ico", "pwa-192x192.png"],
     manifest: {
       name: "Tokyo Geek",
       short_name: "Tokyo-Geek",
