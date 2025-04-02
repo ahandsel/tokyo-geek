@@ -1,6 +1,4 @@
 ---
 title: Tips
-description: Tips and miscellaneous notes
+description: List of tips and miscellaneous notes.
 ---
-
-<ContentList />

@@ -1,4 +1,7 @@
-# Chrome tip - Disable these 3 settings to prevent Google from tracking you
+---
+title: Chrome tip - Simplify disabling ad privacy settings
+description: Shortcut to quickly open Chrome's ad privacy settings to turn off tracking.
+---
 
 > [!IMPORTANT]  
 > These ad privacy settings are enabled by default, so you need to disable them manually.
