@@ -1,10 +1,3 @@
----
-title: Tips
-description: Tips and miscellaneous notes
----
-
-<ContentList />
-
 # Chrome Tip - Turn off these Google Chrome settings to avoid tracking
 
 > [!IMPORTANT]  
