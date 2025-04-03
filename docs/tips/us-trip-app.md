@@ -12,7 +12,7 @@ For Japan-specific apps, see [Apps for Japan](../guides/apps.md)
 |           | [Nomad][]       | eSim              | Nomad invite code: `KEIT63JY` ; get 25% off your first order                                  |
 | Currency  | [Revolut][]     | Currency Exchange | [Revolut invite link][]; Supports fewer currencies than Wise but lower exchange fee.          |
 |           | [Wise][]        | Currency Exchange | [Wise invite link][]; Supports more currencies than Revolut but slightly higher exchange fee. |
-| Other     | [Timeshifter][] | Manage Jet Lag    |                                                                                               |
+| Other     | [Timeshifter][] | Manage Jet Lag    | Great app to use a bit before, during, and after your trip to help with jet lag.              |
 
 [Uber]: https://apps.apple.com/app/id368677368
 [Lyft]: https://apps.apple.com/app/id529379082
@@ -25,3 +25,11 @@ For Japan-specific apps, see [Apps for Japan](../guides/apps.md)
 [Wise]: https://apps.apple.com/app/id612261027
 [Wise invite link]: https://wise.com/invite/ihpc/genjif1
 [Airalo invite code: AB6826]: https://ref.airalo.com/DB2m
+
+
+## Tips
+
+* Compare Uber and Lyft prices before booking a ride. Often, one is cheaper than the other.
+* Revolut and Wise are both great for managing multiple currencies.
+  * They also support peer-to-peer payments, which is useful for splitting bills with friends.
+  * Revolut is more user-friendly, while Wise has a better exchange rate.
