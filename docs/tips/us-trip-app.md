@@ -29,7 +29,18 @@ For Japan-specific apps, see [Apps for Japan](../guides/apps.md)
 
 ## Tips
 
+
+### Transport
+
 * Compare Uber and Lyft prices before booking a ride. Often, one is cheaper than the other.
+
+
+### Multi-Currency FinTech Apps
+
 * Revolut and Wise are both great for managing multiple currencies.
   * They also support peer-to-peer payments, which is useful for splitting bills with friends.
   * Revolut is more user-friendly, while Wise has a better exchange rate.
+  * Revolut is better for travel benefits, such as insurance and cashback.
+  * Wise is better for international transfers and has a more extensive network of supported currencies.
+  * Revolut and Wise are not banks but rather currency-holding services.
+  * Create an account with both apps to compare fees and exchange rates.
