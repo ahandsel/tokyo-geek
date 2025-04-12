@@ -101,7 +101,6 @@ const vitePressOptions = {
 
 const vitePressSidebarOptions = [
   // VitePress Sidebar's options here...
-
   {
     documentRootPath: "docs",
     scanStartPath: "guides",
@@ -121,10 +120,12 @@ const vitePressSidebarOptions = [
     documentRootPath: "docs",
     scanStartPath: "tips",
     resolvePath: "/tips/",
-    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     includeDotFiles: true,
   },
 ];
 
 // export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-export default defineConfig(withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions)));
+export default defineConfig(
+  withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions))
+);
