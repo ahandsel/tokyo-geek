@@ -90,18 +90,27 @@ Ask ChatGPT to edit the JSON file to automatically suggest a color or icon for e
 
 Here is a nightTab setup to quickly access the various Google products.
 
+<!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="./nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+  <summary>Click to expand <a href="https://github.com/ahandsel/tokyo-geek/blob/main/docs/tips/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+
+  <<< @/tips/nighttab/google-bookmarks.json
 </details>
+<!-- markdownlint-enable MD033 -->
 
 
 ### Travel
 
 Here is a nightTab setup to quickly access travel-related bookmarks.
 
+<!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="./nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+  <summary>Click to expand <a href="https://github.com/ahandsel/tokyo-geek/blob/main/docs/tips/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+
+  <<< @/tips/nighttab/travel-bookmarks.json
+
 </details>
+<!-- markdownlint-enable MD033 -->
 
 
 ## References
