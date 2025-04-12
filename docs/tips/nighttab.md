@@ -1,4 +1,10 @@
-# nightTab - Customizable new tab replacement extension for Chrome
+---
+title: nightTab - new tab setup
+description: Customizable your browser's new tab page with nightTab extension.
+---
+
+
+# {{ $frontmatter.title }} - Customizable new tab replacement extension for Chrome
 
 [zombieFox/nightTab](https://github.com/zombieFox/nightTab) is a highly customizable new tab replacement extension for Chrome, Firefox, and Edge.  
 It is an easy way to personalized the browser without browser lock-in.
@@ -75,6 +81,27 @@ Ask ChatGPT to edit the JSON file to automatically suggest a color or icon for e
 * Prompt ChatGPT to edit the JSON file and suggest a color or icon for each bookmark.
 * Verify the changes in the JSON file. (Compare the original and edited JSON files on VS Code.)
 * Import the edited JSON file back into nightTab.
+
+
+## Examples
+
+
+### Google product suite
+
+Here is a nightTab setup to quickly access the various Google products.
+
+<details>
+  <summary>Click to expand <a href="./nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+</details>
+
+
+### Travel
+
+Here is a nightTab setup to quickly access travel-related bookmarks.
+
+<details>
+  <summary>Click to expand <a href="./nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+</details>
 
 
 ## References
