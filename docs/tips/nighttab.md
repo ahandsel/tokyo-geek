@@ -8,72 +8,47 @@ description: Tailor your browser's new tab page with nightTab extension.
 
 *Customizable new tab replacement extension for Chrome*
 
-[zombieFox/nightTab](https://github.com/zombieFox/nightTab) is a highly customizable new tab replacement extension for Chrome, Firefox, and Edge.  
-It is an easy way to personalized the browser without browser lock-in.
+[zombieFox/nightTab](https://github.com/zombieFox/nightTab) is a highly customizable new tab replacement extension for your browser.
 
-This open-source extension is a nice alternative to the increasingly bloated new tab pages from Google and Microsoft.  
-I find it to be an excellent way to manage bookmarks and organize your new tab page.
+It is a nice alternative to the default new tab page, which is often cluttered with ads and suggestions.
 
 
-## Key features
+## Notable features
 
-* **Customizability**: Choose the layout, style, color, and background of your new tab page.
-* **Bookmarks**: Add and organize bookmarks with useful features like groups and open-all-at-once button.
-* **Search**: Configure the search to include your bookmarks and use a custom search engine.
-* **Privacy**: All data is stored locally - [nothing is synced to the cloud](https://github.com/zombieFox/nightTab/wiki/Respecting-your-privacy).
+* **Easy to share**: Export and share the config JSON file.
+* **Edit from VS Code**: Bulk edit bookmarks, organizational structure, and settings in a JSON file.
+* **Privacy**: [All data is stored locally](https://github.com/zombieFox/nightTab/wiki/Respecting-your-privacy).
 * **Cross-browser**: Available for Chrome, Firefox, and Edge.
 
 
-## My favorite features
-
-* **Easy to share**: Export the JSON file and share it with your friends or coworkers.
-* **Edit from VS Code**: Bulk edit bookmarks, organizational structure, and settings in a JSON file.
-* **Data stays local**: Ideal for work Google accounts that you do not want to sync bookmarks with.
-* **Time and date**: Display the time and date exactly how you want it.
-
-Try it out and see if it works for you!
+## Try it out and see if it works for you!
 
 |                         Live demo                         |                                                 Chrome Extension                                                  |                                   Firefox Add-On                                    |                        Support the project                        |                   Join the community                   |
 | :-------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------------: |
 | [nightTab example](https://zombiefox.github.io/nightTab/) | [Install nightTab Extension](https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki) | [Install nightTab Add-On](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/) | [Buy zombieFox a coffee](https://www.buymeacoffee.com/zombieFox/) | [Reddit community](https://www.reddit.com/r/nighttab/) |
 
 
-## My setup
+## Suggested setup
 
-* GitHub repository to keep track of my configuration files including nightTab and [Brewfile](https://homebrew-file.readthedocs.io/en/latest/usage.html#brewfile).
-* Different nightTab instances for work and personal use.
-I have a GitHub repository of my nightTab configuration files that I use to back up my settings. It allows me to easily create different instances for different uses.
+* Create a GitHub repo to keep track of your nightTab's configuration JSON file(s) (also [Brewfile](https://homebrew-file.readthedocs.io/en/latest/usage.html#brewfile)).
+* Install the nightTab extension.
+* Create different nightTab instances for different purposes: work, personal, banking, side projects, etc.
+* Import the JSON file into nightTab.
 
 
 ## Use cases
 
-
-### Work - Easy to share with coworkers
-
-* Create a nightTab instance for your work-related bookmarks and settings (HR rules, IT support desk, email, calendar, etc.).
-* If you want to share your nightTab setup with a coworker, you can export the JSON file and send it to them.
-* They can import the JSON file into their nightTab instance, and they can either import just the bookmarks or the entire setup (including layout settings).
-* You can easily edit the JSON file to add/remove bookmarks or change URLs.
-
-
-### Personal - Freely switch browsers
-
-* Create a nightTab instance for your personal bookmarks and settings (news, social media, etc.).
-* Just export and import the JSON file to share your nightTab setup across devices.
-* Do not need to sign in to a Google or Microsoft account to sync bookmarks.
-* You can easily change browsers without losing your bookmarks.
-For personal use, nightTab can help you organize your favorite websites, news sources, and frequently visited pages into groups. This organization makes it easier to navigate your interests and hobbies.
+* Work - easily share bookmarks with coworkers
+  * Share links to HR rules, IT support desk, PTO form, client portal, etc. easily to the new coworker.
+* Personal - freely switch browsers
+  * Easily switch between Chrome, Firefox, and Edge without losing bookmarks.
+  * Search through all bookmarks to find the ones you need quickly.
+* Students - bulk edit bookmarks
+  * Easily bulk edit bookmarks in the JSON file to match the URLs to the new classes or projects.
+  * Move bookmark groups easily based on your current classes or projects.
 
 
-### Students - Bulk edit bookmarks
-
-* Create a nightTab instance for your school-related bookmarks and settings (school website, online resources, etc.).
-* Easily bulk edit bookmarks in the JSON file to match the URLs to the new classes or projects.
-* Move bookmark groups easily based on your current classes or projects.
-* Search through all bookmarks to find the ones you need quickly.
-
-
-## Tips for using nightTab:
+## Tips for using nightTab
 
 Use the `Add unique accent to each Bookmark` option to easily set the color of each bookmark.
 * Theme -> Bookmark -> Bottom -> `Add unique accent to each Bookmark`
