@@ -1,10 +1,12 @@
 ---
-title: nightTab - new tab setup
-description: Customizable your browser's new tab page with nightTab extension.
+title: nightTab - Custom new tab setup
+description: Tailor your browser's new tab page with nightTab extension.
 ---
 
 
-# {{ $frontmatter.title }} - Customizable new tab replacement extension for Chrome
+# {{ $frontmatter.title }}
+
+*Customizable new tab replacement extension for Chrome*
 
 [zombieFox/nightTab](https://github.com/zombieFox/nightTab) is a highly customizable new tab replacement extension for Chrome, Firefox, and Edge.  
 It is an easy way to personalized the browser without browser lock-in.
