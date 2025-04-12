@@ -3,6 +3,8 @@ title: Figma's Config conference tips
 description: Tips and suggestions when attending Figma's Config conference.
 ---
 
+# {{ $frontmatter.title }}
+
 Here are my quick notes after attending the [Config 2024](https://youtube.com/playlist?list=PLXDU_eVOJTx402DljIPagaDKLibF-qfF0&feature=shared) conference.
 
 [[toc]]

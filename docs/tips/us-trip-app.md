@@ -1,4 +1,9 @@
-# Apps to download before your US trip
+---
+title: Apps for the US Trip
+description: List of apps to download before your trip to the US.
+---
+
+# {{ $frontmatter.title }}
 
 Here are iOS apps that I recommend downloading for your trip to the United States.  
 For Japan-specific apps, see [Apps for Japan](../guides/apps.md)

@@ -3,6 +3,8 @@ title: Japanese shows & movies
 description: List of shows and movies with Japanese vibes.
 ---
 
+# {{ $frontmatter.title }}
+
 Just a list of Japanese shows and movies that I have watched and enjoyed. Hopefully, you will too.
 
 

@@ -3,6 +3,8 @@ title: AI Prompt - Japanese writing
 description: ChatGPT prompts for translating, editing, and writing Japanese text.
 ---
 
+# {{ $frontmatter.title }}
+
 Here are ChatGPT prompts that I use for Japanese related tasks.
 
 
