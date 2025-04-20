@@ -1,82 +1,99 @@
-# Yakushima Travel Guide
+---
+title: Yakushima guide
+description: Yakushima is a lush, subtropical island located off the southern coast of Kyushu, Japan. Covered in ancient cedar forests, Yakushima is a UNESCO World Heritage site and is known for its stunning natural beauty, diverse ecosystems, and unique wildlife.
+tags:
+  - yakushima
+  - travel
+  - japan
+  - hiking
+  - nature
+---
+
+# {{ $frontmatter.title }}
+
+![Photo of Green slopes of Yakushima by Marek Piwnicki](https://images.unsplash.com/flagged/photo-1579554712569-f5552b2a41da?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+* Photo of Green slopes of Yakushima by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki) on [Unsplash](https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs)
+
 
 Yakushima (`屋久島`) is a lush, subtropical island located off the southern coast of Kyushu, Japan.
 
-Covered in ancient cedar forests, Yakushima is a UNESCO World Heritage site and is known for its stunning natural beauty, diverse ecosystems, and unique wildlife.
+Covered in ancient cedar forests, Yakushima is a UNESCO World Heritage Site and is known for its stunning natural beauty, diverse ecosystems, and unique wildlife.
 
-It is also the inspiration for the setting of Studio Ghibli's animated film "Princess Mononoke." Hikers exploring the island will come across ancient trees, moss-covered forests, and breathtaking views.
+It is also the inspiration for the setting of Studio Ghibli's animated film "Princess Mononoke." Hikers exploring the island will encounter ancient trees, moss-covered forests, and breathtaking views.
 
-## Tips for Visiting Yakushima
 
-* It rains a lot on Yakushima, so good rain gear is highly recommended.
-* Car rental is a must for getting around the island efficiently.
-* Hiking is amazing, but hiking poles and a tour guide are highly recommended for a safe and enjoyable experience.
+## Tips for visiting Yakushima
 
-## Key Locations to Check Out
+* It rains frequently on Yakushima, so quality rain gear is highly recommended.
+* Renting a car is essential for efficiently traveling around the island.
+* Hiking is excellent, but using hiking poles and hiring a tour guide are highly recommended for a safe and enjoyable experience.
+
+
+## Key locations to check out
 
 
 ### Cafes and restaurants
 
 * [Katagirisan](https://maps.app.goo.gl/fQiZwDPrqSGUiPhLA)
   * Japanese: `かたぎりさん`
-  * Our favorite restaurant in Yakushima! Highly recommend their Yakushima Deluxe Two-Tier Bento for ¥2,700! It was so good, we ordered it twice! The bento includes a variety of local seafood, vegetables, and rice.
-* [【ne-】 Plant-based Cafe & Act](https://maps.app.goo.gl/XToBR9pJqYpHR6RNA?g_st=in)
-  * A plant-based cafe located in the forests of Yakushima. Enjoy natural and human-friendly meals, snacks, and Sustainable Actions. People and nature both come together and go around.
+  * Highly recommended restaurant in Yakushima. Their Yakushima Deluxe Two-Tier Bento for ¥2,700 is particularly good and includes a variety of local seafood, vegetables, and rice.
+* [ne- Plant-based Cafe & Act](https://maps.app.goo.gl/XToBR9pJqYpHR6RNA?g_st=in)
+  * A plant-based cafe located in the forests of Yakushima, offering natural meals, snacks, and sustainable activities. A place where people and nature connect.
 
 
-### Bento for hike's lunch
+### Bento for hiking lunch
 
 * [Asahi Bento](https://maps.app.goo.gl/zmpv4UCkuuhqPGYg6?g_st=in)
   * Japanese: `あさひ弁当`
-  * Pickup great bento before your hike. Call ahead to order and pick up your bento. They offer a variety of delicious options, including vegetarian and vegan choices.
+  * Offers great bento options for hikes. Call ahead to order and pick up your meal. Vegetarian and vegan choices are available.
   * Phone: `0997464007`
 
 
 ### Indoor activities
 
-* [Yakushima World Heritage Conservation Center - Google Maps](https://maps.app.goo.gl/P1JLDYYC2kFBQFHa9)
+* [Yakushima World Heritage Conservation Center](https://maps.app.goo.gl/P1JLDYYC2kFBQFHa9)
   * Japanese: `屋久島世界遺産センター`
-  * Nice museum of the island's natural and cultural heritage. A great place to learn about Yakushima's history and ecology. The wooden floor and chain saw display are impressive.
+  * Museum dedicated to the island's natural and cultural heritage. Great for learning about Yakushima's history and ecology. Notable for its wooden floor and chainsaw display.
 * [Jomon no Yado Manten](https://maps.app.goo.gl/RcGRVikFdK5vHYCk8?g_st=in)
   * Japanese: `縄文の宿まんてん`
-  * Hotel with day use onsen right across from the Yakushima airport. Great place to enjoy onsen before your flight. The rotenburo (outdoor bath) is a highlight!
-  * Day use onsen:
+  * Hotel featuring a day-use onsen opposite Yakushima Airport. The rotenburo (outdoor bath) is a highlight.
+  * Day-use onsen:
     * Hours: 15:00 - 22:00
     * Price: 1,600 yen per person
-    * Includes towel set
+    * Towel set included
 
 
 ### Outdoor activities
 
 * [Shiratani Unsui Gorge](https://maps.app.goo.gl/k9pWsCxSdryeX31N6?g_st=in)
   * Japanese: `白谷雲水峡`
-  * Shiratani Unsuikyo is a lush, moss-covered forest that inspired the setting for Studio Ghibli's "Princess Mononoke." A must-visit for nature lovers and hikers.
-* [World Heritage Listed Coastal Road with Wildlife](https://maps.app.goo.gl/EswnXbsKE7MmKuLM9?g_st=in)
+  * Shiratani Unsuikyo is a lush, moss-covered forest, famously inspiring Studio Ghibli's "Princess Mononoke." A must-visit for nature enthusiasts and hikers.
+* [World Heritage-listed Coastal Road with Wildlife](https://maps.app.goo.gl/EswnXbsKE7MmKuLM9?g_st=in)
   * Japanese: `西部林道`
-  * The Seibu Rindo Forest Path is a scenic drive through Yakushima's western forests. It offers stunning views and opportunities to see wildlife.
+  * The Seibu Rindo Forest Path offers scenic driving through Yakushima's western forests, featuring stunning views and wildlife sightings.
 
 
 #### Jomon Sugi hike
 
-* [Jōmon Sugi](https://maps.app.goo.gl/RwBr2ne4m7zWrc7f9?g_st=in)
+* [Jomon Sugi](https://maps.app.goo.gl/RwBr2ne4m7zWrc7f9?g_st=in)
   * Japanese: `縄文杉`
-  * Jomon Sugi is an ancient cedar tree estimated to be over 7,000 years old. It is one of the oldest and most famous trees in Japan.
+  * Jomon Sugi is an ancient cedar tree estimated to be over 7,000 years old. It is one of Japan's oldest and most famous trees.
 * [Bus to Arakawa Trailhead](https://maps.app.goo.gl/z5mzMdYGWmo5y4TH6?g_st=in)
   * Japanese: `荒川登山バス停留所`
-  * The Arakawa Tozan Bus Stop is the starting point for the hike to Jomon Sugi. It is accessible by bus from Yakushima's main towns.
+  * Starting point for the hike to Jomon Sugi, accessible by bus from Yakushima's main towns.
 
 
-#### Grocery stores
+### Grocery stores
 
-* [Shopping Center Ban Chan - Google Maps](https://maps.app.goo.gl/fmXcu2tSJxhMweaC6)
-  * Japanese: `Aコープ安房店（ショッピングセンターばんちゃん）
-  * A local grocery store where you can find a variety of food and supplies. It's a great place to stock up on snacks and drinks for your hikes.`
+* [Shopping Center Ban Chan](https://maps.app.goo.gl/fmXcu2tSJxhMweaC6)
+  * Japanese: `Aコープ安房店（ショッピングセンターばんちゃん）`
+  * Local grocery store with a variety of foods and supplies, ideal for stocking up on snacks and drinks for hikes.
 
 
 ## References
 
 * [Yakushima Travel Guide - What to do on Yakushima Island](https://www.japan-guide.com/e/e4650.html)
-* [YES YAKUSHIMA - Yakushima Tours & FREE Booking Service](https://yesyakushima.com/)
+* [YES YAKUSHIMA - Yakushima Tours & Free Booking Service](https://yesyakushima.com/)
 * [屋久島貸切エコツアー好奇心やくしま | 屋久島公認ガイド | 屋久島町](https://www.koukishin8940.com/)
 
 
@@ -92,7 +109,7 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 * Arrive: Yakushima Airport (KUM)
 
 
-### Car Rental Pickup
+### Car rental pickup
 
 * Location: Yakushima Airport
 * Company: Times Car Rental
@@ -100,45 +117,48 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 * [Times Car Rental Website](https://rental.timescar.jp/kagoshima/shop/4611/?layout=0&btn=0)
 
 
-### Hotel Check-in
+### Hotel check-in
 
 * Location: Yakushima Cottage, Forest Fairy
 * Google Maps: [Yakushima Cottage, Forest Fairy](https://maps.app.goo.gl/dBqmDxxg4t6gMzvh7)
 * [Booking.com](https://www.booking.com/Share-CpEumG)
 
 
-### Day 1 - Shiratani Unsuikyo Mossy Forest
+### Day 1 - Shiratani Unsuikyo mossy forest
 
-* 07:30 - Leave the hotel
+* 07:30 - Leave hotel
 * 08:30 - Start hiking
-* 11:30 - Return to the trailhead
+* 11:30 - Return to trailhead
 * 12:00 - Lunch at Katagirisan
 * 14:00 - Visit Yakushima World Heritage Conservation Center
-* 15:00 - {Task} Order bento from Asahi Bento
+* 15:00 - Order bento from Asahi Bento
 
 * Shiratani Unsuikyo Mossy Forest
   * `白谷雲水峡苔むす森`
   * Relaxed 3-hour tour
-  * 3.6 km round trip hiking
+  * 3.6 km round-trip hike
   * Path transitions from a well-maintained walkway to an old mountain trail dating back to the Edo period.
 * [苔むす森ツアー | 好奇心やくしま](https://www.koukishin8940.com/%E8%8B%94%E3%82%80%E3%81%99%E6%A3%AE%E3%83%84%E3%82%A2%E3%83%BC)
 * [Instagram @koukishinyakushima](https://www.instagram.com/koukishinyakushima)
 
 
-### Day 2 -
+### Day 2
 
-* [Hirauchi Kaichu Onsen - Google Maps](https://maps.app.goo.gl/SqV8bqnJsANCxD2N8)
+* [Hirauchi Kaichu Onsen](https://maps.app.goo.gl/SqV8bqnJsANCxD2N8)
   * `平内海中温泉`
-  * Natural hot sulfur springs in a rock pool overlooking the ocean, accessible around low tide.
+  * Natural hot sulfur springs in rock pools overlooking the ocean, accessible at low tide.
 
 
-### Day 3 - Jomon Sugi Hike
+### Day 3 - Jomon Sugi hike
 
 > [!CAUTION]
-> Toilets beyond the Arakawa Trailhead are out of service. Please prepare a portable toilet.
+> Toilets beyond the Arakawa Trailhead are unavailable. Bring a portable toilet for the hike.
 
 * 04:10 - Guide picks us up at the hotel
-* Hotel to Yakusugi museum 屋久杉自然館 and take a bus
+* 04:20 - Pick up bento from Asahi Bento
+* 04:35 - Park by the Yakusugi Museum
+* 05:00 - Bus to Arakawa Trailhead
+* Transfer from hotel to Yakusugi Museum and bus to Arakawa Trailhead
 
 
 #### [Outbound] Arakawa trailhead in front of Yakusugi Nature Hall
