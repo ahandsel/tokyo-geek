@@ -106,14 +106,14 @@ const vitePressSidebarOptions = [
     scanStartPath: "guides",
     basePath: "/guides/",
     resolvePath: "/guides/",
-    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     includeDotFiles: true,
   },
   {
     documentRootPath: "docs",
     scanStartPath: "local",
     resolvePath: "/local/",
-    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     includeDotFiles: true,
   },
   {
