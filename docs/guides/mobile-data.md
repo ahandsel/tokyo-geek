@@ -105,7 +105,7 @@ Who should use the **carrier** method?
 
 eSIM providers (ranked by recommendation):
 1. [Nomad](https://www.getnomad.app/japan-eSIM)
-    * 25% off using `KEIT63JY` referral code.
+    * 25% off using `KEITLQPQFA` referral code - [help doc](https://www.getnomad.app/help-center/articles/9886364)
 2. [Airalo](https://www.airalo.com/japan-eSIM)
     * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m).
 
