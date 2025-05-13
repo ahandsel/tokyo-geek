@@ -100,6 +100,7 @@ Specific bags used:
 * Attach **AirTags** to every bag and important item.
 * Bring an extra AirTag for your Airbnb keys.
 * **Battery life is crucial** - bring an extra-large power bank.
+* **Lightweight power adapter** - the [Sanwa Supply TR-AD4W Overseas Power Conversion Adapter](https://www.amazon.co.jp/dp/B075CXDNW2) worked well for us.
 
 
 ## Final tips
