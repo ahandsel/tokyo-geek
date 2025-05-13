@@ -1,7 +1,13 @@
-# Europe travel tips
+---
+title: Europe travel tips
+description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
+tags: [travel, europe, tips]
+---
 
-Hopefully, they will help you too!
+# {{ $frontmatter.title }}
+
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable.  
+Hopefully, they will help you too!
 
 [[toc]]
 
