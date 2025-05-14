@@ -73,12 +73,11 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 
 ### Louvre Museum day
 
-1. [Louvre Museum](https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7)  
-   * 5/7 at 11 am \- tickets booked ✅
-2. [Palais-Royal](https://maps.app.goo.gl/dtxvXoVyYAEpz1Ky7)  
-3. [Tuileries Garden](https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9)  
-4. [Le Marais](https://maps.app.goo.gl/V5MBWjkdpbFsBpfG6) (Jewish Quarter)  
-5. [Carette](https://maps.app.goo.gl/3RkvUJ1NCwTbLce79) (Cafe)
+* [Louvre Museum](https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7)  
+* [Palais-Royal](https://maps.app.goo.gl/dtxvXoVyYAEpz1Ky7)  
+* [Tuileries Garden](https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9)  
+* [Le Marais](https://maps.app.goo.gl/V5MBWjkdpbFsBpfG6) (Jewish Quarter)  
+* [Carette](https://maps.app.goo.gl/3RkvUJ1NCwTbLce79) (Cafe)
 
 Nearby:
 
@@ -95,18 +94,15 @@ Nearby:
 * [Place de la Concorde](https://maps.app.goo.gl/L1gqp6iLQKo5GQYm7) (Past execution site)
 
 
-### Seine river cruise day (w/ underground portion)
+### River day
 
-1. Cruise  
-   * Book after arrival.  
-   * Option 1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal](https://www.pariscanal.com/en/cruises-canals-paris/cruise-paris-seine-waterways-2/)  
-     * Includes River Seine as far as Musée d'Orsay  
-   * Option 2: [wcanauxrama.com](https://www.canauxrama.com)  
-     * Cruise ends at Bassin de l'Arsenal
+Seine river cruise with underground portion
+* Option 1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal](https://www.pariscanal.com/en/cruises-canals-paris/cruise-paris-seine-waterways-2/)  
+  * Includes River Seine as far as Musée d'Orsay  
+* Option 2: [wcanauxrama.com](https://www.canauxrama.com)  
+  * Cruise ends at Bassin de l'Arsenal
 
-Others:
-
-* Walk along Seine river  
+Walk along Seine river and visit:
 * [Coulée Verte René-Dumont](https://maps.app.goo.gl/pHuuHQ9mB4njpFMg8) Park  
   * Nearby: [Crêperie Le Goéland d'Aligre](https://maps.app.goo.gl/jSrJjL62a9zr45mbA)  
 * [Montmartre](https://maps.app.goo.gl/SDmt45HzKGVUV94C7) (Beautiful neighborhood)  
@@ -124,12 +120,11 @@ To eat:
 * Jambon beurre (ham, cheese, butter sandwich)
 
 
-### To Buy:
+### Shopping in Paris
 
-* Before return \- Souvenir  
-  * [La Grande Épicerie de Paris](https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A)  
+* Souvenir: [La Grande Épicerie de Paris](https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A)
   * Small chocolate  
-  * Kakinuma, Misa, Miyu, Raissa, Kenny, Aika, company
+  * Tea  
 
 ---
 
@@ -139,25 +134,24 @@ To eat:
 
 ### Keukenhof day
 
-1. [Keukenhof](https://maps.app.goo.gl/JfqiAub4h9g3JHbz9) (Botanic garden with many tulips)
+* [Keukenhof](https://maps.app.goo.gl/JfqiAub4h9g3JHbz9) (Botanic garden with many tulips)
 
 
 ### Downtown day
 
 [Google Maps list](https://maps.app.goo.gl/FqWctk8Pa7N1gXgHA?g_st=i)
 
-1. [Houseboat Museum](https://maps.app.goo.gl/okfGvKv7fWttdj6i9) (Very small)  
-2. [Albert Cuyp Market](https://maps.app.goo.gl/gYTEji1tmBXR4SuY6)  
-   * Mon-Sat, 9:30-17:00  
-3. [De Wallen](https://maps.app.goo.gl/fEX4AP1MJSGLBYPH6) (Red light district)  
-4. [The Dancing Houses](https://maps.app.goo.gl/bFv6pSFNj9BbfCCw6)  
-5. [Dam Square](https://maps.app.goo.gl/Ao2iNL1AhTrURfHv5)  
-6. [Jordaan](https://maps.app.goo.gl/Sw1MLcJnsuvQoV5e9) (Cute neighborhood)  
-   * [The Nine Streets](https://maps.app.goo.gl/tKUoM95pCMRJerkf7)  
-7. [Skinny Bridge](https://maps.app.goo.gl/d4FjzW2KjU8YRRzD8)  
-8. [OBA Library](https://maps.app.goo.gl/GKxB8qdahcQjCU9j7) (For rooftop view)  
-9. [Begijnhof](https://maps.app.goo.gl/65JfrgDYdqG9WijL6) (Historical courtyard)  
-10. [De Pijp](https://maps.app.goo.gl/L2WuNNkjRyYBTbJEA) (Bohemian zone)
+* [Houseboat Museum](https://maps.app.goo.gl/okfGvKv7fWttdj6i9) (Very small)  
+* [Albert Cuyp Market](https://maps.app.goo.gl/gYTEji1tmBXR4SuY6) (Mon-Sat, 9:30-17:00)  
+* [De Wallen](https://maps.app.goo.gl/fEX4AP1MJSGLBYPH6) (Red light district)  
+* [The Dancing Houses](https://maps.app.goo.gl/bFv6pSFNj9BbfCCw6)  
+* [Dam Square](https://maps.app.goo.gl/Ao2iNL1AhTrURfHv5)  
+* [Jordaan](https://maps.app.goo.gl/Sw1MLcJnsuvQoV5e9) (Cute neighborhood)  
+  * [The Nine Streets](https://maps.app.goo.gl/tKUoM95pCMRJerkf7)  
+* [Skinny Bridge](https://maps.app.goo.gl/d4FjzW2KjU8YRRzD8)  
+* [OBA Library](https://maps.app.goo.gl/GKxB8qdahcQjCU9j7) (For rooftop view)  
+* [Begijnhof](https://maps.app.goo.gl/65JfrgDYdqG9WijL6) (Historical courtyard)  
+* [De Pijp](https://maps.app.goo.gl/L2WuNNkjRyYBTbJEA) (Bohemian zone)
 
 To do:
 
@@ -207,7 +201,6 @@ To eat:
 * [Chocolaterie Luc Van Hoorebeke](https://maps.app.goo.gl/16Jm872dJiFTefTeA)
 
 To eat:
-
 * Chocolate  
 * Fries  
   * Maison Antoine  
