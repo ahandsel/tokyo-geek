@@ -1,4 +1,10 @@
-# Paris, Amsterdam, Brussels trip
+---
+title: Paris, Amsterdam, Brussels trip
+description: Notes for my trip to Paris, Amsterdam, and Brussels.
+tags: [travel, europe]
+---
+
+# {{$frontmatter.title}}
 
 Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 
