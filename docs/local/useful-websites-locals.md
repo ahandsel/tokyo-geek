@@ -1,4 +1,11 @@
-# Useful Japanese websites
+---
+title: Useful Websites for Locals
+description: Useful websites for living and traveling in Japan.
+order: 3
+tags: [local, website]
+---
+
+# {{ $frontmatter.title }}
 
 Here are useful websites for living and traveling in Japan.
 
