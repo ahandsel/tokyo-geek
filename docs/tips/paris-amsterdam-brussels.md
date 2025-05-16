@@ -67,8 +67,7 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 
 ### Louvre Museum day
 
-1. [Louvre Museum](https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7)  
-   * 5/7 at 11 am \- tickets booked ✅
+1. [Louvre Museum](https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7)
 2. [Palais-Royal](https://maps.app.goo.gl/dtxvXoVyYAEpz1Ky7)  
 3. [Tuileries Garden](https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9)  
 4. [Le Marais](https://maps.app.goo.gl/V5MBWjkdpbFsBpfG6) (Jewish Quarter)  
@@ -121,9 +120,7 @@ To eat:
 ### To Buy:
 
 * Before return \- Souvenir  
-  * [La Grande Épicerie de Paris](https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A)  
-  * Small chocolate  
-  * Kakinuma, Misa, Miyu, Raissa, Kenny, Aika, company
+  * [La Grande Épicerie de Paris](https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A)
 
 ---
 
