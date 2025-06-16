@@ -1,7 +1,8 @@
 /**
  * Inserts content from a source Google Doc into a target Google Doc after a specified phrase.
  * Versions:
- * + 1.0.4 (2025-03-13): Addressed teh list format issue
+ * + 1.0.4 (2025-03-14): Fixed empty separator handling; no additional line breaks for empty separators.
+ * + 1.0.3 (2025-03-13): Fixed bullet list issue; improved list item handling.
  * + 1.0.2 (2025-03-13): Polished code; added more element-specific handling.
  *
  * @param {string} srcDocId - Source Google Doc's ID.
@@ -31,9 +32,11 @@ function insertDocContentAfterPhrase() {
 
   let insertIndex = targetIndex + 1;
 
-  // Insert a separator for clarity
-  targetBody.insertParagraph(insertIndex, separator);
-  insertIndex++;
+  // Insert a separator for clarity only if it's non-empty
+  if (separator.trim()) {
+    targetBody.insertParagraph(insertIndex, separator);
+    insertIndex++;
+  }
 
   // Build an array of source elements using Array.from.
   const srcElements = Array.from({ length: srcDoc.getNumChildren() }, (_, j) =>
