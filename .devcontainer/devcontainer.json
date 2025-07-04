@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "npm ci && npm run docs:build",
+    "test": "cat package.json | grep test"
+  }
+}
