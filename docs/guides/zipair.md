@@ -20,7 +20,7 @@ Here are some quick tips for using the ZIPAIR airline.
 1. **Do not select a package** - All packages require you to choose standard seats.
 2. Ideally, select **extra legroom seats in the front section** - A small wall provides privacy and small storage pockets.
 3. Look for **extra legroom seats in the center aisle** (not an emergency exit row).
-4. If you pick a side aisle, **avoid the window seat** - The wall curves inward, reducing headspace.
+4. If you pick a side aisle, **avoid the window seat** - The wall curves inward, reducing head space.
 5. The **window seat provides a pocket** large enough for an iPad.
 
 
