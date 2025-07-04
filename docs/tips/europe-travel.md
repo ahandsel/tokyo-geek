@@ -4,7 +4,7 @@ description: Tips for traveling in Europe, including packing, Eurostar travel, m
 tags: [travel, europe, tips]
 ---
 
-# {{ $frontmatter.title }}
+# Europe travel tips
 
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable.  
 Hopefully, they will help you too!

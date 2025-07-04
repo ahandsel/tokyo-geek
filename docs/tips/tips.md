@@ -3,7 +3,7 @@ title: Tips
 description: List of tips and miscellaneous notes.
 ---
 
-# {{ $frontmatter.title }} Index
+# Tips Index
 
 Here is a list of tips and miscellaneous notes:
 

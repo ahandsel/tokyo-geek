@@ -4,7 +4,7 @@ description: Our travel tips for a 20-hour layover in Beijing International Airp
 tags: [travel, china, tips]
 ---
 
-# {{ $frontmatter.title }}
+# Tips for a long layover in Beijing
 
 Here are my notes after doing a 20-hour layover in Beijing International Airport. I hope they will help you too!
 

@@ -5,7 +5,7 @@ date: "2025-05-14"
 tags: [tips, figma, ux-writing]
 ---
 
-# {{ $frontmatter.title }}
+# Figma plugins for UX writers
 
 While Figma is not the ideal tool for writing, it is now the industry standard for design.  
 Here are some Figma plugins that I find useful as a UX writer.
