@@ -97,7 +97,7 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 
 Tourists can use AliPay and WeChat Pay in China:
 * Register accounts in advance and verify your identity using your passport.
-* Payments are made via QR code, linked to your foreign credit cards (Wise credit card worked seamlessly for us).
+* Payments are made via QR code, linked to your foreign credit cards ([Wise](https://wise.com/invite/ihpc/genjif1) credit card worked seamlessly for us).
 * Both AliPay and WeChat Pay accept the same phone number
 * Not required if you completed the identity verification process in advance but it is recommended to use a phone number that has Wi-Fi Calling enabled to receive SMS verification codes while in China.
 
