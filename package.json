@@ -17,6 +17,6 @@
     "@vite-pwa/vitepress": "^1.0.0",
     "vite-plugin-pwa": "^1.0.0",
     "vitepress": "^1.6.3",
-    "vitepress-sidebar": "^1.31.1"
+    "vitepress-sidebar": "^1.32.1"
   }
 }
