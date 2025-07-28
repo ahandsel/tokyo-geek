@@ -14,3 +14,5 @@ Here is a list of tips and miscellaneous notes:
 * [Japanese shows & movies](./japanese-shows.md)
 * [nightTab - Custom new tab setup](./nighttab.md)
 * [Apps for the US Trip](./us-trip-app.md)
+* [Paris, Amsterdam, Brussels trip](./paris-amsterdam-brussels.md)
+* [Europe travel tips](./europe-travel.md)
