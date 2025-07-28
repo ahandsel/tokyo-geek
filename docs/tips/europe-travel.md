@@ -1,6 +1,6 @@
 ---
 title: Europe travel tips
-description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
+description: Tips for traveling in Europe, including packing, EuroStar travel, mobile data, currency, and hygiene.
 tags: [travel, europe, tips]
 ---
 
@@ -9,27 +9,41 @@ tags: [travel, europe, tips]
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable.  
 Hopefully, they will help you too!
 
-[[toc]]
+
+## Table of contents <!-- omit in toc -->
+
+* [Summary](#summary)
+* [Packing and luggage tips](#packing-and-luggage-tips)
+* [EuroStar travel tips](#EuroStar-travel-tips)
+* [Mobile data and eSIM](#mobile-data-and-esim)
+* [Currency and payments](#currency-and-payments)
+* [Environment and hygiene](#environment-and-hygiene)
+* [Tech and device tips](#tech-and-device-tips)
+* [Using AI for translations](#using-ai-for-translations)
+  * [Example AI prompt for French menu translation from an image](#example-ai-prompt-for-french-menu-translation-from-an-image)
+  * [Example AI prompt to translate German text from an image](#example-ai-prompt-to-translate-german-text-from-an-image)
+  * [Example AI prompt to review a French website and provide a summary](#example-ai-prompt-to-review-a-french-website-and-provide-a-summary)
+* [Final tips](#final-tips)
 
 
 ## Summary
 
 * **Travel light** - Avoid suitcases; use backpacks and duffel bags.
 * **eSIMs are a must** - Public Wi-Fi is not common, and Nomad's Europe plan worked well.
-* **Eurostar takes time** - Expect delays and limited luggage space.
+* **EuroStar takes time** - Expect delays and limited luggage space.
 * **Urban smells are real** - Pack alcohol wipes and masks for unpleasant odors.
 * **Apple Pay is everywhere** - Nearly all shops accept credit cards; just watch for foreign transaction fees.
-* **Photocopy ID** - Keep a paper copy of your passport and ID in your daypack to avoid loss or theft.
+* **Photocopy ID** - Keep a paper copy of your passport and ID in your day-pack to avoid loss or theft.
 
 
 ## Packing and luggage tips
 
 * European cities are **not designed for suitcases** - cobblestones, narrow streets, and stairs are common.
 * Use **large backpacks instead of wheeled suitcases** - easier to carry and better suited for cobbled streets and narrow hotel staircases.
-* **Every zipper should be lockable** - Pickpocketing is common in high-traffic areas.
+* **Every zipper should be lockable** - Pick-pocketing is common in high-traffic areas.
 * For my partner and me, we packed:  
   * 2 large backpacks (one for each of us)  
-  * 1 medium-sized daypack packed inside one of the large backpacks  
+  * 1 medium-sized day-pack packed inside one of the large backpacks  
   * 1 sling or under-clothing money wallet  
   * 1 duffel bag reserved for souvenirs and extra items for the return trip
 * Pack a **foldable duffel bag** to carry souvenirs or extra items for the return trip.
@@ -40,12 +54,12 @@ Specific bags used:
 * [tomtoc 40 L travel backpack](https://www.amazon.co.jp/dp/B097QWFJRX) - Tough and durable, with a laptop compartment. Good choice for more delicate items.
 * [Foldable Boston bag 65 L](https://www.amazon.co.jp/dp/B09L43MKDS) - Cheap but durable duffel bag.
 * [Solo Tourist HT-BP41 backpack](https://www.amazon.co.jp/dp/B001LGVW9K) - A simple backpack with foldable straps that can be checked as luggage.
-* [Waterproof helmet bag](https://www.amazon.co.jp/dp/B0C858T85X) - A great daypack since it is waterproof, lightweight, has a large opening, and only 2 zippers.
+* [Waterproof helmet bag](https://www.amazon.co.jp/dp/B0C858T85X) - A great day-pack since it is waterproof, lightweight, has a large opening, and only 2 zippers.
 
 
-## Eurostar travel tips
+## EuroStar travel tips
 
-* **Expect delays** - Eurostar trains are frequently behind schedule. Do not rely on them for tight connections, nor schedule anything important immediately after.
+* **Expect delays** - EuroStar trains are frequently behind schedule. Do not rely on them for tight connections, nor schedule anything important immediately after.
 * **Overhead luggage storage** - You must lift your luggage overhead to store it, like a carry-on bag on an airline.
 * **No checked luggage service** - Everything goes in the overhead racks.
 * **Limited elevators and escalators** - Access to the train platforms can be challenging. Nearly all have at least one elevator, but they are difficult to find. Stairs are the default.
@@ -53,7 +67,7 @@ Specific bags used:
 * **Ticket prices fluctuate** - Midday departures often have the highest prices.
 * **Book in advance** - The reservation process takes time and is not always intuitive.
 * **Slow Wi-Fi** - Onboard Wi-Fi is free but very slow. eSIMs are a better option.
-* **Electric outlets next to seats** - Most seats have electric outlets, but they are not always in the best location. Bring a **light charger** for the Eurostar train or airline power outlets.
+* **Electric outlets next to seats** - Most seats have electric outlets, but they are not always in the best location. Bring a **light charger** for the EuroStar train or airline power outlets.
 
 
 ## Mobile data and eSIM
@@ -86,7 +100,7 @@ Specific bags used:
 * Bring:
   * **Detergent** (travel-size)  
   * **Alcohol wipes** - for hands and surfaces  
-  * **Face masks**, especially for Eurostar train restrooms
+  * **Face masks**, especially for EuroStar train restrooms
 
 
 ## Tech and device tips
