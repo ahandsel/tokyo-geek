@@ -1,6 +1,6 @@
 ---
 title: Europe travel tips
-description: Tips for traveling in Europe, including packing, EuroStar travel, mobile data, currency, and hygiene.
+description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
 tags: [travel, europe, tips]
 ---
 
@@ -14,7 +14,7 @@ Hopefully, they will help you too!
 
 * [Summary](#summary)
 * [Packing and luggage tips](#packing-and-luggage-tips)
-* [EuroStar travel tips](#EuroStar-travel-tips)
+* [Eurostar travel tips](#eurostar-travel-tips)
 * [Mobile data and eSIM](#mobile-data-and-esim)
 * [Currency and payments](#currency-and-payments)
 * [Environment and hygiene](#environment-and-hygiene)
@@ -30,7 +30,7 @@ Hopefully, they will help you too!
 
 * **Travel light** - Avoid suitcases; use backpacks and duffel bags.
 * **eSIMs are a must** - Public Wi-Fi is not common, and Nomad's Europe plan worked well.
-* **EuroStar takes time** - Expect delays and limited luggage space.
+* **Eurostar takes time** - Expect delays and limited luggage space.
 * **Urban smells are real** - Pack alcohol wipes and masks for unpleasant odors.
 * **Apple Pay is everywhere** - Nearly all shops accept credit cards; just watch for foreign transaction fees.
 * **Photocopy ID** - Keep a paper copy of your passport and ID in your day-pack to avoid loss or theft.
@@ -40,7 +40,7 @@ Hopefully, they will help you too!
 
 * European cities are **not designed for suitcases** - cobblestones, narrow streets, and stairs are common.
 * Use **large backpacks instead of wheeled suitcases** - easier to carry and better suited for cobbled streets and narrow hotel staircases.
-* **Every zipper should be lockable** - Pick-pocketing is common in high-traffic areas.
+* **Every zipper should be lockable** - pickpocketing is common in high-traffic areas.
 * For my partner and me, we packed:  
   * 2 large backpacks (one for each of us)  
   * 1 medium-sized day-pack packed inside one of the large backpacks  
@@ -57,9 +57,9 @@ Specific bags used:
 * [Waterproof helmet bag](https://www.amazon.co.jp/dp/B0C858T85X) - A great day-pack since it is waterproof, lightweight, has a large opening, and only 2 zippers.
 
 
-## EuroStar travel tips
+## Eurostar travel tips
 
-* **Expect delays** - EuroStar trains are frequently behind schedule. Do not rely on them for tight connections, nor schedule anything important immediately after.
+* **Expect delays** - Eurostar trains are frequently behind schedule. Do not rely on them for tight connections, and do not schedule anything important immediately after.
 * **Overhead luggage storage** - You must lift your luggage overhead to store it, like a carry-on bag on an airline.
 * **No checked luggage service** - Everything goes in the overhead racks.
 * **Limited elevators and escalators** - Access to the train platforms can be challenging. Nearly all have at least one elevator, but they are difficult to find. Stairs are the default.
@@ -67,7 +67,7 @@ Specific bags used:
 * **Ticket prices fluctuate** - Midday departures often have the highest prices.
 * **Book in advance** - The reservation process takes time and is not always intuitive.
 * **Slow Wi-Fi** - Onboard Wi-Fi is free but very slow. eSIMs are a better option.
-* **Electric outlets next to seats** - Most seats have electric outlets, but they are not always in the best location. Bring a **light charger** for the EuroStar train or airline power outlets.
+* **Electric outlets next to seats** - Most seats have electric outlets, but they are not always in the best location. Bring a **light charger** for Eurostar or airline power outlets.
 
 
 ## Mobile data and eSIM
@@ -81,7 +81,7 @@ Specific bags used:
   2. **Airalo** - [Airalo Europe eSIM](https://www.airalo.com/europe-eSIM)  
      * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m)
 * The **Nomad eSIM plan** was reliable throughout Europe.
-* Use a **VPN set to the UK** for easier website access - many sites default to local language and layout.
+* Use a **VPN set to the UK** for easier website access - many sites default to the local language and layout.
 
 
 ## Currency and payments
@@ -100,7 +100,7 @@ Specific bags used:
 * Bring:
   * **Detergent** (travel-size)  
   * **Alcohol wipes** - for hands and surfaces  
-  * **Face masks**, especially for EuroStar train restrooms
+  * **Face masks**, especially for Eurostar train restrooms
 
 
 ## Tech and device tips
@@ -114,14 +114,14 @@ Specific bags used:
 * Attach **AirTags** to every bag and important item.
 * Bring an extra AirTag for your Airbnb keys.
 * **Battery life is crucial** - bring an extra-large power bank.
-* **Lightweight power adapter** - the [Sanwa Supply TR-AD4W Overseas Power Conversion Adapter](https://www.amazon.co.jp/dp/B075CXDNW2) worked well for us.
+* **Lightweight power adapter** - the [Sanwa Supply TR-AD4W overseas power conversion adapter](https://www.amazon.co.jp/dp/B075CXDNW2) worked well for us.
 
 
 ## Using AI for translations
 
-* **Google Translate** is great for quick translations that can be down offline.
+* **Google Translate** is great for quick translations that can be done offline.  
   * Make sure to download the language packs for offline use.
-* **ChatGPT** and other AI tools can provide translation + context allowing for more helpful understanding.
+* **ChatGPT** and other AI tools can provide translation plus context, allowing for more helpful understanding.
 
 
 ### Example AI prompt for French menu translation from an image
