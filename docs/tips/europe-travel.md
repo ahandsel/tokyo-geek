@@ -89,8 +89,10 @@ Specific bags used:
 * **Credit cards are accepted nearly everywhere** - even for small purchases.
 * Watch out for **foreign transaction fees** - they add up on transit or small charges.
 * **Apple Card** worked well: instant notifications and clear currency conversions.
-* **[Revolut](https://revolut.com/referral/?referral-code=genjikw45!FEB1-24-AR-JP)** is highly recommended - set it up before your trip.
+* **[Revolut][]** is highly recommended - set it up before your trip.
 * Withdraw **about €50 in cash** in small bills (€1, €2, €5) for tipping or cash-only toilet locations.
+
+[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JUL1-25-AR-JP
 
 
 ## Environment and hygiene
