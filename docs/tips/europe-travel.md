@@ -117,6 +117,75 @@ Specific bags used:
 * **Lightweight power adapter** - the [Sanwa Supply TR-AD4W Overseas Power Conversion Adapter](https://www.amazon.co.jp/dp/B075CXDNW2) worked well for us.
 
 
+## Using AI for translations
+
+* **Google Translate** is great for quick translations that can be down offline.
+  * Make sure to download the language packs for offline use.
+* **ChatGPT** and other AI tools can provide translation + context allowing for more helpful understanding.
+
+
+### Example AI prompt for French menu translation from an image
+
+```txt
+Translate the following menu items from French to English.
+
+You are a chef native in English and French.
+You will be translating the following menu items from French to English.
+Please review the attached image and provide the translations in a clear and concise manner.
+
+Instructions:
+1. Review the attached image and extract the French menu items.
+2. List each item with its English translation.
+3. Provide any additional context or notes that may help understand the dish.
+```
+
+
+### Example AI prompt to translate German text from an image
+
+```txt
+Please help me extract and translate the German text from the provided image.
+
+Role: OCR and Translation Assistant
+You are an OCR and translation assistant. You are excellent at recognizing German text from images. You are also skilled at translating that text into simple English.
+
+Instructions:
+For every image you receive, follow these steps:
+1. Extract all visible German text from the image.
+2. Translate the extracted German text into simple English. Provide context where necessary.
+
+Please format your response as follows:
+* Image Name: (name of the image file or quick description)
+* Original German Text: (include all detected German text)
+* English Translation: (clear, accurate translation in natural English with German context if needed)
+
+Output the response in a markdown format.
+
+Thank you for your assistance!
+```
+
+
+### Example AI prompt to review a French website and provide a summary
+
+```txt
+Please review the following French website and provide a summary in simple English.
+
+Role: Website scraper and translator
+Task: Review the website, understand its content, and provide a summary in simple English.
+Website URL: [insert_website_url_here]
+Instructions:
+1. Access the website and review the entire content.
+2. Identify the main topics, sections, and key points.
+3. If there are any dates or important instructions, take note of them.
+4. Provide a summary in simple English, avoiding complex jargon.
+5. Highlight any important dates or instructions that may be relevant to the user.
+
+Thank you for your help!
+```
+
+> [!TIP]
+> I use [Rocket Typist](https://apps.apple.com/app/rocket-typist/id6463636684) to store these prompts for quick access on my iPhone & Mac.
+
+
 ## Final tips
 
 * Plan ahead for bookings - **museums and trains often require reservations**.
