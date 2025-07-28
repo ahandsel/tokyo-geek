@@ -1,3 +1,11 @@
+---
+title: Paris, Amsterdam, Brussels trip
+description: Notes for my trip to across the three European cities.
+date: 2023-10-01
+tags: [travel, europe, paris, amsterdam, brussels, brainstorm]
+---
+
+
 # Paris, Amsterdam, Brussels trip
 
 Here are some notes for my trip to Paris, Amsterdam, and Brussels.
