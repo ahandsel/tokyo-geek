@@ -1,4 +1,10 @@
-# Food Options in Kichijoji
+---
+title: Kichijoji Eats - Where to Eat in Kichijoji
+description: A list of lunch, dinner, and cafe options in Kichijoji, Tokyo
+tags: [kichijoji, food, restaurants, cafes]
+---
+
+# Where to Eat in Kichijoji
 
 Lunch / Dinner Options in Kichijoji
 
