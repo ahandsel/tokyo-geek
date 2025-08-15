@@ -1,4 +1,13 @@
-# Studio Ghibli Park Notes
+---
+title: Studio Ghibli Park - Nagoya
+description: A guide to visiting Studio Ghibli Park in Nagoya, including tips and transportation
+---
+
+> [!IMPORTANT]  
+> This is the Studio Ghibli PARK in Nagoya 🏭. <br> NOT the Studio Ghibli MUSEUM in Tokyo 🗼.
+
+
+# Studio Ghibli Park - Nagoya
 
 [[toc]]
 

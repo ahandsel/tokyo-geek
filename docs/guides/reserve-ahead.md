@@ -1,3 +1,8 @@
+---
+title: Places to Book Ahead for a Japan Trip
+description: Checklist of places to book ahead of your Japan trip
+---
+
 # Places to book ahead for a Japan Trip
 
 [[toc]]
