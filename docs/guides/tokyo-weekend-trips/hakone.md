@@ -3,7 +3,7 @@ title: Hakone weekend trip
 description: Notes on a weekend trip to Hakone from Tokyo
 ---
 
-# Hakone weekend trip itinerary
+# Weekend in Hakone
 
 [[toc]]
 
