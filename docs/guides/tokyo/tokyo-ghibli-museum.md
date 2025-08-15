@@ -7,7 +7,7 @@ description: A guide to booking tickets for the Ghibli Museum in Mitaka, Tokyo.
 > This is the Studio Ghibli MUSEUM in Tokyo 🗼. <br> NOT the Studio Ghibli PARK in Nagoya 🏭.
 
 
-# Studio Ghibli Museum
+# Studio Ghibli Museum - Tokyo
 
 * Google Maps 📍: [maps.app.goo.gl/cPkpLwLXpjhgo27s5][museum-map]
 * Neighborhood: Mitaka, Tokyo
