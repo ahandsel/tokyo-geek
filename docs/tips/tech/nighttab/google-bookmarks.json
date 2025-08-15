@@ -77,7 +77,8 @@
         "text": { "justify": "center" },
         "size": 100,
         "newLine": false,
-        "newTab": false
+        "newTab": false,
+        "string": ""
       },
       "order": ["date", "clock", "search"],
       "edit": false
@@ -246,8 +247,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 68, "s": 100, "l": 50 },
-            "rgb": { "r": 221, "g": 255, "b": 0 }
+            "hsl": { "h": 0, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 0, "b": 0 }
           },
           "color": {
             "by": "theme",
@@ -292,8 +293,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 90, "s": 100, "l": 50 },
-            "rgb": { "r": 128, "g": 255, "b": 0 }
+            "hsl": { "h": 20, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 85, "b": 0 }
           },
           "color": {
             "by": "theme",
@@ -338,8 +339,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 113, "s": 100, "l": 50 },
-            "rgb": { "r": 30, "g": 255, "b": 0 }
+            "hsl": { "h": 40, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 170, "b": 0 }
           },
           "color": {
             "by": "theme",
@@ -380,8 +381,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 135, "s": 100, "l": 50 },
-            "rgb": { "r": 0, "g": 255, "b": 64 }
+            "hsl": { "h": 60, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 255, "b": 0 }
           },
           "color": {
             "by": "theme",
@@ -426,8 +427,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 158, "s": 100, "l": 50 },
-            "rgb": { "r": 0, "g": 255, "b": 162 }
+            "hsl": { "h": 80, "s": 100, "l": 50 },
+            "rgb": { "r": 170, "g": 255, "b": 0 }
           },
           "color": {
             "by": "theme",
@@ -445,6 +446,98 @@
           "border": 0,
           "shape": { "wide": false, "tall": false },
           "timestamp": 1744090077588
+        },
+        {
+          "url": "https://contacts.google.com/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Contacts", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "address-book",
+                "prefix": "fas",
+                "label": "Contacts"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 100, "s": 100, "l": 50 },
+            "rgb": { "r": 85, "g": 255, "b": 0 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744090077610
+        },
+        {
+          "url": "https://youtube.com/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "YouTube", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "youtube",
+                "prefix": "fab",
+                "label": "YouTube"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 120, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 255, "b": 0 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744090077608
         },
         {
           "url": "https://drive.google.com/drive/my-drive",
@@ -472,8 +565,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 180, "s": 100, "l": 50 },
-            "rgb": { "r": 0, "g": 255, "b": 255 }
+            "hsl": { "h": 140, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 255, "b": 85 }
           },
           "color": {
             "by": "theme",
@@ -493,7 +586,7 @@
           "timestamp": 1744468985787
         },
         {
-          "url": "https://gemini.google.com/",
+          "url": "https://docs.google.com/spreadsheets/u/0/",
           "display": {
             "alignment": "center-center",
             "direction": "vertical",
@@ -501,21 +594,21 @@
             "rotate": 0,
             "translate": { "x": 0, "y": 0 },
             "gutter": 25,
-            "name": { "show": true, "text": "Gemini", "size": 7 },
+            "name": { "show": true, "text": "Sheets", "size": 7 },
             "visual": {
               "show": true,
               "type": "icon",
               "size": 25,
               "letter": { "text": "" },
-              "icon": { "name": "robot", "prefix": "fas", "label": "Gemini" },
+              "icon": { "name": "table", "prefix": "fas", "label": "table" },
               "image": { "url": "" },
               "shadow": { "size": 0 }
             }
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 203, "s": 100, "l": 50 },
-            "rgb": { "r": 0, "g": 157, "b": 255 }
+            "hsl": { "h": 160, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 255, "b": 170 }
           },
           "color": {
             "by": "theme",
@@ -532,91 +625,7 @@
           },
           "border": 0,
           "shape": { "wide": false, "tall": false },
-          "timestamp": 1744090077602
-        },
-        {
-          "url": "https://meet.google.com/landing",
-          "display": {
-            "alignment": "center-center",
-            "direction": "vertical",
-            "order": "visual-name",
-            "rotate": 0,
-            "translate": { "x": 0, "y": 0 },
-            "gutter": 25,
-            "name": { "show": true, "text": "Meet", "size": 7 },
-            "visual": {
-              "show": true,
-              "type": "icon",
-              "size": 25,
-              "letter": { "text": "" },
-              "icon": { "name": "video", "prefix": "fas", "label": "Meet" },
-              "image": { "url": "" },
-              "shadow": { "size": 0 }
-            }
-          },
-          "accent": {
-            "by": "custom",
-            "hsl": { "h": 225, "s": 100, "l": 50 },
-            "rgb": { "r": 0, "g": 64, "b": 255 }
-          },
-          "color": {
-            "by": "theme",
-            "hsl": { "h": 0, "s": 0, "l": 0 },
-            "rgb": { "r": 0, "g": 0, "b": 0 },
-            "opacity": 100
-          },
-          "background": {
-            "show": false,
-            "type": "image",
-            "opacity": 100,
-            "image": { "url": "" },
-            "video": { "url": "" }
-          },
-          "border": 0,
-          "shape": { "wide": false, "tall": false },
-          "timestamp": 1744090077603
-        },
-        {
-          "url": "https://news.google.com/",
-          "display": {
-            "alignment": "center-center",
-            "direction": "vertical",
-            "order": "visual-name",
-            "rotate": 0,
-            "translate": { "x": 0, "y": 0 },
-            "gutter": 25,
-            "name": { "show": true, "text": "News", "size": 7 },
-            "visual": {
-              "show": true,
-              "type": "icon",
-              "size": 25,
-              "letter": { "text": "" },
-              "icon": { "name": "newspaper", "prefix": "fas", "label": "News" },
-              "image": { "url": "" },
-              "shadow": { "size": 0 }
-            }
-          },
-          "accent": {
-            "by": "custom",
-            "hsl": { "h": 248, "s": 100, "l": 50 },
-            "rgb": { "r": 34, "g": 0, "b": 255 }
-          },
-          "color": {
-            "by": "theme",
-            "hsl": { "h": 0, "s": 0, "l": 0 },
-            "rgb": { "r": 0, "g": 0, "b": 0 },
-            "opacity": 100
-          },
-          "background": {
-            "show": false,
-            "type": "image",
-            "opacity": 100,
-            "image": { "url": "" },
-            "video": { "url": "" }
-          },
-          "border": 0,
-          "shape": { "wide": false, "tall": false },
-          "timestamp": 1744090077604
+          "timestamp": 1749519049450
         },
         {
           "url": "https://photos.google.com/",
@@ -644,8 +653,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 270, "s": 100, "l": 50 },
-            "rgb": { "r": 127, "g": 0, "b": 255 }
+            "hsl": { "h": 180, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 255, "b": 255 }
           },
           "color": {
             "by": "theme",
@@ -663,6 +672,132 @@
           "border": 0,
           "shape": { "wide": false, "tall": false },
           "timestamp": 1744090077605
+        },
+        {
+          "url": "https://meet.google.com/landing",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Meet", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "video", "prefix": "fas", "label": "Meet" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 200, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 170, "b": 255 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744090077603
+        },
+        {
+          "url": "https://gemini.google.com/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Gemini", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "robot", "prefix": "fas", "label": "Gemini" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 220, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 85, "b": 255 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744090077602
+        },
+        {
+          "url": "https://news.google.com/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "News", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "newspaper", "prefix": "fas", "label": "News" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 240, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 0, "b": 255 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744090077604
         },
         {
           "url": "https://translate.google.com/",
@@ -690,8 +825,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 293, "s": 100, "l": 50 },
-            "rgb": { "r": 225, "g": 0, "b": 255 }
+            "hsl": { "h": 260, "s": 100, "l": 50 },
+            "rgb": { "r": 85, "g": 0, "b": 255 }
           },
           "color": {
             "by": "theme",
@@ -732,8 +867,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 315, "s": 100, "l": 50 },
-            "rgb": { "r": 255, "g": 0, "b": 191 }
+            "hsl": { "h": 280, "s": 100, "l": 50 },
+            "rgb": { "r": 170, "g": 0, "b": 255 }
           },
           "color": {
             "by": "theme",
@@ -751,52 +886,6 @@
           "border": 0,
           "shape": { "wide": false, "tall": false },
           "timestamp": 1744090077607
-        },
-        {
-          "url": "https://youtube.com/",
-          "display": {
-            "alignment": "center-center",
-            "direction": "vertical",
-            "order": "visual-name",
-            "rotate": 0,
-            "translate": { "x": 0, "y": 0 },
-            "gutter": 25,
-            "name": { "show": true, "text": "YouTube", "size": 7 },
-            "visual": {
-              "show": true,
-              "type": "icon",
-              "size": 25,
-              "letter": { "text": "" },
-              "icon": {
-                "name": "youtube",
-                "prefix": "fab",
-                "label": "YouTube"
-              },
-              "image": { "url": "" },
-              "shadow": { "size": 0 }
-            }
-          },
-          "accent": {
-            "by": "custom",
-            "hsl": { "h": 338, "s": 100, "l": 50 },
-            "rgb": { "r": 255, "g": 0, "b": 93 }
-          },
-          "color": {
-            "by": "theme",
-            "hsl": { "h": 0, "s": 0, "l": 0 },
-            "rgb": { "r": 0, "g": 0, "b": 0 },
-            "opacity": 100
-          },
-          "background": {
-            "show": false,
-            "type": "image",
-            "opacity": 100,
-            "image": { "url": "" },
-            "video": { "url": "" }
-          },
-          "border": 0,
-          "shape": { "wide": false, "tall": false },
-          "timestamp": 1744090077608
         }
       ]
     },
@@ -829,8 +918,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 288, "s": 100, "l": 50 },
-            "rgb": { "r": 204, "g": 0, "b": 255 }
+            "hsl": { "h": 300, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 0, "b": 255 }
           },
           "color": {
             "by": "theme",
@@ -871,8 +960,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 312, "s": 100, "l": 50 },
-            "rgb": { "r": 255, "g": 0, "b": 204 }
+            "hsl": { "h": 320, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 0, "b": 170 }
           },
           "color": {
             "by": "theme",
@@ -919,8 +1008,8 @@
           },
           "accent": {
             "by": "custom",
-            "hsl": { "h": 336, "s": 100, "l": 50 },
-            "rgb": { "r": 255, "g": 0, "b": 102 }
+            "hsl": { "h": 340, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 0, "b": 85 }
           },
           "color": {
             "by": "theme",
