@@ -1,3 +1,9 @@
+---
+title: How to Renew Japanese Visa Online with a Mac
+description: A step-by-step guide to renewing your Japanese visa online using a Mac.
+tags: [visa-renewal, mac, windows-vm, my-number-card, jpki]
+---
+
 # How to Renew Japanese Visa Online with a Mac
 
 This was one of the most annoying things I had to do in a while.
@@ -56,7 +62,7 @@ Windows 11 license key - not required; just use the trial version.
     * Go to `Control Panel` > `Region` or `Region and Language` > `Administrative` tab.
     * Click on `Change system locale...` and select `Japanese (Japan)`.
     * Apply the changes and restart your computer.
-    * ![windows-non-unicode-programs-settings.png](../img/windows-non-unicode-programs-settings.png)
+    * ![windows-non-unicode-programs-settings.png](../../img/windows-non-unicode-programs-settings.png)
 
 2. Change the Language and Region settings to Japanese.
     * Go to `Settings` > `Time & Language` > `Language` > `Preferred languages`.
@@ -64,7 +70,7 @@ Windows 11 license key - not required; just use the trial version.
     * Install the Japanese language pack.
     * Set it as the primary display language.
     * Apply the changes and restart your computer.
-    * ![windows-language-settings.png](../img/windows-language-settings.png)
+    * ![windows-language-settings.png](../../img/windows-language-settings.png)
 
 
 ### Install JPKI app and Java on Windows VM
@@ -78,7 +84,7 @@ Once your Windows VM is ready, you need to install the following:
 
 Make sure to run the apps as administrator and allow them to run in the background.
 * Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
-* ![windows-run-as-admin-settings.png](../img/windows-run-as-admin-settings.png)
+* ![windows-run-as-admin-settings.png](../../img/windows-run-as-admin-settings.png)
 
 
 ## Debugging
