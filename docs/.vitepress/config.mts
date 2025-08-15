@@ -37,8 +37,8 @@ const vitePressOptions = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Travel guides", link: "/guides/general/start-here" },
-      { text: "Living in Japan", link: "/local/local" },
-      { text: "Random Tips", link: "/tips/tips" },
+      { text: "Living in Japan", link: "/local/" },
+      { text: "Random Tips", link: "/tips/" },
     ],
 
     sidebar: [

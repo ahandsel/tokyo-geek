@@ -18,10 +18,10 @@ hero:
       link: /guides/start-here
     - theme: alt
       text: Living in Japan
-      link: /local/local
+      link: /local/
     - theme: alt
       text: Random tips
-      link: /tips/tips
+      link: /tips/
 
 features:
   - title: ✈️ Travel guides
@@ -29,10 +29,10 @@ features:
     link: /guides/general/start-here
   - title: 🏠 Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
-    link: /local/local
+    link: /local/
   - title: 💡 Random tips
     details: Tips and miscellaneous notes
-    link: /tips/tips
+    link: /tips/
   - title: 📲 Apps to download before you go
     details: Here are some useful iOS Apps that you can use in Japan.
     link: /guides/general/apps
