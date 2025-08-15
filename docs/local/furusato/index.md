@@ -1,6 +1,6 @@
 ---
-title: Furusato - Hometown Tax System
+title: Furusato Nozei - Hometown Tax System
 description: Information on the Furusato nozei system in Japan
 ---
 
-# Furusato - Hometown Tax System
+# Furusato Nozei - Hometown Tax System
