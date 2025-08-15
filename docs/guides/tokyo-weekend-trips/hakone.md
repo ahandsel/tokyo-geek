@@ -30,11 +30,20 @@ description: Notes on a weekend trip to Hakone from Tokyo
 
 ## Transportation
 
-* Shinjuku <-> Hakone-Yumoto via Odakyu Limited Express Romancecar
-  * **Time:** 85 min
-  * **Fare:** 2,280 JPY per person
-  * Ticket: [E-Romancecar][e-romancecar]
-  * Details: [Limited Express Romancecar - Odakyu Railway: Connecting Shinjuku, Hakone, and Enoshima][romancecar-details]
+Shinjuku <-> Hakone-Yumoto via  Odakyu Romancecar (Limited Express)
+* **Board at** Shinjuku Station → direct to Hakone-Yumoto.  
+* **Time:** 85 min
+* **Fare:** 2,470 JPY per person
+* **Ticket**: [E-Romancecar][e-romancecar]
+* **Details**: [Limited Express Romancecar - Odakyu Railway: Connecting Shinjuku, Hakone, and Enoshima][romancecar-details]
+
+Tokyo <-> Odawara via Shinkansen <-> Hakone-Yumoto via Hakone Tozan Railway
+* **Board at** Tokyo Station → ride the Tōkaidō Shinkansen (Hikari or Kodama).  
+* **Time:** 58 min
+* **Fare**: approximately ¥4,500 (one-way, adult).  
+* **Transfer at** Odawara Station → Hakone-Tozan Line to Hakone-Yumoto.  
+  * Local fare is minor.  
+* **Purchase**: JR tickets at JR ticket machines or counters at Tokyo Station; Tozan Line fare at Odawara.
 
 
 ## Discounts and passes
