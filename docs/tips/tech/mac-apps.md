@@ -16,7 +16,7 @@ Here are some of my favorite apps for Mac users. Hopefully, you find them useful
 
 ## Brewlist
 
-See my [Brewfile](../Brewfile) to install these apps using Homebrew.
+See my [Brewfile](../../Brewfile) to install these apps using Homebrew.
 
 
 ### Productivity & Utilities

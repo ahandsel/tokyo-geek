@@ -1,3 +1,8 @@
+---
+title: Useful Websites for Locals in Japan
+description: A collection of useful websites for living and traveling in Japan.
+---
+
 # Useful Japanese websites
 
 Here are useful websites for living and traveling in Japan.
@@ -6,7 +11,8 @@ Here are useful websites for living and traveling in Japan.
 > Be careful translation websites when filling out forms.  
 > Sometimes the translation tool breaks the website's functionality and forms are not submitted correctly.
 
-[toc]
+
+[[toc]]
 
 
 ## Events

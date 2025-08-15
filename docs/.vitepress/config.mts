@@ -7,11 +7,21 @@ const vitePressOptions = {
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
   head: [
-    ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#ffffff' }],
-    ['meta', { name: 'keywords', content: "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress", }],
-    ['link', { rel: 'apple-touch-icon', href: '/pwa-192x192.png', sizes: '192x192' }],
+    ["meta", { name: "theme-color", content: "#ffffff" }],
+    ["link", { rel: "icon", href: "/favicon.ico", type: "image/x-icon" }],
+    ["link", { rel: "mask-icon", href: "/favicon.ico", color: "#ffffff" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress",
+      },
+    ],
+    [
+      "link",
+      { rel: "apple-touch-icon", href: "/pwa-192x192.png", sizes: "192x192" },
+    ],
     ["link", { rel: "icon", href: "/favicon.ico" }],
   ],
   themeConfig: {
@@ -26,7 +36,7 @@ const vitePressOptions = {
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Travel guides", link: "/guides/start-here" },
+      { text: "Travel guides", link: "/guides/general/start-here" },
       { text: "Living in Japan", link: "/local/local" },
       { text: "Random Tips", link: "/tips/tips" },
     ],
@@ -35,8 +45,8 @@ const vitePressOptions = {
       {
         text: "Travel guides",
         items: [
-          { text: "Get started", link: "/guides/start-here" },
-          { text: "Book ahead", link: "/guides/reserve-ahead" },
+          { text: "Get started", link: "/guides/general/start-here" },
+          { text: "Book ahead", link: "/guides/general/reserve-ahead" },
           { text: "Tokyo", link: "/guides/tokyo-trip" },
           { text: "Kyoto", link: "/guides/kyoto-trip" },
         ],
@@ -108,7 +118,10 @@ const vitePressSidebarOptions = [
     resolvePath: "/guides/",
     useTitleFromFileHeading: true,
     includeDotFiles: true,
-    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    frontmatterOrderDefaultValue: 10,
+    sortFolderTo: 'top',
   },
   {
     documentRootPath: "docs",
@@ -116,7 +129,10 @@ const vitePressSidebarOptions = [
     resolvePath: "/local/",
     useTitleFromFileHeading: true,
     includeDotFiles: true,
-    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    frontmatterOrderDefaultValue: 10,
+    sortFolderTo: 'top',
   },
   {
     documentRootPath: "docs",
@@ -124,7 +140,10 @@ const vitePressSidebarOptions = [
     resolvePath: "/tips/",
     useTitleFromFrontmatter: true,
     includeDotFiles: true,
-    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    sortMenusByFrontmatterOrder: true,
+    frontmatterOrderDefaultValue: 10,
+    sortFolderTo: 'top',
   },
 ];
 

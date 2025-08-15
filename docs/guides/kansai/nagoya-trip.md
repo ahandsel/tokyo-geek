@@ -9,7 +9,7 @@
 | ---------- | ---------- | -------- | ---- |
 | 11,500 yen | Shinkansen | 1.65 hrs |      |
 
-For more details, please refer to [Shinkansen_Discount_Tokyo_Nagoya.md](./bullet-train-shinkansen/shinkansen-tokyo-nagoya.md).
+For more details, please refer to [Shinkansen_Discount_Tokyo_Nagoya.md](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md).
 
 
 ## Nagoya Attractions

@@ -1,4 +1,12 @@
-# Start Here - Let's get started with planning your trip to Japan
+---
+title: Start Here
+description: Let's get started with planning your trip to Japan
+order: 1
+tags: overview, guides, travel
+---
+
+
+# 💪 Start Here
 
 Congratulations on deciding to visit Japan!  
 This guide will help you get started by outlining the key things you need to know before you go.
@@ -23,7 +31,7 @@ Especially if you are planning to visit Japan during the peak season, it is reco
 
 Notable places to book ahead:
 * [Ghibli Park](./reserve-ahead.md#ghibli-park)  
-  * For more details, check out the [Studio Ghibli Park Notes](./nagoya-ghibli-park-trip.md) guide.
+  * For more details, check out the [Studio Ghibli Park Notes](../kansai/nagoya-ghibli-park-trip.md) guide.
 * [Ghibli Museum](./reserve-ahead.md#ghibli-museum)
 * [Pokémon Café](./reserve-ahead.md#pokémon-café)
 * [teamLab Planets TOKYO](./reserve-ahead.md#teamlab-planets-tokyo)
@@ -39,9 +47,9 @@ It is a convenient and efficient way to travel around Japan.
   If you are a tourist who wants the easiest way to book Shinkansen tickets, Klook is a great option.
 
 If you are a local or a long-term resident wanting discounts on Shinkansen tickets, check out the following guides:
-* [Tokyo to Nagoya Shinkansen Options](./bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
-* [Tokyo to Kyoto & Osaka Shinkansen Options](./bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
-* [Tokyo to Kanazawa Shinkansen Options](./bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
+* [Tokyo to Nagoya Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
+* [Tokyo to Kyoto & Osaka Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
+* [Tokyo to Kanazawa Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
 
 
 ## Events 🗓️
@@ -64,10 +72,10 @@ If you are a local or a long-term resident wanting discounts on Shinkansen ticke
 ## Brainstorming 🤔
 
 Here are some of my notes from past trips to give you some ideas:
-* [Chichibu](./chichibu-trip.md)
-* [Izu/Hakone](./izu-hakone-trip.md)
-* [Kyoto](./kyoto-trip.md)
-* [Kyushu](./kyushu-trip.md)
-* [Nagoya](./nagoya-trip.md)
-* [Osaka](./osaka-trip.md)
-* [Tokyo](./tokyo-trip.md)
+* [Chichibu](../tokyo-weekend-trips/chichibu-trip.md)
+* [Izu/Hakone](../tokyo-weekend-trips/izu-hakone-trip.md)
+* [Kyoto](../kansai/kyoto-trip.md)
+* [Kyushu](../kyushu-trip.md)
+* [Nagoya](../kansai/nagoya-trip.md)
+* [Osaka](../kansai/osaka-trip.md)
+* [Tokyo](../tokyo/tokyo-trip.md)

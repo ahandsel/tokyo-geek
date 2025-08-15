@@ -18,7 +18,7 @@
 ## Main Shinkansen lines
 
 Here is the map of the main Shinkansen lines in Japan:
-![Map of Japan with all the main Shinkansen lines outlined](../img/shinkansen-map.png)
+![Map of Japan with all the main Shinkansen lines outlined](../../img/shinkansen-map.png)
 
 **Hokkaido Shinkansen line**
 * Shin-Hakodate-Hokuto

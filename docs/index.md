@@ -26,7 +26,7 @@ hero:
 features:
   - title: ✈️ Travel guides
     details: Example itineraries, places to visit, and other suggestions for your trip
-    link: /guides/start-here
+    link: /guides/general/start-here
   - title: 🏠 Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
     link: /local/local
@@ -35,12 +35,12 @@ features:
     link: /tips/tips
   - title: 📲 Apps to download before you go
     details: Here are some useful iOS Apps that you can use in Japan.
-    link: /guides/apps
+    link: /guides/general/apps
   - title: 🔖 Useful Japanese Websites
     details: Quick list of Japanese websites that you might find useful
     link: local/useful-websites-locals
   - title: 🏙️ Tokyo Neighborhoods Overview
     details: Quick breakdown of neighborhoods by what they are known for
-    link: /guides/tokyo-neighborhoods
+    link: /guides/tokyo/tokyo-neighborhoods
 ---
 
