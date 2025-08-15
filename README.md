@@ -24,5 +24,5 @@ Markdown Linting
 Link Checking
 
 ```bash
-find . -name "*.md" -not -path "*/node_modules/*" -print0 | xargs -0 -n1 markdown-link-check --config .linkConfig.json > link-check-output.txt
+markdownlint-cli2 "**/*.md" "#node_modules"
 ```
