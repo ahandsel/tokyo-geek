@@ -77,7 +77,7 @@ Once your Windows VM is ready, you need to install the following:
 * [利用者クライアントソフト Edge/Chrome - Chrome ウェブストア](https://chromewebstore.google.com/detail/%E5%88%A9%E7%94%A8%E8%80%85%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BD%E3%83%95%E3%83%88-edgechrome/ddhaancdmkmeigppopkakhpbboccibla?hl=ja)
 
 Make sure to run the apps as administrator and allow them to run in the background.
-* Right-click the app’s shortcut or executable and select "Run as administrator" from the context menu
+* Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
 * ![windows-run-as-admin-settings.png](../img/windows-run-as-admin-settings.png)
 
 
