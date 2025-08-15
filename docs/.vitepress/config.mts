@@ -4,6 +4,22 @@ import { withPwa } from "@vite-pwa/vitepress";
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities/client",
+        "vitepress",
+        "@nolebase/ui",
+      ],
+    },
+    ssr: {
+      noExternal: [
+        // If there are other packages that need to be processed by Vite, you can add them here.
+        "@nolebase/vitepress-plugin-enhanced-readabilities",
+        "@nolebase/ui",
+      ],
+    },
+  },
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
   head: [
@@ -121,7 +137,7 @@ const vitePressSidebarOptions = [
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
     frontmatterOrderDefaultValue: 10,
-    sortFolderTo: 'top',
+    sortFolderTo: "top",
   },
   {
     documentRootPath: "docs",
@@ -132,7 +148,7 @@ const vitePressSidebarOptions = [
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
     frontmatterOrderDefaultValue: 10,
-    sortFolderTo: 'top',
+    sortFolderTo: "top",
   },
   {
     documentRootPath: "docs",
@@ -143,7 +159,7 @@ const vitePressSidebarOptions = [
     useFolderTitleFromIndexFile: true,
     sortMenusByFrontmatterOrder: true,
     frontmatterOrderDefaultValue: 10,
-    sortFolderTo: 'top',
+    sortFolderTo: "top",
   },
 ];
 
