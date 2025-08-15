@@ -108,6 +108,7 @@ const vitePressSidebarOptions = [
     resolvePath: "/guides/",
     useTitleFromFileHeading: true,
     includeDotFiles: true,
+    sortMenusByName: true,
   },
   {
     documentRootPath: "docs",
@@ -115,6 +116,7 @@ const vitePressSidebarOptions = [
     resolvePath: "/local/",
     useTitleFromFileHeading: true,
     includeDotFiles: true,
+    sortMenusByName: true,
   },
   {
     documentRootPath: "docs",
@@ -122,6 +124,7 @@ const vitePressSidebarOptions = [
     resolvePath: "/tips/",
     useTitleFromFrontmatter: true,
     includeDotFiles: true,
+    sortMenusByName: true,
   },
 ];
 
