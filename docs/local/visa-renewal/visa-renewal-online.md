@@ -113,6 +113,12 @@ I did not want to use a Microsoft account, so I opened the command prompt and ra
     * ![windows-language-settings.png](../../img/windows-language-settings.png)
 
 
+### Watch this video tutorial
+
+While the narration is in Chinese, this video provides exact steps to follow to correctly set up the JPKI app on a Windows for visa renewal:
+[日本在留資格オンライン申請（在留资格线上申請） - YouTube](https://www.youtube.com/watch?v=IWJOFH99NpM)
+
+
 ### Install JPKI app and Java on Windows VM
 
 Once your Windows VM is ready, you need to install the following:
@@ -125,6 +131,12 @@ Once your Windows VM is ready, you need to install the following:
 Make sure to run the apps as administrator and allow them to run in the background.
 * Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
 * ![windows-run-as-admin-settings.png](../../img/windows-run-as-admin-settings.png)
+
+
+### Online Visa Renewal
+
+Open the official website for online visa renewal in Japan.
+[Online Residence Application Procedures | Immigration Services Agency](https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en)
 
 
 ## Debugging
