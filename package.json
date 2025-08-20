@@ -14,13 +14,19 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.1",
-    "@nolebase/vitepress-plugin-meta": "^2.18.1",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
+    "@nolebase/vitepress-plugin-meta": "^2.18.2",
     "@vite-pwa/vitepress": "^1.0.0",
     "markdown-link-check": "^3.13.7",
     "markdownlint-cli2": "^0.18.1",
-    "vite-plugin-pwa": "^1.0.2",
-    "vitepress": "^2.0.0-alpha.11",
+    "vite-plugin-pwa": "^1.0.3",
+    "vitepress": "^1.6.4",
     "vitepress-sidebar": "^1.33.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "glob": "^11.0.3",
+    "gray-matter": "^4.0.3",
+    "openai": "^5.13.1"
   }
 }
