@@ -15,6 +15,21 @@ This is quick write-up of how I did it, in case it helps someone else.
 > JPKI app does not work on macOS for Visa Renewal! Windows VM is required!
 
 
+## Table of contents <!-- omit in toc -->
+
+* [Preparations](#preparations)
+  * [My Number card](#my-number-card)
+  * [Get a compatible IC Card Reader](#get-a-compatible-ic-card-reader)
+  * [Prepare Windows VM](#prepare-windows-vm)
+    * [Option 1: Install Parallels Desktop](#option-1-install-parallels-desktop)
+    * [Option 2: Install Windows 11 on UTM](#option-2-install-windows-11-on-utm)
+    * [Optional: Setup Windows without a Microsoft Account](#optional-setup-windows-without-a-microsoft-account)
+    * [Change Language and Region settings to Japanese](#change-language-and-region-settings-to-japanese)
+  * [Install JPKI app and Java on Windows VM](#install-jpki-app-and-java-on-windows-vm)
+* [Debugging](#debugging)
+* [References](#references)
+
+
 ## Preparations
 
 
@@ -120,6 +135,13 @@ Here are issues I encountered and how to fix them:
 * Make sure your My Number card is fully inserted into the IC card reader.
 * Do not use Chrome's translation feature, as it may cause issues with the website.
 * If the Parallels Desktop VM does not install properly, just create a new VM and install Windows again.
+
+
+### Broken error message when running JPKI利用者ソフト
+
+If you encounter any issues with the JPKI app, try the following:
+* ![Broken error message when running JPKI利用者ソフト](jpki-error-broken.png)
+* Follow the instructions in [Change Language and Region settings to Japanese](#change-language-and-region-settings-to-japanese) section above.
 
 
 ## References
