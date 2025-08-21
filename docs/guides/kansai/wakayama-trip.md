@@ -1,3 +1,10 @@
+---
+title: "Ideas for a Trip to Wakayama Prefecture, Japan"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Ideas for a Trip to Wakayama Prefecture, Japan
 
 Wakayama Prefecture, located in the Kansai region of Japan, offers a rich blend of cultural heritage, natural beauty, and culinary delights.

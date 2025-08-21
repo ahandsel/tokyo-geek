@@ -1,3 +1,10 @@
+---
+title: "六本木と麻布 スポット"
+layout: doc
+outline: deep
+footer: true
+---
+
 # 六本木と麻布 スポット
 
 [[toc]]

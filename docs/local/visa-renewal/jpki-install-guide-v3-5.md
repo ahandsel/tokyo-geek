@@ -1,3 +1,10 @@
+---
+title: "JPKI利用者ソフトVer3.5 インストール手順書"
+layout: doc
+outline: deep
+footer: true
+---
+
 # JPKI利用者ソフトVer3.5 インストール手順書
 
 

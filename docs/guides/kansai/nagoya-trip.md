@@ -1,3 +1,10 @@
+---
+title: "Trip to Nagoya"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Trip to Nagoya
 
 [[toc]]

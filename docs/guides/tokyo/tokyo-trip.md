@@ -1,3 +1,10 @@
+---
+title: "Tokyo Trip Ideas"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Tokyo Trip Ideas
 
 [[toc]]

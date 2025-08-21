@@ -1,3 +1,10 @@
+---
+title: "Bullet train - Shinkansen guide"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Bullet train - Shinkansen guide
 
 

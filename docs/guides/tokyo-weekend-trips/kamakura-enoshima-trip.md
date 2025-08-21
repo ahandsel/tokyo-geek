@@ -1,3 +1,10 @@
+---
+title: "Kamakura (鎌倉) & Enoshima (江の島)"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Kamakura (鎌倉) & Enoshima (江の島)
 
 [[toc]]

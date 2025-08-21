@@ -1,3 +1,10 @@
+---
+title: "Kichijoji Notes"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Kichijoji Notes
 
 

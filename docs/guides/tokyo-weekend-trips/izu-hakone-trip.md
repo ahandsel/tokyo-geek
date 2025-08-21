@@ -1,3 +1,10 @@
+---
+title: "Izu/Hakone Weekend Trip Itinerary"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Izu/Hakone Weekend Trip Itinerary
 
 [[toc]]

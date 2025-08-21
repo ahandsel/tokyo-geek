@@ -1,3 +1,10 @@
+---
+title: "Moving to Tokyo, Japan"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Moving to Tokyo, Japan
 
 [[toc]]

@@ -1,3 +1,10 @@
+---
+title: "ZIPAIR tips"
+layout: doc
+outline: deep
+footer: true
+---
+
 # ZIPAIR tips
 
 Here are some quick tips for using the ZIPAIR airline.

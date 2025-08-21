@@ -1,3 +1,10 @@
+---
+title: "Tokyo to Nagoya 🚅"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Tokyo to Nagoya 🚅
 
 Cheaper Shinkansen tickets between Tokyo and Nagoya

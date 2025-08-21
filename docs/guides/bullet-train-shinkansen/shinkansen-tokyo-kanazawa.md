@@ -1,3 +1,10 @@
+---
+title: "Tokyo to Kanazawa 🚅"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Tokyo to Kanazawa 🚅
 
 Cheaper Shinkansen tickets between Tokyo and Kanazawa

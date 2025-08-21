@@ -1,3 +1,10 @@
+---
+title: "Tokyo Neighborhoods Overview"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Tokyo Neighborhoods Overview
 
 [Google Maps Overview of Tokyo's Best Areas to Stay][tokyo-best-areas]

@@ -1,3 +1,17 @@
+---
+title: "Notes on International Shipping from and to Japan"
+description: This page provides practical guidance and tips for sending and receiving international mail and packages from Japan, including using Japan Post services.
+layout: doc
+outline: deep
+footer: true
+tags:
+  - japan-post
+  - international-shipping
+  - mail-services
+  - shipping-tips
+  - expat-life
+---
+
 # Notes on International Shipping from and to Japan
 
 [[toc]]

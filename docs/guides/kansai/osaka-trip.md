@@ -1,3 +1,10 @@
+---
+title: "Osaka Trip Notes"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Osaka Trip Notes
 
 [[toc]]

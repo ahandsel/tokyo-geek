@@ -1,3 +1,10 @@
+---
+title: "Kyoto Trip"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Kyoto Trip
 
 [[toc]]

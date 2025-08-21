@@ -1,3 +1,10 @@
+---
+title: "Mobile data in Japan"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Mobile data in Japan
 
 Quick notes on getting mobile data or cell service when traveling in Japan.

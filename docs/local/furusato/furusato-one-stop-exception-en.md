@@ -1,3 +1,10 @@
+---
+title: "Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form - Hometown Tax Website "Satoru""
+layout: doc
+outline: deep
+footer: true
+---
+
 # Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form - Hometown Tax Website "Satoru"
 
 * Hometown tax payment site: [さとふる / Satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)

@@ -1,3 +1,10 @@
+---
+title: "Roppongi and Azabu spots"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Roppongi and Azabu spots
 
 [[toc]]

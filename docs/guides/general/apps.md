@@ -1,3 +1,10 @@
+---
+title: "Apps for Japan"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Apps for Japan
 
 Here are some useful iOS Apps that you can use in Japan.

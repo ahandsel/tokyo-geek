@@ -1,3 +1,10 @@
+---
+title: "JPKI User Software Ver.3.5 Installation Guide"
+layout: doc
+outline: deep
+footer: true
+---
+
 # JPKI User Software Ver.3.5 Installation Guide
 
 This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](jpki-install-guide-v3-5.md).

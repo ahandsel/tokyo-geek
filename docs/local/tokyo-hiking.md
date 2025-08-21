@@ -1,3 +1,10 @@
+---
+title: "Hiking in Tokyo"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Hiking in Tokyo
 
 Despite being a bustling metropolis, if you take a 1 ~ 2 hour train ride from Tokyo, you can find yourself in the middle of nature.

@@ -1,3 +1,10 @@
+---
+title: "Helpful housekeeping related articles and notes"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Helpful housekeeping related articles and notes
 
 

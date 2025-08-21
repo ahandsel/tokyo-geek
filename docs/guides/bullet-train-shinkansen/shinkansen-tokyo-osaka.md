@@ -1,3 +1,10 @@
+---
+title: "Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka
 
 Platto Kodama (`ぷらっとこだま`) Regular Car; Reserved seat plan

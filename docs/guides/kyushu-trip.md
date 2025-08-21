@@ -1,3 +1,10 @@
+---
+title: "Kyushu (九州) Trip"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Kyushu (九州) Trip
 
 [[toc]]

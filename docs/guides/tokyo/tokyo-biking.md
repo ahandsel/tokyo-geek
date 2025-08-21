@@ -1,3 +1,10 @@
+---
+title: "Biking in Tokyo"
+layout: doc
+outline: deep
+footer: true
+---
+
 # Biking in Tokyo
 
 
