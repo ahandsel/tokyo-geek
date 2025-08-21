@@ -50,7 +50,7 @@ This chapter describes how to install JPKI User Software. (Example: Windows 10)
 
 You must log in as a user belonging to the Administrator group. Installation is not possible under non-Administrator accounts.
 
-1. Exit all running software on Windows. (See each software’s manual for how to exit.)
+1. Exit all running software on Windows. (See each software's manual for how to exit.)
 2. Open File Explorer, locate the file `JPKIAppli03-05.exe` downloaded from the JPKI portal site, and double-click to start the installer.  
 
    **Note:**  
@@ -132,7 +132,7 @@ You can update from older versions without uninstalling.
 For most IC card readers, the driver setup is automatic. If the device does not work:
 
 1. Check that the driver is installed correctly.  
-2. If not, download the driver from the manufacturer’s website and install it.  
+2. If not, download the driver from the manufacturer's website and install it.  
 3. Reconnect the reader and try again.
 
 ---
