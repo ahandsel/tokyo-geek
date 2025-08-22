@@ -1,25 +1,10 @@
+// .vitepress/config.ts
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
 import { withPwa } from "@vite-pwa/vitepress";
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        "@nolebase/vitepress-plugin-enhanced-readabilities/client",
-        "vitepress",
-        "@nolebase/ui",
-      ],
-    },
-    ssr: {
-      noExternal: [
-        // If there are other packages that need to be processed by Vite, you can add them here.
-        "@nolebase/vitepress-plugin-enhanced-readabilities",
-        "@nolebase/ui",
-      ],
-    },
-  },
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
   head: [
@@ -97,6 +82,8 @@ const vitePressOptions = {
     hostname: "https://ahandsel.github.io/tokyo-geek/",
   },
   ignoreDeadLinks: true,
+
+  // PWA options handled by @vite-pwa/vitepress
   pwa: {
     strategies: "generateSW",
     mode: "development",
@@ -107,9 +94,16 @@ const vitePressOptions = {
       name: "Tokyo Geek",
       short_name: "Tokyo-Geek",
       theme_color: "#ffffff",
+      start_url: "/tokyo-geek/",
+      display: "standalone",
+      background_color: "#ffffff",
+      icons: [], // will be generated
     },
+    // Ensure a preset is provided for the assets generator
     pwaAssets: {
-      config: true,
+      // config: true,
+      preset: "minimal-2023",
+      image: "public/cat-icon-profile.png",
     },
     workbox: {
       globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
@@ -121,6 +115,22 @@ const vitePressOptions = {
       enabled: false,
       suppressWarnings: true,
       navigateFallback: "/",
+    },
+  },
+
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities/client",
+        "vitepress",
+        "@nolebase/ui",
+      ],
+    },
+    ssr: {
+      noExternal: [
+        "@nolebase/vitepress-plugin-enhanced-readabilities",
+        "@nolebase/ui",
+      ],
     },
   },
 };
@@ -164,6 +174,8 @@ const vitePressSidebarOptions = [
 ];
 
 // export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-export default defineConfig(
-  withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions))
+// export default defineConfig(
+//   withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions))
+export default withPwa(
+  defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
 );
