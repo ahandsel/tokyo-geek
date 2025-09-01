@@ -2,6 +2,9 @@
 title: Start here 💪
 description: Let's get started with planning your trip to Japan
 order: 1
+layout: doc
+outline: deep
+footer: true
 tags: overview, guides, travel
 ---
 

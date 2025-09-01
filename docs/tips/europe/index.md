@@ -1,6 +1,10 @@
 ---
 title: Europe travel tips
 description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
+order: 1
+layout: doc
+outline: deep
+footer: true
 tags: [travel, europe, tips]
 ---
 

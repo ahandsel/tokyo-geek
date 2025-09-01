@@ -1,5 +1,6 @@
 ---
 title: "Shinkansen - Bullet Train"
+order: 1
 layout: doc
 outline: deep
 footer: true

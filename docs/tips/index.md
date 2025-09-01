@@ -1,6 +1,10 @@
 ---
 title: Tips
 description: List of tips and miscellaneous notes.
+order: 1
+layout: doc
+outline: deep
+footer: true
 ---
 
 # Tips
