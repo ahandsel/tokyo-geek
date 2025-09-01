@@ -16,7 +16,7 @@ hero:
   actions:
     - theme: brand
       text: Travel guides
-      link: /guides/start-here
+      link: /guides/general
     - theme: alt
       text: Living in Japan
       link: /local/
@@ -27,7 +27,7 @@ hero:
 features:
   - title: ✈️ Travel guides
     details: Example itineraries, places to visit, and other suggestions for your trip
-    link: /guides/general/start-here
+    link: /guides/general/
   - title: 🏠 Living in Japan
     details: Few things for the locals or those who are planning to live in Japan
     link: /local/
