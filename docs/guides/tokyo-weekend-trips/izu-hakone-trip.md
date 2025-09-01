@@ -1,11 +1,12 @@
 ---
-title: "Izu/Hakone Weekend Trip Itinerary"
+title: "Izu peninsula and Hakone trip"
+description: Itinerary for a long weekend trip to Izu peninsula and Hakone from Tokyo
 layout: doc
 outline: deep
 footer: true
 ---
 
-# Izu/Hakone Weekend Trip Itinerary
+# Izu peninsula and Hakone trip itinerary
 
 [[toc]]
 
