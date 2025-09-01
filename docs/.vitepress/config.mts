@@ -1,4 +1,4 @@
-// .vitepress/config.ts
+// .vitepress/config.mts
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
 import { withPwa } from "@vite-pwa/vitepress";
@@ -7,24 +7,7 @@ import { withPwa } from "@vite-pwa/vitepress";
 const vitePressOptions = {
   title: "Tokyo Geek",
   description: "Let's go to Japan!",
-  head: [
-    ["meta", { name: "theme-color", content: "#ffffff" }],
-    ["link", { rel: "icon", href: "/favicon.ico", type: "image/x-icon" }],
-    ["link", { rel: "mask-icon", href: "/favicon.ico", color: "#ffffff" }],
-    [
-      "meta",
-      {
-        name: "keywords",
-        content:
-          "Japan, Tokyo, Geek, Travel, Guide, ahandsel, GitHub, VitePress",
-      },
-    ],
-    [
-      "link",
-      { rel: "apple-touch-icon", href: "/pwa-192x192.png", sizes: "192x192" },
-    ],
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-  ],
+  // head: []            // remove favicon/theme-color when using PWA assets injection
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
@@ -32,37 +15,14 @@ const vitePressOptions = {
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
     },
-    search: {
-      provider: "local",
-    },
+    search: { provider: "local" },
     nav: [
       { text: "Home", link: "/" },
       { text: "Travel guides", link: "/guides/general/start-here" },
       { text: "Living in Japan", link: "/local/" },
       { text: "Random Tips", link: "/tips/" },
     ],
-
-    sidebar: [
-      {
-        text: "Travel guides",
-        items: [
-          { text: "Get started", link: "/guides/general/start-here" },
-          { text: "Book ahead", link: "/guides/general/reserve-ahead" },
-          { text: "Tokyo", link: "/guides/tokyo-trip" },
-          { text: "Kyoto", link: "/guides/kyoto-trip" },
-        ],
-      },
-      {
-        text: "Was this helpful?",
-        items: [
-          {
-            text: "Consider buying me a cup of coffee ☕",
-            link: "https://ko-fi.com/ahandsel",
-          },
-        ],
-      },
-    ],
-
+    // remove manual sidebar; withSidebar will generate it
     socialLinks: [
       { icon: "github", link: "https://github.com/ahandsel/tokyo-geek" },
       {
@@ -79,7 +39,7 @@ const vitePressOptions = {
   },
   base: "/tokyo-geek/",
   sitemap: {
-    hostname: "https://ahandsel.github.io/tokyo-geek/",
+    hostname: "https://ahandsel.github.io",
   },
   ignoreDeadLinks: true,
 
@@ -97,20 +57,18 @@ const vitePressOptions = {
       start_url: "/tokyo-geek/",
       display: "standalone",
       background_color: "#ffffff",
-      icons: [], // will be generated
+      icons: [], // generated
     },
     // Ensure a preset is provided for the assets generator
     pwaAssets: {
       // config: true,
       preset: "minimal-2023",
-      image: "public/cat-icon-profile.png",
+      image: "cat-icon-profile.png",
     },
     workbox: {
       globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
     },
-    experimental: {
-      includeAllowlist: true,
-    },
+    experimental: { includeAllowlist: true },
     devOptions: {
       enabled: false,
       suppressWarnings: true,
@@ -135,41 +93,72 @@ const vitePressOptions = {
   },
 };
 
+const commonSidebarConfigs = {
+  // VitePress Sidebar's options here...
+  // https://vitepress-sidebar.cdget.com/guide/options
+  // basePath: null,
+  capitalizeEachWords: false,
+  capitalizeFirst: false,
+  collapsed: true,
+  collapseDepth: 1,
+  debugPrint: false,
+  documentRootPath: "docs",
+  excludeByFolderDepth: null,
+  excludeByGlobPattern: ["README.md"],
+  excludeFilesByFrontmatterFieldName: null,
+  folderLinkNotIncludesFileName: false,
+  followSymLinks: false,
+  frontmatterOrderDefaultValue: 10,
+  frontmatterTitleFieldName: "title",
+  hyphenToSpace: false,
+  includeDotFiles: false,
+  includeEmptyFolder: false,
+  includeFolderIndexFile: true,
+  includeRootIndexFile: false,
+  keepMarkdownSyntaxFromTitle: false,
+  manualSortFileNameByPriority: [],
+  prefixSeparator: ".",
+  removePrefixAfterOrdering: false,
+  // resolvePath: "/",
+  rootGroupCollapsed: null,
+  rootGroupLink: null,
+  // rootGroupText: "Table of Contents",
+  // scanStartPath: null,
+  sortFolderTo: "top",
+  sortMenusByFileDatePrefix: false,
+  sortMenusByFrontmatterDate: false,
+  sortMenusByFrontmatterOrder: true,
+  sortMenusByName: false,
+  sortMenusOrderByDescending: false,
+  sortMenusOrderNumericallyFromLink: false,
+  sortMenusOrderNumericallyFromTitle: false,
+  underscoreToSpace: false,
+  useFolderLinkFromIndexFile: true,
+  useFolderLinkFromSameNameSubFile: false,
+  useFolderTitleFromIndexFile: true,
+  useTitleFromFileHeading: false,
+  useTitleFromFrontmatter: true,
+};
+
 const vitePressSidebarOptions = [
   // VitePress Sidebar's options here...
   {
-    documentRootPath: "docs",
+    ...commonSidebarConfigs,
     scanStartPath: "guides",
     basePath: "/guides/",
     resolvePath: "/guides/",
-    useTitleFromFileHeading: true,
-    includeDotFiles: true,
-    useFolderTitleFromIndexFile: true,
-    sortMenusByFrontmatterOrder: true,
-    frontmatterOrderDefaultValue: 10,
-    sortFolderTo: "top",
   },
   {
-    documentRootPath: "docs",
+    ...commonSidebarConfigs,
     scanStartPath: "local",
+    basePath: "/local/",
     resolvePath: "/local/",
-    useTitleFromFileHeading: true,
-    includeDotFiles: true,
-    useFolderTitleFromIndexFile: true,
-    sortMenusByFrontmatterOrder: true,
-    frontmatterOrderDefaultValue: 10,
-    sortFolderTo: "top",
   },
   {
-    documentRootPath: "docs",
+    ...commonSidebarConfigs,
     scanStartPath: "tips",
+    basePath: "/tips/",
     resolvePath: "/tips/",
-    useTitleFromFrontmatter: true,
-    includeDotFiles: true,
-    useFolderTitleFromIndexFile: true,
-    sortMenusByFrontmatterOrder: true,
-    frontmatterOrderDefaultValue: 10,
-    sortFolderTo: "top",
   },
 ];
 
