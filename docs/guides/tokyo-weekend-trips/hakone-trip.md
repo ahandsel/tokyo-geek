@@ -5,6 +5,8 @@ description: Notes on a weekend trip to Hakone from Tokyo
 
 # Weekend in Hakone
 
+Enjoy a long weekend in Hakone with hiking, art museums, hot springs, and views of Mount Fuji.
+
 [[toc]]
 
 
