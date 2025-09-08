@@ -15,7 +15,7 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
-    "@vite-pwa/assets-generator": "^1.0.0",
+    "@vite-pwa/assets-generator": "^1.0.1",
     "@vite-pwa/vitepress": "^1.0.0",
     "markdown-link-check": "^3.13.7",
     "markdownlint-cli2": "^0.18.1",
