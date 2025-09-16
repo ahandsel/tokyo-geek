@@ -10,8 +10,10 @@ hero:
   # text: "Collection of my random notes about Japan"
   tagline: Collection of my random notes about Japan
   image:
-    src: /favicon.ico
-    # alt: VitePress
+    src: /cat-icon-profile.png
+    alt: ahandsel Cat, white cat coding on a laptop
+    width: 200px
+    height: 200px
   actions:
     - theme: brand
       text: Travel guides
