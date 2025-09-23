@@ -39,7 +39,7 @@ Here are some hiking trails to consider when you want to escape the city life.
 * different routes, choose based on difficulty level
 * Cable Car option
 * For a challenge:choose either the `Yabitsu-Toge Pass` or the `Otoko-zaka Trail`
-* Mt. Oyama has an awesome shrine and temple to see, and is also famous for tofu—so you'll see some tofu restaurants on the initial ascent to the ropeway (which is where the trails begin).
+* Mt. Oyama has a shrine and a few tofu restraunts at the base of the mountain and before the ropeway (trailhead is near the ropeway station).
 * The onna-zaka (women's trail) is shorter than the otoko-zaka (men's trail)
   * The women's trail does pass by "seven wonders"
 * Once you reach the Oyama Afuri Shrine, you can follow signs for the Shimosha Trail to the main shrine and summit (although it is closed from Feb-April).
