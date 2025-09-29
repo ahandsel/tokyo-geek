@@ -278,70 +278,72 @@ No shops nearby!
 
 ### JA Okinawa Farmers Market Yaeyama Yuratiku Market
 
-* [JA Okinawa Farmers Market Yaeyama Yuratiku Market - Airbnb](https://www.airbnb.com/things-to-do/places/1957935)
-* About 7 minutes by car from Me-fi-You, at the west edge of downtown. Island vegetables and fruits grown by local farmers are especially fresh, colorful, and reasonably priced, and are recommended.
+* About 7 minutes by car from Me-fi-You, at the western edge of downtown. Island vegetables and fruits from local farmers are fresh, colorful, and reasonably priced.
 * On your arrival day, stop here first to buy ingredients. The seafood sold here, such as sashimi and sea grapes, is also delicious.
+* [JA Okinawa Farmers Market Yaeyama Yuratiku Market - Airbnb](https://www.airbnb.com/things-to-do/places/1957935)
 
 
 ### Chinen Shokai
 
-* [Chinen Shokai - Airbnb](https://www.airbnb.com/things-to-do/places/12618884)
-* A local supermarket known to those in the know. The famous "Onisasa" (a rice ball combined with a fried chicken tender) is ideal as a quick lunch for busy travelers, or as a snack for children. There is also self-serve Yaeyama soba where you pour soup from a pot into a container, prepared foods, island-made seasonings, fruits, and island tofu.
-* This supermarket is not on the typical tourist route, and it shows Ishigaki's relaxed local lifestyle. Find items that suit your taste.
+* A local supermarket known to those in the know. The famous "Onisasa" (a rice ball combined with a fried chicken tender) is ideal as a quick lunch for busy travelers, or as a snack for children.
+* Self-serve Yaeyama soba is available. Prepared foods, island-made seasonings, fruits, and island tofu are also sold.
+* This supermarket is not on the typical tourist route, and it shows Ishigaki's relaxed local lifestyle. Choose items that suit your taste.
 * About 10 minutes by car from Me-fi-You.
+* [Chinen Shokai - Airbnb](https://www.airbnb.com/things-to-do/places/12618884)
 
 
 ### MaxValu Arakawa
 
+* MaxValu Shinkawa Store: about 5 minutes by car from Me-fi-You.
+* MaxValu Ishigaki Store: about 10 minutes by car from Me-fi-You.
 * [MaxValu Arakawa - Airbnb](https://www.airbnb.com/things-to-do/places/1167996)
-* MaxValu Shinkawa Store: 5 minutes by car from Me-fi-You.
-* MaxValu Ishigaki Store: 10 minutes by car from Me-fi-You.
 
 
 ## Anything else
 
-We mainly introduce lesser-known spots. For famous spots, please also see the access map at the end of the listing photos.
+We mainly introduce lesser-known spots. For famous spots, see the access map at the end of the listing photos.
 
 
 ### ネイミュージアムオブアート 八重山友禅染め 石垣島
 
+* Museum. In Japan, Yuzen dyeing is preserved in Kyoto, Kanazawa, Edo (Tokyo), Aichi, and Yaeyama. Mr. Nei founded Yaeyama Yuzen dyeing and is one of the few artists who applied Yuzen techniques to painting.
+* Enjoy the artistic world of Yaeyama expressed through Yuzen by Mr. Nei, who loved the southern islands. Prints and goods are also for sale.
+* From Me-fi-You, pass in front of the Fusaki Resort Hotel. It is just before the Tojin Baka. About 7 minutes by car.
+* Reservation required. Monday to Friday.
 * [ネイミュージアムオブアート 八重山友禅染め 石垣島 - Airbnb](https://www.airbnb.com/things-to-do/places/3154390)
 * [Ishigaki Island Nei Museum of Art: Yaeyama Yuzen dyeing - Google Maps](https://maps.app.goo.gl/4shvjLvZV9cmWLHG8)
-* Museum. In Japan, Yuzen dyeing is preserved in Kyoto, Kanazawa, Edo, Aichi, and here in Yaeyama. Mr. Nei founded Yaeyama Yuzen dyeing and is one of the few artists who applied Yuzen techniques to painting.
-* Enjoy the artistic world of Yaeyama expressed through Yuzen by Mr. Nei, who loved the southern islands. Prints and goods are also for sale.
-* From Me-fi-You, pass in front of the Fusaki Resort Hotel, and it is just before the Tojin Baka. About 7 minutes by car.
-* Reservation required. Monday - Friday. Phone: 0980-83-6303.
+* Phone: +81-980-83-6303
 
 
 ### 観音崎駐車場
 
-* [観音崎駐車場 - Airbnb](https://www.airbnb.com/things-to-do/places/15670135)
-* [Kannonzaki Parking Lot - Google Maps](https://maps.app.goo.gl/FDiFZ4MNiW8S18dz9)
-* Sunset spot. Ideal for a seaside walk and also famous for sunsets. Jogging while watching the sunset after the temperature drops is good.
-* Start here, run along the coast to Funakura Park, about 4 km one way in just under 30 minutes. Return to Kannonzaki for a total of about 8 km, around 1 hour.
+* Ideal for a seaside walk and also famous for sunsets. Jogging while watching the sunset after the temperature drops is good.
+* Start here, then run along the coast to Funakura Park, about 4 km one way in just under 30 minutes. Return to Kannonzaki for a total of about 8 km, around 1 hour.
 * About 7 minutes by car from Me-fi-You to the Kannonzaki parking lot. If the lot is crowded, you can also use the parking at the Tojin Baka across the road.
 * Recommended jogging courses that start and end at Me-fi-You are also shown on the map.
+* [観音崎駐車場 - Airbnb](https://www.airbnb.com/things-to-do/places/15670135)
+* [Kannonzaki Parking Lot - Google Maps](https://maps.app.goo.gl/FDiFZ4MNiW8S18dz9)
 
 
 ### Nosokodake (Mape)
 
+* Scenic viewpoint. The second-highest mountain on Ishigaki Island. Recommended for hiking and views in all seasons except summer, which is very hot.
+* Enjoy a 360-degree panoramic view at the summit. Park at the trailhead lot, which is easy to miss. The jungle hike takes about 20 minutes for fit adults. Elementary school children can also climb it.
+* The trail has slopes and rocky areas, so wear long sleeves and long pants, and sneakers. Work gloves are helpful.
+* From the nearby Nosoko Observation Deck, you can enjoy views of northern Ishigaki without hiking.
 * [Nosokodake (Mape) - Airbnb](https://www.airbnb.com/things-to-do/places/11833901)
 * [Nosokodake (Māpē) - Google Maps](https://maps.app.goo.gl/pg8mdRtYuvTnuM4y5)
-* Scenic viewpoint. The second-highest mountain on Ishigaki Island. Recommended for hiking and views in all seasons except summer, which is very hot.
-* Enjoy a 360-degree panoramic view at the summit. Park at the trailhead lot, which is easy to miss. The hike through the jungle takes about 20 minutes for fit adults and feels rewarding for the time spent. Elementary school children can also climb it.
-* Because there are slopes and rocky areas, wear long sleeves and long pants, and sneakers. Work gloves are helpful.
-* From the nearby Nosoko Observation Deck, you can enjoy views of northern Ishigaki without hiking.
 
 
 ### KLATCH Coworking Space
 
-* [KLATCH Coworking Space - Airbnb](https://www.airbnb.com/things-to-do/places/17820707)
-* [KLATCH Coworking Space - Google Maps](https://maps.app.goo.gl/ut9TmqNpJ6SjtUxAA)
 * Coworking space. The second coworking space on Ishigaki opened in April 2021 in the city center.
-* There is a share space where conversation and phone calls are allowed, a quiet space for focus, and private booths that are useful for conference calls.
+* There is a shared space where conversation and phone calls are allowed, a quiet space for focus, and private booths for conference calls.
 * Fees: 500 yen per hour, 2,000 yen per day. Parking is available in front of KLATCH COFFEE (a 2-minute walk from the coworking space) for 500 yen per day, with a discount from the second time.
 * Open even during states of emergency. Details: <https://workation-lab.com/>
-* Phone: 0980-87-9911
+* [KLATCH Coworking Space - Airbnb](https://www.airbnb.com/things-to-do/places/17820707)
+* [KLATCH Coworking Space - Google Maps](https://maps.app.goo.gl/ut9TmqNpJ6SjtUxAA)
+* Phone: +81-980-87-9911
 
 
 ## Activities
@@ -349,30 +351,30 @@ We mainly introduce lesser-known spots. For famous spots, please also see the ac
 
 ### コバラム真栄里店
 
-* [コバラム真栄里店 - Airbnb](https://www.airbnb.com/things-to-do/places/18003521)
-* [Kovalam Ishigaki - Google Maps](https://maps.app.goo.gl/Vptkx4WUG8TvfLN47)
 * Massage and yoga. Ms. Misaki trained in massage in Thailand and yoga in India. On a mid-trip day, or when plans are canceled due to weather, take a break and relieve travel fatigue with massage or yoga.
 * Free shuttle from Me-fi-You to the studio, and in-room massage is available for an additional 2,000 yen.
-* Details: [【石垣島の極上リラクゼーション】Kovalam 石垣島　（タイ古式マッサージとオイルマッサージとハーブ蒸し）](https://kovalam.jp/)
+* Details: [【石垣島の極上リラクゼーション】Kovalam 石垣島 (タイ古式マッサージとオイルマッサージとハーブ蒸し)](https://kovalam.jp/)
+* [コバラム真栄里店 - Airbnb](https://www.airbnb.com/things-to-do/places/18003521)
+* [Kovalam Ishigaki - Google Maps](https://maps.app.goo.gl/Vptkx4WUG8TvfLN47)
 
 
 ### Yellow Submarine
 
-* [Yellow Submarine - Airbnb](https://www.airbnb.com/things-to-do/places/18003789)
-* [Yellow Submarine - Google Maps](https://maps.app.goo.gl/o7PVaaatfA6aLMXZ9)
 * Snorkeling and diving. Based in Ibaruma in northern Ishigaki, where the water is clear and the coral is healthy. Enjoy relaxed diving and snorkeling.
 * Introductory diving and family snorkeling are welcome. After the activity, shower and change at the shop, then review your logbook while looking at the sea in the shop's garden.
 * Free pickup is available.
 * Details: <http://www.ys-ds.com/v2/>
+* [Yellow Submarine - Airbnb](https://www.airbnb.com/things-to-do/places/18003789)
+* [Yellow Submarine - Google Maps](https://maps.app.goo.gl/o7PVaaatfA6aLMXZ9)
 
 
 ### 石垣島セルフィッシュ
 
+* Snorkeling and diving. A diving shop located a 2-minute walk from Me-fi-You Ishigaki Island. Depart from a port near downtown, and enjoy mainly the west side of the island, or the remote islands such as Taketomi, Kohama, and Iriomote.
+* Fun dives, introductory dives, and snorkeling are available. Families are welcome. Diving license courses are offered. Consider obtaining your license in Ishigaki.
+* Details: [石垣島 Marine Service SelFish - 石垣島 で のんびり 少人数制 ダイビング !](https://selfish-ishigaki.com/)
 * [石垣島セルフィッシュ - Airbnb](https://www.airbnb.com/things-to-do/places/18004024)
 * [Ishigaki Island Marine Service SelFish - Google Maps](https://maps.app.goo.gl/C8THsAuxByBah7Tk6)
-* Snorkeling and diving. A diving shop located a 2-minute walk from Me-fi-You Ishigaki Island. Depart from a port near downtown, and enjoy mainly the west side of the island or the remote islands such as Taketomi, Kohama, and Iriomote.
-* Fun dives, introductory dives, and snorkeling are available. Families are welcome. Diving license courses are offered. Consider obtaining your license in Ishigaki.
-* Details: [石垣島 Marine Service SelFish – 石垣島 で のんびり 少人数制 ダイビング ！](https://selfish-ishigaki.com/)
 
 
 ### Jogging courses around Me-fi-You Ishigaki Island
@@ -384,19 +386,19 @@ We mainly introduce lesser-known spots. For famous spots, please also see the ac
 
 ### 西表島ガイドUMICO Iriomote Guide UMICOカヌー/カヤック＆トレッキング
 
-* [西表島ガイドUMICO Iriomote Guide UMICOカヌー/カヤック＆トレッキング - Airbnb](https://www.airbnb.com/things-to-do/places/t-g-ChIJI3FK3hmAYDQRMaQ8FQN80S8)
-* [Iriomote Island Guide UMICO: Canoeing, kayaking, and trekking - Google Maps](https://maps.app.goo.gl/zYJhgijLZwcTCuMs5)
 * Small-group tours on Iriomote Island. Experience Iriomote's great nature to the fullest in a small group.
 * The guide selects the best course for the day based on the season, weather, tides, participant preferences, and fitness.
 * Suitable for couples, groups, and families. Day trips from Ishigaki are possible.
+* [西表島ガイドUMICO Iriomote Guide UMICOカヌー/カヤック＆トレッキング - Airbnb](https://www.airbnb.com/things-to-do/places/t-g-ChIJI3FK3hmAYDQRMaQ8FQN80S8)
+* [Iriomote Island Guide UMICO: Canoeing, kayaking, and trekking - Google Maps](https://maps.app.goo.gl/zYJhgijLZwcTCuMs5)
 
 
 ### Yaeyama Kanko Ferry
 
-* [Yaeyama Kanko Ferry - Airbnb](https://www.airbnb.com/things-to-do/places/t-g-ChIJURS187IKYDQRxVrUmn5cZy8)
-* [Yaeyama Kanko Ferry Co., Ltd. / 八重山観光フェリー(Yaeyama Kanko Ferry) - Google Maps](https://maps.app.goo.gl/bueQkHSkSNi3VBdMA)
 * Many day tours include ferry tickets to the remote islands, which is convenient for first-time visitors.
 * Activities on each island may include bus or boat sightseeing, canoeing, trekking, SUP, snorkeling, water buffalo carts, and bicycle rental. Review the options in detail.
+* [Yaeyama Kanko Ferry - Airbnb](https://www.airbnb.com/things-to-do/places/t-g-ChIJURS187IKYDQRxVrUmn5cZy8)
+* [Yaeyama Kanko Ferry Co., Ltd. / 八重山観光フェリー (Yaeyama Kanko Ferry) - Google Maps](https://maps.app.goo.gl/bueQkHSkSNi3VBdMA)
 
 
 ## Traveler advice
