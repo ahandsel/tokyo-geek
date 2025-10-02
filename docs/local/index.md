@@ -40,4 +40,4 @@ Browse all articles grouped by folder.
 ## Visa renewal
 
 * [JPKI install guide v3.5](visa-renewal/jpki-install-guide-v3-5)
-* [Visa renewal online](visa-renewal/visa-renewal-online)
+* [Visa renewal online](visa-renewal/)
