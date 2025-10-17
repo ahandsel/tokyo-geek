@@ -6,17 +6,17 @@ title: Tokyo Geek
 titleTemplate: Collection of my random notes about Japan
 
 hero:
-  name: "Tokyo Geek"
+  name: "Tokyo Geek 🐾"
   # text: "Collection of my random notes about Japan"
   tagline: Collection of my random notes about Japan
   image:
-    src: /cat-icon-profile.png
+    src: /cat-icon-clear.png
     alt: ahandsel Cat, white cat coding on a laptop
     width: 200px
     height: 200px
   actions:
     - theme: brand
-      text: Travel guides
+      text: Start here ⭐
       link: /guides/general
     - theme: alt
       text: Living in Japan
