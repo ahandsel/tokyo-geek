@@ -4,4 +4,12 @@
   "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
   "japanese-proofreading.textlint.丸かっこ（）": false,
   "japanese-proofreading.textlint.大かっこ［］": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.wordWrap": "on"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  }
 }
