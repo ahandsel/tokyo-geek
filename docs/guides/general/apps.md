@@ -5,7 +5,7 @@ outline: deep
 footer: true
 ---
 
-# Apps for Japan
+# {{ $frontmatter.title }}
 
 Here are some useful iOS Apps that you can use in Japan.
 

@@ -5,7 +5,7 @@ outline: deep
 footer: true
 ---
 
-# Tokyo to Kanazawa 🚅
+# {{ $frontmatter.title }}
 
 Cheaper Shinkansen tickets between Tokyo and Kanazawa
 

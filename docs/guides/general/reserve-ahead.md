@@ -3,9 +3,28 @@ title: Places to Book Ahead for a Japan Trip
 description: Checklist of places to book ahead of your Japan trip
 ---
 
-# Places to book ahead for a Japan Trip
+# {{ $frontmatter.title }}
 
-[[toc]]
+{{ $frontmatter.description}}
+
+
+## Table of contents <!-- omit in toc -->
+
+* [2 ~ 3 months ahead](#2--3-months-ahead)
+  * [Ghibli Park](#ghibli-park)
+* [1 Month ahead](#1-month-ahead)
+  * [Ghibli Museum](#ghibli-museum)
+  * [Pokémon Café](#pokémon-café)
+  * [Warner Bros. Studio Tour Tokyo - The Making of Harry Potter](#warner-bros-studio-tour-tokyo---the-making-of-harry-potter)
+* [2 ~ 4 weeks ahead](#2--4-weeks-ahead)
+  * [teamLab Planets TOKYO](#teamlab-planets-tokyo)
+  * [mipig cafe - Harajuku](#mipig-cafe---harajuku)
+* [1 ~ 2 weeks ahead](#1--2-weeks-ahead)
+  * [Tokyo Skytree](#tokyo-skytree)
+* [Not necessary to book ahead](#not-necessary-to-book-ahead)
+  * [Tokyo Tower](#tokyo-tower)
+  * [The National Museum of Emerging Science and Innovation](#the-national-museum-of-emerging-science-and-innovation)
+  * [Museum of Contemporary Art Tokyo (MOT)](#museum-of-contemporary-art-tokyo-mot)
 
 
 ## 2 ~ 3 months ahead

@@ -9,7 +9,9 @@ tags:
   - nature
 ---
 
-# Yakushima guide
+# {{ $frontmatter.title }}
+
+{{ $frontmatter.description}}
 
 ![Photo of Green slopes of Yakushima by Marek Piwnicki](https://images.unsplash.com/flagged/photo-1579554712569-f5552b2a41da?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 * Photo of Green slopes of Yakushima by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki) on [Unsplash](https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs)

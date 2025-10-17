@@ -8,7 +8,7 @@ footer: true
 tags: [travel, europe, tips]
 ---
 
-# Europe travel tips
+# {{ $frontmatter.title }}
 
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable.  
 Hopefully, they will help you too!
