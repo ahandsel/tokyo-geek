@@ -54,4 +54,3 @@ footer: true
 [Matsuigekabyo Clinic]: https://maps.app.goo.gl/V7Bad1ELJz7qbQSM9
 [Musashino Midori Clinic]: https://maps.app.goo.gl/iB23MPM8dTwVZ6JJ7
 
-
