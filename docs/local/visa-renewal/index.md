@@ -37,7 +37,8 @@ This is a quick write-up of how I did it, in case it helps someone else.
 * [Troubleshooting](#troubleshooting)
   * [Windows VM issues](#windows-vm-issues)
   * [Broken error message when running JPKI利用者ソフト](#broken-error-message-when-running-jpki利用者ソフト)
-  * [エラーコード：EW000J0200 error from JPKI利用者ソフト](#エラーコードew000j0200-error-from-jpki利用者ソフト)
+  * [EW000J0200 error from JPKI利用者ソフト](#ew000j0200-error-from-jpki利用者ソフト)
+  * [EW104J1502 error from JPKI利用者ソフト](#ew104j1502-error-from-jpki利用者ソフト)
 * [References](#references)
 
 
@@ -228,12 +229,26 @@ Cause: JPKI app uses non-Unicode characters and the Windows's `Language for non-
 Solution: Follow the instructions in [Change Language and Region settings to Japanese](#change-language-and-region-settings-to-japanese) section above.
 
 
-### エラーコード：EW000J0200 error from JPKI利用者ソフト
+### EW000J0200 error from JPKI利用者ソフト
 
 You may get the following error when running the JPKI利用者ソフト:
+
+  ```txt
+  利用者クライアントソフトエラー
+  ...
+  エラーコード：EW000J0200
+  ```
+
+
+English translation:
+
+  ```txt
+  User Client Software Error
+  ...
+  Error code: EW000J0200
+  ```
+
 * ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](img-jpki-reader-error.png)
-* 利用者クライアントソフトエラー
-* エラーコード：EW000J0200
 
 Possible causes:
 * The MyNumber Card reader is not connected to your Windows VM - either by not connecting to your Mac or not passing the USB device to the VM.
@@ -245,6 +260,37 @@ Solution:
 * Ensure that the IC card reader is connected to your Mac - unplug & replug it.
 * Ensure that the IC card reader is passed through to the Windows VM - restart the UTM or Parallels Desktop apps and check the VM settings.
 * Ensure that the JPKI app is installed correctly and running as administrator.
+
+
+### EW104J1502 error from JPKI利用者ソフト
+
+You may get the following error when running the JPKI利用者ソフト:
+
+  ```txt
+  利用者クライアントソフトエラー
+
+  カードとの通信中にエラーが発生しました。 
+  エラーコード： EW104J1502
+  エラー詳細：0x00000006
+  ```
+
+English translation:
+
+  ```txt
+  User Client Software Error
+
+  An error occurred while communicating with the card.
+  Error code: EW104J1502
+  Error details: 0x00000006
+  ```
+
+* ![EW104J1502 error from JPKI利用者ソフト](./img-jpki-error-ew104j1502.png)
+
+Possible causes:
+* The MyNumber Card is not inserted properly into the IC card reader. (Chip contacting the reader)
+* The IC card reader is not connected to your Mac - unplug & replug it.
+* The IC card reader is not passed through to the Windows VM - restart the UTM or Parallels Desktop apps and check the VM settings.
+* If the issue persists, try reinserting the card reader or manually downloading the driver, as explained in the following section.
 
 
 ## References
