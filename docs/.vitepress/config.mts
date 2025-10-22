@@ -105,7 +105,7 @@ const commonSidebarConfigs = {
   documentRootPath: "docs",
   excludeByFolderDepth: null,
   excludeByGlobPattern: ["README.md"],
-  excludeFilesByFrontmatterFieldName: null,
+  excludeFilesByFrontmatterFieldName: "draft",
   folderLinkNotIncludesFileName: false,
   followSymLinks: false,
   frontmatterOrderDefaultValue: 10,
