@@ -1,8 +1,12 @@
 ---
-mode: 'agent'
-model: GPT-4o
-tools: ['runCommands', 'search', 'editFiles', 'changes', 'terminalLastCommand']
-description: 'Link Checker for VitePress Documentation Sites'
+mode: agent
+model: GPT-5 mini
+tools:
+  - changes
+  - fetch
+  - search
+  - edit
+description: Link Checker for VitePress Documentation Sites
 ---
 
 # Link Checker for VitePress Documentation Sites
