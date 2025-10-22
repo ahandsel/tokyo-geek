@@ -18,3 +18,5 @@ Here are some great weekend trip ideas from Tokyo:
 ## Great articles to read
 
 [10 Best Overnight Trips From Tokyo - Tokyo Cheapo](https://tokyocheapo.com/travel-2/overnight-trips-from-tokyo/)
+
+<!--@include: ../../snippets/md-index-list.md-->

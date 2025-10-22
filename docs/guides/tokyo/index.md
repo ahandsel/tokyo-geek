@@ -7,3 +7,5 @@ footer: true
 ---
 
 # Tokyo
+
+<!--@include: ../../snippets/md-index-list.md-->
