@@ -3,7 +3,7 @@ title: Apps for the US Trip
 description: List of apps to download before your trip to the US.
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 
 Here are iOS apps that I recommend downloading for your trip to the United States.  

@@ -5,7 +5,7 @@ outline: deep
 footer: true
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 Cheaper Shinkansen tickets between Tokyo and Nagoya
 

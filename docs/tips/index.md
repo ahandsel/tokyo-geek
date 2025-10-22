@@ -7,9 +7,9 @@ outline: deep
 footer: true
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
-{{ $frontmatter.description}}
+{{$frontmatter.description}}
 
 Here is a list of tips and miscellaneous notes:
 

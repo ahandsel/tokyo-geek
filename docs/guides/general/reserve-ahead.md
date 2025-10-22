@@ -3,9 +3,9 @@ title: Places to Book Ahead for a Japan Trip
 description: Checklist of places to book ahead of your Japan trip
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
-{{ $frontmatter.description}}
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->

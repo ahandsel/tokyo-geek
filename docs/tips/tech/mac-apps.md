@@ -4,7 +4,7 @@ description: A list of great apps for Mac users.
 tags: [mac, apps, productivity, utilities, brew]
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 Here are some of my favorite apps for Mac users. Hopefully, you find them useful too!
 

@@ -1,13 +1,14 @@
 ---
 title: "3-Day Weekend Trip to Chichibu"
+description: "Chichibu is a nice nature escape from Tokyo with hiking, parks, and hot springs."
 layout: doc
 outline: deep
 footer: true
 ---
 
-# 3-Day Weekend Trip to Chichibu
+# {{$frontmatter.title}}
 
-A nice nature escape from Tokyo to the mountains of Chichibu where you can enjoy hiking, parks, hot springs, and more.
+{{$frontmatter.description}}
 
 [[toc]]
 

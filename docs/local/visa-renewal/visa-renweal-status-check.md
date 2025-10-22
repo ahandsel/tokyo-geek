@@ -4,9 +4,9 @@ description: Quick guide on how to check the status of your Japanese visa renewa
 ---
 
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
-{{ $frontmatter.description}}
+{{$frontmatter.description}}
 
 
 ## Boot up your Windows
