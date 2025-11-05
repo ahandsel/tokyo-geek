@@ -19,7 +19,7 @@ Open UTM and run your Windows VM.
 
 ## Open Online Residence Application System website
 
-[在留申請オンラインシステム](https://www.ras-immi.moj.go.jp/WC01/WCAAS010/)
+[在留申請オンラインシステム][]
 * `https://www.ras-immi.moj.go.jp/WC01/WCAAS010/`
 
 
@@ -30,3 +30,5 @@ The `認証ID` (Authentication ID) is your Visa Application Number.
 The `パスワード` (Password) is the password you set when you first applied online.
 
 The Authentication ID was also emailed to you when you applied online.
+
+[在留申請オンラインシステム]: https://www.ras-immi.moj.go.jp/WC01/WCAAS010/
