@@ -3,7 +3,7 @@ title: nightTab - Custom new tab setup
 description: Tailor your browser's new tab page with the nightTab extension.
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 *Customizable new tab replacement extension for Chrome*
 

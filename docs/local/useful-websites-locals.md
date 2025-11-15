@@ -5,7 +5,7 @@ order: 3
 tags: [local, website]
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 Here are useful websites for living and traveling in Japan.
 

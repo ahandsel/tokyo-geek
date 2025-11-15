@@ -3,7 +3,7 @@ title: Google Doc automation - append weekly report with a template
 description: Example of a Google Apps Script automation that appends a Google Doc with a template on a given schedule.
 ---
 
-# {{ $frontmatter.title }}
+# {{$frontmatter.title}}
 
 Google Apps Script automation that inserts content from a source Google Doc into another Google Doc after a specified phrase.
 

@@ -4,7 +4,7 @@ description: List of tips and miscellaneous notes.
 order: 0
 ---
 
-# {{ $frontmatter.title }} Index
+# {{$frontmatter.title}}
 
 Here is a list of tips and miscellaneous notes:
 
