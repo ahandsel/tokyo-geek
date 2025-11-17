@@ -1,11 +1,15 @@
 ---
-title: "Kyushu (九州) Trip"
-layout: doc
-outline: deep
-footer: true
+title: Kyushu (九州) Trip
+description: Notes on Kyushu highlights, including Nagasaki, Kumamoto, and Beppu, plus a sample itinerary.
+head:
+  - - meta
+    - name: keywords
+      content: kyushu, trip, itinerary, japan, travel
 ---
 
-# Kyushu (九州) Trip
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -16,16 +20,16 @@ footer: true
 * Nagasaki city was by far the most interesting place to visit in Kyushu.
 
 
-## Cool Places to Visit
+## Cool places to visit
 
 * [Gunkanjima (軍艦島) Island](https://www.japan-guide.com/e/e4414.html)
 * [Mount Inasayama (稲佐山)](https://www.japan-guide.com/e/e4412.html)
 
 
-## Past Itinerary
+## Past itinerary
 
 
-### WED - March 29
+### Wednesday - March 29
 
 Narita {NRT} -> Fukuoka {FUK}
 
@@ -36,12 +40,13 @@ Narita {NRT} -> Fukuoka {FUK}
 * [Maizuru Park / 舞鶴公園](https://goo.gl/maps/nGsbxrVfZ39ecrap9)
 
 🏨 Hotel WBF Grande Hakata
+
 * <https://goo.gl/maps/uhXTr4LfUzJRKZiXA>
 * 🧺 Coin laundry
 * A solid hotel near the Hakata station
 
 
-### THR - March 30
+### Thursday - March 30
 
 * [Dazaifu Tenmangu / 太宰府天満宮](https://goo.gl/maps/dX14MNjwoR1K1ttk6)
 
@@ -55,7 +60,7 @@ Yanagawa River
 * <https://goo.gl/maps/3CF6bR6nJWxm6njD7>
 
 
-### FRI - March 31
+### Friday - March 31
 
 * [Gunkanjima Island - Nagasaki Travel](https://www.japan-guide.com/e/e4414.html)
 
@@ -66,24 +71,26 @@ Yanagawa River
 FERRY across the Ariake Sea to Kumamoto (5:15:45), Kumamoto Castle
 
 🏨 REF Kumamoto by VESSEL HOTELS
+
 * <https://goo.gl/maps/RSULR4UtqB7mrFZz5>
 * 🧺 Coin laundry
 * Very night hotel in the Kumamoto downtown area.
 * A bit pricier, but if you like Muji style, this is the place to stay.
 
 
-### SAT - April 1
+### Saturday - April 1
 
 * [Mount Aso ／阿蘇山](https://goo.gl/maps/ihwKvtexubjgdq9r9)
 * Takachiho Gorge
 * Beppu Teirin Onsen area
 
 🏨 Beppu Kannawa Onsen Oniyama Hotel
+
 * <https://goo.gl/maps/xrivbkDLZVWhQaE6A>
 * Roof top onsen ♨️
 
 
-### SUN - March 2
+### Sunday - April 2
 
 * Tando Market
 * Kokura Castle
@@ -92,10 +99,11 @@ FERRY across the Ariake Sea to Kumamoto (5:15:45), Kumamoto Castle
 * Hanoi Fuji-en
 
 🏨 Nishitetsu Inn Kokura
+
 * <https://goo.gl/maps/dt8vatBpXeeak9QW9>
 * 🧺 Coin laundry
 
 
-### MON - March 3
+### Monday - April 3
 
-fly back to Tokyo from Fukuoka at noon
+Fly back to Tokyo from Fukuoka at noon.

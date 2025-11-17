@@ -1,25 +1,25 @@
 ---
-title: Start here 💪
+title: Start Here 💪
 description: Let's get started with planning your trip to Japan
-order: 1
-layout: doc
-outline: deep
-footer: true
-tags: overview, guides, travel
+head:
+  - - meta
+    - name: keywords
+      content: japan, travel planning, itinerary, booking, transportation
 ---
-
 
 # {{$frontmatter.title}}
 
 Congratulations on deciding to visit Japan!  
-This guide will help you get started by outlining the key things you need to know before you go.
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
 ## YouTube channels to check out about Japan
 
-Here are some YouTube channels (ordered by recommendation) run by locals or expats living in Japan that help you get a feeling for Japan.
+Here are some YouTube channels, ordered by recommendation, that are run by locals or expats living in Japan and help you get a feeling for the country.
+
 1. [Paolo from Tokyo](https://youtube.com/@paolofromtokyo)
 1. [Abroad in Japan](https://youtube.com/@abroadinjapan)
 1. [Tokyo Lens](https://youtube.com/@TokyoLens)
@@ -30,26 +30,27 @@ Here are some YouTube channels (ordered by recommendation) run by locals or expa
 
 ## Book ahead - even before your hotel 🎟️
 
-Especially if you are planning to visit Japan during the peak season, it is recommended to book your tickets for key attractions and experiences far in advance!
+Here are some attractions and experiences in Japan that require advance reservations.
+
 
 Notable places to book ahead:
+
 * [Ghibli Park](./reserve-ahead.md#ghibli-park)  
   * For more details, check out the [Studio Ghibli Park Notes](../kansai/nagoya-ghibli-park-trip.md) guide.
 * [Ghibli Museum](./reserve-ahead.md#ghibli-museum)
 * [Pokémon Café](./reserve-ahead.md#pokémon-café)
-* [teamLab Planets TOKYO](./reserve-ahead.md#teamlab-planets-tokyo)
+* [teamLab Planets Tokyo](./reserve-ahead.md#teamlab-planets-tokyo)
 
-For the full list of places to book ahead, check out the [Places to Book Ahead for a Japan Trip](./reserve-ahead.md) guide.
+For the full list of places to book ahead, review the [Places to book ahead for a Japan trip](./reserve-ahead.md) guide.
 
 
-## Bullet Train / Shinkansen 🚅
+## Bullet train and Shinkansen 🚅
 
-The Shinkansen is a high-speed train service in Japan that connects major cities.  
-It is a convenient and efficient way to travel around Japan.  
-* [Shinkansen Tickets - Klook](https://www.klook.com/japan-rail/shinkansen/)  
-  If you are a tourist who wants the easiest way to book Shinkansen tickets, Klook is a great option.
+The Shinkansen is a high-speed train service in Japan that connects major cities and provides a convenient way to travel.
 
-If you are a local or a long-term resident wanting discounts on Shinkansen tickets, check out the following guides:
+* [Shinkansen tickets - Klook](https://www.klook.com/japan-rail/shinkansen/) - Tourist-friendly booking option
+
+If you are a local or a long-term resident wanting discounts on Shinkansen tickets, review the following guides:
 * [Tokyo to Nagoya Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
 * [Tokyo to Kyoto & Osaka Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
 * [Tokyo to Kanazawa Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
@@ -57,19 +58,19 @@ If you are a local or a long-term resident wanting discounts on Shinkansen ticke
 
 ## Events 🗓️
 
-* [Explore Events in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/events/)
+* [Explore events in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/events/)
 
 
-## Things to Do 🎉
+## Things to do 🎉
 
-* [Entertainment and Attractions in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/entertainment/)
-* [Comprehensive Japan Travel Guide - Japan Guide](https://www.japan-guide.com)
+* [Entertainment and attractions in Tokyo - Tokyo Cheapo](https://tokyocheapo.com/entertainment/)
+* [Comprehensive Japan travel guide - Japan Guide](https://www.japan-guide.com)
 
 
 ## Preparation ⚙️
 
-* [Checkout these useful apps for your Japan trip](./apps.md) - From navigation to translation
-* [Figure out how to get mobile data in Japan](./mobile-data.md) - eSIM vs Pocket Wi-Fi
+* [Check out these useful apps for your Japan trip](./apps.md) - From navigation to translation
+* [Figure out how to get mobile data in Japan](./mobile-data.md) - eSIM vs pocket Wi-Fi
 
 
 ## Brainstorming 🤔

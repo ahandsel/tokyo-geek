@@ -1,12 +1,11 @@
 ---
-title: "Shinkansen - Bullet Train"
-order: 1
-layout: doc
-outline: deep
-footer: true
+title: "Shinkansen (bullet train) guide 🚅"
+description: "Guide on Japan's Shinkansen (bullet train) system, how to buy tickets, and tips for a smooth travel experience."
 ---
 
-# Bullet train - Shinkansen guide
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->

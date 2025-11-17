@@ -1,13 +1,19 @@
 ---
 title: nightTab - Custom new tab setup
 description: Tailor your browser's new tab page with the nightTab extension.
+head:
+  - - meta
+    - name: keywords
+      content: nighttab, browser, extension, bookmarks, customization
 ---
 
 # {{$frontmatter.title}}
 
 {{$frontmatter.description}}
 
-*Customizable new tab replacement extension for Chrome*
+[[toc]]
+
+_Customizable new tab replacement extension for Chrome_
 
 [zombieFox/nightTab][nightTab-repo] is a highly customizable new tab replacement extension for your browser.
 
@@ -52,9 +58,11 @@ It is a good alternative to the default new tab page, which is often cluttered w
 ## Tips for using nightTab
 
 Use the `Add unique accent to each Bookmark` option to easily set the color of each bookmark.
+
 * Theme -> Bookmark -> Bottom -> `Add unique accent to each Bookmark`
 
 Ask ChatGPT to edit the JSON file to automatically suggest a color or icon for each bookmark.
+
 * Export the JSON file from nightTab.
 * Prompt ChatGPT to edit the JSON file and suggest a color or icon for each bookmark.
 * Verify the changes in the JSON file (compare the original and edited JSON files in VS Code).

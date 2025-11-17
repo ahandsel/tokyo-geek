@@ -1,35 +1,20 @@
 ---
-title: "Mobile data in Japan"
-layout: doc
-outline: deep
-footer: true
+title: Mobile data in Japan
+description: Quick notes on getting mobile data or cell service when traveling in Japan.
+head:
+  - - meta
+    - name: keywords
+      content: japan, mobile, data, esim, router, carrier, wifi, wi-fi, sim, roaming, cell
 ---
 
-# Mobile data in Japan
+# {{$frontmatter.title}}
 
-Quick notes on getting mobile data or cell service when traveling in Japan.
+{{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [TL;DR - Quick recommendations](#tldr---quick-recommendations)
-  * [Traveling solo or as a couple?](#traveling-solo-or-as-a-couple)
-  * [Traveling for work?](#traveling-for-work)
-  * [Traveling as a group?](#traveling-as-a-group)
-* [Overview](#overview)
-* [eSIM method](#esim-method)
-  * [What is an eSIM?](#what-is-an-esim)
-  * [Which iPhone models support eSIM?](#which-iphone-models-support-esim)
-  * [How to use eSIM](#how-to-use-esim)
-  * [Video tutorials](#video-tutorials)
-  * [Recommended eSIM providers](#recommended-esim-providers)
-  * [eSIM with voice and data](#esim-with-voice-and-data)
-* [Mobile router method](#mobile-router-method)
-  * [Options and pricing](#options-and-pricing)
-* [Carrier method](#carrier-method)
+[[toc]]
 
 
-## TL;DR - Quick recommendations
+## TL;DR - quick recommendations
 
 Here is my quick recommendation for getting cell phone service while traveling in Japan:
 
@@ -56,21 +41,25 @@ Here is my quick recommendation for getting cell phone service while traveling i
 ## Overview
 
 There are three options for getting mobile data when traveling in Japan:
+
 1. [eSIM method](#esim-method) - Buy an eSIM card from travel eSIM providers.
 2. [Mobile router method](#mobile-router-method) - Rent a mobile router.
 3. [Carrier method](#carrier-method) - Enable your cell service provider's international roaming services.
 
 Who should use the **eSIM** method?
+
 * Those with an unlocked phone that is not limited by the cell service provider.
 * Those with a phone that supports eSIM (iPhone 11 and newer models).
 
 Who should use the **mobile router** method?
+
 * Those using an older phone that does not support eSIM.
 * Those with a phone locked by the cell carrier.
 * Those needing to connect multiple devices to Wi-Fi.
 * Those needing to download and upload large files from a computer.
 
 Who should use the **carrier** method?
+
 * Those whose cell service provider offers free or affordable international roaming services.
 
 
@@ -129,6 +118,7 @@ It is great for making reservations and signing up for Japanese apps and service
 ## Mobile router method
 
 Also known as Pocket Wi-Fi, mobile routers are portable Wi-Fi routers that you can rent during your trip.
+
 * Mobile routers are useful if you have multiple devices to connect and need fast, reliable internet.
 * However, it is annoying having to charge and carry an additional device.
 
@@ -143,16 +133,16 @@ Tip: Carry it in your backpack with a power bank to keep it charged. Most mobile
 ## Carrier method
 
 See if your cell service provider offers international roaming services.
+
 * For example, T-Mobile offers free international data roaming in Japan.
 
 
-Pros
+### Pros
+
 * The simplest option - likely only requires enabling and disabling the data roaming setting from your cell service provider's app.
 
-Cons
+
+### Cons
+
 * Expensive - Additional charges may be costly, so check the rates before using it.
 * Limited data - Most carriers impose a data cap for international roaming.
-
----
-
-tags: japan, mobile, data, esim, router, carrier, wifi, wi-fi, sim, roaming, cell

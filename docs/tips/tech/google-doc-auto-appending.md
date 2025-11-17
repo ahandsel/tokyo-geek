@@ -1,9 +1,15 @@
 ---
 title: Google Doc automation - append weekly report with a template
 description: Example of a Google Apps Script automation that appends a Google Doc with a template on a given schedule.
+head:
+  - - meta
+    - name: keywords
+      content: google docs, apps script, automation, template, weekly report
 ---
 
 # {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 Google Apps Script automation that inserts content from a source Google Doc into another Google Doc after a specified phrase.
 
@@ -41,23 +47,23 @@ Google Apps Script automation that inserts content from a source Google Doc into
 
 ## Setup instructions
 
-1. **Create a Google Apps Script project**  
-    * Open Google Drive → Click **+ New** → More → Google Apps Script.
+1. **Create a Google Apps Script project**
+   * Open Google Drive → Click **+ New** → More → Google Apps Script.
 2. **Paste the script above.**
-3. **Add the Google Doc IDs**  
-    * Replace the placeholders `SOURCE_GOOGLE_DOC_ID` and `TARGET_GOOGLE_DOC_ID` with the actual Google Doc IDs.
-    * The Google Doc ID is the unique identifier found in the URL of the document. For example, in `https://docs.google.com/document/d/1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU/edit`, the ID is `1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU`.
-4. **Replace the target phrase**  
-    * Replace `Insert Below:` with the phrase in the target Google Doc where you want to insert the template.
-5. **Save the script**  
-    * Click **File** → **Save**.
-6. **Set up a trigger to run weekly**  
-    * Click on **Triggers** (clock icon in Apps Script).
-    * Click **+ Add Trigger**.
-    * Choose function: `insertDocContentAfterPhrase`
-    * Choose event source: **Time-driven**
-    * Choose type: **Week timer**
-    * Select a day and time to run.
+3. **Add the Google Doc IDs**
+   * Replace the placeholders `SOURCE_GOOGLE_DOC_ID` and `TARGET_GOOGLE_DOC_ID` with the actual Google Doc IDs.
+   * The Google Doc ID is the unique identifier found in the URL of the document. For example, in `https://docs.google.com/document/d/1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU/edit`, the ID is `1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU`.
+4. **Replace the target phrase**
+   * Replace `Insert Below:` with the phrase in the target Google Doc where you want to insert the template.
+5. **Save the script**
+   * Click **File** → **Save**.
+6. **Set up a trigger to run weekly**
+   * Click on **Triggers** (clock icon in Apps Script).
+   * Click **+ Add Trigger**.
+   * Choose function: `insertDocContentAfterPhrase`
+   * Choose event source: **Time-driven**
+   * Choose type: **Week timer**
+   * Select a day and time to run.
 
 > [!IMPORTANT]  
 > Google Doc permissions: Ensure your script has permission to access and modify both the source and target documents. Set the sharing permissions accordingly before running the script.
@@ -91,7 +97,7 @@ const targetBody = DocumentApp.openById(targetDocId).getBody();
 ```javascript
 const targetParagraphs = targetBody.getParagraphs();
 const targetIndex = targetParagraphs.findIndex((paragraph) =>
-  paragraph.getText().includes(insertLocation)
+  paragraph.getText().includes(insertLocation),
 );
 if (targetIndex === -1) {
   Logger.log("Phrase not found in the target document.");
@@ -118,7 +124,7 @@ insertIndex++;
 
 // Build an array of source elements using Array.from.
 const srcElements = Array.from({ length: srcDoc.getNumChildren() }, (_, j) =>
-  srcDoc.getChild(j)
+  srcDoc.getChild(j),
 );
 ```
 

@@ -1,14 +1,21 @@
 ---
 title: "Figma plugins for UX writers"
-description: "Here are some Figma plugins that I find useful as a UX writer."
+description: "Figma plugins that help UX writers move faster when editing copy inside design files."
+head:
+  - - meta
+    - name: keywords
+      content: figma, plugins, ux writing, design, tips
 date: "2025-05-14"
 tags: [tips, figma, ux-writing]
 ---
 
 # {{$frontmatter.title}}
 
-While Figma is not the ideal tool for writing, it is now the industry standard for design.  
-Here are some Figma plugins that I find useful as a UX writer.
+{{$frontmatter.description}}
+
+[[toc]]
+
+While Figma is not the ideal tool for writing, it is now the industry standard for design. Here are some Figma plugins that are helpful for UX writers.
 
 | Plugins                          | Description                                                            |
 | -------------------------------- | ---------------x------------------------------------------------------- |

@@ -1,13 +1,15 @@
 ---
-title: "ZIPAIR tips"
-layout: doc
-outline: deep
-footer: true
+title: ZIPAIR tips
+description: Practical notes on flying ZIPAIR, including seat selection, meals, and luggage policies.
+head:
+  - - meta
+    - name: keywords
+      content: zipair, airline, tips, flights, japan
 ---
 
-# ZIPAIR tips
+# {{$frontmatter.title}}
 
-Here are some quick tips for using the ZIPAIR airline.
+{{$frontmatter.description}}
 
 [[toc]]
 
