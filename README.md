@@ -3,6 +3,7 @@
 A revamp to my Japan_Guide blog using [VitePress static site generator](https://vitepress.dev/).
 
 Also using the following plugins:
+
 * [VitePress Sidebar - Powerful auto sidebar generator](https://vitepress-sidebar.cdget.com/)
 * [VitePress - Frameworks - Vite PWA](https://vite-pwa-org.netlify.app/frameworks/vitepress.html)
 
