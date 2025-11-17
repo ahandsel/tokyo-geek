@@ -1,11 +1,20 @@
-# Tokyo to Nagoya 🚅
+---
+title: Tokyo to Nagoya Shinkansen guide
+description: Comparison of Shinkansen travel times and discounted ticket options between Tokyo and Nagoya.
+head:
+  - - meta
+  - name: keywords
+    content: tokyo, nagoya, shinkansen, tickets, travel
+---
 
-Cheaper Shinkansen tickets between Tokyo and Nagoya
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## Travel Time Between Tokyo and Nagoya
+## Travel time between Tokyo and Nagoya
 
 | Name   | JP       | Time     | Note                                       |
 | ------ | -------- | -------- | ------------------------------------------ |
@@ -14,7 +23,7 @@ Cheaper Shinkansen tickets between Tokyo and Nagoya
 | Kodama | `こだま` | 2.6 hrs  | Slowest (1.05 hrs slower), Can use JR Pass |
 
 
-## Shinkansen Ticket Option Overview
+## Shinkansen ticket option overview
 
 | Type                                                   | Price          |
 | ------------------------------------------------------ | -------------- |
@@ -25,7 +34,7 @@ Cheaper Shinkansen tickets between Tokyo and Nagoya
 | Reserved Seats for Express (`のぞみ`)                  | 11,500 yen     |
 
 
-## Discounted Tickets
+## Discounted tickets
 
 | Price     | Discount          | EN                               | JP                           | Details                               |
 | --------- | ----------------- | -------------------------------- | ---------------------------- | ------------------------------------- |
@@ -43,6 +52,7 @@ Please see [Platto Kodama Reserved Seat Plan](https://www.jrtours.co.jp/service/
 [EXこだまファミリー早特 - エクスプレス予約 新幹線の会員制ネット予約](https://expy.jp/product/ex_kodamafamily_hayatoku/)
 
 Excluded dates for 2023
+
 * Express reservation / `エクスプレス予約`
   * 4/28 (Fri) - 5/7 (Sun)
   * 8/9 (Wed) - 8/16 (Wed)
@@ -59,7 +69,7 @@ Excluded dates for 2023
 Refer to [Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka](./shinkansen-tokyo-osaka.md) for more details.
 
 
-## ⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️
+## ⚠️ JR Central's servers are down from 23:30 to 5:00 JST ⚠️
 
 You cannot book tickets during this time.
 
