@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      vite:
+        specifier: ^7.2.2
+        version: 7.2.2(jiti@2.6.1)(less@4.4.2)(terser@5.44.1)
     devDependencies:
       '@davidingplus/vitepress-image-viewer':
         specifier: ^1.1.5
