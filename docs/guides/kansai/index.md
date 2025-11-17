@@ -1,6 +1,11 @@
 ---
-title: Kansai - Kyoto, Nagoya, Osaka, Wakayama
-description: Guides on the Kansai region
+title: Kansai region guides
+description: Guides on Kyoto, Nagoya, Osaka, Wakayama and other places in the Kansai region.
+
 ---
 
-# Kansai Region Guides
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
+
+<!--@include: ./../../snippets/md-index-list.md-->
