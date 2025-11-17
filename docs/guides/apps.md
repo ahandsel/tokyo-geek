@@ -1,24 +1,34 @@
-# Apps for Japan
+---
+title: Apps for Japan
+description: Useful iOS apps for travel, payments, and daily life in Japan.
+head:
+  - - meta
+    - name: keywords
+      content: japan, ios apps, travel, payments, tips
+---
 
-Here are some useful iOS Apps that you can use in Japan.
+# {{$frontmatter.title}}
 
-⚠️ Some apps are limited to the Japanese App Store  
+{{$frontmatter.description}}
+
+[[toc]]
+
+⚠️ Some apps are limited to the Japanese App Store
+
 * Apps with 🇯🇵 are limited to the Japanese App Store
 * Apps with 🌎 are available to all App Stores
 
 ---
 
-[[toc]]
 
-
-## Weather & Natural Disaster Warning
+## Weather and natural disaster warning
 
 * 🌎 [NERV Disaster Prevention](https://apps.apple.com/us/app/id1472338480?l=en) - Get English earthquake, tsunami, volcanic eruption and emergency warnings
 * 🌎 [tenki.jp -日本気象協会の天気予報専門アプリ-](https://apps.apple.com/us/app/id433865746?l=en) - Japan Specialized Weather Forecast App
 * 🇯🇵 [Yahoo!防災速報](https://apps.apple.com/jp/app/id481914139?l=en) - Yahoo! Disaster Prevention Report
 
 
-## Payment and Reward Points
+## Payment and reward points
 
 * 🌎 [PASMO](https://apps.apple.com/us/app/pasmo/id1489151487?l=en) - PASMO IC Payment App (Managed by Tokyo Metro)
 * 🌎 [Suica](https://apps.apple.com/us/app/id1156875272?l=en) - Suica IC Payment App (Managed by JR)
@@ -38,7 +48,7 @@ Here are some useful iOS Apps that you can use in Japan.
 * 🇯🇵 [楽天ポイントカード（RakutenPointCard）](https://apps.apple.com/jp/app/id911334571?l=en) - Rakuten Point App
 
 
-## City Life
+## City life
 
 * 🌎 [ChargeSPOT](https://apps.apple.com/us/app/id1272481966?l=en) - Rent battery packs ([Details](https://metropolisjapan.com/chargespot/))
 * 🌎 [KuronekoyamatoOfficialApp](https://apps.apple.com/us/app/id484435888?l=en)
@@ -97,16 +107,16 @@ Here are some useful iOS Apps that you can use in Japan.
 
 ## Entertainment
 
-* 🇯🇵 [dアニメストア アニメ動画見放題アプリ/マルチデバイス対応](https://apps.apple.com/jp/app/id728214964?l=en)  Anime streaming service
+* 🇯🇵 [dアニメストア アニメ動画見放題アプリ/マルチデバイス対応](https://apps.apple.com/jp/app/id728214964?l=en) Anime streaming service
 
 
-## Hiking Maps
+## Hiking maps
 
 * 🌎 [YAMAP](https://apps.apple.com/us/app/id558780450?l=en) - Best hiking app for Japanese mountains; mostly in English
 * 🌎 [ヤマレコ 登山・ハイキング地図＆GPSナビ](https://apps.apple.com/us/app/id1121091790?l=en) - Great hiking app but is only in Japanese
 
 
-## Convenience Store
+## Convenience store
 
 * 🌎 [7-Eleven Multicopy](https://apps.apple.com/us/app/id1562641276?l=en)
 * 🌎 [Network Print](https://apps.apple.com/us/app/id454644833?l=en)
