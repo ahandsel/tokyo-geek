@@ -1,6 +1,6 @@
 ---
-title: Start Here - Let's get started with planning your trip to Japan
-description: Step-by-step starting point for planning a trip to Japan, covering booking advice, transportation tips, and idea sources.
+title: Start Here 💪
+description: Let's get started with planning your trip to Japan
 head:
   - - meta
     - name: keywords
@@ -10,7 +10,8 @@ head:
 # {{$frontmatter.title}}
 
 Congratulations on deciding to visit Japan!  
-This guide will help you get started by outlining the key things you need to know before you go.
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -29,7 +30,8 @@ Here are some YouTube channels, ordered by recommendation, that are run by local
 
 ## Book ahead - even before your hotel 🎟️
 
-If you plan to visit during peak season, book tickets for key attractions and experiences far in advance.
+Here are some attractions and experiences in Japan that require advance reservations.
+
 
 Notable places to book ahead:
 
@@ -49,10 +51,9 @@ The Shinkansen is a high-speed train service in Japan that connects major cities
 * [Shinkansen tickets - Klook](https://www.klook.com/japan-rail/shinkansen/) - Tourist-friendly booking option
 
 If you are a local or a long-term resident wanting discounts on Shinkansen tickets, review the following guides:
-
-* [Tokyo to Nagoya Shinkansen options](./bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
-* [Tokyo to Kyoto and Osaka Shinkansen options](./bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
-* [Tokyo to Kanazawa Shinkansen options](./bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
+* [Tokyo to Nagoya Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
+* [Tokyo to Kyoto & Osaka Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
+* [Tokyo to Kanazawa Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
 
 
 ## Events 🗓️
