@@ -16,6 +16,8 @@
   "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false,
   "japanese-proofreading.textlint.全角文字どうし": false,
   "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+  "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
+  "japanese-proofreading.textlint.丸かっこ（）": false,
   "japanese-proofreading.textlint.大かっこ［］": false,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",

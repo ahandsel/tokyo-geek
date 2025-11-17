@@ -1,5 +1,5 @@
 ---
-title: Kyushu trip
+title: Kyushu (九州) Trip
 description: Notes on Kyushu highlights, including Nagasaki, Kumamoto, and Beppu, plus a sample itinerary.
 head:
   - - meta

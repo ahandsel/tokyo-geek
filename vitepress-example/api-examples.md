@@ -32,6 +32,8 @@ const { theme, page, frontmatter } = useData()
 <pre>{{ frontmatter }}</pre>
 ```
 
+<!-- markdownlint-disable MD033-->
+
 <script setup>
 import { useData } from 'vitepress'
 

@@ -6,6 +6,14 @@ Also using the following plugins:
 
 * [VitePress Sidebar - Powerful auto sidebar generator](https://vitepress-sidebar.cdget.com/)
 * [VitePress - Frameworks - Vite PWA](https://vite-pwa-org.netlify.app/frameworks/vitepress.html)
+* [@nolebase/vitepress-plugin-enhanced-readabilities](
+* [@nolebase/vitepress-plugin-meta](
+* [@vite-pwa/assets-generator](
+* [@vite-pwa/vitepress](
+* [vite-plugin-pwa](
+
+* [markdown-link-check](
+* [markdownlint-cli2](
 
 
 ## Dev notes
@@ -25,5 +33,5 @@ Markdown Linting
 Link Checking
 
 ```bash
-find . -name "*.md" -not -path "*/node_modules/*" -print0 | xargs -0 -n1 markdown-link-check --config .linkConfig.json > link-check-output.txt
+markdownlint-cli2 "**/*.md" "#node_modules"
 ```
