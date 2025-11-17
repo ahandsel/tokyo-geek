@@ -1,6 +1,15 @@
-# Tokyo to Kanazawa 🚅
+---
+title: Tokyo to Kanazawa Shinkansen guide 🚅
+description: 'Overview of Hokuriku Shinkansen routes between Tokyo and Kanazawa, plus tips for finding discounted tickets.'
+head:
+  - - meta
+    - name: keywords
+      content: tokyo, kanazawa, shinkansen, tickets, travel
+---
 
-Cheaper Shinkansen tickets between Tokyo and Kanazawa
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -30,7 +39,7 @@ You can also take the Tokaido Shinkansen between Tokyo and Kanazawa via Maibara.
 | Grand Class        | 27,480 yen        |
 
 
-### Cheap tickets options & prices
+### Cheap ticket options and prices
 
 * トクだ値10 (Special Price 10) ¥12,760 Can be purchase by the day before
 * お先にトクだ値30 (First come, first served 30)
@@ -43,7 +52,6 @@ You can also take the Tokaido Shinkansen between Tokyo and Kanazawa via Maibara.
 * Student discount (unreserved seat in a standard-sized car): 12,350 yen
 * JR East Japan Dynamic Rail Pack - Round trip + Hotel Tour
 * All prices are for normal season. Prices may vary depending on the season.
-
 
 * Special Price 10 ¥12,760 Purchase by the day before
 * First come, first served!
@@ -63,14 +71,14 @@ All prices are for normal season. All prices are in normal season and may vary d
 ### How can I get a great ticket between Tokyo and Kanazawa?
 
 
-#### The value of the "Ekinetto Tokudate"
+#### The value of Ekinetto Tokudate
 
 These tickets are available only to members of the JR East website "Eki-net". Anyone can become a member of "Ekinette" for free, so anyone can use "Tokudame-value". A one-way ticket and a reserved-seat express ticket are included in the set, and are available at many stations in the JR East area. Reservations must be made by 1:40 a.m. on the day of the ride. The number of trains and seats is limited. A credit card is required to make reservations and purchases, but all major credit cards are accepted.
 
 →Click here to register as a member of [JR East Ekinet](https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2988224&pid=882534645)
 
 
-##### Ahead of you
+##### Advance purchase discounts
 
 Tickets that can be purchased at least 13 days in advance to receive a 30-35% discount on one of the "Eki-net Tokudade prices". The discount is limited to trains, seats, and areas. Other terms and conditions are the same as for the "Ekinetto Tokudade Price". You can get a 40%-50% discount for a limited time only. 50% discount is not easy to get because they sell out quickly.
 
