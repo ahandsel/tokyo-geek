@@ -7,7 +7,7 @@ const vitePressOptions = {
   title: 'Tokyo Geek',
   description: 'Notes and travel guides for Japan',
   head: [
-    [['link', { rel: 'icon', href: '/favicon.ico' }]],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
       'meta',
       {
