@@ -11,10 +11,6 @@ head:
 
 {{$frontmatter.description}}
 
-# {{$frontmatter.title}}
-
-{{$frontmatter.description}}
-
 
 ## Table of contents <!-- omit in toc -->
 
