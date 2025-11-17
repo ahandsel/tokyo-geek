@@ -8,4 +8,4 @@ order: 0
 
 {{$frontmatter.description}}
 
-<!--@include: ./../../snippets/md-index-list.md-->
+<!-- @include: ./../../snippets/md-index-list.md-->
