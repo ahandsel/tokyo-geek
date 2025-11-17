@@ -12,7 +12,11 @@ head:
 
 {{$frontmatter.description}}
 
-[[toc]]
+## Table of contents <!-- omit in toc -->
+* [Food options in Kichijoji](#food-options-in-kichijoji)
+* [Kichijoji gyms](#kichijoji-gyms)
+* [Flu vaccination clinics in Kichijoji](#flu-vaccination-clinics-in-kichijoji)
+
 
 
 ## Food options in Kichijoji
@@ -42,7 +46,7 @@ For food options in Kichijoji, see the dedicated page: [Food options in Kichijoj
 [snap-website]: https://www.snapfitness.jp/locations/kichijoji/#price
 
 
-## Flu Vaccination Clinics in Kichijoji
+## Flu vaccination clinics in Kichijoji
 
 | English name                    | Japanese name                                          | Address                                                              | Phone number   | Vaccination fee | Eligible age                | Reservation information               | Notes                                                                                                                               |
 | ------------------------------- | ------------------------------------------------------ | -------------------------------------------------------------------- | -------------- | --------------- | --------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
