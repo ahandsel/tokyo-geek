@@ -1,9 +1,20 @@
-# 3-Day Weekend Trip to Chichibu
+---
+title: 3-day weekend trip to Chichibu
+description: Three-day Chichibu getaway plan covering transport, activities, and lodging ideas.
+head:
+  - - meta
+    - name: keywords
+      content: chichibu, trip, itinerary, japan, travel
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## Random Notes
+## Random notes
 
 * Seibu Chichibu Station and Chichibu Station are different stations!
   * Seibu Chichibu Station is for express trains connecting to Ikebukuro Station
@@ -11,7 +22,7 @@
 * Sunsets early since it is in the mountains
 
 
-## Hotel Options
+## Hotel options
 
 * [Daiichi Hotel Chichibu](https://goo.gl/maps/2fKb4LiRj7h28NWL8)
   * 16 min walk from Seibu Chichibu Station
@@ -23,25 +34,28 @@
 ## Day 1
 
 
-### Morning to Afternoon
+### Morning to afternoon
 
 Travel
+
 * Shinjuku Station → Ikebukuro Station via Saikyo Line
 * Ikebukuro Station → Hanno Station via Seibu Ikebukuro Line Limited Express
 * Hanno Station -> Moominvalley Park via `日高線１０武蔵高萩駅行` bus
 
 [MOOMINVALLEY PARK](https://goo.gl/maps/g24BiH8kaPN2D6Jb8)
+
 * ムーミンバレーパーク
 
 
 ### Evening
 
 Travel
+
 * Moominvalley Park → Hanno Station via `秩父鉄道秩父駅行` bus
 * Hanno Station → Seibu Chichibu Station via Seibu Ikebukuro Line Limited Express
 
 * Hotel check-in
-* Explore Chicibu central area
+* Explore Chichibu central area
 
 
 ## Day 2
