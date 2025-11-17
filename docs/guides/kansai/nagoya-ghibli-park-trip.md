@@ -7,6 +7,11 @@ head:
       content: ghibli park, nagoya, travel, tips, lockers
 ---
 
+> [!IMPORTANT]  
+> This is the Studio Ghibli PARK in Nagoya 🏭.  
+> NOT the Studio Ghibli MUSEUM in Tokyo 🗼.
+
+
 # {{$frontmatter.title}}
 
 {{$frontmatter.description}}
@@ -45,6 +50,8 @@ Coin lockers are available within the Aichi Earth Expo Memorial Park but not dir
 ### Coin locker hours
 
 All coin lockers are available from 9:00 to 18:00.
+
+> [!IMPORTANT] Coin lockers closes at 18:00. Be sure to retrieve your belongings before then!
 
 
 ### Nearby coin lockers
