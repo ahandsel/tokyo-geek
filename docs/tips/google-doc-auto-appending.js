@@ -11,10 +11,10 @@
  */
 
 function insertDocContentAfterPhrase() {
-  const srcDocId = "SOURCE_GOOGLE_DOC_ID";
-  const targetDocId = "TARGET_GOOGLE_DOC_ID";
-  const insertLocation = "Insert Below:";
-  const separator = "----------------------";
+  const srcDocId = 'SOURCE_GOOGLE_DOC_ID';
+  const targetDocId = 'TARGET_GOOGLE_DOC_ID';
+  const insertLocation = 'Insert Below:';
+  const separator = '----------------------';
 
   const srcDoc = DocumentApp.openById(srcDocId).getBody();
   const targetBody = DocumentApp.openById(targetDocId).getBody();
@@ -22,10 +22,10 @@ function insertDocContentAfterPhrase() {
   // Find the paragraph index that contains the insert location phrase.
   const targetParagraphs = targetBody.getParagraphs();
   const targetIndex = targetParagraphs.findIndex((paragraph) =>
-    paragraph.getText().includes(insertLocation)
+    paragraph.getText().includes(insertLocation),
   );
   if (targetIndex === -1) {
-    Logger.log("Phrase not found in the target document.");
+    Logger.log('Phrase not found in the target document.');
     return;
   }
 
@@ -37,7 +37,7 @@ function insertDocContentAfterPhrase() {
 
   // Build an array of source elements using Array.from.
   const srcElements = Array.from({ length: srcDoc.getNumChildren() }, (_, j) =>
-    srcDoc.getChild(j)
+    srcDoc.getChild(j),
   );
 
   // Helper function to insert elements based on type.
@@ -62,7 +62,7 @@ function insertDocContentAfterPhrase() {
         break;
       }
       default:
-        console.log("Element type not supported: " + element.getType());
+        console.log('Element type not supported: ' + element.getType());
         targetBody.insertParagraph(index, element.copy()); // Insert as a paragraph by default.
         break;
     }
@@ -74,5 +74,5 @@ function insertDocContentAfterPhrase() {
     insertIndex++;
   });
 
-  Logger.log("Content inserted successfully after the target phrase.");
+  Logger.log('Content inserted successfully after the target phrase.');
 }

@@ -1,9 +1,20 @@
-# Trip to Nagoya
+---
+title: Trip to Nagoya
+description: Notes on traveling to Nagoya, including transport options, attractions, and routes onward to Takayama.
+head:
+  - - meta
+    - name: keywords
+      content: nagoya, trip, itinerary, transport, japan
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## Tokyo to Nagoya Transport
+## Tokyo to Nagoya transport
 
 | Price      | Method     | Time     | Note |
 | ---------- | ---------- | -------- | ---- |
@@ -12,7 +23,7 @@
 For more details, please refer to [Shinkansen_Discount_Tokyo_Nagoya.md](./bullet-train-shinkansen/shinkansen-tokyo-nagoya.md).
 
 
-## Nagoya Attractions
+## Nagoya attractions
 
 
 ### Ghibli Park
@@ -25,6 +36,7 @@ For more details, please refer to [Shinkansen_Discount_Tokyo_Nagoya.md](./bullet
 ## Things to do
 
 Nagoya City Science Museum
+
 * <https://maps.app.goo.gl/z7MGmBTTwmQYf2fk9>
 * <https://www.instagram.com/reel/C3ckS0XylUI/?igsh=d2E0aTQ1eXVzZ2Fi>
 
@@ -34,7 +46,7 @@ Nagoya City Science Museum
 [Sanco Inn Nagoya Fushimi](https://maps.app.goo.gl/gU92PazMjTTagJx47)
 
 
-## Nagoya to Takayama Transport
+## Nagoya to Takayama transport
 
 | Price     | Method             | Time        | Note       |
 | --------- | ------------------ | ----------- | ---------- |
@@ -42,7 +54,7 @@ Nagoya City Science Museum
 | 6,340 yen | JR Limited Express | 2.5 hrs     | +3,240 yen |
 
 
-## Takayama to Tokyo Transport
+## Takayama to Tokyo transport
 
 | Price      | Method                     | Time        | Note        |
 | ---------- | -------------------------- | ----------- | ----------- |
@@ -51,14 +63,15 @@ Nagoya City Science Museum
 | 17,180 yen | Train via Toyama 4 ~ 5 hrs | 2 transfers | +10,180 yen |
 
 
-### Bus Method
+### Bus method
 
 ⚠️ Make sure that you are able to get back home from Shinjuku station.
 
 
-### Bus + Train via Matsumoto Method
+### Bus + train via Matsumoto method
 
 Takayama to Matsumoto Bus
+
 * 16:50 - 19:23
 * Bus Number: TB001
 * Company: Alpico
@@ -67,10 +80,11 @@ Takayama to Matsumoto Bus
   * Buy the ticket on the day before boarding the bus.
 
 Matsumoto to Tokyo Train
+
 * 20:00 - 21:30
 
 
-## Takayama Attractions
+## Takayama attractions
 
 * Old Town - Beautifully preserved old town
 * Hida Folk Village - Wonderful open air museum

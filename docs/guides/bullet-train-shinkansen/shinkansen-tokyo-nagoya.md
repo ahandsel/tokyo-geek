@@ -1,5 +1,5 @@
 ---
-title: Tokyo to Nagoya Shinkansen guide
+title: Tokyo to Nagoya Shinkansen guide 🚅
 description: Comparison of Shinkansen travel times and discounted ticket options between Tokyo and Nagoya.
 head:
   - - meta
@@ -52,7 +52,6 @@ Please see [Platto Kodama Reserved Seat Plan](https://www.jrtours.co.jp/service/
 [EXこだまファミリー早特 - エクスプレス予約 新幹線の会員制ネット予約](https://expy.jp/product/ex_kodamafamily_hayatoku/)
 
 Excluded dates for 2023
-
 * Express reservation / `エクスプレス予約`
   * 4/28 (Fri) - 5/7 (Sun)
   * 8/9 (Wed) - 8/16 (Wed)

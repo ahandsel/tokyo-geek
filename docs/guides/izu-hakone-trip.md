@@ -1,9 +1,20 @@
-# Izu/Hakone Weekend Trip Itinerary
+---
+title: Izu and Hakone weekend trip itinerary
+description: Sample three-day itinerary that covers Shuzenji, Mishima Skywalk, and Hakone attractions.
+head:
+  - - meta
+    - name: keywords
+      content: izu, hakone, itinerary, weekend trip, japan
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## Friday - Head to and Explore Shuzenji
+## Friday - head to and explore Shuzenji
 
 
 ### Morning
@@ -34,7 +45,7 @@
 * [Stay at Onsen Yado Mizuguchi / 茶処・温泉宿水ぐち](https://goo.gl/maps/ti4YN2V9TAAPcoFM7)
 
 
-## Saturday - Head to Hakone
+## Saturday - head to Hakone
 
 
 ### Morning
@@ -63,7 +74,7 @@
 * Stay overnight at Hakone
 
 
-## Sunday - Explore Hakone and Return to Tokyo
+## Sunday - explore Hakone and return to Tokyo
 
 
 ### Morning
@@ -87,7 +98,8 @@
 
 ### Evening
 
-Return to Shinjuku via the Romance Car
+Return to Shinjuku via the Romance Car.
+
 * Reserve Romance Car from Hakone to Shinjuku via [www.web-odakyu.com/e-romancecar/](https://www.web-odakyu.com/e-romancecar/?language=en)
 
 

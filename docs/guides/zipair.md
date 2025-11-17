@@ -1,6 +1,15 @@
-# ZIPAIR tips
+---
+title: ZIPAIR tips
+description: Practical notes on flying ZIPAIR, including seat selection, meals, and luggage policies.
+head:
+  - - meta
+    - name: keywords
+      content: zipair, airline, tips, flights, japan
+---
 
-Here are some quick tips for using the ZIPAIR airline.
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 

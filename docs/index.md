@@ -43,4 +43,3 @@ features:
     details: Quick breakdown of neighborhoods by what they are known for
     link: /guides/tokyo-neighborhoods
 ---
-

@@ -1,4 +1,15 @@
-# Kamakura (鎌倉) & Enoshima (江の島)
+---
+title: Kamakura and Enoshima
+description: Things to do, passes to buy, and places to stay when visiting Kamakura (鎌倉) and Enoshima (江の島).
+head:
+  - - meta
+    - name: keywords
+      content: kamakura, enoshima, travel, itinerary, japan
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -36,7 +47,7 @@
 * [How to get to and around Kamakura: Access, Orientation and Transportation](https://www.japan-guide.com/e/e3115.html)
 
 
-## EMOT Deals
+## EMOT deals
 
 * ⚠️ Website and App are in Japanese
 * Download the [EMOT App](https://www.emot.jp)
@@ -75,7 +86,7 @@
 ## Hotels
 
 
-### Kamakura Cheap Hotel
+### Kamakura budget hotels
 
 * [Sotetsu Fresa Inn Kamakura-Ofuna Higashiguchi](http://www.booking.com/Share-DTHGk5)
 * [Hotel Wing International Shonan Fujisawa](http://www.booking.com/Share-HlgbVw)

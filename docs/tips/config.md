@@ -1,13 +1,19 @@
 ---
 title: Figma's Config conference tips
-description: Tips and suggestions when attending Figma's Config conference.
+description: Tips and suggestions for attending Figma's Config conference.
+head:
+  - - meta
+    - name: keywords
+      content: figma, config, conference, tips, networking
 ---
 
 # {{$frontmatter.title}}
 
-Here are my quick notes after attending the [Config 2024](https://youtube.com/playlist?list=PLXDU_eVOJTx402DljIPagaDKLibF-qfF0&feature=shared) conference.
+{{$frontmatter.description}}
 
 [[toc]]
+
+Here are some quick notes after attending the [Config 2024](https://youtube.com/playlist?list=PLXDU_eVOJTx402DljIPagaDKLibF-qfF0&feature=shared) conference.
 
 
 ## Conference prep
@@ -49,6 +55,7 @@ Here are some tips to help you get the most out of the Config conference.
 ### Coffee spots
 
 Grab coffee before heading to the conference. Here are some spots I recommend:
+
 * [Bean Bar Cafe](https://maps.app.goo.gl/VA3MK2GYsk35F2Ue6) - best coffee in my opinion.
 * [SFMOMA Steps Coffee](https://maps.app.goo.gl/9cPANQ3ehjReRufd9)
 * [Starbucks - 789 Mission St](https://maps.app.goo.gl/B3382mHnn7myBab38) - mobile ordering is your friend here.

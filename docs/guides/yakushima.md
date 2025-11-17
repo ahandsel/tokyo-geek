@@ -1,6 +1,10 @@
 ---
 title: Yakushima guide
 description: Yakushima is a lush, subtropical island located off the southern coast of Kyushu, Japan. Covered in ancient cedar forests, Yakushima is a UNESCO World Heritage site and is known for its stunning natural beauty, diverse ecosystems, and unique wildlife.
+head:
+  - - meta
+    - name: keywords
+      content: yakushima, travel, japan, hiking, itinerary
 tags:
   - yakushima
   - travel
@@ -9,11 +13,15 @@ tags:
   - nature
 ---
 
-# Yakushima guide
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
+
+[[toc]]
 
 ![Photo of Green slopes of Yakushima by Marek Piwnicki](https://images.unsplash.com/flagged/photo-1579554712569-f5552b2a41da?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-* Photo of Green slopes of Yakushima by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki) on [Unsplash](https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs)
 
+* Photo of Green slopes of Yakushima by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki) on [Unsplash](https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs)
 
 Yakushima (`屋久島`) is a lush, subtropical island located off the southern coast of Kyushu, Japan.
 

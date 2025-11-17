@@ -1,6 +1,17 @@
-# Notes for expats living in Japan
+---
+title: Notes for expats living in Japan
+description: Collection of local notes for residents, including taxes, shipping, and neighborhood guides.
+head:
+  - - meta
+    - name: keywords
+      content: japan, expats, living, furusato, shipping
+---
 
-Here are some notes that may be useful for expats living in Japan.
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
+
+[[toc]]
 
 
 ## Furusato nozei

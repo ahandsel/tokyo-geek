@@ -1,13 +1,22 @@
-# Ideas for a Trip to Wakayama Prefecture, Japan
+---
+title: Wakayama Prefecture trip ideas
+description: Suggested itineraries and places to visit across Wakayama, including Koyasan, Shirahama, and the Kumano Kodo.
+head:
+  - - meta
+    - name: keywords
+      content: wakayama, itinerary, japan, travel, kumano kodo
+---
 
-Wakayama Prefecture, located in the Kansai region of Japan, offers a rich blend of cultural heritage, natural beauty, and culinary delights.
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## One-week Itinerary
+## One-week itinerary
 
-Here's a suggested itinerary that covers a range of activities and sights:
+Here is a suggested itinerary that covers a range of activities and sights:
 
 
 ### Day 1: Arrival in Wakayama City
@@ -59,10 +68,10 @@ Here's a suggested itinerary that covers a range of activities and sights:
 
 * **Transport:** Consider purchasing a Wakayama area rail pass if you plan to travel extensively by train.
 * **Accommodations:** Mix your stays between modern hotels in cities, traditional ryokans in onsen towns, and shukubo in Koyasan for a complete experience.
-* **Food:** Wakayama is famous for its ramen, umeboshi (pickled plums), and mikan (citrus fruits). Don't miss trying these local delicacies.
+* **Food:** Wakayama is famous for its ramen, umeboshi (pickled plums), and mikan (citrus fruits). Do not miss trying these local delicacies.
 
 
-## Things to do in in Wakayama Prefecture
+## Things to do in Wakayama Prefecture
 
 
 ### Adventure World

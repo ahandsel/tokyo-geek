@@ -1,9 +1,17 @@
 ---
 title: Passport renewal via My Number Card
 description: How to renew your Japanese passport using the My Number Card online portal.
+head:
+  - - meta
+    - name: keywords
+      content: passport, renewal, my number card, japan, online application
 ---
 
 # {{$frontmatter.title}}
+
+{{$frontmatter.description}}
+
+[[toc]]
 
 You can renew your Japanese passport online through the [My Number Card portal][] operated by the Digital Agency of Japan.
 
@@ -16,6 +24,7 @@ You can renew your Japanese passport online through the [My Number Card portal][
   * [Preparing for photo and signature capture](#preparing-for-photo-and-signature-capture)
 * [Application process](#application-process)
 * [Confirm your digital certificate for signatures](#confirm-your-digital-certificate-for-signatures)
+* [Signature image requirements](#signature-image-requirements)
 
 
 ## About passport renewal applications
@@ -55,13 +64,16 @@ The following individuals are eligible to apply:
 
 ## Application process
 
-Step 1: Pre-application preparation  
+Step 1: Pre-application preparation
+
 * Prepare your facial photograph, signature image, and application information.
 
-Step 2: Application  
+Step 2: Application
+
 * Submit your application using the information prepared in advance.
 
-Step 3: Confirmation of application status  
+Step 3: Confirmation of application status
+
 * After you submit your application, you can check the subsequent procedures and the status of your application in the To-do list.
 * Follow the guidance to pay the fees and receive your passport.
 
@@ -84,8 +96,29 @@ Please confirm the password (6 to 16 characters) for your digital certificate fo
 * If you have forgotten your password, you can reset it at the municipal office of your registered residence, or by downloading the dedicated application and using a kiosk terminal at a convenience store.
 * [Initialize signature password at a convenience store][]
 
+
+## Signature image requirements
+
+Example of an acceptable image
+
+* The signature is written by the person.
+* The signature is fully visible and not cut off.
+* The background is plain white.
+* There are no stains, marks, or other blemishes on the background.
+* The signature is written in dark black or blue ink.
+* If the person is unable to sign, the legal representative must sign on their behalf.
+
+![Sample image of a person's signature][passport-renewal-signature-sample]
+
+File format
+
+* jpeg, jpg
+* Dimensions: Width 788 × height 284 pixels
+* File size: 200 KB or less
+
 [Android version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
 [How to check validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
 [Initialize signature password at a convenience store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
 [iOS version]: https://apps.apple.com/jp/app/id1476359069
 [My Number Card portal]: https://myna.go.jp/html/passport_information.html
+[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png

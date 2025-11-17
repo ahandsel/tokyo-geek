@@ -1,4 +1,15 @@
-# Places to book ahead for a Japan Trip
+---
+title: Places to book ahead for a Japan trip
+description: Attractions in Japan that require advance reservations, including booking windows and tips.
+head:
+  - - meta
+    - name: keywords
+      content: japan, booking, reservations, attractions, travel
+---
+
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -16,7 +27,7 @@
 * English ticketing website: [klook.com/en-US/activity/132673-ghibli-park-ticket/](https://www.klook.com/en-US/activity/132673-ghibli-park-ticket/)
 
 
-## 1 Month ahead
+## 1 month ahead
 
 
 ### Ghibli Museum
@@ -28,23 +39,27 @@
 * Price (Adult): 1000 yen
 
 🗓️ When to make reservations?
+
 * You can buy tickets 1 month ahead of time.
 * Tickets are released at 10:00 JST on the 10th of each month.
 * Example: October tickets are released on September 10th at 10:00 JST.
 
 ⚙️ How to buy tickets
+
 1. Create a Japanese Lawson Account (`ローソンWEB会員`): <https://l-tike.com/login/newcustomer/>
 1. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/)
 1. Find the month you want to go (e.g. `8/2(水)～8/31(木)入場分` for August)
 1. Click on `詳細はこちら`
 
 Electronic Ticket vs Paper Ticket
+
 * Electronic Ticket: Reservations must be made on [ローチケ電子チケット](https://l-tike.com/e-tike/navi/guide/configuration.html) App
   * iOS: [ローチケ電子チケット on the App Store](https://apps.apple.com/us/app/id1175974437)
   * Google Play: [ローチケ電子チケット - Apps on Google Play](https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en)
 * Paper Ticket: Reserve online and then go to a Lawson store to print out the ticket
 
 Day of the visit
+
 * Go to the museum at the designated time (e.g. `10:00 ~ 10:30`).
   * Must enter within 1 hour of the designated time.
   * You might be able to enter earlier than the designated time if there is space.
@@ -58,9 +73,11 @@ Day of the visit
 * Near Station: [Nihombashi Station / 日本橋駅](https://goo.gl/maps/saACJmzrkjbL3LJ66)
 
 🗓️ When to make reservations?
+
 * You can reserve exactly 1 month ahead of time. (e.g. For August 1st, you can reserve from July 1st)
 
 ⚙️ How to make reservations?
+
 * Go to <https://reserve.pokemon-cafe.jp/>
 * Check the `同意する` box and click `同意して進む` button
 * Click the `選択してください` dropdown and select the number of people
@@ -73,6 +90,7 @@ Day of the visit
 * Select a time
 
 Additional Notes:
+
 * You can try calling the cafe to see if there are any cancellations on the day of.
   * `+81 0362623439`
 
@@ -96,10 +114,12 @@ Additional Notes:
 * Near Station: [Shin-Toyosu Station / 新豊洲駅](https://goo.gl/maps/D28H5c61SMYksVCd8)
 
 🗓️ When to make reservations?
+
 * Tickets are released roughly 3 months ahead of time.
   * Example: Tickets for October will be available starting late-July.
 
 ⚙️ How to make reservations?
+
 * <https://teamlabplanets.dmm.com/en> and click on `Buy a Ticket`
 
 

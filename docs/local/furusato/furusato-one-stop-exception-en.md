@@ -1,8 +1,19 @@
-# Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form - Hometown Tax Website "Satoru"
+---
+title: Introduction to the hometown tax one-stop special exception system and special application form
+description: English overview of the hometown tax one-stop special exception system, including eligibility, benefits, and filing steps.
+head:
+  - - meta
+    - name: keywords
+      content: hometown tax, one-stop, exception, japan, guide
+---
 
-* Hometown tax payment site: [さとふる / Satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
+
+* Hometown tax payment site: [さとふる / Satofull](https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html)
 
 
 ## Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form
@@ -37,7 +48,8 @@ The One-Stop Special Exception System is available if the following conditions a
 2. No other income or residential tax filings are required besides the Hometown Tax donation.
 3. Donations were made to five or fewer municipalities within the year.
 
-In simpler terms, this system is available to those with no other tax filings outside of Hometown Tax donations. Most salaried employees will qualify without issue.  
+In simpler terms, this system is available to those with no other tax filings outside of Hometown Tax donations. Most salaried employees will qualify without issue.
+
 * **Note:** Even if you donate more than five times, as long as the donations are made to five or fewer municipalities, you can use the One-Stop Special Exception System.
 
 * **Based on regulations as of August 17, 2022; changes may occur due to future revisions.**
@@ -47,11 +59,11 @@ In simpler terms, this system is available to those with no other tax filings ou
 
 #### ⚠️ Important Points for the One-Stop Special Exception System
 
-* Only applicable to residential tax deductions  
+* Only applicable to residential tax deductions
   * **Note:** When not exceeding the deduction limit for income tax, there is generally no difference in the total deduction between the One-Stop Special Exception System and tax returns.
-* A separate One-Stop Special Application Form is required for each donation made  
-* Be mindful of the deadline for submitting the "One-Stop Special Application for Deduction of Donations"  
-* If your application details change, submit the "Notification of Change in Application Details" by the deadline  
+* A separate One-Stop Special Application Form is required for each donation made
+* Be mindful of the deadline for submitting the "One-Stop Special Application for Deduction of Donations"
+* If your application details change, submit the "Notification of Change in Application Details" by the deadline
 * Filing a tax return invalidates the One-Stop Special Exception application
 
 
@@ -69,7 +81,7 @@ If you miss the deadline, you must file a tax return to claim the deduction.
 
 ## STEP 1
 
-![STEP1](./img/bar-step-01.png)  
+![STEP1](./img/bar-step-01.png)
 
 
 ### Gather the Required Documents
@@ -114,7 +126,7 @@ Please prepare the documents using one of the following methods:
 
 ## STEP 2
 
-![STEP2](./img/bar-step-02.png)  
+![STEP2](./img/bar-step-02.png)
 
 
 ### Complete the Application Form
@@ -127,7 +139,7 @@ Refer to the sample form for guidance.
 
 ## STEP 3
 
-![STEP3](./img/bar-step-03.png)  
+![STEP3](./img/bar-step-03.png)
 
 
 ### Mail the Documents to Each Municipality by the Deadline
@@ -166,6 +178,7 @@ Here is an overview of the key differences.
 | Application Deadline | February 16 to March 15 of the following year | January 10 of the following year                                                |
 
 Eligible Taxes and Deduction Amounts
+
 * Tax deductions vary by method. A tax return allows deductions from both income and residential taxes, whereas the One-Stop Special Exception System only applies to residential tax.
 * For deductions near the maximum limit, both methods yield nearly identical results in deduction amounts.
 
@@ -180,4 +193,3 @@ Eligible Taxes and Deduction Amounts
 
 * **When will I receive the application form?**  
   Some municipalities do not mail the form. In that case, download the form for submission.
-
