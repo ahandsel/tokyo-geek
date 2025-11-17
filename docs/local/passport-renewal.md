@@ -70,6 +70,7 @@ Step 1: Pre-application preparation
 
 Step 2: Application
 
+* Access the [My Number Card portal][] and start the passport renewal application.
 * Submit your application using the information prepared in advance.
 
 Step 3: Confirmation of application status
