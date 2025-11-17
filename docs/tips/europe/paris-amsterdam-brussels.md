@@ -4,8 +4,7 @@ description: Notes for planning a combined trip to Paris, Amsterdam, and Brussel
 head:
   - - meta
     - name: keywords
-      content: paris, amsterdam, brussels, travel, itinerary
-tags: [travel, europe]
+      content: paris, amsterdam, brussels, travel, itinerary, europe
 ---
 
 # {{$frontmatter.title}}

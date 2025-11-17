@@ -4,9 +4,7 @@ description: "Figma plugins that help UX writers move faster when editing copy i
 head:
   - - meta
     - name: keywords
-      content: figma, plugins, ux writing, design, tips
-date: "2025-05-14"
-tags: [tips, figma, ux-writing]
+      content: figma, plugins, ux writing, design, tips, tips, figma, ux-writing
 ---
 
 # {{$frontmatter.title}}

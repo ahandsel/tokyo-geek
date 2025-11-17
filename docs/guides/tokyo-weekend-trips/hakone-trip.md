@@ -1,9 +1,6 @@
 ---
 title: Hakone weekend trip
-description: Notes on a weekend trip to Hakone from Tokyo
-layout: doc
-outline: deep
-footer: true
+description: Enjoy a long weekend in Hakone with hiking, art museums, hot springs, and views of Mount Fuji.
 ---
 
 # Weekend in Hakone
@@ -24,13 +21,24 @@ Enjoy a long weekend in Hakone (箱根) with hiking, art museums, hot springs, a
 
 ## Table of contents <!-- omit in toc -->
 
+* [TL;DR](#tldr)
 * [Great things about Hakone](#great-things-about-hakone)
 * [Plan ahead](#plan-ahead)
 * [Tips for visiting Hakone](#tips-for-visiting-hakone)
 * [Cool places to visit in Hakone](#cool-places-to-visit-in-hakone)
 * [Hotels](#hotels)
+  * [Irori Guesthouse Tenmaku](#irori-guesthouse-tenmaku)
+  * [Yumoto station Hotel Mirahakone](#yumoto-station-hotel-mirahakone)
+  * [K's House Hakone](#ks-house-hakone)
+  * [Yutorelo-an Annex](#yutorelo-an-annex)
 * [Transportation](#transportation)
+  * [Getting to Hakone from Tokyo](#getting-to-hakone-from-tokyo)
+  * [Hakone Freepass - discounts and passes](#hakone-freepass---discounts-and-passes)
+  * [Paper version of the Hakone Freepass](#paper-version-of-the-hakone-freepass)
 * [Itinerary ideas](#itinerary-ideas)
+  * [Day 1: Tokyo to Hakone](#day-1-tokyo-to-hakone)
+  * [Day 2: Hakone sightseeing](#day-2-hakone-sightseeing)
+  * [Day 3: Hakone to Tokyo](#day-3-hakone-to-tokyo)
 * [Klooks and Asoview](#klooks-and-asoview)
 
 
@@ -76,7 +84,7 @@ Other popular locations:
 * [Hakone Shrine / 箱根神社][hakone-shrine] - historic Shinto shrine on the shores of Lake Ashi.
 * [Forest Adventure Hakone / フォレストアドベンチャー・箱根][forest-adventure] - outdoor adventure park with zip lines and obstacle courses.
 * [Hakone Kowakien Yunessun](https://maps.app.goo.gl/45ivQxjay29eFPwe9) - Water park with pools and slides. Recommended for families with children. Not recommended for couples or adults.
-* [Mount Ashigara (Kintoki-yama)](https://maps.app.goo.gl/7o6Yt6o9o5v3o8kR7)
+* [Mount Ashigara (Kintoki-yama)](https://maps.app.goo.gl/KGaKFySYQstNo7Q36)
 
 
 ## Hotels

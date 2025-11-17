@@ -2,10 +2,10 @@
 title: How to renew Japanese visa online with a Mac
 description: A step-by-step guide to renewing your Japanese visa online using a Mac.
 order: 1
-layout: doc
-outline: deep
-footer: true
-tags: [visa-renewal, mac, windows-vm, my-number-card, jpki]
+head:
+  - - meta
+    - name: keywords
+      content: visa-renewal, mac, windows-vm, my-number-card, jpki,
 ---
 
 # How to renew Japanese visa online with a Mac

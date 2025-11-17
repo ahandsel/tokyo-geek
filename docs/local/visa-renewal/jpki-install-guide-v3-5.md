@@ -1,11 +1,11 @@
 ---
 title: "JPKI利用者ソフトVer3.5 インストール手順書"
-layout: doc
-outline: deep
-footer: true
+description: Original version of the JPKI User Software Ver.3.5 installation guide.
 ---
 
-# JPKI利用者ソフトVer3.5 インストール手順書
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->

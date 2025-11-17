@@ -1,11 +1,9 @@
 ---
 title: "JPKI User Software Ver.3.5 Installation Guide"
-layout: doc
-outline: deep
-footer: true
+description: English machine translation of the JPKI User Software Ver.3.5 installation guide.
 ---
 
-# JPKI User Software Ver.3.5 Installation Guide
+# {{$frontmatter.title}}
 
 This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](jpki-install-guide-v3-5.md).
 

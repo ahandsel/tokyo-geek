@@ -1,6 +1,6 @@
 ---
 title: 3-day weekend trip to Chichibu
-description: Three-day Chichibu getaway plan covering transport, activities, and lodging ideas.
+description: A nice nature escape from Tokyo to the mountains of Chichibu where you can enjoy hiking, parks, hot springs, and more.
 head:
   - - meta
     - name: keywords

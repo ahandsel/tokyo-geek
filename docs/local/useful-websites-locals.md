@@ -2,11 +2,10 @@
 title: Useful Websites for Locals
 description: Useful websites for living and traveling in Japan.
 order: 3
-tags: [local, website]
 head:
   - - meta
     - name: keywords
-      content: tokyo, websites, locals, travel, living
+      content: tokyo, websites, locals, travel, living, local, website
 ---
 
 # {{$frontmatter.title}}

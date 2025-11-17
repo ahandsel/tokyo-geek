@@ -2,9 +2,6 @@
 title: Furusato Nozei - Hometown Tax System
 description: Notes and terminology related to the Furusato nozei system in Japan
 order: 1
-layout: doc
-outline: deep
-footer: true
 ---
 
 # Furusato Nozei - Hometown Tax System
@@ -12,7 +9,7 @@ footer: true
 
 ## Terminology
 
-* Salary income (給与収入, kyūyo shūnyū)
+* Salary income (`給与収入`, kyūyo shūnyū)
   * Salary income refers to the total gross income received from employment before deductions (such as social insurance or income tax).
 * Employment income (給与所得, kyūyo shotoku)
   * Employment income is the amount after subtracting the employment income deduction from the salary income.
@@ -34,3 +31,8 @@ footer: true
 [ふるさと納税の限度額を計算！控除上限額シミュレーション | ふるさと納税サイト「ふるなび」](https://furunavi.jp/deduction.aspx)
 
 [ふるさと納税における「年収」とは？正しい確認方法と控除額の調べ方を解説 ｜ ふるラボ](https://furusato.asahi.co.jp/howto/other/post-607/)
+
+
+## Related guides
+
+<!-- @include: ./../../snippets/md-index-list.md-->

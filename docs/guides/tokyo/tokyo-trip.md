@@ -35,7 +35,7 @@ teamLab Planets
 
 Pokémon Café / ポケモンカフェ
 
-* [Pokémon Cafe](https://www.pokemoncenter-online.com/cafe/en/)
+* [Pokémon Cafe](https://reserve.pokemon-cafe.jp/)
 * Maps: <https://goo.gl/maps/k8ytHdMW9WRqatSE6>
 
 Ghibli Museum / 三鷹の森ジブリ美術館

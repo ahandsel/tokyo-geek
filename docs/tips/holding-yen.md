@@ -1,8 +1,10 @@
 ---
 title: Yen & Moving Out of Japan
 description: How to hold yen when moving out of Japan.
-tags: [finance, japan, tips]
-date: 2025-07-04
+head:
+  - - meta
+    - name: keywords
+      content: finance, japan, tips
 ---
 
 # How to hold yen when moving out of Japan
