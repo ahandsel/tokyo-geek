@@ -3,8 +3,8 @@ title: Tokyo to Nagoya Shinkansen guide
 description: Comparison of Shinkansen travel times and discounted ticket options between Tokyo and Nagoya.
 head:
   - - meta
-  - name: keywords
-    content: tokyo, nagoya, shinkansen, tickets, travel
+    - name: keywords
+      content: tokyo, nagoya, shinkansen, tickets, travel
 ---
 
 # {{$frontmatter.title}}
