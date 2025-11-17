@@ -64,8 +64,8 @@ title: 'Document title'
 description: 'Brief description of the document.'
 head:
   - - meta
-  - name: keywords
-    content: sample, keywords
+    - name: keywords
+      content: sample, keywords
 ---
 
 # {{$frontmatter.title}}
@@ -83,8 +83,8 @@ title: Europe travel tips
 description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
 head:
   - - meta
-  - name: keywords
-    content: travel, europe, tips, esim, eurostar, packing
+    - name: keywords
+      content: travel, europe, tips, esim, eurostar, packing
 ---
 
 # {{$frontmatter.title}}
