@@ -2,8 +2,8 @@ name: Auto-Update VitePress
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # Runs every Monday at midnight UTC
-  workflow_dispatch:  # Allows manual trigger
+    - cron: '0 0 * * 1' # Runs every Monday at midnight UTC
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-vitepress:
@@ -39,7 +39,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          branch: "update/vitepress"
-          title: "Update VitePress to Latest Version"
-          body: "This PR updates VitePress to the latest version."
-          labels: "dependencies"
+          branch: 'update/vitepress'
+          title: 'Update VitePress to Latest Version'
+          body: 'This PR updates VitePress to the latest version.'
+          labels: 'dependencies'
