@@ -11,7 +11,14 @@ head:
 
 {{$frontmatter.description}}
 
-[[toc]]
+
+## Table of contents <!-- omit in toc -->
+
+* [Japan Post - international mail](#japan-post---international-mail)
+* [International Mail My Page Service](#international-mail-my-page-service)
+  * [Tips for using Japan Post](#tips-for-using-japan-post)
+  * [Demo](#demo)
+  * [jp-post-contact-upload csv file](#jp-post-contact-upload-csv-file)
 
 
 ## Japan Post - international mail
@@ -32,7 +39,7 @@ head:
   * Service Hours
     * Weekdays: 8:00～21:00
     * Saturdays, Sundays, and holidays: 9:00～21:00
-* Upload contacts in bulk using [jp-post-contact-upload.csv](./global-shipping/jp-post-contact-upload.csv)
+* Upload contacts in bulk using [jp-post-contact-upload.csv](#jp-post-contact-upload-csv-file) as a template.
 * As of March 29, 2021, JAPAN POST is only sending [Small Packets](https://www.post.japanpost.jp/int/service/small_packing_en.html) to USA.
   * Although the default option for [International Mail My Page Service](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do) is the `International ePacket`, this is not available!
 * The type of Shipping: [Small Packets](https://www.post.japanpost.jp/int/service/small_packing_en.html) & `AIR`
@@ -41,7 +48,7 @@ head:
 ### Tips for using Japan Post
 
 * Upload contacts in bulk using the add [Address book](https://www.post.japanpost.jp/intmypage/address_en.html) feature.
-  * Use [jp-post-contact-upload.csv](./global-shipping/jp-post-contact-upload.csv) as a template
+  * Use [jp-post-contact-upload.csv](#jp-post-contact-upload-csv-file) as a template.
   * Make sure all text is inside quotes (`"`) and no space between the quotes & comma (`","`)
   * First line should contain the header:
 
@@ -73,3 +80,10 @@ Pages went over by the demo videos:
 9. Save & Print Label
 
 ![global-shipping-demo.gif](./global-shipping/global-shipping-demo.gif)
+
+
+### jp-post-contact-upload csv file
+
+```csv
+<!--@include: ./global-shipping/jp-post-contact-upload.csv-->
+```

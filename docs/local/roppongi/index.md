@@ -1,7 +1,10 @@
 ---
 title: Roppongi Neighborhood
 description: Notes on the Roppongi neighborhood in Tokyo.
-tags: [roppongi, neighborhood, local]
+head:
+  - - meta
+    - name: keywords
+      content: roppongi, neighborhood, local
 ---
 
 # Roppongi Neighborhood

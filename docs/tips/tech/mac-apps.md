@@ -1,12 +1,30 @@
 ---
 title: My Favorite Mac Apps
 description: A list of great apps for Mac users.
-tags: [mac, apps, productivity, utilities, brew]
+head:
+  - - meta
+    - name: keywords
+      content: mac, apps, productivity, utilities, brew
 ---
 
 # {{$frontmatter.title}}
 
 Here are some of my favorite apps for Mac users. Hopefully, you find them useful too!
+
+
+## Table of contents <!-- omit in toc -->
+
+* [Security and Privacy](#security-and-privacy)
+* [Brewlist](#brewlist)
+  * [Productivity \& Utilities](#productivity--utilities)
+  * [Web Browsers](#web-browsers)
+  * [Communication \& Collaboration](#communication--collaboration)
+  * [Design \& Media](#design--media)
+  * [Entertainment](#entertainment)
+  * [Development Tools](#development-tools)
+    * [Markdown Tools](#markdown-tools)
+  * [Fonts](#fonts)
+* [Brewfile](#brewfile)
 
 
 ## Security and Privacy
@@ -16,7 +34,7 @@ Here are some of my favorite apps for Mac users. Hopefully, you find them useful
 
 ## Brewlist
 
-See my [Brewfile](../../Brewfile) to install these apps using Homebrew.
+See my [Brewfile](#brewfile) to install these apps using Homebrew.
 
 
 ### Productivity & Utilities
@@ -89,3 +107,11 @@ See my [Brewfile](../../Brewfile) to install these apps using Homebrew.
 * `font-fira-code` - **Fira Code** - Monospaced font with programming ligatures for clearer code.
 * `font-hack-nerd-font` - **Hack Nerd Font** - Patched font with additional glyphs for development.
 * `font-open-dyslexic-nerd-font` - **OpenDyslexic Nerd Font** - Dyslexia-friendly font with Nerd Font icons.
+
+
+## Brewfile
+
+
+```txt
+<!-- @include: ./Brewfile -->  
+```

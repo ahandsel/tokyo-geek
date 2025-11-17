@@ -1,6 +1,6 @@
 ---
 title: Kamakura and Enoshima
-description: Things to do, passes to buy, and places to stay when visiting Kamakura (鎌倉) and Enoshima (江の島).
+description: Discover historic temples and coastal charm in Kamakura (鎌倉) and Enoshima (江の島).
 head:
   - - meta
     - name: keywords

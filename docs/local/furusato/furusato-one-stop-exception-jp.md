@@ -13,7 +13,7 @@ head:
 
 * 監修: セブンセンス税理士法人
 * 公認会計士・税理士: 大野 修平
-* ふるさと納税サイト: [さとふる](https://www.satofull.jp/miniapp/pages/static-onestop/static-onestop.html)
+* ふるさと納税サイト: [さとふる](https://www.satofull.jp/static/onestop.php)
 
 [[toc]]
 

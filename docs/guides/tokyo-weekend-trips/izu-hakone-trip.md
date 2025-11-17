@@ -1,6 +1,6 @@
 ---
 title: Izu and Hakone weekend trip itinerary
-description: Sample three-day itinerary that covers Shuzenji, Mishima Skywalk, and Hakone attractions.
+description: Itinerary for a long weekend trip to Izu peninsula and Hakone from Tokyo that covers Shuzenji, Mishima Skywalk, and Hakone attractions.
 head:
   - - meta
     - name: keywords
