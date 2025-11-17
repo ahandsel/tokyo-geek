@@ -52,8 +52,8 @@ head:
 * 🌎 [KuronekoyamatoOfficialApp](https://apps.apple.com/us/app/id484435888?l=en)
 * 🌎 [mymizu](https://apps.apple.com/us/app/id1480535233?l=en) - Find the nearest place to refill your water bottle
 * 🌎 [アイカサ -傘レンタルアプリ- iKASA](https://apps.apple.com/us/app/id1506370081?l=en)
-* 🌎 [KuronekoyamatoOfficialApp](https://apps.apple.com/jp/app/id484435888?l=en)
 * 🌎 [電話帳ナビ－迷惑電話を着信拒否（迷惑電話ブロック）](https://apps.apple.com/us/app/id1024396744?l=en)
+
 
 ## Food
 
@@ -85,6 +85,7 @@ head:
   * Helpful for train transfers; Japan Rail Pass filter
 * 🇯🇵 [えきねっとアプリ 新幹線・特急列車の予約](https://apps.apple.com/jp/app/id1484923959?l=en)
 * 🇯🇵 [EMot（エモット）特急券購入や旅行チケット予 約・購入](https://apps.apple.com/jp/app/id1472652885?l=en) - Buy discounted tickets for Hakone, Hamamatsu, Enoshima, and Kamakura areas
+
 
 ### Taxi 🚕
 
