@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, travel planning, itinerary, booking, transportation
+order: 0
 ---
 
 # {{$frontmatter.title}}
