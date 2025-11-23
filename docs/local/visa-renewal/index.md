@@ -154,7 +154,7 @@ As you can image, this is Japanese government made software - not only do you ne
    * Go to `Control Panel` > `Region` > `Administrative` tab.
    * Click `Change system locale...` and select `Japanese (Japan)`.
    * Apply the changes and restart your computer.
-   * ![windows-non-unicode-programs-settings.png](../../img/windows-non-unicode-programs-settings.png)
+   * ![windows-non-unicode-programs-settings.png](../../public/windows-non-unicode-programs-settings.png)
 
 2. Change language and region settings to Japanese.
    * Go to `Settings` > `Time & Language` > `Language` > `Preferred languages`.
@@ -162,7 +162,7 @@ As you can image, this is Japanese government made software - not only do you ne
    * Install the Japanese language pack.
    * Set it as the primary display language.
    * Apply the changes and restart your computer.
-   * ![windows-language-settings.png](../../img/windows-language-settings.png)
+   * ![windows-language-settings.png](../../public/windows-language-settings.png)
 
 
 ### Watch this video tutorial
@@ -187,7 +187,7 @@ After configuring Windows to Japanese settings, install:
 Run the apps as administrator and allow them to run in the background.
 
 * Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
-* ![windows-run-as-admin-settings.png](../../img/windows-run-as-admin-settings.png)
+* ![windows-run-as-admin-settings.png](../../public/windows-run-as-admin-settings.png)
 
 > [!WARNING]  
 > Install Java first, then the JPKI app. Order matters.
