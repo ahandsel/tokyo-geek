@@ -1,6 +1,6 @@
 ---
-title: "Tokyo food recommendations"
-description: "My favorite restaurants and cafes in Tokyo."
+title: 'Tokyo food recommendations'
+description: 'My favorite restaurants and cafes in Tokyo.'
 head:
   - - meta
     - name: keywords

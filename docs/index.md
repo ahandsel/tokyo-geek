@@ -6,7 +6,7 @@ title: Tokyo Geek
 titleTemplate: Collection of my random notes about Japan
 
 hero:
-  name: "Tokyo Geek 🐾"
+  name: 'Tokyo Geek 🐾'
   # text: "Collection of my random notes about Japan"
   tagline: Collection of my random notes about Japan
   image:

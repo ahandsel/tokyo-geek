@@ -36,7 +36,7 @@ Follow these rules strictly:
 * Use sentence case for all headings and subheadings (capitalize only the first word and proper nouns).
 * Avoid slang and idiomatic expressions.
 * Keep wording simple and direct so that non-native English speakers can easily understand it.
-* Use ` - ` instead of ` – `.
+* Use `-` instead of `–`.
 
 When you need to add, rewrite, or reorganize text, apply these rules to all new or updated content.
 

@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 model: GPT-5 mini
 tools:
   - changes
@@ -34,7 +34,7 @@ Review the active file as a blog article. Improve English, remove redundancy, an
 * Use sentence case for headings and subheadings (capitalize only the first word and proper nouns).
 * Avoid using slang or idiomatic expressions.
 * Keep the wording simple and straightforward to ensure non-native English speakers easily understand the content.
-* Do not use ` – `. Use ` - ` instead.
+* Do not use `–`. Use `-` instead.
 * Use consistent terminology and phrasing throughout the article.
 * Maintain author voice. Prefer plain, concrete language.
 * Use active voice unless passive is clearly better.
@@ -76,6 +76,6 @@ Review the active file as a blog article. Improve English, remove redundancy, an
 
 ## Do not
 
-* Change URLs, IDs, or filenames.  
-* Alter code semantics inside fenced blocks.  
+* Change URLs, IDs, or filenames.
+* Alter code semantics inside fenced blocks.
 * Add promotional language or subjective opinions.

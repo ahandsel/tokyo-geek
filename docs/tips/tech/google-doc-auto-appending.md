@@ -100,7 +100,7 @@ const targetIndex = targetParagraphs.findIndex((paragraph) =>
   paragraph.getText().includes(insertLocation),
 );
 if (targetIndex === -1) {
-  Logger.log("Phrase not found in the target document.");
+  Logger.log('Phrase not found in the target document.');
   return;
 }
 
@@ -160,7 +160,7 @@ const insertElement = (element, index) => {
       break;
     }
     default:
-      console.log("Element type not supported: " + element.getType());
+      console.log('Element type not supported: ' + element.getType());
       targetBody.insertParagraph(index, element.copy()); // Insert as a paragraph by default.
       break;
   }
@@ -196,7 +196,7 @@ srcElements.forEach((element) => {
 ### Log a success message
 
 ```javascript
-Logger.log("Content inserted successfully after the target phrase.");
+Logger.log('Content inserted successfully after the target phrase.');
 ```
 
 * After all elements are inserted into the target document, a log message is generated to indicate that the content has been inserted successfully.

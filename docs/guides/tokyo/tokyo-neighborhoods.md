@@ -24,13 +24,13 @@ head:
 
 | **Neighborhood**          | **Highlights**                                             | **Drawbacks**                               | **Accommodation**                | **Nightlife** |
 | ------------------------- | ---------------------------------------------------------- | ------------------------------------------- | -------------------------------- | ------------- |
-| **Shinjuku**              | Central hub, shopping, dining, and entertainment           | Crowded, seedy areas, pricy                 | Moderate to high                 | 🍻🍻🍻           |
-| **Shibuya**               | Fashion, youth culture, nightlife, and cafes               | Crowded, pricy                              | Moderate to high; limited budget | 🍸🍸🍸           |
-| **Ginza & Tokyo Station** | Sophisticated, upscale, access to bullet trains            | Lacks historical charm, very expensive      | High-end                         | 🍸🍸🍸           |
-| **Ueno**                  | Museums and traditional & quiet neighborhoods              | Far from central Tokyo, quiet evenings      | Budget to moderate               | 🍻🍻            |
-| **Asakusa**               | Traditional charm, temples, and shrines                    | Far from western Tokyo, no JR Yamanote Line | Budget to moderate               | 🍻             |
+| **Shinjuku**              | Central hub, shopping, dining, and entertainment           | Crowded, seedy areas, pricy                 | Moderate to high                 | 🍻🍻🍻        |
+| **Shibuya**               | Fashion, youth culture, nightlife, and cafes               | Crowded, pricy                              | Moderate to high; limited budget | 🍸🍸🍸        |
+| **Ginza & Tokyo Station** | Sophisticated, upscale, access to bullet trains            | Lacks historical charm, very expensive      | High-end                         | 🍸🍸🍸        |
+| **Ueno**                  | Museums and traditional & quiet neighborhoods              | Far from central Tokyo, quiet evenings      | Budget to moderate               | 🍻🍻          |
+| **Asakusa**               | Traditional charm, temples, and shrines                    | Far from western Tokyo, no JR Yamanote Line | Budget to moderate               | 🍻            |
 | **Akihabara & Iidabashi** | Geek culture (tech & anime), and budget accommodations     | quiet evenings                              | Budget to moderate               | Limited       |
-| **Roppongi**              | High-end entertainment, dining, nightlife, and art museums | No JR access, very expensive                | High-end                         | 🍸             |
+| **Roppongi**              | High-end entertainment, dining, nightlife, and art museums | No JR access, very expensive                | High-end                         | 🍸            |
 | **Odaiba & Tokyo Bay**    | Family-oriented, waterfront, and shopping malls            | Far from central Tokyo, lacks unique charm  | Moderate to high                 | Limited       |
 
 ---

@@ -32,16 +32,19 @@ Find events this week in Tokyo:
 ## Shopping and product reviewers
 
 [価格.com - 「買ってよかった」をすべてのひとに。](https://kakaku.com/)
+
 * Kakaku.com - Japan's largest price comparison website
 * Product and price comparison website
 * Great way to check reviewers and prices before buying
 
 [サクラチェッカー - ステマ やらせ サクラ評価 口コミが丸わかり](https://sakura-checker.jp/)
+
 * Sakura Checker - Check if a product review is fake or paid
 * Useful to avoid fake reviews and scams
 * Also available as a browser extension: [Chrome Extension](https://chromewebstore.google.com/detail/dmelpckhjikcpmppkcnjmjmedhjpjmce?utm_source=item-share-cb)
 
 [Keepa - Amazon Price Tracker](https://keepa.com/#!)
+
 * Keepa - Track Amazon prices and get price history
 * Useful for checking if a product is worth buying
 * Also great to compare Amazon Japan prices with other countries like the US.
