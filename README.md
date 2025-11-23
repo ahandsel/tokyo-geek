@@ -16,7 +16,7 @@ A revamp to my Japan_Guide blog using [VitePress static site generator](https://
 | [VitePress][]                                         | Static site generator                   | [.vitepress/config.mts][]     |
 | [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience             |                               |
 | [@nolebase/vitepress-plugin-meta][]                   | Meta tags management                    |                               |
-| [@vite-pwa/assets-generator][]                        |                                         |                               |
+| [@vite-pwa/assets-generator][]                        | Generates PWA icons and splash screens  |                               |
 | [@vite-pwa/vitepress][]                               | PWA support for VitePress               |                               |
 | [markdownlint-cli2][]                                 | Markdown linting                        |                               |
 
