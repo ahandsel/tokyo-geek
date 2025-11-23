@@ -35,6 +35,7 @@ description: A guide to booking tickets for the Ghibli Museum in Mitaka, Tokyo.
 1. Click on `詳細はこちら`
 
 Electronic ticket vs paper ticket
+
 * Electronic ticket: Reservations must be made on the [ローチケ電子チケット](https://l-tike.com/e-tike/navi/guide/configuration.html) app
   * iOS: [ローチケ電子チケット on the App Store](https://apps.apple.com/us/app/id1175974437)
   * Google Play: [ローチケ電子チケット - Apps on Google Play](https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en)

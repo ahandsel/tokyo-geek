@@ -45,14 +45,14 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 | Day 1  | Paris                | Landed in Paris          |
 | Day 2  | Paris                | Catacomb                 |
 | Day 3  | Paris                | MUSÉE D'ORSAY            |
-| Day 4  | Paris → Amsterdam    | 🚂                        |
+| Day 4  | Paris → Amsterdam    | 🚂                       |
 | Day 5  | Amsterdam            |                          |
 | Day 6  | Amsterdam            |                          |
 | Day 7  | Amsterdam            |                          |
-| Day 8  | Amsterdam → Brussels | 🚂                        |
+| Day 8  | Amsterdam → Brussels | 🚂                       |
 | Day 9  | Brussels             |                          |
 | Day 10 | Brussels             |                          |
-| Day 11 | Brussels → Paris     | 🚂                        |
+| Day 11 | Brussels → Paris     | 🚂                       |
 | Day 12 | Paris                | Palace of Versailles day |
 | Day 13 | Paris                | Louvre Museum day        |
 | Day 14 | Paris                | Eiffel Tower day         |

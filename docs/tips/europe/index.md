@@ -45,10 +45,10 @@ Here are a few things that made my trip between Paris, Amsterdam, and Brussels e
 * European cities are **not designed for suitcases** - cobblestones, narrow streets, and stairs are common.
 * Use **large backpacks instead of wheeled suitcases** - easier to carry and better suited for cobbled streets and narrow hotel staircases.
 * **Every zipper should be lockable** - pickpocketing is common in high-traffic areas.
-* For my partner and me, we packed:  
-  * 2 large backpacks (one for each of us)  
-  * 1 medium-sized day-pack packed inside one of the large backpacks  
-  * 1 sling or under-clothing money wallet  
+* For my partner and me, we packed:
+  * 2 large backpacks (one for each of us)
+  * 1 medium-sized day-pack packed inside one of the large backpacks
+  * 1 sling or under-clothing money wallet
   * 1 duffel bag reserved for souvenirs and extra items for the return trip
 * Pack a **foldable duffel bag** to carry souvenirs or extra items for the return trip.
 * Bring **thin slippers** for hotel rooms - shoes are commonly worn indoors in Europe.
@@ -125,7 +125,7 @@ Specific bags used:
 
 ## Using AI for translations
 
-* **Google Translate** is great for quick translations that can be done offline.  
+* **Google Translate** is great for quick translations that can be done offline.
   * Make sure to download the language packs for offline use.
 * **ChatGPT** and other AI tools can provide translation plus context, allowing for more helpful understanding.
 

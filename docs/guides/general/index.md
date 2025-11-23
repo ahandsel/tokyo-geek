@@ -10,7 +10,7 @@ order: 0
 
 # {{$frontmatter.title}}
 
-Congratulations on deciding to visit Japan!  
+Congratulations on deciding to visit Japan!
 
 {{$frontmatter.description}}
 
@@ -33,10 +33,9 @@ Here are some YouTube channels, ordered by recommendation, that are run by local
 
 Here are some attractions and experiences in Japan that require advance reservations.
 
-
 Notable places to book ahead:
 
-* [Ghibli Park](./reserve-ahead.md#ghibli-park)  
+* [Ghibli Park](./reserve-ahead.md#ghibli-park)
   * For more details, check out the [Studio Ghibli Park Notes](../kansai/nagoya-ghibli-park-trip.md) guide.
 * [Ghibli Museum](./reserve-ahead.md#ghibli-museum)
 * [Pokémon Café](./reserve-ahead.md#pokémon-café)
@@ -52,6 +51,7 @@ The Shinkansen is a high-speed train service in Japan that connects major cities
 * [Shinkansen tickets - Klook](https://www.klook.com/japan-rail/shinkansen/) - Tourist-friendly booking option
 
 If you are a local or a long-term resident wanting discounts on Shinkansen tickets, review the following guides:
+
 * [Tokyo to Nagoya Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
 * [Tokyo to Kyoto & Osaka Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
 * [Tokyo to Kanazawa Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
@@ -77,6 +77,7 @@ If you are a local or a long-term resident wanting discounts on Shinkansen ticke
 ## Brainstorming 🤔
 
 Here are some of my notes from past trips to give you some ideas:
+
 * [Chichibu](../tokyo-weekend-trips/chichibu-trip.md)
 * [Izu/Hakone](../tokyo-weekend-trips/izu-hakone-trip.md)
 * [Kyoto](../kansai/kyoto-trip.md)

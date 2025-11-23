@@ -70,4 +70,3 @@ For food options in Kichijoji, see the dedicated page: [Food options in Kichijoj
 [Clinic Plus Kichijoji]: https://maps.app.goo.gl/T6UyxWbFsevd1nQGA
 [Matsuigekabyo Clinic]: https://maps.app.goo.gl/V7Bad1ELJz7qbQSM9
 [Musashino Midori Clinic]: https://maps.app.goo.gl/iB23MPM8dTwVZ6JJ7
-

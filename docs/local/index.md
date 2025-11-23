@@ -3,7 +3,6 @@ title: Notes for expats in Japan
 description: Notes for those who call Japan home.
 ---
 
-
 # Notes for expats living in Japan
 
 Browse all articles grouped by folder.

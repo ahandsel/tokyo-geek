@@ -1,6 +1,6 @@
 ---
-title: "Figma plugins for UX writers"
-description: "Figma plugins that help UX writers move faster when editing copy inside design files."
+title: 'Figma plugins for UX writers'
+description: 'Figma plugins that help UX writers move faster when editing copy inside design files.'
 head:
   - - meta
     - name: keywords
@@ -16,7 +16,7 @@ head:
 While Figma is not the ideal tool for writing, it is now the industry standard for design. Here are some Figma plugins that are helpful for UX writers.
 
 | Plugins                          | Description                                                            |
-| -------------------------------- | ---------------x------------------------------------------------------- |
+| -------------------------------- | ---------------------------------------------------------------------- |
 | [Find and Replace Layer Names][] | Simple tool for you to find and replace layer names in just one click. |
 | [Select Layers][]                | Select layers based on name, type, or similarity.                      |
 | [Phrase Strings][]               | Pull UX copy from Phrase Strings into Figma, tied by layer name.       |

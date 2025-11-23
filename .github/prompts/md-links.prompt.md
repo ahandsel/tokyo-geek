@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 model: GPT-5 mini
 description: Convert all inline Markdown links to reference links using [text][] with [text]: url definitions.
 ---
@@ -50,9 +50,16 @@ Scan the active Markdown file and convert every inline link `[text](url)` into a
 ## Example
 
 Input:
-  `See [Docs](https://example.com/docs "Guide") and <https://example.com>.`
-Output body:
-  `See [Docs][] and [example.com][].`
-Appended definitions:
-  `[Docs]: https://example.com/docs`
-  `[example.com]: https://example.com`
+
+```md
+See [Docs](https://example.com/docs "Guide") and <https://example.com>.
+```
+
+Output:
+
+```md
+See [Docs][] and [example.com][].
+
+[Docs]: https://example.com/docs
+[example.com]: https://example.com
+```
