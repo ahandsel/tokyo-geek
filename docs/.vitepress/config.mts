@@ -59,6 +59,7 @@ const vitePressOptions = {
       { text: 'Home', link: '/' },
       { text: 'Travel guides', link: '/guides/general/' },
       { text: 'Living in Japan', link: '/local/' },
+      { text: 'Tech blog', link: '/tech/' },
       { text: 'Random Tips', link: '/tips/' },
     ],
     // remove manual sidebar; withSidebar will generate it
@@ -144,7 +145,7 @@ const commonSidebarConfigs = {
   documentRootPath: 'docs',
   excludeByFolderDepth: null,
   excludeByGlobPattern: ['README.md'],
-  excludeFilesByFrontmatterFieldName: 'draft',
+  excludeFilesByFrontmatterFieldName: 'excludeFromSidebar',
   folderLinkNotIncludesFileName: false,
   followSymLinks: false,
   frontmatterOrderDefaultValue: 10,
@@ -153,7 +154,7 @@ const commonSidebarConfigs = {
   includeDotFiles: false,
   includeEmptyFolder: false,
   includeFolderIndexFile: true,
-  includeRootIndexFile: false,
+  includeRootIndexFile: true,
   keepMarkdownSyntaxFromTitle: false,
   manualSortFileNameByPriority: [],
   prefixSeparator: '.',
@@ -198,6 +199,12 @@ const vitePressSidebarOptions = [
     scanStartPath: 'tips',
     basePath: '/tips/',
     resolvePath: '/tips/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: 'tech',
+    basePath: '/tech/',
+    resolvePath: '/tech/',
   },
 ];
 
