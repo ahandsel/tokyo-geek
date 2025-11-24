@@ -22,6 +22,9 @@ hero:
       text: Living in Japan
       link: /local/
     - theme: alt
+      text: Tech blog
+      link: /tech/
+    - theme: alt
       text: Random tips
       link: /tips/
 

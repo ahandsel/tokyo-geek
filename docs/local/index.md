@@ -1,11 +1,18 @@
 ---
 title: Notes for expats in Japan
 description: Notes for those who call Japan home.
+order: 0
+head:
+  - - meta
+    - name: keywords
+      content: japan, expats, living, furusato, shipping
 ---
 
-# Notes for expats living in Japan
+# {{$frontmatter.title}}
 
-Browse all articles grouped by folder.
+{{$frontmatter.description}}
+
+<!-- @include: ./../snippets/md-index-list.md-->
 
 
 ## General

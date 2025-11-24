@@ -2,7 +2,6 @@
 title: Markdown index list snippet
 description: Generates a list of markdown pages in the same folder, excluding index.md.
 excludeFromSidebar: true
-draft: true
 ---
 
 <!-- markdownlint-disable MD033 MD041-->

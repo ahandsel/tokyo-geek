@@ -52,7 +52,7 @@ Scan the active Markdown file and convert every inline link `[text](url)` into a
 Input:
 
 ```md
-See [Docs](https://example.com/docs "Guide") and <https://example.com>.
+See [Docs](https://example.com/docs 'Guide') and <https://example.com>.
 ```
 
 Output:
