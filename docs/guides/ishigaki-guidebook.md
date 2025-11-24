@@ -3,7 +3,9 @@ title: 'Ishigaki guidebook'
 description: This guidebook is created by the hosts of Me-Fi-You Ishigaki Island
 ---
 
-# {{$frontmatter.title}} written by Me-Fi-You
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 Welcome to Ishigaki Island!  
 This guidebook is created by the hosts of Me-Fi-You Ishigaki Island, an Airbnb accommodation located in Ishigaki City.  
