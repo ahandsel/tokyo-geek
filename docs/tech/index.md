@@ -4,7 +4,7 @@ description: Collection of tech-related notes and guides.
 head:
   - - meta
     - name: keywords
-      content: japan, expats, living, furusato, shipping
+      content: tech, technology, programming, development, tools, mac, apps
 order: 0
 ---
 
