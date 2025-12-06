@@ -14,7 +14,6 @@ head:
 
 <!-- @include: ./../snippets/md-index-list.md-->
 
-
 ## General
 
 * [Notes on International Shipping from and to Japan](global-shipping)

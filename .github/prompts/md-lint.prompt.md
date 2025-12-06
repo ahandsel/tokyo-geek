@@ -2,7 +2,26 @@
 agent: 'agent'
 model: 'GPT-5 mini'
 name: 'lint-markdown'
-tools: ['edit', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'ms-vscode.vscode-websearchforcopilot/websearch', 'extensions', 'todos', 'runSubagent']
+tools:
+  [
+    'edit',
+    'search',
+    'new',
+    'runCommands',
+    'runTasks',
+    'usages',
+    'vscodeAPI',
+    'problems',
+    'changes',
+    'testFailure',
+    'openSimpleBrowser',
+    'fetch',
+    'githubRepo',
+    'ms-vscode.vscode-websearchforcopilot/websearch',
+    'extensions',
+    'todos',
+    'runSubagent',
+  ]
 description: 'Review the current Markdown content and fix formatting issues according to the style guide.'
 argument-hint: 'Optionally describe sections to skip or additional style rules.'
 ---

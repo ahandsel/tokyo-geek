@@ -2,7 +2,26 @@
 agent: 'agent'
 model: 'GPT-5 mini'
 name: 'proofread-markdown'
-tools: ['edit', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'ms-vscode.vscode-websearchforcopilot/websearch', 'extensions', 'todos', 'runSubagent']
+tools:
+  [
+    'edit',
+    'search',
+    'new',
+    'runCommands',
+    'runTasks',
+    'usages',
+    'vscodeAPI',
+    'problems',
+    'changes',
+    'testFailure',
+    'openSimpleBrowser',
+    'fetch',
+    'githubRepo',
+    'ms-vscode.vscode-websearchforcopilot/websearch',
+    'extensions',
+    'todos',
+    'runSubagent',
+  ]
 description: 'Proofread and edit the current Markdown content for clarity, grammar, and style guide compliance.'
 argument-hint: 'Optionally describe sections to skip or any additional style rules.'
 ---
