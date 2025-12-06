@@ -1,6 +1,6 @@
 {
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "prettier.prettier-vscode",
     "editor.formatOnSave": true
   },
   "editor.bracketPairColorization.enabled": true,
@@ -14,8 +14,9 @@
   "files.associations": { "wrangler.json": "jsonc" },
   "git.autofetch": true,
   "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false,
-  "japanese-proofreading.textlint.全角文字どうし": false,
+  "editor.defaultFormatter": "prettier.prettier-vscode",
   "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+  "japanese-proofreading.textlint.全角文字どうし": false,
   "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
   "japanese-proofreading.textlint.丸かっこ（）": false,
   "japanese-proofreading.textlint.大かっこ［］": false,
