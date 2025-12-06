@@ -1,4 +1,5 @@
 {
+  "editor.defaultFormatter": "prettier.prettier-vscode",
   "japanese-proofreading.textlint.全角文字と半角文字の間": false,
   "japanese-proofreading.textlint.全角文字どうし": false,
   "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
@@ -9,7 +10,6 @@
     "editor.wordWrap": "on"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
   }
 }

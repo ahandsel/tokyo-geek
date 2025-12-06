@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "code-format": "prettier --write .",
+    "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
+    "lint": "pnpm run code-format && pnpm run md-lint"
   },
   "keywords": [],
   "author": "",
