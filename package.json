@@ -1,7 +1,7 @@
 {
   "name": "tokyo-geek",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -10,27 +10,32 @@
     "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
     "lint": "pnpm run code-format && pnpm run md-lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "packageManager": "pnpm@10.22.0",
   "devDependencies": {
+    "@davidingplus/vitepress-image-viewer": "^1.1.5",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
-    "@vite-pwa/assets-generator": "^1.0.1",
-    "@vite-pwa/vitepress": "^1.0.0",
-    "markdown-link-check": "^3.13.7",
-    "markdownlint-cli2": "^0.18.1",
-    "sharp": "^0.34.4",
-    "sharp-ico": "^0.1.5",
-    "vite-plugin-pwa": "^1.0.3",
-    "vitepress": "^1.6.4",
-    "vitepress-sidebar": "^1.33.0"
-  },
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "glob": "^11.0.3",
+    "@vite-pwa/assets-generator": "^1.0.2",
+    "@vite-pwa/vitepress": "^1.0.1",
+    "glob": "^11.1.0",
     "gray-matter": "^4.0.3",
-    "openai": "^5.23.2"
+    "init": "^0.1.2",
+    "js-yaml": "^4.1.1",
+    "markdown-link-check": "^3.14.2",
+    "markdownlint-cli2": "^0.19.1",
+    "openai": "^6.9.1",
+    "prettier": "^3.6.2",
+    "vite": "^7.2.4",
+    "vite-plugin-pwa": "^1.1.0",
+    "vitepress": "2.0.0-alpha.12",
+    "vitepress-mermaid-renderer": "^1.1.5",
+    "vitepress-sidebar": "^1.33.0",
+    "vue": "^3.5.24"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "error"
+    }
   }
 }

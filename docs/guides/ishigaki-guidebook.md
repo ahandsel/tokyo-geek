@@ -1,12 +1,11 @@
 ---
-title: "Ishigaki guidebook"
+title: 'Ishigaki guidebook'
 description: This guidebook is created by the hosts of Me-Fi-You Ishigaki Island
-layout: doc
-outline: deep
-footer: true
 ---
 
-# {{$frontmatter.title}} written by Me-Fi-You
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 Welcome to Ishigaki Island!  
 This guidebook is created by the hosts of Me-Fi-You Ishigaki Island, an Airbnb accommodation located in Ishigaki City.  
@@ -62,10 +61,12 @@ We hope you find this guidebook useful and enjoy your stay on Ishigaki Island!
 [Me-fi-You Ishigaki Island / みぃふぁいゆ〜石垣島 - Google Maps](https://maps.app.goo.gl/kLMBD8LDxMnxs1Ei7)
 
 Via car:
+
 * Airbnb is 30 minutes from the airport.
 * Airbnb is 10 minutes from the remote island terminal or the downtown area.
 
 Via taxi:
+
 * Tell drivers "about 500 meters before the Ishigaki Youth House."
 
 No shops nearby!

@@ -1,11 +1,9 @@
 ---
-title: "Tokyo"
+title: Tokyo guides
+description: A collection of guides related to Tokyo.
 order: 1
-layout: doc
-outline: deep
-footer: true
 ---
 
-# Tokyo
+# {{$frontmatter.title}}
 
 <!--@include: ../../snippets/md-index-list.md-->

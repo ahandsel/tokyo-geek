@@ -1,8 +1,10 @@
 ---
 title: Yen & Moving Out of Japan
 description: How to hold yen when moving out of Japan.
-tags: [finance, japan, tips]
-date: 2025-07-04
+head:
+  - - meta
+    - name: keywords
+      content: finance, japan, tips
 ---
 
 # How to hold yen when moving out of Japan
@@ -14,13 +16,16 @@ This is just a write-up of a possible strategy for holding yen when moving out o
 ## Want to keep some yen as cash?
 
 Desire: Keep some yen as cash for the next two years.
+
 * Example: 4 million JPY (≈ 27,714 USD) in cash.
 
 Assumptions:
+
 * You have savings in a traditional bank account that can cover 6 months of expenses.
 * You believe the yen will strengthen against the dollar over the next two years.
 
 Solution: Split the cash into two equal portions and store them in Wise and Revolut accounts.
+
 * 2 million JPY (≈ 13,857 USD) in each account.
 * By splitting the funds, you reduce risk if one platform has issues. They are not directly insured by the FDIC nor strictly regulated like traditional banks, but they are generally considered safe enough for holding money.
 * While similar, Wise and Revolut have different features, support for currencies, and fee structures, so using both gives you flexibility.
@@ -38,6 +43,7 @@ Both [Wise](https://wise.com/invite/ihpc/genjif1) and Revolut are popular fintec
 ## Why use both Wise and Revolut?
 
 I recommend splitting your cash between Wise and Revolut for several reasons:
+
 * **Risk diversification** - if either Wise or Revolut faces technical issues, half your cash remains accessible.
 * **Practical limits** - easier to avoid withdrawal caps or large-balance review flags.
 * **Different features** - Wise offers more currency support, but Revolut often has better exchange rates.
@@ -64,6 +70,7 @@ I recommend splitting your cash between Wise and Revolut for several reasons:
 ## Setting up Wise and Revolut from U.S.
 
 While Wise and Revolut are fully available in Japan, since you are moving back to the U.S., you should open the accounts as an American resident.
+
 * Use a VPN - open the accounts from a U.S. IP address to avoid any location-based restrictions.
 * Input your U.S. address - both services will ask for proof of address. Avoid having to update it later by using your U.S. residence.
 * Fund your accounts - transfer the cash from your Japanese bank to each service.
@@ -90,6 +97,7 @@ If you need to move yen into U.S. dollars, consider opening a **Charles Schwab B
 If you do not believe the yen will strengthen significantly, you might want to consider investing some of your cash instead of holding it all in Wise and Revolut.
 
 Putting it in a Roth IRA and investing in low-cost index funds can provide better long-term returns than cash sitting idle.
+
 * Historically, the S\&P 500 delivers around 8% annualized.
 * Inflation-adjusted total return over the past five years (2020 to 2025): 9.85%.
 

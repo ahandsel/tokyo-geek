@@ -6,7 +6,7 @@ title: Tokyo Geek
 titleTemplate: Collection of my random notes about Japan
 
 hero:
-  name: "Tokyo Geek 🐾"
+  name: 'Tokyo Geek 🐾'
   # text: "Collection of my random notes about Japan"
   tagline: Collection of my random notes about Japan
   image:
@@ -21,6 +21,9 @@ hero:
     - theme: alt
       text: Living in Japan
       link: /local/
+    - theme: alt
+      text: Tech blog
+      link: /tech/
     - theme: alt
       text: Random tips
       link: /tips/
@@ -45,4 +48,3 @@ features:
     details: Quick breakdown of neighborhoods by what they are known for
     link: /guides/tokyo/tokyo-neighborhoods
 ---
-

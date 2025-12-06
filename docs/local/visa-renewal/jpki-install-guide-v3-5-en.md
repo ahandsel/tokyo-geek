@@ -1,11 +1,9 @@
 ---
-title: "JPKI User Software Ver.3.5 Installation Guide"
-layout: doc
-outline: deep
-footer: true
+title: 'JPKI User Software Ver.3.5 Installation Guide'
+description: English machine translation of the JPKI User Software Ver.3.5 installation guide.
 ---
 
-# JPKI User Software Ver.3.5 Installation Guide
+# {{$frontmatter.title}}
 
 This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](jpki-install-guide-v3-5.md).
 
@@ -58,11 +56,11 @@ This chapter describes how to install JPKI User Software. (Example: Windows 10)
 You must log in as a user belonging to the Administrator group. Installation is not possible under non-Administrator accounts.
 
 1. Exit all running software on Windows. (See each software's manual for how to exit.)
-2. Open File Explorer, locate the file `JPKIAppli03-05.exe` downloaded from the JPKI portal site, and double-click to start the installer.  
+2. Open File Explorer, locate the file `JPKIAppli03-05.exe` downloaded from the JPKI portal site, and double-click to start the installer.
 
-   **Note:**  
-   * You can update from older versions. See Appendix 2 for update steps.  
-   * A "User Account Control" dialog may appear. If so, check that you are running the downloaded `JPKIAppli03-05.exe` from the JPKI portal site, and click `はい(Y)` ("Yes") to continue.  
+   **Note:**
+   * You can update from older versions. See Appendix 2 for update steps.
+   * A "User Account Control" dialog may appear. If so, check that you are running the downloaded `JPKIAppli03-05.exe` from the JPKI portal site, and click `はい(Y)` ("Yes") to continue.
 
 3. The JPKI User Software setup screen appears.
 4. Click `次へ(N)` ("Next") to proceed.
@@ -79,10 +77,10 @@ You must log in as a user belonging to the Administrator group. Installation is 
 1. Insert the IC card into your IC card reader/writer.
 2. From the Windows start menu, open `JPKI利用者ソフト` ("JPKI User Software").
 3. The main window will open. Use the menu to access functions.  
-   Example menu items:  
-   * `証明書の確認` ("Check certificate")  
-   * `パスワードの変更` ("Change password")  
-   * `署名用電子証明書` ("Signature certificate")  
+   Example menu items:
+   * `証明書の確認` ("Check certificate")
+   * `パスワードの変更` ("Change password")
+   * `署名用電子証明書` ("Signature certificate")
 
 For help, use the built-in Help menu.
 
@@ -138,8 +136,8 @@ You can update from older versions without uninstalling.
 
 For most IC card readers, the driver setup is automatic. If the device does not work:
 
-1. Check that the driver is installed correctly.  
-2. If not, download the driver from the manufacturer's website and install it.  
+1. Check that the driver is installed correctly.
+2. If not, download the driver from the manufacturer's website and install it.
 3. Reconnect the reader and try again.
 
 ---

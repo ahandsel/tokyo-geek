@@ -1,7 +1,10 @@
 ---
 title: Tips for a long layover in Beijing
 description: Our travel tips for a 20-hour layover in Beijing International Airport.
-tags: [travel, china, tips]
+head:
+  - - meta
+    - name: keywords
+      content: travel, china, tips, beijing, layover
 ---
 
 # Tips for a long layover in Beijing
@@ -14,6 +17,7 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 ## Summary
 
 **Tech & Apps**
+
 * Set up WeChat Pay and AliPay ahead of time (passport verification required).
 * Get an Nomad eSIM
   * 10GB sufficient for two people during a 20-hour stay.
@@ -26,8 +30,8 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 * Download Chinese maps (e.g., Baidu Maps) for offline navigation.
   * [How to Use Amap (Gaode Map) for Foreigners in China | Trip.com](https://www.trip.com/guide/phone/gaode-map.html)
 
-
 **Airport and Transit:**
+
 * Beijing International Airport has limited amenities after security
   * Better food choices before security.
   * Pricey and limited shopping and food options after security.
@@ -37,12 +41,14 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 * Luggage checks are strict; remove all batteries from your luggage.
 
 **Communication and Convenience:**
+
 * eSIM essential; make sure to buy and install it before arriving in China.
 * iMessage and Apple Mail (hide my email) work on Chinese Wi-Fi; Gmail does not.
 * Carry photocopies of passport and ID for security.
 * No need for cash; use WeChat Pay or AliPay everywhere.
 
 **General Notes:**
+
 * Smokers are common in public areas - masks are recommended to avoid secondhand smoke.
 * Prepare for squat toilets.
 
@@ -96,18 +102,20 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 ## AliPay and WeChat Pay - Chinese QR code payment apps
 
 Tourists can use AliPay and WeChat Pay in China:
+
 * Register accounts in advance and verify your identity using your passport.
 * Payments are made via QR code, linked to your foreign credit cards ([Wise](https://wise.com/invite/ihpc/genjif1) credit card worked seamlessly for us).
 * Both AliPay and WeChat Pay accept the same phone number
 * Not required if you completed the identity verification process in advance but it is recommended to use a phone number that has Wi-Fi Calling enabled to receive SMS verification codes while in China.
 
 For detailed setup instructions:
+
 * [AliPay for tourists](https://trevallog.com/alipay-for-tourist/)
 
 
 ## Visa requirements
 
-*As of 2025-05-23*
+_As of 2025-05-23_
 
 Travelers from countries like Japan and Australia qualify for China's unilateral visa-free entry program. Verify your eligibility beforehand to avoid surprises.
 
@@ -124,6 +132,7 @@ Useful resources:
 * Nomad's China plan provided reliable access, including blocked sites like Google and Instagram.
 
 For more information:
+
 * [Buying eSIM for China (YouTube)](https://www.youtube.com/watch?v=90_3UYU88Tw)
 
 > \[!CAUTION]

@@ -1,11 +1,15 @@
 ---
-title: "Kamakura (鎌倉) & Enoshima (江の島)"
-layout: doc
-outline: deep
-footer: true
+title: Kamakura and Enoshima
+description: Discover historic temples and coastal charm in Kamakura (鎌倉) and Enoshima (江の島).
+head:
+  - - meta
+    - name: keywords
+      content: kamakura, enoshima, travel, itinerary, japan
 ---
 
-# Kamakura (鎌倉) & Enoshima (江の島)
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
@@ -43,7 +47,7 @@ footer: true
 * [How to get to and around Kamakura: Access, Orientation and Transportation](https://www.japan-guide.com/e/e3115.html)
 
 
-## EMOT Deals
+## EMOT deals
 
 * ⚠️ Website and App are in Japanese
 * Download the [EMOT App](https://www.emot.jp)
@@ -82,7 +86,7 @@ footer: true
 ## Hotels
 
 
-### Kamakura Cheap Hotel
+### Kamakura budget hotels
 
 * [Sotetsu Fresa Inn Kamakura-Ofuna Higashiguchi](http://www.booking.com/Share-DTHGk5)
 * [Hotel Wing International Shonan Fujisawa](http://www.booking.com/Share-HlgbVw)

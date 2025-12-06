@@ -1,16 +1,20 @@
 ---
-title: "Osaka Trip Notes"
-layout: doc
-outline: deep
-footer: true
+title: Osaka trip notes
+description: Ideas for things to do in Osaka and quick notes from a prior stay.
+head:
+  - - meta
+    - name: keywords
+      content: osaka, trip, itinerary, japan, travel
 ---
 
-# Osaka Trip Notes
+# {{$frontmatter.title}}
+
+{{$frontmatter.description}}
 
 [[toc]]
 
 
-## Things to Do in Osaka
+## Things to do in Osaka
 
 * [Kuromon Ichiba Market - Street food](https://goo.gl/maps/kDw6PEUKyD3hRWR26)
 * [Cup Noodle Museum](https://goo.gl/maps/v2jiJMJ32cEtp3Q46)
@@ -20,10 +24,10 @@ footer: true
 * Osaka Castle
 
 
-## Past Osaka Trip Notes
+## Past Osaka trip notes
 
 
-### Osaka Hotel
+### Osaka hotel
 
 * Sun, Dec 04 ~ Tue, Dec 06 (2 nights)
 * Price: 10,979 JPY for 2 nights

@@ -1,66 +1,62 @@
 ---
-draft: true
+title: Markdown index list snippet
+description: Generates a list of markdown pages in the same folder, excluding index.md.
+excludeFromSidebar: true
 ---
 
 <!-- markdownlint-disable MD033 MD041-->
 
-<script setup>
+<script setup lang="ts">
 /**
  * Generate a list of markdown pages in the same folder, excluding index.md.
  * Each entry includes metadata (title and description) parsed from frontmatter.
  */
+import yaml from 'js-yaml'
 
-// Load raw Markdown using the updated Vitepress import options
-const markdownFiles = import.meta.glob('./*.md', { query: '?raw', import: 'default', eager: true })
+/** Load Markdown in this folder (and subfolders) as raw strings. */
+const modules = import.meta.glob('./**/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+})
 
-/** Extract metadata (title and description) from YAML frontmatter. */
-function parseFrontmatter(fileName, fileContent) {
-  let title = ''
-  let description = ''
-
-  // Match YAML frontmatter block
-  const frontmatterBlock = fileContent.match(/^---\n([\s\S]*?)\n---/m)
-  if (frontmatterBlock) {
-    const frontmatterLines = frontmatterBlock[1].split('\n')
-    for (const line of frontmatterLines) {
-      const normalizedLine = line.trim().toLowerCase()
-      if (normalizedLine.startsWith('title:')) {
-        title = line.replace(/^title:\s*/i, '').trim().replace(/^["']|["']$/g, '')
-      } else if (normalizedLine.startsWith('description:')) {
-        description = line.replace(/^description:\s*/i, '').trim().replace(/^["']|["']$/g, '')
-      }
-    }
+/** Normalize module value to string for older Vite/VitePress builds. */
+function toString(mod: unknown): string {
+  if (typeof mod === 'string') return mod
+  if (mod && typeof mod === 'object' && 'default' in (mod as any)) {
+    const v = (mod as any).default
+    if (typeof v === 'string') return v
   }
-
-  // If no title in frontmatter, use first H1
-  if (!title) {
-    const headingMatch = fileContent.match(/^\s*#\s+(.+)\s*$/m)
-    if (headingMatch && headingMatch[1]) title = headingMatch[1].trim()
-  }
-
-  // Fallback to filename if still missing
-  if (!title) title = fileName.replace(/\.md$/i, '')
-
-  return { title, description }
+  return ''
 }
 
-/** Build structured link data for rendering. */
-const pageList = Object.entries(markdownFiles)
-  .filter(([path]) => !/\/?index\.md$/i.test(path))
-  .map(([path, fileContent]) => {
-    const fileName = path.replace('./', '')
-    const { title, description } = parseFrontmatter(fileName, fileContent)
-    const basePath = fileName.replace(/\.md$/i, '')
-    return { title, description, href: `./${basePath}` }
+/** Parse YAML frontmatter safely. */
+function parseFrontmatter(md: string): { title?: string; description?: string } {
+  const m = md.match(/^---\s*[\r\n]([\s\S]*?)\n---\s*[\r\n]?/)
+  if (!m) return {}
+  try { return (yaml.load(m[1]) || {}) as any } catch { return {} }
+}
+
+/** Build list and exclude index.md. */
+type Row = { href: string; title: string; description?: string }
+const pageList: Row[] = Object.entries(modules)
+  .filter(([p]) => !/\/?index\.md$/i.test(p))
+  .map(([p, mod]) => {
+    const src = toString(mod)
+    const fm = parseFrontmatter(src)
+    const file = p.replace(/^\.\//, '')
+    return {
+      href: `./${file.replace(/\.md$/i, '')}`,
+      title: fm.title ?? file,
+      description: fm.description ?? ''
+    }
   })
   .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }))
 </script>
 
 <ul>
   <li v-for="page in pageList" :key="page.href">
-    <a :href="page.href">{{page.title}}</a>
-    <ul v-if="page.description">
-      <li>{{page.description}}</li>
-    </ul>
+    <a :href="page.href">{{ page.title }}</a>
+    <ul v-if="page.description"><li>{{ page.description }}</li></ul>
   </li>
 </ul>

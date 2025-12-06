@@ -1,17 +1,15 @@
 ---
 title: Europe travel tips
 description: Tips for traveling in Europe, including packing, Eurostar travel, mobile data, currency, and hygiene.
-order: 1
-layout: doc
-outline: deep
-footer: true
-tags: [travel, europe, tips]
+head:
+  - - meta
+    - name: keywords
+      content: travel, europe, packing, eurostar, tips
 ---
 
 # {{$frontmatter.title}}
 
-Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable.  
-Hopefully, they will help you too!
+{{$frontmatter.description}}
 
 
 ## Table of contents <!-- omit in toc -->
@@ -29,6 +27,8 @@ Hopefully, they will help you too!
   * [Example AI prompt to review a French website and provide a summary](#example-ai-prompt-to-review-a-french-website-and-provide-a-summary)
 * [Final tips](#final-tips)
 
+Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable. Hopefully, they will help you too.
+
 
 ## Summary
 
@@ -45,10 +45,10 @@ Hopefully, they will help you too!
 * European cities are **not designed for suitcases** - cobblestones, narrow streets, and stairs are common.
 * Use **large backpacks instead of wheeled suitcases** - easier to carry and better suited for cobbled streets and narrow hotel staircases.
 * **Every zipper should be lockable** - pickpocketing is common in high-traffic areas.
-* For my partner and me, we packed:  
-  * 2 large backpacks (one for each of us)  
-  * 1 medium-sized day-pack packed inside one of the large backpacks  
-  * 1 sling or under-clothing money wallet  
+* For my partner and me, we packed:
+  * 2 large backpacks (one for each of us)
+  * 1 medium-sized day-pack packed inside one of the large backpacks
+  * 1 sling or under-clothing money wallet
   * 1 duffel bag reserved for souvenirs and extra items for the return trip
 * Pack a **foldable duffel bag** to carry souvenirs or extra items for the return trip.
 * Bring **thin slippers** for hotel rooms - shoes are commonly worn indoors in Europe.
@@ -76,13 +76,13 @@ Specific bags used:
 
 ## Mobile data and eSIM
 
-* Recommended mobile data amounts:  
-  * 7-day trip: **10 GB**  
+* Recommended mobile data amounts:
+  * 7-day trip: **10 GB**
   * 14-day trip: **20 GB**
 * eSIM providers (in order of recommendation):
-  1. **Nomad** - [Nomad Europe eSIM](https://www.getnomad.app/europe-eSIM)  
+  1. **Nomad** - [Nomad Europe eSIM](https://www.getnomad.app/europe-eSIM)
      * 25% off using `KEITLQPQFA` referral code - [help doc](https://www.getnomad.app/help-center/articles/9886364)
-  2. **Airalo** - [Airalo Europe eSIM](https://www.airalo.com/europe-eSIM)  
+  2. **Airalo** - [Airalo Europe eSIM](https://www.airalo.com/europe-eSIM)
      * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m)
 * The **Nomad eSIM plan** was reliable throughout Europe.
 * Use a **VPN set to the UK** for easier website access - many sites default to the local language and layout.
@@ -101,18 +101,18 @@ Specific bags used:
 
 ## Environment and hygiene
 
-* The **smell of urine, cigarettes, and marijuana is common** in urban areas.  
+* The **smell of urine, cigarettes, and marijuana is common** in urban areas.
   * Wash clothes more often than expected - choose hotels or Airbnbs with laundry facilities.
 * Bring:
-  * **Detergent** (travel-size)  
-  * **Alcohol wipes** - for hands and surfaces  
+  * **Detergent** (travel-size)
+  * **Alcohol wipes** - for hands and surfaces
   * **Face masks**, especially for Eurostar train restrooms
 
 
 ## Tech and device tips
 
-* Leave the laptop - bring an **iPad with a small keyboard** instead.  
-  * Easier to use in landscape mode than a phone  
+* Leave the laptop - bring an **iPad with a small keyboard** instead.
+  * Easier to use in landscape mode than a phone
   * Less anxiety about theft
 * **Bring a phone strap** - drop protection for crowded areas.
 * **Water bottle with filter built-in** like [Brita Filtering Water Bottle](https://www.amazon.com/dp/B07H17RM1B/) is great for filling up at sinks.
@@ -125,7 +125,7 @@ Specific bags used:
 
 ## Using AI for translations
 
-* **Google Translate** is great for quick translations that can be done offline.  
+* **Google Translate** is great for quick translations that can be done offline.
   * Make sure to download the language packs for offline use.
 * **ChatGPT** and other AI tools can provide translation plus context, allowing for more helpful understanding.
 

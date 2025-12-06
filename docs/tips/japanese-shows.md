@@ -1,11 +1,19 @@
 ---
-title: Japanese shows & movies
+title: Japanese shows and movies
 description: List of shows and movies with Japanese vibes.
+head:
+  - - meta
+    - name: keywords
+      content: japan, shows, movies, recommendations, list
 ---
 
 # {{$frontmatter.title}}
 
-Just a list of Japanese shows and movies that I have watched and enjoyed. Hopefully, you will too.
+{{$frontmatter.description}}
+
+[[toc]]
+
+Here are Japanese shows and movies that I have watched and enjoyed. Hopefully, you will too.
 
 
 ## Anime

@@ -1,14 +1,12 @@
 ---
 title: Hakone weekend trip
-description: Notes on a weekend trip to Hakone from Tokyo
-layout: doc
-outline: deep
-footer: true
+description: Enjoy a long weekend in Hakone with hiking, art museums, hot springs, and views of Mount Fuji.
 ---
 
 # Weekend in Hakone
 
 Enjoy a long weekend in Hakone (箱根) with hiking, art museums, hot springs, and views of Mount Fuji.
+
 * 🚅 1.5 hours from Shinjuku by Odakyu Romancecar express train.
 * 🌾 Experience rural Japan but prepare for steep hills and limited services.
 
@@ -24,13 +22,24 @@ Enjoy a long weekend in Hakone (箱根) with hiking, art museums, hot springs, a
 
 ## Table of contents <!-- omit in toc -->
 
+* [TL;DR](#tldr)
 * [Great things about Hakone](#great-things-about-hakone)
 * [Plan ahead](#plan-ahead)
 * [Tips for visiting Hakone](#tips-for-visiting-hakone)
 * [Cool places to visit in Hakone](#cool-places-to-visit-in-hakone)
 * [Hotels](#hotels)
+  * [Irori Guesthouse Tenmaku](#irori-guesthouse-tenmaku)
+  * [Yumoto station Hotel Mirahakone](#yumoto-station-hotel-mirahakone)
+  * [K's House Hakone](#ks-house-hakone)
+  * [Yutorelo-an Annex](#yutorelo-an-annex)
 * [Transportation](#transportation)
+  * [Getting to Hakone from Tokyo](#getting-to-hakone-from-tokyo)
+  * [Hakone Freepass - discounts and passes](#hakone-freepass---discounts-and-passes)
+  * [Paper version of the Hakone Freepass](#paper-version-of-the-hakone-freepass)
 * [Itinerary ideas](#itinerary-ideas)
+  * [Day 1: Tokyo to Hakone](#day-1-tokyo-to-hakone)
+  * [Day 2: Hakone sightseeing](#day-2-hakone-sightseeing)
+  * [Day 3: Hakone to Tokyo](#day-3-hakone-to-tokyo)
 * [Klooks and Asoview](#klooks-and-asoview)
 
 
@@ -64,6 +73,7 @@ Enjoy a long weekend in Hakone (箱根) with hiking, art museums, hot springs, a
 ## Cool places to visit in Hakone
 
 My favorite places to visit in Hakone in order of preference:
+
 * [Hakone Open-Air Museum / 箱根彫刻の森美術館][open-air-museum] - cool outdoor sculpture park with nice mountain views.
 * [Bakery & Table Hakone][bakery-table] - foot bath cafe with great views and pastries.
 * [Owakudani / 大涌谷インフォメーションセンター][owakudani-center] - volcanic valley with hot springs and black eggs.
@@ -72,11 +82,12 @@ My favorite places to visit in Hakone in order of preference:
 * [Hakone Gora Park / 箱根強羅公園](https://maps.app.goo.gl/NJidmfP9SKBAm2uR7) - lovely park with tea house and craft workshops.
 
 Other popular locations:
+
 * [Hakone Museum of Art / 箱根美術館][hakone-museum] - traditional Japanese art museum with beautiful gardens.
 * [Hakone Shrine / 箱根神社][hakone-shrine] - historic Shinto shrine on the shores of Lake Ashi.
 * [Forest Adventure Hakone / フォレストアドベンチャー・箱根][forest-adventure] - outdoor adventure park with zip lines and obstacle courses.
 * [Hakone Kowakien Yunessun](https://maps.app.goo.gl/45ivQxjay29eFPwe9) - Water park with pools and slides. Recommended for families with children. Not recommended for couples or adults.
-* [Mount Ashigara (Kintoki-yama)](https://maps.app.goo.gl/7o6Yt6o9o5v3o8kR7)
+* [Mount Ashigara (Kintoki-yama)](https://maps.app.goo.gl/KGaKFySYQstNo7Q36)
 
 
 ## Hotels
@@ -132,16 +143,18 @@ Other popular locations:
 ### Getting to Hakone from Tokyo
 
 Shinjuku ↔ [Hakone-Yumoto][] via Odakyu Romancecar (Limited Express)
-* Board at Shinjuku station → direct to [Hakone-Yumoto][].  
-* Time: about 85 minutes  
-* Fare: ¥2,470 (one way, adult)  
-* Ticket: [E-Romancecar][e-romancecar]  
+
+* Board at Shinjuku station → direct to [Hakone-Yumoto][].
+* Time: about 85 minutes
+* Fare: ¥2,470 (one way, adult)
+* Ticket: [E-Romancecar][e-romancecar]
 * Details: [Limited Express Romancecar - Odakyu Railway: Connecting Shinjuku, Hakone, and Enoshima][romancecar-details]
 
 Tokyo ↔ Odawara via Shinkansen ↔ [Hakone-Yumoto][] via Hakone Tozan Railway
-* Board at Tokyo station → Tokaido Shinkansen (Hikari or Kodama).  
-* Time: about 58 minutes (to Odawara)  
-* Fare: approximately ¥4,500 (one way, adult)  
+
+* Board at Tokyo station → Tokaido Shinkansen (Hikari or Kodama).
+* Time: about 58 minutes (to Odawara)
+* Fare: approximately ¥4,500 (one way, adult)
 * Transfer at Odawara station → Hakone-Tozan Line to [Hakone-Yumoto][]. Local fare is minor.
 * Purchase JR tickets at Tokyo station ticket machines or counters; buy Tozan Line fare at Odawara.
 

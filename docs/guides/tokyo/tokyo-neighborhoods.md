@@ -1,17 +1,21 @@
 ---
-title: "Tokyo Neighborhoods Overview"
-layout: doc
-outline: deep
-footer: true
+title: Tokyo neighborhoods overview
+description: Breakdown of major Tokyo neighborhoods, including highlights, drawbacks, and key attractions for travelers.
+head:
+  - - meta
+    - name: keywords
+      content: tokyo, neighborhoods, travel, guide, japan
 ---
 
-# Tokyo Neighborhoods Overview
+# {{$frontmatter.title}}
 
-[Google Maps Overview of Tokyo's Best Areas to Stay][tokyo-best-areas]
-
-[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
+{{$frontmatter.description}}
 
 [[toc]]
+
+[Google Maps overview of Tokyo's best areas to stay][tokyo-best-areas]
+
+[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
 
 ---
 
@@ -20,19 +24,19 @@ footer: true
 
 | **Neighborhood**          | **Highlights**                                             | **Drawbacks**                               | **Accommodation**                | **Nightlife** |
 | ------------------------- | ---------------------------------------------------------- | ------------------------------------------- | -------------------------------- | ------------- |
-| **Shinjuku**              | Central hub, shopping, dining, and entertainment           | Crowded, seedy areas, pricy                 | Moderate to high                 | 🍻🍻🍻           |
-| **Shibuya**               | Fashion, youth culture, nightlife, and cafes               | Crowded, pricy                              | Moderate to high; limited budget | 🍸🍸🍸           |
-| **Ginza & Tokyo Station** | Sophisticated, upscale, access to bullet trains            | Lacks historical charm, very expensive      | High-end                         | 🍸🍸🍸           |
-| **Ueno**                  | Museums and traditional & quiet neighborhoods              | Far from central Tokyo, quiet evenings      | Budget to moderate               | 🍻🍻            |
-| **Asakusa**               | Traditional charm, temples, and shrines                    | Far from western Tokyo, no JR Yamanote Line | Budget to moderate               | 🍻             |
+| **Shinjuku**              | Central hub, shopping, dining, and entertainment           | Crowded, seedy areas, pricy                 | Moderate to high                 | 🍻🍻🍻        |
+| **Shibuya**               | Fashion, youth culture, nightlife, and cafes               | Crowded, pricy                              | Moderate to high; limited budget | 🍸🍸🍸        |
+| **Ginza & Tokyo Station** | Sophisticated, upscale, access to bullet trains            | Lacks historical charm, very expensive      | High-end                         | 🍸🍸🍸        |
+| **Ueno**                  | Museums and traditional & quiet neighborhoods              | Far from central Tokyo, quiet evenings      | Budget to moderate               | 🍻🍻          |
+| **Asakusa**               | Traditional charm, temples, and shrines                    | Far from western Tokyo, no JR Yamanote Line | Budget to moderate               | 🍻            |
 | **Akihabara & Iidabashi** | Geek culture (tech & anime), and budget accommodations     | quiet evenings                              | Budget to moderate               | Limited       |
-| **Roppongi**              | High-end entertainment, dining, nightlife, and art museums | No JR access, very expensive                | High-end                         | 🍸             |
+| **Roppongi**              | High-end entertainment, dining, nightlife, and art museums | No JR access, very expensive                | High-end                         | 🍸            |
 | **Odaiba & Tokyo Bay**    | Family-oriented, waterfront, and shopping malls            | Far from central Tokyo, lacks unique charm  | Moderate to high                 | Limited       |
 
 ---
 
 
-## Shinjuku -- Central, Vibrant, and Great for First-Time Visitors
+## Shinjuku - central, vibrant, and great for first-time visitors
 
 * [Shinjuku map area on Google Maps][shinjuku-map]
 * Central Tokyo hub, ideal for first-time visitors
@@ -67,7 +71,7 @@ footer: true
 ---
 
 
-## Shibuya -- Fashion, Coffee, Indie Culture, and Nightlife
+## Shibuya - fashion, coffee, indie culture, and nightlife
 
 * [Shibuya map area on Google Maps][shibuya-map]
 * Known for fashion, youth culture, and vibrant nightlife
@@ -103,7 +107,7 @@ footer: true
 ---
 
 
-## Ginza & Tokyo Station -- Central, Sophisticated & Upscale
+## Ginza and Tokyo Station - central, sophisticated, and upscale
 
 * [Ginza & Tokyo Station area on Google Maps][ginza-map]
 * Relaxed, sophisticated, and less busy at night
@@ -140,7 +144,7 @@ footer: true
 ---
 
 
-## Ueno -- The Best Area for Museums & Budget Hotels
+## Ueno - the best area for museums and budget hotels
 
 * [Ueno area on Google Maps][ueno-map]
 * Quieter and more relaxed compared to other Tokyo neighborhoods
@@ -172,7 +176,7 @@ footer: true
 ---
 
 
-## Asakusa -- Tokyo's Traditional East Side
+## Asakusa - Tokyo's traditional east side
 
 * [Asakusa area on Google Maps][asakusa-map]
 * Retains traditional charm with temples, shrines, and rickshaws
@@ -203,7 +207,7 @@ footer: true
 ---
 
 
-## Akihabara & Iidabashi -- Geek Culture and Budget Accommodations
+## Akihabara and Iidabashi - geek culture and budget accommodations
 
 * Center of geek culture with manga, anime, and electronics
 * Affordable accommodations in quiet residential areas nearby
@@ -233,7 +237,7 @@ footer: true
 ---
 
 
-## Roppongi -- Tokyo's Cosmopolitan Area
+## Roppongi - Tokyo's cosmopolitan area
 
 * Famous for entertainment, dining, and nightlife
 * Popular with foreign visitors; menus often available in English
@@ -262,7 +266,7 @@ footer: true
 ---
 
 
-## Odaiba & Tokyo Bay -- Modern Family-Oriented Resorts
+## Odaiba and Tokyo Bay - modern family-oriented resorts
 
 * [Odaiba & Tokyo Bay area on Google Maps][odaiba-map]
 * Resort-like hotels with family rooms and swimming pools
@@ -293,13 +297,13 @@ footer: true
 [odaiba-map]: https://www.google.com/maps/d/u/1/viewer?mid=1G4-7K6MSJ-sMaZCfYUGmHs2vfxg&ll=35.622258459220156%2C139.7929294495362&z=13
 
 
-## Great Articles to Read
+## Great articles to read
 
 * [Where To Stay In Tokyo - Our Favourite Areas & Hotels In Tokyo - Nerd Nomads](https://nerdnomads.com/where-to-stay-in-tokyo)
 * [Tokyo City Guide - What to do in Tokyo](https://www.japan-guide.com/e/e2164.html)
 * [Tokyo neighborhoods - Area guides - Time Out Tokyo](https://www.timeout.com/tokyo/neighborhoods)
 
 
-## Helpful Videos to Watch
+## Helpful videos to watch
 
 * [101 Things to DO in TOKYO - Japan Guide to Secret Hidden Places - YouTube](https://www.youtube.com/watch?v=8m7dnI2nrU8&list=PLcpuu5BzmasBKAILAe6tAEg-EHKETJjU6) by Paolo fromTOKYO
