@@ -42,7 +42,7 @@ Google Apps Script automation that inserts content from a source Google Doc into
 
 ## Google Apps Script code
 
-<<< @/tech/google-doc-auto-appending.js
+<<< @/tech/share/google-doc-auto-appending.js
 
 
 ## Setup instructions
