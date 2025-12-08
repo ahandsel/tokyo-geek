@@ -112,5 +112,5 @@ See my [Brewfile](#brewfile) to install these apps using Homebrew.
 ## Brewfile
 
 ```txt
-<!-- @include: ./Brewfile -->
+<!-- @include: ./share/Brewfile -->
 ```
