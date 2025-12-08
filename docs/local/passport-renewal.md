@@ -13,7 +13,9 @@ head:
 
 [[toc]]
 
-You can renew your Japanese passport online through the [My Number Card portal][] operated by the Digital Agency of Japan.
+You can renew your Japanese passport online through the [My Number Card portal][my-number-card-portal] operated by the Digital Agency of Japan.
+
+[my-number-card-portal]: https://myna.go.jp/html/passport_information.html
 
 
 ## Table of contents <!-- omit in toc -->
@@ -25,6 +27,9 @@ You can renew your Japanese passport online through the [My Number Card portal][
 * [Application process](#application-process)
 * [Confirm your digital certificate for signatures](#confirm-your-digital-certificate-for-signatures)
 * [Signature image requirements](#signature-image-requirements)
+* [Wait for processing](#wait-for-processing)
+* [Pick up your passport](#pick-up-your-passport)
+* [Official FAQ resource](#official-faq-resource)
 
 
 ## About passport renewal applications
@@ -47,12 +52,15 @@ The following individuals are eligible to apply:
 
 * My Number Card
 * Myna Portal app installed on your smartphone
-  * [iOS version][]
-  * [Android version][]
+  * [iOS version][ios-version]
+  * [Android version][android-version]
 * Valid passport
   * Before starting the application, please confirm your registered domicile so that you can enter it correctly.
 * Photo (it will be taken with your smartphone during the application process)
 * Signature on a plain white sheet of paper (it will be captured with your smartphone during the application process)
+
+[android-version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
+[ios-version]: https://apps.apple.com/jp/app/id1476359069
 
 
 ### Preparing for photo and signature capture
@@ -70,7 +78,7 @@ Step 1: Pre-application preparation
 
 Step 2: Application
 
-* Access the [My Number Card portal][] and start the passport renewal application.
+* Access the [My Number Card portal][my-number-card-portal] and start the passport renewal application.
 * Submit your application using the information prepared in advance.
 
 Step 3: Confirmation of application status
@@ -89,13 +97,16 @@ Please confirm that your digital certificate for signatures is valid.
 
 * The certificate expires on the fifth birthday after it is issued.
 * Please refer to the "Certificate expiration date" printed on your Individual Number Card, or the Public Individual Authentication Service portal site.
-* [How to check validity][]
+* [How to check validity][how-to-check-validity]
 
 Please confirm the password (6 to 16 characters) for your digital certificate for signatures.
 
 * You will need to enter the password to submit an application.
 * If you have forgotten your password, you can reset it at the municipal office of your registered residence, or by downloading the dedicated application and using a kiosk terminal at a convenience store.
-* [Initialize signature password at a convenience store][]
+* [Initialize signature password at a convenience store][initialize-signature-password-at-a-convenience-store]
+
+[how-to-check-validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
+[initialize-signature-password-at-a-convenience-store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
 
 
 ## Signature image requirements
@@ -117,9 +128,37 @@ File format
 * Dimensions: Width 788 × height 284 pixels
 * File size: 200 KB or less
 
-[Android version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
-[How to check validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
-[Initialize signature password at a convenience store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
-[iOS version]: https://apps.apple.com/jp/app/id1476359069
-[My Number Card portal]: https://myna.go.jp/html/passport_information.html
 [passport-renewal-signature-sample]: /passport-renewal-signature-sample.png
+
+
+## Wait for processing
+
+> [WARNING] Status will remain 'In process' (`処理中`) until you pick up your passport
+
+* After submitting your application, wait for the processing to be handled by the passport office.
+* Once the passport office has finished reviewing your application, you will receive a notification to pick up your passport.
+  * The status of your passport application remains 'In process' until you pick it up at the designated passport office, even after processing is complete.
+  * While visually the notification may appear to have not changed, the content will slightly differ to indicate that your passport is ready for pickup. (Yes, it is bad UX.)
+* Check whether the status content (seen by clicking on the 'In process' status in the To-do list) indicates that your passport is ready for pickup.
+
+Reference:
+
+* [パスポートの申請状況が「処理中」のままとなっていますが、いつ「完了」になりますか。 - よくある質問｜マイナポータル][faq-status-pending]
+
+[faq-status-pending]: https://faq.myna.go.jp/faq/show/8338?site_domain=default
+
+
+## Pick up your passport
+
+Head to the designated passport office you have selected during your application to pick up your renewed passport.
+
+If you want to pay by credit card, be sure to register your credit card information in advance by following the instructions in the To-do list. There will be a URL that starts with `https://mofa.payment-kokopass.jp/...` for you to register your credit card information.
+
+
+## Official FAQ resource
+
+The Digital Agency also publishes an official Japanese-language FAQ covering passport renewal on Myna Portal. Review it for details on eligibility, required documents, and how to resolve common issues before you apply.
+
+* [Passport application FAQ (Japanese)][faq-passport-all]
+
+[faq-passport-all]: https://faq.myna.go.jp/faq/list/8336?site_domain=default
