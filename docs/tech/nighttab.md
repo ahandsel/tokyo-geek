@@ -78,7 +78,7 @@ Here is a nightTab setup to quickly access various Google products.
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="https://github.com/ahandsel/tokyo-geek/blob/main/docs/tech/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+  <summary>Click to expand <a href="./nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
 
 <<< @/tech/nighttab/google-bookmarks.json
 
@@ -91,9 +91,22 @@ Here is a nightTab setup to quickly access travel-related bookmarks.
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="https://github.com/ahandsel/tokyo-geek/blob/main/docs/tech/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+  <summary>Click to expand <a href="./nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
 
 <<< @/tech/nighttab/travel-bookmarks.json
+
+</details>
+<!-- markdownlint-enable MD033 -->
+
+### Streaming services
+
+Here is a nightTab setup to quickly access various streaming services.
+
+<!-- markdownlint-disable MD033 -->
+<details>
+  <summary>Click to expand <a href="./nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
+
+<<< @/tech/nighttab/streaming-bookmarks.json
 
 </details>
 <!-- markdownlint-enable MD033 -->

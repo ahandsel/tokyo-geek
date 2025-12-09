@@ -14,8 +14,7 @@ Here are some of my favorite apps for Mac users. Hopefully, you find them useful
 
 ## Table of contents <!-- omit in toc -->
 
-* [Security and Privacy](#security-and-privacy)
-* [Brewlist](#brewlist)
+* [Brewlist - Breakdown of my favorite Mac apps](#brewlist---breakdown-of-my-favorite-mac-apps)
   * [Productivity \& Utilities](#productivity--utilities)
   * [Web Browsers](#web-browsers)
   * [Communication \& Collaboration](#communication--collaboration)
@@ -24,17 +23,12 @@ Here are some of my favorite apps for Mac users. Hopefully, you find them useful
   * [Development Tools](#development-tools)
     * [Markdown Tools](#markdown-tools)
   * [Fonts](#fonts)
-* [Brewfile](#brewfile)
+* [Brewfile - Quick installation](#brewfile---quick-installation)
 
 
-## Security and Privacy
+## Brewlist - Breakdown of my favorite Mac apps
 
-* [GitHub - ParetoSecurity/pareto-mac: Automatically audit your Mac for basic security hygiene.](https://github.com/paretoSecurity/pareto-mac)
-
-
-## Brewlist
-
-See my [Brewfile](#brewfile) to install these apps using Homebrew.
+See my [Brewfile](#brewfile---quick-installation) to install these apps using Homebrew.
 
 
 ### Productivity & Utilities
@@ -48,6 +42,7 @@ See my [Brewfile](#brewfile) to install these apps using Homebrew.
 * `iterm2` - **iTerm2** - Advanced terminal emulator for macOS with split panes, hotkeys, and more.
 * `grammarly-desktop` - **Grammarly** - Desktop writing assistant for grammar, spelling, and style suggestions.
 * `setapp` - **Setapp** - Subscription-based app library offering a curated suite of Mac applications.
+* `pareto-security` - **Pareto Security** - Automatically audits your Mac for basic security hygiene.
 
 
 ### Web Browsers
@@ -109,8 +104,14 @@ See my [Brewfile](#brewfile) to install these apps using Homebrew.
 * `font-open-dyslexic-nerd-font` - **OpenDyslexic Nerd Font** - Dyslexia-friendly font with Nerd Font icons.
 
 
-## Brewfile
+## Brewfile - Quick installation
+
+> [!TIP] Import Brewfile to your Mac with bundle command
+> Save the following content into a file named `Brewfile`, then run the command below to install all listed apps.
+> `brew bundle install --file=path/to/Brewfile`
+
+My Brewfile:
 
 ```txt
-<!-- @include: ./Brewfile -->
+<!-- @include: ./share/Brewfile -->
 ```

@@ -1,0 +1,677 @@
+{
+  "nightTab": true,
+  "version": "7.5.0",
+  "state": {
+    "language": "system",
+    "layout": {
+      "area": {
+        "header": { "width": 100, "justify": "center" },
+        "bookmark": { "width": 100, "justify": "center" }
+      },
+      "alignment": "center-center",
+      "order": "header-bookmark",
+      "direction": "vertical",
+      "size": 100,
+      "width": 80,
+      "padding": 40,
+      "gutter": 20,
+      "breakpoint": "xl",
+      "scrollbar": "auto",
+      "title": "",
+      "favicon": "",
+      "overscroll": { "active": false, "unblur": false }
+    },
+    "header": {
+      "item": { "justify": "left" },
+      "greeting": {
+        "show": false,
+        "type": "good",
+        "custom": "",
+        "name": "",
+        "size": 100,
+        "newLine": false
+      },
+      "transitional": {
+        "show": false,
+        "type": "time-and-date",
+        "size": 100,
+        "newLine": false
+      },
+      "clock": {
+        "hour": { "show": true, "display": "number" },
+        "minute": { "show": true, "display": "number" },
+        "second": { "show": false, "display": "number" },
+        "separator": { "show": true, "text": "" },
+        "meridiem": { "show": false },
+        "hour24": { "show": true },
+        "size": 100,
+        "newLine": false
+      },
+      "date": {
+        "day": {
+          "show": true,
+          "display": "word",
+          "weekStart": "monday",
+          "length": "long"
+        },
+        "date": { "show": true, "display": "number", "ordinal": true },
+        "month": {
+          "show": true,
+          "display": "word",
+          "length": "short",
+          "ordinal": false
+        },
+        "year": { "show": false, "display": "word" },
+        "separator": { "show": true, "text": "" },
+        "format": "month-date",
+        "size": 100,
+        "newLine": false
+      },
+      "search": {
+        "show": true,
+        "width": { "by": "auto", "size": 30 },
+        "engine": {
+          "selected": "google",
+          "custom": { "name": "", "url": "", "queryName": "" }
+        },
+        "text": { "justify": "center" },
+        "size": 100,
+        "newLine": false,
+        "newTab": false,
+        "string": ""
+      },
+      "order": ["date", "clock", "search"],
+      "edit": false
+    },
+    "bookmark": {
+      "size": 100,
+      "url": { "show": true },
+      "line": { "show": true },
+      "shadow": { "show": true },
+      "hoverScale": { "show": true },
+      "orientation": "bottom",
+      "style": "block",
+      "newTab": false,
+      "edit": false,
+      "add": false,
+      "show": true,
+      "item": {}
+    },
+    "group": {
+      "area": { "justify": "left" },
+      "order": "header-body",
+      "name": { "size": 100 },
+      "toolbar": { "size": 100 },
+      "edit": false,
+      "add": false
+    },
+    "toolbar": {
+      "location": "corner",
+      "position": "bottom-right",
+      "size": 100,
+      "accent": { "show": true },
+      "add": { "show": true },
+      "edit": { "show": true },
+      "newLine": false
+    },
+    "theme": {
+      "color": {
+        "range": { "primary": { "h": 198, "s": 0 } },
+        "contrast": { "start": 10, "end": 60 },
+        "shades": 14
+      },
+      "accent": {
+        "hsl": { "h": 25, "s": 86, "l": 53 },
+        "rgb": { "r": 238, "g": 119, "b": 34 },
+        "random": { "active": false, "style": "any" },
+        "cycle": { "active": false, "speed": 300, "step": 10 }
+      },
+      "font": {
+        "display": {
+          "name": "Shadows Into Light",
+          "weight": 700,
+          "style": "normal"
+        },
+        "ui": { "name": "Fira Code", "weight": 500, "style": "normal" }
+      },
+      "background": {
+        "type": "theme",
+        "color": {
+          "hsl": { "h": 221, "s": 47, "l": 17 },
+          "rgb": { "r": 23, "g": 36, "b": 64 }
+        },
+        "gradient": {
+          "angle": 160,
+          "start": {
+            "hsl": { "h": 206, "s": 16, "l": 40 },
+            "rgb": { "r": 86, "g": 104, "b": 118 }
+          },
+          "end": {
+            "hsl": { "h": 219, "s": 28, "l": 12 },
+            "rgb": { "r": 22, "g": 28, "b": 39 }
+          }
+        },
+        "image": {
+          "url": "",
+          "blur": 0,
+          "grayscale": 0,
+          "scale": 100,
+          "accent": 0,
+          "opacity": 100,
+          "vignette": { "opacity": 0, "start": 90, "end": 70 }
+        },
+        "video": {
+          "url": "",
+          "blur": 0,
+          "grayscale": 0,
+          "scale": 100,
+          "accent": 0,
+          "opacity": 100,
+          "vignette": { "opacity": 0, "start": 90, "end": 70 }
+        }
+      },
+      "opacity": { "general": 100 },
+      "layout": {
+        "color": {
+          "by": "theme",
+          "blur": 0,
+          "opacity": 10,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "divider": { "size": 0 }
+      },
+      "header": {
+        "color": {
+          "by": "theme",
+          "opacity": 10,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "search": { "opacity": 100 }
+      },
+      "bookmark": {
+        "color": {
+          "by": "theme",
+          "opacity": 10,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "item": { "border": 0, "opacity": 100 }
+      },
+      "group": { "toolbar": { "opacity": 100 } },
+      "toolbar": { "opacity": 100 },
+      "style": "dark",
+      "radius": 20,
+      "shadow": 100,
+      "shade": { "opacity": 10, "blur": 0 },
+      "custom": { "all": [], "edit": false }
+    },
+    "search": false,
+    "modal": false,
+    "menu": true
+  },
+  "bookmark": [
+    {
+      "name": { "text": "Streaming", "show": true },
+      "collapse": false,
+      "toolbar": {
+        "size": 100,
+        "openAll": { "show": true },
+        "collapse": { "show": false }
+      },
+      "items": [
+        {
+          "url": "https://www.netflix.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Netflix", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "film", "prefix": "fas", "label": "Netflix" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 357, "s": 92, "l": 47 },
+            "rgb": { "r": 229, "g": 9, "b": 20 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000000
+        },
+        {
+          "url": "https://www.primevideo.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Prime Video", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "play-circle",
+                "prefix": "fas",
+                "label": "Prime Video"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 195, "s": 100, "l": 44 },
+            "rgb": { "r": 0, "g": 168, "b": 225 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000001
+        },
+        {
+          "url": "https://www.hulu.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Hulu", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "tv", "prefix": "fas", "label": "Hulu" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 150, "s": 81, "l": 51 },
+            "rgb": { "r": 28, "g": 231, "b": 131 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000002
+        },
+        {
+          "url": "https://www.disneyplus.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Disney+", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": { "name": "star", "prefix": "fas", "label": "Disney+" },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 226, "s": 85, "l": 44 },
+            "rgb": { "r": 17, "g": 60, "b": 207 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000003
+        },
+        {
+          "url": "https://www.peacocktv.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Peacock", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "feather",
+                "prefix": "fas",
+                "label": "Peacock"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 45, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 192, "b": 0 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000004
+        },
+        {
+          "url": "https://www.paramountplus.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Paramount+", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "mountain",
+                "prefix": "fas",
+                "label": "Paramount+"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 216, "s": 100, "l": 50 },
+            "rgb": { "r": 0, "g": 100, "b": 255 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000005
+        },
+        {
+          "url": "https://www.max.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Max", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "compact-disc",
+                "prefix": "fas",
+                "label": "Compact Disc"
+              },
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/HBO_Max_logo_%28May_2025%29.png"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 265, "s": 54, "l": 39 },
+            "rgb": { "r": 90, "g": 46, "b": 152 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000006
+        },
+        {
+          "url": "https://tv.apple.com",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "Apple TV+", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "apple-alt",
+                "prefix": "fas",
+                "label": "Apple TV+"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 196, "s": 6, "l": 66 },
+            "rgb": { "r": 162, "g": 170, "b": 173 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000007
+        },
+        {
+          "url": "https://www.youtube.com/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "YouTube Premium", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "play",
+                "prefix": "fas",
+                "label": "YouTube Premium"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 100, "l": 50 },
+            "rgb": { "r": 255, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000008
+        },
+        {
+          "url": "https://www.espn.com/espnplus",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "ESPN+", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "icon",
+              "size": 25,
+              "letter": { "text": "" },
+              "icon": {
+                "name": "football-ball",
+                "prefix": "fas",
+                "label": "ESPN+"
+              },
+              "image": { "url": "" },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 211, "s": 100, "l": 24 },
+            "rgb": { "r": 0, "g": 58, "b": 122 }
+          },
+          "color": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1744091000009
+        }
+      ]
+    }
+  ]
+}
