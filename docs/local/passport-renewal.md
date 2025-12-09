@@ -154,6 +154,11 @@ Head to the designated passport office you have selected during your application
 
 If you want to pay by credit card, be sure to register your credit card information in advance by following the instructions in the To-do list. There will be a URL that starts with `https://mofa.payment-kokopass.jp/...` for you to register your credit card information.
 
+What to bring when picking up your passport:
+
+* Old passport
+* QR code from the notification you received
+
 
 ## Official FAQ resource
 
