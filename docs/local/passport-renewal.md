@@ -133,7 +133,7 @@ File format
 
 ## Wait for processing
 
-> [WARNING] Status will remain 'In process' (`処理中`) until you pick up your passport
+> [!WARNING] Status will remain 'In process' (`処理中`) until you pick up your passport
 
 * After submitting your application, wait for the processing to be handled by the passport office.
 * Once the passport office has finished reviewing your application, you will receive a notification to pick up your passport.
