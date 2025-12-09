@@ -77,8 +77,11 @@ cask "dotnet-sdk"
 cask "figma"
 # Web browser
 cask "firefox"
+# Monospaced font with programming ligatures
 cask "font-fira-code"
+# Patched font with additional glyphs for development
 cask "font-hack-nerd-font"
+# Dyslexia-friendly font with Nerd Font icons
 cask "font-opendyslexic-nerd-font"
 # Desktop client for GitHub repositories
 cask "github"
