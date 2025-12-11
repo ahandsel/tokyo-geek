@@ -1,6 +1,4 @@
 tap "1password/tap"
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "nikolaeu/numi"
 tap "romkatv/powerlevel10k"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -38,7 +36,7 @@ brew "openvino"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # General-purpose scripting language
-brew "php", restart_service: :changed
+brew "php"
 # Tool to interact with the Phrase API
 brew "phrase-cli"
 # Execute binaries from Python packages in isolated environments
@@ -107,6 +105,8 @@ cask "macdown"
 cask "macupdater"
 # Multi-platform web browser
 cask "microsoft-edge"
+# Security checklist app
+cask "pareto-security"
 # Quick Look generator for Markdown files
 cask "qlmarkdown"
 # Emoji picker optimised for blind people
@@ -121,8 +121,6 @@ cask "spotify"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Menu bar app that monitors Mac security settings
-brew "pareto-security"
 vscode "aaron-bond.better-comments"
 vscode "alefragnani.rtf"
 vscode "andersliu.insert-line-number"
@@ -159,7 +157,6 @@ vscode "formulahendry.code-runner"
 vscode "foxundermoon.shell-format"
 vscode "funkyremi.vscode-google-translate"
 vscode "ginfuru.ginfuru-better-solarized-dark-theme"
-vscode "gitbook.gitbook-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
@@ -167,6 +164,7 @@ vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "google.arb-editor"
+vscode "google.geminicodeassist"
 vscode "grapecity.gc-excelviewer"
 vscode "humao.rest-client"
 vscode "ics.japanese-proofreading"
@@ -181,6 +179,7 @@ vscode "jinhyuk.replace-curly-quotes"
 vscode "jock.svg"
 vscode "jtr.vscode-position"
 vscode "kirozen.wordcounter"
+vscode "lukapetrovic.image-resizer"
 vscode "manuth.markdown-converter"
 vscode "mechatroner.rainbow-csv"
 vscode "mermaidchart.vscode-mermaid-chart"
@@ -240,5 +239,3 @@ vscode "yogipatel.solarized-light-no-bold"
 vscode "yzane.markdown-pdf"
 vscode "yzhang.markdown-all-in-one"
 vscode "zignd.html-css-class-completion"
-go "golang.org/x/tools/gopls"
-go "honnef.co/go/tools/cmd/staticcheck"
