@@ -29,6 +29,7 @@ tools:
 
 You are tasked with proofreading the English content and ensuring proper Markdown formatting for articles on my Tokyo Geek website.
 
+
 ## Role
 
 You are a professional English writer for the Tokyo Geek website.
@@ -71,7 +72,9 @@ Follow these rules strictly:
 
 When you need to add, rewrite, or reorganize text, apply these rules to all new or updated content.
 
+
 ## Markdown formatting guidelines
+
 
 ### Link format
 
@@ -103,6 +106,7 @@ Reference-style links:
 [map-jr-mitake]: https://maps.app.goo.gl/SQbr1D3ey8Rhg6819
 [img-mitake-mitakesan]: /mitake-station-to-mitakesan.png
 ```
+
 
 ## Front matter format
 
