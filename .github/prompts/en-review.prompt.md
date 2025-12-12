@@ -1,12 +1,10 @@
 ---
+name: 'english-review'
+description: Proofread the English content to improve clarity, consistency, and style for a blog article.
 agent: agent
 model: GPT-5 mini
 tools:
-  - changes
-  - fetch
-  - search
-  - edit
-description: Blog article editorial review
+  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'microsoft/markitdown/*', 'extensions', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'ms-vscode.vscode-websearchforcopilot/websearch', 'todos', 'runSubagent']
 ---
 
 # Blog article editorial review
