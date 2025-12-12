@@ -19,7 +19,6 @@ head:
 * [Notes on International Shipping from and to Japan](global-shipping)
 * [Housekeeping](housekeeping)
 * [Tokyo hiking](tokyo-hiking)
-* [Tokyo moving](tokyo-moving)
 * [Useful websites for locals](useful-websites-locals)
 
 
