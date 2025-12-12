@@ -11,7 +11,19 @@ head:
 
 {{$frontmatter.description}}
 
-[[toc]]
+
+## Table of contents <!-- omit in toc -->
+
+* [Internet and cell service](#internet-and-cell-service)
+  * [Payment methods](#payment-methods)
+  * [Notes on cell phone plans in Japan](#notes-on-cell-phone-plans-in-japan)
+    * [Data + voice vs data-only plans](#data--voice-vs-data-only-plans)
+* [Buying used items on Facebook](#buying-used-items-on-facebook)
+* [Home centers in Tokyo](#home-centers-in-tokyo)
+* [Great things to buy](#great-things-to-buy)
+  * [Dryer for clothes](#dryer-for-clothes)
+* [Other resources for living in Tokyo](#other-resources-for-living-in-tokyo)
+* [Useful websites for locals](#useful-websites-for-locals)
 
 
 ## Internet and cell service
@@ -36,7 +48,7 @@ Personal recommendation:
   * Cheaper than buying the two services separately because of lower setup costs and reduced monthly billing.
   * Simple integration with [PayPay][paypay-english].
 
-As of November 2022:
+As of November 2025:
 
 * SoftBank 光 is pricier but the fastest internet plan for Tokyo.
 * YMobile is a budget-friendly cell phone plan with the same coverage as SoftBank.
@@ -70,7 +82,8 @@ Japan's major cell service providers:
 * SoftBank
 * Rakuten Mobile
 
-Data plus voice vs data-only plans:
+
+#### Data + voice vs data-only plans
 
 * It is cheaper to get a data-only plan and use a VoIP app like LINE or WhatsApp for voice calls.
 * Generally, data-only plans do not support phone calls or SMS (text messages).
@@ -148,6 +161,6 @@ Recommendation:
 
 Check out our list of [useful websites for locals][useful-websites-locals] as well.
 
-[useful-websites-locals]: ./useful-websites-locals.md
+[useful-websites-locals]: ../useful-websites-locals.md
 
 [promo-link-wise]: https://wise.com/invite/ihpc/genjif1
