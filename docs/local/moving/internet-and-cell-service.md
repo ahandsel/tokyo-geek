@@ -77,6 +77,7 @@ Japan's major cell service providers:
   * Not ideal when trying to use two-step verification for online services (security or sign-ups).
 
 Vocabulary:
+
 * Unlimited plans = `無制限`
 
 Helpful articles:

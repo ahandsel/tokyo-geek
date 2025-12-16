@@ -16,9 +16,7 @@ Here are guides on various aspects of moving to Tokyo, Japan.
 
 ## Home centers - Hardware stores in Japan
 
-
 Home centers are the closest equivalent to Home Depot.
-
 
 Near central Tokyo
 

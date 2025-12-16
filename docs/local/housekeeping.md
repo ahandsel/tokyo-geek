@@ -23,6 +23,7 @@ head:
 ## Drying clothes in Japan
 
 There are a few common options for drying clothes in Japan:
+
 * Hang clothes outside on a balcony using a drying rack (most common method) ☀️
 * Washer-dryer combo machines
   * Space-saving but weaker drying performance compared to standalone dryers.
