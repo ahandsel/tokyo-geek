@@ -18,7 +18,7 @@ head:
 
 [JMTY.jp][jmty] (`ジモティー`) is a popular Japanese website for buying and selling used items locally. It functions similarly to Craigslist.
 
-* Lots of free items available for pickup.
+* Many free items are available for pickup.
 * Everything is in Japanese but browser translation features work well.
 
 [jmty]: https://jmty.jp/
