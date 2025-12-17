@@ -5,7 +5,7 @@ order: 0
 head:
   - - meta
     - name: keywords
-      content: tokyo, websites, resources, locals, moving, expats, relocation, resources, living, guides, resources, expat tips
+      content: tokyo, home centers, hardware stores, locals, moving, expats, relocation, living, guides, expat tips
 ---
 
 # {{$frontmatter.title}}
