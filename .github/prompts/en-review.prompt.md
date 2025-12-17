@@ -4,7 +4,27 @@ description: Proofread the English content to improve clarity, consistency, and 
 agent: agent
 model: GPT-5 mini
 tools:
-  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'microsoft/markitdown/*', 'extensions', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'ms-vscode.vscode-websearchforcopilot/websearch', 'todos', 'runSubagent']
+  [
+    'runCommands',
+    'runTasks',
+    'edit',
+    'runNotebooks',
+    'search',
+    'new',
+    'microsoft/markitdown/*',
+    'extensions',
+    'usages',
+    'vscodeAPI',
+    'problems',
+    'changes',
+    'testFailure',
+    'openSimpleBrowser',
+    'fetch',
+    'githubRepo',
+    'ms-vscode.vscode-websearchforcopilot/websearch',
+    'todos',
+    'runSubagent',
+  ]
 ---
 
 # Blog article editorial review
