@@ -27,9 +27,10 @@ brew bundle dump --describe --force --file=~/Brewfile
 ```
 
 `brew bundle dump` command creates a Brewfile in your home directory, listing all installed Homebrew packages and casks.
+
 * `--describe`: Adds comments to the Brewfile for clarity.
 * `--force`: Overwrites any existing Brewfile.
-* `--file=~/Brewfile`: Specifies the location to save the Brewfile. *In this case, it is saved in the home directory.*
+* `--file=~/Brewfile`: Specifies the location to save the Brewfile. _In this case, it is saved in the home directory._
 
 
 ## Step 2: Transfer Brewfile to new Mac
