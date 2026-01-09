@@ -1,12 +1,9 @@
 ---
-agent: agent
-model: GPT-5 mini
-tools:
-  - changes
-  - fetch
-  - search
-  - edit
-description: Link Checker for VitePress Documentation Sites
+name: 'md-link-linter'
+description: 'Link Checker for VitePress Documentation Sites'
+agent: 'agent'
+model: 'GPT-5 mini'
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 
 # Link Checker for VitePress Documentation Sites

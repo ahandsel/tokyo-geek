@@ -1,29 +1,20 @@
 ---
 name: 'english-review'
-description: Proofread the English content to improve clarity, consistency, and style for a blog article.
-agent: agent
-model: GPT-5 mini
+description: 'Proofread the English content to improve clarity, consistency, and style for a blog article.'
+agent: 'agent'
+model: 'GPT-5 mini'
 tools:
   [
-    'runCommands',
-    'runTasks',
+    'vscode',
+    'execute',
+    'read',
     'edit',
-    'runNotebooks',
     'search',
-    'new',
+    'web',
     'microsoft/markitdown/*',
-    'extensions',
-    'usages',
-    'vscodeAPI',
-    'problems',
-    'changes',
-    'testFailure',
-    'openSimpleBrowser',
-    'fetch',
-    'githubRepo',
+    'agent',
     'ms-vscode.vscode-websearchforcopilot/websearch',
-    'todos',
-    'runSubagent',
+    'todo',
   ]
 ---
 

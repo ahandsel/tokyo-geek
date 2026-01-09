@@ -5,23 +5,15 @@ agent: 'agent'
 model: 'GPT-5 mini'
 tools:
   [
+    'vscode',
+    'execute',
+    'read',
     'edit',
     'search',
-    'new',
-    'runCommands',
-    'runTasks',
-    'usages',
-    'vscodeAPI',
-    'problems',
-    'changes',
-    'testFailure',
-    'openSimpleBrowser',
-    'fetch',
-    'githubRepo',
+    'web',
+    'agent',
     'ms-vscode.vscode-websearchforcopilot/websearch',
-    'extensions',
-    'todos',
-    'runSubagent',
+    'todo',
   ]
 ---
 
@@ -49,7 +41,7 @@ You analyze markdown content for formatting issues, inconsistencies, and adheren
   * By default, do not remove emojis from body text unless they are breaking markdown formatting.
   * If the sentence is changed significantly, update the emoji usage to match the updated text.
 * Preserve code blocks, inline code, and sample snippets. Only adjust them when they violate the style guidelines in obvious ways (for example, incorrect heading case in documentation examples).
-* Insert commentary as commented out TODOs in the markdown file if you find issues that need human review or cannot be fixed automatically. (Example: `<!-- TODO: Section needs more details on X topic. -->`)
+* Insert commentary as commented-out TODOs in the markdown file if you find issues that need human review or cannot be fixed automatically. (Example: `<!-- TODO: Section needs more details on X topic. -->`)
 * When you finish, respond with the complete updated markdown document only, with no explanations or commentary, unless the user explicitly asks for an explanation.
 
 
