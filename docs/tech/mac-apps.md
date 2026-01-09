@@ -89,12 +89,12 @@ See my [Brewfile](#brewfile---quick-installation) to install these apps using Ho
 
 #### Markdown Tools
 
-* `qlmarkdown` - **QuickLook Markdown** - Enables live Quick Look previews of Markdown files.
+* `qlmarkdown` - **QuickLook Markdown** - Enables live Quick Look previews of markdown files.
 * `macdown` - **MacDown** - Markdown editor with live preview and syntax highlighting.
-* `lychee` - **Lychee Link Checker** - Fast link checker for Markdown and HTML files.
-* `markdownlint-cli` - **markdownlint CLI** - Lints Markdown files to ensure consistent style.
+* `lychee` - **Lychee Link Checker** - Fast link checker for markdown and HTML files.
+* `markdownlint-cli` - **markdownlint CLI** - Lints markdown files to ensure consistent style.
 * `markdownlint-cli2` - **markdownlint CLI v2** - Alternative CLI for markdownlint with extended config support.
-* `github-markdown-toc` - **GitHub Markdown TOC** - Generates tables of contents for Markdown documents.
+* `github-markdown-toc` - **GitHub Markdown TOC** - Generates tables of contents for markdown documents.
 
 
 ### Fonts

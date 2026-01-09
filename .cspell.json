@@ -9,6 +9,8 @@
   "words": [
     "Airalo",
     "chichibu",
+    "Craigslist",
+    "Docomo",
     "enoshima",
     "fintech",
     "fintechs",
@@ -23,10 +25,13 @@
     "kichijoji",
     "kodama",
     "kōjogaku",
+    "Mitake",
+    "Mitakesan",
     "Narita",
     "nighttab",
     "Nolebase",
     "Nozomi",
+    "Rakuten",
     "Revolut",
     "roppongi",
     "Sanyo",
@@ -35,6 +40,8 @@
     "Tokaido",
     "vitepress",
     "Yakushima",
+    "YAMAP",
+    "Yodobashi",
     "ZIPAIR"
   ],
   // flagWords - list of words to be always considered incorrect

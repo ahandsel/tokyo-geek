@@ -79,7 +79,7 @@ function main {
     check_markdownlint_installed
     setup_log_file
 
-    # Scan for Markdown Files
+    # Scan for markdown Files
     local markdown_files
     markdown_files=$(scan_markdown_files "$search_directory")
     local file_count

@@ -78,7 +78,7 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
   * Name in Chinese: `北京空港蓝湾国际酒店`
   * Address: 22 Tianzhu East Road, Shunyi District, Beijing, China
   * Address in Chinese: `天竺地区天柱东路22号, 首都国际机场及新国际会展, 北京, 中国, 101312`
-  * Google maps: [Beijing Lanwan International Airport Hotel Tower A](https://maps.app.goo.gl/W1DdYHRQHNEchZnJ6)
+  * Google Maps: [Beijing Lanwan International Airport Hotel Tower A](https://maps.app.goo.gl/W1DdYHRQHNEchZnJ6)
   * Hotel phone: `(0086) 10-64568436`
 * Basic accommodation, the shower was weak but room was clean.
 * The room was quiet enough to sleep well. Bring earplugs if you're a light sleeper.
@@ -87,7 +87,7 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 * Next time, we will book a city hotel to explore downtown Beijing.
 * A fancy Western-style shopping center is nearby, but not much else.
   * `中粮祥云国际生活区` / COFCO Xiangyun International Living Community
-  * Google maps: [maps.app.goo.gl/K3bpwnZAQmwtv53n6](https://maps.app.goo.gl/K3bpwnZAQmwtv53n6)
+  * Google Maps: [maps.app.goo.gl/K3bpwnZAQmwtv53n6](https://maps.app.goo.gl/K3bpwnZAQmwtv53n6)
 
 
 ### How to book the transit hotel
@@ -104,7 +104,7 @@ Here are my notes after doing a 20-hour layover in Beijing International Airport
 Tourists can use AliPay and WeChat Pay in China:
 
 * Register accounts in advance and verify your identity using your passport.
-* Payments are made via QR code, linked to your foreign credit cards ([Wise](https://wise.com/invite/ihpc/genjif1) credit card worked seamlessly for us).
+* Payments are made via QR code, linked to your foreign credit cards ([Wise][promo-link-wise] credit card worked seamlessly for us).
 * Both AliPay and WeChat Pay accept the same phone number
 * Not required if you completed the identity verification process in advance but it is recommended to use a phone number that has Wi-Fi Calling enabled to receive SMS verification codes while in China.
 
@@ -202,3 +202,5 @@ More information: [The Palace Museum ticketing](https://bookingticket.dpm.org.cn
 ---
 
 A bit of preparation goes a long way - enjoy your transit in Beijing!
+
+[promo-link-wise]: https://wise.com/invite/ihpc/genjif1

@@ -33,7 +33,7 @@ Solution: Split the cash into two equal portions and store them in Wise and Revo
 
 ## Why use Wise and Revolut?
 
-Both [Wise](https://wise.com/invite/ihpc/genjif1) and Revolut are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
+Both [Wise][promo-link-wise] and Revolut are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
 
 * **Competitive exchange rates** - often much better than traditional banks.
 * **Global access** - convert your yen into USD or dozens of other currencies at the click of a button.
@@ -119,3 +119,5 @@ A note from an economics enthusiast: locking in market returns can outpace infla
 * [Wise Money Transfer Review - NerdWallet](https://www.nerdwallet.com/article/banking/transferwise-review)
 * [Revolut Review: Checking and Savings - NerdWallet](https://www.nerdwallet.com/reviews/banking/revolut)
 * [Best multi-currency accounts in the US [2023] - Wise](https://wise.com/us/blog/us-foreign-currency-account)
+
+[promo-link-wise]: https://wise.com/invite/ihpc/genjif1
