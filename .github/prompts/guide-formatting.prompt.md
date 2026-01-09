@@ -83,7 +83,7 @@ Follow these rules for link formatting:
 * Convert all inline links to reference-style links and images.
 * Place reference definitions at the end of the relevant section, just before the next heading of the same or higher level, or at the end of the document if there is no following heading.
 * Use kebab-case for reference labels (lowercase letters, numbers, and hyphens only). Keep them 2 to 4 words long.
-  * For Google maps links, start with `map-` followed by the place name in kebab-case.
+  * For Google Maps links, start with `map-` followed by the place name in kebab-case.
   * For images, start with `img-` followed by a brief description in kebab-case.
   * For YAMAP links, start with `yamap-` followed by the trail name in kebab-case.
 * For multiple links to the same URL, reuse the same reference label.
