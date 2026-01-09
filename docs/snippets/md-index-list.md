@@ -13,7 +13,7 @@ excludeFromSidebar: true
  */
 import yaml from 'js-yaml'
 
-/** Load Markdown in this folder (and subfolders) as raw strings. */
+/** Load markdown in this folder (and subfolders) as raw strings. */
 const modules = import.meta.glob('./**/*.md', {
   query: '?raw',
   import: 'default',

@@ -56,8 +56,8 @@ Platto Kodama (`ぷらっとこだま`) Regular Car; Reserved seat plan
 
 ## Is it worth it?
 
-| Trip                | Savings   | Added Travel Time |
-| ------------------- | --------- | ----------------- |
+| Trip                 | Savings   | Added Travel Time |
+| -------------------- | --------- | ----------------- |
 | Tokyo ↔ Shin-Osaka  | 4,020 yen | +1.5 hrs          |
 | Tokyo ↔ Kyoto       | 3,670 yen | +1.5 hrs          |
 | Tokyo ↔ Nagoya      | 2,800 yen | +1 hr 10 mins     |

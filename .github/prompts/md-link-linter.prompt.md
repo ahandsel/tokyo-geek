@@ -14,7 +14,7 @@ description: Link Checker for VitePress Documentation Sites
 
 ## Task
 
-Scan all Markdown files in this VitePress repository, validate every link, and report any broken links with file paths and line numbers.
+Scan all markdown files in this VitePress repository, validate every link, and report any broken links with file paths and line numbers.
 
 
 ## Context
@@ -22,15 +22,15 @@ Scan all Markdown files in this VitePress repository, validate every link, and r
 * The repository is a VitePress documentation site with multiple `.md` files.
 * Typical content roots are `docs/` or the project root. Detect the correct root by checking `.vitepress/config.(ts|js)` for `srcDir`, or default to `docs/` when absent.
 * VitePress link behavior:
-  * Relative links usually target other Markdown files that will be rendered to HTML. A link may omit the `.md` extension.
+  * Relative links usually target other markdown files that will be rendered to HTML. A link may omit the `.md` extension.
   * Heading anchors use GitHub-style slugs.
   * Assets may live under `docs/public` or `docs/.vitepress/public` and are served at the site root.
 
 
 ## Requirements
 
-1. Traverse all Markdown files under the docs root, excluding `node_modules`, `.git`, `dist`, `.vitepress/cache`, and any configured ignore patterns.
-2. Extract links from Markdown AST:
+1. Traverse all markdown files under the docs root, excluding `node_modules`, `.git`, `dist`, `.vitepress/cache`, and any configured ignore patterns.
+2. Extract links from markdown AST:
    * Include `[text](href)` and autolink URLs.
    * Exclude code blocks and inline code.
 3. Validate links:
@@ -75,13 +75,13 @@ Scan all Markdown files in this VitePress repository, validate every link, and r
 * Language: modern Node.js with ES modules.
 * Packages:
   * `glob` for file discovery.
-  * `unified`, `remark-parse`, and `unist-util-visit` for Markdown parsing.
+  * `unified`, `remark-parse`, and `unist-util-visit` for markdown parsing.
   * `github-slugger` for anchor validation.
   * `undici` (preferred) or `node:https` for HTTP requests with redirects and timeouts.
   * `picomatch` for ignore pattern checks.
   * `chalk` for colored CLI output.
   * `yargs` or `commander` for CLI flags.
-* Compute line numbers by reading the Markdown source and using positional data from the AST nodes.
+* Compute line numbers by reading the markdown source and using positional data from the AST nodes.
 * Implement a small URL resolver that respects current file directory, docs root, and VitePress conventions.
 * Treat 403, 429, and known bot-blocking responses as warnings when `--tolerant` is set, otherwise as failures.
 * CLI flags:
@@ -102,7 +102,7 @@ Broken link: docs/guide/faq.md:77 -> ./usage#wrong-anchor (anchor not found)
 
 ## Acceptance criteria
 
-* Running `npm run check:links` scans all Markdown files, validates links, prints a clear summary, and exits with status 1 when any broken links are detected.
+* Running `npm run check:links` scans all markdown files, validates links, prints a clear summary, and exits with status 1 when any broken links are detected.
 * The JSON output contains an array of broken link objects with `file`, `line`, `text`, `url`, and `reason`.
 * The GitHub Actions workflow annotates PRs with inline errors at the correct file and line.
 * Anchor checks match VitePress slug generation.

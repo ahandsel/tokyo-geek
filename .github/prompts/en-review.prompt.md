@@ -66,7 +66,7 @@ Review the active file as a blog article. Improve English, remove redundancy, an
 
 ## Formatting
 
-* Preserve and update frontmatter and Markdown structure.
+* Preserve and update frontmatter and markdown structure.
 * Fix heading hierarchy and capitalization.
 * Standardize lists, tables, and code fences.
 * Normalize punctuation spacing, quotes, em/en dashes, and ellipses.
@@ -74,7 +74,7 @@ Review the active file as a blog article. Improve English, remove redundancy, an
 * Unify number formatting, units, dates, and times.
 * Remove duplicated sentences, repeated paragraphs, and tautologies.
 * Trim trailing whitespace and stray blank lines.
-* Execute `markdownlint-cli2 --fix` on the file to enforce Markdown style.
+* Execute `markdownlint-cli2 --fix` on the file to enforce markdown style.
 
 
 ## Quality checks
