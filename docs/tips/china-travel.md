@@ -45,7 +45,6 @@ These notes are based on a 20-hour layover and focus on what helps most for a sh
 * Air China offers free, basic transit hotels for layovers over 8 hours. They are clean.
 * Luggage checks are strict. Remove ALL batteries from your bags. 🔋
 
-
 **General notes**
 
 * Smoking is common in public areas. Masks help reduce secondhand smoke.
