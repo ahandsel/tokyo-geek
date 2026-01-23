@@ -11,27 +11,29 @@
     "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
     "lint": "pnpm run code-format && pnpm run md-lint"
   },
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.1",
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@davidingplus/vitepress-image-viewer": "^1.1.5",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
     "@vite-pwa/assets-generator": "^1.0.2",
     "@vite-pwa/vitepress": "^1.1.0",
-    "glob": "^13.0.0",
     "gray-matter": "^4.0.3",
     "init": "^0.1.2",
     "js-yaml": "^4.1.1",
     "markdown-link-check": "^3.14.2",
     "markdownlint-cli2": "^0.20.0",
-    "openai": "^6.15.0",
-    "prettier": "^3.7.4",
+    "openai": "^6.16.0",
+    "prettier": "^3.8.1",
     "vite": "^7.3.1",
     "vite-plugin-pwa": "^1.2.0",
     "vitepress": "2.0.0-alpha.12",
     "vitepress-mermaid-renderer": "^1.1.7",
     "vitepress-sidebar": "^1.33.1",
-    "vue": "^3.5.26"
+    "vue": "^3.5.27"
   },
   "devEngines": {
     "packageManager": {
