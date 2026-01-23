@@ -39,13 +39,6 @@ Both [Wise][promo-link-wise] and Revolut are popular fintech (financial technolo
 * **Global access** - convert your yen into USD or dozens of other currencies at the click of a button.
 * **User-friendly apps** - set alerts, track rates, and move money in seconds.
 
-Additional Wise-specific notes worth considering:
-
-* **Wise card (physical + digital)** - Wise supports a physical card for travel and a digital card for online or mobile wallet purchases. You can keep the digital card separate to reduce risk if a merchant is compromised.
-* **Paying abroad** - Wise automatically uses the local currency balance when available, and converts at the time of purchase if you do not have enough in that currency.
-* **Spending controls** - you can freeze/unfreeze the card in-app, and replace the digital card if you suspect your details were exposed.
-* **Send/receive money** - Wise lets you add money by bank transfer, convert, and then send to a bank account. You can also share your Wise account details to receive funds from others.
-
 
 ## Why use both Wise and Revolut?
 
@@ -84,12 +77,6 @@ While Wise and Revolut are fully available in Japan, since you are moving back t
   * Make sure to check which methods are supported and the fees involved.
   * Direct bank transfers are usually the cheapest option.
 * Set up rate alerts - both Wise and Revolut allow you to set notifications or even automate conversions when the USD/JPY rate hits your target.
-
-If you plan to rely on Wise while traveling, also consider:
-
-* **Add the Wise card to your mobile wallet** - use Apple Pay or Google Pay for quick tap-to-pay purchases.
-* **Carry both the physical and digital card** - the digital card is safer for online payments, while the physical card is useful for chip-and-PIN or ATM access.
-* **Keep an emergency backup** - keep a second card or some cash in case a card is frozen or a merchant declines foreign cards.
 
 ---
 
