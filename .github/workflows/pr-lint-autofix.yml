@@ -11,11 +11,13 @@ jobs:
   lint-autofix:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    env:
+      PR_HEAD_REF: ${{ github.head_ref }}
     steps:
       - name: Checkout PR branch
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # actions/checkout@v5.0.0, pinned
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ env.PR_HEAD_REF }}
           fetch-depth: 0
 
       - name: Detect pnpm version
@@ -42,8 +44,6 @@ jobs:
         run: pnpm lint
 
       - name: Commit and push changes
-        env:
-          PR_HEAD_REF: ${{ github.head_ref }}
         run: |
           if git diff --quiet; then
             echo "No changes to commit."
