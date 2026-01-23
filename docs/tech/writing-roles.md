@@ -51,7 +51,7 @@ Customer support is added for context as a consumer of the writing content and o
 * Outputs responses to user issues and questions, guiding users to resources.
 * Focuses on resolving problems and unblocking users.
 * Evaluates user feedback and escalates issues to product teams and writers.
-* Example: Help desk tickets, bug reports, FAQs, iterate on of help content.
+* Example: Help desk tickets, bug reports, FAQs, help content.
 
 ---
 
