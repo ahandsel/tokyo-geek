@@ -24,7 +24,7 @@ Assumptions:
 * You have savings in a traditional bank account that can cover 6 months of expenses.
 * You believe the yen will strengthen against the dollar over the next two years.
 
-Solution: Split the cash into two equal portions and store them in Wise and Revolut accounts.
+Solution: Split the cash into two equal portions and store them in [Wise][] and [Revolut][] accounts.
 
 * 2 million JPY (≈ 13,857 USD) in each account.
 * By splitting the funds, you reduce risk if one platform has issues. They are not directly insured by the FDIC nor strictly regulated like traditional banks, but they are generally considered safe enough for holding money.
@@ -33,7 +33,7 @@ Solution: Split the cash into two equal portions and store them in Wise and Revo
 
 ## Why use Wise and Revolut?
 
-Both [Wise][promo-link-wise] and Revolut are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
+Both [Wise][] and [Revolut][] are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
 
 * **Competitive exchange rates** - often much better than traditional banks.
 * **Global access** - convert your yen into USD or dozens of other currencies at the click of a button.
@@ -120,4 +120,5 @@ A note from an economics enthusiast: locking in market returns can outpace infla
 * [Revolut Review: Checking and Savings - NerdWallet](https://www.nerdwallet.com/reviews/banking/revolut)
 * [Best multi-currency accounts in the US [2023] - Wise](https://wise.com/us/blog/us-foreign-currency-account)
 
-[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
+[Wise]: https://wise.com/invite/ihpn/genjif1
+[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
