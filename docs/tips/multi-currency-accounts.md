@@ -13,6 +13,7 @@ head:
 
 [[toc]]
 
+
 ## What they are
 
 **Wise** and **Revolut** are fintech platforms that offer multi-currency accounts, low-cost foreign exchange, and debit cards you can use internationally. They are popular with travelers who want to hold multiple currencies and spend abroad without the high exchange markups typical of traditional banks. The short version: you can keep balances in multiple currencies, convert when rates are favorable, and pay in the local currency using a card or mobile wallet.
