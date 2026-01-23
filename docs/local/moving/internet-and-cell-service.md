@@ -52,11 +52,12 @@ As of November 2025:
 * Japan Post Bank is the most straightforward option for opening a bank account.
   * For more details, refer to the [How to open a Japan Post Bank account - MATCHA][matcha-japan-post-bank] article.
 * Apply for a [Rakuten credit card][rakuten-credit-card] before trying to get a cell phone plan.
-* If you have money in a different currency, consider the [Wise Debit Card][promo-link-wise] as a payment method.
+* If you have money in a different currency, consider the debit card from [Wise][] or [Revolut][] multi-currency accounts.
 
 [matcha-japan-post-bank]: https://matcha-jp.com/en/4496
 [rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
+[Wise]: https://wise.com/invite/ihpn/genjif1
+[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 
 
 ## Notes on cell phone plans in Japan
