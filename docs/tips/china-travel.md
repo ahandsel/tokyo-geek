@@ -110,7 +110,7 @@ These notes are based on a 20-hour layover and focus on what helps most for a sh
 Tourists can use Alipay and WeChat Pay in China.
 
 * Register accounts in advance and verify your identity using your passport.
-* Payments are made via QR codes and linked to your foreign credit cards ([Wise][promo-link-wise] credit card worked seamlessly for us).
+* Payments are made via QR codes and linked to your foreign credit cards ([Wise][] credit card worked seamlessly for us).
 * Both Alipay and WeChat Pay accept the same phone number.
 * A phone number is not required if you completed identity verification in advance, but it is recommended to use a number with Wi-Fi Calling enabled to receive SMS verification codes in China.
 
@@ -119,7 +119,7 @@ For detailed setup instructions:
 * [Alipay for tourists][alipay-tourists]
 
 [alipay-tourists]: https://trevallog.com/alipay-for-tourist/
-[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
+[Wise]: https://wise.com/invite/ihpn/genjif1
 
 
 ## Visa requirements
