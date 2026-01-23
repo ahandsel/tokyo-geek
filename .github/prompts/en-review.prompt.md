@@ -1,5 +1,5 @@
 ---
-name: 'english-review'
+name: 'en-review'
 description: 'Proofread the English content to improve clarity, consistency, and style for a blog article.'
 agent: 'agent'
 model: 'GPT-5 mini'
