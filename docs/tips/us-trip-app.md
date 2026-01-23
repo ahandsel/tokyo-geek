@@ -32,5 +32,5 @@ Here are iOS apps that I recommend downloading for your trip to the United State
 [Nomad]: https://apps.apple.com/app/id1521602300
 [Revolut]: https://apps.apple.com/app/id932493382
 [Timeshifter]: https://apps.apple.com/app/id1380684374
-[Revolut invite link]: https://revolut.com/referral/?referral-code=genjikw45!FEB1-24-AR-JP
+[Revolut invite link]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 [Airalo invite code: AB6826]: https://ref.airalo.com/DB2m

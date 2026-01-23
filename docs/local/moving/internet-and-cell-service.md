@@ -56,7 +56,7 @@ As of November 2025:
 
 [matcha-japan-post-bank]: https://matcha-jp.com/en/4496
 [rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[promo-link-wise]: https://wise.com/invite/ihpc/genjif1
+[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
 
 
 ## Notes on cell phone plans in Japan

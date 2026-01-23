@@ -119,7 +119,7 @@ For detailed setup instructions:
 * [Alipay for tourists][alipay-tourists]
 
 [alipay-tourists]: https://trevallog.com/alipay-for-tourist/
-[promo-link-wise]: https://wise.com/invite/ihpc/genjif1
+[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
 
 
 ## Visa requirements

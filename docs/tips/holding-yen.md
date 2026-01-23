@@ -120,4 +120,4 @@ A note from an economics enthusiast: locking in market returns can outpace infla
 * [Revolut Review: Checking and Savings - NerdWallet](https://www.nerdwallet.com/reviews/banking/revolut)
 * [Best multi-currency accounts in the US [2023] - Wise](https://wise.com/us/blog/us-foreign-currency-account)
 
-[promo-link-wise]: https://wise.com/invite/ihpc/genjif1
+[promo-link-wise]: https://wise.com/invite/ihpn/genjif1
