@@ -1,0 +1,12 @@
+# Codex project defaults for the tokyo-geek repo.
+# This file lives in .codex/ so the CLI and IDE extension pick it up automatically.
+
+model = "gpt-5.1-codex-max"
+model_provider = "openai"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+approval_policy = "auto"
+file_opener = "vscode"
+
+[history]
+persistence = "save-all"
