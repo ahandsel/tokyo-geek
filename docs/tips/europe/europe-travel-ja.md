@@ -13,21 +13,9 @@ head:
 ぜひあなたの旅の参考にしてください！
 
 
-## 目次 <!-- omit in toc -->
+## 目次
 
-* [概要](#概要)
-* [荷造りと持ち物のヒント](#荷造りと持ち物のヒント)
-  * [実際に使用したおすすめバッグ](#実際に使用したおすすめバッグ)
-* [ユーロスターの乗車ヒント](#ユーロスターの乗車ヒント)
-* [モバイルデータとeSIM](#モバイルデータとesim)
-* [通貨と支払い](#通貨と支払い)
-* [環境と衛生](#環境と衛生)
-* [デバイス関連のヒント](#デバイス関連のヒント)
-* [翻訳にAIを活用する](#翻訳にaiを活用する)
-  * [フランス語メニューを画像から翻訳するAIプロンプト例](#フランス語メニューを画像から翻訳するaiプロンプト例)
-  * [ドイツ語の画像テキストを英語に翻訳するAIプロンプト例](#ドイツ語の画像テキストを英語に翻訳するaiプロンプト例)
-  * [フランス語ウェブサイトをレビューし要約するAIプロンプト例](#フランス語ウェブサイトをレビューし要約するaiプロンプト例)
-* [最後のヒント](#最後のヒント)
+[[toc]]
 
 
 ## 概要
@@ -57,10 +45,15 @@ head:
 
 ### 実際に使用したおすすめバッグ
 
-* [tomtoc 40L トラベルバックパック](https://www.amazon.co.jp/dp/B097QWFJRX) – 丈夫でノートPCも収納できるので、壊れやすいものの持ち運びに安心です。
-* [折りたたみ式 65L ボストンバッグ](https://www.amazon.co.jp/dp/B09L43MKDS) – 安価ながら耐久性が高く、使わないときはコンパクトになります。
-* [Solo Tourist HT-BP41 バックパック](https://www.amazon.co.jp/dp/B001LGVW9K) – シンプルなデザインで、飛行機の預け入れにも対応。
-* [防水ヘルメットバッグ](https://www.amazon.co.jp/dp/B0C858T85X) – 大きく開く開口部と二重ジッパーで使いやすく、防水性も兼ね備えています。
+* [tomtoc 40L トラベルバックパック][tomtoc-40l] – 丈夫でノートPCも収納できるので、壊れやすいものの持ち運びに安心です。
+* [折りたたみ式 65L ボストンバッグ][65l-boston-bag] – 安価ながら耐久性が高く、使わないときはコンパクトになります。
+* [Solo Tourist HT-BP41 バックパック][solo-tourist-ht-bp41] – シンプルなデザインで、飛行機の預け入れにも対応。
+* [防水ヘルメットバッグ][waterproof-helmet-bag] – 大きく開く開口部と二重ジッパーで使いやすく、防水性も兼ね備えています。
+
+[65l-boston-bag]: https://www.amazon.co.jp/dp/B09L43MKDS
+[solo-tourist-ht-bp41]: https://www.amazon.co.jp/dp/B001LGVW9K
+[tomtoc-40l]: https://www.amazon.co.jp/dp/B097QWFJRX
+[waterproof-helmet-bag]: https://www.amazon.co.jp/dp/B0C858T85X
 
 
 ## ユーロスターの乗車ヒント
@@ -123,6 +116,25 @@ head:
 
 [ブリタ 浄水ボトル 600ml]: https://amzn.asia/d/8ddtLY4
 [サンワサプライ TR-AD4W]: https://amzn.asia/d/2B8Dc6M
+
+
+## 旅先で役立つアプリ
+
+* [Timeshifter][timeshifter] – フライトスケジュールに合わせて時差ぼけ対策の睡眠・光浴びプランを作ってくれます。
+* [Visit Japan Web][visit-japan-web] – 日本入国・帰国時の検疫・税関手続きを事前登録でき、空港での待ち時間を短縮できます。
+* [Elk Currency Converter][elk-currency-converter] – オフラインでもユーロ換算が素早く、スワイプで金額をざっくり比較できます。
+* [Flush Toilet Finder & Map][flush-toilet-finder-map] – 現地の公衆トイレや有料トイレをすぐ探せます。オフライン検索にも対応。
+* [Stasher Luggage Storage][stasher-luggage-storage] – 駅近の荷物預け場所を事前予約し、身軽に観光できます。
+* [Google翻訳][google-translate] – オフライン言語パックを事前ダウンロードし、メニューや看板を即座に翻訳できます。
+* [Perplexity - AI Search & Chat][perplexity-ai-search-chat] – 現地レストランや交通の最新情報を対話で検索でき、リンク付きで回答が得られます。
+
+[elk-currency-converter]: https://apps.apple.com/app/id1189748820
+[flush-toilet-finder-map]: https://apps.apple.com/app/id955254528
+[google-translate]: https://apps.apple.com/app/id414706506
+[perplexity-ai-search-chat]: https://apps.apple.com/app/id1668000334
+[stasher-luggage-storage]: https://apps.apple.com/app/id1467879761
+[timeshifter]: https://apps.apple.com/app/id1380684374
+[visit-japan-web]: https://www.vjw.digital.go.jp/main/
 
 
 ## 翻訳にAIを活用する
