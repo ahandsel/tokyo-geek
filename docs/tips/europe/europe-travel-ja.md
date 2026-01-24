@@ -73,15 +73,15 @@ head:
 
 * 7日間の旅行なら**10GB**、14日間なら**20GB**を目安にすると安心です。
 * おすすめeSIMプロバイダー（順不同）：
-  1. **Nomad** - [Nomad ヨーロッパプラン eSIM][]で通信が安定
+  1. **Nomad** - [Nomad ヨーロッパプラン eSIM][nomad-europe-plan-esim]で通信が安定
      * 紹介コード `KEITLQPQFA` で25%オフ。
-     * [Nomad Help Center: 友達からの紹介コードをどのように利用できますか？][]
-  2. **Airalo** - [Airalo ヨーロッパプラン eSIM][] 初回購入で \$3オフ。紹介コード：`AB6826`。
+     * [Nomad Help Center: 友達からの紹介コードをどのように利用できますか？][nomad-help-center-referral-code]
+  2. **Airalo** - [Airalo ヨーロッパプラン eSIM][airalo-europe-plan-esim] 初回購入で \$3オフ。紹介コード：`AB6826`。
 * **VPNをイギリスに設定**すると、多くのサイトに英語でアクセスできます。
 
-[Nomad Help Center: 友達からの紹介コードをどのように利用できますか？]: https://www.getnomad.app/help-center/ja/articles/9886364
-[Airalo ヨーロッパプラン eSIM]: https://www.airalo.com/europe-eSIM
-[Nomad ヨーロッパプラン eSIM]: https://www.getnomad.app/europe-eSIM
+[nomad-help-center-referral-code]: https://www.getnomad.app/help-center/ja/articles/9886364
+[airalo-europe-plan-esim]: https://www.airalo.com/ja/europe-esim
+[nomad-europe-plan-esim]: https://www.nomadesim.com/ja/europe-eSIM
 
 
 ## 通貨と支払い
