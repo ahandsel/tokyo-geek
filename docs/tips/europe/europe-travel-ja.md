@@ -99,7 +99,7 @@ head:
 * **[Revolut]** も便利なので、出発前に登録しておくと安心。
 * **小銭（€1、€2、€5など）を€50程度用意**しておくと、チップや公衆トイレの支払いに役立ちます。
 
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JUL1-25-AR-JP
+[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 
 
 ## 環境と衛生
