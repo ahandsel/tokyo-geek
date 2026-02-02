@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "pnpm run lint && vitepress build docs && vitepress preview docs",
+    "check": "pnpm run lint && vitepress dev docs",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
