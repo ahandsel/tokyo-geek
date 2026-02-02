@@ -39,8 +39,8 @@ importers:
         specifier: ^0.20.0
         version: 0.20.0
       openai:
-        specifier: ^6.16.0
-        version: 6.16.0(zod@4.3.5)
+        specifier: ^6.17.0
+        version: 6.17.0(zod@4.3.5)
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -2790,8 +2790,8 @@ packages:
   oniguruma-to-es@4.3.4:
     resolution: {integrity: sha512-3VhUGN3w2eYxnTzHn+ikMI+fp/96KoRSVK9/kMTcFqj1NRDh2IhQCKvYxDnWePKRXY/AqH+Fuiyb7VHSzBjHfA==}
 
-  openai@6.16.0:
-    resolution: {integrity: sha512-fZ1uBqjFUjXzbGc35fFtYKEOxd20kd9fDpFeqWtsOZWiubY8CZ1NAlXHW3iathaFvqmNtCWMIsosCuyeI7Joxg==}
+  openai@6.17.0:
+    resolution: {integrity: sha512-NHRpPEUPzAvFOAFs9+9pC6+HCw/iWsYsKCMPXH5Kw7BpMxqd8g/A07/1o7Gx2TWtCnzevVRyKMRFqyiHyAlqcA==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -6720,7 +6720,7 @@ snapshots:
       regex: 6.1.0
       regex-recursion: 6.0.2
 
-  openai@6.16.0(zod@4.3.5):
+  openai@6.17.0(zod@4.3.5):
     optionalDependencies:
       zod: 4.3.5
 
