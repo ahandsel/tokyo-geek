@@ -5,7 +5,7 @@ model = "gpt-5.1-codex-max"
 model_provider = "openai"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
-approval_policy = "auto"
+approval_policy = "on-request"
 file_opener = "vscode"
 
 [history]
