@@ -13,10 +13,10 @@ importers:
         version: 1.1.5
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)
+        version: 2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)
       '@nolebase/vitepress-plugin-meta':
         specifier: ^2.18.2
-        version: 2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))
+        version: 2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))
       '@vite-pwa/assets-generator':
         specifier: ^1.0.2
         version: 1.0.2
@@ -51,8 +51,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(@vite-pwa/assets-generator@1.0.2)(vite@7.3.1(jiti@2.6.1)(less@4.5.1)(terser@5.46.0))(workbox-build@7.4.0)(workbox-window@7.4.0)
       vitepress:
-        specifier: 2.0.0-alpha.12
-        version: 2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
+        specifier: 2.0.0-alpha.16
+        version: 2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
       vitepress-mermaid-renderer:
         specifier: ^1.1.8
         version: 1.1.8(mermaid@11.12.1)(vue@3.5.27)
@@ -598,6 +598,9 @@ packages:
 
   '@docsearch/js@4.5.3':
     resolution: {integrity: sha512-rcBiUMCXbZLqrLIT6F6FDcrG/tyvM2WM0zum6NPbIiQNDQxbSgmNc+/bToS0rxBsXaxiU64esiWoS02WqrWLsg==}
+
+  '@docsearch/sidepanel-js@4.5.3':
+    resolution: {integrity: sha512-DmcZYc1ZMMcabtKrCU2RIf1z09LwazKCyoPFU/ijJiBg2LdqMLmkyDKHGy1OIYEyUx4ok5RIbkVGaRfD55BqZQ==}
 
   '@emnapi/runtime@1.8.1':
     resolution: {integrity: sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg==}
@@ -1379,19 +1382,19 @@ packages:
   '@vue/shared@3.5.27':
     resolution: {integrity: sha512-dXr/3CgqXsJkZ0n9F3I4elY8wM9jMJpP3pvRG52r6m0tu/MsAFIe6JpXVGeNMd/D9F4hQynWT8Rfuj0bdm9kFQ==}
 
-  '@vueuse/core@13.9.0':
-    resolution: {integrity: sha512-ts3regBQyURfCE2BcytLqzm8+MmLlo5Ln/KLoxDVcsZ2gzIwVNnQpQOL/UKV8alUqjSZOlpFZcRNsLRqj+OzyA==}
+  '@vueuse/core@14.2.0':
+    resolution: {integrity: sha512-tpjzVl7KCQNVd/qcaCE9XbejL38V6KJAEq/tVXj7mDPtl6JtzmUdnXelSS+ULRkkrDgzYVK7EerQJvd2jR794Q==}
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/integrations@13.9.0':
-    resolution: {integrity: sha512-SDobKBbPIOe0cVL7QxMzGkuUGHvWTdihi9zOrrWaWUgFKe15cwEcwfWmgrcNzjT6kHnNmWuTajPHoIzUjYNYYQ==}
+  '@vueuse/integrations@14.2.0':
+    resolution: {integrity: sha512-Yuo5XbIi6XkfSXOYKd5SBZwyBEyO3Hd41eeG2555hDbE0Maz/P0BfPJDYhgDXjS9xI0jkWUUp1Zh5lXHOgkwLw==}
     peerDependencies:
       async-validator: ^4
       axios: ^1
       change-case: ^5
       drauu: ^0.4
-      focus-trap: ^7
+      focus-trap: ^7 || ^8
       fuse.js: ^7
       idb-keyval: ^6
       jwt-decode: ^4
@@ -1426,11 +1429,11 @@ packages:
       universal-cookie:
         optional: true
 
-  '@vueuse/metadata@13.9.0':
-    resolution: {integrity: sha512-1AFRvuiGphfF7yWixZa0KwjYH8ulyjDCC0aFgrGRz8+P4kvDFSdXLVfTk5xAN9wEuD1J6z4/myMoYbnHoX07zg==}
+  '@vueuse/metadata@14.2.0':
+    resolution: {integrity: sha512-i3axTGjU8b13FtyR4Keeama+43iD+BwX9C2TmzBVKqjSHArF03hjkp2SBZ1m72Jk2UtrX0aYCugBq2R1fhkuAQ==}
 
-  '@vueuse/shared@13.9.0':
-    resolution: {integrity: sha512-e89uuTLMh0U5cZ9iDpEI2senqPGfbPRTHM/0AaQkcxnpqjkZqDYP8rpfm7edOz8s+pOCOROEy1PIveSW8+fL5g==}
+  '@vueuse/shared@14.2.0':
+    resolution: {integrity: sha512-Z0bmluZTlAXgUcJ4uAFaML16JcD8V0QG00Db3quR642I99JXIDRa2MI2LGxiLVhcBjVnL1jOzIvT5TT2lqJlkA==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -3454,12 +3457,12 @@ packages:
     resolution: {integrity: sha512-wPUbXezGakVldawixeRW5tKQTLKoMj2t4nWoThKfCltBM/9a38IE+wCXmmRNW22ZKC32SD/X/sG6NyCTK8QBRg==}
     engines: {node: '>=18.0.0'}
 
-  vitepress@2.0.0-alpha.12:
-    resolution: {integrity: sha512-yZwCwRRepcpN5QeAhwSnEJxS3I6zJcVixqL1dnm6km4cnriLpQyy2sXQDsE5Ti3pxGPbhU51nTMwI+XC1KNnJg==}
+  vitepress@2.0.0-alpha.16:
+    resolution: {integrity: sha512-w1nwsefDVIsje7BZr2tsKxkZutDGjG0YoQ2yxO7+a9tvYVqfljYbwj5LMYkPy8Tb7YbPwa22HtIhk62jbrvuEQ==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
-      oxc-minify: ^0.82.1
+      oxc-minify: '*'
       postcss: ^8
     peerDependenciesMeta:
       markdown-it-mathjax3:
@@ -4301,6 +4304,8 @@ snapshots:
 
   '@docsearch/js@4.5.3': {}
 
+  '@docsearch/sidepanel-js@4.5.3': {}
+
   '@emnapi/runtime@1.8.1':
     dependencies:
       tslib: 2.8.1
@@ -4538,24 +4543,24 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
 
-  '@nolebase/ui@2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)':
+  '@nolebase/ui@2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)':
     dependencies:
       '@iconify-json/octicon': 1.2.20
       less: 4.5.1
-      vitepress: 2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
+      vitepress: 2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
       vue: 3.5.27
 
-  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)':
+  '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)':
     dependencies:
       '@iconify-json/carbon': 1.2.18
       '@iconify-json/icon-park-outline': 1.2.4
-      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)
+      '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))(vue@3.5.27)
       less: 4.5.1
-      vitepress: 2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
+      vitepress: 2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
     transitivePeerDependencies:
       - vue
 
-  '@nolebase/vitepress-plugin-meta@2.18.2(vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))':
+  '@nolebase/vitepress-plugin-meta@2.18.2(vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0))':
     dependencies:
       defu: 6.1.4
       hast-util-select: 6.0.4
@@ -4566,7 +4571,7 @@ snapshots:
       unified: 11.0.5
       unist-util-remove: 4.0.0
       unist-util-remove-position: 5.0.0
-      vitepress: 2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
+      vitepress: 2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0)
 
   '@oozcitak/dom@2.0.2':
     dependencies:
@@ -5020,24 +5025,24 @@ snapshots:
 
   '@vue/shared@3.5.27': {}
 
-  '@vueuse/core@13.9.0(vue@3.5.27)':
+  '@vueuse/core@14.2.0(vue@3.5.27)':
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 13.9.0
-      '@vueuse/shared': 13.9.0(vue@3.5.27)
+      '@vueuse/metadata': 14.2.0
+      '@vueuse/shared': 14.2.0(vue@3.5.27)
       vue: 3.5.27
 
-  '@vueuse/integrations@13.9.0(focus-trap@7.8.0)(vue@3.5.27)':
+  '@vueuse/integrations@14.2.0(focus-trap@7.8.0)(vue@3.5.27)':
     dependencies:
-      '@vueuse/core': 13.9.0(vue@3.5.27)
-      '@vueuse/shared': 13.9.0(vue@3.5.27)
+      '@vueuse/core': 14.2.0(vue@3.5.27)
+      '@vueuse/shared': 14.2.0(vue@3.5.27)
       vue: 3.5.27
     optionalDependencies:
       focus-trap: 7.8.0
 
-  '@vueuse/metadata@13.9.0': {}
+  '@vueuse/metadata@14.2.0': {}
 
-  '@vueuse/shared@13.9.0(vue@3.5.27)':
+  '@vueuse/shared@14.2.0(vue@3.5.27)':
     dependencies:
       vue: 3.5.27
 
@@ -7488,10 +7493,11 @@ snapshots:
       gray-matter: 4.0.3
       qsu: 1.11.1
 
-  vitepress@2.0.0-alpha.12(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0):
+  vitepress@2.0.0-alpha.16(jiti@2.6.1)(less@4.5.1)(postcss@8.5.6)(terser@5.46.0):
     dependencies:
       '@docsearch/css': 4.5.3
       '@docsearch/js': 4.5.3
+      '@docsearch/sidepanel-js': 4.5.3
       '@iconify-json/simple-icons': 1.2.69
       '@shikijs/core': 3.22.0
       '@shikijs/transformers': 3.22.0
@@ -7500,8 +7506,8 @@ snapshots:
       '@vitejs/plugin-vue': 6.0.4(vite@7.3.1(jiti@2.6.1)(less@4.5.1)(terser@5.46.0))(vue@3.5.27)
       '@vue/devtools-api': 8.0.5
       '@vue/shared': 3.5.27
-      '@vueuse/core': 13.9.0(vue@3.5.27)
-      '@vueuse/integrations': 13.9.0(focus-trap@7.8.0)(vue@3.5.27)
+      '@vueuse/core': 14.2.0(vue@3.5.27)
+      '@vueuse/integrations': 14.2.0(focus-trap@7.8.0)(vue@3.5.27)
       focus-trap: 7.8.0
       mark.js: 8.11.1
       minisearch: 7.2.0
