@@ -31,8 +31,7 @@ tools:
 
 * Use the content in the current file if it contains notes, an outline, or source material.
 * If the user provides sources, keep all facts grounded in those sources.
-* If required details are missing, ask concise questions before drafting.
-* Do not invent facts. Use TODO comments for missing specifics that need user input.
+* Before drafting, check for required details. If any are missing, ask concise clarifying questions and wait for answers. Only when all required details are available, output the complete Markdown article; use TODO comments only for non-blocking optional details.
 
 
 ## Output
@@ -109,4 +108,4 @@ Use the title and description from the front matter as the first heading and int
 1. Read all provided notes or sources before drafting.
 2. Draft the full article using the required front matter, intro, and table of contents.
 3. Apply all style and formatting rules to the entire document.
-4. If information is missing or unclear, add TODO comments at the end of the document so the user can fill gaps.
+4. Before drafting, check for required details. If any are missing, ask concise clarifying questions and wait for answers. Only when all required details are available, output the complete Markdown article; use TODO comments only for non-blocking optional details.
