@@ -96,7 +96,7 @@ Specific bags used:
 * **[Revolut][]** is highly recommended - set it up before your trip.
 * Withdraw **about €50 in cash** in small bills (€1, €2, €5) for tipping or cash-only toilet locations.
 
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JUL1-25-AR-JP
+[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 
 
 ## Environment and hygiene
