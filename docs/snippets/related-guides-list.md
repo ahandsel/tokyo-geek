@@ -1,6 +1,6 @@
 ---
-title: Markdown index list snippet
-description: Generates a list of markdown pages in the same folder, excluding index.md.
+title: Related guides list snippet
+description: Generates a list of markdown pages in the same folder, excluding the current page.
 excludeFromSidebar: true
 ---
 
@@ -8,13 +8,17 @@ excludeFromSidebar: true
 
 <script setup lang="ts">
 /**
- * Generate a list of markdown pages in the same folder, excluding index.md.
- * Each entry includes metadata (title and description) parsed from frontmatter.
+ * Generates a flat list of all markdown pages in the including file's folder (excludes subfolders and the current page).
+ *
+ * Usage: Add under a "## Related guides" heading via <!--@include: path/to/snippets/related-guides-list.md-->
+ *
+ * Output: Alphabetically sorted <ul> with page titles and descriptions.
  */
 import yaml from 'js-yaml'
+import { useData } from 'vitepress'
 
-/** Load Markdown in this folder (and subfolders) as raw strings. */
-const modules = import.meta.glob('./**/*.md', {
+/** Load Markdown files in this folder only (no subfolders). */
+const modules = import.meta.glob('./*.md', {
   query: '?raw',
   import: 'default',
   eager: true
@@ -37,10 +41,13 @@ function parseFrontmatter(md: string): { title?: string; description?: string } 
   try { return (yaml.load(m[1]) || {}) as any } catch { return {} }
 }
 
-/** Build list and exclude index.md. */
+/** Derive the current page's filename to exclude it from listings. */
+const currentFileName = useData().page.value.relativePath.split('/').pop() ?? ''
+
+/** Build list (including index.md but excluding the current page). */
 type Row = { href: string; title: string; description?: string }
 const pageList: Row[] = Object.entries(modules)
-  .filter(([p]) => !/\/?index\.md$/i.test(p))
+  .filter(([p]) => p.replace(/^\.\//, '') !== currentFileName)
   .map(([p, mod]) => {
     const src = toString(mod)
     const fm = parseFrontmatter(src)

@@ -1,6 +1,6 @@
 ---
-title: Markdown index list with folders snippet
-description: Generates a list of markdown pages grouped by folder, excluding index.md.
+title: Markdown mapping with folder descriptions
+description: Generates a list of markdown pages grouped by folder with descriptions and index links.
 excludeFromSidebar: true
 ---
 
@@ -8,12 +8,12 @@ excludeFromSidebar: true
 
 <script setup lang="ts">
 /**
- * Generates a hierarchical page list from markdown files in the current folder and subfolders.
- * Pages are grouped by directory with headings derived from each folder's index.md frontmatter title.
+ * Generates a full site map of markdown pages grouped by folder.
+ * Each folder shows its description (from index.md) and a link to that index.
  *
- * Usage: Include this snippet in an index.md file via <!--@include: ...-->
+ * Usage: Include this snippet in a map.md file via <!--@include: ...-->
  *
- * Output: Hierarchical sections with folder headings (h2-h6) from index.md frontmatter titles and alphabetically sorted page lists with titles and descriptions.
+ * Output: Hierarchical sections with folder headings (h2-h6), descriptions from index.md frontmatter, index page links, and alphabetically sorted page lists with titles and descriptions.
  */
 import yaml from 'js-yaml'
 import { useData } from 'vitepress'
@@ -60,14 +60,17 @@ type Page = { href: string; title: string; description?: string; dir: string }
 /** Derive the current page's filename to exclude it from listings. */
 const currentFileName = useData().page.value.relativePath.split('/').pop() ?? ''
 
-/** Directory path → title (from index.md frontmatter). Note: descriptions are not collected. */
+/** Directory path -> title (from index.md frontmatter). */
 const dirTitles = new Map<string, string>()
 
-/** Directory path → list of pages in that directory. */
+/** Directory path -> description (from index.md frontmatter). */
+const dirDescriptions = new Map<string, string>()
+
+/** Directory path -> list of pages in that directory. */
 const pagesByDir = new Map<string, Page[]>()
 
-// Process all modules in a single pass: collect directory titles from index.md
-// files and build the page list from all other markdown files.
+// Process all modules in a single pass: collect directory metadata from
+// index.md files and build the page list from all other markdown files.
 for (const [p, mod] of Object.entries(modules)) {
   const src = toString(mod)
   const fm = parseFrontmatter(src)
@@ -76,8 +79,9 @@ for (const [p, mod] of Object.entries(modules)) {
   const isIndex = /\/?index\.md$/i.test(p)
 
   if (isIndex) {
-    // Use index.md title as the directory heading
+    // Use index.md metadata for the directory heading and description
     if (fm.title) dirTitles.set(dir, fm.title)
+    if (fm.description) dirDescriptions.set(dir, fm.description)
   } else {
     // Skip the current page so it does not appear in its own listing
     if (file === currentFileName) continue
@@ -123,27 +127,41 @@ function addDir(dir: string): void {
 }
 
 for (const dir of pagesByDir.keys()) addDir(dir)
+for (const dir of dirTitles.keys()) addDir(dir)
 
 // ---------------------------------------------------------------------------
 // Flatten tree into ordered sections for rendering
 // ---------------------------------------------------------------------------
 
-type Section = { key: string; path: string; depth: number; level: number; title: string; pages: Page[] }
+type Section = {
+  key: string
+  path: string
+  depth: number
+  level: number
+  title: string
+  description?: string
+  indexHref: string
+  pages: Page[]
+}
 const sections: Section[] = []
 
-/** Walk the tree depth-first, emitting sections for nodes that have pages. */
+/** Walk the tree depth-first, emitting sections for titled or populated nodes. */
 function walk(node: Node, depth: number): void {
   const pages = pagesByDir.get(node.path) ?? []
-  if (pages.length) {
+  if (pages.length || dirTitles.has(node.path)) {
     // Use index.md title if available, otherwise fall back to folder name
     const fallbackTitle = node.path ? node.name : ''
     const title = dirTitles.get(node.path) ?? fallbackTitle
+    const description = dirDescriptions.get(node.path)
+    const indexHref = node.path ? `./${node.path}/index` : './index'
     sections.push({
       key: node.path || '__root__',
       path: node.path,
       depth,
       level: headingLevel(depth),
       title,
+      description,
+      indexHref,
       pages
     })
   }
@@ -156,7 +174,7 @@ function walk(node: Node, depth: number): void {
 
 walk(root, 0)
 
-// True if any section has a non-empty path (i.e., we have subdirectories)
+// True if any section has a non-empty path (i.e., subdirectories exist)
 const hasSubfolders = sections.some(s => s.path)
 
 /** Determine if a divider should appear before this section. */
@@ -175,10 +193,12 @@ function showHeading(section: Section): boolean {
   return true
 }
 </script>
-
 <section v-for="(section, index) in sections" :key="section.key" class="md-index-section">
   <hr v-if="showDivider(index, section)" class="md-index-page-break" />
   <component v-if="showHeading(section)" :is="`h${section.level}`">{{ section.title }}</component>
+  <blockquote v-if="section.description">
+    {{ section.description }} <a :href="section.indexHref">[↗]</a>
+  </blockquote>
   <ul v-if="section.pages.length">
     <li v-for="page in section.pages" :key="page.href">
       <a :href="page.href">{{ page.title }}</a>

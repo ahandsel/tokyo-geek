@@ -13,7 +13,7 @@ head:
 
 [[toc]]
 
-Here are iOS apps that I recommend downloading for your trip to the United States. For Japan-specific apps, see [Apps for Japan](../guides/apps.md).
+Here are iOS apps that I recommend downloading for your trip to the United States. For Japan-specific apps, see [Apps for Japan](../guides/general/apps.md).
 
 | Type      | App             | Description       | Notes                                                                |
 | --------- | --------------- | ----------------- | -------------------------------------------------------------------- |

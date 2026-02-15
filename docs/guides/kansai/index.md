@@ -7,4 +7,4 @@ description: Guides on Kyoto, Nagoya, Osaka, Wakayama and other places in the Ka
 
 {{$frontmatter.description}}
 
-<!--@include: ./../../snippets/md-index-list.md-->
+<!--@include: ./../../snippets/md-index-list-folders.md-->
