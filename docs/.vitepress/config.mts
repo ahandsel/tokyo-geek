@@ -18,7 +18,7 @@ const vitePressOptions = {
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-        footer: {
+    footer: {
       message:
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
@@ -62,7 +62,15 @@ const vitePressOptions = {
 
           // Final render used for indexing
           return await md.renderAsync(rewritten, env);
-        },
+        }, // end of search options
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Travel guides', link: '/guides/general/' },
+          { text: 'Living in Japan', link: '/local/' },
+          { text: 'Tech blog', link: '/tech/' },
+          { text: 'Random Tips', link: '/tips/' },
+        ],
+        // remove manual sidebar; withSidebar will generate it
       },
     },
     socialLinks: [
@@ -156,6 +164,31 @@ const commonSidebarConfigs = {
 };
 
 const vitePressSidebarConfigs = [
+  // VitePress Sidebar's options here...
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: 'guides',
+    basePath: '/guides/',
+    resolvePath: '/guides/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: 'local',
+    basePath: '/local/',
+    resolvePath: '/local/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: 'tips',
+    basePath: '/tips/',
+    resolvePath: '/tips/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: 'tech',
+    basePath: '/tech/',
+    resolvePath: '/tech/',
+  },
   ...supportedLocales.map((lang) => {
     return {
       ...commonSidebarConfigs,
