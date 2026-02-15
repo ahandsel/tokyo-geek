@@ -29,6 +29,13 @@ const vitePressOptions = {
       prev: false,
       next: false,
     },
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Travel guides', link: '/guides/general/' },
+      { text: 'Living in Japan', link: '/local/' },
+      { text: 'Tech blog', link: '/tech/' },
+      { text: 'Random Tips', link: '/tips/' },
+    ],
     search: {
       provider: 'local',
       options: {
@@ -63,13 +70,6 @@ const vitePressOptions = {
           // Final render used for indexing
           return await md.renderAsync(rewritten, env);
         }, // end of search options
-        nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Travel guides', link: '/guides/general/' },
-          { text: 'Living in Japan', link: '/local/' },
-          { text: 'Tech blog', link: '/tech/' },
-          { text: 'Random Tips', link: '/tips/' },
-        ],
         // remove manual sidebar; withSidebar will generate it
       },
     },
