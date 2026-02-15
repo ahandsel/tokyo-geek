@@ -154,7 +154,7 @@ As you can image, this is Japanese government made software - not only do you ne
    * Go to `Control Panel` > `Region` > `Administrative` tab.
    * Click `Change system locale...` and select `Japanese (Japan)`.
    * Apply the changes and restart your computer.
-   * ![windows-non-unicode-programs-settings.png](/windows-non-unicode-programs-settings.png)
+   * ![windows-non-unicode-programs-settings.png](/public/windows-non-unicode-programs-settings.png)
 
 2. Change language and region settings to Japanese.
    * Go to `Settings` > `Time & Language` > `Language` > `Preferred languages`.
@@ -162,7 +162,7 @@ As you can image, this is Japanese government made software - not only do you ne
    * Install the Japanese language pack.
    * Set it as the primary display language.
    * Apply the changes and restart your computer.
-   * ![windows-language-settings.png](/windows-language-settings.png)
+   * ![windows-language-settings.png](/public/windows-language-settings.png)
 
 
 ### Watch this video tutorial
@@ -187,7 +187,7 @@ After configuring Windows to Japanese settings, install:
 Run the apps as administrator and allow them to run in the background.
 
 * Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
-* ![windows-run-as-admin-settings.png](/windows-run-as-admin-settings.png)
+* ![windows-run-as-admin-settings.png](/public/windows-run-as-admin-settings.png)
 
 > [!WARNING]  
 > Install Java first, then the JPKI app. Order matters.
@@ -208,7 +208,7 @@ After installing the JPKI app and Java, you can now proceed to the online visa r
 1. Open the Immigration Services Agency's [Online Residence Application Procedures](https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en) webpage.
 1. Click the big green button labeled `在留申請オンラインシステムのご利用はこちらから。（在留申請オンラインシステムのトップページへリンクします。）`
    * `https://www.ras-immi.moj.go.jp/WC01/WCAAS010/`
-   * ![Screenshot of the visa homepage with the button highlighted](img-visa-website-button.png)
+   * ![Screenshot of the visa homepage with the button highlighted](/visa-renewal/img-visa-website-button.png)
 
 
 ## Troubleshooting
@@ -222,7 +222,7 @@ Here are some issues I encountered while trying to setup the Windows VM, install
   * Context: When starting the Windows VM for the first time, instead of the Windows installation wizard, you see a black screen with `UEFI Iterative Shell v2.2`.
   * Cause: You missed hitting `Enter` to boot from the attached Windows Boot ISO image file. Thus, you are seeing the VM's shell instead of the Windows installer.
   * Solution: Restart the Windows VM and hit `Enter` immediately after the VM starts.
-  * ![Screenshot of UEFI Iterative Shell v2.2 screen](img-windows-black-shell.png)
+  * ![Screenshot of UEFI Iterative Shell v2.2 screen](/visa-renewal/img-windows-black-shell.png)
 
 * Issue: VM crashes or freezes.
   * Cause: Not enough disk space or RAM.
@@ -233,7 +233,7 @@ Here are some issues I encountered while trying to setup the Windows VM, install
 
 Issue: When trying to run the JPKI installer, you may encounter a broken error message like this:
 
-* ![Broken error message when running JPKI利用者ソフト](img-jpki-broken-error.png)
+* ![Broken error message when running JPKI利用者ソフト](/visa-renewal/img-jpki-broken-error.png)
 
 Cause: JPKI app uses non-Unicode characters and the Windows's `Language for non-Unicode programs` is not set to Japanese. (Like even Japanese people may not have configured this setting...)
 
@@ -258,7 +258,7 @@ User Client Software Error
 Error code: EW000J0200
 ```
 
-* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](img-jpki-reader-error.png)
+* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](/visa-renewal/img-jpki-reader-error.png)
 
 Possible causes:
 
@@ -296,7 +296,7 @@ Error code: EW104J1502
 Error details: 0x00000006
 ```
 
-* ![EW104J1502 error from JPKI利用者ソフト](./img-jpki-error-ew104j1502.png)
+* ![EW104J1502 error from JPKI利用者ソフト](/visa-renewal/img-jpki-error-ew104j1502.png)
 
 Possible causes:
 

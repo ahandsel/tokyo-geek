@@ -44,6 +44,9 @@ importers:
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
+      tree-extended:
+        specifier: ^4.6.0
+        version: 4.6.0
       vite:
         specifier: ^7.3.1
         version: 7.3.1(jiti@2.6.1)(less@4.5.1)(terser@5.46.0)
@@ -2118,6 +2121,10 @@ packages:
     resolution: {integrity: sha512-b1O07XYq8eRuVzBNgJLstU6FYc1tS6wnMtF1I1D9lE8LxZSOGZ7LhxN54yPP6mGw5f2CkXY2BQUL9Fx41qvcIg==}
     engines: {node: '>= 14'}
 
+  gitignore-parser@0.0.2:
+    resolution: {integrity: sha512-X6mpqUv59uWLGD4n3hZ8Cu8KbF2PMWPSFYmxZjdkpm3yOU7hSUYnzTkZI1mcWqchphvqyuz3/BhgBR4E/JtkCg==}
+    engines: {node: '>=0.10.0'}
+
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -3223,6 +3230,10 @@ packages:
 
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
+
+  tree-extended@4.6.0:
+    resolution: {integrity: sha512-+vF84Cvomjbfe5scExwLnrtBYRk+CjZyfyf8T5OsrsK62cfwx75uWlgxMqjO0Jfyq4x2rBty8dqKuGoOrqoPyA==}
+    hasBin: true
 
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
@@ -5802,6 +5813,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  gitignore-parser@0.0.2: {}
+
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -7210,6 +7223,10 @@ snapshots:
   tr46@1.0.1:
     dependencies:
       punycode: 2.3.1
+
+  tree-extended@4.6.0:
+    dependencies:
+      gitignore-parser: 0.0.2
 
   trim-lines@3.0.1: {}
 

@@ -128,7 +128,7 @@ File format
 * Dimensions: Width 788 × height 284 pixels
 * File size: 200 KB or less
 
-[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png
+[passport-renewal-signature-sample]: /public/passport-renewal-signature-sample.png
 
 
 ## Wait for processing

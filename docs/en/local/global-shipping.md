@@ -60,9 +60,9 @@ head:
 
 * Register the items to be shipped ahead of creating the label using [Contents List](https://www.post.japanpost.jp/intmypage/contents_en.html) tool.
 
-|     | Home                                                                | Address book                                                                | Data Import for Address book                                                |
-| --- | ------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-|     | ![global-shipping-home](./global-shipping/global-shipping-home.png) | ![global-shipping-address1](./global-shipping/global-shipping-address1.png) | ![global-shipping-address2](./global-shipping/global-shipping-address2.png) |
+|     | Home                                                               | Address book                                                               | Data Import for Address book                                               |
+| --- | ------------------------------------------------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+|     | ![global-shipping-home](/global-shipping/global-shipping-home.png) | ![global-shipping-address1](/global-shipping/global-shipping-address1.png) | ![global-shipping-address2](/global-shipping/global-shipping-address2.png) |
 
 
 ### Demo
@@ -79,7 +79,7 @@ Pages went over by the demo videos:
 8. Confirmation
 9. Save & Print Label
 
-![global-shipping-demo.gif](./global-shipping/global-shipping-demo.gif)
+![global-shipping-demo.gif](/global-shipping/global-shipping-demo.gif)
 
 
 ### jp-post-contact-upload csv file

@@ -5,10 +5,15 @@ import { withSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
+  vite: {
+    ssr: {
+      noExternal: ['@nolebase/*'],
+    },
+  },
   title: 'Tokyo Geek',
   titleTemplate: ':title - Tokyo Geek',
   description: "Let's go to Japan!",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/public/favicon.ico' }]],
 
   rewrites: { 'en/:rest*': ':rest*' },
 
@@ -29,13 +34,6 @@ const vitePressOptions = {
       prev: false,
       next: false,
     },
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Travel guides', link: '/guides/general/' },
-      { text: 'Living in Japan', link: '/local/' },
-      { text: 'Tech blog', link: '/tech/' },
-      { text: 'Random Tips', link: '/tips/' },
-    ],
     search: {
       provider: 'local',
       options: {
@@ -94,8 +92,34 @@ const vitePressOptions = {
 
   // https://vitepress.dev/guide/internationalization
   locales: {
-    root: { label: 'English', lang: 'en-US', dir: 'ltr' },
-    ja: { label: '日本語', lang: 'ja-JP', dir: 'ltr' },
+    root: {
+      label: 'English',
+      lang: 'en-US',
+      dir: 'ltr',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Travel guides', link: '/guides/general/' },
+          { text: 'Living in Japan', link: '/local/' },
+          { text: 'Tech blog', link: '/tech/' },
+          { text: 'Random Tips', link: '/tips/' },
+        ],
+      },
+    },
+    ja: {
+      label: '日本語',
+      lang: 'ja-JP',
+      dir: 'ltr',
+      themeConfig: {
+        nav: [
+          { text: 'ホーム', link: '/ja/' },
+          { text: '旅行ガイド', link: '/ja/guides/' },
+          { text: '日本生活', link: '/ja/local/' },
+          { text: 'テックブログ', link: '/ja/tech/' },
+          { text: 'ヒント', link: '/ja/tips/' },
+        ],
+      },
+    },
   },
 };
 
@@ -167,27 +191,27 @@ const vitePressSidebarConfigs = [
   // VitePress Sidebar's options here...
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'guides',
-    basePath: '/guides/',
-    resolvePath: '/guides/',
+    scanStartPath: '/en/guides',
+    basePath: '/en/guides/',
+    resolvePath: '/en/guides/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'local',
-    basePath: '/local/',
-    resolvePath: '/local/',
+    scanStartPath: '/en/local',
+    basePath: '/en/local/',
+    resolvePath: '/en/local/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'tips',
-    basePath: '/tips/',
-    resolvePath: '/tips/',
+    scanStartPath: '/en/tips',
+    basePath: '/en/tips/',
+    resolvePath: '/en/tips/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'tech',
-    basePath: '/tech/',
-    resolvePath: '/tech/',
+    scanStartPath: '/en/tech',
+    basePath: '/en/tech/',
+    resolvePath: '/en/tech/',
   },
   ...supportedLocales.map((lang) => {
     return {
