@@ -140,20 +140,3 @@ Visit the repo at [GitHub][].
 
 [GitHub]: https://github.com/org/repo
 ```
-
-
-## Good example of a full document conversion
-
-```markdown
-| Phrase Strings project | Project identifier | Product or purpose                                  | Related term   | Project ID                         |
-| ---------------------- | ------------------ | --------------------------------------------------- | -------------- | ---------------------------------- |
-| [KWS Auth (GOOSE)][]   | `auth`             | Universal sign-on related copy                      | [kwsterm-33][] | `dda810a2a7136f64051f35e4bb8629ef` |
-| [KWS Dashboard][]      | `dashboard`        | KWS end-user dashboard related copy (regular users) | [kwsterm-19][] | `859970886fe148db33710f657b8f7afd` |
-| [KWS General][]        | `general`          | Platform-level copy used by multiple products       |                | `03c214ea193e29fe16c586df3ebbfe43` |
-
-[KWS Auth (GOOSE)]: https://app.phrase.com/accounts/cybozu-04c5b3bf-8b0d-42ac-baa2-1612b38cc171/projects/kwsauth/
-[KWS Dashboard]: https://app.phrase.com/accounts/cybozu-04c5b3bf-8b0d-42ac-baa2-1612b38cc171/projects/kwsdashboard/
-[KWS General]: https://app.phrase.com/accounts/cybozu-04c5b3bf-8b0d-42ac-baa2-1612b38cc171/projects/kwsgeneral/
-[kwsterm-33]: https://bozuman.cybozu.com/k/83565/show#record=33
-[kwsterm-19]: https://bozuman.cybozu.com/k/83565/show#record=19
-```

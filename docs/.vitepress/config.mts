@@ -1,13 +1,26 @@
-// .vitepress/config.mts
+// Main vitepress configuration
+
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
-import { withPwa } from '@vite-pwa/vitepress';
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
+  vite: {
+    ssr: {
+      noExternal: ['@nolebase/*'],
+    },
+  },
   title: 'Tokyo Geek',
+  titleTemplate: ':title - Tokyo Geek',
   description: "Let's go to Japan!",
-  // head: []            // remove favicon/theme-color when using PWA assets injection
+  head: [['link', { rel: 'icon', href: '/public/favicon.ico' }]],
+
+  rewrites: { 'en/:rest*': ':rest*' },
+
+  lastUpdated: true,
+  cleanUrls: true,
+  metaChunk: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {
@@ -15,20 +28,23 @@ const vitePressOptions = {
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
       // showWithSidebar: true, // https://github.com/vuejs/vitepress/pull/4532
     },
+    outline: { level: [2, 3], label: 'Outline' },
+    docFooter: {
+      // Disable docFooter globally; using "related docs" footer instead
+      prev: false,
+      next: false,
+    },
     search: {
       provider: 'local',
       options: {
         async _render(src, env, md) {
-          // First pass: render to populate env.frontmatter and other metadata
+          // First pass populates env.frontmatter
           await md.renderAsync(src, env);
 
-          // Use empty object as fallback if frontmatter is undefined
           const fm = env.frontmatter ?? {};
 
-          // Honor per-page opt out: `search: false` in frontmatter
-          if (fm.search === false) {
-            return '';
-          }
+          // Honor per-page opt out
+          if (fm.search === false) return '';
 
           let rewritten = src;
 
@@ -39,7 +55,6 @@ const vitePressOptions = {
               /^#\s*\{\{\s*\$frontmatter\.title\s*\}\}\s*$/m,
               `# ${fm.title}`,
             );
-
             // Drop any other heading levels that interpolate frontmatter.title
             rewritten = rewritten.replace(
               /^#{2,6}\s*\{\{\s*\$frontmatter\.title\s*\}\}\s*$/gm,
@@ -47,22 +62,15 @@ const vitePressOptions = {
             );
           }
 
-          // Strip any remaining $frontmatter interpolations from indexable text
-          rewritten = rewritten.replace(/\{\{\s*\$frontmatter\.[^}]*\}\}/g, '');
+          // Strip any remaining $frontmatter interpolations from the indexable text
+          rewritten = rewritten.replace(/\{\{\s*\$frontmatter\.[^}]+\}\}/g, '');
 
           // Final render used for indexing
           return await md.renderAsync(rewritten, env);
-        },
+        }, // end of search options
+        // remove manual sidebar; withSidebar will generate it
       },
-    }, // end of search options
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Travel guides', link: '/guides/general/' },
-      { text: 'Living in Japan', link: '/local/' },
-      { text: 'Tech blog', link: '/tech/' },
-      { text: 'Random Tips', link: '/tips/' },
-    ],
-    // remove manual sidebar; withSidebar will generate it
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ahandsel/tokyo-geek' },
       {
@@ -81,136 +89,140 @@ const vitePressOptions = {
   sitemap: {
     hostname: 'https://ahandsel.github.io',
   },
-  ignoreDeadLinks: true,
 
-  // PWA options handled by @vite-pwa/vitepress
-  pwa: {
-    strategies: 'generateSW',
-    mode: 'development',
-    registerType: 'autoUpdate',
-    injectRegister: 'script-defer',
-    includeAssets: ['favicon.ico', 'pwa-192x192.png'],
-    manifest: {
-      name: 'Tokyo Geek',
-      short_name: 'Tokyo-Geek',
-      theme_color: '#ffffff',
-      start_url: '/tokyo-geek/',
-      display: 'standalone',
-      background_color: '#ffffff',
-      icons: [], // generated
+  // https://vitepress.dev/guide/internationalization
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US',
+      dir: 'ltr',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Travel guides', link: '/guides/general/' },
+          { text: 'Living in Japan', link: '/local/' },
+          { text: 'Tech blog', link: '/tech/' },
+          { text: 'Random Tips', link: '/tips/' },
+        ],
+      },
     },
-    // Ensure a preset is provided for the assets generator
-    pwaAssets: {
-      // config: true,
-      preset: 'minimal-2023',
-      image: 'public/cat-icon-clear.png',
-    },
-    workbox: {
-      globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff2}'],
-    },
-    experimental: { includeAllowlist: true },
-    devOptions: {
-      enabled: false,
-      suppressWarnings: true,
-      navigateFallback: '/',
-    },
-  },
-
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
-        'vitepress',
-        '@nolebase/ui',
-      ],
-    },
-    ssr: {
-      noExternal: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities',
-        '@nolebase/ui',
-      ],
+    ja: {
+      label: '日本語',
+      lang: 'ja-JP',
+      dir: 'ltr',
+      themeConfig: {
+        nav: [
+          { text: 'ホーム', link: '/ja/' },
+          { text: '旅行ガイド', link: '/ja/guides/' },
+          { text: '日本生活', link: '/ja/local/' },
+          { text: 'テックブログ', link: '/ja/tech/' },
+          { text: 'ヒント', link: '/ja/tips/' },
+        ],
+      },
     },
   },
 };
+
+const rootLocale = 'en';
+const supportedLocales = [rootLocale, 'ja'];
 
 const commonSidebarConfigs = {
-  // VitePress Sidebar's options here...
   // https://vitepress-sidebar.cdget.com/guide/options
-  // basePath: null,
-  capitalizeEachWords: false,
-  capitalizeFirst: false,
-  collapsed: false,
-  // collapseDepth: 1,
-  debugPrint: false,
+  // ============ [ RESOLVING PATHS ] ============
   documentRootPath: 'docs',
-  excludeByFolderDepth: null,
-  excludeByGlobPattern: ['README.md'],
-  excludeFilesByFrontmatterFieldName: 'excludeFromSidebar',
-  folderLinkNotIncludesFileName: false,
-  followSymLinks: false,
-  frontmatterOrderDefaultValue: 10,
-  frontmatterTitleFieldName: 'title',
-  hyphenToSpace: false,
-  includeDotFiles: false,
-  includeEmptyFolder: false,
-  includeFolderIndexFile: true,
-  includeRootIndexFile: true,
-  keepMarkdownSyntaxFromTitle: false,
-  manualSortFileNameByPriority: [],
-  prefixSeparator: '.',
-  removePrefixAfterOrdering: false,
-  // resolvePath: "/",
-  rootGroupCollapsed: null,
-  rootGroupLink: null,
-  // rootGroupText: "Table of Contents",
   // scanStartPath: null,
-  sortFolderTo: 'top',
-  sortMenusByFileDatePrefix: false,
-  sortMenusByFrontmatterDate: false,
-  sortMenusByFrontmatterOrder: true,
-  sortMenusByName: false,
-  sortMenusOrderByDescending: false,
-  sortMenusOrderNumericallyFromLink: false,
-  sortMenusOrderNumericallyFromTitle: false,
-  underscoreToSpace: false,
-  useFolderLinkFromIndexFile: true,
-  useFolderLinkFromSameNameSubFile: false,
-  useFolderTitleFromIndexFile: true,
-  useTitleFromFileHeading: false,
+  // resolvePath: null,
+  // basePath: null,
+  // followSymlinks: false,
+  //
+  // ============ [ GROUPING ] ============
+  collapsed: false,
+  // collapseDepth: 2,
+  // rootGroupText: "Table of Contents",
+  // rootGroupLink: '',
+  // rootGroupCollapsed: false,
+  //
+  // ============ [ GETTING MENU TITLE ] ============
+  // useTitleFromFileHeading: true,
   useTitleFromFrontmatter: true,
+  // useFolderLinkFromIndexFile: true,
+  useFolderTitleFromIndexFile: true,
+  frontmatterTitleFieldName: 'title',
+  //
+  // ============ [ GETTING MENU LINK ] ============
+  // useFolderLinkFromSameNameSubFile: false,
+  // folderLinkNotIncludesFileName: false,
+  //
+  // ============ [ INCLUDE / EXCLUDE ] ============
+  excludeByGlobPattern: ['README.md', 'temp', 'temp.*', 'temp-*.md'],
+  excludeFilesByFrontmatterFieldName: 'excludeFromSidebar',
+  // excludeByFolderDepth: null,
+  // includeDotFiles: false,
+  // includeEmptyFolder: false,
+  // includeRootIndexFile: false,
+  includeFolderIndexFile: true,
+  //
+  // ============ [ STYLING MENU TITLE ] ============
+  // hyphenToSpace: false,
+  // underscoreToSpace: false,
+  // capitalizeFirst: false,
+  // capitalizeEachWords: false,
+  // keepMarkdownSyntaxFromTitle: false,
+  // removePrefixAfterOrdering: false,
+  // prefixSeparator: '.',
+  //
+  // ============ [ SORTING ] ============
+  // manualSortFileNameByPriority: ['first.md', 'second', 'third.md'],
+  sortFolderTo: 'top',
+  // sortMenusByName: false,
+  // sortMenusByFileDatePrefix: false,
+  sortMenusByFrontmatterOrder: true,
+  frontmatterOrderDefaultValue: 10,
+  // sortMenusByFrontmatterDate: false,
+  // sortMenusOrderByDescending: false,
+  // sortMenusOrderNumericallyFromTitle: false,
+  // sortMenusOrderNumericallyFromLink: false,
+  //
+  // ============ [ MISC ] ============
+  // debugPrint: true,
 };
 
-const vitePressSidebarOptions = [
+const vitePressSidebarConfigs = [
   // VitePress Sidebar's options here...
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'guides',
-    basePath: '/guides/',
-    resolvePath: '/guides/',
+    scanStartPath: '/en/guides',
+    basePath: '/en/guides/',
+    resolvePath: '/en/guides/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'local',
-    basePath: '/local/',
-    resolvePath: '/local/',
+    scanStartPath: '/en/local',
+    basePath: '/en/local/',
+    resolvePath: '/en/local/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'tips',
-    basePath: '/tips/',
-    resolvePath: '/tips/',
+    scanStartPath: '/en/tips',
+    basePath: '/en/tips/',
+    resolvePath: '/en/tips/',
   },
   {
     ...commonSidebarConfigs,
-    scanStartPath: 'tech',
-    basePath: '/tech/',
-    resolvePath: '/tech/',
+    scanStartPath: '/en/tech',
+    basePath: '/en/tech/',
+    resolvePath: '/en/tech/',
   },
+  ...supportedLocales.map((lang) => {
+    return {
+      ...commonSidebarConfigs,
+      ...(rootLocale === lang ? {} : { basePath: `/${lang}/` }), // If using `rewrites` option
+      documentRootPath: `/docs/${lang}`,
+      resolvePath: rootLocale === lang ? '/' : `/${lang}/`,
+    };
+  }),
 ];
 
-// export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
-// export default defineConfig(
-//   withPwa(withSidebar(vitePressOptions, vitePressSidebarOptions))
-export default withPwa(
-  defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)),
+export default defineConfig(
+  withSidebar(vitePressOptions, vitePressSidebarConfigs),
 );

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm ls:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"=== {} ===\"\" && head -50 {}')",
+      "Bash(ls:*)",
+      "Bash(node scripts/migrate-images.mjs:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm build:*)",
+      "Bash(test:*)"
+    ]
+  }
+}

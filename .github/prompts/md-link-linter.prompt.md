@@ -59,7 +59,7 @@ Scan all markdown files in this VitePress repository, validate every link, and r
 
 ## Deliverables
 
-1. `scripts/check-links.mjs`: Node.js script that implements all requirements.
+1. `script/check-links.mjs`: Node.js script that implements all requirements.
 2. `link-check.config.json`: Sample config with sensible defaults and comments.
 3. `package.json` updates:
    * Add `check:links` and `check:links:ci` scripts.
