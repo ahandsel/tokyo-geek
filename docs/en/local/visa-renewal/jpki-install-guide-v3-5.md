@@ -5,7 +5,7 @@ description: English machine translation of the JPKI User Software Ver.3.5 insta
 
 # {{$frontmatter.title}}
 
-This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](../../../ja/local/visa-renewal/jpki-install-guide-v3-5.md).
+This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](../../ja/local/visa-renewal/jpki-install-guide-v3-5.md).
 
 
 ## Table of contents <!-- omit in toc -->
