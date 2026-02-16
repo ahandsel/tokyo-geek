@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "pnpm run lint && vitepress build docs && vitepress preview docs",
-    "check": "pnpm run lint && vitepress dev docs",
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
+    "build": "pnpm run docs:build && pnpm run docs:preview",
+    "check": "pnpm lint && pnpm tree && pnpm run docs:build && pnpm run docs:preview",
+    "cleanup": "find . -name '*.DS_Store' -type f -delete && ./scripts/cleanup-temp-files.sh",
     "code-format": "prettier --write .",
-    "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
+    "dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
     "lint": "pnpm run code-format && pnpm run md-lint",
-    "tree": "node script/generate-doc-structure.mjs"
+    "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
+    "test": "pnpm lint && pnpm tree && pnpm docs:build",
+    "tree": "node scripts/generate-doc-structure.mjs",
+    "writing": "pnpm lint && pnpm tree && pnpm docs:dev"
   },
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.29.3",
   "engines": {
     "node": ">=20"
   },
@@ -28,7 +32,7 @@
     "init": "^0.1.2",
     "js-yaml": "^4.1.1",
     "markdown-link-check": "^3.14.2",
-    "markdownlint-cli2": "^0.20.0",
+    "markdownlint-cli2": "^0.21.0",
     "openai": "^6.22.0",
     "prettier": "^3.8.1",
     "tree-extended": "^4.6.0",
