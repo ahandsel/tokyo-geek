@@ -2,6 +2,8 @@
 import { h } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
+import 'chart.js/auto';
+import * as chartjs from 'vitepress-plugin-chartjs';
 import './style.css';
 
 // https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-readabilities/#add-plugin-specific-options-into-configurations-of-vite
@@ -26,5 +28,32 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     });
   },
-  enhanceApp({ app, router, siteData }) {},
+  enhanceApp({ app, router, siteData }) {
+    const installers = [
+      (chartjs as Record<string, unknown>).enhanceAppWithChartJS,
+      (chartjs as Record<string, unknown>).enhanceAppWithChartjs,
+      (chartjs as Record<string, unknown>).enhanceAppWithChart,
+      (chartjs as Record<string, unknown>).enhanceApp,
+      (chartjs as Record<string, unknown>).default,
+    ];
+
+    const installer = installers.find(
+      (candidate) => typeof candidate === 'function',
+    ) as
+      | ((context: {
+          app: unknown;
+          router: unknown;
+          siteData: unknown;
+        }) => void)
+      | ((app: unknown) => void)
+      | undefined;
+
+    if (!installer) return;
+
+    try {
+      installer({ app, router, siteData });
+    } catch {
+      installer(app);
+    }
+  },
 } satisfies Theme;
