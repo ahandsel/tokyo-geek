@@ -23,6 +23,7 @@
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
     "@vite-pwa/assets-generator": "^1.0.2",
     "@vite-pwa/vitepress": "^1.1.0",
+    "chart.js": "^4.5.1",
     "gray-matter": "^4.0.3",
     "init": "^0.1.2",
     "js-yaml": "^4.1.1",
@@ -35,6 +36,7 @@
     "vite-plugin-pwa": "^1.2.0",
     "vitepress": "2.0.0-alpha.16",
     "vitepress-mermaid-renderer": "^1.1.8",
+    "vitepress-plugin-chartjs": "^1.2.1",
     "vitepress-sidebar": "^1.33.1",
     "vue": "^3.5.28"
   },

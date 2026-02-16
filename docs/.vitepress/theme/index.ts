@@ -15,6 +15,7 @@ import { defineComponent, h, nextTick, onMounted, ref, watch } from 'vue';
 import { useData } from 'vitepress';
 import type { DefaultTheme as DefaultThemeConfig, Theme } from 'vitepress';
 import DefaultTheme, { VPImage } from 'vitepress/theme';
+import 'vitepress-plugin-chartjs/style.css';
 import './style.css';
 
 // Mermaid diagram renderer

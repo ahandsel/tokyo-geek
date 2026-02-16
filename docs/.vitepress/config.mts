@@ -2,6 +2,7 @@
 
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
+import { withChartjs } from 'vitepress-plugin-chartjs';
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -223,6 +224,6 @@ const vitePressSidebarConfigs = [
   }),
 ];
 
-export default defineConfig(
-  withSidebar(vitePressOptions, vitePressSidebarConfigs),
+export default withChartjs(
+  defineConfig(withSidebar(vitePressOptions, vitePressSidebarConfigs)),
 );
