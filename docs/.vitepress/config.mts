@@ -2,6 +2,12 @@
 
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
+import * as chartjs from 'vitepress-plugin-chartjs';
+
+const chartjsMarkdownPlugin =
+  (chartjs as Record<string, unknown>).chartjsPlugin ??
+  (chartjs as Record<string, unknown>).chartJsPlugin ??
+  (chartjs as Record<string, unknown>).default;
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -20,6 +26,13 @@ const vitePressOptions = {
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
+  markdown: {
+    config: (md) => {
+      if (typeof chartjsMarkdownPlugin === 'function') {
+        md.use(chartjsMarkdownPlugin);
+      }
+    },
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
