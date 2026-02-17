@@ -78,9 +78,9 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="../share/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a href="/share/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
 
-<<< @/share/nighttab/google-bookmarks.json
+<<< @/public/share/nighttab/google-bookmarks.json
 
 </details>
 <!-- markdownlint-enable MD033 -->
@@ -91,9 +91,9 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="../share/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a href="/share/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
 
-<<< @/share/nighttab/travel-bookmarks.json
+<<< @/public/share/nighttab/travel-bookmarks.json
 
 </details>
 <!-- markdownlint-enable MD033 -->
@@ -104,9 +104,9 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="../share/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a href="/share/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
 
-<<< @/share/nighttab/streaming-bookmarks.json
+<<< @/public/share/nighttab/streaming-bookmarks.json
 
 </details>
 <!-- markdownlint-enable MD033 -->

@@ -6,4 +6,4 @@ order: 1
 
 # {{$frontmatter.title}}
 
-<!--@include: ../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->

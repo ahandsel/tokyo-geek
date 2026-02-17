@@ -12,7 +12,7 @@ head:
 
 Here are guides on various aspects of moving to Tokyo, Japan.
 
-<!--@include: ./../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->
 
 ## Home centers - Hardware stores in Japan
 

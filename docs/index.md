@@ -43,7 +43,7 @@ features:
     link: /guides/general/apps
   - title: 🔖 Useful Japanese Websites
     details: Quick list of Japanese websites that you might find useful
-    link: local/useful-websites-locals
+    link: /local/useful-websites-locals
   - title: 🏙️ Tokyo Neighborhoods Overview
     details: Quick breakdown of neighborhoods by what they are known for
     link: /guides/tokyo/tokyo-neighborhoods

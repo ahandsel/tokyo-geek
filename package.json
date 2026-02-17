@@ -11,7 +11,7 @@
     "code-format": "prettier --write .",
     "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
     "lint": "pnpm run code-format && pnpm run md-lint",
-    "tree": "node script/generate-doc-structure.mjs"
+    "tree": "node scripts/generate-doc-structure.mjs"
   },
   "packageManager": "pnpm@10.28.1",
   "engines": {

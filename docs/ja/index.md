@@ -43,7 +43,7 @@ features:
     link: /ja/guides/general/apps
   - title: 🔖 便利な日本のウェブサイト
     details: 役立つ日本のウェブサイトまとめ
-    link: local/useful-websites-locals
+    link: /ja/local/useful-websites-locals
   - title: 🏙️ 東京エリアガイド
     details: 各エリアの特徴をさくっと紹介
     link: /ja/guides/tokyo/tokyo-neighborhoods

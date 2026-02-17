@@ -28,7 +28,7 @@ head:
 
 ## Google Apps Scriptコード
 
-<<< @/share/google-doc-auto-appending.js
+<<< @/public/share/google-doc-auto-appending.js
 
 
 ## セットアップ手順

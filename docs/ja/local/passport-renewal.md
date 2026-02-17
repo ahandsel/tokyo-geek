@@ -114,7 +114,7 @@ head:
 * サイズ：幅788 x 高さ284ピクセル
 * ファイルサイズ：200 KB以下
 
-[passport-renewal-signature-sample]: /public/passport-renewal-signature-sample.png
+[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png
 
 
 ## 処理を待つ

@@ -1,7 +1,6 @@
 ---
-title: Notes for expats in Japan
-description: Notes for those who call Japan home.
-order: 0
+title: Notes for expats living in Japan
+description: Collection of local notes for residents, including taxes, shipping, and neighborhood guides.
 head:
   - - meta
     - name: keywords
@@ -12,4 +11,4 @@ head:
 
 {{$frontmatter.description}}
 
-<!--@include: ./../snippets/md-index-list-folders.md-->
+<!--@include: ../../snippets/md-index-list-folders.md-->

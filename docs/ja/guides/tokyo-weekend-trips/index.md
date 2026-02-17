@@ -8,7 +8,7 @@ order: 1
 
 東京からの週末旅行のアイデアをまとめました:
 
-<!--@include: ../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->
 
 ## おすすめ記事
 

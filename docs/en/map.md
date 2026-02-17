@@ -8,4 +8,4 @@ excludeFromSidebar: true
 
 {{$frontmatter.description}}
 
-<!--@include: ./snippets/md-index-list-folders.md-->
+<!--@include: ../snippets/md-index-list-folders.md-->
