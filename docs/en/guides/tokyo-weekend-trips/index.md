@@ -8,7 +8,7 @@ order: 1
 
 Here are some great weekend trip ideas from Tokyo:
 
-<!--@include: ../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->
 
 ## Great articles to read
 

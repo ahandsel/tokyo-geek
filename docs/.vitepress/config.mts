@@ -13,7 +13,7 @@ const vitePressOptions = {
   title: 'Tokyo Geek',
   titleTemplate: ':title - Tokyo Geek',
   description: "Let's go to Japan!",
-  head: [['link', { rel: 'icon', href: '/public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   rewrites: { 'en/:rest*': ':rest*' },
 
@@ -212,6 +212,30 @@ const vitePressSidebarConfigs = [
     scanStartPath: '/en/tech',
     basePath: '/en/tech/',
     resolvePath: '/en/tech/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: '/ja/guides',
+    basePath: '/ja/guides/',
+    resolvePath: '/ja/guides/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: '/ja/local',
+    basePath: '/ja/local/',
+    resolvePath: '/ja/local/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: '/ja/tips',
+    basePath: '/ja/tips/',
+    resolvePath: '/ja/tips/',
+  },
+  {
+    ...commonSidebarConfigs,
+    scanStartPath: '/ja/tech',
+    basePath: '/ja/tech/',
+    resolvePath: '/ja/tech/',
   },
   ...supportedLocales.map((lang) => {
     return {

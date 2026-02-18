@@ -46,12 +46,12 @@ head:
 [Kiyomizu-dera / 清水寺](https://goo.gl/maps/zDvdAWSbEpHUhWRL7)
 
 * Temple with an iconic wooden stage
-* [Details](<https://www.japan-guide.com../../../public/kyoto-trip-higashiyamastreets.png>
+* [Details](https://www.japan-guide.com/e/e3901.html)
 
 Higashiyama Streets
 
 * Winding streets lined with traditional shop houses
-* ![kyoto-trip-higashiyamastreets.png](/public/kyoto-trip-higashiyamastreets.png)
+* ![kyoto-trip-higashiyamastreets.png](/kyoto-trip-higashiyamastreets.png)
 
 Kodaiji Temple
 

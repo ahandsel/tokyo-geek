@@ -11,7 +11,7 @@
     "code-format": "prettier --write .",
     "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
     "lint": "pnpm run code-format && pnpm run md-lint",
-    "tree": "node script/generate-doc-structure.mjs"
+    "tree": "node scripts/generate-doc-structure.mjs"
   },
   "packageManager": "pnpm@10.28.1",
   "engines": {
@@ -27,7 +27,7 @@
     "init": "^0.1.2",
     "js-yaml": "^4.1.1",
     "markdown-link-check": "^3.14.2",
-    "markdownlint-cli2": "^0.20.0",
+    "markdownlint-cli2": "^0.21.0",
     "openai": "^6.22.0",
     "prettier": "^3.8.1",
     "tree-extended": "^4.6.0",

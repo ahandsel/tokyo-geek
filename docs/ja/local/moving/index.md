@@ -12,7 +12,7 @@ head:
 
 東京への引っ越しに関するさまざまなガイドをまとめました。
 
-<!--@include: ./../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->
 
 ## ホームセンター - 日本のDIY用品店
 

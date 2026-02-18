@@ -101,5 +101,5 @@ head:
 Brewfile:
 
 ```txt
-<!--@include: ./share/Brewfile-->
+<!--@include: ../../public/share/Brewfile-->
 ```

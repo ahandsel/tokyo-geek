@@ -113,5 +113,5 @@ See my [Brewfile](#brewfile---quick-installation) to install these apps using Ho
 My Brewfile:
 
 ```txt
-<!--@include: ./share/Brewfile-->
+<!--@include: ../../public/share/Brewfile-->
 ```

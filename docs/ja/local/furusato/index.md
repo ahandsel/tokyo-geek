@@ -35,4 +35,4 @@ order: 1
 
 ## 関連ガイド
 
-<!--@include: ./../../snippets/md-index-list-folders.md-->
+<!--@include: ../../../snippets/md-index-list-folders.md-->

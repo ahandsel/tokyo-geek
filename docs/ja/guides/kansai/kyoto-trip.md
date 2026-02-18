@@ -46,12 +46,12 @@ head:
 [Kiyomizu-dera / 清水寺](https://goo.gl/maps/zDvdAWSbEpHUhWRL7)
 
 * 象徴的な木造舞台で有名なお寺
-* [詳細](<https://www.japan-guide.com../../../public/kyoto-trip-higashiyamastreets.png>
+* [詳細](https://www.japan-guide.com/e/e3901.html)
 
 東山の街並み
 
 * 伝統的な町家が並ぶ風情ある小道
-* ![kyoto-trip-higashiyamastreets.png](/public/kyoto-trip-higashiyamastreets.png)
+* ![kyoto-trip-higashiyamastreets.png](/kyoto-trip-higashiyamastreets.png)
 
 高台寺
 

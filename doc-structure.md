@@ -1,29 +1,10 @@
 # Doc structure
 
 ├───📁 en/
-│ ├───📁 guide/
 │ ├───📁 guides/
 │ │ ├───📁 bullet-train-shinkansen/
 │ │ │ ├───📁 shinkansen-discount-tokyo-osaka/
-│ │ │ │ ├───📄 branch-map.png
-│ │ │ │ ├───📄 kodama-guidance-en.pdf
-│ │ │ │ ├───📄 kyoto-central.png
-│ │ │ │ ├───📄 kyoto.png
-│ │ │ │ ├───📄 method001.png
-│ │ │ │ ├───📄 method002.png
-│ │ │ │ ├───📄 method003.png
-│ │ │ │ ├───📄 method004.png
-│ │ │ │ ├───📄 method005.png
-│ │ │ │ ├───📄 nagoya.png
-│ │ │ │ ├───📄 shinagawa.png
-│ │ │ │ ├───📄 shinosaka.png
-│ │ │ │ ├───📄 shinyokohama.png
-│ │ │ │ ├───📄 shop-sticker.png
-│ │ │ │ ├───📄 ticket-details-1.png
-│ │ │ │ ├───📄 ticket-details-2.png
-│ │ │ │ ├───📄 ticket-machine-correct.png
-│ │ │ │ ├───📄 ticket-machine-incorrect.png
-│ │ │ │ └───📄 tokyo.png
+│ │ │ │ └───📄 kodama-guidance-en.pdf
 │ │ │ ├───📄 index.md
 │ │ │ ├───📄 shinkansen-tokyo-kanazawa.md
 │ │ │ ├───📄 shinkansen-tokyo-nagoya.md
@@ -59,33 +40,10 @@
 │ │ └───📄 yakushima.md
 │ ├───📁 local/
 │ │ ├───📁 furusato/
-│ │ │ ├───📁 img/
-│ │ │ │ ├───📄 bar-step-01.png
-│ │ │ │ ├───📄 bar-step-02.png
-│ │ │ │ ├───📄 bar-step-03.png
-│ │ │ │ ├───📄 example-02.png
-│ │ │ │ ├───📄 example.png
-│ │ │ │ ├───📄 img-01.png
-│ │ │ │ ├───📄 img-02.png
-│ │ │ │ ├───📄 img-03.png
-│ │ │ │ ├───📄 img-04.png
-│ │ │ │ ├───📄 img-06.png
-│ │ │ │ ├───📄 pattern-01.png
-│ │ │ │ ├───📄 pattern-02.png
-│ │ │ │ ├───📄 pattern-03.png
-│ │ │ │ ├───📄 step-01.png
-│ │ │ │ ├───📄 step-02.png
-│ │ │ │ └───📄 step-03.png
-│ │ │ ├───📄 furusato-one-stop-exception-en.md
+│ │ │ ├───📄 furusato-one-stop-exception.md
 │ │ │ └───📄 index.md
 │ │ ├───📁 global-shipping/
-│ │ │ ├───📄 global-shipping-250.png
-│ │ │ ├───📄 global-shipping-address1.png
-│ │ │ ├───📄 global-shipping-address2.png
-│ │ │ ├───📄 global-shipping-demo.gif
 │ │ │ ├───📄 global-shipping-demo.mp4
-│ │ │ ├───📄 global-shipping-home.png
-│ │ │ ├───📄 higashi-yama-streets.png
 │ │ │ └───📄 jp-post-contact-upload.csv
 │ │ ├───📁 kichijoji/
 │ │ │ ├───📄 index.md
@@ -99,20 +57,14 @@
 │ │ │ ├───📄 index.md
 │ │ │ └───📄 roppongi-places-en.md
 │ │ ├───📁 visa-renewal/
-│ │ │ ├───📄 img-jpki-broken-error.png
-│ │ │ ├───📄 img-jpki-error-ew104j1502.png
-│ │ │ ├───📄 img-jpki-reader-error.png
-│ │ │ ├───📄 img-visa-website-button.png
-│ │ │ ├───📄 img-windows-black-shell.png
 │ │ │ ├───📄 index.md
-│ │ │ ├───📄 jpki-install-guide-v3-5-en.md
+│ │ │ ├───📄 jpki-install-guide-v3-5.md
 │ │ │ ├───📄 jpki-install-guide-v3-5.pdf
 │ │ │ └───📄 visa-renweal-status-check.md
 │ │ ├───📄 global-shipping.md
 │ │ ├───📄 housekeeping.md
 │ │ ├───📄 index.md
 │ │ ├───📄 kichijoji-places.md
-│ │ ├───📄 local.md
 │ │ ├───📄 passport-renewal.md
 │ │ ├───📄 tokyo-food.md
 │ │ ├───📄 tokyo-hiking.md
@@ -142,29 +94,10 @@
 │ │ └───📄 us-trip-app.md
 │ └───📄 map.md
 ├───📁 ja/
-│ ├───📁 guide/
 │ ├───📁 guides/
 │ │ ├───📁 bullet-train-shinkansen/
 │ │ │ ├───📁 shinkansen-discount-tokyo-osaka/
-│ │ │ │ ├───📄 branch-map.png
-│ │ │ │ ├───📄 kodama-guidance-en.pdf
-│ │ │ │ ├───📄 kyoto-central.png
-│ │ │ │ ├───📄 kyoto.png
-│ │ │ │ ├───📄 method001.png
-│ │ │ │ ├───📄 method002.png
-│ │ │ │ ├───📄 method003.png
-│ │ │ │ ├───📄 method004.png
-│ │ │ │ ├───📄 method005.png
-│ │ │ │ ├───📄 nagoya.png
-│ │ │ │ ├───📄 shinagawa.png
-│ │ │ │ ├───📄 shinosaka.png
-│ │ │ │ ├───📄 shinyokohama.png
-│ │ │ │ ├───📄 shop-sticker.png
-│ │ │ │ ├───📄 ticket-details-1.png
-│ │ │ │ ├───📄 ticket-details-2.png
-│ │ │ │ ├───📄 ticket-machine-correct.png
-│ │ │ │ ├───📄 ticket-machine-incorrect.png
-│ │ │ │ └───📄 tokyo.png
+│ │ │ │ └───📄 kodama-guidance-en.pdf
 │ │ │ ├───📄 index.md
 │ │ │ ├───📄 shinkansen-tokyo-kanazawa.md
 │ │ │ ├───📄 shinkansen-tokyo-nagoya.md
@@ -200,34 +133,10 @@
 │ │ └───📄 yakushima.md
 │ ├───📁 local/
 │ │ ├───📁 furusato/
-│ │ │ ├───📁 img/
-│ │ │ │ ├───📄 bar-step-01.png
-│ │ │ │ ├───📄 bar-step-02.png
-│ │ │ │ ├───📄 bar-step-03.png
-│ │ │ │ ├───📄 example-02.png
-│ │ │ │ ├───📄 example.png
-│ │ │ │ ├───📄 img-01.png
-│ │ │ │ ├───📄 img-02.png
-│ │ │ │ ├───📄 img-03.png
-│ │ │ │ ├───📄 img-04.png
-│ │ │ │ ├───📄 img-06.png
-│ │ │ │ ├───📄 pattern-01.png
-│ │ │ │ ├───📄 pattern-02.png
-│ │ │ │ ├───📄 pattern-03.png
-│ │ │ │ ├───📄 step-01.png
-│ │ │ │ ├───📄 step-02.png
-│ │ │ │ └───📄 step-03.png
-│ │ │ ├───📄 furusato-one-stop-exception-en.md
-│ │ │ ├───📄 furusato-one-stop-exception-jp.md
+│ │ │ ├───📄 furusato-one-stop-exception.md
 │ │ │ └───📄 index.md
 │ │ ├───📁 global-shipping/
-│ │ │ ├───📄 global-shipping-250.png
-│ │ │ ├───📄 global-shipping-address1.png
-│ │ │ ├───📄 global-shipping-address2.png
-│ │ │ ├───📄 global-shipping-demo.gif
 │ │ │ ├───📄 global-shipping-demo.mp4
-│ │ │ ├───📄 global-shipping-home.png
-│ │ │ ├───📄 higashi-yama-streets.png
 │ │ │ └───📄 jp-post-contact-upload.csv
 │ │ ├───📁 kichijoji/
 │ │ │ ├───📄 index.md
@@ -242,13 +151,7 @@
 │ │ │ ├───📄 roppongi-places-en.md
 │ │ │ └───📄 roppongi-places-jp.md
 │ │ ├───📁 visa-renewal/
-│ │ │ ├───📄 img-jpki-broken-error.png
-│ │ │ ├───📄 img-jpki-error-ew104j1502.png
-│ │ │ ├───📄 img-jpki-reader-error.png
-│ │ │ ├───📄 img-visa-website-button.png
-│ │ │ ├───📄 img-windows-black-shell.png
 │ │ │ ├───📄 index.md
-│ │ │ ├───📄 jpki-install-guide-v3-5-en.md
 │ │ │ ├───📄 jpki-install-guide-v3-5.md
 │ │ │ ├───📄 jpki-install-guide-v3-5.pdf
 │ │ │ └───📄 visa-renweal-status-check.md
@@ -256,7 +159,6 @@
 │ │ ├───📄 housekeeping.md
 │ │ ├───📄 index.md
 │ │ ├───📄 kichijoji-places.md
-│ │ ├───📄 local.md
 │ │ ├───📄 passport-renewal.md
 │ │ ├───📄 tokyo-food.md
 │ │ ├───📄 tokyo-hiking.md
@@ -289,6 +191,62 @@
 │ ├───📄 index.md
 │ └───📄 map.md
 ├───📁 public/
+│ ├───📁 furusato-one-stop-exception/
+│ │ ├───📄 bar-step-01.png
+│ │ ├───📄 bar-step-02.png
+│ │ ├───📄 bar-step-03.png
+│ │ ├───📄 example-02.png
+│ │ ├───📄 example.png
+│ │ ├───📄 img-01.png
+│ │ ├───📄 img-02.png
+│ │ ├───📄 img-03.png
+│ │ ├───📄 img-04.png
+│ │ ├───📄 img-06.png
+│ │ ├───📄 pattern-01.png
+│ │ ├───📄 pattern-02.png
+│ │ ├───📄 pattern-03.png
+│ │ ├───📄 step-01.png
+│ │ ├───📄 step-02.png
+│ │ └───📄 step-03.png
+│ ├───📁 global-shipping/
+│ │ ├───📄 global-shipping-250.png
+│ │ ├───📄 global-shipping-address1.png
+│ │ ├───📄 global-shipping-address2.png
+│ │ ├───📄 global-shipping-demo.gif
+│ │ ├───📄 global-shipping-home.png
+│ │ └───📄 higashi-yama-streets.png
+│ ├───📁 share/
+│ │ ├───📁 nighttab/
+│ │ │ ├───📄 google-bookmarks.json
+│ │ │ ├───📄 streaming-bookmarks.json
+│ │ │ └───📄 travel-bookmarks.json
+│ │ ├───📄 Brewfile
+│ │ └───📄 google-doc-auto-appending.js
+│ ├───📁 shinkansen-discount-tokyo-osaka/
+│ │ ├───📄 branch-map.png
+│ │ ├───📄 kyoto-central.png
+│ │ ├───📄 kyoto.png
+│ │ ├───📄 method001.png
+│ │ ├───📄 method002.png
+│ │ ├───📄 method003.png
+│ │ ├───📄 method004.png
+│ │ ├───📄 method005.png
+│ │ ├───📄 nagoya.png
+│ │ ├───📄 shinagawa.png
+│ │ ├───📄 shinosaka.png
+│ │ ├───📄 shinyokohama.png
+│ │ ├───📄 shop-sticker.png
+│ │ ├───📄 ticket-details-1.png
+│ │ ├───📄 ticket-details-2.png
+│ │ ├───📄 ticket-machine-correct.png
+│ │ ├───📄 ticket-machine-incorrect.png
+│ │ └───📄 tokyo.png
+│ ├───📁 visa-renewal/
+│ │ ├───📄 img-jpki-broken-error.png
+│ │ ├───📄 img-jpki-error-ew104j1502.png
+│ │ ├───📄 img-jpki-reader-error.png
+│ │ ├───📄 img-visa-website-button.png
+│ │ └───📄 img-windows-black-shell.png
 │ ├───📄 cat-icon-background.png
 │ ├───📄 cat-icon-clear.png
 │ ├───📄 favicon.ico
@@ -296,8 +254,10 @@
 │ ├───📄 img-corona-dehumidifier.png
 │ ├───📄 img-wave-dryer.png
 │ ├───📄 kyoto-trip-higashiyamastreets.png
+│ ├───📄 macos-settings-smart-quotes.png
 │ ├───📄 passport-renewal-signature-sample.png
 │ ├───📄 robots.txt
+│ ├───📄 sakura-path.png
 │ ├───📄 shinkansen-map.png
 │ ├───📄 tokaido-sanyo-shinkansen-route-map.png
 │ ├───📄 windows-language-settings.png
