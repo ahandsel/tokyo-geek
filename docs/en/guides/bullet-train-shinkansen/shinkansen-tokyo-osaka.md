@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: platto kodama, shinkansen, tokyo, osaka, tickets
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

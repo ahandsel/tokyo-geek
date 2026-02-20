@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: kichijoji, neighborhood, local
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

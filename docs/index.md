@@ -47,4 +47,5 @@ features:
   - title: 🏙️ Tokyo Neighborhoods Overview
     details: Quick breakdown of neighborhoods by what they are known for
     link: /guides/tokyo/tokyo-neighborhoods
+excludeFromSidebar: false
 ---

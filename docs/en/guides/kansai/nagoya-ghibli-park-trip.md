@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: ghibli park, nagoya, travel, tips, lockers
+excludeFromSidebar: false
 ---
 
 > [!IMPORTANT]  

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: passport, renewal, my number card, japan, online application
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

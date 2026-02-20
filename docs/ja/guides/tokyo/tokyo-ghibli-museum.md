@@ -1,6 +1,7 @@
 ---
 title: スタジオジブリ美術館 - 東京
 description: 東京・三鷹にあるジブリ美術館のチケット予約ガイドです。
+excludeFromSidebar: false
 ---
 
 > [!IMPORTANT]

@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, home centers, hardware stores, locals, moving, expats, relocation, living, guides, expat tips
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: nighttab, browser, extension, bookmarks, customization
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

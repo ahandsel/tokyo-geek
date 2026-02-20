@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, shows, movies, recommendations, list
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

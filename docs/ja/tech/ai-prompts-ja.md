@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: ai, prompt, japanese, writing, translation
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

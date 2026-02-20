@@ -47,4 +47,5 @@ features:
   - title: 🏙️ 東京エリアガイド
     details: 各エリアの特徴をさくっと紹介
     link: /ja/guides/tokyo/tokyo-neighborhoods
+excludeFromSidebar: false
 ---

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: figma, config, conference, tips, networking
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

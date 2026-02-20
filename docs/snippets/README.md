@@ -1,3 +1,7 @@
+---
+excludeFromSidebar: true
+---
+
 # Notes on snippets
 
 This document is an overview of the `snippets/` folder contents.

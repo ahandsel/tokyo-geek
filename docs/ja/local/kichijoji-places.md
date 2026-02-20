@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: kichijoji, gyms, tokyo, fitness, local
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

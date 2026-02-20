@@ -2,6 +2,7 @@
 title: '東京からの週末旅行'
 description: 東京から行ける週末旅行のおすすめプランです。
 order: 1
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

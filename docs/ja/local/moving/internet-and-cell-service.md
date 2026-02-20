@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, internet, cell service, mobile plans, payment methods
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, ios apps, travel, payments, tips
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

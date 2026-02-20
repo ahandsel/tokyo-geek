@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, websites, locals, travel, living, local, website
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

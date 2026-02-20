@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan post, international shipping, ead, my page, postal
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

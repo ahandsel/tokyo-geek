@@ -1,6 +1,7 @@
 ---
 title: 'Ishigaki guidebook'
 description: This guidebook is created by the hosts of Me-Fi-You Ishigaki Island
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

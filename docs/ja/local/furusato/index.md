@@ -2,6 +2,7 @@
 title: ふるさと納税 - 故郷納税制度
 description: ふるさと納税制度に関するメモと用語集です。
 order: 1
+excludeFromSidebar: false
 ---
 
 # ふるさと納税 - 故郷納税制度

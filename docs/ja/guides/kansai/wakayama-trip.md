@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: wakayama, itinerary, japan, travel, kumano kodo
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

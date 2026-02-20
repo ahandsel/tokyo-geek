@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, biking, docomo cycle, bike share, travel
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

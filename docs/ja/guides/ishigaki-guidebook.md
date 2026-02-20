@@ -1,6 +1,7 @@
 ---
 title: '石垣島ガイドブック'
 description: このガイドブックは、みぃふぁいゆ〜石垣島のホストが作成したものです
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

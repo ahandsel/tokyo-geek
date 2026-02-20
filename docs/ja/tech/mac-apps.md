@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: mac, apps, productivity, utilities, brew
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

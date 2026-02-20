@@ -1,6 +1,7 @@
 ---
 title: Studio Ghibli Museum - Tokyo
 description: A guide to booking tickets for the Ghibli Museum in Mitaka, Tokyo.
+excludeFromSidebar: false
 ---
 
 > [!IMPORTANT]  

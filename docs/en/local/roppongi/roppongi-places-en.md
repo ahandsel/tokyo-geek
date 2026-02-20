@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: roppongi, azabu, food, cafes, tokyo
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

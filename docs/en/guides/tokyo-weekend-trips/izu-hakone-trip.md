@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: izu, hakone, itinerary, weekend trip, japan
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

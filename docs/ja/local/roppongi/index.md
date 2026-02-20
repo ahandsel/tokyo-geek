@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: roppongi, neighborhood, local
+excludeFromSidebar: false
 ---
 
 # 六本木エリア

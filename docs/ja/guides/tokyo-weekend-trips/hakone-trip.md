@@ -1,6 +1,7 @@
 ---
 title: 箱根の週末旅行
 description: 箱根でハイキング、美術館、温泉、富士山の景色を楽しむ連休の過ごし方。
+excludeFromSidebar: false
 ---
 
 # 箱根での週末

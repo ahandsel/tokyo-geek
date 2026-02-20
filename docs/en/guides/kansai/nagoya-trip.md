@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: nagoya, trip, itinerary, transport, japan
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

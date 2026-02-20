@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: japan, expats, living, furusato, shipping
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

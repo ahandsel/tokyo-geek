@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: united states, travel, apps, tips, ios
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

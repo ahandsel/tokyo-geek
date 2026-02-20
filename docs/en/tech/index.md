@@ -6,6 +6,7 @@ head:
     - name: keywords
       content: tech, technology, programming, development, tools, mac, apps
 order: 0
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

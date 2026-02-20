@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, trip, itinerary, attractions, hotels
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

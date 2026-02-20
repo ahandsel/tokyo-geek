@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: hometown tax, one-stop, exception, japan, guide
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

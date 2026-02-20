@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: finance, japan, tips
+excludeFromSidebar: false
 ---
 
 # How to hold yen when moving out of Japan

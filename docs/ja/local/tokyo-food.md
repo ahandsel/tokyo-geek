@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, food, restaurants, cafes, recommendations
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

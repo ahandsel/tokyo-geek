@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: ふるさと納税, ワンストップ, 特例, 申請, ガイド
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

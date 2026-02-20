@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: zipair, airline, tips, flights, japan
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

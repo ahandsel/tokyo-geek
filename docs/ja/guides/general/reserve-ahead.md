@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, booking, reservations, attractions, travel
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

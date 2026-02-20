@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: google docs, apps script, automation, template, weekly report
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

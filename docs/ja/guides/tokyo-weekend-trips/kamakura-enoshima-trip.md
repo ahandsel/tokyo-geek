@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: kamakura, enoshima, travel, itinerary, japan
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

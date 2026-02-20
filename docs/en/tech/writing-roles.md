@@ -1,3 +1,7 @@
+---
+excludeFromSidebar: false
+---
+
 # Writing roles
 
 Comparing different writing-heavy roles in tech companies: UX writing, technical writing, and developer relations.

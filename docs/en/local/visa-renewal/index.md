@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: visa-renewal, mac, windows-vm, my-number-card, jpki
+excludeFromSidebar: false
 ---
 
 # How to renew Japanese visa online with a Mac

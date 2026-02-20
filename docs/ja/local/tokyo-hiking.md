@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, hiking, trails, outdoors, japan
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

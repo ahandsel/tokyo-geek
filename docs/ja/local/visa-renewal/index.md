@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: visa-renewal, mac, windows-vm, my-number-card, jpki
+excludeFromSidebar: false
 ---
 
 # Macでの日本のビザオンライン更新方法

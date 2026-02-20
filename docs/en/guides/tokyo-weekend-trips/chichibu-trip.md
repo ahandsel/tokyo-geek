@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: chichibu, trip, itinerary, japan, travel
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

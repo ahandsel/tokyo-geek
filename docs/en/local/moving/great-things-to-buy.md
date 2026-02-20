@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, shopping, home, appliances, laundry
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

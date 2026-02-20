@@ -1,6 +1,7 @@
 ---
 title: ビザ更新の申請状況確認方法
 description: オンラインで申請した日本のビザ更新の状況を確認するための簡単なガイドです。
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

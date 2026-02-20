@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: paris, amsterdam, brussels, travel, itinerary, europe
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

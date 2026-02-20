@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: mac, airpods, audio, multi-output, macos, bluetooth
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

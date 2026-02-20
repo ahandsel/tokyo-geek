@@ -1,3 +1,7 @@
+---
+excludeFromSidebar: true
+---
+
 # Doc status snippet for AI-translated documents
 
 

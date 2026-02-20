@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: 旅行, ヨーロッパ, ヒント, パリ, アムステルダム, ブリュッセル
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}

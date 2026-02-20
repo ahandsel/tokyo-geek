@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: travel, china, tips, beijing, layover, air china, esim, wechat pay, alipay
+excludeFromSidebar: false
 ---
 
 # {{$frontmatter.title}}
