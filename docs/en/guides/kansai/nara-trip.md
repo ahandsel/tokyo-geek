@@ -17,6 +17,7 @@ head:
 ## Transport tip: Kintetsu Nara to Kyoto
 
 Buy the ticket in advance online when taking the Kintetsu Limited Express between Nara and Kyoto.
+
 * [Reservation for Limited Express Kintetsu Railway][kintetsu-ticket]
 
 When you ride from Kintetsu Nara Station to Kyoto Station:
@@ -40,6 +41,7 @@ Mini Inn Nara is a very basic guesthouse-style option for travelers who want a c
 * Front desk: No front desk
 
 Recommendation:
+
 * Confirm check-in instructions in advance because the hotel does not have a front desk.
 
 [map-mini-inn-nara]: https://maps.app.goo.gl/zPj8iPUznKL9pAdu7
