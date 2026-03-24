@@ -119,9 +119,7 @@ list_scripts() {
       # Parse "key": "value" lines, handling escaped quotes in values
       if [[ "$line" =~ '"([^"]+)"[[:space:]]*:[[:space:]]*"(.*)"' ]]; then
         name="${match[1]}"
-        # Extract value between first ": " and last quote, then unescape
         cmd="${match[2]}"
-        cmd="${cmd%\"*}"          # trim trailing comma/quote artifacts
         cmd="${cmd//\\\"/\"}"     # unescape \"
         names+=("$name")
         cmds+=("$cmd")
