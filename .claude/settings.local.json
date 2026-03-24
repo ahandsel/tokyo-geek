@@ -8,7 +8,8 @@
       "Bash(node scripts/migrate-images.mjs:*)",
       "Bash(pnpm install:*)",
       "Bash(pnpm build:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(pnpm help-me:*)"
     ]
   }
 }
