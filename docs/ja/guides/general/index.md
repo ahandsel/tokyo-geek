@@ -22,11 +22,11 @@ order: 0
 日本に住んでいる現地の方や海外出身の方が運営しているYouTubeチャンネルです。おすすめ順に並べています。日本の雰囲気を感じるのにぴったりです。
 
 1. [Paolo from Tokyo](https://youtube.com/@paolofromtokyo)
-1. [Abroad in Japan](https://youtube.com/@abroadinjapan)
-1. [Tokyo Lens](https://youtube.com/@TokyoLens)
-1. [Tokyo Creative](https://youtube.com/@TokyoCreativePlay)
-1. [Chris Abroad](https://youtube.com/@ChrisAbroad)
-1. [Tokyo Zebra](https://youtube.com/@TokyoZebra)
+2. [Abroad in Japan](https://youtube.com/@abroadinjapan)
+3. [Tokyo Lens](https://youtube.com/@TokyoLens)
+4. [Tokyo Creative](https://youtube.com/@TokyoCreativePlay)
+5. [Chris Abroad](https://youtube.com/@ChrisAbroad)
+6. [Tokyo Zebra](https://youtube.com/@TokyoZebra)
 
 
 ## 事前予約 - ホテルよりも先に予約しましょう 🎟️

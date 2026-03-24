@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      markdownlint-rule-search-replace:
+        specifier: ^1.2.0
+        version: 1.2.0
     devDependencies:
       '@davidingplus/vitepress-image-viewer':
         specifier: ^1.1.5
@@ -2078,8 +2082,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.321:
-    resolution: {integrity: sha512-L2C7Q279W2D/J4PLZLk7sebOILDSWos7bMsMNN06rK482umHUrh/3lM8G7IlHFOYip2oAg5nha1rCMxr/rs6ZQ==}
+  electron-to-chromium@1.5.322:
+    resolution: {integrity: sha512-vFU34OcrvMcH66T+dYC3G4nURmgfDVewMIu6Q2urXpumAPSMmzvcn04KVVV8Opikq8Vs5nUbO/8laNhNRqSzYw==}
 
   encoding-sniffer@0.2.1:
     resolution: {integrity: sha512-5gvq20T6vfpekVtqrYQsSCFZ1wEg5+wW0/QaZMWkFr6BqD3NfKs0rLCx4rrVlSWJeZb5NBJgVLswK/w2MWU+Gw==}
@@ -2786,6 +2790,18 @@ packages:
     resolution: {integrity: sha512-mOC9BY/XGtdX3M9n3AgERd79F0+S7w18yBBTNIQ453sI87etZfp1z4eajqSMV70CYjbxKe5ktKvT2HCpvcWx9w==}
     engines: {node: '>=20'}
     hasBin: true
+
+  markdownlint-micromark@0.1.2:
+    resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
+    engines: {node: '>=14.18.0'}
+
+  markdownlint-rule-helpers@0.21.0:
+    resolution: {integrity: sha512-27WM6H76t79EZjEl3jSabV0ZzXsC5QaSslI/5N1XuXV0mJRA6i3BPMGFrtZUbhlCNgtY6oC9h5JhtpDMv95tKg==}
+    engines: {node: '>=16'}
+
+  markdownlint-rule-search-replace@1.2.0:
+    resolution: {integrity: sha512-l2eeVjb0ijxO+dO1ZrODcht+qnJ0VuiAAdBx1J8oa2kAugXl3NhxAGjfNuTfEJae5OQbdSGT+NjMczyzBXvWMA==}
+    engines: {node: '>=16'}
 
   markdownlint@0.40.0:
     resolution: {integrity: sha512-UKybllYNheWac61Ia7T6fzuQNDZimFIpCg2w6hHjgV1Qu0w1TV0LlSgryUGzM0bkKQCBhy2FDhEELB73Kb0kAg==}
@@ -5419,7 +5435,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.10
       caniuse-lite: 1.0.30001781
-      electron-to-chromium: 1.5.321
+      electron-to-chromium: 1.5.322
       node-releases: 2.0.36
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -5864,7 +5880,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.321: {}
+  electron-to-chromium@1.5.322: {}
 
   encoding-sniffer@0.2.1:
     dependencies:
@@ -6693,6 +6709,16 @@ snapshots:
       smol-toml: 1.6.0
     transitivePeerDependencies:
       - supports-color
+
+  markdownlint-micromark@0.1.2: {}
+
+  markdownlint-rule-helpers@0.21.0:
+    dependencies:
+      markdownlint-micromark: 0.1.2
+
+  markdownlint-rule-search-replace@1.2.0:
+    dependencies:
+      markdownlint-rule-helpers: 0.21.0
 
   markdownlint@0.40.0:
     dependencies:

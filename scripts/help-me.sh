@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 #===============================================================================
-: << 'DOC'
+: <<'DOC'
 Name:     help-me.sh
 Usage:    help-me.sh [-h|--help] [-V|--version]
 Purpose:  List all pnpm scripts defined in package.json.
@@ -33,7 +33,7 @@ err() { printf '%s\n' "$*" >&2; }
 
 _exit_status=0
 on_error() {
-  ((_exit_status)) && err "A failure occurred. Exiting."
+	((_exit_status)) && err "A failure occurred. Exiting."
 }
 trap '_exit_status=$?; on_error' EXIT
 
@@ -42,7 +42,7 @@ trap '_exit_status=$?; on_error' EXIT
 # ----------------------------
 
 usage() {
-  cat << EOF
+	cat <<EOF
 $SCRIPT_NAME v$VERSION
 
 🧭 Usage:
@@ -60,81 +60,81 @@ EOF
 }
 
 find_package_json() {
-  local dir="${1:?directory required}"
-  while true; do
-    if [[ -f "$dir/package.json" ]]; then
-      printf '%s\n' "$dir/package.json"
-      return 0
-    fi
-    [[ "$dir" == "/" ]] && break
-    dir="${dir:h}"
-  done
-  err "No package.json found."
-  return 1
+	local dir="${1:?directory required}"
+	while true; do
+		if [[ -f "$dir/package.json" ]]; then
+			printf '%s\n' "$dir/package.json"
+			return 0
+		fi
+		[[ "$dir" == "/" ]] && break
+		dir="${dir:h}"
+	done
+	err "No package.json found."
+	return 1
 }
 
 list_scripts() {
-  local pkg_json="$1"
-  local in_scripts=0 depth=0
-  local line name cmd
-  local -a names=() cmds=()
-  local max_len=0
-  local ch in_str escaped i
+	local pkg_json="$1"
+	local in_scripts=0 depth=0
+	local line name cmd
+	local -a names=() cmds=()
+	local max_len=0
+	local ch in_str escaped i
 
-  while IFS= read -r line; do
-    # Detect the "scripts" block opening
-    if ((!in_scripts)) && [[ "$line" == *'"scripts"'*'{' ]]; then
-      in_scripts=1
-      depth=1
-      continue
-    fi
+	while IFS= read -r line; do
+		# Detect the "scripts" block opening
+		if ((!in_scripts)) && [[ "$line" == *'"scripts"'*'{' ]]; then
+			in_scripts=1
+			depth=1
+			continue
+		fi
 
-    if ((in_scripts)); then
-      # Track brace nesting depth to handle values containing '}'
-      in_str=0 escaped=0
-      for ((i = 1; i <= ${#line}; i++)); do
-        ch="${line[$i]}"
-        if ((escaped)); then
-          escaped=0
-          continue
-        fi
-        if [[ "$ch" == '\' ]]; then
-          escaped=1
-          continue
-        fi
-        if [[ "$ch" == '"' ]]; then
-          in_str=$((1 - in_str))
-          continue
-        fi
-        if ((!in_str)); then
-          if [[ "$ch" == '{' ]]; then
-            ((depth++))
-          elif [[ "$ch" == '}' ]]; then
-            ((depth--))
-          fi
-        fi
-      done
-      ((depth <= 0)) && break
+		if ((in_scripts)); then
+			# Track brace nesting depth to handle values containing '}'
+			in_str=0 escaped=0
+			for ((i = 1; i <= ${#line}; i++)); do
+				ch="${line[$i]}"
+				if ((escaped)); then
+					escaped=0
+					continue
+				fi
+				if [[ "$ch" == '\' ]]; then
+					escaped=1
+					continue
+				fi
+				if [[ "$ch" == '"' ]]; then
+					in_str=$((1 - in_str))
+					continue
+				fi
+				if ((!in_str)); then
+					if [[ "$ch" == '{' ]]; then
+						((depth++))
+					elif [[ "$ch" == '}' ]]; then
+						((depth--))
+					fi
+				fi
+			done
+			((depth <= 0)) && break
 
-      # Parse "key": "value" lines, handling escaped quotes in values
-      if [[ "$line" =~ '"([^"]+)"[[:space:]]*:[[:space:]]*"(.*)"' ]]; then
-        name="${match[1]}"
-        cmd="${match[2]}"
-        cmd="${cmd//\\\"/\"}"     # unescape \"
-        names+=("$name")
-        cmds+=("$cmd")
-        (( ${#name} > max_len )) && max_len=${#name}
-      fi
-    fi
-  done < "$pkg_json"
+			# Parse "key": "value" lines, handling escaped quotes in values
+			if [[ "$line" =~ '"([^"]+)"[[:space:]]*:[[:space:]]*"(.*)"' ]]; then
+				name="${match[1]}"
+				cmd="${match[2]}"
+				cmd="${cmd//\\\"/\"}" # unescape \"
+				names+=("$name")
+				cmds+=("$cmd")
+				((${#name} > max_len)) && max_len=${#name}
+			fi
+		fi
+	done <"$pkg_json"
 
-  printf '\n📦 Available scripts:\n\n'
+	printf '\n📦 Available scripts:\n\n'
 
-  for ((i = 1; i <= ${#names}; i++)); do
-    printf "  pnpm %-${max_len}s → %s\n" "${names[$i]}" "${cmds[$i]}"
-  done
+	for ((i = 1; i <= ${#names}; i++)); do
+		printf "  pnpm %-${max_len}s → %s\n" "${names[$i]}" "${cmds[$i]}"
+	done
 
-  printf '\n'
+	printf '\n'
 }
 
 # ----------------------------
@@ -142,29 +142,29 @@ list_scripts() {
 # ----------------------------
 
 main() {
-  while (($# > 0)); do
-    case "$1" in
-      -h | --help)
-        usage
-        exit 0
-        ;;
-      -V | --version)
-        printf '%s v%s\n' "$SCRIPT_NAME" "$VERSION"
-        exit 0
-        ;;
-      *)
-        err "Unknown option: $1"
-        usage
-        exit 2
-        ;;
-    esac
-    shift
-  done
+	while (($# > 0)); do
+		case "$1" in
+		-h | --help)
+			usage
+			exit 0
+			;;
+		-V | --version)
+			printf '%s v%s\n' "$SCRIPT_NAME" "$VERSION"
+			exit 0
+			;;
+		*)
+			err "Unknown option: $1"
+			usage
+			exit 2
+			;;
+		esac
+		shift
+	done
 
-  local pkg_json
-  pkg_json="$(find_package_json "$PWD")"
+	local pkg_json
+	pkg_json="$(find_package_json "$PWD")"
 
-  list_scripts "$pkg_json"
+	list_scripts "$pkg_json"
 }
 
 main "$@"

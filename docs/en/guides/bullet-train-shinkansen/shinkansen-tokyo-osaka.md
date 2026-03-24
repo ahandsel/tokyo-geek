@@ -126,11 +126,11 @@ Go to a JR Tokai Tours branch office and book the ticket in person.
 #### Online booking steps
 
 1. `商品選択` - Product selection
-1. `選択内容確認` - Confirm your selection
-1. `取引条件確認` - Confirm transaction conditions
-1. `申込情報入力` - Enter application information
-1. `申込情報確認` - Confirm application information
-1. `申込完了` - Application completed
+2. `選択内容確認` - Confirm your selection
+3. `取引条件確認` - Confirm transaction conditions
+4. `申込情報入力` - Enter application information
+5. `申込情報確認` - Confirm application information
+6. `申込完了` - Application completed
 
 <!-- * ⚡️ Note: For ¥1,700 extra, you can reduce the travel time by 1.37 hours by selecting -->
 
@@ -165,19 +165,19 @@ Get a free drink at shops with the following conditions:
 Two Steps:
 
 1. **Prep** - Get your **Platt Kodama ticket's pickup QR Code** and **confirmation 6-digit code** ready!
-1. **Pickup** - Scan the QR Code and input the confirmation code to get your tickets from the Ticket Machine
+2. **Pickup** - Scan the QR Code and input the confirmation code to get your tickets from the Ticket Machine
 
 
 ### Prep - getting the ticket pickup QR code and confirmation code
 
 1. Navigate to the JR Tokai Tours's Reservation Confirmation Page (`予約内容確認`): <https://ec.jrtours.co.jp/ec/member/InquirySelect>
-1. Log in to your My Page (`マイページ`) account
-1. Click the `一覧` (List) or `一覧を表示する` (Display list) button
-1. Click the `詳細` (Details) button
-1. Navigate to the `選択ツアー詳細` (Select tour details) column
-1. Click the `JR乗車票` `受取コード` `確認コード表示` (JR boarding pass receipt code/confirmation code display) button
-1. A Platt Kodama ticket's pickup QR Code and confirmation 6-digit code will be displayed
-1. {Optional} Repeat the process to display the return trip's Platt Kodama ticket pickup QR Code
+2. Log in to your My Page (`マイページ`) account
+3. Click the `一覧` (List) or `一覧を表示する` (Display list) button
+4. Click the `詳細` (Details) button
+5. Navigate to the `選択ツアー詳細` (Select tour details) column
+6. Click the `JR乗車票` `受取コード` `確認コード表示` (JR boarding pass receipt code/confirmation code display) button
+7. A Platt Kodama ticket's pickup QR Code and confirmation 6-digit code will be displayed
+8. {Optional} Repeat the process to display the return trip's Platt Kodama ticket pickup QR Code
 
 | Step  | ScreenShot                                                                     |
 | ----- | ------------------------------------------------------------------------------ |
