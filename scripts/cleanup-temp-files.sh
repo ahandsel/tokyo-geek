@@ -124,7 +124,7 @@ prompt_yes_no() {
   if [[ "$auto" == "yes" ]]; then
     return 0
   fi
-  printf 'Delete all matching temporary files, including special files? [y/N]: '
+  printf 'Delete all matching temporary files and directories, including special files? [y/N]: '
   local answer=''
   read -r answer
   case "$answer" in
@@ -208,7 +208,7 @@ list_temp_files() {
   done < <(find_temp_dir_targets)
 
   if ((found == 0)); then
-    printf 'No matching temporary files found.\n'
+    printf 'No matching temporary files or directories found.\n'
   fi
 }
 
@@ -244,7 +244,7 @@ offer_delete_all() {
   done < <(find_temp_dir_targets)
 
   if ((${#targets[@]} == 0)); then
-    printf 'No matching temporary files to delete.\n'
+    printf 'No matching temporary files or directories to delete.\n'
     return 0
   fi
 
