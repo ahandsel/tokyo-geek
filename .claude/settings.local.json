@@ -9,7 +9,7 @@
       "Bash(pnpm install:*)",
       "Bash(pnpm build:*)",
       "Bash(test:*)",
-      "Bash(pnpm help-me:*)"
+      "Bash(pnpm help-me*)"
     ]
   }
 }
