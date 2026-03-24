@@ -3,10 +3,11 @@
 #===============================================================================
 : << 'DOC'
 Name:     help-me.sh
-Usage:    help-me.sh [-h|--help]
+Usage:    help-me.sh [-h|--help] [-V|--version]
 Purpose:  List all pnpm scripts defined in package.json.
 
 Version history:
+- v1.3, 2026-03-24; Robust JSON parsing; add --version flag; dynamic column width.
 - v1.2, 2026-03-24; Fix find_package_json to check root directory.
 - v1.1, 2026-03-24; Remove jq dependency; parse JSON with pure zsh.
 - v1.0, 2026-03-24; Initial version.
@@ -22,7 +23,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="help-me.sh"
-VERSION="1.2"
+VERSION="1.3"
 
 # ----------------------------
 # Utilities
@@ -30,10 +31,11 @@ VERSION="1.2"
 
 err() { printf '%s\n' "$*" >&2; }
 
+_exit_status=0
 on_error() {
-  err "A failure occurred. Exiting."
+  ((_exit_status)) && err "A failure occurred. Exiting."
 }
-trap on_error ZERR
+trap '_exit_status=$?; on_error' EXIT
 
 # ----------------------------
 # Core
@@ -44,10 +46,11 @@ usage() {
 $SCRIPT_NAME v$VERSION
 
 🧭 Usage:
-  $SCRIPT_NAME [-h|--help]
+  $SCRIPT_NAME [-h|--help] [-V|--version]
 
 🧩 Options:
-  -h, --help  Show this help message and exit.
+  -h, --help     Show this help message and exit.
+  -V, --version  Print version and exit.
 
 📝 Description:
   + Lists all pnpm scripts defined in the nearest package.json.
@@ -72,32 +75,66 @@ find_package_json() {
 
 list_scripts() {
   local pkg_json="$1"
-  local in_scripts=0
+  local in_scripts=0 depth=0
   local line name cmd
-
-  printf '\n📦 Available scripts:\n\n'
+  local -a names=() cmds=()
+  local max_len=0
+  local ch in_str escaped i
 
   while IFS= read -r line; do
     # Detect the "scripts" block opening
-    if [[ "$line" == *'"scripts"'*'{' ]]; then
+    if ((!in_scripts)) && [[ "$line" == *'"scripts"'*'{' ]]; then
       in_scripts=1
+      depth=1
       continue
     fi
 
-    # Detect the closing brace of the scripts block
-    if ((in_scripts)) && [[ "$line" == *'}'* ]]; then
-      break
-    fi
-
-    # Parse "key": "value" lines inside the scripts block
     if ((in_scripts)); then
+      # Track brace nesting depth to handle values containing '}'
+      in_str=0 escaped=0
+      for ((i = 1; i <= ${#line}; i++)); do
+        ch="${line[$i]}"
+        if ((escaped)); then
+          escaped=0
+          continue
+        fi
+        if [[ "$ch" == '\' ]]; then
+          escaped=1
+          continue
+        fi
+        if [[ "$ch" == '"' ]]; then
+          in_str=$((1 - in_str))
+          continue
+        fi
+        if ((!in_str)); then
+          if [[ "$ch" == '{' ]]; then
+            ((depth++))
+          elif [[ "$ch" == '}' ]]; then
+            ((depth--))
+          fi
+        fi
+      done
+      ((depth <= 0)) && break
+
+      # Parse "key": "value" lines, handling escaped quotes in values
       if [[ "$line" =~ '"([^"]+)"[[:space:]]*:[[:space:]]*"(.*)"' ]]; then
         name="${match[1]}"
+        # Extract value between first ": " and last quote, then unescape
         cmd="${match[2]}"
-        printf '  pnpm %-15s → %s\n' "$name" "$cmd"
+        cmd="${cmd%\"*}"          # trim trailing comma/quote artifacts
+        cmd="${cmd//\\\"/\"}"     # unescape \"
+        names+=("$name")
+        cmds+=("$cmd")
+        (( ${#name} > max_len )) && max_len=${#name}
       fi
     fi
   done < "$pkg_json"
+
+  printf '\n📦 Available scripts:\n\n'
+
+  for ((i = 1; i <= ${#names}; i++)); do
+    printf "  pnpm %-${max_len}s → %s\n" "${names[$i]}" "${cmds[$i]}"
+  done
 
   printf '\n'
 }
@@ -111,6 +148,10 @@ main() {
     case "$1" in
       -h | --help)
         usage
+        exit 0
+        ;;
+      -V | --version)
+        printf '%s v%s\n' "$SCRIPT_NAME" "$VERSION"
         exit 0
         ;;
       *)
