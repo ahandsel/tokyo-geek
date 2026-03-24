@@ -7,6 +7,7 @@ Usage:    help-me.sh [-h|--help]
 Purpose:  List all pnpm scripts defined in package.json.
 
 Version history:
+- v1.2, 2026-03-24; Fix find_package_json to check root directory.
 - v1.1, 2026-03-24; Remove jq dependency; parse JSON with pure zsh.
 - v1.0, 2026-03-24; Initial version.
 
@@ -21,7 +22,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="help-me.sh"
-VERSION="1.1"
+VERSION="1.2"
 
 # ----------------------------
 # Utilities
@@ -57,11 +58,12 @@ EOF
 
 find_package_json() {
   local dir="${1:?directory required}"
-  while [[ "$dir" != "/" ]]; do
+  while true; do
     if [[ -f "$dir/package.json" ]]; then
       printf '%s\n' "$dir/package.json"
       return 0
     fi
+    [[ "$dir" == "/" ]] && break
     dir="${dir:h}"
   done
   err "No package.json found."
