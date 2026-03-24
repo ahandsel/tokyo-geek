@@ -103,7 +103,7 @@ eSIMプロバイダー（おすすめ順）：
 
 1. [Airalo](https://www.airalo.com/japan-eSIM)
    * [コード `AB6826` で初回注文$3.00オフ](https://ref.airalo.com/DB2m)。
-1. [Nomad](https://www.getnomad.app/japan-eSIM)
+2. [Nomad](https://www.getnomad.app/japan-eSIM)
    * 紹介コード `KEITLQPQFA` で25%オフ - [ヘルプページ](https://www.getnomad.app/help-center/articles/9886364)
 
 

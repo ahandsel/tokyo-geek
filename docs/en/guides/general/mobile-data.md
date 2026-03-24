@@ -103,7 +103,7 @@ eSIM providers (ranked by recommendation):
 
 1. [Airalo](https://www.airalo.com/japan-eSIM)
    * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m).
-1. [Nomad](https://www.getnomad.app/japan-eSIM)
+2. [Nomad](https://www.getnomad.app/japan-eSIM)
    * 25% off using `KEITLQPQFA` referral code - [help doc](https://www.getnomad.app/help-center/articles/9886364)
 
 

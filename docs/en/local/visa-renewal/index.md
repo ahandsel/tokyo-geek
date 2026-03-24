@@ -206,7 +206,7 @@ Open the JPKI app (`JPKI利用者ソフト`) and make sure it runs without error
 After installing the JPKI app and Java, you can now proceed to the online visa renewal process.
 
 1. Open the Immigration Services Agency's [Online Residence Application Procedures](https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en) webpage.
-1. Click the big green button labeled `在留申請オンラインシステムのご利用はこちらから。（在留申請オンラインシステムのトップページへリンクします。）`
+2. Click the big green button labeled `在留申請オンラインシステムのご利用はこちらから。（在留申請オンラインシステムのトップページへリンクします。）`
    * `https://www.ras-immi.moj.go.jp/WC01/WCAAS010/`
    * ![Screenshot of the visa homepage with the button highlighted](/visa-renewal/img-visa-website-button.png)
 
