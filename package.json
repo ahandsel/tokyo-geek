@@ -14,7 +14,7 @@
     "lint-md": "pnpm run format-code && pnpm run format-md",
     "lint": "pnpm run format-code && pnpm run format-md && pnpm run format-shell",
     "preview": "vitepress preview docs",
-    "test": "pnpm run lint && vitepress build docs && vitepress preview docs",
+    "test": "pnpm run tree && pnpm run lint && vitepress build docs && vitepress preview docs",
     "tree": "node scripts/generate-doc-structure.mjs"
   },
   "packageManager": "pnpm@10.32.1",
