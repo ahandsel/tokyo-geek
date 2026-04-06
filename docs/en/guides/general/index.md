@@ -34,7 +34,6 @@ Here are some YouTube channels, ordered by recommendation, that are run by local
 Here are some attractions and experiences in Japan that require advance reservations.
 
 Notable places to book ahead:
-./../kansai/nagoya-ghibli-park-trip.md
 
 * [Ghibli Park](./reserve-ahead.md#ghibli-park)
   * For more details, check out the [Studio Ghibli Park Notes](../kansai/nagoya-ghibli-park-trip.md) guide.
@@ -50,9 +49,6 @@ For the full list of places to book ahead, review the [Places to book ahead for 
 The Shinkansen is a high-speed train service in Japan that connects major cities and provides a convenient way to travel.
 
 * [Shinkansen tickets - Klook](https://www.klook.com/japan-rail/shinkansen/) - Tourist-friendly booking option
-  ./../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
-  If you are a local or a long-term resident wan./../bullet-train-shinkansen/shinkansen-tokyo-osaka.mdlowing guides:
-  ./../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
 * [Tokyo to Nagoya Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md)
 * [Tokyo to Kyoto & Osaka Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-osaka.md)
 * [Tokyo to Kanazawa Shinkansen Options](../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md)
@@ -72,16 +68,12 @@ The Shinkansen is a high-speed train service in Japan that connects major cities
 ## Preparation ⚙️
 
 * [Check out these useful apps for your Japan trip](./apps.md) - From navigation to translation
-* [Figure out./../tokyo-weekend-trips/chichibu-trip.mdile-data.md) - eSIM vs pocket Wi-Fi
-  ./../tokyo-weekend-trips/izu-hakone-trip.md
-  ./../kansai/kyoto-trip.md
+* [Figure out your mobile data options](./mobile-data.md) - eSIM vs pocket Wi-Fi
 
 
-## Brainsto./../kyushu-trip.md
+## Brainstorming trip ideas 🧠
 
-./../kansai/nagoya-trip.md
-Here are s./../kansai/osaka-trip.mdst trips to give you some ideas:
-./../tokyo/tokyo-trip.md
+Here are some sample itineraries and trip ideas to get you started:
 
 * [Chichibu](../tokyo-weekend-trips/chichibu-trip.md)
 * [Izu/Hakone](../tokyo-weekend-trips/izu-hakone-trip.md)
