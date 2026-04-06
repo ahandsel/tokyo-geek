@@ -125,6 +125,7 @@ const vitePressOptions = {
 
 const rootLocale = 'en';
 const supportedLocales = [rootLocale, 'ja'];
+const sections = ['guides', 'local', 'tips', 'tech'];
 
 const commonSidebarConfigs = {
   // https://vitepress-sidebar.cdget.com/guide/options
@@ -189,60 +190,27 @@ const commonSidebarConfigs = {
 
 const vitePressSidebarConfigs = [
   // VitePress Sidebar's options here...
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/en/guides',
-    basePath: '/en/guides/',
-    resolvePath: '/en/guides/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/en/local',
-    basePath: '/en/local/',
-    resolvePath: '/en/local/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/en/tips',
-    basePath: '/en/tips/',
-    resolvePath: '/en/tips/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/en/tech',
-    basePath: '/en/tech/',
-    resolvePath: '/en/tech/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/ja/guides',
-    basePath: '/ja/guides/',
-    resolvePath: '/ja/guides/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/ja/local',
-    basePath: '/ja/local/',
-    resolvePath: '/ja/local/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/ja/tips',
-    basePath: '/ja/tips/',
-    resolvePath: '/ja/tips/',
-  },
-  {
-    ...commonSidebarConfigs,
-    scanStartPath: '/ja/tech',
-    basePath: '/ja/tech/',
-    resolvePath: '/ja/tech/',
-  },
+  // Per-section sidebars for each locale
+  // documentRootPath must include the locale to avoid doubled paths in links
+  ...supportedLocales.flatMap((lang) => {
+    const isRoot = lang === rootLocale;
+    const prefix = isRoot ? '' : `/${lang}`;
+    return sections.map((section) => ({
+      ...commonSidebarConfigs,
+      documentRootPath: `docs/${lang}`,
+      scanStartPath: section,
+      basePath: `${prefix}/${section}/`,
+      resolvePath: `${prefix}/${section}/`,
+    }));
+  }),
+  // Root-level sidebars for each locale (fallback for pages not in a section)
   ...supportedLocales.map((lang) => {
+    const isRoot = lang === rootLocale;
     return {
       ...commonSidebarConfigs,
-      ...(rootLocale === lang ? {} : { basePath: `/${lang}/` }), // If using `rewrites` option
-      documentRootPath: `/docs/${lang}`,
-      resolvePath: rootLocale === lang ? '/' : `/${lang}/`,
+      ...(isRoot ? {} : { basePath: `/${lang}/` }),
+      documentRootPath: `docs/${lang}`,
+      resolvePath: isRoot ? '/' : `/${lang}/`,
     };
   }),
 ];
