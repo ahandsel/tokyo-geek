@@ -38,12 +38,18 @@ importers:
       markdownlint-cli2:
         specifier: ^0.22.0
         version: 0.22.0
+      markdownlint-rule-search-replace:
+        specifier: ^1.2.0
+        version: 1.2.0
       openai:
         specifier: ^6.32.0
         version: 6.32.0(zod@4.3.5)
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
+      shfmt:
+        specifier: ^0.0.1
+        version: 0.0.1
       tree-extended:
         specifier: ^4.6.0
         version: 4.6.0
@@ -1489,14 +1495,14 @@ packages:
   '@vue/compiler-ssr@3.5.30':
     resolution: {integrity: sha512-NsYK6OMTnx109PSL2IAyf62JP6EUdk4Dmj6AkWcJGBvN0dQoMYtVekAmdqgTtWQgEJo+Okstbf/1p7qZr5H+bA==}
 
-  '@vue/devtools-api@8.1.1':
-    resolution: {integrity: sha512-bsDMJ07b3GN1puVwJb/fyFnj/U2imyswK5UQVLZwVl7O05jDrt6BHxeG5XffmOOdasOj/bOmIjxJvGPxU7pcqw==}
+  '@vue/devtools-api@8.1.0':
+    resolution: {integrity: sha512-O44X57jjkLKbLEc4OgL/6fEPOOanRJU8kYpCE8qfKlV96RQZcdzrcLI5mxMuVRUeXhHKIHGhCpHacyCk0HyO4w==}
 
-  '@vue/devtools-kit@8.1.1':
-    resolution: {integrity: sha512-gVBaBv++i+adg4JpH71k9ppl4soyR7Y2McEqO5YNgv0BI1kMZ7BDX5gnwkZ5COYgiCyhejZG+yGNrBAjj6Coqg==}
+  '@vue/devtools-kit@8.1.0':
+    resolution: {integrity: sha512-/NZlS4WtGIB54DA/z10gzk+n/V7zaqSzYZOVlg2CfdnpIKdB61bd7JDIMxf/zrtX41zod8E2/bbEBoW/d7x70Q==}
 
-  '@vue/devtools-shared@8.1.1':
-    resolution: {integrity: sha512-+h4ttmJYl/txpxHKaoZcaKpC+pvckgLzIDiSQlaQ7kKthKh8KuwoLW2D8hPJEnqKzXOvu15UHEoGyngAXCz0EQ==}
+  '@vue/devtools-shared@8.1.0':
+    resolution: {integrity: sha512-h8uCb4Qs8UT8VdTT5yjY6tOJ//qH7EpxToixR0xqejR55t5OdISIg7AJ7eBkhBs8iu1qG5gY3QQNN1DF1EelAA==}
 
   '@vue/reactivity@3.5.30':
     resolution: {integrity: sha512-179YNgKATuwj9gB+66snskRDOitDiuOZqkYia7mHKJaidOMo/WJxHKF8DuGc4V4XbYTJANlfEKb0yxTQotnx4Q==}
@@ -2787,6 +2793,18 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
+  markdownlint-micromark@0.1.2:
+    resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
+    engines: {node: '>=14.18.0'}
+
+  markdownlint-rule-helpers@0.21.0:
+    resolution: {integrity: sha512-27WM6H76t79EZjEl3jSabV0ZzXsC5QaSslI/5N1XuXV0mJRA6i3BPMGFrtZUbhlCNgtY6oC9h5JhtpDMv95tKg==}
+    engines: {node: '>=16'}
+
+  markdownlint-rule-search-replace@1.2.0:
+    resolution: {integrity: sha512-l2eeVjb0ijxO+dO1ZrODcht+qnJ0VuiAAdBx1J8oa2kAugXl3NhxAGjfNuTfEJae5OQbdSGT+NjMczyzBXvWMA==}
+    engines: {node: '>=16'}
+
   markdownlint@0.40.0:
     resolution: {integrity: sha512-UKybllYNheWac61Ia7T6fzuQNDZimFIpCg2w6hHjgV1Qu0w1TV0LlSgryUGzM0bkKQCBhy2FDhEELB73Kb0kAg==}
     engines: {node: '>=20'}
@@ -3037,12 +3055,12 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  picomatch@2.3.2:
-    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
+  picomatch@2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.4:
-    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+  picomatch@4.0.3:
+    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
   pify@4.0.1:
@@ -3272,6 +3290,9 @@ packages:
   shebang-regex@3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
+
+  shfmt@0.0.1:
+    resolution: {integrity: sha512-5kyaYoEooTEixM1MTWhWo2qIjFUMcVDScQGgjoEnoV6cCjvWZhg3W/nHd9oWrzfMpu4cPU8vi7Vnvcp3dBkpIg==}
 
   shiki@3.23.0:
     resolution: {integrity: sha512-55Dj73uq9ZXL5zyeRPzHQsK7Nbyt6Y10k5s7OjuFZGMhpp4r/rsLBH0o/0fstIzX1Lep9VxefWljK/SKCzygIA==}
@@ -4902,14 +4923,14 @@ snapshots:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
-      picomatch: 2.3.2
+      picomatch: 2.3.1
       rollup: 2.80.0
 
   '@rollup/pluginutils@5.3.0(rollup@2.80.0)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.4
+      picomatch: 4.0.3
     optionalDependencies:
       rollup: 2.80.0
 
@@ -5257,18 +5278,18 @@ snapshots:
       '@vue/compiler-dom': 3.5.30
       '@vue/shared': 3.5.30
 
-  '@vue/devtools-api@8.1.1':
+  '@vue/devtools-api@8.1.0':
     dependencies:
-      '@vue/devtools-kit': 8.1.1
+      '@vue/devtools-kit': 8.1.0
 
-  '@vue/devtools-kit@8.1.1':
+  '@vue/devtools-kit@8.1.0':
     dependencies:
-      '@vue/devtools-shared': 8.1.1
+      '@vue/devtools-shared': 8.1.0
       birpc: 2.9.0
       hookable: 5.5.3
       perfect-debounce: 2.1.0
 
-  '@vue/devtools-shared@8.1.1': {}
+  '@vue/devtools-shared@8.1.0': {}
 
   '@vue/reactivity@3.5.30':
     dependencies:
@@ -6033,9 +6054,9 @@ snapshots:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.5.0(picomatch@4.0.4):
+  fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
-      picomatch: 4.0.4
+      picomatch: 4.0.3
 
   filelist@1.0.6:
     dependencies:
@@ -6694,6 +6715,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  markdownlint-micromark@0.1.2: {}
+
+  markdownlint-rule-helpers@0.21.0:
+    dependencies:
+      markdownlint-micromark: 0.1.2
+
+  markdownlint-rule-search-replace@1.2.0:
+    dependencies:
+      markdownlint-rule-helpers: 0.21.0
+
   markdownlint@0.40.0:
     dependencies:
       micromark: 4.0.2
@@ -6928,7 +6959,7 @@ snapshots:
   micromatch@4.0.8:
     dependencies:
       braces: 3.0.3
-      picomatch: 2.3.2
+      picomatch: 2.3.1
 
   mime@1.6.0:
     optional: true
@@ -7073,9 +7104,9 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  picomatch@2.3.2: {}
+  picomatch@2.3.1: {}
 
-  picomatch@4.0.4: {}
+  picomatch@4.0.3: {}
 
   pify@4.0.1:
     optional: true
@@ -7401,6 +7432,8 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
+  shfmt@0.0.1: {}
+
   shiki@3.23.0:
     dependencies:
       '@shikijs/core': 3.23.0
@@ -7580,8 +7613,8 @@ snapshots:
 
   tinyglobby@0.2.15:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
 
   to-data-view@1.1.0: {}
 
@@ -7777,8 +7810,8 @@ snapshots:
   vite@7.3.1(jiti@2.6.1)(less@4.6.4)(lightningcss@1.32.0)(terser@5.46.1):
     dependencies:
       esbuild: 0.27.4
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
       postcss: 8.5.8
       rollup: 4.60.0
       tinyglobby: 0.2.15
@@ -7792,7 +7825,7 @@ snapshots:
   vite@8.0.2(esbuild@0.27.4)(jiti@2.6.1)(less@4.6.4)(terser@5.46.1):
     dependencies:
       lightningcss: 1.32.0
-      picomatch: 4.0.4
+      picomatch: 4.0.3
       postcss: 8.5.8
       rolldown: 1.0.0-rc.11
       tinyglobby: 0.2.15
@@ -7825,7 +7858,7 @@ snapshots:
       '@shikijs/types': 3.23.0
       '@types/markdown-it': 14.1.2
       '@vitejs/plugin-vue': 6.0.5(vite@7.3.1(jiti@2.6.1)(less@4.6.4)(lightningcss@1.32.0)(terser@5.46.1))(vue@3.5.30)
-      '@vue/devtools-api': 8.1.1
+      '@vue/devtools-api': 8.1.0
       '@vue/shared': 3.5.30
       '@vueuse/core': 14.2.1(vue@3.5.30)
       '@vueuse/integrations': 14.2.1(focus-trap@7.8.0)(vue@3.5.30)

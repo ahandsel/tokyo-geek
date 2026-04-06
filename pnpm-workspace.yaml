@@ -1,0 +1,5 @@
+# Configure pnpm settings for the workspace
+
+# Delay installing published versions to reduce security risk
+# Compromised packages are typically removed within a few hours.
+minimumReleaseAge: 20160 # Two-week buffer allows for security updates.
