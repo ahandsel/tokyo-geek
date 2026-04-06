@@ -30,9 +30,9 @@ description: A guide to booking tickets for the Ghibli Museum in Mitaka, Tokyo.
 ## 🎟 How to buy tickets for the Ghibli Museum
 
 1. Create a Japanese Lawson account (`ローソンWEB会員`): <https://l-tike.com/login/newcustomer/>
-1. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/)
-1. Find the month you want to go (e.g., `8/2(水)～8/31(木)入場分` for August)
-1. Click on `詳細はこちら`
+2. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/)
+3. Find the month you want to go (e.g., `8/2(水)～8/31(木)入場分` for August)
+4. Click on `詳細はこちら`
 
 Electronic ticket vs paper ticket
 

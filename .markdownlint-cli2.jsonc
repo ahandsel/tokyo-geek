@@ -23,7 +23,9 @@
       "lines_below": 1,
     },
     "MD024": false,
+    "MD025": { "front_matter_title": "{{$frontmatter.title}}" },
     "MD026": false,
+    "MD029": { "style": "ordered" },
     "MD032": false,
     "MD033": {
       "allowed_elements": ["br", "pre", "ul", "li", "ol"],

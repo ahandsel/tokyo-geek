@@ -22,11 +22,11 @@ Congratulations on deciding to visit Japan!
 Here are some YouTube channels, ordered by recommendation, that are run by locals or expats living in Japan and help you get a feeling for the country.
 
 1. [Paolo from Tokyo](https://youtube.com/@paolofromtokyo)
-1. [Abroad in Japan](https://youtube.com/@abroadinjapan)
-1. [Tokyo Lens](https://youtube.com/@TokyoLens)
-1. [Tokyo Creative](https://youtube.com/@TokyoCreativePlay)
-1. [Chris Abroad](https://youtube.com/@ChrisAbroad)
-1. [Tokyo Zebra](https://youtube.com/@TokyoZebra)
+2. [Abroad in Japan](https://youtube.com/@abroadinjapan)
+3. [Tokyo Lens](https://youtube.com/@TokyoLens)
+4. [Tokyo Creative](https://youtube.com/@TokyoCreativePlay)
+5. [Chris Abroad](https://youtube.com/@ChrisAbroad)
+6. [Tokyo Zebra](https://youtube.com/@TokyoZebra)
 
 
 ## Book ahead - even before your hotel 🎟️
