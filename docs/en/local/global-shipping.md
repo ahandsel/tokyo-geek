@@ -79,11 +79,12 @@ Pages went over by the demo videos:
 8. Confirmation
 9. Save & Print Label
 
-![global-shipping-demo.gif](/global-shipping/global-shipping-demo.gif)
-
+<video controls>
+  <source src="/global-shipping/global-shipping-demo.mp4" type="video/mp4">
+</video>
 
 ### jp-post-contact-upload csv file
 
 ```csv
-<!--@include: ./global-shipping/jp-post-contact-upload.csv-->
+<!--@include: ../../public/global-shipping/jp-post-contact-upload.csv-->
 ```

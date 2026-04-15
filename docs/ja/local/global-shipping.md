@@ -69,11 +69,15 @@ head:
 8. 確認
 9. ラベルの保存と印刷
 
-* デモ動画（MP4）：[global-shipping-demo.mp4](./global-shipping/global-shipping-demo.mp4)
+* デモ動画（MP4）：
+
+<video controls>
+  <source src="/global-shipping/global-shipping-demo.mp4" type="video/mp4">
+</video>
 
 
 ### jp-post-contact-upload csv file {#jp-post-contact-upload-csv-file}
 
 ```csv
-<!--@include: ./global-shipping/jp-post-contact-upload.csv-->
+<!--@include: ../../public/global-shipping/jp-post-contact-upload.csv-->
 ```

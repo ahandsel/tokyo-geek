@@ -43,9 +43,6 @@
 │ │ ├───📁 furusato/
 │ │ │ ├───📄 furusato-one-stop-exception.md
 │ │ │ └───📄 index.md
-│ │ ├───📁 global-shipping/
-│ │ │ ├───📄 global-shipping-demo.mp4
-│ │ │ └───📄 jp-post-contact-upload.csv
 │ │ ├───📁 kichijoji/
 │ │ │ ├───📄 index.md
 │ │ │ └───📄 kichijoji-food.md
@@ -138,9 +135,6 @@
 │ │ ├───📁 furusato/
 │ │ │ ├───📄 furusato-one-stop-exception.md
 │ │ │ └───📄 index.md
-│ │ ├───📁 global-shipping/
-│ │ │ ├───📄 global-shipping-demo.mp4
-│ │ │ └───📄 jp-post-contact-upload.csv
 │ │ ├───📁 kichijoji/
 │ │ │ ├───📄 index.md
 │ │ │ └───📄 kichijoji-food.md
@@ -217,8 +211,10 @@
 │ │ ├───📄 global-shipping-address1.png
 │ │ ├───📄 global-shipping-address2.png
 │ │ ├───📄 global-shipping-demo.gif
+│ │ ├───📄 global-shipping-demo.mp4
 │ │ ├───📄 global-shipping-home.png
-│ │ └───📄 higashi-yama-streets.png
+│ │ ├───📄 higashi-yama-streets.png
+│ │ └───📄 jp-post-contact-upload.csv
 │ ├───📁 share/
 │ │ ├───📁 nighttab/
 │ │ │ ├───📄 google-bookmarks.json

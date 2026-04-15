@@ -28,7 +28,7 @@
     "MD029": { "style": "ordered" },
     "MD032": false,
     "MD033": {
-      "allowed_elements": ["br", "pre", "ul", "li", "ol"],
+      "allowed_elements": ["br", "pre", "ul", "li", "ol", "video", "source"],
     },
     "MD036": false,
     "search-replace": {
