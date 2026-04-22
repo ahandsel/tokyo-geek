@@ -56,7 +56,8 @@ If there is a mismatch in contract holder name, unpaid amounts, a special contra
 ### Y!mobile online application
 
 **Apply through the official Y!mobile online store**
-Select `今の電話番号をそのまま使用` then `SoftBank/LINEMOからのりかえ` then `SIMのみ申し込む`. The basic flow is: plan and option selection, identity verification, information entry, confirmation of agreement, and application completion.
+1. Go to the [Y!mobile official online store][ymobile-simulation].
+1. Select `今の電話番号をそのまま使用` then `SoftBank/LINEMOからのりかえ` then `SIMのみ申し込む`. The basic flow is: plan and option selection, identity verification, information entry, confirmation of agreement, and application completion.
 
 **Choose SIM or eSIM**
 
@@ -118,7 +119,7 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 
 [softbank-mnp-fee]: https://www.softbank.jp/support/faq/view/11028
 [softbank-cancel-fee]: https://www.softbank.jp/support/faq/view/10617
-
+https://www.ymobile.jp/store/sp/sim/#
 
 ## Impact on existing services
 
@@ -156,7 +157,7 @@ Y!mobile officially states that `家族割引サービス` and `おうち割 光
 ### Confirmed benefits currently available
 
 * **SIM/eSIM contract benefit on Y!mobile official online store**: In the [official campaign list][ymobile-campaign], up to the equivalent of JPY 15,000 in PayPay points may be presented for SIM card or eSIM contracts.
-* **PayPay point benefit at the time of SIM/eSIM contract**: The [official SIM page][ymobile-sim] also indicates a PayPay point code present as an eSIM/SIM contract benefit.
+* **PayPay point benefit at the time of SIM/eSIM contract**: The [official SIM page][ymobile-simulation] also indicates a PayPay point code present as an eSIM/SIM contract benefit.
 * **`PayPayカード割`**: Under `シンプル3` from September 25, 2025 onward, JPY 330/month off for PayPay Card and JPY 550/month off for PayPay Card Gold. This is a standing discount, not a campaign.
 * **Benefits related to `おうち割 光セット（A）`**: Y!mobile has pages for campaigns related to joining `おうち割 光セット（A）`, and under certain conditions benefits are granted. Some pages include conditions that require in-store application, so the same conditions may not apply for online-only applications. Confirm eligibility for each application route.
 
@@ -170,7 +171,7 @@ Y!mobile officially states that `家族割引サービス` and `おうち割 光
 Layering these three is realistic in an online transfer.
 
 [ymobile-campaign]: https://www.ymobile.jp/cp/
-[ymobile-sim]: https://www.ymobile.jp/store/sp/sim/
+[ymobile-simulation]: https://www.ymobile.jp/sp/simulation/
 
 
 ## Recommendations and advice
@@ -239,7 +240,7 @@ These require individual confirmation on the application screen or in `My SoftBa
 * [Y!mobile - Flow from application to start of use (eSIM)][ymobile-flow-esim-ref]
   Page for confirming eSIM activation time, line switching reception hours, and the initial setup flow.
 
-* [Y!mobile - SIM card / eSIM][ymobile-sim-ref]
+* [Y!mobile - SIM card / eSIM][ymobile-simulation-ref]
   Official page with the differences between SIM and eSIM, the application entry point, and a link to the supported device page.
 
 * [SoftBank FAQ - Is there an MNP transfer-out fee?][softbank-mnp-fee-ref]
@@ -273,7 +274,7 @@ These require individual confirmation on the application screen or in `My SoftBa
 [ymobile-necessaries]: https://www.ymobile.jp/store/to_beginner/necessaries/
 [ymobile-flow-ref]: https://www.ymobile.jp/store/to_beginner/flow/
 [ymobile-flow-esim-ref]: https://www.ymobile.jp/store/to_beginner/flow_esim/
-[ymobile-sim-ref]: https://www.ymobile.jp/store/sp/sim/
+[ymobile-simulation-ref]: https://www.ymobile.jp/store/sp/sim/
 [softbank-mnp-fee-ref]: https://www.softbank.jp/support/faq/view/11028
 [softbank-cancel-fee-ref]: https://www.softbank.jp/support/faq/view/10617
 [softbank-cancel-notes-ref]: https://www.softbank.jp/mobile/support/cancellation/mnp/notification/
