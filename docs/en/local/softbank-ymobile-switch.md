@@ -18,7 +18,15 @@ head:
 
 The move from SoftBank to Y!mobile is handled not as a general "MNP to another carrier" (`他社MNP`), but as a "number transfer" (`番号移行`) within the SoftBank group. You do not need to obtain an MNP reservation number (`MNP予約番号`). Y!mobile's official guidance states that, for number transfers from SoftBank or LINEMO, issuance of an MNP reservation number is not required. After the application is completed with Y!mobile, SoftBank automatically cancels the old line.
 
-If proceeding online only, the overall flow is: advance confirmation, Y!mobile online application, receipt of SIM or eSIM and line switching, initial setup, and confirmation of discount application. eSIM can start as early as the same day, and a SIM card can ship as early as the same day.
+If proceeding online only, the overall flow is:
+
+1. advance confirmation
+2. Y!mobile online application
+3. receipt of SIM or eSIM and line switching
+4. initial setup
+5. confirmation of discount application and benefits.
+
+eSIM can start as early as the same day, and a SIM card can ship as early as the same day.
 
 
 ## Procedures (online only)
