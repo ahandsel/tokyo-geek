@@ -13,7 +13,12 @@ const vitePressOptions = {
   title: 'Tokyo Geek',
   titleTemplate: ':title - Tokyo Geek',
   description: "Let's go to Japan!",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/png', href: '/tokyo-geek/cat-icon-clear.png' },
+    ],
+  ],
 
   rewrites: { 'en/:rest*': ':rest*' },
 
