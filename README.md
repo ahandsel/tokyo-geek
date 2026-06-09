@@ -20,8 +20,8 @@ A revamp to my Japan_Guide blog using [VitePress static site generator](https://
 | [@vite-pwa/vitepress][]                               | PWA support for VitePress               |                               |
 | [markdownlint-cli2][]                                 | Markdown linting                        |                               |
 
-[.vitepress/config.mts]: ./docs/.vitepress/config.mts
-[.vitepress/theme/index.ts]: ./docs/.vitepress/theme/index.ts
+[.vitepress/config.mts]: ./contents/.vitepress/config.mts
+[.vitepress/theme/index.ts]: ./contents/.vitepress/theme/index.ts
 [@nolebase/vitepress-plugin-enhanced-readabilities]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-readabilities/
 [@nolebase/vitepress-plugin-meta]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-meta/
 [@vite-pwa/assets-generator]: https://vite-pwa-org.netlify.app/assets-generator/

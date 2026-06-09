@@ -1,0 +1,9 @@
+# Patterns for skills/file-folder-name-linter/ to skip.
+# One glob per line. Lines starting with # are comments.
+# Patterns match against repo-relative POSIX paths. Use `*` for one path
+# segment, `**` to span multiple segments, and a trailing `/` to scope a
+# pattern to a directory.
+
+# Vendored skills, dotfiles, and standard repo docs (README.md, AGENTS.md,
+# MEMORY.md, ONBOARDING.md, LICENSE, ...) are already ignored by default.
+# Add only project-specific exceptions below.

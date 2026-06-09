@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(ai-commit)",
+      "Skill(extract-copy-from-figma)",
+      "Skill(figma-code-connect)",
+      "Skill(figma-create-new-file)",
+      "Skill(figma-generate-design)",
+      "Skill(figma-generate-diagram)",
+      "Skill(figma-generate-library)",
+      "Skill(figma-use)",
+      "Skill(figma-use-figjam)",
+      "Skill(figma-use-slides)",
+      "Skill(folder-readme-maintainer)",
+      "Skill(general-en-polisher)",
+      "Skill(gh-cli)",
+      "Skill(git-pull-main)",
+      "Skill(link-polisher)",
+      "Skill(sync-skill-allowlist)"
+    ]
+  }
+}
