@@ -79,9 +79,11 @@ Pages went over by the demo videos:
 8. Confirmation
 9. Save & Print Label
 
+<!-- markdownlint-disable MD033 -->
 <video controls>
   <source src="/global-shipping/global-shipping-demo.mp4" type="video/mp4">
 </video>
+<!-- markdownlint-enable MD033 -->
 
 
 ### jp-post-contact-upload csv file

@@ -71,9 +71,11 @@ head:
 
 * デモ動画（MP4）：
 
+<!-- markdownlint-disable MD033 -->
 <video controls>
   <source src="/global-shipping/global-shipping-demo.mp4" type="video/mp4">
 </video>
+<!-- markdownlint-enable MD033 -->
 
 
 ### jp-post-contact-upload csv file {#jp-post-contact-upload-csv-file}

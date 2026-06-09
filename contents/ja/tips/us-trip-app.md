@@ -15,16 +15,16 @@ head:
 
 アメリカ旅行におすすめの iOS アプリをまとめました。日本向けのアプリについては、[日本向けアプリ](../guides/general/apps.md)をご覧ください。
 
-| カテゴリ | アプリ          | 説明             | メモ                                                   |
-| -------- | --------------- | ---------------- | ------------------------------------------------------ |
-| 交通     | [Uber][]        | ライドシェア     |                                                        |
-|          | [Lyft][]        | ライドシェア     |                                                        |
-|          | [Bird][]        | 電動キックボード |                                                        |
-| eSIM     | [Airalo][]      | eSIM             | [Airalo 招待コード：AB6826][]で初回 eSIM が USD $3.00 オフ  |
-|          | [Nomad][]       | eSIM             | Nomad 招待コード：`KEITLQPQFA`で初回 eSIM が USD $5.00 オフ |
-| 通貨     | [Revolut][]     | 外貨両替         |                                                        |
-|          | [Wise][]        | 外貨両替         |                                                        |
-| その他   | [Timeshifter][] | 時差ぼけ対策     |                                                        |
+| カテゴリ | アプリ | 説明 | メモ |
+| --- | --- | --- | --- |
+| 交通 | [Uber][] | ライドシェア | |
+| | [Lyft][] | ライドシェア | |
+| | [Bird][] | 電動キックボード | |
+| eSIM | [Airalo][] | eSIM | [Airalo 招待コード：AB6826][]で初回 eSIM が USD $3.00 オフ |
+| | [Nomad][] | eSIM | Nomad 招待コード：`KEITLQPQFA`で初回 eSIM が USD $5.00 オフ |
+| 通貨 | [Revolut][] | 外貨両替 | |
+| | [Wise][] | 外貨両替 | |
+| その他 | [Timeshifter][] | 時差ぼけ対策 | |
 
 [Airalo 招待コード：AB6826]: https://ref.airalo.com/DB2m
 [Airalo]: https://airalo.go.link/5ae47

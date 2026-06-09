@@ -51,7 +51,7 @@ We hope you find this guidebook useful and enjoy your stay on Ishigaki Island!
   * [Yellow Submarine](#yellow-submarine)
   * [石垣島セルフィッシュ](#石垣島セルフィッシュ)
   * [Jogging courses around Me-fi-You Ishigaki Island](#jogging-courses-around-me-fi-you-ishigaki-island)
-  * [西表島ガイド UMICO Iriomote Guide UMICO カヌー/カヤック＆トレッキング](#西表島ガイドumico-iriomote-guide-umicoカヌーカヤックトレッキング)
+  * [西表島ガイド UMICO Iriomote Guide UMICO カヌー/カヤック＆トレッキング](#西表島ガイド-umico-iriomote-guide-umico-カヌーカヤックトレッキング)
   * [Yaeyama Kanko Ferry](#yaeyama-kanko-ferry)
 * [Traveler advice](#traveler-advice)
 

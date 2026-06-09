@@ -36,9 +36,9 @@ This is a quick write-up of how I did it, in case it helps someone else.
   * [Online visa renewal](#online-visa-renewal)
 * [Troubleshooting](#troubleshooting)
   * [Windows VM issues](#windows-vm-issues)
-  * [Broken error message when running JPKI 利用者ソフト](#broken-error-message-when-running-jpki利用者ソフト)
-  * [EW000J0200 error from JPKI 利用者ソフト](#ew000j0200-error-from-jpki利用者ソフト)
-  * [EW104J1502 error from JPKI 利用者ソフト](#ew104j1502-error-from-jpki利用者ソフト)
+  * [Broken error message when running JPKI 利用者ソフト](#broken-error-message-when-running-jpki-利用者ソフト)
+  * [EW000J0200 error from JPKI 利用者ソフト](#ew000j0200-error-from-jpki-利用者ソフト)
+  * [EW104J1502 error from JPKI 利用者ソフト](#ew104j1502-error-from-jpki-利用者ソフト)
 * [References](#references)
 
 
