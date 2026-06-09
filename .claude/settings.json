@@ -2,7 +2,6 @@
   "permissions": {
     "allow": [
       "Skill(ai-commit)",
-      "Skill(extract-copy-from-figma)",
       "Skill(figma-code-connect)",
       "Skill(figma-create-new-file)",
       "Skill(figma-generate-design)",
