@@ -82,7 +82,7 @@ for (const folder of foldersToScan) {
   const folderPath = resolve(repoRoot, folder.path);
   if (!existsSync(folderPath)) {
     console.warn(
-      'Warning: %s not found at %s — skipping.',
+      'Warning: %s not found at %s - skipping.',
       folder.path,
       folderPath,
     );
