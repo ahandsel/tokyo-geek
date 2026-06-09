@@ -19,7 +19,7 @@ Vitepress-based documentation site for Tokyo Geek.
 * Use sentence case for headings and subheadings (capitalize only the first word and proper nouns).
 * Avoid using slang or idiomatic expressions.
 * Keep the wording simple and straightforward to ensure non-native English speakers easily understand the content.
-* Do not use `–`. Use `-` instead.
+* Do not use en-dash or em-dash. Instead use a hyphen (-) for all types of dashes.
 * Tone: Friendly and simple, avoiding overly wordy or formal language.
 * Voice: Prefer active voice; use passive voice only when necessary.
 * Readability: Use short sentences and paragraphs; utilize lists and tables for clarity.

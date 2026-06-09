@@ -13,6 +13,7 @@
   "editor.tabSize": 2,
   "files.associations": { "wrangler.json": "jsonc" },
   "git.autofetch": true,
+  "chat.promptFilesLocations": { "prompts": true },
   "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false,
   "editor.defaultFormatter": "prettier.prettier-vscode",
   "japanese-proofreading.textlint.全角文字と半角文字の間": false,

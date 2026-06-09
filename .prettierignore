@@ -1,2 +1,5 @@
 # pnpm
 pnpm-lock.yaml
+
+# Ignore generated documentation structure file
+contents/structure.md
