@@ -1,0 +1,95 @@
+From 34494454603ae43ace03771e5bd357056e3b1bd1 Mon Sep 17 00:00:00 2001
+From: Genji <30670749+ahandsel@users.noreply.github.com>
+Date: Fri, 20 Feb 2026 12:56:49 +0900
+Subject: [PATCH] import and use withBase to fix link
+
+---
+ docs/en/tech/nighttab.md | 12 +++++++++---
+ docs/ja/tech/nighttab.md | 12 +++++++++---
+ 2 files changed, 18 insertions(+), 6 deletions(-)
+
+diff --git a/docs/en/tech/nighttab.md b/docs/en/tech/nighttab.md
+index fefc687..be028df 100644
+--- a/docs/en/tech/nighttab.md
++++ b/docs/en/tech/nighttab.md
+@@ -79,7 +79,7 @@ Here is a nightTab setup to quickly access various Google products.
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>Click to expand <a href="/public/share/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
++  <summary>Click to expand <a :href="withBase('/public/share/nighttab/google-bookmarks.json')">google-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/google-bookmarks.json
+ 
+@@ -92,7 +92,7 @@ Here is a nightTab setup to quickly access travel-related bookmarks.
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>Click to expand <a href="/public/share/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
++  <summary>Click to expand <a :href="withBase('/public/share/nighttab/travel-bookmarks.json')">travel-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/travel-bookmarks.json
+ 
+@@ -105,7 +105,7 @@ Here is a nightTab setup to quickly access various streaming services.
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>Click to expand <a href="/public/share/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
++  <summary>Click to expand <a :href="withBase('/public/share/nighttab/streaming-bookmarks.json')">streaming-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/streaming-bookmarks.json
+ 
+@@ -137,3 +137,9 @@ Here is a nightTab setup to quickly access various streaming services.
+ [firefox-homepage]: https://github.com/zombieFox/nightTab/wiki/Setting-nightTab-as-your-Firefox-homepage
+ [protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
+ [no-image]: https://github.com/zombieFox/nightTab/wiki/Local-background-image
++
++<!-- markdownlint-disable MD033 -->
++<script setup>
++import { withBase } from 'vitepress'
++</script>
++<!-- markdownlint-enable MD033 -->
+diff --git a/docs/ja/tech/nighttab.md b/docs/ja/tech/nighttab.md
+index 0b994cc..41a0df1 100644
+--- a/docs/ja/tech/nighttab.md
++++ b/docs/ja/tech/nighttab.md
+@@ -79,7 +79,7 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>クリックして展開 <a href="/share/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
++  <summary>クリックして展開 <a :href="withBase('/public/share/nighttab/google-bookmarks.json')">google-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/google-bookmarks.json
+ 
+@@ -92,7 +92,7 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>クリックして展開 <a href="/share/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
++  <summary>クリックして展開 <a :href="withBase('/public/share/nighttab/travel-bookmarks.json')">travel-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/travel-bookmarks.json
+ 
+@@ -105,7 +105,7 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
+ 
+ <!-- markdownlint-disable MD033 -->
+ <details>
+-  <summary>クリックして展開 <a href="/share/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
++  <summary>クリックして展開 <a :href="withBase('/public/share/nighttab/streaming-bookmarks.json')">streaming-bookmarks.json</a></summary>
+ 
+ <<< @/public/share/nighttab/streaming-bookmarks.json
+ 
+@@ -137,3 +137,9 @@ ChatGPTにJSONファイルを編集してもらい、各ブックマークの色
+ [firefox-homepage]: https://github.com/zombieFox/nightTab/wiki/Setting-nightTab-as-your-Firefox-homepage
+ [protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
+ [no-image]: https://github.com/zombieFox/nightTab/wiki/Local-background-image
++
++<!-- markdownlint-disable MD033 -->
++<script setup>
++import { withBase } from 'vitepress'
++</script>
++<!-- markdownlint-enable MD033 -->
+-- 
+2.50.1 (Apple Git-155)
+

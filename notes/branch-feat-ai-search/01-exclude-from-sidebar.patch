@@ -1,0 +1,1905 @@
+From 5cfb1091d6ba4157fce9d4906cba50e2ee31855b Mon Sep 17 00:00:00 2001
+From: Genji <30670749+ahandsel@users.noreply.github.com>
+Date: Fri, 20 Feb 2026 12:35:16 +0900
+Subject: [PATCH] Add excludeFromSidebar  to frontmatter
+
+---
+ docs/en/guides/bullet-train-shinkansen/index.md               | 1 +
+ .../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md      | 1 +
+ .../guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md | 1 +
+ .../guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md  | 1 +
+ docs/en/guides/general/apps.md                                | 1 +
+ docs/en/guides/general/index.md                               | 1 +
+ docs/en/guides/general/mobile-data.md                         | 1 +
+ docs/en/guides/general/reserve-ahead.md                       | 1 +
+ docs/en/guides/general/zipair.md                              | 1 +
+ docs/en/guides/ishigaki-guidebook.md                          | 1 +
+ docs/en/guides/kansai/index.md                                | 1 +
+ docs/en/guides/kansai/kyoto-trip.md                           | 1 +
+ docs/en/guides/kansai/nagoya-ghibli-park-trip.md              | 1 +
+ docs/en/guides/kansai/nagoya-trip.md                          | 1 +
+ docs/en/guides/kansai/osaka-trip.md                           | 1 +
+ docs/en/guides/kansai/wakayama-trip.md                        | 1 +
+ docs/en/guides/kyushu-trip.md                                 | 1 +
+ docs/en/guides/tokyo-weekend-trips/chichibu-trip.md           | 1 +
+ docs/en/guides/tokyo-weekend-trips/hakone-trip.md             | 1 +
+ docs/en/guides/tokyo-weekend-trips/index.md                   | 1 +
+ docs/en/guides/tokyo-weekend-trips/izu-hakone-trip.md         | 1 +
+ docs/en/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md  | 1 +
+ docs/en/guides/tokyo/index.md                                 | 1 +
+ docs/en/guides/tokyo/tokyo-biking.md                          | 1 +
+ docs/en/guides/tokyo/tokyo-ghibli-museum.md                   | 1 +
+ docs/en/guides/tokyo/tokyo-neighborhoods.md                   | 1 +
+ docs/en/guides/tokyo/tokyo-trip.md                            | 1 +
+ docs/en/guides/yakushima.md                                   | 1 +
+ docs/en/local/furusato/furusato-one-stop-exception.md         | 1 +
+ docs/en/local/furusato/index.md                               | 1 +
+ docs/en/local/global-shipping.md                              | 1 +
+ docs/en/local/housekeeping.md                                 | 1 +
+ docs/en/local/index.md                                        | 1 +
+ docs/en/local/kichijoji-places.md                             | 1 +
+ docs/en/local/kichijoji/index.md                              | 1 +
+ docs/en/local/kichijoji/kichijoji-food.md                     | 1 +
+ docs/en/local/moving/great-things-to-buy.md                   | 1 +
+ docs/en/local/moving/index.md                                 | 1 +
+ docs/en/local/moving/internet-and-cell-service.md             | 1 +
+ docs/en/local/moving/second-hand-shopping.md                  | 1 +
+ docs/en/local/passport-renewal.md                             | 1 +
+ docs/en/local/roppongi/index.md                               | 1 +
+ docs/en/local/roppongi/roppongi-places-en.md                  | 1 +
+ docs/en/local/tokyo-food.md                                   | 1 +
+ docs/en/local/tokyo-hiking.md                                 | 1 +
+ docs/en/local/useful-websites-locals.md                       | 1 +
+ docs/en/local/visa-renewal/index.md                           | 1 +
+ docs/en/local/visa-renewal/jpki-install-guide-v3-5.md         | 1 +
+ docs/en/local/visa-renewal/visa-renweal-status-check.md       | 1 +
+ docs/en/tech/ai-prompts-ja.md                                 | 1 +
+ docs/en/tech/chrome-privacy.md                                | 1 +
+ docs/en/tech/figma-plugins.md                                 | 1 +
+ docs/en/tech/google-doc-auto-appending.md                     | 1 +
+ docs/en/tech/homebrew-migrate.md                              | 1 +
+ docs/en/tech/index.md                                         | 1 +
+ docs/en/tech/mac-apps.md                                      | 1 +
+ docs/en/tech/mac-audio-share.md                               | 1 +
+ docs/en/tech/nighttab.md                                      | 1 +
+ docs/en/tech/writing-roles.md                                 | 4 ++++
+ docs/en/tips/australia-travel.md                              | 1 +
+ docs/en/tips/china-travel.md                                  | 1 +
+ docs/en/tips/config.md                                        | 1 +
+ docs/en/tips/europe/index.md                                  | 1 +
+ docs/en/tips/europe/paris-amsterdam-brussels.md               | 1 +
+ docs/en/tips/holding-yen.md                                   | 1 +
+ docs/en/tips/index.md                                         | 1 +
+ docs/en/tips/japanese-shows.md                                | 1 +
+ docs/en/tips/multi-currency-accounts.md                       | 1 +
+ docs/en/tips/us-trip-app.md                                   | 1 +
+ docs/index.md                                                 | 1 +
+ docs/ja/guides/bullet-train-shinkansen/index.md               | 1 +
+ .../bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md      | 1 +
+ .../guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md | 1 +
+ .../guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md  | 1 +
+ docs/ja/guides/general/apps.md                                | 1 +
+ docs/ja/guides/general/index.md                               | 1 +
+ docs/ja/guides/general/mobile-data.md                         | 1 +
+ docs/ja/guides/general/reserve-ahead.md                       | 1 +
+ docs/ja/guides/general/zipair.md                              | 1 +
+ docs/ja/guides/ishigaki-guidebook.md                          | 1 +
+ docs/ja/guides/kansai/index.md                                | 1 +
+ docs/ja/guides/kansai/kyoto-trip.md                           | 1 +
+ docs/ja/guides/kansai/nagoya-ghibli-park-trip.md              | 1 +
+ docs/ja/guides/kansai/nagoya-trip.md                          | 1 +
+ docs/ja/guides/kansai/osaka-trip.md                           | 1 +
+ docs/ja/guides/kansai/wakayama-trip.md                        | 1 +
+ docs/ja/guides/kyushu-trip.md                                 | 1 +
+ docs/ja/guides/tokyo-weekend-trips/chichibu-trip.md           | 1 +
+ docs/ja/guides/tokyo-weekend-trips/hakone-trip.md             | 1 +
+ docs/ja/guides/tokyo-weekend-trips/index.md                   | 1 +
+ docs/ja/guides/tokyo-weekend-trips/izu-hakone-trip.md         | 1 +
+ docs/ja/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md  | 1 +
+ docs/ja/guides/tokyo/index.md                                 | 1 +
+ docs/ja/guides/tokyo/tokyo-biking.md                          | 1 +
+ docs/ja/guides/tokyo/tokyo-ghibli-museum.md                   | 1 +
+ docs/ja/guides/tokyo/tokyo-neighborhoods.md                   | 1 +
+ docs/ja/guides/tokyo/tokyo-trip.md                            | 1 +
+ docs/ja/guides/yakushima.md                                   | 1 +
+ docs/ja/index.md                                              | 1 +
+ docs/ja/local/furusato/furusato-one-stop-exception.md         | 1 +
+ docs/ja/local/furusato/index.md                               | 1 +
+ docs/ja/local/global-shipping.md                              | 1 +
+ docs/ja/local/housekeeping.md                                 | 1 +
+ docs/ja/local/index.md                                        | 1 +
+ docs/ja/local/kichijoji-places.md                             | 1 +
+ docs/ja/local/kichijoji/index.md                              | 1 +
+ docs/ja/local/kichijoji/kichijoji-food.md                     | 1 +
+ docs/ja/local/moving/great-things-to-buy.md                   | 1 +
+ docs/ja/local/moving/index.md                                 | 1 +
+ docs/ja/local/moving/internet-and-cell-service.md             | 1 +
+ docs/ja/local/moving/second-hand-shopping.md                  | 1 +
+ docs/ja/local/passport-renewal.md                             | 1 +
+ docs/ja/local/roppongi/index.md                               | 1 +
+ docs/ja/local/roppongi/roppongi-places-en.md                  | 1 +
+ docs/ja/local/roppongi/roppongi-places-jp.md                  | 1 +
+ docs/ja/local/tokyo-food.md                                   | 1 +
+ docs/ja/local/tokyo-hiking.md                                 | 1 +
+ docs/ja/local/useful-websites-locals.md                       | 1 +
+ docs/ja/local/visa-renewal/index.md                           | 1 +
+ docs/ja/local/visa-renewal/jpki-install-guide-v3-5.md         | 1 +
+ docs/ja/local/visa-renewal/visa-renweal-status-check.md       | 1 +
+ docs/ja/tech/ai-prompts-ja.md                                 | 1 +
+ docs/ja/tech/chrome-privacy.md                                | 1 +
+ docs/ja/tech/figma-plugins.md                                 | 1 +
+ docs/ja/tech/google-doc-auto-appending.md                     | 1 +
+ docs/ja/tech/homebrew-migrate.md                              | 1 +
+ docs/ja/tech/index.md                                         | 1 +
+ docs/ja/tech/mac-apps.md                                      | 1 +
+ docs/ja/tech/mac-audio-share.md                               | 1 +
+ docs/ja/tech/nighttab.md                                      | 1 +
+ docs/ja/tech/writing-roles.md                                 | 4 ++++
+ docs/ja/tips/australia-travel.md                              | 1 +
+ docs/ja/tips/china-travel.md                                  | 1 +
+ docs/ja/tips/config.md                                        | 1 +
+ docs/ja/tips/europe/europe-travel-ja.md                       | 1 +
+ docs/ja/tips/europe/index.md                                  | 1 +
+ docs/ja/tips/europe/paris-amsterdam-brussels.md               | 1 +
+ docs/ja/tips/holding-yen.md                                   | 1 +
+ docs/ja/tips/index.md                                         | 1 +
+ docs/ja/tips/japanese-shows.md                                | 1 +
+ docs/ja/tips/multi-currency-accounts-ja.md                    | 1 +
+ docs/ja/tips/multi-currency-accounts.md                       | 1 +
+ docs/ja/tips/us-trip-app.md                                   | 1 +
+ docs/snippets/README.md                                       | 4 ++++
+ docs/snippets/doc-status-ai.md                                | 4 ++++
+ docs/snippets/doc-status-wip.md                               | 4 ++++
+ 146 files changed, 161 insertions(+)
+
+diff --git a/docs/en/guides/bullet-train-shinkansen/index.md b/docs/en/guides/bullet-train-shinkansen/index.md
+index 0cf9001..412cf25 100644
+--- a/docs/en/guides/bullet-train-shinkansen/index.md
++++ b/docs/en/guides/bullet-train-shinkansen/index.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 'Shinkansen (bullet train) guide 🚅'
+ description: "Guide on Japan's Shinkansen (bullet train) system, how to buy tickets, and tips for a smooth travel experience."
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
+index af7d829..2695ea8 100644
+--- a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
++++ b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, kanazawa, shinkansen, tickets, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
+index a981790..2fbed0d 100644
+--- a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
++++ b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, nagoya, shinkansen, tickets, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
+index ba4d42c..6af27e4 100644
+--- a/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
++++ b/docs/en/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: platto kodama, shinkansen, tokyo, osaka, tickets
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/general/apps.md b/docs/en/guides/general/apps.md
+index cd8030c..d96394e 100644
+--- a/docs/en/guides/general/apps.md
++++ b/docs/en/guides/general/apps.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, ios apps, travel, payments, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/general/index.md b/docs/en/guides/general/index.md
+index 40260e1..a88a114 100644
+--- a/docs/en/guides/general/index.md
++++ b/docs/en/guides/general/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: japan, travel planning, itinerary, booking, transportation
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/general/mobile-data.md b/docs/en/guides/general/mobile-data.md
+index e32510f..eea145e 100644
+--- a/docs/en/guides/general/mobile-data.md
++++ b/docs/en/guides/general/mobile-data.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, mobile, data, esim, router, carrier, wifi, wi-fi, sim, roaming, cell
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/general/reserve-ahead.md b/docs/en/guides/general/reserve-ahead.md
+index 721ccaa..9968bb0 100644
+--- a/docs/en/guides/general/reserve-ahead.md
++++ b/docs/en/guides/general/reserve-ahead.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, booking, reservations, attractions, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/general/zipair.md b/docs/en/guides/general/zipair.md
+index 9193e47..dd0010b 100644
+--- a/docs/en/guides/general/zipair.md
++++ b/docs/en/guides/general/zipair.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: zipair, airline, tips, flights, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/ishigaki-guidebook.md b/docs/en/guides/ishigaki-guidebook.md
+index 36cbe46..1c37578 100644
+--- a/docs/en/guides/ishigaki-guidebook.md
++++ b/docs/en/guides/ishigaki-guidebook.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 'Ishigaki guidebook'
+ description: This guidebook is created by the hosts of Me-Fi-You Ishigaki Island
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kansai/index.md b/docs/en/guides/kansai/index.md
+index 696820b..d7bf73f 100644
+--- a/docs/en/guides/kansai/index.md
++++ b/docs/en/guides/kansai/index.md
+@@ -1,6 +1,7 @@
+ ---
+ title: Kansai region guides
+ description: Guides on Kyoto, Nagoya, Osaka, Wakayama and other places in the Kansai region.
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kansai/kyoto-trip.md b/docs/en/guides/kansai/kyoto-trip.md
+index fcd7b82..d36375c 100644
+--- a/docs/en/guides/kansai/kyoto-trip.md
++++ b/docs/en/guides/kansai/kyoto-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kyoto, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kansai/nagoya-ghibli-park-trip.md b/docs/en/guides/kansai/nagoya-ghibli-park-trip.md
+index 7322b30..29aaf2c 100644
+--- a/docs/en/guides/kansai/nagoya-ghibli-park-trip.md
++++ b/docs/en/guides/kansai/nagoya-ghibli-park-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: ghibli park, nagoya, travel, tips, lockers
++excludeFromSidebar: false
+ ---
+ 
+ > [!IMPORTANT]  
+diff --git a/docs/en/guides/kansai/nagoya-trip.md b/docs/en/guides/kansai/nagoya-trip.md
+index e6c556a..3fcdc30 100644
+--- a/docs/en/guides/kansai/nagoya-trip.md
++++ b/docs/en/guides/kansai/nagoya-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: nagoya, trip, itinerary, transport, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kansai/osaka-trip.md b/docs/en/guides/kansai/osaka-trip.md
+index ba190dd..6ac94d4 100644
+--- a/docs/en/guides/kansai/osaka-trip.md
++++ b/docs/en/guides/kansai/osaka-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: osaka, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kansai/wakayama-trip.md b/docs/en/guides/kansai/wakayama-trip.md
+index 5901556..5f2aa69 100644
+--- a/docs/en/guides/kansai/wakayama-trip.md
++++ b/docs/en/guides/kansai/wakayama-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: wakayama, itinerary, japan, travel, kumano kodo
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/kyushu-trip.md b/docs/en/guides/kyushu-trip.md
+index 70f5909..8f4c6df 100644
+--- a/docs/en/guides/kyushu-trip.md
++++ b/docs/en/guides/kyushu-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kyushu, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo-weekend-trips/chichibu-trip.md b/docs/en/guides/tokyo-weekend-trips/chichibu-trip.md
+index f995597..e0ffb77 100644
+--- a/docs/en/guides/tokyo-weekend-trips/chichibu-trip.md
++++ b/docs/en/guides/tokyo-weekend-trips/chichibu-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: chichibu, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo-weekend-trips/hakone-trip.md b/docs/en/guides/tokyo-weekend-trips/hakone-trip.md
+index b607d1b..131245d 100644
+--- a/docs/en/guides/tokyo-weekend-trips/hakone-trip.md
++++ b/docs/en/guides/tokyo-weekend-trips/hakone-trip.md
+@@ -1,6 +1,7 @@
+ ---
+ title: Hakone weekend trip
+ description: Enjoy a long weekend in Hakone with hiking, art museums, hot springs, and views of Mount Fuji.
++excludeFromSidebar: false
+ ---
+ 
+ # Weekend in Hakone
+diff --git a/docs/en/guides/tokyo-weekend-trips/index.md b/docs/en/guides/tokyo-weekend-trips/index.md
+index 183b75a..23c9649 100644
+--- a/docs/en/guides/tokyo-weekend-trips/index.md
++++ b/docs/en/guides/tokyo-weekend-trips/index.md
+@@ -2,6 +2,7 @@
+ title: 'Weekend Trips from Tokyo'
+ description: Great weekend trip ideas from Tokyo to nearby destinations.
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo-weekend-trips/izu-hakone-trip.md b/docs/en/guides/tokyo-weekend-trips/izu-hakone-trip.md
+index ecaba8f..302ecef 100644
+--- a/docs/en/guides/tokyo-weekend-trips/izu-hakone-trip.md
++++ b/docs/en/guides/tokyo-weekend-trips/izu-hakone-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: izu, hakone, itinerary, weekend trip, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md b/docs/en/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
+index c928406..4967138 100644
+--- a/docs/en/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
++++ b/docs/en/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kamakura, enoshima, travel, itinerary, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo/index.md b/docs/en/guides/tokyo/index.md
+index 4804025..091afaa 100644
+--- a/docs/en/guides/tokyo/index.md
++++ b/docs/en/guides/tokyo/index.md
+@@ -2,6 +2,7 @@
+ title: Tokyo guides
+ description: A collection of guides related to Tokyo.
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo/tokyo-biking.md b/docs/en/guides/tokyo/tokyo-biking.md
+index 5401afc..1b2bf4d 100644
+--- a/docs/en/guides/tokyo/tokyo-biking.md
++++ b/docs/en/guides/tokyo/tokyo-biking.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, biking, docomo cycle, bike share, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo/tokyo-ghibli-museum.md b/docs/en/guides/tokyo/tokyo-ghibli-museum.md
+index c2ad780..439e1c8 100644
+--- a/docs/en/guides/tokyo/tokyo-ghibli-museum.md
++++ b/docs/en/guides/tokyo/tokyo-ghibli-museum.md
+@@ -1,6 +1,7 @@
+ ---
+ title: Studio Ghibli Museum - Tokyo
+ description: A guide to booking tickets for the Ghibli Museum in Mitaka, Tokyo.
++excludeFromSidebar: false
+ ---
+ 
+ > [!IMPORTANT]  
+diff --git a/docs/en/guides/tokyo/tokyo-neighborhoods.md b/docs/en/guides/tokyo/tokyo-neighborhoods.md
+index 161c3c9..e112569 100644
+--- a/docs/en/guides/tokyo/tokyo-neighborhoods.md
++++ b/docs/en/guides/tokyo/tokyo-neighborhoods.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, neighborhoods, travel, guide, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/tokyo/tokyo-trip.md b/docs/en/guides/tokyo/tokyo-trip.md
+index d8c91d4..2a7ed1f 100644
+--- a/docs/en/guides/tokyo/tokyo-trip.md
++++ b/docs/en/guides/tokyo/tokyo-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, trip, itinerary, attractions, hotels
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/guides/yakushima.md b/docs/en/guides/yakushima.md
+index e0d7cc1..4952e5d 100644
+--- a/docs/en/guides/yakushima.md
++++ b/docs/en/guides/yakushima.md
+@@ -11,6 +11,7 @@ tags:
+   - japan
+   - hiking
+   - nature
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/furusato/furusato-one-stop-exception.md b/docs/en/local/furusato/furusato-one-stop-exception.md
+index 075c0bb..5fcc0fa 100644
+--- a/docs/en/local/furusato/furusato-one-stop-exception.md
++++ b/docs/en/local/furusato/furusato-one-stop-exception.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: hometown tax, one-stop, exception, japan, guide
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/furusato/index.md b/docs/en/local/furusato/index.md
+index f692734..f91e43a 100644
+--- a/docs/en/local/furusato/index.md
++++ b/docs/en/local/furusato/index.md
+@@ -2,6 +2,7 @@
+ title: Furusato Nozei - Hometown Tax System
+ description: Notes and terminology related to the Furusato nozei system in Japan
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # Furusato Nozei - Hometown Tax System
+diff --git a/docs/en/local/global-shipping.md b/docs/en/local/global-shipping.md
+index 70caf1b..3240f4b 100644
+--- a/docs/en/local/global-shipping.md
++++ b/docs/en/local/global-shipping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan post, international shipping, ead, my page, postal
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/housekeeping.md b/docs/en/local/housekeeping.md
+index 732cc18..2acb111 100644
+--- a/docs/en/local/housekeeping.md
++++ b/docs/en/local/housekeeping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, housekeeping, washing machines, dryers, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/index.md b/docs/en/local/index.md
+index 7091389..1b16b9e 100644
+--- a/docs/en/local/index.md
++++ b/docs/en/local/index.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, expats, living, furusato, shipping
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/kichijoji-places.md b/docs/en/local/kichijoji-places.md
+index 2921c80..33ca0b1 100644
+--- a/docs/en/local/kichijoji-places.md
++++ b/docs/en/local/kichijoji-places.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, gyms, tokyo, fitness, local
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/kichijoji/index.md b/docs/en/local/kichijoji/index.md
+index aa9a827..58794ff 100644
+--- a/docs/en/local/kichijoji/index.md
++++ b/docs/en/local/kichijoji/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, neighborhood, local
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/kichijoji/kichijoji-food.md b/docs/en/local/kichijoji/kichijoji-food.md
+index 5020023..a5f075d 100644
+--- a/docs/en/local/kichijoji/kichijoji-food.md
++++ b/docs/en/local/kichijoji/kichijoji-food.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, food, restaurants, lunch, dinner
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/moving/great-things-to-buy.md b/docs/en/local/moving/great-things-to-buy.md
+index 6c030c6..c371d1b 100644
+--- a/docs/en/local/moving/great-things-to-buy.md
++++ b/docs/en/local/moving/great-things-to-buy.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, shopping, home, appliances, laundry
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/moving/index.md b/docs/en/local/moving/index.md
+index 90022f4..f779360 100644
+--- a/docs/en/local/moving/index.md
++++ b/docs/en/local/moving/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, home centers, hardware stores, locals, moving, expats, relocation, living, guides, expat tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/moving/internet-and-cell-service.md b/docs/en/local/moving/internet-and-cell-service.md
+index 261f2b6..e271aa2 100644
+--- a/docs/en/local/moving/internet-and-cell-service.md
++++ b/docs/en/local/moving/internet-and-cell-service.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, internet, cell service, mobile plans, payment methods
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/moving/second-hand-shopping.md b/docs/en/local/moving/second-hand-shopping.md
+index daaee52..6c541a0 100644
+--- a/docs/en/local/moving/second-hand-shopping.md
++++ b/docs/en/local/moving/second-hand-shopping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, facebook, used items, sayonara sales, second hand
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/passport-renewal.md b/docs/en/local/passport-renewal.md
+index 265f35c..748f092 100644
+--- a/docs/en/local/passport-renewal.md
++++ b/docs/en/local/passport-renewal.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: passport, renewal, my number card, japan, online application
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/roppongi/index.md b/docs/en/local/roppongi/index.md
+index b28cc3d..380540d 100644
+--- a/docs/en/local/roppongi/index.md
++++ b/docs/en/local/roppongi/index.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: roppongi, neighborhood, local
++excludeFromSidebar: false
+ ---
+ 
+ # Roppongi Neighborhood
+diff --git a/docs/en/local/roppongi/roppongi-places-en.md b/docs/en/local/roppongi/roppongi-places-en.md
+index 988acc9..b72463b 100644
+--- a/docs/en/local/roppongi/roppongi-places-en.md
++++ b/docs/en/local/roppongi/roppongi-places-en.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: roppongi, azabu, food, cafes, tokyo
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/tokyo-food.md b/docs/en/local/tokyo-food.md
+index f5928fd..4833122 100644
+--- a/docs/en/local/tokyo-food.md
++++ b/docs/en/local/tokyo-food.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, food, restaurants, cafes, recommendations
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/tokyo-hiking.md b/docs/en/local/tokyo-hiking.md
+index 8ff965d..0b8aa99 100644
+--- a/docs/en/local/tokyo-hiking.md
++++ b/docs/en/local/tokyo-hiking.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, hiking, trails, outdoors, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/useful-websites-locals.md b/docs/en/local/useful-websites-locals.md
+index d9e378c..1296b70 100644
+--- a/docs/en/local/useful-websites-locals.md
++++ b/docs/en/local/useful-websites-locals.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, websites, locals, travel, living, local, website
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/visa-renewal/index.md b/docs/en/local/visa-renewal/index.md
+index 72d5e0f..28b2cb7 100644
+--- a/docs/en/local/visa-renewal/index.md
++++ b/docs/en/local/visa-renewal/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: visa-renewal, mac, windows-vm, my-number-card, jpki
++excludeFromSidebar: false
+ ---
+ 
+ # How to renew Japanese visa online with a Mac
+diff --git a/docs/en/local/visa-renewal/jpki-install-guide-v3-5.md b/docs/en/local/visa-renewal/jpki-install-guide-v3-5.md
+index c313268..1de9dd8 100644
+--- a/docs/en/local/visa-renewal/jpki-install-guide-v3-5.md
++++ b/docs/en/local/visa-renewal/jpki-install-guide-v3-5.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 'JPKI User Software Ver.3.5 Installation Guide'
+ description: English machine translation of the JPKI User Software Ver.3.5 installation guide.
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/local/visa-renewal/visa-renweal-status-check.md b/docs/en/local/visa-renewal/visa-renweal-status-check.md
+index 090df93..556669a 100644
+--- a/docs/en/local/visa-renewal/visa-renweal-status-check.md
++++ b/docs/en/local/visa-renewal/visa-renweal-status-check.md
+@@ -1,6 +1,7 @@
+ ---
+ title: How to Check Visa Renewal Status
+ description: Quick guide on how to check the status of your Japanese visa renewal application when you applied online.
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/ai-prompts-ja.md b/docs/en/tech/ai-prompts-ja.md
+index 4cddc17..d4b016a 100644
+--- a/docs/en/tech/ai-prompts-ja.md
++++ b/docs/en/tech/ai-prompts-ja.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: ai, prompt, japanese, writing, translation
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/chrome-privacy.md b/docs/en/tech/chrome-privacy.md
+index 3c11153..ae8e320 100644
+--- a/docs/en/tech/chrome-privacy.md
++++ b/docs/en/tech/chrome-privacy.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: chrome, privacy, ads, settings, shortcut
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/figma-plugins.md b/docs/en/tech/figma-plugins.md
+index 4741d5d..cb6ed89 100644
+--- a/docs/en/tech/figma-plugins.md
++++ b/docs/en/tech/figma-plugins.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: figma, plugins, ux writing, design, tips, ux-writing
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/google-doc-auto-appending.md b/docs/en/tech/google-doc-auto-appending.md
+index 2c38be7..9051571 100644
+--- a/docs/en/tech/google-doc-auto-appending.md
++++ b/docs/en/tech/google-doc-auto-appending.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: google docs, apps script, automation, template, weekly report
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/homebrew-migrate.md b/docs/en/tech/homebrew-migrate.md
+index 8637196..ef9db46 100644
+--- a/docs/en/tech/homebrew-migrate.md
++++ b/docs/en/tech/homebrew-migrate.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: homebrew, macos, apps, brewfile, migrate, export, import, backup
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/index.md b/docs/en/tech/index.md
+index 1105030..ed67b00 100644
+--- a/docs/en/tech/index.md
++++ b/docs/en/tech/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: tech, technology, programming, development, tools, mac, apps
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/mac-apps.md b/docs/en/tech/mac-apps.md
+index 9bd937e..18be39e 100644
+--- a/docs/en/tech/mac-apps.md
++++ b/docs/en/tech/mac-apps.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: mac, apps, productivity, utilities, brew
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/mac-audio-share.md b/docs/en/tech/mac-audio-share.md
+index d1b1558..6739005 100644
+--- a/docs/en/tech/mac-audio-share.md
++++ b/docs/en/tech/mac-audio-share.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: mac, airpods, audio, multi-output, macos, bluetooth
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/nighttab.md b/docs/en/tech/nighttab.md
+index 9113e8d..fefc687 100644
+--- a/docs/en/tech/nighttab.md
++++ b/docs/en/tech/nighttab.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: nighttab, browser, extension, bookmarks, customization
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tech/writing-roles.md b/docs/en/tech/writing-roles.md
+index 0eb350f..3a26eeb 100644
+--- a/docs/en/tech/writing-roles.md
++++ b/docs/en/tech/writing-roles.md
+@@ -1,3 +1,7 @@
++---
++excludeFromSidebar: false
++---
++
+ # Writing roles
+ 
+ Comparing different writing-heavy roles in tech companies: UX writing, technical writing, and developer relations.
+diff --git a/docs/en/tips/australia-travel.md b/docs/en/tips/australia-travel.md
+index c0ad1c7..e843edf 100644
+--- a/docs/en/tips/australia-travel.md
++++ b/docs/en/tips/australia-travel.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: australia travel, australia tips, travel guide, australia itinerary
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/china-travel.md b/docs/en/tips/china-travel.md
+index 575d3be..ce73810 100644
+--- a/docs/en/tips/china-travel.md
++++ b/docs/en/tips/china-travel.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: travel, china, tips, beijing, layover, air china, esim, wechat pay, alipay
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/config.md b/docs/en/tips/config.md
+index c684af4..80e456d 100644
+--- a/docs/en/tips/config.md
++++ b/docs/en/tips/config.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: figma, config, conference, tips, networking
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/europe/index.md b/docs/en/tips/europe/index.md
+index e05dd9b..905351e 100644
+--- a/docs/en/tips/europe/index.md
++++ b/docs/en/tips/europe/index.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: travel, europe, packing, eurostar, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/europe/paris-amsterdam-brussels.md b/docs/en/tips/europe/paris-amsterdam-brussels.md
+index a52f26b..a5ea219 100644
+--- a/docs/en/tips/europe/paris-amsterdam-brussels.md
++++ b/docs/en/tips/europe/paris-amsterdam-brussels.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: paris, amsterdam, brussels, travel, itinerary, europe
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/holding-yen.md b/docs/en/tips/holding-yen.md
+index 55c207b..54dd8f3 100644
+--- a/docs/en/tips/holding-yen.md
++++ b/docs/en/tips/holding-yen.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: finance, japan, tips
++excludeFromSidebar: false
+ ---
+ 
+ # How to hold yen when moving out of Japan
+diff --git a/docs/en/tips/index.md b/docs/en/tips/index.md
+index 08de516..2097695 100644
+--- a/docs/en/tips/index.md
++++ b/docs/en/tips/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: tips, japan, travel, apps, advice
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/japanese-shows.md b/docs/en/tips/japanese-shows.md
+index ed59d3d..4c32704 100644
+--- a/docs/en/tips/japanese-shows.md
++++ b/docs/en/tips/japanese-shows.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, shows, movies, recommendations, list
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/multi-currency-accounts.md b/docs/en/tips/multi-currency-accounts.md
+index 57b8d09..fd80778 100644
+--- a/docs/en/tips/multi-currency-accounts.md
++++ b/docs/en/tips/multi-currency-accounts.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: wise, revolut, multi-currency, travel, money, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/en/tips/us-trip-app.md b/docs/en/tips/us-trip-app.md
+index 5a29b05..7015ffd 100644
+--- a/docs/en/tips/us-trip-app.md
++++ b/docs/en/tips/us-trip-app.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: united states, travel, apps, tips, ios
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/index.md b/docs/index.md
+index cf521de..8bb379b 100644
+--- a/docs/index.md
++++ b/docs/index.md
+@@ -47,4 +47,5 @@ features:
+   - title: 🏙️ Tokyo Neighborhoods Overview
+     details: Quick breakdown of neighborhoods by what they are known for
+     link: /guides/tokyo/tokyo-neighborhoods
++excludeFromSidebar: false
+ ---
+diff --git a/docs/ja/guides/bullet-train-shinkansen/index.md b/docs/ja/guides/bullet-train-shinkansen/index.md
+index 77ba42b..7c880dc 100644
+--- a/docs/ja/guides/bullet-train-shinkansen/index.md
++++ b/docs/ja/guides/bullet-train-shinkansen/index.md
+@@ -1,6 +1,7 @@
+ ---
+ title: '新幹線ガイド 🚅'
+ description: '日本の新幹線システム、きっぷの買い方、快適な旅のためのヒントをまとめたガイドです。'
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
+index 8600abf..e711f40 100644
+--- a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
++++ b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-kanazawa.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, kanazawa, shinkansen, tickets, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
+index e561ca3..30c2ff8 100644
+--- a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
++++ b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, nagoya, shinkansen, tickets, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
+index 26df510..d986440 100644
+--- a/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
++++ b/docs/ja/guides/bullet-train-shinkansen/shinkansen-tokyo-osaka.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: platto kodama, shinkansen, tokyo, osaka, tickets
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/general/apps.md b/docs/ja/guides/general/apps.md
+index 4d8bfab..958bf29 100644
+--- a/docs/ja/guides/general/apps.md
++++ b/docs/ja/guides/general/apps.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, ios apps, travel, payments, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/general/index.md b/docs/ja/guides/general/index.md
+index ec8ae9e..b2f094f 100644
+--- a/docs/ja/guides/general/index.md
++++ b/docs/ja/guides/general/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: japan, travel planning, itinerary, booking, transportation
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/general/mobile-data.md b/docs/ja/guides/general/mobile-data.md
+index c2e0c80..9086233 100644
+--- a/docs/ja/guides/general/mobile-data.md
++++ b/docs/ja/guides/general/mobile-data.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, mobile, data, esim, router, carrier, wifi, wi-fi, sim, roaming, cell
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/general/reserve-ahead.md b/docs/ja/guides/general/reserve-ahead.md
+index 779d140..085b8c1 100644
+--- a/docs/ja/guides/general/reserve-ahead.md
++++ b/docs/ja/guides/general/reserve-ahead.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, booking, reservations, attractions, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/general/zipair.md b/docs/ja/guides/general/zipair.md
+index 903284d..fdeea86 100644
+--- a/docs/ja/guides/general/zipair.md
++++ b/docs/ja/guides/general/zipair.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: zipair, airline, tips, flights, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/ishigaki-guidebook.md b/docs/ja/guides/ishigaki-guidebook.md
+index 136b277..7bdafb4 100644
+--- a/docs/ja/guides/ishigaki-guidebook.md
++++ b/docs/ja/guides/ishigaki-guidebook.md
+@@ -1,6 +1,7 @@
+ ---
+ title: '石垣島ガイドブック'
+ description: このガイドブックは、みぃふぁいゆ〜石垣島のホストが作成したものです
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kansai/index.md b/docs/ja/guides/kansai/index.md
+index 838ffaa..79d4fe4 100644
+--- a/docs/ja/guides/kansai/index.md
++++ b/docs/ja/guides/kansai/index.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 関西エリアガイド
+ description: 京都、名古屋、大阪、和歌山など関西エリアのガイドです。
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kansai/kyoto-trip.md b/docs/ja/guides/kansai/kyoto-trip.md
+index 25a9670..5fbd8b0 100644
+--- a/docs/ja/guides/kansai/kyoto-trip.md
++++ b/docs/ja/guides/kansai/kyoto-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kyoto, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kansai/nagoya-ghibli-park-trip.md b/docs/ja/guides/kansai/nagoya-ghibli-park-trip.md
+index 290364a..8c260a6 100644
+--- a/docs/ja/guides/kansai/nagoya-ghibli-park-trip.md
++++ b/docs/ja/guides/kansai/nagoya-ghibli-park-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: ghibli park, nagoya, travel, tips, lockers
++excludeFromSidebar: false
+ ---
+ 
+ > [!IMPORTANT]
+diff --git a/docs/ja/guides/kansai/nagoya-trip.md b/docs/ja/guides/kansai/nagoya-trip.md
+index ed3f9dd..09b9b4b 100644
+--- a/docs/ja/guides/kansai/nagoya-trip.md
++++ b/docs/ja/guides/kansai/nagoya-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: nagoya, trip, itinerary, transport, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kansai/osaka-trip.md b/docs/ja/guides/kansai/osaka-trip.md
+index 2e99269..beaf500 100644
+--- a/docs/ja/guides/kansai/osaka-trip.md
++++ b/docs/ja/guides/kansai/osaka-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: osaka, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kansai/wakayama-trip.md b/docs/ja/guides/kansai/wakayama-trip.md
+index a98e461..f2bd5b3 100644
+--- a/docs/ja/guides/kansai/wakayama-trip.md
++++ b/docs/ja/guides/kansai/wakayama-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: wakayama, itinerary, japan, travel, kumano kodo
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/kyushu-trip.md b/docs/ja/guides/kyushu-trip.md
+index ac4e04a..b82830b 100644
+--- a/docs/ja/guides/kyushu-trip.md
++++ b/docs/ja/guides/kyushu-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kyushu, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo-weekend-trips/chichibu-trip.md b/docs/ja/guides/tokyo-weekend-trips/chichibu-trip.md
+index daebadb..353f345 100644
+--- a/docs/ja/guides/tokyo-weekend-trips/chichibu-trip.md
++++ b/docs/ja/guides/tokyo-weekend-trips/chichibu-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: chichibu, trip, itinerary, japan, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo-weekend-trips/hakone-trip.md b/docs/ja/guides/tokyo-weekend-trips/hakone-trip.md
+index 6be862d..e7c4627 100644
+--- a/docs/ja/guides/tokyo-weekend-trips/hakone-trip.md
++++ b/docs/ja/guides/tokyo-weekend-trips/hakone-trip.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 箱根の週末旅行
+ description: 箱根でハイキング、美術館、温泉、富士山の景色を楽しむ連休の過ごし方。
++excludeFromSidebar: false
+ ---
+ 
+ # 箱根での週末
+diff --git a/docs/ja/guides/tokyo-weekend-trips/index.md b/docs/ja/guides/tokyo-weekend-trips/index.md
+index 6dcadf1..6724d17 100644
+--- a/docs/ja/guides/tokyo-weekend-trips/index.md
++++ b/docs/ja/guides/tokyo-weekend-trips/index.md
+@@ -2,6 +2,7 @@
+ title: '東京からの週末旅行'
+ description: 東京から行ける週末旅行のおすすめプランです。
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo-weekend-trips/izu-hakone-trip.md b/docs/ja/guides/tokyo-weekend-trips/izu-hakone-trip.md
+index 4389c3f..0ce0765 100644
+--- a/docs/ja/guides/tokyo-weekend-trips/izu-hakone-trip.md
++++ b/docs/ja/guides/tokyo-weekend-trips/izu-hakone-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: izu, hakone, itinerary, weekend trip, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md b/docs/ja/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
+index 3185b8f..5c07e9c 100644
+--- a/docs/ja/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
++++ b/docs/ja/guides/tokyo-weekend-trips/kamakura-enoshima-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kamakura, enoshima, travel, itinerary, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo/index.md b/docs/ja/guides/tokyo/index.md
+index 14cbdcb..c708d67 100644
+--- a/docs/ja/guides/tokyo/index.md
++++ b/docs/ja/guides/tokyo/index.md
+@@ -2,6 +2,7 @@
+ title: 東京ガイド
+ description: 東京に関するガイド集です。
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo/tokyo-biking.md b/docs/ja/guides/tokyo/tokyo-biking.md
+index 0498f91..f350ae1 100644
+--- a/docs/ja/guides/tokyo/tokyo-biking.md
++++ b/docs/ja/guides/tokyo/tokyo-biking.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, biking, docomo cycle, bike share, travel
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo/tokyo-ghibli-museum.md b/docs/ja/guides/tokyo/tokyo-ghibli-museum.md
+index 14c1516..eb93f79 100644
+--- a/docs/ja/guides/tokyo/tokyo-ghibli-museum.md
++++ b/docs/ja/guides/tokyo/tokyo-ghibli-museum.md
+@@ -1,6 +1,7 @@
+ ---
+ title: スタジオジブリ美術館 - 東京
+ description: 東京・三鷹にあるジブリ美術館のチケット予約ガイドです。
++excludeFromSidebar: false
+ ---
+ 
+ > [!IMPORTANT]
+diff --git a/docs/ja/guides/tokyo/tokyo-neighborhoods.md b/docs/ja/guides/tokyo/tokyo-neighborhoods.md
+index 77acc8d..17a7dba 100644
+--- a/docs/ja/guides/tokyo/tokyo-neighborhoods.md
++++ b/docs/ja/guides/tokyo/tokyo-neighborhoods.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, neighborhoods, travel, guide, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/tokyo/tokyo-trip.md b/docs/ja/guides/tokyo/tokyo-trip.md
+index 468dc83..f51ee36 100644
+--- a/docs/ja/guides/tokyo/tokyo-trip.md
++++ b/docs/ja/guides/tokyo/tokyo-trip.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, trip, itinerary, attractions, hotels
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/guides/yakushima.md b/docs/ja/guides/yakushima.md
+index d95316b..cda9594 100644
+--- a/docs/ja/guides/yakushima.md
++++ b/docs/ja/guides/yakushima.md
+@@ -11,6 +11,7 @@ tags:
+   - japan
+   - hiking
+   - nature
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/index.md b/docs/ja/index.md
+index cab0a15..25f5ff8 100644
+--- a/docs/ja/index.md
++++ b/docs/ja/index.md
+@@ -47,4 +47,5 @@ features:
+   - title: 🏙️ 東京エリアガイド
+     details: 各エリアの特徴をさくっと紹介
+     link: /ja/guides/tokyo/tokyo-neighborhoods
++excludeFromSidebar: false
+ ---
+diff --git a/docs/ja/local/furusato/furusato-one-stop-exception.md b/docs/ja/local/furusato/furusato-one-stop-exception.md
+index f93211b..f4ab320 100644
+--- a/docs/ja/local/furusato/furusato-one-stop-exception.md
++++ b/docs/ja/local/furusato/furusato-one-stop-exception.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: ふるさと納税, ワンストップ, 特例, 申請, ガイド
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/furusato/index.md b/docs/ja/local/furusato/index.md
+index efa26d4..519011e 100644
+--- a/docs/ja/local/furusato/index.md
++++ b/docs/ja/local/furusato/index.md
+@@ -2,6 +2,7 @@
+ title: ふるさと納税 - 故郷納税制度
+ description: ふるさと納税制度に関するメモと用語集です。
+ order: 1
++excludeFromSidebar: false
+ ---
+ 
+ # ふるさと納税 - 故郷納税制度
+diff --git a/docs/ja/local/global-shipping.md b/docs/ja/local/global-shipping.md
+index 04ffbbd..26a0faa 100644
+--- a/docs/ja/local/global-shipping.md
++++ b/docs/ja/local/global-shipping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan post, international shipping, ead, my page, postal
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/housekeeping.md b/docs/ja/local/housekeeping.md
+index 0c63e67..7aca384 100644
+--- a/docs/ja/local/housekeeping.md
++++ b/docs/ja/local/housekeeping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, housekeeping, washing machines, dryers, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/index.md b/docs/ja/local/index.md
+index 86639dc..8161699 100644
+--- a/docs/ja/local/index.md
++++ b/docs/ja/local/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, expats, living, furusato, shipping
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/kichijoji-places.md b/docs/ja/local/kichijoji-places.md
+index d955ade..ee2a61d 100644
+--- a/docs/ja/local/kichijoji-places.md
++++ b/docs/ja/local/kichijoji-places.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, gyms, tokyo, fitness, local
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/kichijoji/index.md b/docs/ja/local/kichijoji/index.md
+index 40dbffc..e08deef 100644
+--- a/docs/ja/local/kichijoji/index.md
++++ b/docs/ja/local/kichijoji/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, neighborhood, local
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/kichijoji/kichijoji-food.md b/docs/ja/local/kichijoji/kichijoji-food.md
+index 2e5f578..2748580 100644
+--- a/docs/ja/local/kichijoji/kichijoji-food.md
++++ b/docs/ja/local/kichijoji/kichijoji-food.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: kichijoji, food, restaurants, lunch, dinner
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/moving/great-things-to-buy.md b/docs/ja/local/moving/great-things-to-buy.md
+index a6b338f..15fcad4 100644
+--- a/docs/ja/local/moving/great-things-to-buy.md
++++ b/docs/ja/local/moving/great-things-to-buy.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, shopping, home, appliances, laundry
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/moving/index.md b/docs/ja/local/moving/index.md
+index e6f77ff..fbd253f 100644
+--- a/docs/ja/local/moving/index.md
++++ b/docs/ja/local/moving/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, home centers, hardware stores, locals, moving, expats, relocation, living, guides, expat tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/moving/internet-and-cell-service.md b/docs/ja/local/moving/internet-and-cell-service.md
+index 7e7891a..07e3638 100644
+--- a/docs/ja/local/moving/internet-and-cell-service.md
++++ b/docs/ja/local/moving/internet-and-cell-service.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, internet, cell service, mobile plans, payment methods
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/moving/second-hand-shopping.md b/docs/ja/local/moving/second-hand-shopping.md
+index 532a44e..0e33ae9 100644
+--- a/docs/ja/local/moving/second-hand-shopping.md
++++ b/docs/ja/local/moving/second-hand-shopping.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, facebook, used items, sayonara sales, second hand
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/passport-renewal.md b/docs/ja/local/passport-renewal.md
+index 7568fde..70a604a 100644
+--- a/docs/ja/local/passport-renewal.md
++++ b/docs/ja/local/passport-renewal.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: passport, renewal, my number card, japan, online application
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/roppongi/index.md b/docs/ja/local/roppongi/index.md
+index 3432651..ef67c8e 100644
+--- a/docs/ja/local/roppongi/index.md
++++ b/docs/ja/local/roppongi/index.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: roppongi, neighborhood, local
++excludeFromSidebar: false
+ ---
+ 
+ # 六本木エリア
+diff --git a/docs/ja/local/roppongi/roppongi-places-en.md b/docs/ja/local/roppongi/roppongi-places-en.md
+index 13ddcd9..6f2febd 100644
+--- a/docs/ja/local/roppongi/roppongi-places-en.md
++++ b/docs/ja/local/roppongi/roppongi-places-en.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: roppongi, azabu, food, cafes, tokyo
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/roppongi/roppongi-places-jp.md b/docs/ja/local/roppongi/roppongi-places-jp.md
+index d56c59f..9d81fbe 100644
+--- a/docs/ja/local/roppongi/roppongi-places-jp.md
++++ b/docs/ja/local/roppongi/roppongi-places-jp.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: 六本木, 麻布, グルメ, ショッピング, カフェ
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/tokyo-food.md b/docs/ja/local/tokyo-food.md
+index a20c031..c155898 100644
+--- a/docs/ja/local/tokyo-food.md
++++ b/docs/ja/local/tokyo-food.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, food, restaurants, cafes, recommendations
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/tokyo-hiking.md b/docs/ja/local/tokyo-hiking.md
+index 2f4f0e2..7fe36dd 100644
+--- a/docs/ja/local/tokyo-hiking.md
++++ b/docs/ja/local/tokyo-hiking.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, hiking, trails, outdoors, japan
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/useful-websites-locals.md b/docs/ja/local/useful-websites-locals.md
+index 9983cba..6eb41fd 100644
+--- a/docs/ja/local/useful-websites-locals.md
++++ b/docs/ja/local/useful-websites-locals.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: tokyo, websites, locals, travel, living, local, website
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/visa-renewal/index.md b/docs/ja/local/visa-renewal/index.md
+index 15c8bb8..662226b 100644
+--- a/docs/ja/local/visa-renewal/index.md
++++ b/docs/ja/local/visa-renewal/index.md
+@@ -6,6 +6,7 @@ head:
+   - - meta
+     - name: keywords
+       content: visa-renewal, mac, windows-vm, my-number-card, jpki
++excludeFromSidebar: false
+ ---
+ 
+ # Macでの日本のビザオンライン更新方法
+diff --git a/docs/ja/local/visa-renewal/jpki-install-guide-v3-5.md b/docs/ja/local/visa-renewal/jpki-install-guide-v3-5.md
+index 08ca840..c88fb93 100644
+--- a/docs/ja/local/visa-renewal/jpki-install-guide-v3-5.md
++++ b/docs/ja/local/visa-renewal/jpki-install-guide-v3-5.md
+@@ -1,6 +1,7 @@
+ ---
+ title: 'JPKI利用者ソフトVer3.5 インストール手順書'
+ description: Original version of the JPKI User Software Ver.3.5 installation guide.
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/local/visa-renewal/visa-renweal-status-check.md b/docs/ja/local/visa-renewal/visa-renweal-status-check.md
+index 21b4d77..5df7faa 100644
+--- a/docs/ja/local/visa-renewal/visa-renweal-status-check.md
++++ b/docs/ja/local/visa-renewal/visa-renweal-status-check.md
+@@ -1,6 +1,7 @@
+ ---
+ title: ビザ更新の申請状況確認方法
+ description: オンラインで申請した日本のビザ更新の状況を確認するための簡単なガイドです。
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/ai-prompts-ja.md b/docs/ja/tech/ai-prompts-ja.md
+index 6548410..379b779 100644
+--- a/docs/ja/tech/ai-prompts-ja.md
++++ b/docs/ja/tech/ai-prompts-ja.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: ai, prompt, japanese, writing, translation
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/chrome-privacy.md b/docs/ja/tech/chrome-privacy.md
+index 3bcc55f..f0307e9 100644
+--- a/docs/ja/tech/chrome-privacy.md
++++ b/docs/ja/tech/chrome-privacy.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: chrome, privacy, ads, settings, shortcut
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/figma-plugins.md b/docs/ja/tech/figma-plugins.md
+index 7283f38..a0049c8 100644
+--- a/docs/ja/tech/figma-plugins.md
++++ b/docs/ja/tech/figma-plugins.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: figma, plugins, ux writing, design, tips, ux-writing
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/google-doc-auto-appending.md b/docs/ja/tech/google-doc-auto-appending.md
+index 01c8c09..0eba550 100644
+--- a/docs/ja/tech/google-doc-auto-appending.md
++++ b/docs/ja/tech/google-doc-auto-appending.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: google docs, apps script, automation, template, weekly report
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/homebrew-migrate.md b/docs/ja/tech/homebrew-migrate.md
+index 06dc596..7b862a1 100644
+--- a/docs/ja/tech/homebrew-migrate.md
++++ b/docs/ja/tech/homebrew-migrate.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: homebrew, macos, apps, brewfile, migrate, export, import, backup
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/index.md b/docs/ja/tech/index.md
+index 3ec8e2a..fbab2d1 100644
+--- a/docs/ja/tech/index.md
++++ b/docs/ja/tech/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: tech, technology, programming, development, tools, mac, apps
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/mac-apps.md b/docs/ja/tech/mac-apps.md
+index 85a00eb..3f04ff3 100644
+--- a/docs/ja/tech/mac-apps.md
++++ b/docs/ja/tech/mac-apps.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: mac, apps, productivity, utilities, brew
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/mac-audio-share.md b/docs/ja/tech/mac-audio-share.md
+index 33b759b..d3a0743 100644
+--- a/docs/ja/tech/mac-audio-share.md
++++ b/docs/ja/tech/mac-audio-share.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: mac, airpods, audio, multi-output, macos, bluetooth
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/nighttab.md b/docs/ja/tech/nighttab.md
+index 9b2ad6a..0b994cc 100644
+--- a/docs/ja/tech/nighttab.md
++++ b/docs/ja/tech/nighttab.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: nighttab, browser, extension, bookmarks, customization
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tech/writing-roles.md b/docs/ja/tech/writing-roles.md
+index 3f882df..8cffdd4 100644
+--- a/docs/ja/tech/writing-roles.md
++++ b/docs/ja/tech/writing-roles.md
+@@ -1,3 +1,7 @@
++---
++excludeFromSidebar: false
++---
++
+ # ライティング関連の職種
+ 
+ テック企業におけるライティングが中心の職種を比較します：UXライティング、テクニカルライティング、デベロッパーリレーションズ。
+diff --git a/docs/ja/tips/australia-travel.md b/docs/ja/tips/australia-travel.md
+index 446bc26..d5dc7ad 100644
+--- a/docs/ja/tips/australia-travel.md
++++ b/docs/ja/tips/australia-travel.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: australia travel, australia tips, travel guide, australia itinerary
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/china-travel.md b/docs/ja/tips/china-travel.md
+index 995b97c..7c9f516 100644
+--- a/docs/ja/tips/china-travel.md
++++ b/docs/ja/tips/china-travel.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: travel, china, tips, beijing, layover, air china, esim, wechat pay, alipay
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/config.md b/docs/ja/tips/config.md
+index 39ff154..fd2598c 100644
+--- a/docs/ja/tips/config.md
++++ b/docs/ja/tips/config.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: figma, config, conference, tips, networking
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/europe/europe-travel-ja.md b/docs/ja/tips/europe/europe-travel-ja.md
+index bb11297..f087713 100644
+--- a/docs/ja/tips/europe/europe-travel-ja.md
++++ b/docs/ja/tips/europe/europe-travel-ja.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: 旅行, ヨーロッパ, ヒント, パリ, アムステルダム, ブリュッセル
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/europe/index.md b/docs/ja/tips/europe/index.md
+index 885cd43..c3edd86 100644
+--- a/docs/ja/tips/europe/index.md
++++ b/docs/ja/tips/europe/index.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: travel, europe, packing, eurostar, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/europe/paris-amsterdam-brussels.md b/docs/ja/tips/europe/paris-amsterdam-brussels.md
+index af7d90e..b43d106 100644
+--- a/docs/ja/tips/europe/paris-amsterdam-brussels.md
++++ b/docs/ja/tips/europe/paris-amsterdam-brussels.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: paris, amsterdam, brussels, travel, itinerary, europe
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/holding-yen.md b/docs/ja/tips/holding-yen.md
+index 0a702a9..15f9599 100644
+--- a/docs/ja/tips/holding-yen.md
++++ b/docs/ja/tips/holding-yen.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: finance, japan, tips
++excludeFromSidebar: false
+ ---
+ 
+ # 日本を離れる際の円の保有方法
+diff --git a/docs/ja/tips/index.md b/docs/ja/tips/index.md
+index 30dcae8..960d261 100644
+--- a/docs/ja/tips/index.md
++++ b/docs/ja/tips/index.md
+@@ -6,6 +6,7 @@ head:
+     - name: keywords
+       content: tips, japan, travel, apps, advice
+ order: 0
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/japanese-shows.md b/docs/ja/tips/japanese-shows.md
+index d9e93b8..e6abdf9 100644
+--- a/docs/ja/tips/japanese-shows.md
++++ b/docs/ja/tips/japanese-shows.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: japan, shows, movies, recommendations, list
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/multi-currency-accounts-ja.md b/docs/ja/tips/multi-currency-accounts-ja.md
+index 6c30f73..f502225 100644
+--- a/docs/ja/tips/multi-currency-accounts-ja.md
++++ b/docs/ja/tips/multi-currency-accounts-ja.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: wise, revolut, multi-currency, travel, money, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/multi-currency-accounts.md b/docs/ja/tips/multi-currency-accounts.md
+index 8fa2ac5..5ff5efe 100644
+--- a/docs/ja/tips/multi-currency-accounts.md
++++ b/docs/ja/tips/multi-currency-accounts.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: wise, revolut, multi-currency, travel, money, tips
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/ja/tips/us-trip-app.md b/docs/ja/tips/us-trip-app.md
+index fbc5f82..bb9b864 100644
+--- a/docs/ja/tips/us-trip-app.md
++++ b/docs/ja/tips/us-trip-app.md
+@@ -5,6 +5,7 @@ head:
+   - - meta
+     - name: keywords
+       content: united states, travel, apps, tips, ios
++excludeFromSidebar: false
+ ---
+ 
+ # {{$frontmatter.title}}
+diff --git a/docs/snippets/README.md b/docs/snippets/README.md
+index e50eeb9..4c8bbbd 100644
+--- a/docs/snippets/README.md
++++ b/docs/snippets/README.md
+@@ -1,3 +1,7 @@
++---
++excludeFromSidebar: true
++---
++
+ # Notes on snippets
+ 
+ This document is an overview of the `snippets/` folder contents.
+diff --git a/docs/snippets/doc-status-ai.md b/docs/snippets/doc-status-ai.md
+index fbe6ee3..fd458ad 100644
+--- a/docs/snippets/doc-status-ai.md
++++ b/docs/snippets/doc-status-ai.md
+@@ -1,3 +1,7 @@
++---
++excludeFromSidebar: true
++---
++
+ # Doc status snippet for AI-translated documents
+ 
+ 
+diff --git a/docs/snippets/doc-status-wip.md b/docs/snippets/doc-status-wip.md
+index e8c5611..0fa8158 100644
+--- a/docs/snippets/doc-status-wip.md
++++ b/docs/snippets/doc-status-wip.md
+@@ -1,3 +1,7 @@
++---
++excludeFromSidebar: true
++---
++
+ # Doc status snippet for work-in-progress documents
+ 
+ 
+-- 
+2.50.1 (Apple Git-155)
+
