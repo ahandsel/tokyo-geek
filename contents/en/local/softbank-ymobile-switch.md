@@ -1,10 +1,10 @@
 ---
-title: 'SoftBank to Y!mobile: online transfer guide'
-description: 'A guide for transferring your mobile line from SoftBank to Y!mobile online, including procedures, costs, and tips.'
+title: 'SoftBank to Y!mobile: online eSIM transfer guide'
+description: 'A guide for transferring your mobile line from SoftBank to Y!mobile online with eSIM, including procedures, costs, and tips.'
 head:
   - - meta
     - name: keywords
-      content: softbank, ymobile, transfer, number portability, mnp, esim, sim, paypay card, ouichi wari, hikari
+      content: softbank, ymobile, transfer, number portability, mnp, esim, paypay card, ouchi wari, hikari
 ---
 
 # {{$frontmatter.title}}
@@ -16,26 +16,35 @@ head:
 
 ## Overview
 
-The move from SoftBank to Y!mobile is handled not as a general "MNP to another carrier" (`他社MNP`), but as a "number transfer" (`番号移行`) within the SoftBank group. You do not need to obtain an MNP reservation number (`MNP予約番号`). Y!mobile's official guidance states that, for number transfers from SoftBank or LINEMO, issuance of an MNP reservation number is not required. After the application is completed with Y!mobile, SoftBank automatically cancels the old line.
+The move from SoftBank to Y!mobile is handled not as a general "MNP to another carrier" (`他社MNP`), but as a "number transfer" (`番号移行`) within the SoftBank group.
+You do not need to obtain an MNP reservation number (`MNP予約番号`).
+Y!mobile's official guidance states that, for number transfers from SoftBank or LINEMO, issuance of an MNP reservation number is not required.
+After the application is completed with Y!mobile, SoftBank automatically cancels the old line.
 
-If proceeding online only, the overall flow is:
+With eSIM, the overall online flow is:
 
 1. advance confirmation
 2. Y!mobile online application
-3. receipt of SIM or eSIM and line switching
+3. eSIM activation and line switching
 4. initial setup
 5. confirmation of discount application and benefits.
 
-eSIM can start as early as the same day, and a SIM card can ship as early as the same day.
+eSIM can start as early as the same day.
 
 
-## Procedures (online only)
+## Online transfer procedure
 
 
-### Advance confirmation
+### Verification
+
+Before applying, confirm three things:
+
+* **Device compatibility**
+* **SIM lock status**
+* **Contract information** (remaining device balance, proration, discount end, etc.)
 
 **Confirm device compatibility**
-Check the [Y!mobile supported devices page][ymobile-devices] (`動作確認端末`) to see whether the device you plan to keep using works with Y!mobile SIM or eSIM. If you want eSIM, the device must support eSIM, and you need a Wi-Fi connection during initial setup.
+Check the [Y!mobile supported devices page][ymobile-devices] (`動作確認端末`) to see whether the device you plan to keep using supports Y!mobile eSIM. The device must support eSIM, and you need a Wi-Fi connection during initial setup.
 
 **Confirm SIM lock status**
 Many recent devices do not have a SIM lock. For an older SoftBank device, confirm just in case. Y!mobile provides guidance for SIM unlock (`SIMロック解除`) when using a device from another carrier.
@@ -46,28 +55,17 @@ On the SoftBank side, confirm any remaining installment balance, whether there i
 
 ### MNP reservation number
 
-**Obtaining one is unnecessary in this case**
 For SoftBank to Y!mobile transfers, because it is a number transfer (`番号移行`), an MNP reservation number is not necessary. Y!mobile's [application procedure page][ymobile-portability] confirms this. The online application guide also indicates that identity verification documents (`本人確認書類`) may be unnecessary for number transfers from SoftBank.
 
-**Items to confirm beforehand**
 If there is a mismatch in contract holder name, unpaid amounts, a special contract, a corporate contract, or certain device conditions, the process may not proceed as usual. Y!mobile states that the procedure cannot be completed if payment confirmation cannot be made.
 
 
 ### Y!mobile online application
 
-**Apply through the official Y!mobile online store**
+To learn about Y!mobile's eSIM offerings, start with the [Y!mobile SIM card / eSIM page][ymobile-sim-esim], which explains how eSIM works, the application entry point, and which devices are supported.
+
 1. Go to the [Y!mobile official online store][ymobile-simulation].
-2. Select `今の電話番号をそのまま使用` then `SoftBank/LINEMOからのりかえ` then `SIMのみ申し込む`. The basic flow is: plan and option selection, identity verification, information entry, confirmation of agreement, and application completion.
-
-**Choose SIM or eSIM**
-
-* **eSIM**: Service can start as early as the same day. Best for people who want to switch immediately. Wi-Fi is required.
-* **SIM card**: Can ship as early as the same day. Setup is easier to understand, and it is easier to recover if trouble occurs.
-
-Practical recommendation:
-
-* If you want immediate activation and have eSIM experience - choose eSIM
-* If you do not want to risk failing setup, or are concerned about device compatibility - choose SIM card
+2. Select `今の電話番号をそのまま使用` then `SoftBank/LINEMOからのりかえ` then `SIMのみ申し込む`, and choose eSIM. The basic flow is: plan and option selection, identity verification, information entry, confirmation of agreement, and application completion.
 
 **Set the payment method**
 If you set PayPay Card Gold as the payment method, you become eligible for Y!mobile's `PayPayカード割` (PayPay Card Discount). Under `シンプル3` (Simple 3) from September 25, 2025 onward, PayPay Card receives JPY 330 off per month, and PayPay Card Gold receives JPY 550 off per month.
@@ -75,14 +73,11 @@ If you set PayPay Card Gold as the payment method, you become eligible for Y!mob
 
 ### Activation and initial setup
 
-**SIM card activation**
-After the product arrives, perform line switching (`回線切替`) yourself. According to Y!mobile's [application flow page][ymobile-flow], the switching desk reception hours are 9:00-21:00. If you do not switch by 21:00 on the sixth day from the product arrival date, it switches automatically on the seventh day.
-
 **eSIM activation**
-According to Y!mobile's [eSIM flow page][ymobile-flow-esim], switching completes in about 15 minutes after the procedure. Line switching reception hours are 9:00-21:00.
+According to Y!mobile's [eSIM flow page][ymobile-flow-esim], switching completes in about 15 minutes after the procedure. Line switching reception hours are 9:00-21:00. Wi-Fi is required during setup.
 
 **APN and profile settings**
-On iPhone, the process is likely to proceed automatically, but depending on the device, APN settings may be necessary. For eSIM, this means a profile download. For a SIM card, replace the card and confirm connectivity. Y!mobile also provides a communications settings page for SIM-free iPhone and iPad devices.
+On iPhone, the process is likely to proceed automatically, but depending on the device, you may need to download a profile or set the APN. Y!mobile also provides a communications settings page for SIM-free iPhone and iPad devices.
 
 
 ### After switching
@@ -94,8 +89,8 @@ If you will continue SoftBank Hikari, switch on the Y!mobile side to **`おう�
 According to [PayPay Card's benefit page][paypay-benefit], to receive benefits you need to confirm SoftBank linkage settings, set PayPay Card as the payment method for smartphone charges, and if necessary, set up combined billing for Hikari and electricity.
 
 [ymobile-devices]: https://www.ymobile.jp/store/sp/sim/
+[ymobile-sim-esim]: https://www.ymobile.jp/store/sp/sim/
 [ymobile-portability]: https://www.ymobile.jp/support/process/portability/
-[ymobile-flow]: https://www.ymobile.jp/store/to_beginner/flow/
 [ymobile-flow-esim]: https://www.ymobile.jp/store/to_beginner/flow_esim/
 [ymobile-hikari-set]: https://www.ymobile.jp/plan/discount/hikarisetwari/
 [ymobile-ouchiwari]: https://www.ymobile.jp/store/to_beginner/ouchiwari/
@@ -107,8 +102,7 @@ According to [PayPay Card's benefit page][paypay-benefit], to receive benefits y
 * **SoftBank MNP transfer-out fee**: JPY 0. Clearly stated in [SoftBank's official FAQ][softbank-mnp-fee].
 * **SoftBank contract cancellation fee**: In principle, JPY 0. Since February 1, 2022, many consumer rate plans are exempt even outside the renewal month. There are exceptions for some corporate plans and fixed communications services. See [SoftBank's cancellation fee FAQ][softbank-cancel-fee].
 * **Y!mobile online contract administrative fee**: JPY 3,850 (tax included). In-store is JPY 4,950; online is JPY 3,850.
-* **SIM issuance fee**: No separately charged SIM issuance fee was confirmed in official information. The main cost at the time of initial contract is the contract administrative fee.
-* **eSIM reissuance fee**: If eSIM is reissued after contract, a fee may arise, but eSIM reissuance from `My Y!mobile` is free. For in-store procedures, an administrative fee may be required.
+* **eSIM reissuance fee**: If eSIM is reissued after contract, eSIM reissuance from `My Y!mobile` is free. For in-store procedures, an administrative fee may be required.
 * **Remaining device balance**: If installment payments for the device remain, payment continues even after SoftBank cancellation.
 * **SoftBank charges for the cancellation month**: Except in some cases, the full amount is billed with no proration.
 
@@ -119,7 +113,6 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 
 [softbank-mnp-fee]: https://www.softbank.jp/support/faq/view/11028
 [softbank-cancel-fee]: https://www.softbank.jp/support/faq/view/10617
-<https://www.ymobile.jp/store/sp/sim/#>
 
 
 ## Impact on existing services
@@ -157,15 +150,15 @@ Y!mobile officially states that `家族割引サービス` and `おうち割 光
 
 ### Confirmed benefits currently available
 
-* **SIM/eSIM contract benefit on Y!mobile official online store**: In the [official campaign list][ymobile-campaign], up to the equivalent of JPY 15,000 in PayPay points may be presented for SIM card or eSIM contracts.
-* **PayPay point benefit at the time of SIM/eSIM contract**: The [official SIM page][ymobile-simulation] also indicates a PayPay point code present as an eSIM/SIM contract benefit.
+* **eSIM contract benefit on Y!mobile official online store**: In the [official campaign list][ymobile-campaign], up to the equivalent of JPY 15,000 in PayPay points may be presented for eSIM contracts.
+* **PayPay point benefit at the time of eSIM contract**: The [official SIM page][ymobile-simulation] also indicates a PayPay point code present as an eSIM contract benefit.
 * **`PayPayカード割`**: Under `シンプル3` from September 25, 2025 onward, JPY 330/month off for PayPay Card and JPY 550/month off for PayPay Card Gold. This is a standing discount, not a campaign.
 * **Benefits related to `おうち割 光セット（A）`**: Y!mobile has pages for campaigns related to joining `おうち割 光セット（A）`, and under certain conditions benefits are granted. Some pages include conditions that require in-store application, so the same conditions may not apply for online-only applications. Confirm eligibility for each application route.
 
 
 ### What is realistically achievable
 
-1. Online application benefit for SIM/eSIM
+1. Online application benefit for eSIM
 2. JPY 550 monthly discount for PayPay Card Gold
 3. Y!mobile-side `おうち割 光セット（A）` by continuing SoftBank Hikari
 
@@ -178,16 +171,9 @@ Layering these three is realistic in an online transfer.
 ## Recommendations and advice
 
 
-### Safest way to proceed
-
-If this is your first time, a SIM card is recommended. If you are familiar with eSIM, choose eSIM.
-
-eSIM is fast, but Wi-Fi is required. If you run into trouble during eSIM setup, recovery is difficult. A SIM card requires waiting for delivery, but it is less likely to fail.
-
-
 ### Timing to minimize cost
 
-Switching near the end of the month tends to be advantageous. SoftBank charges the full amount for the cancellation month with no proration in most cases. On the Y!mobile side, there is guidance on prorated discounts for the contract month, and the activation timing for SIM/eSIM is easy to adjust yourself. As a general rule, aim for several days before month-end through month-end. This recommendation is based on official proration rules.
+Switching near the end of the month tends to be advantageous. SoftBank charges the full amount for the cancellation month with no proration in most cases. On the Y!mobile side, there is guidance on prorated discounts for the contract month, and the eSIM activation timing is easy to adjust yourself. As a general rule, aim for several days before month-end through month-end. This recommendation is based on official proration rules.
 
 
 ### How to preserve bundle discounts
@@ -214,7 +200,6 @@ The last point is important because Y!mobile's applicable conditions differ by c
 * Cancellation fee is generally JPY 0
 * Y!mobile online administrative fee is JPY 3,850
 * eSIM can start as early as the same day
-* SIM card can ship as early as the same day
 * SoftBank cancellation month is generally not prorated
 
 **Items requiring confirmation:**
@@ -235,14 +220,11 @@ These require individual confirmation on the application screen or in `My SoftBa
 * [Y!mobile - Items to prepare][ymobile-necessaries]
   Page for confirming what is needed before online application. Includes guidance that identity verification documents may be unnecessary for number transfers from SoftBank.
 
-* [Y!mobile - Flow from application to start of use][ymobile-flow-ref]
-  Page for confirming the flow after SIM card application, line switching, and reception hours.
-
 * [Y!mobile - Flow from application to start of use (eSIM)][ymobile-flow-esim-ref]
   Page for confirming eSIM activation time, line switching reception hours, and the initial setup flow.
 
 * [Y!mobile - SIM card / eSIM][ymobile-simulation-ref]
-  Official page with the differences between SIM and eSIM, the application entry point, and a link to the supported device page.
+  Official page explaining how eSIM works, the application entry point, and a link to the supported device page.
 
 * [SoftBank FAQ - Is there an MNP transfer-out fee?][softbank-mnp-fee-ref]
   Official FAQ confirming transfer-out fee JPY 0, remaining device balance, proration, and points to note regarding the end of discounts.
@@ -266,14 +248,13 @@ These require individual confirmation on the application screen or in `My SoftBa
   Official notice for confirming the changed contents of `PayPayカード割` after the start of `シンプル3`.
 
 * [Y!mobile - Campaign information][ymobile-campaign-ref]
-  Official campaign portal for confirming PayPay point benefits for SIM/eSIM.
+  Official campaign portal for confirming PayPay point benefits for eSIM.
 
 * [mybest - Explanation of Y!mobile campaigns][mybest-ymobile]
   Third-party article useful for interpreting official conditions. Final judgment should always be made together with the official terms and conditions.
 
 [ymobile-portability-ref]: https://www.ymobile.jp/support/process/portability/
 [ymobile-necessaries]: https://www.ymobile.jp/store/to_beginner/necessaries/
-[ymobile-flow-ref]: https://www.ymobile.jp/store/to_beginner/flow/
 [ymobile-flow-esim-ref]: https://www.ymobile.jp/store/to_beginner/flow_esim/
 [ymobile-simulation-ref]: https://www.ymobile.jp/store/sp/sim/
 [softbank-mnp-fee-ref]: https://www.softbank.jp/support/faq/view/11028
