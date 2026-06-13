@@ -61,8 +61,6 @@
 │   │   │   ├───📄 index.md
 │   │   │   └───📄 roppongi-places-en.md
 │   │   ├───📁 visa-renewal/
-│   │   │   ├───📁 contents/
-│   │   │   │   └───📁 .vitepress/
 │   │   │   ├───📄 index.md
 │   │   │   ├───📄 jpki-install-guide-v3-5.md
 │   │   │   ├───📄 jpki-install-guide-v3-5.pdf
@@ -79,6 +77,7 @@
 │   ├───📁 tech/
 │   │   ├───📄 ai-prompts-ja.md
 │   │   ├───📄 chrome-privacy.md
+│   │   ├───📄 coding-fonts.md
 │   │   ├───📄 figma-plugins.md
 │   │   ├───📄 google-doc-auto-appending.md
 │   │   ├───📄 homebrew-migrate.md
@@ -98,6 +97,7 @@
 │   │   ├───📄 index.md
 │   │   ├───📄 japanese-shows.md
 │   │   ├───📄 multi-currency-accounts.md
+│   │   ├───📄 taiwan-travel.md
 │   │   └───📄 us-trip-app.md
 │   └───📄 map.md
 ├───📁 ja/

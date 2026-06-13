@@ -23,7 +23,8 @@
   "japanese-proofreading.textlint.大かっこ［］": false,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "'HackGen Console', 'Sarasa Mono J', monospace"
   },
   "markdown.extension.italic.indicator": "*",
   "markdown.extension.list.indentationSize": "inherit",
@@ -34,6 +35,5 @@
   "markdown.updateLinksOnFileMove.enabled": "prompt",
   "markdown.validate.ignoredLinks": ["**/*.mp4", "**/*.png"],
   "markdown.validate.referenceLinks.enabled": "ignore",
-  "markdownlint.configFile": ".markdownlint.json",
   "markdownlint.run": "onSave"
 }
