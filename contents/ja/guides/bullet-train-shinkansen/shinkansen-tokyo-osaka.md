@@ -69,7 +69,7 @@ head:
 
 日本語
 
-* ホームページ：[ぷらっとこだま - JR 東海ツアーズ](https://www.jrtours.co.jp/service/ad/kodama/?utm_source=forit&utm_medium=affiliate&utm_campaign=banner&fil=%7B%22pr%22%3A%7B%22y13754Z%22%3A%7B%22clk%22%3A%223c0a4157b9ad93669fb452342c5f6875%22%2C%22ym%22%3A%22202307%22%7D%7D%7D)
+* ホームページ：[ぷらっとこだま - JR 東海ツアーズ](https://www.jrtours.co.jp/service/ad/kodama/)
 * きっぷの受取場所と方法：[受取箇所 - JR 乗車票の受取箇所・受取方法 - 新幹線のお得なツアーは JR 東海ツアーズ](https://www.jrtours.co.jp/receive/ticket/p1.asp)
 
 英語

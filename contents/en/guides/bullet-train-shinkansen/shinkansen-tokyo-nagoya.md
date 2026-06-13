@@ -18,7 +18,7 @@ head:
 
 | Name   | JP       | Time     | Note                                       |
 | ------ | -------- | -------- | ------------------------------------------ |
-| Nozmoi | `のぞみ` | 1.65 hrs | Fastest, Cannot use JR Pass                |
+| Nozomi | `のぞみ` | 1.65 hrs | Fastest, Cannot use JR Pass                |
 | Hikari | `ひかり` | 1.73 hrs | Can use JR Pass                            |
 | Kodama | `こだま` | 2.6 hrs  | Slowest (1.05 hrs slower), Can use JR Pass |
 
@@ -27,46 +27,33 @@ head:
 
 | Type                                                   | Price          |
 | ------------------------------------------------------ | -------------- |
-| Discounted Tickets                                     | From 8,050 yen |
+| Discounted Tickets                                     | From 8,810 yen |
 | Student Discount                                       | From 9,280 yen |
 | Non-reserved Seats                                     | 10,560 yen     |
-| Reserved Seats for Local & Rapid (`こだま` / `ひかり`) | 11,500 yen     |
-| Reserved Seats for Express (`のぞみ`)                  | 11,500 yen     |
+| Reserved Seats for Local & Rapid (`こだま` / `ひかり`) | 11,090 yen     |
+| Reserved Seats for Express (`のぞみ`)                  | 11,300 yen     |
 
 
 ## Discounted tickets
 
-| Price     | Discount          | EN                               | JP                           | Details                               |
-| --------- | ----------------- | -------------------------------- | ---------------------------- | ------------------------------------- |
-| 8,050 yen | 3,040 yen (27.4%) | EX Kodama Family Early Special   | `EXこだまファミリー早特`     | 2+ passenger & buy 3+ days in advance |
-| 8,600 yen | 2,490 yen (22.5%) | Platto Kodama Reserved Seat Plan | `ぷらっとこだま指定席プラン` | Buy 1+ days in advance                |
-| 9,280 yen | 1,810 yen (16.3%) | Student Discount                 | `学割`                       |                                       |
-| 9,800 yen | 1,290 yen (11.6%) | EX Early Special 21 Wide         | `EX早特21ワイド`             | Buy 21+ days in advance               |
-| 9,950 yen | 1,140 yen (10.3%) | EX Nozomi Family Early Special   | `EXのぞみファミリー早特`     | 2+ passenger & buy 3+ days in advance |
+| Price      | Discount          | EN                               | JP                           | Details                                                         |
+| ---------- | ----------------- | -------------------------------- | ---------------------------- | --------------------------------------------------------------- |
+| 8,810 yen  | 2,280 yen (20.6%) | Platto Kodama Reserved Seat Plan | `ぷらっとこだま指定席プラン` | Purchase 1+ day in advance                                      |
+| 9,280 yen  | 1,810 yen (16.3%) | Student Discount                 | `学割`                       | Non-reserved seat                                               |
+| 9,500 yen  | 1,590 yen (14.3%) | EX Family Early Special 7        | `EXファミリー早特7`          | 2+ passengers;purchase 7+ days in advance (`ひかり` / `こだま`) |
+| 9,900 yen  | 1,190 yen (10.7%) | EX Early Special 7               | `EX早特7`                    | Purchase 7+ days in advance (`ひかり` / `こだま`)               |
+| 10,370 yen | 720 yen (6.5%)    | EX Early Special 21              | `EX早特21`                   | Purchase 21+ days in advance (`のぞみ`)                         |
 
-Please see [Platto Kodama Reserved Seat Plan](https://www.jrtours.co.jp/service/ad/kodama/?utm_source=forit&utm_medium=affiliate&utm_campaign=banner&fil=%7B%22pr%22%3A%7B%22y13754Z%22%3A%7B%22clk%22%3A%223c0a4157b9ad93669fb452342c5f6875%22%2C%22ym%22%3A%22202307%22%7D%7D%7D) for more details
+See [Platto Kodama Reserved Seat Plan][] for more details.
 
-
-### EX Kodama Family Early Special
-
-[EX こだまファミリー早特 - エクスプレス予約 新幹線の会員制ネット予約](https://expy.jp/product/ex_kodamafamily_hayatoku/)
-
-Excluded dates for 2023
-
-* Express reservation / `エクスプレス予約`
-  * 4/28 (Fri) - 5/7 (Sun)
-  * 8/9 (Wed) - 8/16 (Wed)
-  * 8/19 (Sat) - 8/20 (Sun)
-  * 12/28 (Thu) - 1/8 (Mon)
-* Smart EX / `スマートEX`
-  * 4/28 (Fri) - 5/7 (Sun)
-  * 8/9 (Wed) - 8/20 (Sun)
-  * 12/28 (Thu) - 1/8 (Mon)
+[Platto Kodama Reserved Seat Plan]: https://www.jrtours.co.jp/service/ad/kodama/
 
 
 ## Platto Kodama Reserved Seat Plan
 
-Refer to [Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka](./shinkansen-tokyo-osaka.md) for more details.
+Refer to [Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka][] for more details.
+
+[Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka]: ./shinkansen-tokyo-osaka.md
 
 
 ## ⚠️ JR Central's servers are down from 23:30 to 5:00 JST ⚠️
@@ -76,5 +63,8 @@ You cannot book tickets during this time.
 
 ## References
 
-* [新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所](https://shinkansen.tabiris.com/tokyo_nagoya.html)
-* [Tokyo to Nagoya: The Fastest and Cheapest Ways to Travel | Tokyo Cheapo](https://tokyocheapo.com/travel/tokyo-to-nagoya/)
+* [新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所][]
+* [Tokyo to Nagoya: The Fastest and Cheapest Ways to Travel | Tokyo Cheapo][]
+
+[Tokyo to Nagoya: The Fastest and Cheapest Ways to Travel | Tokyo Cheapo]: https://tokyocheapo.com/travel/tokyo-to-nagoya/
+[新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所]: https://shinkansen.tabiris.com/tokyo_nagoya.html
