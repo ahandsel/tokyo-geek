@@ -11,6 +11,7 @@
     "lint": "pnpm run lint-code && pnpm run lint-md",
     "lint-code": "prettier --write .",
     "lint-md": "markdownlint-cli2 --fix",
+    "lint-target": "zsh scripts/targeted-linting.sh",
     "preview": "vitepress preview contents",
     "test": "pnpm run tree && pnpm run lint && vitepress build contents && vitepress preview contents",
     "tree": "node scripts/generate-doc-structure.mjs"
@@ -30,7 +31,7 @@
     "markdownlint-rule-relative-links": "^5.1.0",
     "markdownlint-rule-search-replace": "^1.2.0",
     "openai": "^6.42.0",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "prettier-plugin-autocorrect": "^0.4.3",
     "prettier-plugin-packagejson": "^3.0.2",
     "prettier-plugin-pkg": "^0.22.1",
@@ -44,15 +45,5 @@
     "vitepress-mermaid-renderer": "^1.1.26",
     "vitepress-sidebar": "^1.36.1",
     "vue": "^3.5.35"
-  },
-  "packageManager": "pnpm@10.33.0",
-  "engines": {
-    "node": ">=20"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "onFail": "error"
-    }
   }
 }

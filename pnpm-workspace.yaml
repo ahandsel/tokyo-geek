@@ -3,3 +3,13 @@
 # Delay installing published versions to reduce security risk
 # Compromised packages are typically removed within a few hours.
 minimumReleaseAge: 4320 # Three-day buffer allows for security updates.
+
+ignoredBuiltDependencies:
+  - esbuild
+  - sharp
+
+verifyDepsBeforeRun: false
+
+allowBuilds:
+  esbuild: set this to true or false
+  sharp: set this to true or false
