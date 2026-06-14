@@ -16,7 +16,7 @@ localization: sync
 
 _Customizable new tab replacement extension for Chrome_
 
-[zombieFox/nightTab][nightTab-repo] is a highly customizable new tab replacement extension for your browser.
+[zombieFox/nightTab][nighttab-repo] is a highly customizable new tab replacement extension for your browser.
 
 It is a good alternative to the default new tab page, which is often cluttered with advertisements and suggestions.
 
@@ -33,7 +33,7 @@ It is a good alternative to the default new tab page, which is often cluttered w
 
 |           Live demo           |           Chrome Extension           |           Firefox Add-On           |            Support the project             |     Join the community     |
 | :---------------------------: | :----------------------------------: | :--------------------------------: | :----------------------------------------: | :------------------------: |
-| [nightTab example][live-demo] | [Install nightTab Extension][chrome] | [Install nightTab Add-On][firefox] | [Buy zombieFox a coffee][zombieFox-coffee] | [Reddit community][reddit] |
+| [nightTab example][live-demo] | [Install nightTab Extension][chrome] | [Install nightTab Add-On][firefox] | [Buy zombieFox a coffee][zombiefox-coffee] | [Reddit community][reddit] |
 
 
 ## Suggested setup
@@ -124,16 +124,18 @@ Here is a nightTab setup to quickly access various streaming services.
   * [Cannot open internal browser links like `chrome://…`, `about:...`, or `edge:...`][protected-urls]
   * [No native feature to upload an image][no-image]
 
-[privacy]: https://github.com/zombieFox/nightTab/wiki/Respecting-your-privacy
-[nightTab-repo]: https://github.com/zombieFox/nightTab
-[live-demo]: https://zombiefox.github.io/nightTab/
-[chrome]: https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki
-[firefox]: https://addons.mozilla.org/en-GB/firefox/addon/nighttab/
-[zombieFox-coffee]: https://www.buymeacoffee.com/zombieFox/
-[reddit]: https://www.reddit.com/r/nighttab/
-[brewfile]: https://homebrew-file.readthedocs.io/en/latest/usage.html#brewfile
+<!-- Links -->
+
 [backup-restore]: https://github.com/zombieFox/nightTab/wiki/Data-backup-and-restore#restore-data
 [background]: https://github.com/zombieFox/nightTab/wiki/Setting-a-background-video-or-image
+[brewfile]: https://homebrew-file.readthedocs.io/en/latest/usage.html#brewfile
+[chrome]: https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki
+[firefox]: https://addons.mozilla.org/en-GB/firefox/addon/nighttab/
 [firefox-homepage]: https://github.com/zombieFox/nightTab/wiki/Setting-nightTab-as-your-Firefox-homepage
-[protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
+[live-demo]: https://zombiefox.github.io/nightTab/
+[nighttab-repo]: https://github.com/zombieFox/nightTab
 [no-image]: https://github.com/zombieFox/nightTab/wiki/Local-background-image
+[privacy]: https://github.com/zombieFox/nightTab/wiki/Respecting-your-privacy
+[protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
+[reddit]: https://www.reddit.com/r/nighttab/
+[zombiefox-coffee]: https://www.buymeacoffee.com/zombieFox/

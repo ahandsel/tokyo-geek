@@ -51,9 +51,6 @@ These notes are based on a 20-hour layover and focus on what helps most for a sh
 * Smoking is common in public areas. Masks help reduce secondhand smoke.
 * Prepare for squat toilets.
 
-[didi-app]: https://apps.apple.com/app/id554499054
-[amap-guide]: https://www.trip.com/guide/phone/gaode-map.html
-
 
 ## Pick a 20-hour layover over a 5-hour layover
 
@@ -91,9 +88,6 @@ These notes are based on a 20-hour layover and focus on what helps most for a sh
   * `中粮祥云国际生活区` / COFCO Xiangyun International Living Community
   * Google Maps: [COFCO Xiangyun International Living Community][map-cofco-xiangyun]
 
-[map-lanwan-hotel]: https://maps.app.goo.gl/W1DdYHRQHNEchZnJ6
-[map-cofco-xiangyun]: https://maps.app.goo.gl/K3bpwnZAQmwtv53n6
-
 
 ### How to book the transit hotel
 
@@ -103,24 +97,19 @@ These notes are based on a 20-hour layover and focus on what helps most for a sh
 * If the counter is closed, contact the transit hotel directly or call Air China customer service at 95583 for assistance.
 * You can only book single rooms. If you are traveling with a partner, book 2 single rooms. We ended up with a double room on arrival.
 
-[air-china-transit]: https://m.airchina.com/c/invoke/zzjdinstruction@pgenus
-
 
 ## Alipay and WeChat Pay - Chinese QR code payment apps
 
 Tourists can use Alipay and WeChat Pay in China.
 
 * Register accounts in advance and verify your identity using your passport.
-* Payments are made via QR codes and linked to your foreign credit cards ([Wise][] credit card worked seamlessly for us).
+* Payments are made via QR codes and linked to your foreign credit cards ([Wise][wise] credit card worked seamlessly for us).
 * Both Alipay and WeChat Pay accept the same phone number.
 * A phone number is not required if you completed identity verification in advance, but it is recommended to use a number with Wi-Fi Calling enabled to receive SMS verification codes in China.
 
 For detailed setup instructions:
 
 * [Alipay for tourists][alipay-tourists]
-
-[alipay-tourists]: https://trevallog.com/alipay-for-tourist/
-[Wise]: https://wise.com/invite/ihpn/genjif1
 
 
 ## Visa requirements
@@ -133,9 +122,6 @@ Useful resources:
 
 * [China visa-free travel guide][china-visa-guide]
 * [Smartraveller - China travel advice][smartraveller-china]
-
-[china-visa-guide]: https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/
-[smartraveller-china]: https://www.smartraveller.gov.au/destinations/asia/china
 
 
 ## eSIM for internet access
@@ -159,8 +145,6 @@ For more information:
 * China blocks Google, Facebook, Instagram, and other popular sites.
 * iCloud Mail and iMessage work on Chinese Wi-Fi, but Gmail does not.
 * NordVPN and ClearVPN do not work on Chinese Wi-Fi.
-
-[esim-china-video]: https://www.youtube.com/watch?v=90_3UYU88Tw
 
 
 ## Layover logistics
@@ -189,8 +173,6 @@ For more information:
 * There is a lot of walking and stairs, so wear comfortable shoes.
 
 More information: [The Palace Museum ticketing][palace-museum-tickets]
-
-[palace-museum-tickets]: https://bookingticket.dpm.org.cn/detail?id=101
 
 
 ## Example itinerary
@@ -223,3 +205,17 @@ Sample timeline from a 20-hour layover. 🗓️
 ---
 
 A little preparation helps. Enjoy your transit in Beijing.
+
+<!-- Links -->
+
+[air-china-transit]: https://m.airchina.com/c/invoke/zzjdinstruction@pgenus
+[alipay-tourists]: https://trevallog.com/alipay-for-tourist/
+[amap-guide]: https://www.trip.com/guide/phone/gaode-map.html
+[china-visa-guide]: https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/
+[didi-app]: https://apps.apple.com/app/id554499054
+[esim-china-video]: https://www.youtube.com/watch?v=90_3UYU88Tw
+[map-cofco-xiangyun]: https://maps.app.goo.gl/K3bpwnZAQmwtv53n6
+[map-lanwan-hotel]: https://maps.app.goo.gl/W1DdYHRQHNEchZnJ6
+[palace-museum-tickets]: https://bookingticket.dpm.org.cn/detail?id=101
+[smartraveller-china]: https://www.smartraveller.gov.au/destinations/asia/china
+[wise]: https://wise.com/invite/ihpn/genjif1

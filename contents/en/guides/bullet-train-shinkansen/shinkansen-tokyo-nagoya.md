@@ -47,14 +47,10 @@ localization: sync
 
 See [Platto Kodama Reserved Seat Plan][] for more details.
 
-[Platto Kodama Reserved Seat Plan]: https://www.jrtours.co.jp/service/ad/kodama/
-
 
 ## Platto Kodama Reserved Seat Plan
 
 Refer to [Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka][] for more details.
-
-[Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka]: ./shinkansen-tokyo-osaka.md
 
 
 ## ⚠️ JR Central's servers are down from 23:30 to 5:00 JST ⚠️
@@ -67,5 +63,9 @@ You cannot book tickets during this time.
 * [新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所][]
 * [Tokyo to Nagoya: The Fastest and Cheapest Ways to Travel | Tokyo Cheapo][]
 
+<!-- Links -->
+
+[Platto Kodama - Discount Shinkansen Tickets Between Tokyo and Osaka]: ./shinkansen-tokyo-osaka.md
+[Platto Kodama Reserved Seat Plan]: https://www.jrtours.co.jp/service/ad/kodama/
 [Tokyo to Nagoya: The Fastest and Cheapest Ways to Travel | Tokyo Cheapo]: https://tokyocheapo.com/travel/tokyo-to-nagoya/
 [新幹線で東京・名古屋間を格安料金で行く方法 - 新幹線旅行研究所]: https://shinkansen.tabiris.com/tokyo_nagoya.html

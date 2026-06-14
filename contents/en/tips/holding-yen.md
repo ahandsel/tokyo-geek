@@ -25,7 +25,7 @@ Assumptions:
 * You have savings in a traditional bank account that can cover 6 months of expenses.
 * You believe the yen will strengthen against the dollar over the next two years.
 
-Solution: Split the cash into two equal portions and store them in [Wise][] and [Revolut][] accounts.
+Solution: Split the cash into two equal portions and store them in [Wise][wise] and [Revolut][revolut] accounts.
 
 * 2 million JPY (≈ 13,857 USD) in each account.
 * By splitting the funds, you reduce risk if one platform has issues. They are not directly insured by the FDIC nor strictly regulated like traditional banks, but they are generally considered safe enough for holding money.
@@ -34,7 +34,7 @@ Solution: Split the cash into two equal portions and store them in [Wise][] and 
 
 ## Why use Wise and Revolut?
 
-Both [Wise][] and [Revolut][] are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
+Both [Wise][wise] and [Revolut][revolut] are popular fintech (financial technology) platforms that offer low-cost currency exchange and multi-currency accounts. Here are some key benefits:
 
 * **Competitive exchange rates** - often much better than traditional banks.
 * **Global access** - convert your yen into USD or dozens of other currencies at the click of a button.
@@ -107,19 +107,26 @@ A note from an economics enthusiast: locking in market returns can outpace infla
 ---
 
 
-## Another options
+## Other options
 
-* [Foreign Currency Bank Account | EverBank](https://www.everbank.com/diversified-investing/foreign-currencies/currency-access-account)
-* [HSBC Global Money Account](https://www.us.hsbc.com/checking-accounts/products/global-money/) but not for yen.
+* [Foreign Currency Bank Account | EverBank][everbank-foreign-currency]
+* [HSBC Global Money Account][hsbc-global-money] but not for yen.
 
 ---
 
 
 ## References
 
-* [Wise Money Transfer Review - NerdWallet](https://www.nerdwallet.com/article/banking/transferwise-review)
-* [Revolut Review: Checking and Savings - NerdWallet](https://www.nerdwallet.com/reviews/banking/revolut)
-* [Best multi-currency accounts in the US [2023] - Wise](https://wise.com/us/blog/us-foreign-currency-account)
+* [Wise Money Transfer Review - NerdWallet][nerdwallet-wise-review]
+* [Revolut Review: Checking and Savings - NerdWallet][nerdwallet-revolut-review]
+* [Best multi-currency accounts in the US \[2023\] - Wise][wise-us-foreign-currency]
 
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+<!-- Links -->
+
+[everbank-foreign-currency]: https://www.everbank.com/diversified-investing/foreign-currencies/currency-access-account
+[hsbc-global-money]: https://www.us.hsbc.com/checking-accounts/products/global-money/
+[nerdwallet-revolut-review]: https://www.nerdwallet.com/reviews/banking/revolut
+[nerdwallet-wise-review]: https://www.nerdwallet.com/article/banking/transferwise-review
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[wise]: https://wise.com/invite/ihpn/genjif1
+[wise-us-foreign-currency]: https://wise.com/us/blog/us-foreign-currency-account

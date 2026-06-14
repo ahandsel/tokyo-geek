@@ -66,4 +66,6 @@ localization: sync
 
 [Play audio through multiple devices at once in Audio MIDI Setup on Mac - Apple Support][apple-multi-output]
 
+<!-- Links -->
+
 [apple-multi-output]: https://support.apple.com/guide/audio-midi-setup/play-audio-through-multiple-devices-at-once-ams7c093f372/mac

@@ -20,9 +20,9 @@ localization: sync
 
 [[toc]]
 
-![Photo of Green slopes of Yakushima by Marek Piwnicki](https://images.unsplash.com/flagged/photo-1579554712569-f5552b2a41da?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Photo of Green slopes of Yakushima by Marek Piwnicki][img-yakushima-slopes]
 
-* Photo of Green slopes of Yakushima by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki) on [Unsplash](https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs)
+* Photo of Green slopes of Yakushima by [Marek Piwnicki][marek-piwnicki] on [Unsplash][unsplash-photo]
 
 Yakushima (`屋久島`) is a lush, subtropical island located off the southern coast of Kyushu, Japan.
 
@@ -43,16 +43,16 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 
 ### Cafes and restaurants
 
-* [Katagirisan](https://maps.app.goo.gl/fQiZwDPrqSGUiPhLA)
+* [Katagirisan][katagirisan-map]
   * Japanese: `かたぎりさん`
   * Highly recommended restaurant in Yakushima. Their Yakushima Deluxe Two-Tier Bento for ¥2,700 is particularly good and includes a variety of local seafood, vegetables, and rice.
-* [ne- Plant-based Cafe & Act](https://maps.app.goo.gl/XToBR9pJqYpHR6RNA?g_st=in)
+* [ne- Plant-based Cafe & Act][ne-cafe-map]
   * A plant-based cafe located in the forests of Yakushima, offering natural meals, snacks, and sustainable activities. A place where people and nature connect.
 
 
 ### Bento for hiking lunch
 
-* [Asahi Bento](https://maps.app.goo.gl/zmpv4UCkuuhqPGYg6?g_st=in)
+* [Asahi Bento][asahi-bento-map]
   * Japanese: `あさひ弁当`
   * Offers great bento options for hikes. Call ahead to order and pick up your meal. Vegetarian and vegan choices are available.
   * Phone: `0997464007`
@@ -60,10 +60,10 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 
 ### Indoor activities
 
-* [Yakushima World Heritage Conservation Center](https://maps.app.goo.gl/P1JLDYYC2kFBQFHa9)
+* [Yakushima World Heritage Conservation Center][heritage-center-map]
   * Japanese: `屋久島世界遺産センター`
   * Museum dedicated to the island's natural and cultural heritage. Great for learning about Yakushima's history and ecology. Notable for its wooden floor and chainsaw display.
-* [Jomon no Yado Manten](https://maps.app.goo.gl/RcGRVikFdK5vHYCk8?g_st=in)
+* [Jomon no Yado Manten][jomon-yado-manten-map]
   * Japanese: `縄文の宿まんてん`
   * Hotel featuring a day-use onsen opposite Yakushima Airport. The rotenburo (outdoor bath) is a highlight.
   * Day-use onsen:
@@ -74,36 +74,36 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 
 ### Outdoor activities
 
-* [Shiratani Unsui Gorge](https://maps.app.goo.gl/k9pWsCxSdryeX31N6?g_st=in)
+* [Shiratani Unsui Gorge][shiratani-gorge-map]
   * Japanese: `白谷雲水峡`
   * Shiratani Unsuikyo is a lush, moss-covered forest, famously inspiring Studio Ghibli's "Princess Mononoke." A must-visit for nature enthusiasts and hikers.
-* [World Heritage-listed Coastal Road with Wildlife](https://maps.app.goo.gl/EswnXbsKE7MmKuLM9?g_st=in)
+* [World Heritage-listed Coastal Road with Wildlife][coastal-road-map]
   * Japanese: `西部林道`
   * The Seibu Rindo Forest Path offers scenic driving through Yakushima's western forests, featuring stunning views and wildlife sightings.
 
 
 #### Jomon Sugi hike
 
-* [Jomon Sugi](https://maps.app.goo.gl/RwBr2ne4m7zWrc7f9?g_st=in)
+* [Jomon Sugi][jomon-sugi-map]
   * Japanese: `縄文杉`
   * Jomon Sugi is an ancient cedar tree estimated to be over 7,000 years old. It is one of Japan's oldest and most famous trees.
-* [Bus to Arakawa Trailhead](https://maps.app.goo.gl/z5mzMdYGWmo5y4TH6?g_st=in)
+* [Bus to Arakawa Trailhead][arakawa-trailhead-bus-map]
   * Japanese: `荒川登山バス停留所`
   * Starting point for the hike to Jomon Sugi, accessible by bus from Yakushima's main towns.
 
 
 ### Grocery stores
 
-* [Shopping Center Ban Chan](https://maps.app.goo.gl/fmXcu2tSJxhMweaC6)
+* [Shopping Center Ban Chan][ban-chan-map]
   * Japanese: `Aコープ安房店（ショッピングセンターばんちゃん）`
   * Local grocery store with a variety of foods and supplies, ideal for stocking up on snacks and drinks for hikes.
 
 
 ## References
 
-* [Yakushima Travel Guide - What to do on Yakushima Island](https://www.japan-guide.com/e/e4650.html)
-* [YES YAKUSHIMA - Yakushima Tours & Free Booking Service](https://yesyakushima.com/)
-* [屋久島貸切エコツアー好奇心やくしま | 屋久島公認ガイド | 屋久島町](https://www.koukishin8940.com/)
+* [Yakushima Travel Guide - What to do on Yakushima Island][japan-guide-yakushima]
+* [YES YAKUSHIMA - Yakushima Tours & Free Booking Service][yes-yakushima]
+* [屋久島貸切エコツアー好奇心やくしま | 屋久島公認ガイド | 屋久島町][koukishin-yakushima]
 
 
 ## Example itinerary
@@ -122,15 +122,15 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 
 * Location: Yakushima Airport
 * Company: Times Car Rental
-* Google Maps: [Times Car Rental](https://maps.app.goo.gl/a5dGccP3Dn1PXbtMA)
-* [Times Car Rental Website](https://rental.timescar.jp/kagoshima/shop/4611/?layout=0&btn=0)
+* Google Maps: [Times Car Rental][times-car-rental-map]
+* [Times Car Rental Website][times-car-rental-website]
 
 
 ### Hotel check-in
 
 * Location: Yakushima Cottage, Forest Fairy
-* Google Maps: [Yakushima Cottage, Forest Fairy](https://maps.app.goo.gl/dBqmDxxg4t6gMzvh7)
-* [Booking.com](https://www.booking.com/Share-CpEumG)
+* Google Maps: [Yakushima Cottage, Forest Fairy][forest-fairy-map]
+* [Booking.com][forest-fairy-booking]
 
 
 ### Day 1 - Shiratani Unsuikyo mossy forest
@@ -147,13 +147,13 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
   * Relaxed 3-hour tour
   * 3.6 km round-trip hike
   * Path transitions from a well-maintained walkway to an old mountain trail dating back to the Edo period.
-* [苔むす森ツアー | 好奇心やくしま](https://www.koukishin8940.com/%E8%8B%94%E3%82%80%E3%81%99%E6%A3%AE%E3%83%84%E3%82%A2%E3%83%BC)
-* [Instagram @koukishinyakushima](https://www.instagram.com/koukishinyakushima)
+* [苔むす森ツアー | 好奇心やくしま][koukishin-moss-tour]
+* [Instagram @koukishinyakushima][koukishin-instagram]
 
 
 ### Day 2
 
-* [Hirauchi Kaichu Onsen](https://maps.app.goo.gl/SqV8bqnJsANCxD2N8)
+* [Hirauchi Kaichu Onsen][hirauchi-onsen-map]
   * `平内海中温泉`
   * Natural hot sulfur springs in rock pools overlooking the ocean, accessible at low tide.
 
@@ -173,7 +173,7 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 #### [Outbound] Arakawa trailhead in front of Yakusugi Nature Hall
 
 * Tickets needed before hiking day 3,000 yen per person
-* [Yakushima Tozan](http://yakushima-tozan.com/bus/)
+* [Yakushima Tozan][yakushima-tozan]
 * Departs at 5:00 → Arrives at 5:35
 * Departs at 5:20 → Arrives at 5:55
 * Departs at 5:40 → Arrives at 6:15
@@ -195,7 +195,37 @@ It is also the inspiration for the setting of Studio Ghibli's animated film "Pri
 
 #### 縄文杉ツアー - 好奇心やくしま - Hiking tour guide
 
-* [屋久島貸切エコツアー好奇心やくしま | 屋久島公認ガイド | 屋久島町](https://www.koukishin8940.com/)
+* [屋久島貸切エコツアー好奇心やくしま | 屋久島公認ガイド | 屋久島町][koukishin-yakushima]
 
 
 ### Day 4 - Kayaking
+
+<!-- Links -->
+
+[arakawa-trailhead-bus-map]: https://maps.app.goo.gl/z5mzMdYGWmo5y4TH6?g_st=in
+[asahi-bento-map]: https://maps.app.goo.gl/zmpv4UCkuuhqPGYg6?g_st=in
+[ban-chan-map]: https://maps.app.goo.gl/fmXcu2tSJxhMweaC6
+[coastal-road-map]: https://maps.app.goo.gl/EswnXbsKE7MmKuLM9?g_st=in
+[forest-fairy-booking]: https://www.booking.com/Share-CpEumG
+[forest-fairy-map]: https://maps.app.goo.gl/dBqmDxxg4t6gMzvh7
+[heritage-center-map]: https://maps.app.goo.gl/P1JLDYYC2kFBQFHa9
+[hirauchi-onsen-map]: https://maps.app.goo.gl/SqV8bqnJsANCxD2N8
+[japan-guide-yakushima]: https://www.japan-guide.com/e/e4650.html
+[jomon-sugi-map]: https://maps.app.goo.gl/RwBr2ne4m7zWrc7f9?g_st=in
+[jomon-yado-manten-map]: https://maps.app.goo.gl/RcGRVikFdK5vHYCk8?g_st=in
+[katagirisan-map]: https://maps.app.goo.gl/fQiZwDPrqSGUiPhLA
+[koukishin-instagram]: https://www.instagram.com/koukishinyakushima
+[koukishin-moss-tour]: https://www.koukishin8940.com/%E8%8B%94%E3%82%80%E3%81%99%E6%A3%AE%E3%83%84%E3%82%A2%E3%83%BC
+[koukishin-yakushima]: https://www.koukishin8940.com/
+[marek-piwnicki]: https://unsplash.com/@marekpiwnicki
+[ne-cafe-map]: https://maps.app.goo.gl/XToBR9pJqYpHR6RNA?g_st=in
+[shiratani-gorge-map]: https://maps.app.goo.gl/k9pWsCxSdryeX31N6?g_st=in
+[times-car-rental-map]: https://maps.app.goo.gl/a5dGccP3Dn1PXbtMA
+[times-car-rental-website]: https://rental.timescar.jp/kagoshima/shop/4611/?layout=0&btn=0
+[unsplash-photo]: https://unsplash.com/photos/green-mountains-under-white-clouds-during-daytime-QWBEG4dXpcs
+[yakushima-tozan]: http://yakushima-tozan.com/bus/
+[yes-yakushima]: https://yesyakushima.com/
+
+<!-- Image links -->
+
+[img-yakushima-slopes]: https://images.unsplash.com/flagged/photo-1579554712569-f5552b2a41da?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

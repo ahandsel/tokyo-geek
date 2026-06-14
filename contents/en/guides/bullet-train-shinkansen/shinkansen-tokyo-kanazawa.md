@@ -132,13 +132,14 @@ Note: All prices are for the regular season and may vary by travel season.
 * Kagayaki (`かがやき`) does not have any non-reserved seats.
 * For Hakutaka, Tokyo and Kanazawa are starting and terminal stations - best chance to get a non-reserved seat if you board at either of these stations.
 
-[discount ticket shops]: https://guidable.co/shopping-service/3-big-discount-ticket-shops-in-japan/
-[e5489]: https://e5489.jr-odekake.net/e5489/cspc/CBTopMenuPC
-[eki-net]: https://www.eki-net.com/personal/top/index
-
 
 ## Reference
 
 * [東京・金沢のお得な利用法 - 新幹線旅行研究所][shinkansen-tabiris]
 
+<!-- Links -->
+
+[discount ticket shops]: https://guidable.co/shopping-service/3-big-discount-ticket-shops-in-japan/
+[e5489]: https://e5489.jr-odekake.net/e5489/cspc/CBTopMenuPC
+[eki-net]: https://www.eki-net.com/personal/top/index
 [shinkansen-tabiris]: https://shinkansen.tabiris.com/tokyo_kanazawa.html

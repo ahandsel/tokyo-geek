@@ -77,10 +77,6 @@ English
 
 * Homepage: [https://www.jrtours.co.jp/kodama/english/][jrtours-kodama-english]
 
-[jrtours-kodama]: https://www.jrtours.co.jp/service/ad/kodama/
-[jrtours-kodama-english]: https://www.jrtours.co.jp/kodama/english/
-[jrtours-ticket-pickup]: https://www.jrtours.co.jp/receive/ticket/p1.asp
-
 
 ## Booking methods
 
@@ -95,13 +91,6 @@ Go to a JR Tokai Tours branch office and book the ticket in person.
 * [Nagoya station branch location][nagoya-branch-location]
 * [Kyoto station branch location][kyoto-branch-location]
 * [Shin-Osaka station branch location][shin-osaka-branch-location]
-
-[kyoto-branch-location]: #pick-up-at-kyoto-station
-[nagoya-branch-location]: #pick-up-at-nagoya-station
-[shin-osaka-branch-location]: #pick-up-at-shin-osaka-station
-[shin-yokohama-branch-location]: #pick-up-at-shin-yokohama-station
-[shinagawa-branch-location]: #pick-up-at-shinagawa-station
-[tokyo-branch-location]: #pick-up-at-tokyo-station
 
 
 ### Online booking
@@ -146,8 +135,6 @@ Go to a JR Tokai Tours branch office and book the ticket in person.
 
 <!-- * ⚡️ Note: For ¥1,700 extra, you can reduce the travel time by 1.37 hours by selecting -->
 
-[jrtours-kodama-online]: https://www.jrtours.co.jp/kodama
-
 
 ## Vouchers you will get
 
@@ -174,8 +161,6 @@ Get a free drink at shops with the following conditions:
 * Shops with this sticker ![JR TOKAI TOURS, INC. Sticker][shop-sticker]
 * ⚠️ The voucher cannot be exchanged on Kodama Express as there is no wagon service.
 
-[shop-sticker]: /shinkansen-discount-tokyo-osaka/shop-sticker.png
-
 
 ## Pick up the Platt Kodama tickets
 
@@ -201,10 +186,6 @@ Two Steps:
 | 3 ~ 4 | ![ticket-details-1.png][ticket-details-1] |
 | 5     | ![ticket-details-2.png][ticket-details-2] |
 
-[jrtours-inquiry]: https://ec.jrtours.co.jp/ec/member/InquirySelect
-[ticket-details-1]: /shinkansen-discount-tokyo-osaka/ticket-details-1.png
-[ticket-details-2]: /shinkansen-discount-tokyo-osaka/ticket-details-2.png
-
 
 ### Pickup - using the ticket machine
 
@@ -221,14 +202,6 @@ Two Steps:
 | 3     | ![ticket-pickup-code-input.png][ticket-pickup-code-input]             | Input the confirmation 6-digit code and press the "Confirm" button                                                                       |
 | 4     | ![ticket-pickup-confirm-print.png][ticket-pickup-confirm-print]       | Confirm the ticket details and press the "Print" button                                                                                  |
 | 5     | ![ticket-pickup-collect-vouchers.png][ticket-pickup-collect-vouchers] | Please take all the vouchers/documents: Platt Itinerary (1x), Kodama Coupon (number of passengers), Drink Voucher (number of passengers) |
-
-[ticket-machine-correct]: /shinkansen-discount-tokyo-osaka/ticket-machine-correct.png
-[ticket-machine-incorrect]: /shinkansen-discount-tokyo-osaka/ticket-machine-incorrect.png
-[ticket-pickup-code-input]: /shinkansen-discount-tokyo-osaka/ticket-pickup-code-input.png
-[ticket-pickup-collect-vouchers]: /shinkansen-discount-tokyo-osaka/ticket-pickup-collect-vouchers.png
-[ticket-pickup-confirm-print]: /shinkansen-discount-tokyo-osaka/ticket-pickup-confirm-print.png
-[ticket-pickup-qr-scan]: /shinkansen-discount-tokyo-osaka/ticket-pickup-qr-scan.png
-[ticket-pickup-select-button]: /shinkansen-discount-tokyo-osaka/ticket-pickup-select-button.png
 
 
 ### Pickup locations
@@ -260,9 +233,6 @@ Hours:
 * Mon - Fri: 10:00-18:00
 * Sat/Sun/Holidays: 10:00-18:00
 
-[map-tokyo]: /shinkansen-discount-tokyo-osaka/tokyo.png
-[tokyo-google-map]: https://goo.gl/maps/oStEkxBpDH2ryWYw7
-
 
 ### Pick up at Shinagawa Station
 
@@ -276,9 +246,6 @@ Hours:
 
 * Mon - Fri: 11:00-18:00
 * Sat/Sun/Holidays: 11:00-18:00
-
-[map-shinagawa]: /shinkansen-discount-tokyo-osaka/shinagawa.png
-[shinagawa-google-map]: https://goo.gl/maps/Xa9w8Q9tdGv
 
 
 ### Pick up at Shin-Yokohama Station
@@ -294,9 +261,6 @@ Hours:
 * Mon - Fri: 10:00-17:00
 * Sat/Sun/Holidays: 10:00-17:00
 
-[map-shin-yokohama]: /shinkansen-discount-tokyo-osaka/shinyokohama.png
-[shin-yokohama-google-map]: https://goo.gl/maps/eVaWbrJ9SG22
-
 
 ### Pick up at Nagoya Station
 
@@ -310,9 +274,6 @@ Hours:
 
 * Mon - Fri: 10:00-18:00
 * Sat/Sun/Holidays: 10:00-18:00
-
-[map-nagoya]: /shinkansen-discount-tokyo-osaka/nagoya.png
-[nagoya-google-map]: https://goo.gl/maps/ZHPPz3jpf9U2
 
 
 ### Pick up at Kyoto Station
@@ -331,9 +292,6 @@ Hours:
 * Mon - Fri: 10:30-18:00
 * Sat/Sun/Holidays: 10:30-18:00
 
-[kyoto-google-map]: https://goo.gl/maps/cspqtD921dn
-[map-kyoto]: /shinkansen-discount-tokyo-osaka/kyoto.png
-
 
 #### 2nd floor Kyoto branch
 
@@ -348,9 +306,6 @@ Hours:
 * Mon - Fri: 9:30-17:30
 * Sat/Sun/Holidays: 9:30-17:30
 
-[kyoto-central-google-map]: https://goo.gl/maps/XyhTsHkCVC92
-[map-kyoto-central]: /shinkansen-discount-tokyo-osaka/kyoto-central.png
-
 
 ### Pick up at Shin-Osaka Station
 
@@ -364,9 +319,6 @@ Hours:
 
 * Mon - Fri: 10:00-17:30
 * Sat/Sun/Holidays: 10:00-17:30
-
-[map-shin-osaka]: /shinkansen-discount-tokyo-osaka/shinosaka.png
-[shin-osaka-google-map]: https://goo.gl/maps/HmWknzTUXSs
 
 
 ## Call JR Tokai Tours support
@@ -383,9 +335,6 @@ Hours:
 
 * [東京・京都のお得な利用法 - 新幹線旅行研究所][shinkansen-tabiris]
 * [Platt Kodama, one-way deal among Tokyo, Nagoya, Kyoto, and Shin-Osaka by the Shinkansen - JPRail.com][jprail-platt-kodama]
-
-[jprail-platt-kodama]: https://jprail.com/travel-informations/other-rail-passes/rail-pass-for-residents/platt-kodama-one-way-deal-among-tokyo-nagoya-kyoto-and-shin-osaka-by-shinkansen.html#toc1
-[shinkansen-tabiris]: https://shinkansen.tabiris.com/tokyo_kyoto.html
 
 
 ## ⚠️ JR Central's servers are down from 23:30 ~ 5:00 JST ⚠️
@@ -429,3 +378,49 @@ You cannot book tickets during this time.
 * ⬤ = Stop
 * ▲ = Some trains stop
 * (Blank) = No stop
+
+<!-- Links -->
+
+[jprail-platt-kodama]: https://jprail.com/travel-informations/other-rail-passes/rail-pass-for-residents/platt-kodama-one-way-deal-among-tokyo-nagoya-kyoto-and-shin-osaka-by-shinkansen.html#toc1
+[jrtours-inquiry]: https://ec.jrtours.co.jp/ec/member/InquirySelect
+[jrtours-kodama]: https://www.jrtours.co.jp/service/ad/kodama/
+[jrtours-kodama-english]: https://www.jrtours.co.jp/kodama/english/
+[jrtours-kodama-online]: https://www.jrtours.co.jp/kodama
+[jrtours-ticket-pickup]: https://www.jrtours.co.jp/receive/ticket/p1.asp
+[kyoto-central-google-map]: https://goo.gl/maps/XyhTsHkCVC92
+[kyoto-google-map]: https://goo.gl/maps/cspqtD921dn
+[nagoya-google-map]: https://goo.gl/maps/ZHPPz3jpf9U2
+[shin-osaka-google-map]: https://goo.gl/maps/HmWknzTUXSs
+[shin-yokohama-google-map]: https://goo.gl/maps/eVaWbrJ9SG22
+[shinagawa-google-map]: https://goo.gl/maps/Xa9w8Q9tdGv
+[shinkansen-tabiris]: https://shinkansen.tabiris.com/tokyo_kyoto.html
+[tokyo-google-map]: https://goo.gl/maps/oStEkxBpDH2ryWYw7
+
+<!-- Internal links -->
+
+[kyoto-branch-location]: #pick-up-at-kyoto-station
+[nagoya-branch-location]: #pick-up-at-nagoya-station
+[shin-osaka-branch-location]: #pick-up-at-shin-osaka-station
+[shin-yokohama-branch-location]: #pick-up-at-shin-yokohama-station
+[shinagawa-branch-location]: #pick-up-at-shinagawa-station
+[tokyo-branch-location]: #pick-up-at-tokyo-station
+
+<!-- Image links -->
+
+[map-kyoto]: /shinkansen-discount-tokyo-osaka/kyoto.png
+[map-kyoto-central]: /shinkansen-discount-tokyo-osaka/kyoto-central.png
+[map-nagoya]: /shinkansen-discount-tokyo-osaka/nagoya.png
+[map-shin-osaka]: /shinkansen-discount-tokyo-osaka/shinosaka.png
+[map-shin-yokohama]: /shinkansen-discount-tokyo-osaka/shinyokohama.png
+[map-shinagawa]: /shinkansen-discount-tokyo-osaka/shinagawa.png
+[map-tokyo]: /shinkansen-discount-tokyo-osaka/tokyo.png
+[shop-sticker]: /shinkansen-discount-tokyo-osaka/shop-sticker.png
+[ticket-details-1]: /shinkansen-discount-tokyo-osaka/ticket-details-1.png
+[ticket-details-2]: /shinkansen-discount-tokyo-osaka/ticket-details-2.png
+[ticket-machine-correct]: /shinkansen-discount-tokyo-osaka/ticket-machine-correct.png
+[ticket-machine-incorrect]: /shinkansen-discount-tokyo-osaka/ticket-machine-incorrect.png
+[ticket-pickup-code-input]: /shinkansen-discount-tokyo-osaka/ticket-pickup-code-input.png
+[ticket-pickup-collect-vouchers]: /shinkansen-discount-tokyo-osaka/ticket-pickup-collect-vouchers.png
+[ticket-pickup-confirm-print]: /shinkansen-discount-tokyo-osaka/ticket-pickup-confirm-print.png
+[ticket-pickup-qr-scan]: /shinkansen-discount-tokyo-osaka/ticket-pickup-qr-scan.png
+[ticket-pickup-select-button]: /shinkansen-discount-tokyo-osaka/ticket-pickup-select-button.png

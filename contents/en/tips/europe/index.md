@@ -56,10 +56,10 @@ Here are a few things that made my trip between Paris, Amsterdam, and Brussels e
 
 Specific bags used:
 
-* [tomtoc 40 L travel backpack](https://www.amazon.co.jp/dp/B097QWFJRX) - Tough and durable, with a laptop compartment. Good choice for more delicate items.
-* [Foldable Boston bag 65 L](https://www.amazon.co.jp/dp/B09L43MKDS) - Cheap but durable duffel bag.
-* [Solo Tourist HT-BP41 backpack](https://www.amazon.co.jp/dp/B001LGVW9K) - A simple backpack with foldable straps that can be checked as luggage.
-* [Waterproof helmet bag](https://www.amazon.co.jp/dp/B0C858T85X) - A great day-pack since it is waterproof, lightweight, has a large opening, and only 2 zippers.
+* [tomtoc 40 L travel backpack][tomtoc-backpack] - Tough and durable, with a laptop compartment. Good choice for more delicate items.
+* [Foldable Boston bag 65 L][foldable-boston-bag] - Cheap but durable duffel bag.
+* [Solo Tourist HT-BP41 backpack][solo-tourist-backpack] - A simple backpack with foldable straps that can be checked as luggage.
+* [Waterproof helmet bag][waterproof-helmet-bag] - A great day-pack since it is waterproof, lightweight, has a large opening, and only 2 zippers.
 
 
 ## Eurostar travel tips
@@ -81,10 +81,10 @@ Specific bags used:
   * 7-day trip: **10 GB**
   * 14-day trip: **20 GB**
 * eSIM providers (in order of recommendation):
-  1. **Nomad** - [Nomad Europe eSIM](https://www.getnomad.app/europe-eSIM)
-     * 25% off using `KEITLQPQFA` referral code - [help doc](https://www.getnomad.app/help-center/articles/9886364)
-  2. **Airalo** - [Airalo Europe eSIM](https://www.airalo.com/europe-eSIM)
-     * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m)
+  1. **Nomad** - [Nomad Europe eSIM][nomad-europe-esim]
+     * 25% off using `KEITLQPQFA` referral code - [help doc][nomad-help-doc]
+  2. **Airalo** - [Airalo Europe eSIM][airalo-europe-esim]
+     * [Use code `AB6826` to get $3.00 off your first order][airalo-referral]
 * The **Nomad eSIM plan** was reliable throughout Europe.
 * Use a **VPN set to the UK** for easier website access - many sites default to the local language and layout.
 
@@ -94,10 +94,8 @@ Specific bags used:
 * **Credit cards are accepted nearly everywhere** - even for small purchases.
 * Watch out for **foreign transaction fees** - they add up on transit or small charges.
 * **Apple Card** worked well: instant notifications and clear currency conversions.
-* **[Revolut][]** is highly recommended - set it up before your trip.
+* **[Revolut][revolut]** is highly recommended - set it up before your trip.
 * Withdraw **about €50 in cash** in small bills (€1, €2, €5) for tipping or cash-only toilet locations.
-
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 
 
 ## Environment and hygiene
@@ -116,12 +114,12 @@ Specific bags used:
   * Easier to use in landscape mode than a phone
   * Less anxiety about theft
 * **Bring a phone strap** - drop protection for crowded areas.
-* **Water bottle with filter built-in** like [Brita Filtering Water Bottle](https://www.amazon.com/dp/B07H17RM1B/) is great for filling up at sinks.
+* **Water bottle with filter built-in** like [Brita Filtering Water Bottle][brita-water-bottle] is great for filling up at sinks.
 * **Extra power bank** - outlets can be rare in cafes, trains, or stations.
 * Attach **AirTags** to every bag and important item.
 * Bring an extra AirTag for your Airbnb keys.
 * **Battery life is crucial** - bring an extra-large power bank.
-* **Lightweight power adapter** - the [Sanwa Supply TR-AD4W overseas power conversion adapter](https://www.amazon.co.jp/dp/B075CXDNW2) worked well for us.
+* **Lightweight power adapter** - the [Sanwa Supply TR-AD4W overseas power conversion adapter][sanwa-power-adapter] worked well for us.
 
 
 ## Using AI for translations
@@ -190,10 +188,25 @@ Thank you for your help!
 ```
 
 > [!TIP]
-> I use [Rocket Typist](https://apps.apple.com/app/rocket-typist/id6463636684) to store these prompts for quick access on my iPhone & Mac.
+> I use [Rocket Typist][rocket-typist] to store these prompts for quick access on my iPhone & Mac.
 
 
 ## Final tips
 
 * Plan ahead for bookings - **museums and trains often require reservations**.
 * Flexibility is key - from delayed trains to odd smells, Europe is full of surprises. Stay adaptable and prepared.
+
+<!-- Links -->
+
+[airalo-europe-esim]: https://www.airalo.com/europe-eSIM
+[airalo-referral]: https://ref.airalo.com/DB2m
+[brita-water-bottle]: https://www.amazon.com/dp/B07H17RM1B/
+[foldable-boston-bag]: https://www.amazon.co.jp/dp/B09L43MKDS
+[nomad-europe-esim]: https://www.getnomad.app/europe-eSIM
+[nomad-help-doc]: https://www.getnomad.app/help-center/articles/9886364
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[rocket-typist]: https://apps.apple.com/app/rocket-typist/id6463636684
+[sanwa-power-adapter]: https://www.amazon.co.jp/dp/B075CXDNW2
+[solo-tourist-backpack]: https://www.amazon.co.jp/dp/B001LGVW9K
+[tomtoc-backpack]: https://www.amazon.co.jp/dp/B097QWFJRX
+[waterproof-helmet-bag]: https://www.amazon.co.jp/dp/B0C858T85X

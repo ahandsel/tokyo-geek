@@ -28,8 +28,6 @@ localization: sync
 * 近鉄奈良駅はエレベーターが少ないため、大きな荷物やベビーカーがある場合は時間に余裕を持ちましょう。🛗
 * エレベーターが必要な場合は、早めに近鉄奈良駅に到着して、ホームへのエレベーターを見つけて利用しましょう。
 
-[kintetsu-ticket]: https://www.ticket.kintetsu.co.jp/vs/en/T/TZZ/TZZ10.do?op=tDisplayVisitorMenu
-
 
 ## Mini Inn Nara - おすすめ宿泊施設
 
@@ -45,8 +43,6 @@ Mini Inn Nara は、清潔で静かな環境にリーズナブルに泊まりた
 
 * フロントデスクがないため、チェックイン方法を事前に確認しておきましょう。
 
-[map-mini-inn-nara]: https://maps.app.goo.gl/zPj8iPUznKL9pAdu7
-
 
 ## 閑散期 - 2 月
 
@@ -55,3 +51,8 @@ Mini Inn Nara は、清潔で静かな環境にリーズナブルに泊まりた
 2 月の 3 連休でも、春や秋の平日より空いていることがあります。
 
 ただし寒くなり、雪が降ることもあるので、防寒対策をしっかりしましょう！❄️
+
+<!-- Links -->
+
+[kintetsu-ticket]: https://www.ticket.kintetsu.co.jp/vs/en/T/TZZ/TZZ10.do?op=tDisplayVisitorMenu
+[map-mini-inn-nara]: https://maps.app.goo.gl/zPj8iPUznKL9pAdu7

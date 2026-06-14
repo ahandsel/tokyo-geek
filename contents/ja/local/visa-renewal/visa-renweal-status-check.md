@@ -32,4 +32,6 @@ UTM を開き、Windows VM を起動します。
 
 認証 ID は、オンラインで申請した際にメールでも送られています。
 
+<!-- Links -->
+
 [在留申請オンラインシステム]: https://www.ras-immi.moj.go.jp/WC01/WCAAS010/

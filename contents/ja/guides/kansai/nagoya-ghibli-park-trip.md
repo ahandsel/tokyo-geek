@@ -78,4 +78,8 @@ localization: sync
    * **料金とサイズ：** ¥600、20kg まで、どの辺も 180cm まで
    * **備考：** 貴重品はお預かりできません。現金払いのみ。18:00 までに引き取りが必要です。
 
-詳しくは[こちらの記事](https://castel.jp/p/9201)をご覧ください。
+詳しくは[こちらの記事][castel-ghibli-park-lockers]をご覧ください。
+
+<!-- Links -->
+
+[castel-ghibli-park-lockers]: https://castel.jp/p/9201

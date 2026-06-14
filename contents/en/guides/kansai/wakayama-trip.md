@@ -36,7 +36,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 * **Evening:** Relax in one of Shirahama's famous hot springs, such as Shirahama Onsen.
 
 
-### Day 3: Spiritual Journey in Koyasan
+### Day 3: Spiritual journey in Koyasan
 
 * **Morning to Evening:** Dedicate a full day to explore Koyasan (Mount Koya), the center of Shingon Buddhism. Start with Okunoin, the mausoleum of Kobo Daishi (Kukai), then visit Kongobuji Temple, and the Danjo Garan complex. Consider staying overnight at a temple lodging (shukubo) to experience Buddhist monastic life, including meditation sessions and vegetarian cuisine.
 
@@ -48,7 +48,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 * **Evening:** Return to your accommodation in the area or stay in a local ryokan (traditional Japanese inn).
 
 
-### Day 5: Adventure in the Kumano Region
+### Day 5: Adventure in the Kumano region
 
 * **Morning:** Travel to the Hongu area to visit the Kumano Hongu Taisha, another of the three grand shrines of Kumano.
 * **Afternoon:** Take a scenic riverboat tour on the Kumano River or hike another section of the Kumano Kodo.
@@ -67,7 +67,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 * **Afternoon:** Collect souvenirs and prepare for your departure. Take a final stroll around the city or along the marina to say goodbye to Wakayama.
 
 
-### Additional Tips
+### Additional tips
 
 * **Transport:** Consider purchasing a Wakayama area rail pass if you plan to travel extensively by train.
 * **Accommodations:** Mix your stays between modern hotels in cities, traditional ryokans in onsen towns, and shukubo in Koyasan for a complete experience.
@@ -80,7 +80,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Adventure World
 
 * Japanese: `アドベンチャーワールド`
-* Google Maps link: <https://maps.app.goo.gl/K5pKeJqizGL9jeoB6>
+* Google Maps link: [https://maps.app.goo.gl/K5pKeJqizGL9jeoB6][map-adventure-world]
 * Description: A unique combination of a zoo, aquarium, and amusement park, offering close encounters with pandas and marine life.
 * Transport: Shuttle bus available from Shirahama Station.
 
@@ -88,7 +88,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Engetsu Island
 
 * Japanese: `円月島`
-* Google Maps link: <https://maps.app.goo.gl/1okmeVjLKmWb2fax5>
+* Google Maps link: [https://maps.app.goo.gl/1okmeVjLKmWb2fax5][map-engetsu-island]
 * Description: A small, uninhabited island off the coast of Shirahama known for its picturesque arch and beautiful sunset views.
 * Transport: Viewable from Shirahama Beach or accessible by sightseeing boat.
 
@@ -96,7 +96,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Hashigui-iwa Rocks
 
 * Japanese: `橋杭岩`
-* Google Maps link: <https://maps.app.goo.gl/NRXf7QYnoMss7MWE9>
+* Google Maps link: [https://maps.app.goo.gl/NRXf7QYnoMss7MWE9][map-hashigui-iwa-rocks]
 * Description: Unique rock formations off the coast that look like pillars of a bridge, offering a striking landscape especially at sunrise.
 * Transport: Train from Shirahama Station to Kushimoto Station, then a short bus ride.
 
@@ -104,23 +104,23 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Kishi Station
 
 * Japanese: `貴志駅`
-* Google Maps link: <https://maps.app.goo.gl/FCNPszzcociBcHrKA>
+* Google Maps link: [https://maps.app.goo.gl/FCNPszzcociBcHrKA][map-kishi-station]
 * Description: A cat-themed train station named after Tama, the famous calico cat stationmaster.
 * Transport: Take the Wakayama Electric Railway from Wakayama Station to Kishi Station.
 
 
 ### Koyasan
 
-* Google Maps link: <https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7>
+* Google Maps link: [https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7][map-koyasan]
 * Japanese: `高野山`
 * Description: The center of Shingon Buddhism, with an overnight stay in a temple lodging offering a spiritual experience.
-* Transport: Take a train to Hashimoto Station, then transfer to the Nankai Koya Line to Gokurakubashi Station, followed by a cable car to [Kōyasan Station / 高野山駅](https://maps.app.goo.gl/Zk3FV3ZzxcBhh4xb6).
+* Transport: Take a train to Hashimoto Station, then transfer to the Nankai Koya Line to Gokurakubashi Station, followed by a cable car to [Kōyasan Station / 高野山駅][map-koyasan-station].
 
 
 ### Kozan-ji Temple
 
 * Japanese: `高山寺`
-* Google Maps link: <https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9>
+* Google Maps link: [https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9][map-kozan-ji-temple]
 * Description: An ancient temple known for its historical significance and as the location of the Choishimichi trail markers.
 * Transport: Train and bus from Shirahama Station to Kozan-ji.
 
@@ -128,7 +128,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Kumano Hongu Taisha
 
 * Japanese: `熊野本宮大社`
-* Google Maps link: <https://maps.app.goo.gl/3r4npXGTtUdrtNLC7>
+* Google Maps link: [https://maps.app.goo.gl/3r4npXGTtUdrtNLC7][map-kumano-hongu-taisha]
 * Description: One of the three grand shrines of Kumano, famous for its large torii gate and as a central site of worship in the area.
 * Transport: Bus from Shingu Station, which is accessible by train from Shirahama Station.
 
@@ -136,7 +136,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Kumano Hayatama Taisha
 
 * Japanese: `熊野速玉大社`
-* Google Maps link: <https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8>
+* Google Maps link: [https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8][map-kumano-hayatama-taisha]
 * Description: Another of the three grand shrines of Kumano, located in Shingu, rich in history and spiritual significance.
 * Transport: Train from Shirahama Station to Shingu Station, then a short walk.
 
@@ -144,7 +144,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Kumano-Kodo Nakahechi Pilgrimage Route
 
 * Japanese: `熊野古道中辺路`
-* Google Maps link: <https://maps.app.goo.gl/CRxjgPrE23mzyMbm9>
+* Google Maps link: [https://maps.app.goo.gl/CRxjgPrE23mzyMbm9][map-kumano-kodo-nakahechi]
 * Description: The Nakahechi is the core trail of the Kumano Kodo pilgrimage network with a history of over 1000 years. It can be walked in consecutive day treks or experienced with shorter highlight walks.
 * Transport: Access varies by trailhead; buses are available from Shirahama for closer trailheads like Takijiri-oji.
 
@@ -152,7 +152,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Kumano-Nachi Taisha
 
 * Japanese: `熊野那智大社`
-* Google Maps link: <https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36>
+* Google Maps link: [https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36][map-kumano-nachi-taisha]
 * Description: A stunning Shinto shrine part of the Kumano Sanzan, set against the backdrop of Nachi Falls, Japan's tallest waterfall dedicated to the worship of nature.
 * Transport: Take a bus from Shirahama Station to Shingu Station, then transfer to a bus for Kumano Nachi Taisha.
 
@@ -160,7 +160,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Nachi Falls
 
 * Japanese: `那智の滝`
-* Google Maps link: <https://maps.app.goo.gl/eYW1VufJgvPj7h6m6>
+* Google Maps link: [https://maps.app.goo.gl/eYW1VufJgvPj7h6m6][map-nachi-falls]
 * Description: Japan's tallest waterfall with a drop of 133 meters, considered sacred in Shinto and a spectacular natural site.
 * Transport: Bus from Shingu Station, accessible by train from Shirahama Station.
 
@@ -168,7 +168,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Ryujin Hot Spring
 
 * Japanese: `琉球温泉 龍神の湯`
-* Google Maps link: <https://maps.app.goo.gl/TezFiiemaU72hxxW9>
+* Google Maps link: [https://maps.app.goo.gl/TezFiiemaU72hxxW9][map-ryujin-hot-spring]
 * Description: A hot spring area famous for its therapeutic waters, nestled in a scenic valley.
 * Transport: Bus from Tanabe Station, which is accessible by train from Shirahama Station.
 
@@ -176,7 +176,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Saki-no-Yu Onsen Spa
 
 * Japanese: `崎の湯`
-* Google Maps link: <https://maps.app.goo.gl/DFbgrG6prJxrZMC98>
+* Google Maps link: [https://maps.app.goo.gl/DFbgrG6prJxrZMC98][map-saki-no-yu-onsen-spa]
 * Description: One of Japan's oldest hot springs, with many baths offering views of the Pacific Ocean.
 * Transport: Bus from Shirahama Station.
 
@@ -184,7 +184,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Sandanbeki Cave
 
 * Japanese: `三段壁洞窟`
-* Google Maps link: <https://maps.app.goo.gl/Wym778rqbmmhMwja9>
+* Google Maps link: [https://maps.app.goo.gl/Wym778rqbmmhMwja9][map-sandanbeki-cave]
 * Description: A dramatic cliff-side and cave complex along the coast, offering tours and stunning views of the Pacific Ocean.
 * Transport: Bus from Shirahama Station.
 
@@ -192,7 +192,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Senjojiki Rock Plateau
 
 * Japanese: `千畳敷`
-* Google Maps link: <https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8>
+* Google Maps link: [https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8][map-senjojiki-rock-plateau]
 * Description: A vast, flat rock surface created by wave erosion, offering spectacular views of the ocean and sunset.
 * Transport: Bus from Shirahama Station.
 
@@ -200,7 +200,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Shirahama beach
 
 * Japanese: `白浜大浜海水浴場`
-* Google Maps link: <https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6>
+* Google Maps link: [https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6][map-shirahama-beach]
 * Description: Famous for its white sand imported from Australia, Shirahama Beach is a popular spot for swimming and sunbathing.
 * Transport: Walking distance from Shirahama Station.
 
@@ -208,7 +208,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Shirahama Energy Land
 
 * Japanese: `白浜エネルギーランド`
-* Google Maps link: <https://maps.app.goo.gl/7u2pnwfWaZGhWW336>
+* Google Maps link: [https://maps.app.goo.gl/7u2pnwfWaZGhWW336][map-shirahama-energy-land]
 * Description: A theme park offering a variety of attractions, including rides and interactive exhibits focused on energy.
 * Transport: Short walk or bus from Shirahama Station.
 
@@ -216,7 +216,7 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Wakayama Castle
 
 * Japanese: `和歌山城`
-* Google Maps link: <https://maps.app.goo.gl/1SNY5pYBbvrr594w8>
+* Google Maps link: [https://maps.app.goo.gl/1SNY5pYBbvrr594w8][map-wakayama-castle]
 * Description: A historically significant castle offering panoramic views of Wakayama City, surrounded by cherry blossoms in spring.
 * Transport: Take a train to Wakayama Station, then a bus or a 20-minute walk to the castle.
 
@@ -224,6 +224,29 @@ Here is a suggested itinerary that covers a range of activities and sights:
 ### Wakayama Marina City
 
 * Japanese: `和歌山マリーナシティ`
-* Google Maps link: <https://maps.app.goo.gl/WexvFeN7okG9k1yYA>
+* Google Maps link: [https://maps.app.goo.gl/WexvFeN7okG9k1yYA][map-wakayama-marina-city]
 * Description: A resort island featuring a theme park, fish market, and the Kuroshio Market, known for tuna cutting shows.
 * Transport: Bus from Wakayama Station.
+
+<!-- Links -->
+
+[map-adventure-world]: https://maps.app.goo.gl/K5pKeJqizGL9jeoB6
+[map-engetsu-island]: https://maps.app.goo.gl/1okmeVjLKmWb2fax5
+[map-hashigui-iwa-rocks]: https://maps.app.goo.gl/NRXf7QYnoMss7MWE9
+[map-kishi-station]: https://maps.app.goo.gl/FCNPszzcociBcHrKA
+[map-koyasan]: https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7
+[map-koyasan-station]: https://maps.app.goo.gl/Zk3FV3ZzxcBhh4xb6
+[map-kozan-ji-temple]: https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9
+[map-kumano-hayatama-taisha]: https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8
+[map-kumano-hongu-taisha]: https://maps.app.goo.gl/3r4npXGTtUdrtNLC7
+[map-kumano-kodo-nakahechi]: https://maps.app.goo.gl/CRxjgPrE23mzyMbm9
+[map-kumano-nachi-taisha]: https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36
+[map-nachi-falls]: https://maps.app.goo.gl/eYW1VufJgvPj7h6m6
+[map-ryujin-hot-spring]: https://maps.app.goo.gl/TezFiiemaU72hxxW9
+[map-saki-no-yu-onsen-spa]: https://maps.app.goo.gl/DFbgrG6prJxrZMC98
+[map-sandanbeki-cave]: https://maps.app.goo.gl/Wym778rqbmmhMwja9
+[map-senjojiki-rock-plateau]: https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8
+[map-shirahama-beach]: https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6
+[map-shirahama-energy-land]: https://maps.app.goo.gl/7u2pnwfWaZGhWW336
+[map-wakayama-castle]: https://maps.app.goo.gl/1SNY5pYBbvrr594w8
+[map-wakayama-marina-city]: https://maps.app.goo.gl/WexvFeN7okG9k1yYA

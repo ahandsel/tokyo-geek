@@ -22,8 +22,6 @@ localization: sync
 * Many free items are available for pickup.
 * Everything is in Japanese but browser translation features work well.
 
-[jmty]: https://jmty.jp/
-
 
 ## Mercari - Japanese eBay
 
@@ -35,11 +33,6 @@ localization: sync
 * For Japanese listings, you need to use the Japanese version of the App, NOT the US version.
   * [フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得アプリ - App Store][mercari-app-store]
   * [メルカリ (Mercari) - フリマアプリ - Google Play のアプリ][mercari-google-play]
-
-[mercari]: https://jp.mercari.com/
-[mercari-lang-settings]: https://jp.mercari.com/language?backUrl=%2F
-[mercari-google-play]: https://play.google.com/store/apps/details?id=com.kouzoh.mercari&hl=en
-[mercari-app-store]: https://apps.apple.com/jp/app/id667861049
 
 
 ## Facebook groups for buying used items
@@ -74,3 +67,11 @@ Tips for shopping at recycle shops:
 * Keep the receipt so you can reference it when reselling the item later.
 * Some shops offer free delivery when purchasing multiple items.
 * Some shops accept old items because general waste disposal in Japan can be costly.
+
+<!-- Links -->
+
+[jmty]: https://jmty.jp/
+[mercari]: https://jp.mercari.com/
+[mercari-app-store]: https://apps.apple.com/jp/app/id667861049
+[mercari-google-play]: https://play.google.com/store/apps/details?id=com.kouzoh.mercari&hl=en
+[mercari-lang-settings]: https://jp.mercari.com/language?backUrl=%2F

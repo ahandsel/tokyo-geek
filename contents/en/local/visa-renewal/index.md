@@ -48,17 +48,17 @@ This is a quick write-up of how I did it, in case it helps someone else.
 
 ### My Number card
 
-Go to [My Number Card online application](https://www.kojinbango-card.go.jp/en-mynumber/) and apply for a My Number card if you do not have one. You need the physical card with a chip and photo, not just the paper one.
+Go to [My Number Card online application][my-number-card-application] and apply for a My Number card if you do not have one. You need the physical card with a chip and photo, not just the paper one.
 
 
 ### Get a compatible IC card reader
 
 Ask a friend or buy one from Amazon.
 
-[Full list of IC card readers and writers compatible with My Number cards](https://www.jpki.go.jp/prepare/pdf/num_rwlist11.pdf)
+[Full list of IC card readers and writers compatible with My Number cards][ic-card-reader-list]
 
 > [!TIP]  
-> If you have an Android phone, you can use it as an IC card reader by installing the [JPKI 利用者ソフト](https://play.google.com/store/apps/details?id=jp.go.jpki.mobile.utility&pcampaignid=web_share) app.
+> If you have an Android phone, you can use it as an IC card reader by installing the [JPKI 利用者ソフト][jpki-android-app] app.
 
 
 ### Prepare Windows virtual machine (VM)
@@ -90,15 +90,15 @@ What is UTM?
 
 * UTM is free and open source virtualization software that allows you to run virtual machines (VM) on your Mac.
 * It is based on QEMU and provides a user-friendly interface to create and manage VMs.
-* Watch this [YouTube video tutorial](https://www.youtube.com/watch?v=hdddzyIPasU) first, and then it is straightforward to set up.
+* Watch this [YouTube video tutorial][utm-youtube-tutorial] first, and then it is straightforward to set up.
 
 Overview of steps to install Windows 11 on UTM:
 
-1. Install [UTM](https://mac.getutm.app/) to run a Windows VM on your Mac.
-   * Option 1: [Download from the official website](https://mac.getutm.app/) - completely free and open source.
-   * Option 2: [Buy it on the Mac App Store](https://apps.apple.com/app/utm-virtual-machines/id1538878817) for $9.99 to support the developers.
-     * App Store version is easier to update & manage but you can just download the free version from the [official Microsoft website](https://www.microsoft.com/software-download/windows11).
-2. Download the Windows 11 ISO file - either using [CrystalFetch][] or directly from Microsoft.
+1. Install [UTM][utm] to run a Windows VM on your Mac.
+   * Option 1: [Download from the official website][utm] - completely free and open source.
+   * Option 2: [Buy it on the Mac App Store][utm-app-store] for $9.99 to support the developers.
+     * App Store version is easier to update & manage but you can just download the free version from the [official Microsoft website][microsoft-windows11].
+2. Download the Windows 11 ISO file - either using [CrystalFetch][crystalfetch] or directly from Microsoft.
    * I used [CrystalFetch from the Mac App Store][crystalfetch-app-store] to download the latest Windows 11 ISO.
    * I downloaded the Windows 11 Home edition ISO in English but later needed to change the language settings to Japanese.
 3. Create a new VM in UTM and attach the Windows 11 ISO file.
@@ -112,15 +112,12 @@ Overview of steps to install Windows 11 on UTM:
    * Hit "Enter" immediately after starting the VM to boot from the ISO file.
    * Follow the on-screen instructions to install Windows 11.
 
-Read the [official UTM documentation to install Windows 11](https://docs.getutm.app/guides/windows/) for detailed instructions.
-
-[CrystalFetch]: https://github.com/TuringSoftware/CrystalFetch
-[crystalfetch-app-store]: https://apps.apple.com/app/crystalfetch-iso-downloader/id6454431289
+Read the [official UTM documentation to install Windows 11][utm-windows-docs] for detailed instructions.
 
 
 #### Method 2: Parallels Desktop - paid but easier
 
-Install [Parallels Desktop](https://www.parallels.com/products/desktop/trial/) to run a Windows VM on your Mac.
+Install [Parallels Desktop][parallels-desktop] to run a Windows VM on your Mac.
 
 * Every Mac gets a 14-day free trial.
 * After it expires, you need to purchase a subscription (about $100 or wait for a discount).
@@ -155,7 +152,7 @@ As you can image, this is Japanese government made software - not only do you ne
    * Go to `Control Panel` > `Region` > `Administrative` tab.
    * Click `Change system locale...` and select `Japanese (Japan)`.
    * Apply the changes and restart your computer.
-   * ![windows-non-unicode-programs-settings.png](/windows-non-unicode-programs-settings.png)
+   * ![windows-non-unicode-programs-settings.png][img-windows-non-unicode-programs-settings]
 
 2. Change language and region settings to Japanese.
    * Go to `Settings` > `Time & Language` > `Language` > `Preferred languages`.
@@ -163,14 +160,14 @@ As you can image, this is Japanese government made software - not only do you ne
    * Install the Japanese language pack.
    * Set it as the primary display language.
    * Apply the changes and restart your computer.
-   * ![windows-language-settings.png](/windows-language-settings.png)
+   * ![windows-language-settings.png][img-windows-language-settings]
 
 
 ### Watch this video tutorial
 
 Before continuing, watch this video tutorial before continuing:
 
-* [日本在留資格オンライン申請（在留資格线上申請） - YouTube](https://www.youtube.com/watch?v=IWJOFH99NpM)
+* [日本在留資格オンライン申請（在留資格线上申請） - YouTube][visa-youtube-tutorial]
 
 The video is in Chinese, I highly recommend watching this video tutorial as it is the best walkthrough showing how to set up the JPKI app on Windows for visa renewal.
 
@@ -179,16 +176,16 @@ The video is in Chinese, I highly recommend watching this video tutorial as it i
 
 After configuring Windows to Japanese settings, install:
 
-* [JPKI app (JPKI 利用者ソフト)](https://www.jpki.go.jp/download/win.html)
-* [latest JAVA update (Java8 Update 371)](https://www.java.com/en/download/)
+* [JPKI app (JPKI 利用者ソフト)][jpki-app-win]
+* [latest JAVA update (Java8 Update 371)][java-download]
   * Download directly, not via package manager.
   * "JRE" or "Java Runtime Environment" is just Java.
-* [利用者クライアントソフト Edge/Chrome - Chrome ウェブストア](https://chromewebstore.google.com/detail/%E5%88%A9%E7%94%A8%E8%80%85%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BD%E3%83%95%E3%83%88-edgechrome/ddhaancdmkmeigppopkakhpbboccibla?hl=ja)
+* [利用者クライアントソフト Edge/Chrome - Chrome ウェブストア][jpki-browser-extension]
 
 Run the apps as administrator and allow them to run in the background.
 
 * Right-click the app's shortcut or executable and select "Run as administrator" from the context menu
-* ![windows-run-as-admin-settings.png](/windows-run-as-admin-settings.png)
+* ![windows-run-as-admin-settings.png][img-windows-run-as-admin-settings]
 
 > [!WARNING]  
 > Install Java first, then the JPKI app. Order matters.
@@ -206,10 +203,10 @@ Open the JPKI app (`JPKI利用者ソフト`) and make sure it runs without error
 
 After installing the JPKI app and Java, you can now proceed to the online visa renewal process.
 
-1. Open the Immigration Services Agency's [Online Residence Application Procedures](https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en) webpage.
+1. Open the Immigration Services Agency's [Online Residence Application Procedures][online-residence-application] webpage.
 2. Click the big green button labeled `在留申請オンラインシステムのご利用はこちらから。（在留申請オンラインシステムのトップページへリンクします。）`
    * `https://www.ras-immi.moj.go.jp/WC01/WCAAS010/`
-   * ![Screenshot of the visa homepage with the button highlighted](/visa-renewal/visa-website-button.png)
+   * ![Screenshot of the visa homepage with the button highlighted][img-visa-website-button]
 
 
 ## Troubleshooting
@@ -223,7 +220,7 @@ Here are some issues I encountered while trying to setup the Windows VM, install
   * Context: When starting the Windows VM for the first time, instead of the Windows installation wizard, you see a black screen with `UEFI Iterative Shell v2.2`.
   * Cause: You missed hitting `Enter` to boot from the attached Windows Boot ISO image file. Thus, you are seeing the VM's shell instead of the Windows installer.
   * Solution: Restart the Windows VM and hit `Enter` immediately after the VM starts.
-  * ![Screenshot of UEFI Iterative Shell v2.2 screen](/visa-renewal/windows-black-shell.png)
+  * ![Screenshot of UEFI Iterative Shell v2.2 screen][img-windows-black-shell]
 
 * Issue: VM crashes or freezes.
   * Cause: Not enough disk space or RAM.
@@ -234,11 +231,11 @@ Here are some issues I encountered while trying to setup the Windows VM, install
 
 Issue: When trying to run the JPKI installer, you may encounter a broken error message like this:
 
-* ![Broken error message when running JPKI 利用者ソフト](/visa-renewal/jpki-broken-error.png)
+* ![Broken error message when running JPKI 利用者ソフト][img-jpki-broken-error]
 
 Cause: JPKI app uses non-Unicode characters and the Windows's `Language for non-Unicode programs` is not set to Japanese. (Like even Japanese people may not have configured this setting...)
 
-Solution: Follow the instructions in [Change Language and Region settings to Japanese](#change-language-and-region-settings-to-japanese) section above.
+Solution: Follow the instructions in [Change Language and Region settings to Japanese][change-language-region] section above.
 
 
 ### EW000J0200 error from JPKI 利用者ソフト
@@ -259,7 +256,7 @@ User Client Software Error
 Error code: EW000J0200
 ```
 
-* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](/visa-renewal/jpki-reader-error.png)
+* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup][img-jpki-reader-error]
 
 Possible causes:
 
@@ -297,7 +294,7 @@ Error code: EW104J1502
 Error details: 0x00000006
 ```
 
-* ![EW104J1502 error from JPKI 利用者ソフト](/visa-renewal/jpki-error-ew104j1502.png)
+* ![EW104J1502 error from JPKI 利用者ソフト][img-jpki-error-ew104j1502]
 
 Possible causes:
 
@@ -309,5 +306,41 @@ Possible causes:
 
 ## References
 
-* [How to renew your Japan visa online and in person - Tokyo Cheapo](https://tokyocheapo.com/living/renew-visa-online-japan/)
-* [マイナンバーカードのご用意 | 公的個人認証サービス ポータルサイト](https://www.jpki.go.jp/prepare/juki.html)
+* [How to renew your Japan visa online and in person - Tokyo Cheapo][tokyo-cheapo-visa]
+* [マイナンバーカードのご用意 | 公的個人認証サービス ポータルサイト][jpki-prepare-juki]
+
+<!-- Links -->
+
+[crystalfetch]: https://github.com/TuringSoftware/CrystalFetch
+[crystalfetch-app-store]: https://apps.apple.com/app/crystalfetch-iso-downloader/id6454431289
+[ic-card-reader-list]: https://www.jpki.go.jp/prepare/pdf/num_rwlist11.pdf
+[java-download]: https://www.java.com/en/download/
+[jpki-android-app]: https://play.google.com/store/apps/details?id=jp.go.jpki.mobile.utility&pcampaignid=web_share
+[jpki-app-win]: https://www.jpki.go.jp/download/win.html
+[jpki-browser-extension]: https://chromewebstore.google.com/detail/%E5%88%A9%E7%94%A8%E8%80%85%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BD%E3%83%95%E3%83%88-edgechrome/ddhaancdmkmeigppopkakhpbboccibla?hl=ja
+[jpki-prepare-juki]: https://www.jpki.go.jp/prepare/juki.html
+[microsoft-windows11]: https://www.microsoft.com/software-download/windows11
+[my-number-card-application]: https://www.kojinbango-card.go.jp/en-mynumber/
+[online-residence-application]: https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en
+[parallels-desktop]: https://www.parallels.com/products/desktop/trial/
+[tokyo-cheapo-visa]: https://tokyocheapo.com/living/renew-visa-online-japan/
+[utm]: https://mac.getutm.app/
+[utm-app-store]: https://apps.apple.com/app/utm-virtual-machines/id1538878817
+[utm-windows-docs]: https://docs.getutm.app/guides/windows/
+[utm-youtube-tutorial]: https://www.youtube.com/watch?v=hdddzyIPasU
+[visa-youtube-tutorial]: https://www.youtube.com/watch?v=IWJOFH99NpM
+
+<!-- Internal links -->
+
+[change-language-region]: #change-language-and-region-settings-to-japanese
+
+<!-- Image links -->
+
+[img-jpki-broken-error]: /visa-renewal/jpki-broken-error.png
+[img-jpki-error-ew104j1502]: /visa-renewal/jpki-error-ew104j1502.png
+[img-jpki-reader-error]: /visa-renewal/jpki-reader-error.png
+[img-visa-website-button]: /visa-renewal/visa-website-button.png
+[img-windows-black-shell]: /visa-renewal/windows-black-shell.png
+[img-windows-language-settings]: /windows-language-settings.png
+[img-windows-non-unicode-programs-settings]: /windows-non-unicode-programs-settings.png
+[img-windows-run-as-admin-settings]: /windows-run-as-admin-settings.png

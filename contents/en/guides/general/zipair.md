@@ -49,9 +49,6 @@ localization: sync
 * **Option to receive the meal 2 hours before arrival** (with a small charge).
 * **No carbonated water is served on the plane** (only soda is available for purchase).
 
-[7-Eleven Narita Airport Terminal 1]: https://maps.app.goo.gl/yW2jSrHjmbqnE3rw7
-[7-Eleven Terminal 1]: https://www.narita-airport.jp/en/map/?poi=16856599&bearing=59.5&zoom=18&pitch=0&lat=35.76412280000001&lng=140.38351439999997&building=b1f7eac9-464b-49df-aa67-24210e1f9b16&floor=3F
-
 
 ## ⭐ Food ratings
 
@@ -76,16 +73,12 @@ localization: sync
   * **Note**: Sporting goods are excluded from the discount.
   * ⚠️ **Warning**: The discount is only available on the web after logging in as a member.
 
-[ZIPAIR Point Club Plus]: https://www.zipair.net/en/membership
-
 
 ## ⚠️ Warnings
 
 * **No refunds or changes are allowed**.
 * **24-hour cancellation policy for flights to/from the USA** - Cancel your ticket without penalty within 24 hours of booking (reservation must be made at least 1 week before departure).
 * [Fare Rules - ZIPAIR Official Website][]
-
-[Fare Rules - ZIPAIR Official Website]: https://www.zipair.net/en/farerules
 
 
 ## ✈️ Travel tips
@@ -105,3 +98,10 @@ localization: sync
 ## 📶 Onboard Wi-Fi
 
 * Onboard Wi-Fi is free but **very slow**. Messaging apps work fine, but do not expect browsing.
+
+<!-- Links -->
+
+[7-Eleven Narita Airport Terminal 1]: https://maps.app.goo.gl/yW2jSrHjmbqnE3rw7
+[7-Eleven Terminal 1]: https://www.narita-airport.jp/en/map/?poi=16856599&bearing=59.5&zoom=18&pitch=0&lat=35.76412280000001&lng=140.38351439999997&building=b1f7eac9-464b-49df-aa67-24210e1f9b16&floor=3F
+[Fare Rules - ZIPAIR Official Website]: https://www.zipair.net/en/farerules
+[ZIPAIR Point Club Plus]: https://www.zipair.net/en/membership

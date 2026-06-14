@@ -45,7 +45,7 @@ Before applying, confirm three things:
 * **Contract information** (remaining device balance, proration, discount end, etc.)
 
 **Confirm device compatibility**
-Check the [Y!mobile supported devices page][ymobile-devices] (`動作確認端末`) to see whether the device you plan to keep using supports Y!mobile eSIM. The device must support eSIM, and you need a Wi-Fi connection during initial setup.
+Check the [Y!mobile supported devices page][ymobile-sim-esim] (`動作確認端末`) to see whether the device you plan to keep using supports Y!mobile eSIM. The device must support eSIM, and you need a Wi-Fi connection during initial setup.
 
 **Confirm SIM lock status**
 Many recent devices do not have a SIM lock. For an older SoftBank device, confirm just in case. Y!mobile provides guidance for SIM unlock (`SIMロック解除`) when using a device from another carrier.
@@ -89,14 +89,6 @@ If you will continue SoftBank Hikari, switch on the Y!mobile side to **`おう�
 **Reconfirm PayPay and PayPay Card linkage**
 According to [PayPay Card's benefit page][paypay-benefit], to receive benefits you need to confirm SoftBank linkage settings, set PayPay Card as the payment method for smartphone charges, and if necessary, set up combined billing for Hikari and electricity.
 
-[ymobile-devices]: https://www.ymobile.jp/store/sp/sim/
-[ymobile-sim-esim]: https://www.ymobile.jp/store/sp/sim/
-[ymobile-portability]: https://www.ymobile.jp/support/process/portability/
-[ymobile-flow-esim]: https://www.ymobile.jp/store/to_beginner/flow_esim/
-[ymobile-hikari-set]: https://www.ymobile.jp/plan/discount/hikarisetwari/
-[ymobile-ouchiwari]: https://www.ymobile.jp/store/to_beginner/ouchiwari/
-[paypay-benefit]: https://www.paypay-card.co.jp/service/benefit/mobile/
-
 
 ## Cost breakdown
 
@@ -111,9 +103,6 @@ According to [PayPay Card's benefit page][paypay-benefit], to receive benefits y
 ### Estimated total cost
 
 Assuming there is no remaining device balance or exceptional cancellation fee, the effective initial cost is mainly the Y!mobile online contract administrative fee of JPY 3,850 (tax included). If cancellation is made mid-month, SoftBank's final month is billed in full, and Y!mobile's monthly service charge is added.
-
-[softbank-mnp-fee]: https://www.softbank.jp/support/faq/view/11028
-[softbank-cancel-fee]: https://www.softbank.jp/support/faq/view/10617
 
 
 ## Impact on existing services
@@ -143,8 +132,6 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 
 Y!mobile officially states that `家族割引サービス` and `おうち割 光セット（A）` cannot be combined.
 
-[softbank-cancel-notes]: https://www.softbank.jp/mobile/support/cancellation/mnp/notification/
-
 
 ## Campaigns and discounts (online)
 
@@ -164,9 +151,6 @@ Y!mobile officially states that `家族割引サービス` and `おうち割 光
 3. Y!mobile-side `おうち割 光セット（A）` by continuing SoftBank Hikari
 
 Layering these three is realistic in an online transfer.
-
-[ymobile-campaign]: https://www.ymobile.jp/cp/
-[ymobile-simulation]: https://www.ymobile.jp/sp/simulation/
 
 
 ## Recommendations and advice
@@ -215,55 +199,58 @@ These require individual confirmation on the application screen or in `My SoftBa
 
 ## Reference information
 
-* [Y!mobile - Application procedure by MNP / number transfer][ymobile-portability-ref]
+* [Y!mobile - Application procedure by MNP / number transfer][ymobile-portability]
   Official page confirming that, for number transfers from SoftBank or LINEMO, an MNP reservation number is unnecessary.
 
 * [Y!mobile - Items to prepare][ymobile-necessaries]
   Page for confirming what is needed before online application. Includes guidance that identity verification documents may be unnecessary for number transfers from SoftBank.
 
-* [Y!mobile - Flow from application to start of use (eSIM)][ymobile-flow-esim-ref]
+* [Y!mobile - Flow from application to start of use (eSIM)][ymobile-flow-esim]
   Page for confirming eSIM activation time, line switching reception hours, and the initial setup flow.
 
-* [Y!mobile - SIM card / eSIM][ymobile-simulation-ref]
+* [Y!mobile - SIM card / eSIM][ymobile-sim-esim]
   Official page explaining how eSIM works, the application entry point, and a link to the supported device page.
 
-* [SoftBank FAQ - Is there an MNP transfer-out fee?][softbank-mnp-fee-ref]
+* [SoftBank FAQ - Is there an MNP transfer-out fee?][softbank-mnp-fee]
   Official FAQ confirming transfer-out fee JPY 0, remaining device balance, proration, and points to note regarding the end of discounts.
 
-* [SoftBank FAQ - Contract cancellation fee at cancellation][softbank-cancel-fee-ref]
+* [SoftBank FAQ - Contract cancellation fee at cancellation][softbank-cancel-fee]
   Official FAQ confirming that contract cancellation fees are waived for consumer plans in principle.
 
-* [SoftBank - Notes regarding switching and cancellation][softbank-cancel-notes-ref]
+* [SoftBank - Notes regarding switching and cancellation][softbank-cancel-notes]
   Official page for checking points to note before switching, such as no proration in the cancellation month and continuation of remaining installment payments.
 
-* [Y!mobile - `おうち割 光セット（A）`][ymobile-hikari-ref]
+* [Y!mobile - `おうち割 光セット（A）`][ymobile-hikari-set]
   Official guidance on the Y!mobile-side bundle discount when using SoftBank Hikari or SoftBank Air.
 
-* [Y!mobile - How to apply online for `おうち割 光セット（A）`][ymobile-ouchiwari-ref]
+* [Y!mobile - How to apply online for `おうち割 光セット（A）`][ymobile-ouchiwari]
   Official guide for people already under contract for SoftBank Hikari who want to proceed with the bundle discount during online application.
 
-* [PayPay Card - Benefits for use of SoftBank / Y!mobile services][paypay-benefit-ref]
+* [PayPay Card - Benefits for use of SoftBank / Y!mobile services][paypay-benefit]
   Official page for confirming mobile benefits, linkage methods, and point grant rates for PayPay Card Gold use.
 
 * [PayPay Card - Notice of partial change to Y!mobile benefits][paypay-notice]
   Official notice for confirming the changed contents of `PayPayカード割` after the start of `シンプル3`.
 
-* [Y!mobile - Campaign information][ymobile-campaign-ref]
+* [Y!mobile - Campaign information][ymobile-campaign]
   Official campaign portal for confirming PayPay point benefits for eSIM.
 
 * [mybest - Explanation of Y!mobile campaigns][mybest-ymobile]
   Third-party article useful for interpreting official conditions. Final judgment should always be made together with the official terms and conditions.
 
-[ymobile-portability-ref]: https://www.ymobile.jp/support/process/portability/
-[ymobile-necessaries]: https://www.ymobile.jp/store/to_beginner/necessaries/
-[ymobile-flow-esim-ref]: https://www.ymobile.jp/store/to_beginner/flow_esim/
-[ymobile-simulation-ref]: https://www.ymobile.jp/store/sp/sim/
-[softbank-mnp-fee-ref]: https://www.softbank.jp/support/faq/view/11028
-[softbank-cancel-fee-ref]: https://www.softbank.jp/support/faq/view/10617
-[softbank-cancel-notes-ref]: https://www.softbank.jp/mobile/support/cancellation/mnp/notification/
-[ymobile-hikari-ref]: https://www.ymobile.jp/plan/discount/hikarisetwari/
-[ymobile-ouchiwari-ref]: https://www.ymobile.jp/store/to_beginner/ouchiwari/
-[paypay-benefit-ref]: https://www.paypay-card.co.jp/service/benefit/mobile/
-[paypay-notice]: https://www.paypay-card.co.jp/info/008592.html
-[ymobile-campaign-ref]: https://www.ymobile.jp/cp/
+<!-- Links -->
+
 [mybest-ymobile]: https://my-best.com/articles/657
+[paypay-benefit]: https://www.paypay-card.co.jp/service/benefit/mobile/
+[paypay-notice]: https://www.paypay-card.co.jp/info/008592.html
+[softbank-cancel-fee]: https://www.softbank.jp/support/faq/view/10617
+[softbank-cancel-notes]: https://www.softbank.jp/mobile/support/cancellation/mnp/notification/
+[softbank-mnp-fee]: https://www.softbank.jp/support/faq/view/11028
+[ymobile-campaign]: https://www.ymobile.jp/cp/
+[ymobile-flow-esim]: https://www.ymobile.jp/store/to_beginner/flow_esim/
+[ymobile-hikari-set]: https://www.ymobile.jp/plan/discount/hikarisetwari/
+[ymobile-necessaries]: https://www.ymobile.jp/store/to_beginner/necessaries/
+[ymobile-ouchiwari]: https://www.ymobile.jp/store/to_beginner/ouchiwari/
+[ymobile-portability]: https://www.ymobile.jp/support/process/portability/
+[ymobile-sim-esim]: https://www.ymobile.jp/store/sp/sim/
+[ymobile-simulation]: https://www.ymobile.jp/sp/simulation/

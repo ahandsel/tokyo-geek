@@ -17,8 +17,8 @@ localization: sync
 
 ## Washing machines
 
-* [Japanese Decoded: Washing Machines And Dryers - Savvy Tokyo](https://savvytokyo.com/kanji-cheat-sheet-washers-and-dryers/)
-* [Ultimate Guide to Japanese Washing Machines | Japan Switch](https://japanswitch.com/ultimate-guide-to-japanese-washing-machine/)
+* [Japanese Decoded: Washing Machines And Dryers - Savvy Tokyo][savvy-tokyo-washers]
+* [Ultimate Guide to Japanese Washing Machines | Japan Switch][japan-switch-washers]
 
 
 ## Drying clothes in Japan
@@ -41,4 +41,10 @@ There are a few common options for drying clothes in Japan:
   * Newer apartments may have the drying feature in the bathroom (with bathtubs) which uses warm air circulation to dry clothes hung on a rod and the bathroom itself.
   * Similar to a dehumidifier but built into the bathroom setup.
 
-For more details, read [Useful things to buy for your Tokyo apartment](./moving/great-things-to-buy.md).
+For more details, read [Useful things to buy for your Tokyo apartment][great-things-to-buy].
+
+<!-- Links -->
+
+[great-things-to-buy]: ./moving/great-things-to-buy.md
+[japan-switch-washers]: https://japanswitch.com/ultimate-guide-to-japanese-washing-machine/
+[savvy-tokyo-washers]: https://savvytokyo.com/kanji-cheat-sheet-washers-and-dryers/

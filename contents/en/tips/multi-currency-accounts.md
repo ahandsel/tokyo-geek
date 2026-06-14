@@ -21,7 +21,7 @@ Multi-currency accounts are digital wallets or fintech banking services that let
 They provide travelers, expatriates, and remote workers with a convenient way to manage money across borders without the high fees and poor exchange rates common at traditional banks.
 Think of PayPal but focused on currency exchange and travel spending.
 
-Popular options are **[Wise][]** (formerly TransferWise) and **[Revolut][]**.
+Popular options are **[Wise][wise]** (formerly TransferWise) and **[Revolut][revolut]**.
 
 * Neither is a traditional bank, but both partner with regulated financial institutions to hold customer funds.
 * There is no Federal Deposit Insurance Corporation (FDIC) insurance or interest on balances, but they are generally safe for holding and spending money internationally.
@@ -75,8 +75,8 @@ Here is a brief comparison of Wise and Revolut for travel purposes:
 You can set up Wise and Revolut in roughly the same way.
 
 1. **Download the app**
-   * [Wise][]
-   * [Revolut][]
+   * [Wise][wise]
+   * [Revolut][revolut]
 2. **Create your account**
    * Use your legal name and home address.
    * Expect to provide proof of identity (passport or ID).
@@ -112,12 +112,20 @@ You can set up Wise and Revolut in roughly the same way.
 
 ## References
 
-* [Wise - Multi-currency account](https://wise.com/gb/account/)
-* [Wise - International debit card](https://wise.com/gb/card/)
-* [Revolut - Cards](https://www.revolut.com/cards/)
-* [Wise vs. Revolut rates comparison](https://wise.com/us/blog/revolut-vs-wise)
-* [Wise review - Finder](https://www.finder.com/international-money-transfers/wise)
-* [Revolut review - Finder](https://www.finder.com/banking/revolut-review)
+* [Wise - Multi-currency account][wise-account]
+* [Wise - International debit card][wise-card]
+* [Revolut - Cards][revolut-cards]
+* [Wise vs. Revolut rates comparison][wise-vs-revolut]
+* [Wise review - Finder][finder-wise-review]
+* [Revolut review - Finder][finder-revolut-review]
 
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+<!-- Links -->
+
+[finder-revolut-review]: https://www.finder.com/banking/revolut-review
+[finder-wise-review]: https://www.finder.com/international-money-transfers/wise
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut-cards]: https://www.revolut.com/cards/
+[wise]: https://wise.com/invite/ihpn/genjif1
+[wise-account]: https://wise.com/gb/account/
+[wise-card]: https://wise.com/gb/card/
+[wise-vs-revolut]: https://wise.com/us/blog/revolut-vs-wise

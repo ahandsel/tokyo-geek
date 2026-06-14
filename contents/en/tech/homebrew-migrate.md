@@ -16,8 +16,6 @@ localization: sync
 
 Here is how to migrate your macOS applications from one Mac to another using Homebrew and a Brewfile.
 
-[homebrew]: https://brew.sh/
-
 
 ## Step 1: Export Brewfile from existing Mac
 
@@ -56,4 +54,7 @@ This command reads the Brewfile and installs all specified applications and pack
 * For Alfred users, the [Homebrew Search][alfred-homebrew-search] workflow can help find and install apps quickly.
 * Regularly update your Brewfile to keep track of installed applications.
 
+<!-- Links -->
+
 [alfred-homebrew-search]: https://alfred.app/workflows/chrisgrieser/homebrew-search/
+[homebrew]: https://brew.sh/

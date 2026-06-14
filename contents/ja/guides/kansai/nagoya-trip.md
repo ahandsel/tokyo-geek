@@ -21,7 +21,7 @@ localization: sync
 | --- | --- | --- | --- |
 | 11,500 円 | 新幹線 | 約 1.65 時間 | |
 
-詳しくは [新幹線割引 東京〜名古屋](../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md) をご覧ください。
+詳しくは [新幹線割引 東京〜名古屋][shinkansen-tokyo-nagoya] をご覧ください。
 
 
 ## 名古屋の観光スポット
@@ -29,22 +29,22 @@ localization: sync
 
 ### ジブリパーク
 
-* HP: [GHIBLI PARK](https://ghibli-park.jp/en/)
-* [チケット - GHIBLI PARK](https://ghibli-park.jp/en/ticket/)
-* <https://l-tike.com/bw-ticket/ghibli/ghibli-park/>
+* HP: [GHIBLI PARK][ghibli-park-en]
+* [チケット - GHIBLI PARK][ghibli-park-ticket]
+* [https://l-tike.com/bw-ticket/ghibli/ghibli-park/][lawson-ghibli-park]
 
 
 ## やりたいこと
 
 名古屋市科学館
 
-* <https://maps.app.goo.gl/z7MGmBTTwmQYf2fk9>
-* <https://www.instagram.com/reel/C3ckS0XylUI/?igsh=d2E0aTQ1eXVzZ2Fi>
+* [https://maps.app.goo.gl/z7MGmBTTwmQYf2fk9][map-nagoya-science-museum]
+* [https://www.instagram.com/reel/C3ckS0XylUI/?igsh=d2E0aTQ1eXVzZ2Fi][instagram-nagoya-science-museum]
 
 
 ## ホテル
 
-[Sanco Inn Nagoya Fushimi](https://maps.app.goo.gl/gU92PazMjTTagJx47)
+[Sanco Inn Nagoya Fushimi][map-sanco-inn]
 
 
 ## 名古屋から高山への交通手段
@@ -98,7 +98,21 @@ localization: sync
 
 ## 参考リンク
 
-* [高山旅行ガイド - 高山市の観光情報](https://www.japan-guide.com/e/e5900.html)
-* [名古屋から高山へのアクセス](https://www.japan-guide.com/e/e5908.html?aFROM=2155_5900)
-* [東京から高山へのアクセス](https://www.japan-guide.com/e/e5908.html?aFROM=2164_5900)
-* [松本から高山へのアクセス](https://www.japan-guide.com/e/e5908.html?aFROM=5900_6050)
+* [高山旅行ガイド - 高山市の観光情報][takayama-travel-guide]
+* [名古屋から高山へのアクセス][takayama-from-nagoya]
+* [東京から高山へのアクセス][takayama-from-tokyo]
+* [松本から高山へのアクセス][takayama-from-matsumoto]
+
+<!-- Links -->
+
+[ghibli-park-en]: https://ghibli-park.jp/en/
+[ghibli-park-ticket]: https://ghibli-park.jp/en/ticket/
+[instagram-nagoya-science-museum]: https://www.instagram.com/reel/C3ckS0XylUI/?igsh=d2E0aTQ1eXVzZ2Fi
+[lawson-ghibli-park]: https://l-tike.com/bw-ticket/ghibli/ghibli-park/
+[map-nagoya-science-museum]: https://maps.app.goo.gl/z7MGmBTTwmQYf2fk9
+[map-sanco-inn]: https://maps.app.goo.gl/gU92PazMjTTagJx47
+[shinkansen-tokyo-nagoya]: ../bullet-train-shinkansen/shinkansen-tokyo-nagoya.md
+[takayama-from-matsumoto]: https://www.japan-guide.com/e/e5908.html?aFROM=5900_6050
+[takayama-from-nagoya]: https://www.japan-guide.com/e/e5908.html?aFROM=2155_5900
+[takayama-from-tokyo]: https://www.japan-guide.com/e/e5908.html?aFROM=2164_5900
+[takayama-travel-guide]: https://www.japan-guide.com/e/e5900.html

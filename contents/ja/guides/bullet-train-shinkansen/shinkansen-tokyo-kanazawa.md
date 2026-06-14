@@ -14,4 +14,8 @@ localization: independent
 
 東京〜金沢間の北陸新幹線の格安きっぷや割引情報の詳細は、新幹線旅行研究所のページをご覧ください。
 
-* [東京・金沢のお得な利用法 - 新幹線旅行研究所](https://shinkansen.tabiris.com/tokyo_kanazawa.html)
+* [東京・金沢のお得な利用法 - 新幹線旅行研究所][shinkansen-tabiris-kanazawa]
+
+<!-- Links -->
+
+[shinkansen-tabiris-kanazawa]: https://shinkansen.tabiris.com/tokyo_kanazawa.html

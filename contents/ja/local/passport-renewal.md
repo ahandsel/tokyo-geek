@@ -14,8 +14,6 @@ localization: sync
 
 デジタル庁が運営する[マイナポータル][my-number-card-portal]からパスポートのオンライン更新ができます。
 
-[my-number-card-portal]: https://myna.go.jp/html/passport_information.html
-
 [[toc]]
 
 
@@ -45,9 +43,6 @@ localization: sync
   * 申請前に、正確に入力できるよう本籍を確認しておいてください。
 * 顔写真（申請手続き中にスマートフォンで撮影します）
 * 白い無地の紙に書いた署名（申請手続き中にスマートフォンで撮影します）
-
-[android-version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
-[ios-version]: https://apps.apple.com/jp/app/id1476359069
 
 
 ### 顔写真と署名の撮影準備
@@ -92,9 +87,6 @@ localization: sync
 * パスワードを忘れた場合は、住所地の市区町村窓口、または専用アプリをダウンロードしてコンビニのキオスク端末で再設定できます。
 * [コンビニで署名用パスワードを初期化する方法][initialize-signature-password-at-a-convenience-store]
 
-[how-to-check-validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
-[initialize-signature-password-at-a-convenience-store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
-
 
 ## 署名画像の要件
 
@@ -107,15 +99,13 @@ localization: sync
 * 署名が濃い黒または青のインクで書かれていること。
 * 本人が署名できない場合は、法定代理人が代筆してください。
 
-![署名のサンプル画像][passport-renewal-signature-sample]
+![署名のサンプル画像][img-passport-renewal-signature-sample]
 
 ファイル形式
 
 * jpeg, jpg
 * サイズ：幅 788 x 高さ 284 ピクセル
 * ファイルサイズ：200 KB 以下
-
-[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png
 
 
 ## 処理を待つ
@@ -131,8 +121,6 @@ localization: sync
 参考：
 
 * [パスポートの申請状況が「処理中」のままとなっていますが、いつ「完了」になりますか。 - よくある質問｜マイナポータル][faq-status-pending]
-
-[faq-status-pending]: https://faq.myna.go.jp/faq/show/8338?site_domain=default
 
 
 ## パスポートの受け取り
@@ -153,4 +141,16 @@ localization: sync
 
 * [パスポート申請 FAQ（日本語）][faq-passport-all]
 
+<!-- Links -->
+
+[android-version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
 [faq-passport-all]: https://faq.myna.go.jp/faq/list/8336?site_domain=default
+[faq-status-pending]: https://faq.myna.go.jp/faq/show/8338?site_domain=default
+[how-to-check-validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
+[initialize-signature-password-at-a-convenience-store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
+[ios-version]: https://apps.apple.com/jp/app/id1476359069
+[my-number-card-portal]: https://myna.go.jp/html/passport_information.html
+
+<!-- Image links -->
+
+[img-passport-renewal-signature-sample]: /passport-renewal-signature-sample.png

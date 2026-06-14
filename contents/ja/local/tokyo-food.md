@@ -19,7 +19,7 @@ localization: sync
 
 やさいの王様
 
-* [やさいの王様 日比谷シャンテ店](https://maps.app.goo.gl/aMkjyWrsR3GhgMzz7)
+* [やさいの王様 日比谷シャンテ店][yasai-no-osama-hibiya]
 * ヘルシーな和食の定食
 * 場所：日比谷駅と銀座駅の間
 
@@ -28,13 +28,13 @@ localization: sync
 
 きじ 丸の内店
 
-* [きじ 丸の内店](https://maps.app.goo.gl/RzgEUnEZVXCMAenc7)
+* [きじ 丸の内店][kiji-marunouchi]
 * 定番のお好み焼きレストラン
 * 場所：東京駅 丸の内南口
 
 つるとんたん BIS TOKYO
 
-* [おいしいおうどん つるとんたん BIS TOKYO](https://maps.app.goo.gl/hUhTrWCYeav5NXLL9)
+* [おいしいおうどん つるとんたん BIS TOKYO][tsurutontan-bis-tokyo]
 * 大盛りが人気のうどんレストラン。眺めもいいです
 * 場所：有楽町駅と東京駅の間
 
@@ -43,6 +43,13 @@ localization: sync
 
 牛かつもと村 コレド室町店
 
-* [牛かつもと村 コレド室町店](https://maps.app.goo.gl/bkXFwdMvPTjB3RzH7)
+* [牛かつもと村 コレド室町店][gyukatsu-motomura-coredo]
 * 一番のお気に入りの牛かつ（衣をつけて揚げた牛カツレツ）レストランです
 * 場所：三越前駅の近く
+
+<!-- Links -->
+
+[gyukatsu-motomura-coredo]: https://maps.app.goo.gl/bkXFwdMvPTjB3RzH7
+[kiji-marunouchi]: https://maps.app.goo.gl/RzgEUnEZVXCMAenc7
+[tsurutontan-bis-tokyo]: https://maps.app.goo.gl/hUhTrWCYeav5NXLL9
+[yasai-no-osama-hibiya]: https://maps.app.goo.gl/aMkjyWrsR3GhgMzz7

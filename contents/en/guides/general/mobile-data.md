@@ -22,30 +22,30 @@ Here is my quick recommendation for getting cell phone service while traveling i
 
 ### Traveling solo or as a couple?
 
-* Use the [eSIM method](#esim-method) for data-only service. Consider the [eSIM with voice and data](#esim-with-voice-and-data) if you plan on making calls. However, you do not need reservations if you are just one or two people.
+* Use the [eSIM method][esim-method] for data-only service. Consider the [eSIM with voice and data][esim-with-voice-and-data] if you plan on making calls. However, you do not need reservations if you are just one or two people.
 
 
 ### Traveling for work?
 
-* Use the [mobile router method](#mobile-router-method) for fast, reliable internet.
+* Use the [mobile router method][mobile-router-method] for fast, reliable internet.
 * While global shops like Starbucks or McDonald's offer free Wi-Fi, many cafes and train stations do not. (Free Wi-Fi is not as common in Japan as in the United States.)
-* Another option is to use the [eSIM method](#esim-method) and find [co-working spaces](https://tokyocheapo.com/business/drop-in-coworking-spaces-tokyo/) when you need to work.
+* Another option is to use the [eSIM method][esim-method] and find [co-working spaces][co-working-spaces] when you need to work.
 
 
 ### Traveling as a group?
 
-* Have one person use the [eSIM with voice and data](#esim-with-voice-and-data) for a Japanese phone number. This person can make reservations and sign up for services.
-* Everyone else can use the [eSIM method](#esim-method) for data-only service.
-* For those on travel-friendly carriers like T-Mobile, use the [carrier method](#carrier-method).
+* Have one person use the [eSIM with voice and data][esim-with-voice-and-data] for a Japanese phone number. This person can make reservations and sign up for services.
+* Everyone else can use the [eSIM method][esim-method] for data-only service.
+* For those on travel-friendly carriers like T-Mobile, use the [carrier method][carrier-method].
 
 
 ## Overview
 
 There are three options for getting mobile data when traveling in Japan:
 
-1. [eSIM method](#esim-method) - Buy an eSIM card from travel eSIM providers.
-2. [Mobile router method](#mobile-router-method) - Rent a mobile router.
-3. [Carrier method](#carrier-method) - Enable your cell service provider's international roaming services.
+1. [eSIM method][esim-method] - Buy an eSIM card from travel eSIM providers.
+2. [Mobile router method][mobile-router-method] - Rent a mobile router.
+3. [Carrier method][carrier-method] - Enable your cell service provider's international roaming services.
 
 Who should use the **eSIM** method?
 
@@ -78,7 +78,7 @@ Who should use the **carrier** method?
 
 * All iPhones released after 2019 support eSIM (iPhone 11 and newer models).
 * Examples: iPhone XS, iPhone XS Max, iPhone XR, and newer models.
-* For more information, refer to the [Apple Support](https://support.apple.com/en-us/HT209044) page.
+* For more information, refer to the [Apple Support][apple-support] page.
 
 
 ### How to use eSIM
@@ -94,23 +94,23 @@ Who should use the **carrier** method?
 
 ### Video tutorials
 
-* [Airalo Tutorial: How to install an eSIM on your iOS device via the Direct Installation method - YouTube](https://www.youtube.com/watch?v=LOCh56YYvUY)
-* [Getting Started with Airalo in 2023 - Full iPhone Tutorial - YouTube](https://www.youtube.com/watch?v=Pi1Cb1tEeSI)
+* [Airalo Tutorial: How to install an eSIM on your iOS device via the Direct Installation method - YouTube][airalo-tutorial]
+* [Getting Started with Airalo in 2023 - Full iPhone Tutorial - YouTube][airalo-getting-started]
 
 
 ### Recommended eSIM providers
 
 eSIM providers (ranked by recommendation):
 
-1. [Airalo](https://www.airalo.com/japan-eSIM)
-   * [Use code `AB6826` to get $3.00 off your first order](https://ref.airalo.com/DB2m).
-2. [Nomad](https://www.getnomad.app/japan-eSIM)
-   * 25% off using `KEITLQPQFA` referral code - [help doc](https://www.getnomad.app/help-center/articles/9886364)
+1. [Airalo][airalo]
+   * [Use code `AB6826` to get $3.00 off your first order][airalo-referral].
+2. [Nomad][nomad]
+   * 25% off using `KEITLQPQFA` referral code - [help doc][nomad-help-doc]
 
 
 ### eSIM with voice and data
 
-For those who want a Japanese cell phone number during their stay, consider the [Short Term Voice+Data eSIMs from Mobal](https://www.mobal.com/japan-esims/?t=st#:~:text=Short%20Term%20Voice%2BData%20eSIMs).
+For those who want a Japanese cell phone number during their stay, consider the [Short Term Voice+Data eSIMs from Mobal][mobal-voice-data-esims].
 
 While it is more expensive than data-only eSIMs, it allows you to make and receive calls in Japan like a local.
 
@@ -129,7 +129,7 @@ Tip: Carry it in your backpack with a power bank to keep it charged. Most mobile
 
 ### Options and pricing
 
-* Check out Tokyo Cheapo's [Renting a Pocket Wi-Fi Router in Japan](https://tokyocheapo.com/business/internet/rent-wifi-router-japan/) article for a list of options and prices.
+* Check out Tokyo Cheapo's [Renting a Pocket Wi-Fi Router in Japan][renting-pocket-wifi] article for a list of options and prices.
 
 
 ## Carrier method
@@ -148,3 +148,23 @@ See if your cell service provider offers international roaming services.
 
 * Expensive - Additional charges may be costly, so check the rates before using it.
 * Limited data - Most carriers impose a data cap for international roaming.
+
+<!-- Links -->
+
+[airalo]: https://www.airalo.com/japan-eSIM
+[airalo-getting-started]: https://www.youtube.com/watch?v=Pi1Cb1tEeSI
+[airalo-referral]: https://ref.airalo.com/DB2m
+[airalo-tutorial]: https://www.youtube.com/watch?v=LOCh56YYvUY
+[apple-support]: https://support.apple.com/en-us/HT209044
+[co-working-spaces]: https://tokyocheapo.com/business/drop-in-coworking-spaces-tokyo/
+[mobal-voice-data-esims]: https://www.mobal.com/japan-esims/?t=st#:~:text=Short%20Term%20Voice%2BData%20eSIMs
+[nomad]: https://www.getnomad.app/japan-eSIM
+[nomad-help-doc]: https://www.getnomad.app/help-center/articles/9886364
+[renting-pocket-wifi]: https://tokyocheapo.com/business/internet/rent-wifi-router-japan/
+
+<!-- Internal links -->
+
+[carrier-method]: #carrier-method
+[esim-method]: #esim-method
+[esim-with-voice-and-data]: #esim-with-voice-and-data
+[mobile-router-method]: #mobile-router-method

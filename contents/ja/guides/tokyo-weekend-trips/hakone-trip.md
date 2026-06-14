@@ -59,15 +59,15 @@ localization: sync
 * [大涌谷 / 大涌谷インフォメーションセンター][owakudani-center] - 温泉と黒たまごで有名な火山の谷です。
 * [金時山 / 金時山][mount-ashigara] - 山頂からの富士山の眺めが素晴らしいハイキングコースです。
 * [箱根ガラスの森美術館 / 箱根ガラスの森美術館][glass-museum] - 美しいガラスアート美術館と庭園です。
-* [箱根強羅公園 / 箱根強羅公園](https://maps.app.goo.gl/NJidmfP9SKBAm2uR7) - お茶室やクラフト体験のある素敵な公園です。
+* [箱根強羅公園 / 箱根強羅公園][hakone-gora-park] - お茶室やクラフト体験のある素敵な公園です。
 
 その他の人気スポット：
 
 * [箱根美術館 / 箱根美術館][hakone-museum] - 美しい庭園のある日本美術の美術館です。
 * [箱根神社 / 箱根神社][hakone-shrine] - 芦ノ湖のほとりにある歴史ある神社です。
 * [フォレストアドベンチャー箱根 / フォレストアドベンチャー・箱根][forest-adventure] - ジップラインやアスレチックコースがあるアウトドアアドベンチャーパークです。
-* [箱根小涌園ユネッサン](https://maps.app.goo.gl/45ivQxjay29eFPwe9) - プールやスライダーのあるウォーターパークです。お子様連れのファミリーにおすすめです。カップルや大人だけにはあまりおすすめしません。
-* [金時山](https://maps.app.goo.gl/KGaKFySYQstNo7Q36)
+* [箱根小涌園ユネッサン][hakone-kowakien-yunessun] - プールやスライダーのあるウォーターパークです。お子様連れのファミリーにおすすめです。カップルや大人だけにはあまりおすすめしません。
+* [金時山][kintoki-yama]
 
 
 ## ホテル
@@ -141,8 +141,8 @@ localization: sync
 
 ### 箱根フリーパス - 割引とパス
 
-* ウェブサイト：[箱根フリーパス：新宿からの旅行に便利なチケット](https://odakyu-global.com/passes/hakone-freepass/)
-* PDF: [HakoneFreepass_en202510](https://odakyu-global.com/_wp/wp-content/uploads/2025/08/HakoneFreepass_en202510.pdf)
+* ウェブサイト：[箱根フリーパス：新宿からの旅行に便利なチケット][hakone-freepass-website]
+* PDF: [HakoneFreepass_en202510][hakone-freepass-pdf]
 * 箱根フリーパス（箱根フリーパス）は、小田急電鉄が提供する割引パスで、箱根エリアの指定交通機関が定額で乗り放題になります。
 * 2 日間と 3 日間のプランがあり、週末旅行に最適です。
 * 箱根の主要交通（電車、バス、ケーブルカー、ロープウェイ、遊覧船）に加え、新宿〜[箱根湯本][Hakone-Yumoto]間の往復運賃も含まれています。
@@ -157,8 +157,8 @@ localization: sync
 * 直接購入するか、Klook のバウチャーを新宿駅または小田原駅で紙のパスに交換しましょう。
 * 紙のパスは e チケットより信頼性が高いです。箱根では携帯電話の電波が不安定で、海外キャリアの多くはうまく機能しません。
 * 受け取り場所：
-  * [小田急旅行センター 新宿西口地下（`小田急旅行センター 新宿西口地下`）](https://maps.app.goo.gl/J3uuBYtD8KmEVjnB7)
-  * [小田急旅行センター 小田原（`小田急旅行センター 小田原`）](https://maps.app.goo.gl/tN5WJ1LMn2JWU4SL6)
+  * [小田急旅行センター 新宿西口地下（`小田急旅行センター 新宿西口地下`）][odakyu-center-shinjuku]
+  * [小田急旅行センター 小田原（`小田急旅行センター 小田原`）][odakyu-center-odawara]
 
 > [!WARNING] ⚠️ e チケット版を使う場合、乗車時に表示するためにモバイルデータ通信が必要です。箱根は山間部のため、電波が不安定なことが多いです。問題を避けるために紙版を入手しましょう。
 
@@ -173,9 +173,9 @@ localization: sync
 * 新宿駅から 10:00 の小田急ロマンスカーで[箱根湯本][Hakone-Yumoto]へ出発。
 * 11:30 頃に[箱根湯本][Hakone-Yumoto]に到着。
 * [箱根湯本][Hakone-Yumoto]エリアを散策してランチ。
-* 箱根登山鉄道で[箱根彫刻の森美術館](https://maps.app.goo.gl/TvZMcuobuEZvjcr56)へ。
-  * チケットは事前購入がおすすめ：[Asoview で彫刻の森美術館チケット](https://www.asoview.com/channel/ticket/HDNSVzNB05/ticket0000031461/)
-* 夕食は[田むら銀かつ亭](https://maps.app.goo.gl/ymN75PXQCQkYjiAr9)で。
+* 箱根登山鉄道で[箱根彫刻の森美術館][hakone-open-air-museum-map]へ。
+  * チケットは事前購入がおすすめ：[Asoview で彫刻の森美術館チケット][asoview-open-air-museum-ticket]
+* 夕食は[田むら銀かつ亭][tamura-ginkatsutei]で。
   * 事前に予約しましょう。
 * ゆとりろ庵 ANNEX に宿泊。
 
@@ -189,19 +189,19 @@ localization: sync
 * ロープウェイで[大涌谷駅][Owakudani station]から[桃源台駅][Togendai station]へ。
 * 桃源台桟橋から元箱根港桟橋まで箱根海賊船に乗船。
 * [元箱根][Motohakone]エリアと周辺スポットを見学：
-  * [箱根甘酒茶屋](https://maps.app.goo.gl/A4JvAg15XUingU4b8)
-  * [箱根関所](https://maps.app.goo.gl/SCMZnE7zv5VgaFe87)
+  * [箱根甘酒茶屋][hakone-amazake-chaya]
+  * [箱根関所][hakone-checkpoint]
 
 
 ### 3 日目：箱根から東京へ
 
-* 午前遅め：[フォレストアドベンチャー箱根](https://maps.app.goo.gl/FBPNeRNZ3vEG5MFJ7)
+* 午前遅め：[フォレストアドベンチャー箱根][forest-adventure-hakone-map]
   * お子様、大人、ファミリー、どなたでも楽しめます。
   * 前日にサイトで予約しましょう。
 * 午後：[箱根湯本][Hakone-Yumoto]エリアを散策：
-  * [菊川商店](https://maps.app.goo.gl/9cfsEJ2QZ6DmzrVG9)
-  * [箱根ドルチェスタジオ STELLA](https://maps.app.goo.gl/DZyykcfRB221vpre6)
-  * [湯葉丼 直吉](https://maps.app.goo.gl/U8WxzwQLvN5kpcUR7)
+  * [菊川商店][kikukawa-shoten]
+  * [箱根ドルチェスタジオ STELLA][hakone-dolce-studio-stella]
+  * [湯葉丼 直吉][yubadon-naokichi]
 * 夕方：[箱根湯本][Hakone-Yumoto]駅から小田急ロマンスカーで新宿駅へ帰京。
 
 
@@ -212,6 +212,9 @@ localization: sync
 
 > [!TIP] ヒント：予約をスムーズにするために、事前に Klook と Asoview.com のアカウントを作成しておきましょう。
 
+<!-- Links -->
+
+[asoview-open-air-museum-ticket]: https://www.asoview.com/channel/ticket/HDNSVzNB05/ticket0000031461/
 [asoview.com]: https://www.asoview.com/location/are0141600/
 [bakery-table]: https://maps.app.goo.gl/Jpu1oRvsixf68XBj8
 [CafeDouce]: https://maps.app.goo.gl/opD9Yq1oR6RKJvt77
@@ -221,23 +224,38 @@ localization: sync
 [e-romancecar]: https://www.web-odakyu.com/e-romancecar/?language=en
 [emot-tickets]: https://www.emot.jp/hakonearea_lp.html
 [forest-adventure]: https://maps.app.goo.gl/5KKhrhD1EBZhjN4c7
+[forest-adventure-hakone-map]: https://maps.app.goo.gl/FBPNeRNZ3vEG5MFJ7
 [glass-museum]: https://maps.app.goo.gl/pHnEXhd6Ende3R2CA
 [Gora station]: https://maps.app.goo.gl/eXxjNPt1CeYoEdNFA
 [Hakone tenki.jp]: https://tenki.jp/forecast/3/17/4620/14382/10days.html
+[hakone-amazake-chaya]: https://maps.app.goo.gl/A4JvAg15XUingU4b8
+[hakone-checkpoint]: https://maps.app.goo.gl/SCMZnE7zv5VgaFe87
+[hakone-dolce-studio-stella]: https://maps.app.goo.gl/DZyykcfRB221vpre6
+[hakone-freepass-pdf]: https://odakyu-global.com/_wp/wp-content/uploads/2025/08/HakoneFreepass_en202510.pdf
+[hakone-freepass-website]: https://odakyu-global.com/passes/hakone-freepass/
+[hakone-gora-park]: https://maps.app.goo.gl/NJidmfP9SKBAm2uR7
+[hakone-kowakien-yunessun]: https://maps.app.goo.gl/45ivQxjay29eFPwe9
 [hakone-museum]: https://maps.app.goo.gl/y1ftJY5RWarcMh4DA
+[hakone-open-air-museum-map]: https://maps.app.goo.gl/TvZMcuobuEZvjcr56
 [hakone-shrine]: https://maps.app.goo.gl/o9sXV4hX8zM5xn6KA
 [Hakone-Yumoto]: https://maps.app.goo.gl/jrtU5b5RAQqizdYN6
 [irori-guesthouse]: https://maps.app.goo.gl/cyLU5bmVYWc63UEK6
+[kikukawa-shoten]: https://maps.app.goo.gl/9cfsEJ2QZ6DmzrVG9
+[kintoki-yama]: https://maps.app.goo.gl/KGaKFySYQstNo7Q36
 [Klook]: https://www.klook.com/experiences/list/hakone-tours-experiences/c441/
 [ks-house]: https://maps.app.goo.gl/dxzgGH4t1E3cBfBE9
 [Motohakone]: https://maps.app.goo.gl/gc7YEjqzfCqbZTV67
 [mount-ashigara]: https://maps.app.goo.gl/isU38ivdkzr1urNh8
 [Naka-Gora station]: https://maps.app.goo.gl/yUbvUABcPiPLB9kn7
+[odakyu-center-odawara]: https://maps.app.goo.gl/tN5WJ1LMn2JWU4SL6
+[odakyu-center-shinjuku]: https://maps.app.goo.gl/J3uuBYtD8KmEVjnB7
 [open-air-museum]: https://maps.app.goo.gl/N34dPJXeGgJzsPBV6
 [Owakudani station]: https://maps.app.goo.gl/UwP2ywxfQCm6nDez7
 [owakudani-center]: https://maps.app.goo.gl/KxVNvxnD4z5wnhL7A
 [romancecar-details]: https://www.odakyu.jp/english/romancecar/
 [Sounzan station]: https://maps.app.goo.gl/MGdVVTR8EnJnJVBR6
+[tamura-ginkatsutei]: https://maps.app.goo.gl/ymN75PXQCQkYjiAr9
 [Togendai station]: https://maps.app.goo.gl/CDiCpJ2GmAsRR6tv6
+[yubadon-naokichi]: https://maps.app.goo.gl/U8WxzwQLvN5kpcUR7
 [Yumoto station Hotel MIRAHAKONE]: https://maps.app.goo.gl/2NKbKGcnFaNc4jSw8
 [Yutorelo-an ANNEX]: https://maps.app.goo.gl/n9MHEHd5ejsffR9WA

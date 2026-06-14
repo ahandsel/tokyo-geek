@@ -14,7 +14,7 @@ localization: sync
 ## 主な新幹線路線
 
 日本の主な新幹線路線マップです：
-![日本の主な新幹線路線マップ](/shinkansen-map.png)
+![日本の主な新幹線路線マップ][img-shinkansen-map]
 
 **北海道新幹線**
 
@@ -77,9 +77,9 @@ localization: sync
 
 | ウェブサイト | 対応路線 | メリット | デメリット | おすすめの人 |
 | --- | --- | --- | --- | --- |
-| [SmartEX](https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm) | Tokyo より南の全新幹線駅 | 英語に完全対応 | アカウント作成が必要（約 30 分） | 東海道・山陽・九州新幹線のきっぷを買いたい方 |
-| [Eki-net](https://www.eki-net.com/en/jreast-train-reservation/Top/Index) | Tokyo より西・北の全新幹線駅 | JR レールパスユーザーの座席予約が可能 | 英語対応が限定的 | 上越・北陸・東北・北海道新幹線を利用する JR レールパスユーザー |
-| [Klook](https://www.klook.com/japan-rail/shinkansen/) | 全新幹線駅 | 最も使いやすい | 追加手数料あり。座席の指定不可 | 手軽に購入したいカジュアルな旅行者。きっぷの変更は難しい場合があります |
+| [SmartEX][smartex-home] | Tokyo より南の全新幹線駅 | 英語に完全対応 | アカウント作成が必要（約 30 分） | 東海道・山陽・九州新幹線のきっぷを買いたい方 |
+| [Eki-net][eki-net-home] | Tokyo より西・北の全新幹線駅 | JR レールパスユーザーの座席予約が可能 | 英語対応が限定的 | 上越・北陸・東北・北海道新幹線を利用する JR レールパスユーザー |
+| [Klook][klook-shinkansen] | 全新幹線駅 | 最も使いやすい | 追加手数料あり。座席の指定不可 | 手軽に購入したいカジュアルな旅行者。きっぷの変更は難しい場合があります |
 
 
 ## SmartEX - 東海道・山陽・九州新幹線
@@ -111,23 +111,23 @@ localization: sync
 
 ### SmartEX の使い方
 
-1. [SmartEX アカウントを作成する](https://smart-ex.jp/en/beginner/entry/sp/)
-2. [予約する](https://smart-ex.jp/en/reservation/reserve_smart/sp/)
-3. [購入履歴・領収書](https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/)
-4. [予約を確認する](https://smart-ex.jp/en/reservation/guide/referral/)
+1. [SmartEX アカウントを作成する][smartex-create-account]
+2. [予約する][smartex-reserve]
+3. [購入履歴・領収書][smartex-purchase-history]
+4. [予約を確認する][smartex-check-reservation]
 
 
 ### 予約の確認・変更・払い戻し
 
 予約を変更するには？
 
-* 手順：[変更方法](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* 詳細：[予約の変更](https://smart-ex.jp/en/reservation/change/)
+* 手順：[変更方法][smartex-howto-change]
+* 詳細：[予約の変更][smartex-change]
 
 予約をキャンセルして払い戻しを受けるには？
 
-* 手順：[払い戻し方法](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* 詳細：[予約の払い戻し](https://smart-ex.jp/en/reservation/guide/cancel/)
+* 手順：[払い戻し方法][smartex-howto-change]
+* 詳細：[予約の払い戻し][smartex-refund]
 
 
 ### SmartEX に関する重要な注意点
@@ -138,7 +138,7 @@ localization: sync
 * `Purchase`をクリックすると、クレジットカードに課金されます。
   * この時点以降、キャンセル料が発生します。
   * 予約の変更は無料です。
-* 荷物 - 機内持ち込みサイズより大きい荷物がある場合は、特大荷物スペース付きの座席を予約する必要があります。[詳細](https://smart-ex.jp/en/entraining/oversized-baggage/)
+* 荷物 - 機内持ち込みサイズより大きい荷物がある場合は、特大荷物スペース付きの座席を予約する必要があります。[詳細][smartex-oversized-baggage]
 
 
 ### SmartEX 利用時のその他の注意点
@@ -146,7 +146,7 @@ localization: sync
 * すべての日付と時刻は日本標準時（JST）です。
 * すべての価格は日本円（JPY）です。
 * 紙のきっぷが必要な場合は、`pickup code`とアカウントのログイン情報が必要です。
-* クレジットカードが[3-D セキュア認証](https://smart-ex.jp/en/reservation/reserve_smart/3dsecure/)に対応していない場合、きっぷ購入のたびにセキュリティコードの入力が必要です。
+* クレジットカードが[3-D セキュア認証][smartex-3dsecure]に対応していない場合、きっぷ購入のたびにセキュリティコードの入力が必要です。
 * 同じきっぷで列車のクラス（普通車とグリーン車）を混在させることはできません。
   * 例：最初の列車でグリーン車（ファーストクラス）を利用し、次の列車で指定席（普通車）を利用する場合は、2 枚のきっぷが必要です。
 * 同じきっぷで列車の種類（特急と各停）を混在させることはできません。
@@ -162,7 +162,30 @@ localization: sync
 
 ## 詳細情報
 
-* [新幹線（日本の高速鉄道）](https://www.japan-guide.com/e/e2018.html#ticket)
-* [新幹線の旅のヒント | Japan Experience - Japan Rail Pass](https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen)
-* SmartEX - [東海道・山陽・九州新幹線について](https://smart-ex.jp/en/reservation/equipment/)
-* [Ekinet を使ってジャパンレールパスでオンライン座席予約をする方法](https://www.jrpass.com/blog/using-ekinet-to-make-online-seat-reservations-with-the-japan-rail-pass)
+* [新幹線（日本の高速鉄道）][japan-guide-shinkansen]
+* [新幹線の旅のヒント | Japan Experience - Japan Rail Pass][japan-experience-shinkansen]
+* SmartEX - [東海道・山陽・九州新幹線について][smartex-equipment]
+* [Ekinet を使ってジャパンレールパスでオンライン座席予約をする方法][jrpass-ekinet-guide]
+
+<!-- Links -->
+
+[eki-net-home]: https://www.eki-net.com/en/jreast-train-reservation/Top/Index
+[japan-experience-shinkansen]: https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen
+[japan-guide-shinkansen]: https://www.japan-guide.com/e/e2018.html#ticket
+[jrpass-ekinet-guide]: https://www.jrpass.com/blog/using-ekinet-to-make-online-seat-reservations-with-the-japan-rail-pass
+[klook-shinkansen]: https://www.klook.com/japan-rail/shinkansen/
+[smartex-3dsecure]: https://smart-ex.jp/en/reservation/reserve_smart/3dsecure/
+[smartex-change]: https://smart-ex.jp/en/reservation/change/
+[smartex-check-reservation]: https://smart-ex.jp/en/reservation/guide/referral/
+[smartex-create-account]: https://smart-ex.jp/en/beginner/entry/sp/
+[smartex-equipment]: https://smart-ex.jp/en/reservation/equipment/
+[smartex-home]: https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm
+[smartex-howto-change]: https://smart-ex.jp/en/reservation/guide/cancel/howto_change/
+[smartex-oversized-baggage]: https://smart-ex.jp/en/entraining/oversized-baggage/
+[smartex-purchase-history]: https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/
+[smartex-refund]: https://smart-ex.jp/en/reservation/guide/cancel/
+[smartex-reserve]: https://smart-ex.jp/en/reservation/reserve_smart/sp/
+
+<!-- Image links -->
+
+[img-shinkansen-map]: /shinkansen-map.png

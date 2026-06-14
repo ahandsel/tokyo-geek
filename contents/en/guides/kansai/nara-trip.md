@@ -28,8 +28,6 @@ When you ride from Kintetsu Nara Station to Kyoto Station:
 * Kintetsu Nara Station has limited elevators, so allow extra time if you travel with large luggage or a stroller. 🛗
 * If elevator access is important, head to Kintetsu Nara station earlier to find and take the elevator to the platform.
 
-[kintetsu-ticket]: https://www.ticket.kintetsu.co.jp/vs/en/T/TZZ/TZZ10.do?op=tDisplayVisitorMenu
-
 
 ## Mini Inn Nara - Hotel recommendation
 
@@ -45,8 +43,6 @@ Recommendation:
 
 * Confirm check-in instructions in advance because the hotel does not have a front desk.
 
-[map-mini-inn-nara]: https://maps.app.goo.gl/zPj8iPUznKL9pAdu7
-
 
 ## Quiet season - February
 
@@ -55,3 +51,8 @@ February is a quiet season for tourism in Nara, so you can expect fewer crowds a
 Even the 3-day weekend in February can be less crowded than a regular week in spring or fall.
 
 But it does get cold and could snow, so pack accordingly! ❄️
+
+<!-- Links -->
+
+[kintetsu-ticket]: https://www.ticket.kintetsu.co.jp/vs/en/T/TZZ/TZZ10.do?op=tDisplayVisitorMenu
+[map-mini-inn-nara]: https://maps.app.goo.gl/zPj8iPUznKL9pAdu7

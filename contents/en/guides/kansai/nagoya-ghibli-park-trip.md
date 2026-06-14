@@ -78,4 +78,8 @@ All coin lockers are available from 9:00 to 18:00.
    * **Pricing and size:** ¥600, up to 20 kg and 180 cm in any dimension
    * **Notes:** Valuables are not accepted. Cash payment only. Items must be retrieved by 18:00.
 
-For further details, refer to the [original Japanese article](https://castel.jp/p/9201).
+For further details, refer to the [original Japanese article][original-japanese-article].
+
+<!-- Links -->
+
+[original-japanese-article]: https://castel.jp/p/9201

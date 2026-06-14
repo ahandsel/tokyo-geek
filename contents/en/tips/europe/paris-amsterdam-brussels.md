@@ -28,15 +28,15 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 
 ## Tickets to book in advance
 
-* [Anne Frank House](https://www.annefrank.org/en/) - Museum of Anne Frank's life in the building where she lived in hiding during WWII.
-* [Notre-Dame](https://www.notredamedeparis.fr/en/visit/reservation/) - Free to enter, but you need a reservation to go inside the cathedral.
-* [Catacombs of Paris](https://www.catacombes.paris.fr/en) - Underground ossuary in Paris.
-* [Palace of Versailles](https://en.chateauversailles.fr/) - Former royal residence and gardens.
-* [Seine river cruise](https://www.bateauxparisiens.com/en/cruise.html) - Cool boat tour of the Seine river - [video](https://youtu.be/8uFbPgFqeGI)
-* [Eurostar](https://www.eurostar.com/us-en) - Train between Paris, Amsterdam, and Brussels. Book in advance for the best prices.
-* [Louvre Museum](https://www.louvre.fr/en) - Famous museum in Paris. Book in advance to go into a shorter line.
-* [Keukenhof](https://keukenhof.nl/en/) - Tulip garden in Lisse, Netherlands. Book in advance to go into a shorter line.
-* [Amsterdam canal cruise with Sebi Boat Tour](https://sebiboattours.com/) - Small group boat tour of the Amsterdam canals.
+* [Anne Frank House][anne-frank-house] - Museum of Anne Frank's life in the building where she lived in hiding during WWII.
+* [Notre-Dame][notre-dame-reservation] - Free to enter, but you need a reservation to go inside the cathedral.
+* [Catacombs of Paris][catacombs-paris] - Underground ossuary in Paris.
+* [Palace of Versailles][palace-versailles] - Former royal residence and gardens.
+* [Seine river cruise][seine-river-cruise] - Cool boat tour of the Seine river - [video][seine-cruise-video]
+* [Eurostar][eurostar] - Train between Paris, Amsterdam, and Brussels. Book in advance for the best prices.
+* [Louvre Museum][louvre-museum] - Famous museum in Paris. Book in advance to go into a shorter line.
+* [Keukenhof][keukenhof] - Tulip garden in Lisse, Netherlands. Book in advance to go into a shorter line.
+* [Amsterdam canal cruise with Sebi Boat Tour][sebi-boat-tour] - Small group boat tour of the Amsterdam canals.
 
 
 ## Dates 🗓️
@@ -66,58 +66,58 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 
 ### Eiffel Tower day
 
-* [Espl. du Trocadéro](https://maps.app.goo.gl/nHPSWDBsTsnonAX19) (Good view of the tower)
-* [Eiffel Tower](https://maps.app.goo.gl/Cz3toeinEmhQbCnJA)
-* [Pont Alexandre III](https://maps.app.goo.gl/9wK8nip1PKT927xB9) (Bridge)
-* [Place du Tertre](https://maps.app.goo.gl/qCbG1VNofNqwJLKdA) (Artistic plaza. Watch out for tourist traps)
-* [Arc de Triomphe](https://maps.app.goo.gl/PSbMpYpzj8KRAcqd8)
-* [Champs-Élysées](https://maps.app.goo.gl/GG6jaiAiSEGGjGPL9)
+* [Espl. du Trocadéro][map-trocadero] (Good view of the tower)
+* [Eiffel Tower][map-eiffel-tower]
+* [Pont Alexandre III][map-pont-alexandre] (Bridge)
+* [Place du Tertre][map-place-tertre] (Artistic plaza. Watch out for tourist traps)
+* [Arc de Triomphe][map-arc-de-triomphe]
+* [Champs-Élysées][map-champs-elysees]
 
 
 ### Palace of Versailles day
 
-* [Palace of Versailles](https://maps.app.goo.gl/LHBxZQZad3ofERzk8)
+* [Palace of Versailles][map-palace-versailles]
 
 
 ### Louvre Museum day
 
-* [Louvre Museum](https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7)
-* [Palais-Royal](https://maps.app.goo.gl/dtxvXoVyYAEpz1Ky7)
-* [Tuileries Garden](https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9)
-* [Le Marais](https://maps.app.goo.gl/V5MBWjkdpbFsBpfG6) (Jewish Quarter)
-* [Carette](https://maps.app.goo.gl/3RkvUJ1NCwTbLce79) (Cafe)
+* [Louvre Museum][map-louvre-museum]
+* [Palais-Royal][map-palais-royal]
+* [Tuileries Garden][map-tuileries-garden]
+* [Le Marais][map-le-marais] (Jewish Quarter)
+* [Carette][map-carette] (Cafe)
 
 Nearby:
 
 * Covered passages
-  * [Galerie Vivienne](https://maps.app.goo.gl/oDyNfbRu7ViL1Lt56)
-  * [Gal Véro-Dodat](https://maps.app.goo.gl/EREbkMKZxuxZfpDC8)
-  * [Passage Jouffroy](https://maps.app.goo.gl/XsY49CNtNTZjdNTE7)
-* [Rue Montorgueil](https://maps.app.goo.gl/94exmwD4TzkbmGVJ7) (Downtown street)
-  * [Patisserie Stohrer](https://maps.app.goo.gl/eUHzqQyZ4Qmcny966)
-* [Palais Garnier](https://maps.app.goo.gl/p9kmreCRcJtadFGp8) (Opera house)
-* [Jardin du Luxembourg](https://maps.app.goo.gl/ezz2pLf1VEUyxqRh6)
-* [Latin Quarter](https://maps.app.goo.gl/UErunip4AQzRjHAv6)
-* [Notre-Dame Cathedral of Paris](https://maps.app.goo.gl/cj7Ezuri5ZJuaDm58) **\<need reservation?\>**
-* [Place de la Concorde](https://maps.app.goo.gl/L1gqp6iLQKo5GQYm7) (Past execution site)
+  * [Galerie Vivienne][map-galerie-vivienne]
+  * [Gal Véro-Dodat][map-vero-dodat]
+  * [Passage Jouffroy][map-passage-jouffroy]
+* [Rue Montorgueil][map-rue-montorgueil] (Downtown street)
+  * [Patisserie Stohrer][map-patisserie-stohrer]
+* [Palais Garnier][map-palais-garnier] (Opera house)
+* [Jardin du Luxembourg][map-jardin-luxembourg]
+* [Latin Quarter][map-latin-quarter]
+* [Notre-Dame Cathedral of Paris][map-notre-dame] **\<need reservation?\>**
+* [Place de la Concorde][map-place-concorde] (Past execution site)
 
 
 ### River day
 
 Seine river cruise with underground portion
 
-* Option 1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal](https://www.pariscanal.com/en/cruises-canals-paris/cruise-paris-seine-waterways-2/)
+* Option 1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal][paris-canal-cruise]
   * Includes River Seine as far as Musée d'Orsay
-* Option 2: [wcanauxrama.com](https://www.canauxrama.com)
+* Option 2: [wcanauxrama.com][canauxrama]
   * Cruise ends at Bassin de l'Arsenal
 
 Walk along Seine river and visit:
 
-* [Coulée Verte René-Dumont](https://maps.app.goo.gl/pHuuHQ9mB4njpFMg8) Park
-  * Nearby: [Crêperie Le Goéland d'Aligre](https://maps.app.goo.gl/jSrJjL62a9zr45mbA)
-* [Montmartre](https://maps.app.goo.gl/SDmt45HzKGVUV94C7) (Beautiful neighborhood)
-* [MAP - Marché aux Puces de Paris Saint-Ouen](https://maps.app.goo.gl/WuX5UAaAgMbFnsfQ6) (Flea market)
-* [Catacombs of Paris](https://maps.app.goo.gl/RSjHm653wK8ZbmyF8) (Creepy)
+* [Coulée Verte René-Dumont][map-coulee-verte] Park
+  * Nearby: [Crêperie Le Goéland d'Aligre][map-creperie-goeland]
+* [Montmartre][map-montmartre] (Beautiful neighborhood)
+* [MAP - Marché aux Puces de Paris Saint-Ouen][map-marche-puces] (Flea market)
+* [Catacombs of Paris][map-catacombs-paris] (Creepy)
 
 To eat:
 
@@ -132,7 +132,7 @@ To eat:
 
 ### Shopping in Paris
 
-* Souvenir: [La Grande Épicerie de Paris](https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A)
+* Souvenir: [La Grande Épicerie de Paris][map-grande-epicerie]
   * Small chocolate
   * Tea
 
@@ -144,32 +144,32 @@ To eat:
 
 ### Keukenhof day
 
-* [Keukenhof](https://maps.app.goo.gl/JfqiAub4h9g3JHbz9) (Botanic garden with many tulips)
+* [Keukenhof][map-keukenhof] (Botanic garden with many tulips)
 
 
 ### Downtown day
 
-[Google Maps list](https://maps.app.goo.gl/FqWctk8Pa7N1gXgHA?g_st=i)
+[Google Maps list][map-amsterdam-list]
 
-* [Houseboat Museum](https://maps.app.goo.gl/okfGvKv7fWttdj6i9) (Very small)
-* [Albert Cuyp Market](https://maps.app.goo.gl/gYTEji1tmBXR4SuY6) (Mon-Sat, 9:30-17:00)
-* [De Wallen](https://maps.app.goo.gl/fEX4AP1MJSGLBYPH6) (Red light district)
-* [The Dancing Houses](https://maps.app.goo.gl/bFv6pSFNj9BbfCCw6)
-* [Dam Square](https://maps.app.goo.gl/Ao2iNL1AhTrURfHv5)
-* [Jordaan](https://maps.app.goo.gl/Sw1MLcJnsuvQoV5e9) (Cute neighborhood)
-  * [The Nine Streets](https://maps.app.goo.gl/tKUoM95pCMRJerkf7)
-* [Skinny Bridge](https://maps.app.goo.gl/d4FjzW2KjU8YRRzD8)
-* [OBA Library](https://maps.app.goo.gl/GKxB8qdahcQjCU9j7) (For rooftop view)
-* [Begijnhof](https://maps.app.goo.gl/65JfrgDYdqG9WijL6) (Historical courtyard)
-* [De Pijp](https://maps.app.goo.gl/L2WuNNkjRyYBTbJEA) (Bohemian zone)
+* [Houseboat Museum][map-houseboat-museum] (Very small)
+* [Albert Cuyp Market][map-albert-cuyp] (Mon-Sat, 9:30-17:00)
+* [De Wallen][map-de-wallen] (Red light district)
+* [The Dancing Houses][map-dancing-houses]
+* [Dam Square][map-dam-square]
+* [Jordaan][map-jordaan] (Cute neighborhood)
+  * [The Nine Streets][map-nine-streets]
+* [Skinny Bridge][map-skinny-bridge]
+* [OBA Library][map-oba-library] (For rooftop view)
+* [Begijnhof][map-begijnhof] (Historical courtyard)
+* [De Pijp][map-de-pijp] (Bohemian zone)
 
 To do:
 
-* [Free Walking Tours Amsterdam](https://freewalkingtoursamsterdam.com/)
-* [NDSM](https://maps.app.goo.gl/VprpuiL8Xef7kDps6) (Street art neighborhood)
+* [Free Walking Tours Amsterdam][free-walking-tours]
+* [NDSM][map-ndsm] (Street art neighborhood)
 * Backup \- The Hague
-  * [Mauritshuis museum](https://maps.app.goo.gl/RbbqpLvDtSNRWdrd7) (The girl with the pearl earring)
-  * [Haagse Market](https://maps.app.goo.gl/QDQqMKGr2ZoTM1oy6)
+  * [Mauritshuis museum][map-mauritshuis] (The girl with the pearl earring)
+  * [Haagse Market][map-haagse-market]
 
 To eat:
 
@@ -192,9 +192,9 @@ To eat:
 
 ### Downtown day
 
-* [Musical Instruments Museum](https://maps.app.goo.gl/jH4xBeSZrsyYuJzSA)
-* [Grand Place](https://maps.app.goo.gl/nyWij7rMHZCVvsY26)
-* [Royal Gallery (Old shopping mall)](https://maps.app.goo.gl/GfvkpAx95oNgWX7C9?g_st=com.google.maps.preview.copy)
+* [Musical Instruments Museum][map-musical-instruments]
+* [Grand Place][map-grand-place]
+* [Royal Gallery (Old shopping mall)][map-royal-gallery]
 * Manneken Pis statue
 * Brussels Park
 * Cinquantenaire park
@@ -205,10 +205,10 @@ To eat:
 
 ### Ghent day trip
 
-* [Castle of the Counts](https://maps.app.goo.gl/3jzAQCW5RBx1ECq89)
-* [Saint Michael's Bridge](https://maps.app.goo.gl/HU1nbme3tBaG6uyv8)
-* [Confiserie Temmerman](https://maps.app.goo.gl/HPvuv8cKeF5vaho6A) (Old candy shop)
-* [Chocolaterie Luc Van Hoorebeke](https://maps.app.goo.gl/16Jm872dJiFTefTeA)
+* [Castle of the Counts][map-castle-counts]
+* [Saint Michael's Bridge][map-saint-michaels-bridge]
+* [Confiserie Temmerman][map-confiserie-temmerman] (Old candy shop)
+* [Chocolaterie Luc Van Hoorebeke][map-chocolaterie-luc]
 
 To eat:
 
@@ -219,3 +219,70 @@ To eat:
 * Brussels waffle
 * Liege waffle (round)
 * Vol-au-vent
+
+<!-- Links -->
+
+[anne-frank-house]: https://www.annefrank.org/en/
+[canauxrama]: https://www.canauxrama.com
+[catacombs-paris]: https://www.catacombes.paris.fr/en
+[eurostar]: https://www.eurostar.com/us-en
+[free-walking-tours]: https://freewalkingtoursamsterdam.com/
+[keukenhof]: https://keukenhof.nl/en/
+[louvre-museum]: https://www.louvre.fr/en
+[map-albert-cuyp]: https://maps.app.goo.gl/gYTEji1tmBXR4SuY6
+[map-amsterdam-list]: https://maps.app.goo.gl/FqWctk8Pa7N1gXgHA?g_st=i
+[map-arc-de-triomphe]: https://maps.app.goo.gl/PSbMpYpzj8KRAcqd8
+[map-begijnhof]: https://maps.app.goo.gl/65JfrgDYdqG9WijL6
+[map-carette]: https://maps.app.goo.gl/3RkvUJ1NCwTbLce79
+[map-castle-counts]: https://maps.app.goo.gl/3jzAQCW5RBx1ECq89
+[map-catacombs-paris]: https://maps.app.goo.gl/RSjHm653wK8ZbmyF8
+[map-champs-elysees]: https://maps.app.goo.gl/GG6jaiAiSEGGjGPL9
+[map-chocolaterie-luc]: https://maps.app.goo.gl/16Jm872dJiFTefTeA
+[map-confiserie-temmerman]: https://maps.app.goo.gl/HPvuv8cKeF5vaho6A
+[map-coulee-verte]: https://maps.app.goo.gl/pHuuHQ9mB4njpFMg8
+[map-creperie-goeland]: https://maps.app.goo.gl/jSrJjL62a9zr45mbA
+[map-dam-square]: https://maps.app.goo.gl/Ao2iNL1AhTrURfHv5
+[map-dancing-houses]: https://maps.app.goo.gl/bFv6pSFNj9BbfCCw6
+[map-de-pijp]: https://maps.app.goo.gl/L2WuNNkjRyYBTbJEA
+[map-de-wallen]: https://maps.app.goo.gl/fEX4AP1MJSGLBYPH6
+[map-eiffel-tower]: https://maps.app.goo.gl/Cz3toeinEmhQbCnJA
+[map-galerie-vivienne]: https://maps.app.goo.gl/oDyNfbRu7ViL1Lt56
+[map-grand-place]: https://maps.app.goo.gl/nyWij7rMHZCVvsY26
+[map-grande-epicerie]: https://maps.app.goo.gl/5qka8zSJ3HHkT6L7A
+[map-haagse-market]: https://maps.app.goo.gl/QDQqMKGr2ZoTM1oy6
+[map-houseboat-museum]: https://maps.app.goo.gl/okfGvKv7fWttdj6i9
+[map-jardin-luxembourg]: https://maps.app.goo.gl/ezz2pLf1VEUyxqRh6
+[map-jordaan]: https://maps.app.goo.gl/Sw1MLcJnsuvQoV5e9
+[map-keukenhof]: https://maps.app.goo.gl/JfqiAub4h9g3JHbz9
+[map-latin-quarter]: https://maps.app.goo.gl/UErunip4AQzRjHAv6
+[map-le-marais]: https://maps.app.goo.gl/V5MBWjkdpbFsBpfG6
+[map-louvre-museum]: https://maps.app.goo.gl/jZWJz8Xh1ZdLbi2W7
+[map-marche-puces]: https://maps.app.goo.gl/WuX5UAaAgMbFnsfQ6
+[map-mauritshuis]: https://maps.app.goo.gl/RbbqpLvDtSNRWdrd7
+[map-montmartre]: https://maps.app.goo.gl/SDmt45HzKGVUV94C7
+[map-musical-instruments]: https://maps.app.goo.gl/jH4xBeSZrsyYuJzSA
+[map-ndsm]: https://maps.app.goo.gl/VprpuiL8Xef7kDps6
+[map-nine-streets]: https://maps.app.goo.gl/tKUoM95pCMRJerkf7
+[map-notre-dame]: https://maps.app.goo.gl/cj7Ezuri5ZJuaDm58
+[map-oba-library]: https://maps.app.goo.gl/GKxB8qdahcQjCU9j7
+[map-palais-garnier]: https://maps.app.goo.gl/p9kmreCRcJtadFGp8
+[map-palais-royal]: https://maps.app.goo.gl/dtxvXoVyYAEpz1Ky7
+[map-palace-versailles]: https://maps.app.goo.gl/LHBxZQZad3ofERzk8
+[map-passage-jouffroy]: https://maps.app.goo.gl/XsY49CNtNTZjdNTE7
+[map-patisserie-stohrer]: https://maps.app.goo.gl/eUHzqQyZ4Qmcny966
+[map-place-concorde]: https://maps.app.goo.gl/L1gqp6iLQKo5GQYm7
+[map-place-tertre]: https://maps.app.goo.gl/qCbG1VNofNqwJLKdA
+[map-pont-alexandre]: https://maps.app.goo.gl/9wK8nip1PKT927xB9
+[map-royal-gallery]: https://maps.app.goo.gl/GfvkpAx95oNgWX7C9?g_st=com.google.maps.preview.copy
+[map-rue-montorgueil]: https://maps.app.goo.gl/94exmwD4TzkbmGVJ7
+[map-saint-michaels-bridge]: https://maps.app.goo.gl/HU1nbme3tBaG6uyv8
+[map-skinny-bridge]: https://maps.app.goo.gl/d4FjzW2KjU8YRRzD8
+[map-trocadero]: https://maps.app.goo.gl/nHPSWDBsTsnonAX19
+[map-tuileries-garden]: https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9
+[map-vero-dodat]: https://maps.app.goo.gl/EREbkMKZxuxZfpDC8
+[notre-dame-reservation]: https://www.notredamedeparis.fr/en/visit/reservation/
+[palace-versailles]: https://en.chateauversailles.fr/
+[paris-canal-cruise]: https://www.pariscanal.com/en/cruises-canals-paris/cruise-paris-seine-waterways-2/
+[sebi-boat-tour]: https://sebiboattours.com/
+[seine-cruise-video]: https://youtu.be/8uFbPgFqeGI
+[seine-river-cruise]: https://www.bateauxparisiens.com/en/cruise.html

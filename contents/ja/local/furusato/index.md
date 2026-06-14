@@ -27,13 +27,19 @@ localization: sync
 
 ## 便利なウェブサイト
 
-[What Is Furusato Nozei? The Japanese Tax Benefit That Gets You Free Stuff - GaijinPot](https://blog.gaijinpot.com/what-is-furusato-nozei-the-japanese-tax-benefit-that-gets-you-free-stuff/)
+[What Is Furusato Nozei? The Japanese Tax Benefit That Gets You Free Stuff - GaijinPot][gaijinpot-furusato]
 
-[ふるさと納税の限度額を計算！控除上限額シミュレーション | ふるさと納税サイト「ふるなび」](https://furunavi.jp/deduction.aspx)
+[ふるさと納税の限度額を計算！控除上限額シミュレーション | ふるさと納税サイト「ふるなび」][furunavi-deduction]
 
-[ふるさと納税における「年収」とは？正しい確認方法と控除額の調べ方を解説 ｜ ふるラボ](https://furusato.asahi.co.jp/howto/other/post-607/)
+[ふるさと納税における「年収」とは？正しい確認方法と控除額の調べ方を解説 ｜ ふるラボ][furulabo-income]
 
 
 ## 関連ガイド
 
 <!--@include: ../../../snippets/md-index-list-folders.md-->
+
+<!-- Links -->
+
+[furulabo-income]: https://furusato.asahi.co.jp/howto/other/post-607/
+[furunavi-deduction]: https://furunavi.jp/deduction.aspx
+[gaijinpot-furusato]: https://blog.gaijinpot.com/what-is-furusato-nozei-the-japanese-tax-benefit-that-gets-you-free-stuff/

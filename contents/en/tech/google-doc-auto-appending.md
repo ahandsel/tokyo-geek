@@ -205,5 +205,10 @@ Logger.log('Content inserted successfully after the target phrase.');
 
 ## References
 
-* [Enum ElementType - Apps Script - Google for Developers](https://developers.google.com/apps-script/reference/document/element-type)
-* [Class Body - Apps Script - Google for Developers](https://developers.google.com/apps-script/reference/document/body)
+* [Enum ElementType - Apps Script - Google for Developers][apps-script-element-type]
+* [Class Body - Apps Script - Google for Developers][apps-script-body]
+
+<!-- Links -->
+
+[apps-script-body]: https://developers.google.com/apps-script/reference/document/body
+[apps-script-element-type]: https://developers.google.com/apps-script/reference/document/element-type

@@ -124,13 +124,15 @@ localization: sync
 * [Flush Toilet Finder & Map][flush-toilet-finder-map] - 現地の公衆トイレや有料トイレをすぐ探せます。オフライン検索にも対応。
 * [Stasher Luggage Storage][stasher-luggage-storage] - 駅近の荷物預け場所を事前予約し、身軽に観光できます。
 * [Google 翻訳][google-translate] - オフライン言語パックを事前ダウンロードし、メニューや看板を即座に翻訳できます。
-  * [言語をダウンロードしてオフラインで翻訳する方法](https://support.google.com/translate/answer/6142473?hl=ja)
+  * [言語をダウンロードしてオフラインで翻訳する方法][download-languages-to-translate-offline]
 * [Google マップ][google-maps] - オフラインマップを事前にダウンロードし、データ通信なしでナビゲーションが可能です。
-  * [オフライン地図をダウンロードする方法](https://support.google.com/maps/answer/6291838?hl=ja)
+  * [オフライン地図をダウンロードする方法][download-offline-maps]
 * [Perplexity - AI Search & Chat][perplexity-ai-search-chat] - 現地レストランや交通の最新情報を対話で検索でき、リンク付きで回答が得られます。
 * [ChatGPT][] - 文脈も踏まえて複雑な質問や翻訳を相談できる AI チャットです。
 
 [ChatGPT]: https://apps.apple.com/app/id6448311069
+[download-languages-to-translate-offline]: https://support.google.com/translate/answer/6142473?hl=ja
+[download-offline-maps]: https://support.google.com/maps/answer/6291838?hl=ja
 [elk-currency-converter]: https://apps.apple.com/app/id1189748820
 [flush-toilet-finder-map]: https://apps.apple.com/app/id955254528
 [google-translate]: https://apps.apple.com/app/id414706506
@@ -143,7 +145,7 @@ localization: sync
 
 ## 翻訳に AI を活用する
 
-* **Google 翻訳**はオフラインでも使えて便利です。必ず事前に[言語パックをダウンロード](https://support.google.com/translate/answer/6142473?hl=ja)してください。
+* **Google 翻訳**はオフラインでも使えて便利です。必ず事前に[言語パックをダウンロード][download-languages-to-translate-offline]してください。
 * **ChatGPT などの AI ツール**は文脈も理解してくれるため、より実用的です。
 
 

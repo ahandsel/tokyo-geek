@@ -116,14 +116,22 @@ Wise も Revolut も、基本的な流れは同じです。
 
 ## 参考リンク
 
-* [Wise アカウント：マルチカレンシー口座 | 外貨口座](https://wise.com/jp/multi-currency-account/)
-* [Wise カード - 海外旅行に便利なカード | お得に外貨が使えるカード](https://wise.com/jp/card/)
-* [Revolut - カード](https://www.revolut.com/ja-JP/cards/)
-* [Revolut - 為替レート](https://www.revolut.com/ja-JP/exchange-rates/)
-* [Wise 送金レビュー - NerdWallet](https://www.nerdwallet.com/banking/learn/transferwise-review)
-* [Revolut 口座レビュー - NerdWallet](https://www.nerdwallet.com/banking/reviews/revolut)
+* [Wise アカウント：マルチカレンシー口座 | 外貨口座][wise-multi-currency-account]
+* [Wise カード - 海外旅行に便利なカード | お得に外貨が使えるカード][wise-card]
+* [Revolut - カード][revolut-cards]
+* [Revolut - 為替レート][revolut-exchange-rates]
+* [Wise 送金レビュー - NerdWallet][wise-transfer-review-nerdwallet]
+* [Revolut 口座レビュー - NerdWallet][revolut-account-review-nerdwallet]
 
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
-[youtube-wise]: https://youtu.be/Qyep6sq0h_M?si=Uq_GVCSLSQGPSGO8
+<!-- Links -->
+
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut-account-review-nerdwallet]: https://www.nerdwallet.com/banking/reviews/revolut
+[revolut-cards]: https://www.revolut.com/ja-JP/cards/
+[revolut-exchange-rates]: https://www.revolut.com/ja-JP/exchange-rates/
+[wise]: https://wise.com/invite/ihpn/genjif1
+[wise-card]: https://wise.com/jp/card/
+[wise-multi-currency-account]: https://wise.com/jp/multi-currency-account/
+[wise-transfer-review-nerdwallet]: https://www.nerdwallet.com/banking/learn/transferwise-review
 [youtube-revolut]: https://youtu.be/A8LiXN88jkw?si=yJvuN57xHUVzVJnu
+[youtube-wise]: https://youtu.be/Qyep6sq0h_M?si=Uq_GVCSLSQGPSGO8

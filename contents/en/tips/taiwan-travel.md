@@ -56,6 +56,8 @@ I recommend the [Klook eSIM][klook-esim] for Taiwan:
 
 A little prep on payments and data goes a long way. Enjoy Taiwan.
 
-[line-pay]: https://pay.line.me/tw/
+<!-- Links -->
+
 [easycard]: https://www.easycard.com.tw/en
 [klook-esim]: https://s.klook.com/c/E3xdG5mE38
+[line-pay]: https://pay.line.me/tw/

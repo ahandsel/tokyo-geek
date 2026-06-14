@@ -112,12 +112,20 @@ Wise も Revolut も、基本的な流れは同じです。
 
 ## 参考リンク
 
-* [Wise - マルチカレンシー口座](https://wise.com/gb/account/)
-* [Wise - 海外対応デビットカード](https://wise.com/gb/card/)
-* [Revolut - カード](https://www.revolut.com/cards/)
-* [Wise と Revolut の為替レート比較](https://wise.com/us/blog/revolut-vs-wise)
-* [Wise レビュー - Finder](https://www.finder.com/international-money-transfers/wise)
-* [Revolut レビュー - Finder](https://www.finder.com/banking/revolut-review)
+* [Wise - マルチカレンシー口座][wise-multi-currency-account]
+* [Wise - 海外対応デビットカード][wise-card]
+* [Revolut - カード][revolut-cards]
+* [Wise と Revolut の為替レート比較][wise-vs-revolut-exchange-rates]
+* [Wise レビュー - Finder][wise-review-finder]
+* [Revolut レビュー - Finder][revolut-review-finder]
 
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+<!-- Links -->
+
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut-cards]: https://www.revolut.com/cards/
+[revolut-review-finder]: https://www.finder.com/banking/revolut-review
+[wise]: https://wise.com/invite/ihpn/genjif1
+[wise-card]: https://wise.com/gb/card/
+[wise-multi-currency-account]: https://wise.com/gb/account/
+[wise-review-finder]: https://www.finder.com/international-money-transfers/wise
+[wise-vs-revolut-exchange-rates]: https://wise.com/us/blog/revolut-vs-wise

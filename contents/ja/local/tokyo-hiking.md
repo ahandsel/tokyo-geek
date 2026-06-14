@@ -24,8 +24,8 @@ localization: sync
 * 最寄り駅：伊勢原
   * 駅からバスで登山口まで移動します。
 * リンク：
-  * <https://voyapon.com/mt-oyama-hiking-near-tokyo/>
-  * <https://jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo-af4ac2195e09/>
+  * [voyapon.com/mt-oyama-hiking-near-tokyo][oyama-voyapon]
+  * [jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo][oyama-jw-webmagazine]
 * 難易度に合わせて複数のルートから選べます
 * ケーブルカーあり
 * チャレンジしたい方は、`ヤビツ峠コース`か`男坂コース`がおすすめです
@@ -56,7 +56,7 @@ localization: sync
 奥多摩観光案内所
 210 Hikawa, Okutama, Nishitama District, Tokyo, 198-0212
 0428-83-2152
-<https://goo.gl/maps/hexinff9BL8nf7kN9>
+[goo.gl/maps/hexinff9BL8nf7kN9][okutama-tourist-info-map]
 
 
 ### 糠指山（Mount Nukazasu）
@@ -96,3 +96,9 @@ localization: sync
 * 足元が危険な箇所もあるので、しっかり足を運ぶ必要があります。最初の休憩所まで約 35 分。川の上方を通るやや険しい道を進むと、壮大な百尋ノ滝に到着します。ここからは容赦のない 100 分の登りで山頂に到着します。山頂はピクニックマットを広げて自然を満喫するのに最高の場所です。この登りにはロープが設置されている箇所もあり、途中の分岐ではより険しいコース（直進）か整備されたコース（左）を選べます。
 * 最寄り駅：JR 奥多摩駅
   * そこからバスで約 15 分、川乗橋バス停で下車。登山口はここです。
+
+<!-- Links -->
+
+[okutama-tourist-info-map]: https://goo.gl/maps/hexinff9BL8nf7kN9
+[oyama-jw-webmagazine]: https://jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo-af4ac2195e09/
+[oyama-voyapon]: https://voyapon.com/mt-oyama-hiking-near-tokyo/

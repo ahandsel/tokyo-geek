@@ -26,7 +26,7 @@ localization: sync
 ## Main Shinkansen lines
 
 Here is the map of the main Shinkansen lines in Japan:
-![Map of Japan with all the main Shinkansen lines outlined](/shinkansen-map.png)
+![Map of Japan with all the main Shinkansen lines outlined][img-shinkansen-map]
 
 **Hokkaido Shinkansen line**
 
@@ -89,9 +89,9 @@ How do these three websites compare?
 
 | Website                                                                  | Coverage                                        | Pros                                            | Cons                                        | Who should use it?                                                                       |
 | ------------------------------------------------------------------------ | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [SmartEX](https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm) | All Shinkansen stations south of Tokyo          | Fully supports English                          | Account setup required (30 minutes)         | Anyone buying tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines                |
-| [Eki-net](https://www.eki-net.com/en/jreast-train-reservation/Top/Index) | All Shinkansen stations west and north of Tokyo | Allows seat reservations for JR Rail Pass users | Limited English support                     | JR Rail Pass users traveling on the Joetsu, Hokuriku, Tohoku, and Hokkaido lines         |
-| [Klook](https://www.klook.com/japan-rail/shinkansen/)                    | All Shinkansen stations                         | Easiest to use                                  | Additional fees; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
+| [SmartEX][smartex] | All Shinkansen stations south of Tokyo          | Fully supports English                          | Account setup required (30 minutes)         | Anyone buying tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines                |
+| [Eki-net][eki-net] | All Shinkansen stations west and north of Tokyo | Allows seat reservations for JR Rail Pass users | Limited English support                     | JR Rail Pass users traveling on the Joetsu, Hokuriku, Tohoku, and Hokkaido lines         |
+| [Klook][klook]                    | All Shinkansen stations                         | Easiest to use                                  | Additional fees; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
 
 
 ## SmartEX - Tokaido, Sanyo, and Kyushu Shinkansen lines
@@ -123,23 +123,23 @@ The following are the major Shinkansen stations covered by the Tokaido, Sanyo, a
 
 ### How to use SmartEX
 
-1. [Create a SmartEX account](https://smart-ex.jp/en/beginner/entry/sp/)
-2. [Make reservations](https://smart-ex.jp/en/reservation/reserve_smart/sp/)
-3. [Purchase history/receipt](https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/)
-4. [Confirm reservations](https://smart-ex.jp/en/reservation/guide/referral/)
+1. [Create a SmartEX account][create-a-smartex-account]
+2. [Make reservations][make-reservations]
+3. [Purchase history/receipt][purchase-history-receipt]
+4. [Confirm reservations][confirm-reservations]
 
 
 ### Confirm, change, and refund reservations
 
 How to change a reservation?
 
-* Steps: [How to change](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* Details: [Change reservations](https://smart-ex.jp/en/reservation/change/)
+* Steps: [How to change][how-to-change]
+* Details: [Change reservations][change-reservations]
 
 How to cancel a reservation and get a refund?
 
-* Steps: [How to refund](https://smart-ex.jp/en/reservation/guide/cancel/howto_change/)
-* Details: [Refund reservations](https://smart-ex.jp/en/reservation/guide/cancel/)
+* Steps: [How to refund][how-to-change]
+* Details: [Refund reservations][refund-reservations]
 
 
 ### Important notes about SmartEX
@@ -150,7 +150,7 @@ How to cancel a reservation and get a refund?
 * When you click `Purchase`, your credit card will be charged.
   * After this point, there is a cancellation fee.
   * Changing the reservation is free.
-* Luggage - you must reserve a seat with an oversized baggage area if you have luggage larger than carry-on size. [Details](https://smart-ex.jp/en/entraining/oversized-baggage/)
+* Luggage - you must reserve a seat with an oversized baggage area if you have luggage larger than carry-on size. [Details][oversized-baggage-details]
 
 
 ### Additional notes on using SmartEX
@@ -174,7 +174,29 @@ How to cancel a reservation and get a refund?
 
 ## More information
 
-* [Shinkansen (Japanese Bullet Train)](https://www.japan-guide.com/e/e2018.html#ticket)
-* [Shinkansen travel tips | Japan Experience - Japan Rail Pass](https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen)
-* SmartEX - [About Tokaido Sanyo Kyushu Shinkansen](https://smart-ex.jp/en/reservation/equipment/)
-* [Using Ekinet to make online seat reservations with the Japan Rail Pass.](https://www.jrpass.com/blog/using-ekinet-to-make-online-seat-reservations-with-the-japan-rail-pass)
+* [Shinkansen (Japanese Bullet Train)][shinkansen-japanese-bullet-train]
+* [Shinkansen travel tips | Japan Experience - Japan Rail Pass][shinkansen-travel-tips]
+* SmartEX - [About Tokaido Sanyo Kyushu Shinkansen][about-tokaido-sanyo-kyushu-shinkansen]
+* [Using Ekinet to make online seat reservations with the Japan Rail Pass.][using-ekinet-to-make-online-seat-reservations]
+
+<!-- Links -->
+
+[about-tokaido-sanyo-kyushu-shinkansen]: https://smart-ex.jp/en/reservation/equipment/
+[change-reservations]: https://smart-ex.jp/en/reservation/change/
+[confirm-reservations]: https://smart-ex.jp/en/reservation/guide/referral/
+[create-a-smartex-account]: https://smart-ex.jp/en/beginner/entry/sp/
+[eki-net]: https://www.eki-net.com/en/jreast-train-reservation/Top/Index
+[how-to-change]: https://smart-ex.jp/en/reservation/guide/cancel/howto_change/
+[klook]: https://www.klook.com/japan-rail/shinkansen/
+[make-reservations]: https://smart-ex.jp/en/reservation/reserve_smart/sp/
+[oversized-baggage-details]: https://smart-ex.jp/en/entraining/oversized-baggage/
+[purchase-history-receipt]: https://smart-ex.jp/en/reservation/reserve_smart/purchase_history/
+[refund-reservations]: https://smart-ex.jp/en/reservation/guide/cancel/
+[shinkansen-japanese-bullet-train]: https://www.japan-guide.com/e/e2018.html#ticket
+[shinkansen-travel-tips]: https://www.japan-experience.com/plan-your-trip/travel-by-train/shinkansen
+[smartex]: https://shinkansen2.jr-central.co.jp/RSV_P/smart_en_index.htm
+[using-ekinet-to-make-online-seat-reservations]: https://www.jrpass.com/blog/using-ekinet-to-make-online-seat-reservations-with-the-japan-rail-pass
+
+<!-- Image links -->
+
+[img-shinkansen-map]: /shinkansen-map.png

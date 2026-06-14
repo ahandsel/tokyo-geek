@@ -30,7 +30,7 @@ Here are some of my favorite apps for Mac users. Hopefully, you find them useful
 
 ## Brewlist - Breakdown of my favorite Mac apps
 
-See my [Brewfile](#brewfile---quick-installation) to install these apps using Homebrew.
+See my [Brewfile][brewfile] to install these apps using Homebrew.
 
 > [!NOTE]
 > The Brewfile also bundles my VS Code extensions and Go modules. Those are included in full at the bottom of this page but are not listed individually below.
@@ -149,3 +149,7 @@ My Brewfile:
 ```txt
 <!--@include: ../../public/Brewfile-->
 ```
+
+<!-- Internal links -->
+
+[brewfile]: #brewfile---quick-installation

@@ -42,10 +42,10 @@ localization: sync
 
 使用したバッグ：
 
-* [tomtoc 40 L トラベルバックパック](https://www.amazon.co.jp/dp/B097QWFJRX) - 丈夫で耐久性があり、ノート PC コンパートメント付き。壊れやすいものの持ち運びに最適です。
-* [折りたたみ式ボストンバッグ 65 L](https://www.amazon.co.jp/dp/B09L43MKDS) - 安価ですが丈夫なダッフルバッグです。
-* [Solo Tourist HT-BP41 バックパック](https://www.amazon.co.jp/dp/B001LGVW9K) - ストラップを折りたためるシンプルなバックパック。預け入れ荷物としてもチェックインできます。
-* [防水ヘルメットバッグ](https://www.amazon.co.jp/dp/B0C858T85X) - 防水で軽量、開口部が大きく、ジッパーは 2 つだけ。デイパックとして最適です。
+* [tomtoc 40 L トラベルバックパック][tomtoc-40l-travel-backpack] - 丈夫で耐久性があり、ノート PC コンパートメント付き。壊れやすいものの持ち運びに最適です。
+* [折りたたみ式ボストンバッグ 65 L][foldable-65l-boston-bag] - 安価ですが丈夫なダッフルバッグです。
+* [Solo Tourist HT-BP41 バックパック][solo-tourist-ht-bp41-backpack] - ストラップを折りたためるシンプルなバックパック。預け入れ荷物としてもチェックインできます。
+* [防水ヘルメットバッグ][waterproof-helmet-bag] - 防水で軽量、開口部が大きく、ジッパーは 2 つだけ。デイパックとして最適です。
 
 
 ## ユーロスターの乗車ヒント
@@ -67,10 +67,10 @@ localization: sync
   * 7 日間の旅行：**10 GB**
   * 14 日間の旅行：**20 GB**
 * eSIM プロバイダー（おすすめ順）:
-  1. **Nomad** - [Nomad ヨーロッパ eSIM](https://www.getnomad.app/europe-eSIM)
-     * 紹介コード `KEITLQPQFA` で 25% オフ - [ヘルプページ](https://www.getnomad.app/help-center/articles/9886364)
-  2. **Airalo** - [Airalo ヨーロッパ eSIM](https://www.airalo.com/europe-eSIM)
-     * [コード `AB6826` で初回$3.00 オフ](https://ref.airalo.com/DB2m)
+  1. **Nomad** - [Nomad ヨーロッパ eSIM][nomad-europe-esim]
+     * 紹介コード `KEITLQPQFA` で 25% オフ - [ヘルプページ][nomad-help-page]
+  2. **Airalo** - [Airalo ヨーロッパ eSIM][airalo-europe-esim]
+     * [コード `AB6826` で初回$3.00 オフ][airalo-referral-code]
 * **Nomad eSIM プラン**はヨーロッパ全域で安定していました。
 * **VPN をイギリスに設定**すると、ウェブサイトへのアクセスが楽になります。多くのサイトが現地の言語やレイアウトに切り替わるためです。
 
@@ -82,8 +82,6 @@ localization: sync
 * **Apple Card**が便利でした。利用通知が即座に届き、通貨換算もわかりやすいです。
 * **[Revolut][]**がおすすめです。旅行前にセットアップしておきましょう。
 * **現金は約 50 ユーロ**を小額紙幣・硬貨（1 ユーロ、2 ユーロ、5 ユーロ）で引き出しておくと、チップや現金のみのトイレに便利です。
-
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 
 
 ## 環境と衛生
@@ -102,12 +100,12 @@ localization: sync
   * スマホより横向きでの操作がしやすいです
   * 盗難の心配も軽減されます
 * **スマホストラップ**を持参しましょう。混雑した場所での落下防止になります。
-* [Brita の浄水ボトル](https://www.amazon.com/dp/B07H17RM1B/)のような**フィルター内蔵の水筒**があると、蛇口から給水できて便利です。
+* [Brita の浄水ボトル][brita-water-filter-bottle]のような**フィルター内蔵の水筒**があると、蛇口から給水できて便利です。
 * **予備のモバイルバッテリー** - カフェ、電車、駅ではコンセントが見つからないことがあります。
 * **AirTag**をすべてのバッグや大切なものに取り付けましょう。
 * Airbnb の鍵にも追加の AirTag をつけておくと安心です。
 * **バッテリー持ちは重要** - 大容量のモバイルバッテリーを持参しましょう。
-* **軽量変換プラグ** - [サンワサプライ TR-AD4W 海外電源変換アダプター](https://www.amazon.co.jp/dp/B075CXDNW2)が役立ちました。
+* **軽量変換プラグ** - [サンワサプライ TR-AD4W 海外電源変換アダプター][sanwa-supply-tr-ad4w-travel-adapter]が役立ちました。
 
 
 ## 翻訳に AI を活用する
@@ -176,10 +174,25 @@ Thank you for your help!
 ```
 
 > [!TIP]
-> [Rocket Typist](https://apps.apple.com/app/rocket-typist/id6463636684)を使うと、これらのプロンプトを保存して iPhone や Mac から素早くアクセスできます。
+> [Rocket Typist][rocket-typist]を使うと、これらのプロンプトを保存して iPhone や Mac から素早くアクセスできます。
 
 
 ## 最後のヒント
 
 * 予約は早めに - **博物館や電車は事前予約が必要なことが多い**です。
 * 柔軟性が大切 - 電車の遅延や予想外のにおいまで、ヨーロッパにはサプライズがいっぱいです。適応力と準備を心がけましょう。
+
+<!-- Links -->
+
+[airalo-europe-esim]: https://www.airalo.com/europe-eSIM
+[airalo-referral-code]: https://ref.airalo.com/DB2m
+[brita-water-filter-bottle]: https://www.amazon.com/dp/B07H17RM1B/
+[foldable-65l-boston-bag]: https://www.amazon.co.jp/dp/B09L43MKDS
+[nomad-europe-esim]: https://www.getnomad.app/europe-eSIM
+[nomad-help-page]: https://www.getnomad.app/help-center/articles/9886364
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[rocket-typist]: https://apps.apple.com/app/rocket-typist/id6463636684
+[sanwa-supply-tr-ad4w-travel-adapter]: https://www.amazon.co.jp/dp/B075CXDNW2
+[solo-tourist-ht-bp41-backpack]: https://www.amazon.co.jp/dp/B001LGVW9K
+[tomtoc-40l-travel-backpack]: https://www.amazon.co.jp/dp/B097QWFJRX
+[waterproof-helmet-bag]: https://www.amazon.co.jp/dp/B0C858T85X

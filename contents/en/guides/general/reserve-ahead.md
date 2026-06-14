@@ -37,12 +37,12 @@ localization: sync
 
 ### Ghibli Park
 
-* Google Maps 📍: [maps.app.goo.gl/u3YZ9GNK9uaC8ozA9](https://maps.app.goo.gl/u3YZ9GNK9uaC8ozA9)
+* Google Maps 📍: [maps.app.goo.gl/u3YZ9GNK9uaC8ozA9][ghibli-park-map]
 * Neighborhood: Nagoya City's Moricoro Park
 * Prefecture: Aichi
-* Near Station: [Ai-Chikyuhaku-Kinen-Koen Station / 愛・地球博記念公園駅](https://goo.gl/maps/34rFhnEzSYYrm5JS8)
-* English website: <https://ghibli-park.jp/en/>
-* English ticketing website: [klook.com/en-US/activity/132673-ghibli-park-ticket/](https://www.klook.com/en-US/activity/132673-ghibli-park-ticket/)
+* Near Station: [Ai-Chikyuhaku-Kinen-Koen Station / 愛・地球博記念公園駅][ghibli-park-station]
+* English website: [https://ghibli-park.jp/en/][ghibli-park-website]
+* English ticketing website: [klook.com/en-US/activity/132673-ghibli-park-ticket/][ghibli-park-ticketing]
 
 
 ## 1 month ahead
@@ -50,10 +50,10 @@ localization: sync
 
 ### Ghibli Museum
 
-* Google Maps 📍: [maps.app.goo.gl/cPkpLwLXpjhgo27s5](https://maps.app.goo.gl/cPkpLwLXpjhgo27s5)
+* Google Maps 📍: [maps.app.goo.gl/cPkpLwLXpjhgo27s5][ghibli-museum-map]
 * Neighborhood: Mitaka
 * Prefecture: Tokyo
-* Near Station: [Kichijoji Station / 吉祥寺駅](https://goo.gl/maps/WQJuVeZ6yWzZzwL26)
+* Near Station: [Kichijoji Station / 吉祥寺駅][kichijoji-station]
 * Price (Adult): 1000 yen
 
 🗓️ When to make reservations?
@@ -64,16 +64,16 @@ localization: sync
 
 ⚙️ How to buy tickets
 
-1. Create a Japanese Lawson Account (`ローソンWEB会員`): <https://l-tike.com/login/newcustomer/>
-2. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/)
+1. Create a Japanese Lawson Account (`ローソンWEB会員`): [https://l-tike.com/login/newcustomer/][lawson-newcustomer]
+2. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)][lawson-ghibli]
 3. Find the month you want to go (e.g. `8/2(水)~8/31(木)入場分` for August)
 4. Click on `詳細はこちら`
 
 Electronic Ticket vs Paper Ticket
 
-* Electronic Ticket: Reservations must be made on [ローチケ電子チケット](https://l-tike.com/e-tike/navi/guide/configuration.html) App
-  * iOS: [ローチケ電子チケット on the App Store](https://apps.apple.com/us/app/id1175974437)
-  * Google Play: [ローチケ電子チケット - Apps on Google Play](https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en)
+* Electronic Ticket: Reservations must be made on [ローチケ電子チケット][lawson-e-tike] App
+  * iOS: [ローチケ電子チケット on the App Store][lawson-e-tike-ios]
+  * Google Play: [ローチケ電子チケット - Apps on Google Play][lawson-e-tike-android]
 * Paper Ticket: Reserve online and then go to a Lawson store to print out the ticket
 
 Day of the visit
@@ -85,10 +85,10 @@ Day of the visit
 
 ### Pokémon Café
 
-* Google Maps 📍: [maps.app.goo.gl/rNZkp5t9SHSYbE9J7](https://maps.app.goo.gl/rNZkp5t9SHSYbE9J7)
+* Google Maps 📍: [maps.app.goo.gl/rNZkp5t9SHSYbE9J7][pokemon-cafe-map]
 * Neighborhood: Nihombashi
 * Prefecture: Tokyo
-* Near Station: [Nihombashi Station / 日本橋駅](https://goo.gl/maps/saACJmzrkjbL3LJ66)
+* Near Station: [Nihombashi Station / 日本橋駅][nihombashi-station]
 
 🗓️ When to make reservations?
 
@@ -96,7 +96,7 @@ Day of the visit
 
 ⚙️ How to make reservations?
 
-* Go to <https://reserve.pokemon-cafe.jp/>
+* Go to [https://reserve.pokemon-cafe.jp/][pokemon-cafe-reserve]
 * Check the `同意する` box and click `同意して進む` button
 * Click the `選択してください` dropdown and select the number of people
   * Ex/ `1名` for 1 person
@@ -115,10 +115,10 @@ Additional Notes:
 
 ### Warner Bros. Studio Tour Tokyo - The Making of Harry Potter
 
-* Google Maps 📍: [maps.app.goo.gl/tJvDXYWYSN1auw3G7](https://maps.app.goo.gl/tJvDXYWYSN1auw3G7)
+* Google Maps 📍: [maps.app.goo.gl/tJvDXYWYSN1auw3G7][warner-bros-map]
 * Neighborhood: Nerima City
 * Prefecture: Tokyo
-* Near Station: [Toshimaen Station / 豊島園駅](https://goo.gl/maps/AVu7kfEuq5HzbD3Q9)
+* Near Station: [Toshimaen Station / 豊島園駅][toshimaen-station]
 
 
 ## 2 ~ 4 weeks ahead
@@ -126,10 +126,10 @@ Additional Notes:
 
 ### teamLab Planets TOKYO
 
-* Google Maps 📍: [maps.app.goo.gl/7q7McjvgPBRHdtGr7](https://maps.app.goo.gl/7q7McjvgPBRHdtGr7)
+* Google Maps 📍: [maps.app.goo.gl/7q7McjvgPBRHdtGr7][teamlab-map]
 * Neighborhood: Koto City
 * Prefecture: Tokyo
-* Near Station: [Shin-Toyosu Station / 新豊洲駅](https://goo.gl/maps/D28H5c61SMYksVCd8)
+* Near Station: [Shin-Toyosu Station / 新豊洲駅][shin-toyosu-station]
 
 🗓️ When to make reservations?
 
@@ -138,15 +138,15 @@ Additional Notes:
 
 ⚙️ How to make reservations?
 
-* <https://teamlabplanets.dmm.com/en> and click on `Buy a Ticket`
+* [https://teamlabplanets.dmm.com/en][teamlab-tickets] and click on `Buy a Ticket`
 
 
 ### mipig cafe - Harajuku
 
-* Google Maps 📍: [maps.app.goo.gl/TgnaKpc8wopVup8a7](https://maps.app.goo.gl/TgnaKpc8wopVup8a7)
+* Google Maps 📍: [maps.app.goo.gl/TgnaKpc8wopVup8a7][mipig-map]
 * Neighborhood: Harajuku
 * Prefecture: Tokyo
-* Near Station: [Harajuku Station / 原宿駅](https://goo.gl/maps/2CpxRP6T6kVZYivn6)
+* Near Station: [Harajuku Station / 原宿駅][harajuku-station]
 
 
 ## 1 ~ 2 weeks ahead
@@ -154,13 +154,13 @@ Additional Notes:
 
 ### Tokyo Skytree
 
-* Google Maps 📍: <https://goo.gl/maps/g9e5G99sQmehCiL28>
+* Google Maps 📍: [https://goo.gl/maps/g9e5G99sQmehCiL28][skytree-map]
 * Neighborhood: Sumida
 * Prefecture: Tokyo
 * Near Station:
-  * [Oshiage Sta.(SKYTREE) / 押上駅 (スカイツリー前)](https://goo.gl/maps/yNcpopGHVaQohsqg7)
-  * [Tokyo Skytree Station / とうきょうスカイツリー駅](https://goo.gl/maps/dKVGuSgEPqDXjaKN6)
-* Book Online: <https://www.tokyo-skytree.jp/en/ticket/individual/reservation/online.html>
+  * [Oshiage Sta.(SKYTREE) / 押上駅 (スカイツリー前)][oshiage-station]
+  * [Tokyo Skytree Station / とうきょうスカイツリー駅][tokyo-skytree-station]
+* Book Online: [https://www.tokyo-skytree.jp/en/ticket/individual/reservation/online.html][skytree-booking]
 
 
 ## Not necessary to book ahead
@@ -168,25 +168,61 @@ Additional Notes:
 
 ### Tokyo Tower
 
-* Google Maps 📍: <https://goo.gl/maps/jTCtyM4YCf4WEK9N6>
+* Google Maps 📍: [https://goo.gl/maps/jTCtyM4YCf4WEK9N6][tokyo-tower-map]
 * Neighborhood: Minato
 * Prefecture: Tokyo
 * Near Station:
-  * [Akabanebashi Station / 赤羽橋駅](https://goo.gl/maps/NL53VazjZnLms5Yj7)
-  * [Kamiyachō Station / 神谷町駅](https://goo.gl/maps/P93pXtvTAsowaKYx5)
-  * [Onarimon Station / 御成門駅](https://goo.gl/maps/p7ZR793tnvAydHu77)
+  * [Akabanebashi Station / 赤羽橋駅][akabanebashi-station]
+  * [Kamiyachō Station / 神谷町駅][kamiyacho-station]
+  * [Onarimon Station / 御成門駅][onarimon-station]
 
 
 ### The National Museum of Emerging Science and Innovation
 
-* Google Maps 📍: <https://goo.gl/maps/3MLKfejcCF4pSz1N6>
+* Google Maps 📍: [https://goo.gl/maps/3MLKfejcCF4pSz1N6][miraikan-map]
 
 
 ### Museum of Contemporary Art Tokyo (MOT)
 
-* Google Maps 📍: <https://goo.gl/maps/ZRyug7Y15dQvgECPA>
+* Google Maps 📍: [https://goo.gl/maps/ZRyug7Y15dQvgECPA][mot-map]
 * Neighborhood: Kiba
 * Prefecture: Tokyo
 * Near Station:
-  * [Kiba Station / 木場駅](https://goo.gl/maps/RhiShAqYYdyfU93w5)
-  * [Kiyosumi-Shirakawa Station / 清澄白河駅](https://goo.gl/maps/mVqj5cs8MBreSEdC7)
+  * [Kiba Station / 木場駅][kiba-station]
+  * [Kiyosumi-Shirakawa Station / 清澄白河駅][kiyosumi-shirakawa-station]
+
+<!-- Links -->
+
+[akabanebashi-station]: https://goo.gl/maps/NL53VazjZnLms5Yj7
+[ghibli-museum-map]: https://maps.app.goo.gl/cPkpLwLXpjhgo27s5
+[ghibli-park-map]: https://maps.app.goo.gl/u3YZ9GNK9uaC8ozA9
+[ghibli-park-station]: https://goo.gl/maps/34rFhnEzSYYrm5JS8
+[ghibli-park-ticketing]: https://www.klook.com/en-US/activity/132673-ghibli-park-ticket/
+[ghibli-park-website]: https://ghibli-park.jp/en/
+[harajuku-station]: https://goo.gl/maps/2CpxRP6T6kVZYivn6
+[kamiyacho-station]: https://goo.gl/maps/P93pXtvTAsowaKYx5
+[kiba-station]: https://goo.gl/maps/RhiShAqYYdyfU93w5
+[kichijoji-station]: https://goo.gl/maps/WQJuVeZ6yWzZzwL26
+[kiyosumi-shirakawa-station]: https://goo.gl/maps/mVqj5cs8MBreSEdC7
+[lawson-e-tike]: https://l-tike.com/e-tike/navi/guide/configuration.html
+[lawson-e-tike-android]: https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en
+[lawson-e-tike-ios]: https://apps.apple.com/us/app/id1175974437
+[lawson-ghibli]: https://l-tike.com/ghibli/
+[lawson-newcustomer]: https://l-tike.com/login/newcustomer/
+[mipig-map]: https://maps.app.goo.gl/TgnaKpc8wopVup8a7
+[miraikan-map]: https://goo.gl/maps/3MLKfejcCF4pSz1N6
+[mot-map]: https://goo.gl/maps/ZRyug7Y15dQvgECPA
+[nihombashi-station]: https://goo.gl/maps/saACJmzrkjbL3LJ66
+[onarimon-station]: https://goo.gl/maps/p7ZR793tnvAydHu77
+[oshiage-station]: https://goo.gl/maps/yNcpopGHVaQohsqg7
+[pokemon-cafe-map]: https://maps.app.goo.gl/rNZkp5t9SHSYbE9J7
+[pokemon-cafe-reserve]: https://reserve.pokemon-cafe.jp/
+[shin-toyosu-station]: https://goo.gl/maps/D28H5c61SMYksVCd8
+[skytree-booking]: https://www.tokyo-skytree.jp/en/ticket/individual/reservation/online.html
+[skytree-map]: https://goo.gl/maps/g9e5G99sQmehCiL28
+[teamlab-map]: https://maps.app.goo.gl/7q7McjvgPBRHdtGr7
+[teamlab-tickets]: https://teamlabplanets.dmm.com/en
+[tokyo-skytree-station]: https://goo.gl/maps/dKVGuSgEPqDXjaKN6
+[tokyo-tower-map]: https://goo.gl/maps/jTCtyM4YCf4WEK9N6
+[toshimaen-station]: https://goo.gl/maps/AVu7kfEuq5HzbD3Q9
+[warner-bros-map]: https://maps.app.goo.gl/tJvDXYWYSN1auw3G7

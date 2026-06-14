@@ -13,4 +13,8 @@ localization: sync
 
 ## おすすめ記事
 
-[東京発のおすすめ 1 泊旅行 10 選 - Tokyo Cheapo](https://tokyocheapo.com/travel-2/overnight-trips-from-tokyo/)
+[東京発のおすすめ 1 泊旅行 10 選 - Tokyo Cheapo][tokyo-cheapo-overnight-trips]
+
+<!-- Links -->
+
+[tokyo-cheapo-overnight-trips]: https://tokyocheapo.com/travel-2/overnight-trips-from-tokyo/

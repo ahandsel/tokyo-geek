@@ -23,8 +23,8 @@ localization: sync
 
 ## おすすめスポット
 
-* [軍艦島](https://www.japan-guide.com/e/e4414.html)
-* [稲佐山](https://www.japan-guide.com/e/e4412.html)
+* [軍艦島][gunkanjima-island]
+* [稲佐山][mount-inasayama]
 
 
 ## 過去の旅程
@@ -34,22 +34,22 @@ localization: sync
 
 Narita {NRT} -> Fukuoka {FUK}
 
-* [中洲屋台（屋台グルメ）](https://goo.gl/maps/LNBpML7HtDfgDxur8)
-* [川端通商店街](https://goo.gl/maps/iTqqx3PAufXaoqbH6)
-* [ラーメンスタジアム](https://goo.gl/maps/vUV8nWJWg8GRMoJ3A)
-* [天神地下街](https://goo.gl/maps/WSqzMLqmxv4Ar6Ju8)
-* [舞鶴公園](https://goo.gl/maps/nGsbxrVfZ39ecrap9)
+* [中洲屋台（屋台グルメ）][nakasu-yatai]
+* [川端通商店街][kawabata-shopping-arcade]
+* [ラーメンスタジアム][ramen-stadium]
+* [天神地下街][tenjin-underground-mall]
+* [舞鶴公園][maizuru-park]
 
 🏨 Hotel WBF Grande Hakata
 
-* <https://goo.gl/maps/uhXTr4LfUzJRKZiXA>
+* [https://goo.gl/maps/uhXTr4LfUzJRKZiXA][map-hotel-wbf-grande-hakata]
 * 🧺 コインランドリーあり
 * 博多駅近くのしっかりしたホテル
 
 
 ### 木曜日 - 3 月 30 日
 
-* [太宰府天満宮](https://goo.gl/maps/dX14MNjwoR1K1ttk6)
+* [太宰府天満宮][dazaifu-tenmangu]
 
 柳川
 
@@ -58,12 +58,12 @@ Narita {NRT} -> Fukuoka {FUK}
 
 🏨 大江戸温泉物語 長崎ホテル清風
 
-* <https://goo.gl/maps/3CF6bR6nJWxm6njD7>
+* [https://goo.gl/maps/3CF6bR6nJWxm6njD7][map-ooedo-onsen-monogatari-nagasaki-hotel-seifu]
 
 
 ### 金曜日 - 3 月 31 日
 
-* [軍艦島 - 長崎観光](https://www.japan-guide.com/e/e4414.html)
+* [軍艦島 - 長崎観光][gunkanjima-island]
 
 （Nicole-Marine Island）
 
@@ -73,7 +73,7 @@ Narita {NRT} -> Fukuoka {FUK}
 
 🏨 REF Kumamoto by VESSEL HOTELS
 
-* <https://goo.gl/maps/RSULR4UtqB7mrFZz5>
+* [https://goo.gl/maps/RSULR4UtqB7mrFZz5][map-ref-kumamoto]
 * 🧺 コインランドリーあり
 * 熊本の繁華街にあるとても素敵なホテル。
 * 少し高めですが、無印良品スタイルが好きならここがおすすめです。
@@ -81,13 +81,13 @@ Narita {NRT} -> Fukuoka {FUK}
 
 ### 土曜日 - 4 月 1 日
 
-* [阿蘇山](https://goo.gl/maps/ihwKvtexubjgdq9r9)
+* [阿蘇山][map-mount-aso]
 * 高千穂峡
 * 別府鉄輪温泉エリア
 
 🏨 別府鉄輪温泉 鬼山ホテル
 
-* <https://goo.gl/maps/xrivbkDLZVWhQaE6A>
+* [https://goo.gl/maps/xrivbkDLZVWhQaE6A][map-oniyama-hotel]
 * 屋上露天風呂 ♨️
 
 
@@ -101,10 +101,27 @@ Narita {NRT} -> Fukuoka {FUK}
 
 🏨 西鉄イン小倉
 
-* <https://goo.gl/maps/dt8vatBpXeeak9QW9>
+* [https://goo.gl/maps/dt8vatBpXeeak9QW9][map-nishitetsu-inn-kokura]
 * 🧺 コインランドリーあり
 
 
 ### 月曜日 - 4 月 3 日
 
 お昼に福岡から東京へ飛行機で帰ります。
+
+<!-- Links -->
+
+[dazaifu-tenmangu]: https://goo.gl/maps/dX14MNjwoR1K1ttk6
+[gunkanjima-island]: https://www.japan-guide.com/e/e4414.html
+[kawabata-shopping-arcade]: https://goo.gl/maps/iTqqx3PAufXaoqbH6
+[maizuru-park]: https://goo.gl/maps/nGsbxrVfZ39ecrap9
+[map-hotel-wbf-grande-hakata]: https://goo.gl/maps/uhXTr4LfUzJRKZiXA
+[map-mount-aso]: https://goo.gl/maps/ihwKvtexubjgdq9r9
+[map-nishitetsu-inn-kokura]: https://goo.gl/maps/dt8vatBpXeeak9QW9
+[map-oniyama-hotel]: https://goo.gl/maps/xrivbkDLZVWhQaE6A
+[map-ooedo-onsen-monogatari-nagasaki-hotel-seifu]: https://goo.gl/maps/3CF6bR6nJWxm6njD7
+[map-ref-kumamoto]: https://goo.gl/maps/RSULR4UtqB7mrFZz5
+[mount-inasayama]: https://www.japan-guide.com/e/e4412.html
+[nakasu-yatai]: https://goo.gl/maps/LNBpML7HtDfgDxur8
+[ramen-stadium]: https://goo.gl/maps/vUV8nWJWg8GRMoJ3A
+[tenjin-underground-mall]: https://goo.gl/maps/WSqzMLqmxv4Ar6Ju8

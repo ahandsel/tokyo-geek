@@ -6,7 +6,7 @@ localization: sync
 
 # {{$frontmatter.title}}
 
-This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide](../../ja/local/visa-renewal/jpki-install-guide-v3-5.md). <!-- markdownlint-disable-line -->
+This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide][ja-install-guide]. <!-- markdownlint-disable-line -->
 
 
 ## Table of contents <!-- omit in toc -->
@@ -30,7 +30,7 @@ This is a English machine translation of the [JPKI User Software Ver.3.5 install
 The overall steps are as follows:
 
 * Install JPKI User Software  
-  Install the JPKI User Software. See [Chapter 3 Installing JPKI User Software](#chapter-3-installing-jpki-user-software).
+  Install the JPKI User Software. See [Chapter 3 Installing JPKI User Software][chapter-3-installing].
 
 * Install IC card reader/writer driver  
   Install the driver software for the IC card reader/writer you use.  
@@ -38,14 +38,14 @@ The overall steps are as follows:
   (If you have already installed the driver, you can skip this step.)
 
 * Start JPKI User Software  
-  Start the JPKI User Software. See [Chapter 4 Starting JPKI User Software](#chapter-4-starting-jpki-user-software) and the help included with the software for details.
+  Start the JPKI User Software. See [Chapter 4 Starting JPKI User Software][chapter-4-starting] and the help included with the software for details.
 
 
 ### Requirements
 
 Some functions of JPKI User Software require JRE (Java Runtime Environment). For details on functions that need JRE, see the help of JPKI User Software.  
 To download and install JRE, see the Oracle website.  
-Reference information is also provided on the JPKI portal site: <https://www.jpki.go.jp/e-apply/jre.html>.
+Reference information is also provided on the JPKI portal site: [https://www.jpki.go.jp/e-apply/jre.html][jpki-jre-reference].
 
 ---
 
@@ -152,3 +152,13 @@ The software can notify you when updates are available.
 2. From the menu, select "Settings" (`設定`).
 3. Open "Update notifications" (`更新通知`).
 4. Choose either "Enable" (`有効`) or "Disable" (`無効`).
+
+<!-- Links -->
+
+[ja-install-guide]: ../../ja/local/visa-renewal/jpki-install-guide-v3-5.md
+[jpki-jre-reference]: https://www.jpki.go.jp/e-apply/jre.html
+
+<!-- Internal links -->
+
+[chapter-3-installing]: #chapter-3-installing-jpki-user-software
+[chapter-4-starting]: #chapter-4-starting-jpki-user-software

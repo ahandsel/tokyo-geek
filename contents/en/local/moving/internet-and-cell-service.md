@@ -41,11 +41,6 @@ As of November 2025:
   * YMobile works well for coverage in rural areas (mountains, beaches, and other remote areas).
 * Rakuten Mobile is the cheapest cell phone plan but has limited coverage.
 
-[yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
-[bic-camera]: https://www.google.com/maps/search/%EF%BE%8B%EF%BE%9E%EF%BD%AF%EF%BD%B8%EF%BD%B6%EF%BE%92%EF%BE%97/
-[yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6
-[paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
-
 
 ## Payment methods
 
@@ -53,12 +48,7 @@ As of November 2025:
 * Japan Post Bank is the most straightforward option for opening a bank account.
   * For more details, refer to the [How to open a Japan Post Bank account - MATCHA][matcha-japan-post-bank] article.
 * Apply for a [Rakuten credit card][rakuten-credit-card] before trying to get a cell phone plan.
-* If you have money in a different currency, consider the debit card from [Wise][] or [Revolut][] multi-currency accounts.
-
-[matcha-japan-post-bank]: https://matcha-jp.com/en/4496
-[rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+* If you have money in a different currency, consider the debit card from [Wise][wise] or [Revolut][revolut] multi-currency accounts.
 
 
 ## Notes on cell phone plans in Japan
@@ -87,5 +77,15 @@ Helpful articles:
 * [Japan's cheapest cell phone plans compared - Tokyo Cheapo][tokyo-cheapo-cheapest]
 * [How and why to get a Japanese phone number - Time Out Tokyo][time-out-phone-number]
 
-[tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
+<!-- Links -->
+
+[bic-camera]: https://www.google.com/maps/search/%EF%BE%8B%EF%BE%9E%EF%BD%AF%EF%BD%B8%EF%BD%B6%EF%BE%92%EF%BE%97/
+[matcha-japan-post-bank]: https://matcha-jp.com/en/4496
+[paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
+[rakuten-credit-card]: https://www.rakuten-card.co.jp/
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 [time-out-phone-number]: https://www.timeout.com/tokyo/things-to-do/how-and-why-to-get-a-japanese-phone-number?package_page=112292
+[tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
+[wise]: https://wise.com/invite/ihpn/genjif1
+[yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
+[yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6

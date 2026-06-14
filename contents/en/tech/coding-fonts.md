@@ -75,7 +75,7 @@ These are safe to re-run; Homebrew skips anything already installed.
 
 ### Option B: Brewfile
 
-Use my [Brewfile](/share/Brewfile) and install all fonts in one shot.
+Use my [Brewfile][brewfile] and install all fonts in one shot.
 Save the Brewfile to your machine, then run:
 
 ```shell
@@ -184,6 +184,9 @@ After changing fonts, reload VS Code (`Cmd+Shift+P` then **Developer: Reload Win
 * [Nerd Fonts][nerd-fonts]
 * [Homebrew Cask Fonts][homebrew]
 
+<!-- Links -->
+
+[brewfile]: /share/Brewfile
 [homebrew]: https://brew.sh/
 [migrate-macos-apps-homebrew]: homebrew-migrate.md
 [nerd-fonts]: https://www.nerdfonts.com/

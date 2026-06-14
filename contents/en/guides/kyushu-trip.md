@@ -23,8 +23,8 @@ localization: sync
 
 ## Cool places to visit
 
-* [Gunkanjima (軍艦島) Island](https://www.japan-guide.com/e/e4414.html)
-* [Mount Inasayama (稲佐山)](https://www.japan-guide.com/e/e4412.html)
+* [Gunkanjima (軍艦島) Island][gunkanjima-island]
+* [Mount Inasayama (稲佐山)][mount-inasayama]
 
 
 ## Past itinerary
@@ -34,22 +34,22 @@ localization: sync
 
 Narita {NRT} -> Fukuoka {FUK}
 
-* [Nakasu Yatai (snack food)](https://goo.gl/maps/LNBpML7HtDfgDxur8)
-* [Kawabata Shopping Arcade / 川端通商店街](https://goo.gl/maps/iTqqx3PAufXaoqbH6)
-* [Ramen Stadium / ラーメンスタジアム](https://goo.gl/maps/vUV8nWJWg8GRMoJ3A)
-* [Tenjin Underground Mall / 天神地下街](https://goo.gl/maps/WSqzMLqmxv4Ar6Ju8)
-* [Maizuru Park / 舞鶴公園](https://goo.gl/maps/nGsbxrVfZ39ecrap9)
+* [Nakasu Yatai (snack food)][nakasu-yatai]
+* [Kawabata Shopping Arcade / 川端通商店街][kawabata-shopping-arcade]
+* [Ramen Stadium / ラーメンスタジアム][ramen-stadium]
+* [Tenjin Underground Mall / 天神地下街][tenjin-underground-mall]
+* [Maizuru Park / 舞鶴公園][maizuru-park]
 
 🏨 Hotel WBF Grande Hakata
 
-* <https://goo.gl/maps/uhXTr4LfUzJRKZiXA>
+* [Hotel WBF Grande Hakata / ホテル WBF グランデ博多 - Google Maps][map-hotel-wbf-grande-hakata]
 * 🧺 Coin laundry
 * A solid hotel near the Hakata station
 
 
 ### Thursday - March 30
 
-* [Dazaifu Tenmangu / 太宰府天満宮](https://goo.gl/maps/dX14MNjwoR1K1ttk6)
+* [Dazaifu Tenmangu / 太宰府天満宮][dazaifu-tenmangu]
 
 Yanagawa River
 
@@ -58,12 +58,12 @@ Yanagawa River
 
 🏨 Ooedo-Onsen Monogatari Nagasaki Hotel Seifu
 
-* <https://goo.gl/maps/3CF6bR6nJWxm6njD7>
+* [Ooedo-Onsen Monogatari Nagasaki Hotel Seifu / 大江戸温泉物語 長崎ホテル清風 - Google Maps][map-ooedo-onsen-monogatari-nagasaki-hotel-seifu]
 
 
 ### Friday - March 31
 
-* [Gunkanjima Island - Nagasaki Travel](https://www.japan-guide.com/e/e4414.html)
+* [Gunkanjima Island - Nagasaki Travel][gunkanjima-island]
 
 (Nicole-Marine Island)
 
@@ -73,7 +73,7 @@ FERRY across the Ariake Sea to Kumamoto (5:15:45), Kumamoto Castle
 
 🏨 REF Kumamoto by VESSEL HOTELS
 
-* <https://goo.gl/maps/RSULR4UtqB7mrFZz5>
+* [Google maps][map-ref-kumamoto-by-vessel-hotels]
 * 🧺 Coin laundry
 * Very night hotel in the Kumamoto downtown area.
 * A bit pricier, but if you like Muji style, this is the place to stay.
@@ -81,13 +81,13 @@ FERRY across the Ariake Sea to Kumamoto (5:15:45), Kumamoto Castle
 
 ### Saturday - April 1
 
-* [Mount Aso ／阿蘇山](https://goo.gl/maps/ihwKvtexubjgdq9r9)
+* [Mount Aso /阿蘇山][mount-aso]
 * Takachiho Gorge
 * Beppu Teirin Onsen area
 
 🏨 Beppu Kannawa Onsen Oniyama Hotel
 
-* <https://goo.gl/maps/xrivbkDLZVWhQaE6A>
+* [Google maps][map-beppu-kannawa-onsen-oniyama-hotel]
 * Roof top onsen ♨️
 
 
@@ -101,10 +101,27 @@ FERRY across the Ariake Sea to Kumamoto (5:15:45), Kumamoto Castle
 
 🏨 Nishitetsu Inn Kokura
 
-* <https://goo.gl/maps/dt8vatBpXeeak9QW9>
+* [Google maps][map-nishitetsu-inn-kokura]
 * 🧺 Coin laundry
 
 
 ### Monday - April 3
 
 Fly back to Tokyo from Fukuoka at noon.
+
+<!-- Links -->
+
+[dazaifu-tenmangu]: https://goo.gl/maps/dX14MNjwoR1K1ttk6
+[gunkanjima-island]: https://www.japan-guide.com/e/e4414.html
+[kawabata-shopping-arcade]: https://goo.gl/maps/iTqqx3PAufXaoqbH6
+[maizuru-park]: https://goo.gl/maps/nGsbxrVfZ39ecrap9
+[map-beppu-kannawa-onsen-oniyama-hotel]: https://goo.gl/maps/xrivbkDLZVWhQaE6A
+[map-hotel-wbf-grande-hakata]: https://goo.gl/maps/uhXTr4LfUzJRKZiXA
+[map-nishitetsu-inn-kokura]: https://goo.gl/maps/dt8vatBpXeeak9QW9
+[map-ooedo-onsen-monogatari-nagasaki-hotel-seifu]: https://goo.gl/maps/3CF6bR6nJWxm6njD7
+[map-ref-kumamoto-by-vessel-hotels]: https://goo.gl/maps/RSULR4UtqB7mrFZz5
+[mount-aso]: https://goo.gl/maps/ihwKvtexubjgdq9r9
+[mount-inasayama]: https://www.japan-guide.com/e/e4412.html
+[nakasu-yatai]: https://goo.gl/maps/LNBpML7HtDfgDxur8
+[ramen-stadium]: https://goo.gl/maps/vUV8nWJWg8GRMoJ3A
+[tenjin-underground-mall]: https://goo.gl/maps/WSqzMLqmxv4Ar6Ju8

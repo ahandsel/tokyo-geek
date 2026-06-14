@@ -80,15 +80,15 @@ My favorite places to visit in Hakone in order of preference:
 * [Owakudani / 大涌谷インフォメーションセンター][owakudani-center] - volcanic valley with hot springs and black eggs.
 * [Mount Ashigara / 金時山][mount-ashigara] - hike to the summit for great views of Mount Fuji.
 * [Hakone Venetian Glass Museum (Glass Forest) / 箱根ガラスの森美術館][glass-museum] - beautiful glass art museum and gardens.
-* [Hakone Gora Park / 箱根強羅公園](https://maps.app.goo.gl/NJidmfP9SKBAm2uR7) - lovely park with tea house and craft workshops.
+* [Hakone Gora Park / 箱根強羅公園][hakone-gora-park] - lovely park with tea house and craft workshops.
 
 Other popular locations:
 
 * [Hakone Museum of Art / 箱根美術館][hakone-museum] - traditional Japanese art museum with beautiful gardens.
 * [Hakone Shrine / 箱根神社][hakone-shrine] - historic Shinto shrine on the shores of Lake Ashi.
 * [Forest Adventure Hakone / フォレストアドベンチャー・箱根][forest-adventure] - outdoor adventure park with zip lines and obstacle courses.
-* [Hakone Kowakien Yunessun](https://maps.app.goo.gl/45ivQxjay29eFPwe9) - Water park with pools and slides. Recommended for families with children. Not recommended for couples or adults.
-* [Mount Ashigara (Kintoki-yama)](https://maps.app.goo.gl/KGaKFySYQstNo7Q36)
+* [Hakone Kowakien Yunessun][hakone-kowakien-yunessun] - Water park with pools and slides. Recommended for families with children. Not recommended for couples or adults.
+* [Mount Ashigara (Kintoki-yama)][mount-ashigara-kintoki-yama]
 
 
 ## Hotels
@@ -162,8 +162,8 @@ Tokyo ↔ Odawara via Shinkansen ↔ [Hakone-Yumoto][] via Hakone Tozan Railway
 
 ### Hakone Freepass - discounts and passes
 
-* Website: [Hakone Freepass: A convenient ticket for your trip from Shinjuku](https://odakyu-global.com/passes/hakone-freepass/)
-* PDF: [HakoneFreepass_en202510](https://odakyu-global.com/_wp/wp-content/uploads/2025/08/HakoneFreepass_en202510.pdf)
+* Website: [Hakone Freepass: A convenient ticket for your trip from Shinjuku][hakone-freepass-ticket]
+* PDF: [HakoneFreepass_en202510][hakone-freepass-pdf]
 * The Hakone Freepass (箱根フリーパス) is a discount pass from Odakyu Railway that provides unlimited rides on designated transportation in the Hakone area for a fixed price.
 * Available for 2-day and 3-day durations - ideal for weekend trips.
 * Includes major transport in Hakone (train, bus, cable car, ropeway, and cruise) plus the round-trip fare from Shinjuku to [Hakone-Yumoto][].
@@ -194,9 +194,9 @@ Here is an example 3-day Hakone itinerary.
 * Depart Shinjuku station via Odakyu Romancecar on the 10:00 train to [Hakone-Yumoto][].
 * Arrive at [Hakone-Yumoto][] around 11:30.
 * Explore the [Hakone-Yumoto][] area and have lunch.
-* Take the Hakone Tozan Railway to the [Hakone Open-Air Museum](https://maps.app.goo.gl/TvZMcuobuEZvjcr56).
-  * Book tickets in advance: [Open Air Museum tickets on Asoview](https://www.asoview.com/channel/ticket/HDNSVzNB05/ticket0000031461/)
-* Dinner at [Tamura Ginkatsu-tei 田むら銀かつ亭](https://maps.app.goo.gl/ymN75PXQCQkYjiAr9).
+* Take the Hakone Tozan Railway to the [Hakone Open-Air Museum][hakone-open-air-museum-map].
+  * Book tickets in advance: [Open Air Museum tickets on Asoview][open-air-museum-tickets]
+* Dinner at [Tamura Ginkatsu-tei 田むら銀かつ亭][tamura-ginkatsu-tei].
   * Book ahead.
 * Overnight at Yutorelo-an ANNEX.
 
@@ -210,19 +210,19 @@ Here is an example 3-day Hakone itinerary.
 * Continue on the ropeway from [Owakudani station][] to [Togendai station][].
 * Take the Hakone Sightseeing Cruise from Togendai Pier to Motohakone-ko Pier.
 * Visit [Motohakone][] area and nearby sites:
-  * [Hakone Amazake Tea House](https://maps.app.goo.gl/A4JvAg15XUingU4b8)
-  * [Hakone Checkpoint](https://maps.app.goo.gl/SCMZnE7zv5VgaFe87)
+  * [Hakone Amazake Tea House][hakone-amazake-tea-house]
+  * [Hakone Checkpoint][hakone-checkpoint]
 
 
 ### Day 3: Hakone to Tokyo
 
-* Late morning: [Forest Adventure Hakone](https://maps.app.goo.gl/FBPNeRNZ3vEG5MFJ7)
+* Late morning: [Forest Adventure Hakone][forest-adventure-hakone-map]
   * Great for everyone: kids, adults, and families.
   * Book the day before on their site.
 * Afternoon: Explore the [Hakone-Yumoto][] area:
-  * [Kikukawa Candy Shop](https://maps.app.goo.gl/9cfsEJ2QZ6DmzrVG9)
-  * [Hakone Dolce Studio STELLA](https://maps.app.goo.gl/DZyykcfRB221vpre6)
-  * [Yubadon Naokichi](https://maps.app.goo.gl/U8WxzwQLvN5kpcUR7)
+  * [Kikukawa Candy Shop][kikukawa-candy-shop]
+  * [Hakone Dolce Studio STELLA][hakone-dolce-studio-stella]
+  * [Yubadon Naokichi][yubadon-naokichi]
 * Evening: Return to Tokyo via Odakyu Romancecar from [Hakone-Yumoto][] station to Shinjuku station.
 
 
@@ -242,23 +242,37 @@ Here is an example 3-day Hakone itinerary.
 [e-romancecar]: https://www.web-odakyu.com/e-romancecar/?language=en
 [emot-tickets]: https://www.emot.jp/hakonearea_lp.html
 [forest-adventure]: https://maps.app.goo.gl/5KKhrhD1EBZhjN4c7
+[forest-adventure-hakone-map]: https://maps.app.goo.gl/FBPNeRNZ3vEG5MFJ7
 [glass-museum]: https://maps.app.goo.gl/pHnEXhd6Ende3R2CA
 [Gora station]: https://maps.app.goo.gl/eXxjNPt1CeYoEdNFA
 [Hakone tenki.jp]: https://tenki.jp/forecast/3/17/4620/14382/10days.html
+[hakone-amazake-tea-house]: https://maps.app.goo.gl/A4JvAg15XUingU4b8
+[hakone-checkpoint]: https://maps.app.goo.gl/SCMZnE7zv5VgaFe87
+[hakone-dolce-studio-stella]: https://maps.app.goo.gl/DZyykcfRB221vpre6
+[hakone-freepass-pdf]: https://odakyu-global.com/_wp/wp-content/uploads/2025/08/HakoneFreepass_en202510.pdf
+[hakone-freepass-ticket]: https://odakyu-global.com/passes/hakone-freepass/
+[hakone-gora-park]: https://maps.app.goo.gl/NJidmfP9SKBAm2uR7
+[hakone-kowakien-yunessun]: https://maps.app.goo.gl/45ivQxjay29eFPwe9
 [hakone-museum]: https://maps.app.goo.gl/y1ftJY5RWarcMh4DA
+[hakone-open-air-museum-map]: https://maps.app.goo.gl/TvZMcuobuEZvjcr56
 [hakone-shrine]: https://maps.app.goo.gl/o9sXV4hX8zM5xn6KA
 [Hakone-Yumoto]: https://maps.app.goo.gl/jrtU5b5RAQqizdYN6
 [irori-guesthouse]: https://maps.app.goo.gl/cyLU5bmVYWc63UEK6
+[kikukawa-candy-shop]: https://maps.app.goo.gl/9cfsEJ2QZ6DmzrVG9
 [Klook]: https://www.klook.com/experiences/list/hakone-tours-experiences/c441/
 [ks-house]: https://maps.app.goo.gl/dxzgGH4t1E3cBfBE9
 [Motohakone]: https://maps.app.goo.gl/gc7YEjqzfCqbZTV67
 [mount-ashigara]: https://maps.app.goo.gl/isU38ivdkzr1urNh8
+[mount-ashigara-kintoki-yama]: https://maps.app.goo.gl/KGaKFySYQstNo7Q36
 [Naka-Gora station]: https://maps.app.goo.gl/yUbvUABcPiPLB9kn7
 [open-air-museum]: https://maps.app.goo.gl/N34dPJXeGgJzsPBV6
+[open-air-museum-tickets]: https://www.asoview.com/channel/ticket/HDNSVzNB05/ticket0000031461/
 [Owakudani station]: https://maps.app.goo.gl/UwP2ywxfQCm6nDez7
 [owakudani-center]: https://maps.app.goo.gl/KxVNvxnD4z5wnhL7A
 [romancecar-details]: https://www.odakyu.jp/english/romancecar/
 [Sounzan station]: https://maps.app.goo.gl/MGdVVTR8EnJnJVBR6
+[tamura-ginkatsu-tei]: https://maps.app.goo.gl/ymN75PXQCQkYjiAr9
 [Togendai station]: https://maps.app.goo.gl/CDiCpJ2GmAsRR6tv6
+[yubadon-naokichi]: https://maps.app.goo.gl/U8WxzwQLvN5kpcUR7
 [Yumoto station Hotel MIRAHAKONE]: https://maps.app.goo.gl/2NKbKGcnFaNc4jSw8
 [Yutorelo-an ANNEX]: https://maps.app.goo.gl/n9MHEHd5ejsffR9WA

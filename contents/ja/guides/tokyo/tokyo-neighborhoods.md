@@ -16,8 +16,6 @@ localization: sync
 
 [東京のおすすめ滞在エリアの Google Maps][tokyo-best-areas]
 
-[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
-
 ---
 
 
@@ -66,9 +64,6 @@ localization: sync
 * 歌舞伎町は治安が良くないエリアもあります。観光客を狙った客引きに注意してください
 * 格安宿泊施設が限られています
 
-[shinjuku-map]: https://www.google.com/maps/d/viewer?mid=1ZyMErMGQEXy_ZJqEOfby67wv3No&ll=35.695782888967486%2C139.70420839999997&z=13
-[shinjuku-gyoen-anime]: https://youtu.be/udDIkl6z8X0?feature=shared
-
 ---
 
 
@@ -103,8 +98,6 @@ localization: sync
 * 原宿は女性向けのお店が多いです（秋葉原の逆）
 * 格安宿泊施設が限られています
 
-[shibuya-map]: https://www.google.com/maps/d/viewer?mid=1BoYDd2FfMOrOUmzvdI4EoR8UKgw
-
 ---
 
 
@@ -137,11 +130,6 @@ localization: sync
 * すべてが高い（食事、宿泊、ショッピング）
 * 東京で最も物価が高いエリアの 1 つです
 
-[ginza-map]: https://www.google.com/maps/d/viewer?mid=1J26-ejxq53uFIlFY7M6q83fxUDQ&ll=35.673853299559994%2C139.76779762299805&z=13
-[ginza-six]: https://ginza6.tokyo/
-[ginza-mitsukoshi]: https://www.mistore.jp/store/ginza.html
-[ginza-wako]: https://www.wako.co.jp/
-
 ---
 
 
@@ -172,8 +160,6 @@ localization: sync
 * 新宿や渋谷など繁華街から少し離れています
 * 夜は静かで、ナイトライフは限られています
 
-[ueno-map]: https://www.google.com/maps/d/viewer?mid=1L96cjjDn9x-kL9vrxvoNxD0i1sk&ll=35.71773282500521%2C139.77037254365234&z=14
-
 ---
 
 
@@ -202,8 +188,6 @@ localization: sync
 ### デメリット
 
 * JR 山手線沿いではありません。銀座線・浅草線でアクセスできます
-
-[asakusa-map]: https://www.google.com/maps/d/u/1/viewer?mid=12G4UzY0BACj2UJVkjpJ12veSdTI&ll=35.71338213336827%2C139.79515449737548&z=14
 
 ---
 
@@ -295,16 +279,32 @@ localization: sync
 * 他の東京エリアほどユニークさや趣がなく、リゾートやアメリカの郊外のような雰囲気
 * お子さんが多いです...泣いちゃうことも...
 
-[odaiba-map]: https://www.google.com/maps/d/u/1/viewer?mid=1G4-7K6MSJ-sMaZCfYUGmHs2vfxg&ll=35.622258459220156%2C139.7929294495362&z=13
-
 
 ## おすすめ記事
 
-* [東京の滞在エリアとホテルガイド - Nerd Nomads](https://nerdnomads.com/where-to-stay-in-tokyo)
-* [東京シティガイド - 東京でやること](https://www.japan-guide.com/e/e2164.html)
-* [東京のエリアガイド - Time Out Tokyo](https://www.timeout.com/tokyo/neighborhoods)
+* [東京の滞在エリアとホテルガイド - Nerd Nomads][nerd-nomads-tokyo]
+* [東京シティガイド - 東京でやること][japan-guide-tokyo]
+* [東京のエリアガイド - Time Out Tokyo][time-out-tokyo]
 
 
 ## おすすめ動画
 
-* [東京でやること 101 選 - 穴場ガイド - YouTube](https://www.youtube.com/watch?v=8m7dnI2nrU8&list=PLcpuu5BzmasBKAILAe6tAEg-EHKETJjU6) by Paolo fromTOKYO
+* [東京でやること 101 選 - 穴場ガイド - YouTube][paolo-tokyo-video] by Paolo fromTOKYO
+
+<!-- Links -->
+
+[asakusa-map]: https://www.google.com/maps/d/u/1/viewer?mid=12G4UzY0BACj2UJVkjpJ12veSdTI&ll=35.71338213336827%2C139.79515449737548&z=14
+[ginza-map]: https://www.google.com/maps/d/viewer?mid=1J26-ejxq53uFIlFY7M6q83fxUDQ&ll=35.673853299559994%2C139.76779762299805&z=13
+[ginza-mitsukoshi]: https://www.mistore.jp/store/ginza.html
+[ginza-six]: https://ginza6.tokyo/
+[ginza-wako]: https://www.wako.co.jp/
+[japan-guide-tokyo]: https://www.japan-guide.com/e/e2164.html
+[nerd-nomads-tokyo]: https://nerdnomads.com/where-to-stay-in-tokyo
+[odaiba-map]: https://www.google.com/maps/d/u/1/viewer?mid=1G4-7K6MSJ-sMaZCfYUGmHs2vfxg&ll=35.622258459220156%2C139.7929294495362&z=13
+[paolo-tokyo-video]: https://www.youtube.com/watch?v=8m7dnI2nrU8&list=PLcpuu5BzmasBKAILAe6tAEg-EHKETJjU6
+[shibuya-map]: https://www.google.com/maps/d/viewer?mid=1BoYDd2FfMOrOUmzvdI4EoR8UKgw
+[shinjuku-gyoen-anime]: https://youtu.be/udDIkl6z8X0?feature=shared
+[shinjuku-map]: https://www.google.com/maps/d/viewer?mid=1ZyMErMGQEXy_ZJqEOfby67wv3No&ll=35.695782888967486%2C139.70420839999997&z=13
+[time-out-tokyo]: https://www.timeout.com/tokyo/neighborhoods
+[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
+[ueno-map]: https://www.google.com/maps/d/viewer?mid=1L96cjjDn9x-kL9vrxvoNxD0i1sk&ll=35.71773282500521%2C139.77037254365234&z=14

@@ -30,16 +30,16 @@ localization: sync
 
 ## 🎟 How to buy tickets for the Ghibli Museum
 
-1. Create a Japanese Lawson account (`ローソンWEB会員`): <https://l-tike.com/login/newcustomer/>
-2. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/)
+1. Create a Japanese Lawson account (`ローソンWEB会員`): [l-tike.com/login/newcustomer][lawson-signup]
+2. Go to [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)][lawson-ghibli]
 3. Find the month you want to go (e.g., `8/2(水)~8/31(木)入場分` for August)
 4. Click on `詳細はこちら`
 
 Electronic ticket vs paper ticket
 
-* Electronic ticket: Reservations must be made on the [ローチケ電子チケット](https://l-tike.com/e-tike/navi/guide/configuration.html) app
-  * iOS: [ローチケ電子チケット on the App Store](https://apps.apple.com/us/app/id1175974437)
-  * Google Play: [ローチケ電子チケット - Apps on Google Play](https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en)
+* Electronic ticket: Reservations must be made on the [ローチケ電子チケット][lawson-e-tike-guide] app
+  * iOS: [ローチケ電子チケット on the App Store][lawson-e-tike-ios]
+  * Google Play: [ローチケ電子チケット - Apps on Google Play][lawson-e-tike-android]
 * Paper ticket: Reserve online and then go to a Lawson store to print out the ticket.
 
 
@@ -65,8 +65,15 @@ Electronic ticket vs paper ticket
 * Kichijoji Station is about a 20-minute walk to the museum, mostly through the park.
 * Kichijoji Station is more lively, with many shops and restaurants.
 
-[mitaka-map]: https://maps.app.goo.gl/u7mZhQMEL8KGNJ8w9
-[kichijoji-map]: https://goo.gl/maps/WQJuVeZ6yWzZzwL26
+<!-- Links -->
+
 [inokashira-map]: https://maps.app.goo.gl/QassWD7hUM2yfg2s8
+[kichijoji-map]: https://goo.gl/maps/WQJuVeZ6yWzZzwL26
+[lawson-e-tike-android]: https://play.google.com/store/apps/details?id=jp.lhe.ebillet&hl=en
+[lawson-e-tike-guide]: https://l-tike.com/e-tike/navi/guide/configuration.html
+[lawson-e-tike-ios]: https://apps.apple.com/us/app/id1175974437
+[lawson-ghibli]: https://l-tike.com/ghibli/
+[lawson-signup]: https://l-tike.com/login/newcustomer/
+[mitaka-map]: https://maps.app.goo.gl/u7mZhQMEL8KGNJ8w9
 [museum-map]: https://maps.app.goo.gl/cPkpLwLXpjhgo27s5
 [museum-website]: https://ghibli-museum.jp/en/

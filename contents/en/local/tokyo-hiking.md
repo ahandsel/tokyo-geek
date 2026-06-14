@@ -24,8 +24,8 @@ localization: sync
 * Nearest station: Isehara
   * From the station, catch a bus to the start of the trails.
 * Links:
-  * <https://voyapon.com/mt-oyama-hiking-near-tokyo/>
-  * <https://jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo-af4ac2195e09/>
+  * [https://voyapon.com/mt-oyama-hiking-near-tokyo/][oyama-voyapon]
+  * [https://jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo-af4ac2195e09/][oyama-jw-webmagazine]
 * different routes, choose based on difficulty level
 * Cable Car option
 * For a challenge:choose either the `Yabitsu-Toge Pass` or the `Otoko-zaka Trail`
@@ -56,7 +56,7 @@ Nearest station: JR Mitake. From there, you can take a bus to Takimoto cable car
 Okutama Tourist Information Centre
 210 Hikawa, Okutama, Nishitama District, Tokyo, Tōkyō-to 198-0212
 0428-83-2152
-<https://goo.gl/maps/hexinff9BL8nf7kN9>
+[https://goo.gl/maps/hexinff9BL8nf7kN9][okutama-tourist-info-map]
 
 
 ### Mount Nukazasu
@@ -96,3 +96,9 @@ Okutama Station -> Kawanori-Bashi Bus Stop -> Hyakuhiro Waterfall -> Mount Kawan
 * The hike has some risky bits, so you need to watch your footwork. The first rest station can be reached after about 35 minutes. After a rather precarious path that rises above the river, you arrive at the towering Hyakuhiro Waterfall. From here, it is an unyielding 100-minute climb to the summit, which makes an excellent spot to roll out the picnic mat and bask in the natural surroundings. On this ascent there are some ropes added for support, and a fork in the road allows you to choose a tougher trail (straight ahead) or a better-maintained trail (to your left) on your way to the summit.
 * Nearest station: JR Okutama
   * From there, it is a 15-minute bus ride to the Kawanori-bashi bus stop, where the trail starts.
+
+<!-- Links -->
+
+[okutama-tourist-info-map]: https://goo.gl/maps/hexinff9BL8nf7kN9
+[oyama-jw-webmagazine]: https://jw-webmagazine.com/mt-oyama-hike-on-the-sacred-mountain-near-tokyo-af4ac2195e09/
+[oyama-voyapon]: https://voyapon.com/mt-oyama-hiking-near-tokyo/

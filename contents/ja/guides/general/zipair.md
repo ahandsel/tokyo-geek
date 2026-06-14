@@ -42,15 +42,12 @@ localization: sync
 * **サイズ** - 小さいです。長時間フライトなら 2 つ注文するのがおすすめです。
 * **味** - これまでのところ、すべての食事は悪くありませんでした。
 * 日本から出発する場合は、**ターミナル近くの 7-Eleven で食べ物を買いましょう**。
-  * Google Maps: [7-Eleven Narita Airport Terminal 1][]
-  * 成田空港サイト：[7-Eleven Terminal 1][]
+  * Google Maps: [7-Eleven Narita Airport Terminal 1][7eleven-narita-maps]
+  * 成田空港サイト：[7-Eleven Terminal 1][7eleven-narita-airport]
 * **フライトの 3 時間前までに注文してください**。
 * 機内で購入する場合、食事の数と種類が限られます。
 * **到着 2 時間前に食事を受け取るオプション**があります（少額の追加料金あり）。
 * **機内では炭酸水の提供はありません**（炭酸飲料は購入可能です）。
-
-[7-Eleven Narita Airport Terminal 1]: https://maps.app.goo.gl/yW2jSrHjmbqnE3rw7
-[7-Eleven Terminal 1]: https://www.narita-airport.jp/en/map/?poi=16856599&bearing=59.5&zoom=18&pitch=0&lat=35.76412280000001&lng=140.38351439999997&building=b1f7eac9-464b-49df-aa67-24210e1f9b16&floor=3F
 
 
 ## ⭐ 食事の評価
@@ -70,22 +67,18 @@ localization: sync
 ## 🧳 荷物と機内持ち込み
 
 * 荷物はいつでも追加できますが、未使用の荷物の返金はありません。
-* **[ZIPAIR Point Club Plus][]** - 預け荷物ありで ZIPAIR を利用する予定なら、有料会員への加入を検討しましょう。
+* **[ZIPAIR Point Club Plus][zipair-point-club-plus]** - 預け荷物ありで ZIPAIR を利用する予定なら、有料会員への加入を検討しましょう。
   * **年会費**：¥5,000
   * **特典**：預け荷物の手数料が 30% 割引
   * **注意**：スポーツ用品は割引対象外です。
   * ⚠️ **注意**：割引は会員としてログインした後、ウェブサイトでのみ利用可能です。
-
-[ZIPAIR Point Club Plus]: https://www.zipair.net/en/membership
 
 
 ## ⚠️ 注意事項
 
 * **返金や変更はできません**。
 * **アメリカ発着便の 24 時間キャンセルポリシー** - 予約から 24 時間以内であればペナルティなしでキャンセルできます（出発の 1 週間前までに予約した場合）。
-* [運賃規則 - ZIPAIR 公式サイト][]
-
-[運賃規則 - ZIPAIR 公式サイト]: https://www.zipair.net/en/farerules
+* [運賃規則 - ZIPAIR 公式サイト][zipair-fare-rules]
 
 
 ## ✈️ 旅のヒント
@@ -105,3 +98,10 @@ localization: sync
 ## 📶 機内 Wi-Fi
 
 * 機内 Wi-Fi は無料ですが**非常に遅い**です。メッセージアプリは問題ありませんが、ウェブ閲覧は期待しないでください。
+
+<!-- Links -->
+
+[7eleven-narita-airport]: https://www.narita-airport.jp/en/map/?poi=16856599&bearing=59.5&zoom=18&pitch=0&lat=35.76412280000001&lng=140.38351439999997&building=b1f7eac9-464b-49df-aa67-24210e1f9b16&floor=3F
+[7eleven-narita-maps]: https://maps.app.goo.gl/yW2jSrHjmbqnE3rw7
+[zipair-fare-rules]: https://www.zipair.net/en/farerules
+[zipair-point-club-plus]: https://www.zipair.net/en/membership

@@ -17,8 +17,8 @@ localization: sync
 
 ## 洗濯機
 
-* [洗濯機と乾燥機の日本語表示ガイド - Savvy Tokyo](https://savvytokyo.com/kanji-cheat-sheet-washers-and-dryers/)
-* [日本の洗濯機ガイド完全版 - Japan Switch](https://japanswitch.com/ultimate-guide-to-japanese-washing-machine/)
+* [洗濯機と乾燥機の日本語表示ガイド - Savvy Tokyo][savvy-tokyo-washers]
+* [日本の洗濯機ガイド完全版 - Japan Switch][japan-switch-washers]
 
 
 ## 日本での衣類の乾かし方
@@ -41,4 +41,10 @@ localization: sync
   * 新しいマンションには、浴室（バスタブ付き）に乾燥機能が備わっていることがあります。温風循環でポールに掛けた衣類と浴室自体を乾かします。
   * 除湿機と似た仕組みですが、浴室に組み込まれています。
 
-詳しくは[東京のアパートにあると便利なもの](./moving/great-things-to-buy.md)をご覧ください。
+詳しくは[東京のアパートにあると便利なもの][great-things-to-buy]をご覧ください。
+
+<!-- Links -->
+
+[great-things-to-buy]: ./moving/great-things-to-buy.md
+[japan-switch-washers]: https://japanswitch.com/ultimate-guide-to-japanese-washing-machine/
+[savvy-tokyo-washers]: https://savvytokyo.com/kanji-cheat-sheet-washers-and-dryers/

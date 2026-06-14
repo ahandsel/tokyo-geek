@@ -41,11 +41,6 @@ localization: sync
   * YMobile は地方（山、ビーチ、その他の遠隔地）でも電波が入りやすいです。
 * Rakuten Mobile は最も安い携帯電話プランですが、カバレッジが限定的です。
 
-[yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
-[bic-camera]: https://www.google.com/maps/search/%EF%BE%8B%EF%BE%9E%EF%BD%AF%EF%BD%B8%EF%BD%B6%EF%BE%92%EF%BE%97/
-[yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6
-[paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
-
 
 ## 支払い方法
 
@@ -53,12 +48,7 @@ localization: sync
 * ゆうちょ銀行は、銀行口座の開設が最もスムーズな選択肢です。
   * 詳しくは[ゆうちょ銀行の口座開設方法 - MATCHA][matcha-japan-post-bank]の記事をご覧ください。
 * 携帯電話プランを契約する前に、[楽天カード][rakuten-credit-card]を申し込んでおきましょう。
-* 別の通貨で資金がある場合は、[Wise][]や[Revolut][]のマルチカレンシーアカウントのデビットカードの利用も検討してみてください。
-
-[matcha-japan-post-bank]: https://matcha-jp.com/en/4496
-[rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[Wise]: https://wise.com/invite/ihpn/genjif1
-[Revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+* 別の通貨で資金がある場合は、[Wise][wise]や[Revolut][revolut]のマルチカレンシーアカウントのデビットカードの利用も検討してみてください。
 
 
 ## 日本の携帯電話プランについて
@@ -87,5 +77,15 @@ localization: sync
 * [日本の格安携帯プラン比較 - Tokyo Cheapo][tokyo-cheapo-cheapest]
 * [日本の電話番号を取得する方法と理由 - Time Out Tokyo][time-out-phone-number]
 
-[tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
+<!-- Links -->
+
+[bic-camera]: https://www.google.com/maps/search/%EF%BE%8B%EF%BE%9E%EF%BD%AF%EF%BD%B8%EF%BD%B6%EF%BE%92%EF%BE%97/
+[matcha-japan-post-bank]: https://matcha-jp.com/en/4496
+[paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
+[rakuten-credit-card]: https://www.rakuten-card.co.jp/
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
 [time-out-phone-number]: https://www.timeout.com/tokyo/things-to-do/how-and-why-to-get-a-japanese-phone-number?package_page=112292
+[tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
+[wise]: https://wise.com/invite/ihpn/genjif1
+[yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
+[yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6

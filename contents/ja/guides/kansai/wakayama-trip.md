@@ -80,7 +80,7 @@ localization: sync
 ### アドベンチャーワールド
 
 * 日本語：`アドベンチャーワールド`
-* Google Maps リンク：<https://maps.app.goo.gl/K5pKeJqizGL9jeoB6>
+* Google Maps リンク：[https://maps.app.goo.gl/K5pKeJqizGL9jeoB6][map-adventure-world]
 * 説明：動物園、水族館、遊園地がひとつになったユニークな施設。パンダや海の生き物との触れ合いが楽しめます。
 * アクセス：白浜駅からシャトルバスが出ています。
 
@@ -88,7 +88,7 @@ localization: sync
 ### 円月島
 
 * 日本語：`円月島`
-* Google Maps リンク：<https://maps.app.goo.gl/1okmeVjLKmWb2fax5>
+* Google Maps リンク：[https://maps.app.goo.gl/1okmeVjLKmWb2fax5][map-engetsu-island]
 * 説明：白浜沖に浮かぶ小さな無人島。アーチ型の穴と美しい夕日で知られています。
 * アクセス：白浜ビーチから眺められるほか、遊覧船でも行けます。
 
@@ -96,7 +96,7 @@ localization: sync
 ### 橋杭岩
 
 * 日本語：`橋杭岩`
-* Google Maps リンク：<https://maps.app.goo.gl/NRXf7QYnoMss7MWE9>
+* Google Maps リンク：[https://maps.app.goo.gl/NRXf7QYnoMss7MWE9][map-hashigui-iwa-rocks]
 * 説明：橋の柱のように見えるユニークな岩の列。特に朝日の時間帯は絶景です。
 * アクセス：白浜駅から串本駅まで電車、そこからバスですぐ。
 
@@ -104,23 +104,23 @@ localization: sync
 ### 貴志駅
 
 * 日本語：`貴志駅`
-* Google Maps リンク：<https://maps.app.goo.gl/FCNPszzcociBcHrKA>
+* Google Maps リンク：[https://maps.app.goo.gl/FCNPszzcociBcHrKA][map-kishi-station]
 * 説明：有名な三毛猫駅長「たま」にちなんだ猫テーマの駅です。
 * アクセス：和歌山駅から和歌山電鐵に乗って貴志駅まで。
 
 
 ### 高野山
 
-* Google Maps リンク：<https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7>
+* Google Maps リンク：[https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7][map-koyasan]
 * 日本語：`高野山`
 * 説明：真言宗の総本山。宿坊に泊まるとスピリチュアルな体験ができます。
-* アクセス：橋本駅まで電車、南海高野線で極楽橋駅へ乗り換え、ケーブルカーで[高野山駅 / 高野山駅](https://maps.app.goo.gl/Zk3FV3ZzxcBhh4xb6)へ。
+* アクセス：橋本駅まで電車、南海高野線で極楽橋駅へ乗り換え、ケーブルカーで[高野山駅 / 高野山駅][map-koyasan-station]へ。
 
 
 ### 高山寺
 
 * 日本語：`高山寺`
-* Google Maps リンク：<https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9>
+* Google Maps リンク：[https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9][map-kozan-ji-temple]
 * 説明：歴史的に重要な古寺。町石道の道標がある場所としても知られています。
 * アクセス：白浜駅から電車とバス。
 
@@ -128,7 +128,7 @@ localization: sync
 ### 熊野本宮大社
 
 * 日本語：`熊野本宮大社`
-* Google Maps リンク：<https://maps.app.goo.gl/3r4npXGTtUdrtNLC7>
+* Google Maps リンク：[https://maps.app.goo.gl/3r4npXGTtUdrtNLC7][map-kumano-hongu-taisha]
 * 説明：熊野三山のひとつ。大きな鳥居で有名で、この地域の信仰の中心です。
 * アクセス：白浜駅から電車で新宮駅、そこからバス。
 
@@ -136,7 +136,7 @@ localization: sync
 ### 熊野速玉大社
 
 * 日本語：`熊野速玉大社`
-* Google Maps リンク：<https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8>
+* Google Maps リンク：[https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8][map-kumano-hayatama-taisha]
 * 説明：熊野三山のひとつで、新宮市にあります。歴史とスピリチュアルな雰囲気が魅力です。
 * アクセス：白浜駅から新宮駅まで電車、そこから徒歩すぐ。
 
@@ -144,7 +144,7 @@ localization: sync
 ### 熊野古道 中辺路
 
 * 日本語：`熊野古道中辺路`
-* Google Maps リンク：<https://maps.app.goo.gl/CRxjgPrE23mzyMbm9>
+* Google Maps リンク：[https://maps.app.goo.gl/CRxjgPrE23mzyMbm9][map-kumano-kodo-nakahechi]
 * 説明：1000 年以上の歴史を持つ熊野古道の中核ルート。数日かけて歩くこともできますし、ハイライト部分だけの短いウォーキングも楽しめます。
 * アクセス：出発地点によって異なります。白浜からバスで滝尻王子などの登山口へアクセスできます。
 
@@ -152,7 +152,7 @@ localization: sync
 ### 熊野那智大社
 
 * 日本語：`熊野那智大社`
-* Google Maps リンク：<https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36>
+* Google Maps リンク：[https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36][map-kumano-nachi-taisha]
 * 説明：熊野三山のひとつである美しい神社。日本一の落差を誇る那智の滝を背景に、自然崇拝の聖地として知られています。
 * アクセス：白浜駅から新宮駅までバス、そこから熊野那智大社行きのバスに乗り換え。
 
@@ -160,7 +160,7 @@ localization: sync
 ### 那智の滝
 
 * 日本語：`那智の滝`
-* Google Maps リンク：<https://maps.app.goo.gl/eYW1VufJgvPj7h6m6>
+* Google Maps リンク：[https://maps.app.goo.gl/eYW1VufJgvPj7h6m6][map-nachi-falls]
 * 説明：落差 133 メートルの日本一高い滝。神道では神聖な場所とされ、壮大な自然景観です。
 * アクセス：白浜駅から電車で新宮駅、そこからバス。
 
@@ -168,7 +168,7 @@ localization: sync
 ### 龍神温泉
 
 * 日本語：`琉球温泉 龍神の湯`
-* Google Maps リンク：<https://maps.app.goo.gl/TezFiiemaU72hxxW9>
+* Google Maps リンク：[https://maps.app.goo.gl/TezFiiemaU72hxxW9][map-ryujin-hot-spring]
 * 説明：美しい渓谷に囲まれた温泉地。効能豊かなお湯で有名です。
 * アクセス：白浜駅から電車で田辺駅、そこからバス。
 
@@ -176,7 +176,7 @@ localization: sync
 ### 崎の湯
 
 * 日本語：`崎の湯`
-* Google Maps リンク：<https://maps.app.goo.gl/DFbgrG6prJxrZMC98>
+* Google Maps リンク：[https://maps.app.goo.gl/DFbgrG6prJxrZMC98][map-saki-no-yu-onsen-spa]
 * 説明：日本最古の温泉のひとつ。太平洋を眺めながら入れる露天風呂があります。
 * アクセス：白浜駅からバス。
 
@@ -184,7 +184,7 @@ localization: sync
 ### 三段壁洞窟
 
 * 日本語：`三段壁洞窟`
-* Google Maps リンク：<https://maps.app.goo.gl/Wym778rqbmmhMwja9>
+* Google Maps リンク：[https://maps.app.goo.gl/Wym778rqbmmhMwja9][map-sandanbeki-cave]
 * 説明：海岸沿いのダイナミックな断崖と洞窟。見学ツアーがあり、太平洋の絶景も楽しめます。
 * アクセス：白浜駅からバス。
 
@@ -192,7 +192,7 @@ localization: sync
 ### 千畳敷
 
 * 日本語：`千畳敷`
-* Google Maps リンク：<https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8>
+* Google Maps リンク：[https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8][map-senjojiki-rock-plateau]
 * 説明：波の浸食でできた広大な平らな岩場。海と夕日の素晴らしい景色が楽しめます。
 * アクセス：白浜駅からバス。
 
@@ -200,7 +200,7 @@ localization: sync
 ### 白浜ビーチ
 
 * 日本語：`白浜大浜海水浴場`
-* Google Maps リンク：<https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6>
+* Google Maps リンク：[https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6][map-shirahama-beach]
 * 説明：オーストラリアから輸入した白い砂で有名なビーチ。海水浴や日光浴の人気スポットです。
 * アクセス：白浜駅から徒歩圏内。
 
@@ -208,7 +208,7 @@ localization: sync
 ### 白浜エネルギーランド
 
 * 日本語：`白浜エネルギーランド`
-* Google Maps リンク：<https://maps.app.goo.gl/7u2pnwfWaZGhWW336>
+* Google Maps リンク：[https://maps.app.goo.gl/7u2pnwfWaZGhWW336][map-shirahama-energy-land]
 * 説明：エネルギーをテーマにしたアトラクションや体験型展示が楽しめるテーマパークです。
 * アクセス：白浜駅から徒歩またはバスですぐ。
 
@@ -216,7 +216,7 @@ localization: sync
 ### 和歌山城
 
 * 日本語：`和歌山城`
-* Google Maps リンク：<https://maps.app.goo.gl/1SNY5pYBbvrr594w8>
+* Google Maps リンク：[https://maps.app.goo.gl/1SNY5pYBbvrr594w8][map-wakayama-castle]
 * 説明：歴史的に重要なお城。和歌山市のパノラマビューが楽しめ、春は桜に囲まれます。
 * アクセス：和歌山駅まで電車、そこからバスまたは徒歩約 20 分。
 
@@ -224,6 +224,29 @@ localization: sync
 ### 和歌山マリーナシティ
 
 * 日本語：`和歌山マリーナシティ`
-* Google Maps リンク：<https://maps.app.goo.gl/WexvFeN7okG9k1yYA>
+* Google Maps リンク：[https://maps.app.goo.gl/WexvFeN7okG9k1yYA][map-wakayama-marina-city]
 * 説明：テーマパーク、魚市場、マグロ解体ショーで知られる黒潮市場などがあるリゾートアイランドです。
 * アクセス：和歌山駅からバス。
+
+<!-- Links -->
+
+[map-adventure-world]: https://maps.app.goo.gl/K5pKeJqizGL9jeoB6
+[map-engetsu-island]: https://maps.app.goo.gl/1okmeVjLKmWb2fax5
+[map-hashigui-iwa-rocks]: https://maps.app.goo.gl/NRXf7QYnoMss7MWE9
+[map-kishi-station]: https://maps.app.goo.gl/FCNPszzcociBcHrKA
+[map-koyasan]: https://maps.app.goo.gl/kXgx8hhKsdWrzZ4E7
+[map-koyasan-station]: https://maps.app.goo.gl/Zk3FV3ZzxcBhh4xb6
+[map-kozan-ji-temple]: https://maps.app.goo.gl/Zo18AEBMhmqYG7Mm9
+[map-kumano-hayatama-taisha]: https://maps.app.goo.gl/Kt7wk2k3LwH23DSJ8
+[map-kumano-hongu-taisha]: https://maps.app.goo.gl/3r4npXGTtUdrtNLC7
+[map-kumano-kodo-nakahechi]: https://maps.app.goo.gl/CRxjgPrE23mzyMbm9
+[map-kumano-nachi-taisha]: https://maps.app.goo.gl/xbtiU2Xf4Vmtxem36
+[map-nachi-falls]: https://maps.app.goo.gl/eYW1VufJgvPj7h6m6
+[map-ryujin-hot-spring]: https://maps.app.goo.gl/TezFiiemaU72hxxW9
+[map-saki-no-yu-onsen-spa]: https://maps.app.goo.gl/DFbgrG6prJxrZMC98
+[map-sandanbeki-cave]: https://maps.app.goo.gl/Wym778rqbmmhMwja9
+[map-senjojiki-rock-plateau]: https://maps.app.goo.gl/dUkXG9EYHSkf2SPp8
+[map-shirahama-beach]: https://maps.app.goo.gl/mPo5qUVXrG9rtaBU6
+[map-shirahama-energy-land]: https://maps.app.goo.gl/7u2pnwfWaZGhWW336
+[map-wakayama-castle]: https://maps.app.goo.gl/1SNY5pYBbvrr594w8
+[map-wakayama-marina-city]: https://maps.app.goo.gl/WexvFeN7okG9k1yYA

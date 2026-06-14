@@ -18,7 +18,7 @@ localization: sync
 
 ## 吉祥寺のグルメ
 
-吉祥寺のグルメ情報は、専用ページをご覧ください：[吉祥寺のグルメ](./kichijoji-food.md)
+吉祥寺のグルメ情報は、専用ページをご覧ください：[吉祥寺のグルメ][kichijoji-food]
 
 
 ## 吉祥寺のジム
@@ -32,15 +32,6 @@ localization: sync
 | TIPNESS | 3.3（104 件） | 7,810 円/月 | 5,500 円 | [Google Maps][tipness-google] | [ウェブサイト][tipness-website] |
 | FASTGYM24 三鷹 | 3.4（28 件） | 7,480 円/月 | 5,500 円 | [Google Maps][fastgym-google] | [ウェブサイト][fastgym-website] |
 | Anytime Fitness 吉祥寺 | 3.5（126 件） | 7,920 円/月 | 5,500 円 | [Google Maps][anytime-google] | [ウェブサイト][anytime-website] |
-
-[tipness-google]: https://maps.app.goo.gl/jaCLDsTCRWubEwGe8
-[tipness-website]: https://tip.tipness.co.jp/shop_info/SHP004/
-[fastgym-google]: https://goo.gl/maps/GfmEPCVowFRFNdmN8
-[fastgym-website]: https://fastgym24.tipness.co.jp/shop/SHP303/plan/
-[anytime-google]: https://goo.gl/maps/h9wgFgwWACsYKM4GA
-[anytime-website]: https://www.anytimefitness.co.jp/kichijoji/price/
-[snap-google]: https://maps.app.goo.gl/tRbXTziVeyg2B9iL8
-[snap-website]: https://www.snapfitness.jp/locations/kichijoji/#price
 
 
 ## 吉祥寺のインフルエンザ予防接種クリニック
@@ -57,12 +48,23 @@ localization: sync
 | [Matsuigekabyo Clinic][] | `医療法人社団正友会 松井健診クリニック 吉祥寺プレイス` | 1-19-23 Kichijoji Higashicho, Musashino City | `0422-22-2036` | 4,060 円 | 15 歳以上 | | |
 | [Musashino Midori Clinic][] | `武蔵野みどり診療所` | 5-7-36 Inokashira, Mitaka City, SAKURA 1F | `0422-24-9933` | 4,060 円 | 20 歳以上 | 電話予約が必要 | |
 
-[Motohashi Internal Medicine]: https://maps.app.goo.gl/M1Q4KupyznAmRTDZ8
-[Kichijoji Fujita Clinic]: https://maps.app.goo.gl/FVXwdRKrTAM1HAES9
-[Abe Orthopedics Clinic]: https://maps.app.goo.gl/YgD9zFzzNr2HhV276
-[Fujita Orthopedics]: https://maps.app.goo.gl/PqzUkZrB1WNafj3v8
-[Kichijoji Ekimae Clinic]: https://maps.app.goo.gl/719ZKwzcXKFThPqm6
-[Musashino Clinic]: https://maps.app.goo.gl/BzzNQPjTdbo8Ae4XA
-[Clinic Plus Kichijoji]: https://maps.app.goo.gl/T6UyxWbFsevd1nQGA
-[Matsuigekabyo Clinic]: https://maps.app.goo.gl/V7Bad1ELJz7qbQSM9
-[Musashino Midori Clinic]: https://maps.app.goo.gl/iB23MPM8dTwVZ6JJ7
+<!-- Links -->
+
+[abe orthopedics clinic]: https://maps.app.goo.gl/YgD9zFzzNr2HhV276
+[anytime-google]: https://goo.gl/maps/h9wgFgwWACsYKM4GA
+[anytime-website]: https://www.anytimefitness.co.jp/kichijoji/price/
+[clinic plus kichijoji]: https://maps.app.goo.gl/T6UyxWbFsevd1nQGA
+[fastgym-google]: https://goo.gl/maps/GfmEPCVowFRFNdmN8
+[fastgym-website]: https://fastgym24.tipness.co.jp/shop/SHP303/plan/
+[fujita orthopedics]: https://maps.app.goo.gl/PqzUkZrB1WNafj3v8
+[kichijoji ekimae clinic]: https://maps.app.goo.gl/719ZKwzcXKFThPqm6
+[kichijoji fujita clinic]: https://maps.app.goo.gl/FVXwdRKrTAM1HAES9
+[kichijoji-food]: ./kichijoji-food.md
+[matsuigekabyo clinic]: https://maps.app.goo.gl/V7Bad1ELJz7qbQSM9
+[motohashi internal medicine]: https://maps.app.goo.gl/M1Q4KupyznAmRTDZ8
+[musashino clinic]: https://maps.app.goo.gl/BzzNQPjTdbo8Ae4XA
+[musashino midori clinic]: https://maps.app.goo.gl/iB23MPM8dTwVZ6JJ7
+[snap-google]: https://maps.app.goo.gl/tRbXTziVeyg2B9iL8
+[snap-website]: https://www.snapfitness.jp/locations/kichijoji/#price
+[tipness-google]: https://maps.app.goo.gl/jaCLDsTCRWubEwGe8
+[tipness-website]: https://tip.tipness.co.jp/shop_info/SHP004/

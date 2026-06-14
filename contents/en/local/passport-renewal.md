@@ -16,8 +16,6 @@ localization: sync
 
 You can renew your Japanese passport online through the [My Number Card portal][my-number-card-portal] operated by the Digital Agency of Japan.
 
-[my-number-card-portal]: https://myna.go.jp/html/passport_information.html
-
 
 ## Table of contents <!-- omit in toc -->
 
@@ -59,9 +57,6 @@ The following individuals are eligible to apply:
   * Before starting the application, please confirm your registered domicile so that you can enter it correctly.
 * Photo (it will be taken with your smartphone during the application process)
 * Signature on a plain white sheet of paper (it will be captured with your smartphone during the application process)
-
-[android-version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
-[ios-version]: https://apps.apple.com/jp/app/id1476359069
 
 
 ### Preparing for photo and signature capture
@@ -106,9 +101,6 @@ Please confirm the password (6 to 16 characters) for your digital certificate fo
 * If you have forgotten your password, you can reset it at the municipal office of your registered residence, or by downloading the dedicated application and using a kiosk terminal at a convenience store.
 * [Initialize signature password at a convenience store][initialize-signature-password-at-a-convenience-store]
 
-[how-to-check-validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
-[initialize-signature-password-at-a-convenience-store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
-
 
 ## Signature image requirements
 
@@ -129,8 +121,6 @@ File format
 * Dimensions: Width 788 × height 284 pixels
 * File size: 200 KB or less
 
-[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png
-
 
 ## Wait for processing
 
@@ -145,8 +135,6 @@ File format
 Reference:
 
 * [パスポートの申請状況が「処理中」のままとなっていますが、いつ「完了」になりますか。 - よくある質問｜マイナポータル][faq-status-pending]
-
-[faq-status-pending]: https://faq.myna.go.jp/faq/show/8338?site_domain=default
 
 
 ## Pick up your passport
@@ -167,4 +155,16 @@ The Digital Agency also publishes an official Japanese-language FAQ covering pas
 
 * [Passport application FAQ (Japanese)][faq-passport-all]
 
+<!-- Links -->
+
+[android-version]: https://play.google.com/store/apps/details?id=jp.go.cas.mpa
 [faq-passport-all]: https://faq.myna.go.jp/faq/list/8336?site_domain=default
+[faq-status-pending]: https://faq.myna.go.jp/faq/show/8338?site_domain=default
+[how-to-check-validity]: https://www.jpki.go.jp/download/howto_win/certificate_p03.html
+[initialize-signature-password-at-a-convenience-store]: https://www.jpki.go.jp/jpkiidreset/howto/index.html
+[ios-version]: https://apps.apple.com/jp/app/id1476359069
+[my-number-card-portal]: https://myna.go.jp/html/passport_information.html
+
+<!-- Image links -->
+
+[passport-renewal-signature-sample]: /passport-renewal-signature-sample.png

@@ -22,8 +22,6 @@ localization: sync
 * 無料で引き取れるアイテムも多数あります。
 * すべて日本語ですが、ブラウザの翻訳機能で問題なく使えます。
 
-[jmty]: https://jmty.jp/
-
 
 ## Mercari - 日本版 eBay
 
@@ -35,11 +33,6 @@ localization: sync
 * 日本の出品を見るには、US 版ではなく日本版のアプリが必要です。
   * [フリマアプリはメルカリ - メルペイのスマホ決済でもっとお得アプリ - App Store][mercari-app-store]
   * [メルカリ (Mercari) - フリマアプリ - Google Play のアプリ][mercari-google-play]
-
-[mercari]: https://jp.mercari.com/
-[mercari-lang-settings]: https://jp.mercari.com/language?backUrl=%2F
-[mercari-google-play]: https://play.google.com/store/apps/details?id=com.kouzoh.mercari&hl=en
-[mercari-app-store]: https://apps.apple.com/jp/app/id667861049
 
 
 ## Facebook グループで中古品を探す
@@ -74,3 +67,11 @@ Sayonara（`さよなら`）は日本語で「お別れ」の意味で、Sayonar
 * レシートは保管しておきましょう。後で売るときの参考になります。
 * 複数のアイテムを購入すると、無料配送サービスがある店舗もあります。
 * 日本では粗大ごみの処分に費用がかかるため、古いアイテムを引き取ってくれる店舗もあります。
+
+<!-- Links -->
+
+[jmty]: https://jmty.jp/
+[mercari]: https://jp.mercari.com/
+[mercari-app-store]: https://apps.apple.com/jp/app/id667861049
+[mercari-google-play]: https://play.google.com/store/apps/details?id=com.kouzoh.mercari&hl=en
+[mercari-lang-settings]: https://jp.mercari.com/language?backUrl=%2F

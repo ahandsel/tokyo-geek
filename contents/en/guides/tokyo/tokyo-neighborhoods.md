@@ -16,8 +16,6 @@ localization: sync
 
 [Google Maps overview of Tokyo's best areas to stay][tokyo-best-areas]
 
-[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
-
 ---
 
 
@@ -45,7 +43,7 @@ localization: sync
 * Plenty of indoor attractions for rainy days
 
 
-### Notable Areas
+### Notable areas
 
 * **Kabukicho**: Tokyo's largest adult entertainment district with bars, restaurants, and nightclubs
 * **Golden Gai**: Narrow streets with small, atmospheric bars and restaurants
@@ -53,7 +51,7 @@ localization: sync
 * **Shinjuku Station**: World's busiest train station; easy access to Tokyo and beyond
 
 
-### Things to Do
+### Things to do
 
 * **Tokyo Metropolitan Government Building**: Free observation deck with panoramic views
 * **Shinjuku Gyoen**: [Famous garden][shinjuku-gyoen-anime] for cherry blossoms and autumn foliage
@@ -66,9 +64,6 @@ localization: sync
 * Kabukicho can be seedy; be cautious of scammers targeting tourists
 * Limited budget accommodations
 
-[shinjuku-map]: https://www.google.com/maps/d/viewer?mid=1ZyMErMGQEXy_ZJqEOfby67wv3No&ll=35.695782888967486%2C139.70420839999997&z=13
-[shinjuku-gyoen-anime]: https://youtu.be/udDIkl6z8X0?feature=shared
-
 ---
 
 
@@ -80,7 +75,7 @@ localization: sync
 * Plenty of cafes for coffee and tea enthusiasts
 
 
-### Notable Areas
+### Notable areas
 
 * **Shibuya**: Mix of nightlife, cafes, and shopping; youthful and trendy
 * **Harajuku**: Quirky fashion, vintage stores, and trendy cafes
@@ -88,7 +83,7 @@ localization: sync
 * **Ebisu**: Trendy spot with hip restaurants, bars, and cafes
 
 
-### Things to Do
+### Things to do
 
 * **Yoyogi Park**: Large park with walking paths and picnic areas
 * **Meiji-Jingu Shrine**: Peaceful Shinto shrine surrounded by a dense forest
@@ -103,8 +98,6 @@ localization: sync
 * Harajuku is very female-dominated (opposite of Akihabara)
 * Limited budget accommodations
 
-[shibuya-map]: https://www.google.com/maps/d/viewer?mid=1BoYDd2FfMOrOUmzvdI4EoR8UKgw
-
 ---
 
 
@@ -116,14 +109,14 @@ localization: sync
 * Close to the Imperial Palace and Tokyo's main transport hub
 
 
-### Notable Areas
+### Notable areas
 
 * **Tokyo Station**: Main transport hub with easy access to other cities via Shinkansen
 * **Marunouchi**: Business district with shopping and views of the Imperial Palace
 * **Tsukiji**: Famous for its seafood market and vibrant street food scene
 
 
-### Things to Do
+### Things to do
 
 * **Imperial Palace & Gardens**: Historic Edo castle with beautiful gardens
 * **Ginza Shopping**: High-end brands at [Ginza SIX][ginza-six], [Ginza Mitsukoshi][ginza-mitsukoshi], and [Ginza Wako][ginza-wako]
@@ -137,11 +130,6 @@ localization: sync
 * Everything is expensive (dining, accommodation, shopping)
 * One of the most expensive areas in Tokyo
 
-[ginza-map]: https://www.google.com/maps/d/viewer?mid=1J26-ejxq53uFIlFY7M6q83fxUDQ&ll=35.673853299559994%2C139.76779762299805&z=13
-[ginza-six]: https://ginza6.tokyo/
-[ginza-mitsukoshi]: https://www.mistore.jp/store/ginza.html
-[ginza-wako]: https://www.wako.co.jp/
-
 ---
 
 
@@ -153,14 +141,14 @@ localization: sync
 * Generally cheaper hotels
 
 
-### Notable Areas
+### Notable areas
 
 * **Ueno Station**: Major railway hub with Shinkansen access to northern Japan
 * **Ueno Park**: Home to temples, shrines, historic buildings, and museums
 * **Yanaka**: Charming old Tokyo neighborhood with temples and a traditional vibe
 
 
-### Things to Do
+### Things to do
 
 * **Ueno Zoo**: Popular zoo featuring pandas and historic buildings
 * **Tokyo National Museum**: Largest collection of Japanese art and history
@@ -171,8 +159,6 @@ localization: sync
 
 * A bit far from busier areas like Shinjuku and Shibuya
 * Quiet in the evenings with limited nightlife
-
-[ueno-map]: https://www.google.com/maps/d/viewer?mid=1L96cjjDn9x-kL9vrxvoNxD0i1sk&ll=35.71773282500521%2C139.77037254365234&z=14
 
 ---
 
@@ -185,14 +171,14 @@ localization: sync
 * Feels like a piece of Kyoto in Tokyo
 
 
-### Notable Areas
+### Notable areas
 
 * **Tokyo Sky Tree**: Tallest building in Tokyo with two observation decks
 * **Senso-ji Temple**: Tokyo's oldest temple with stunning gates and pagodas
 * **Ryogoku**: Home to sumo wrestling stadiums and museums
 
 
-### Things to Do
+### Things to do
 
 * **Hanayashiki Theme Park**: Japan's oldest amusement park with rides and attractions
 * **Sumida Park**: Great for cherry blossoms in spring and fireworks in summer
@@ -202,8 +188,6 @@ localization: sync
 ### Drawbacks
 
 * Not on the JR Yamanote Line; accessible via Ginza and Asakusa Lines
-
-[asakusa-map]: https://www.google.com/maps/d/u/1/viewer?mid=12G4UzY0BACj2UJVkjpJ12veSdTI&ll=35.71338213336827%2C139.79515449737548&z=14
 
 ---
 
@@ -215,14 +199,14 @@ localization: sync
 * Easy access to the city via Akihabara and Asakusabashi stations
 
 
-### Notable Areas
+### Notable areas
 
 * **Akihabara**: Hub for manga, anime, and electronic stores
 * **Iidabashi**: Historic neighborhood with green parks and temples
 * **Jimbocho**: Known for secondhand bookstores and cafes
 
 
-### Things to Do
+### Things to do
 
 * **Manga & Action Figures**: Shop for comics, video games, and collectibles
 * **Electronics Shopping**: Yodabashi store and Akihabara Radio Center
@@ -232,7 +216,7 @@ localization: sync
 ### Drawbacks
 
 * Limited nightlife
-* quiet in the evenings
+* Quiet in the evenings
 * Very male-dominated area (opposite of Harajuku)
 
 ---
@@ -245,14 +229,14 @@ localization: sync
 * Known for art museums, galleries, and luxury shopping
 
 
-### Notable Areas
+### Notable areas
 
 * **Roppongi Hills**: Large entertainment complex with restaurants, shops, and cinemas
 * **Tokyo Tower**: Iconic observation tower offering great city views
 * **Teamlab Borderless**: Popular digital art museum with interactive exhibits
 
 
-### Things to Do
+### Things to do
 
 * **Zojo-ji Temple**: Historic temple with a giant bell and beautiful grounds
 * **Atago-jinja Shrine**: Scenic shrine with a giant stone stairway
@@ -261,7 +245,7 @@ localization: sync
 ### Drawbacks
 
 * Loud nightlife
-* not on the JR Yamanote loop line
+* Not on the JR Yamanote loop line
 * One of the most expensive areas in Tokyo
 
 ---
@@ -275,14 +259,14 @@ localization: sync
 * Beautiful waterfront with promenades and views of the Rainbow Bridge
 
 
-### Notable Areas
+### Notable areas
 
 * **Odaiba Beach**: Tokyo's only beach with promenades and sea breezes
 * **Rainbow Bridge**: Iconic bridge connecting Odaiba and central Tokyo
 * **Fuji TV Building**: Futuristic building with a globe-shaped observatory
 
 
-### Things to Do
+### Things to do
 
 * **Statue of Liberty Odaiba**: Replica of New York's statue with Rainbow Bridge in the background
 * **TeamLab Planets**: Interactive digital art exhibit with water artwork
@@ -295,16 +279,32 @@ localization: sync
 * Not as unique or charming as other Tokyo neighborhoods; feels more like a resort or American suburb
 * Lots of children... they tend to cry...
 
-[odaiba-map]: https://www.google.com/maps/d/u/1/viewer?mid=1G4-7K6MSJ-sMaZCfYUGmHs2vfxg&ll=35.622258459220156%2C139.7929294495362&z=13
-
 
 ## Great articles to read
 
-* [Where To Stay In Tokyo - Our Favourite Areas & Hotels In Tokyo - Nerd Nomads](https://nerdnomads.com/where-to-stay-in-tokyo)
-* [Tokyo City Guide - What to do in Tokyo](https://www.japan-guide.com/e/e2164.html)
-* [Tokyo neighborhoods - Area guides - Time Out Tokyo](https://www.timeout.com/tokyo/neighborhoods)
+* [Where To Stay In Tokyo - Our Favourite Areas & Hotels In Tokyo - Nerd Nomads][nerd-nomads-tokyo]
+* [Tokyo City Guide - What to do in Tokyo][japan-guide-tokyo]
+* [Tokyo neighborhoods - Area guides - Time Out Tokyo][time-out-tokyo]
 
 
 ## Helpful videos to watch
 
-* [101 Things to DO in TOKYO - Japan Guide to Secret Hidden Places - YouTube](https://www.youtube.com/watch?v=8m7dnI2nrU8&list=PLcpuu5BzmasBKAILAe6tAEg-EHKETJjU6) by Paolo fromTOKYO
+* [101 Things to DO in TOKYO - Japan Guide to Secret Hidden Places - YouTube][paolo-tokyo-video] by Paolo fromTOKYO
+
+<!-- Links -->
+
+[asakusa-map]: https://www.google.com/maps/d/u/1/viewer?mid=12G4UzY0BACj2UJVkjpJ12veSdTI&ll=35.71338213336827%2C139.79515449737548&z=14
+[ginza-map]: https://www.google.com/maps/d/viewer?mid=1J26-ejxq53uFIlFY7M6q83fxUDQ&ll=35.673853299559994%2C139.76779762299805&z=13
+[ginza-mitsukoshi]: https://www.mistore.jp/store/ginza.html
+[ginza-six]: https://ginza6.tokyo/
+[ginza-wako]: https://www.wako.co.jp/
+[japan-guide-tokyo]: https://www.japan-guide.com/e/e2164.html
+[nerd-nomads-tokyo]: https://nerdnomads.com/where-to-stay-in-tokyo
+[odaiba-map]: https://www.google.com/maps/d/u/1/viewer?mid=1G4-7K6MSJ-sMaZCfYUGmHs2vfxg&ll=35.622258459220156%2C139.7929294495362&z=13
+[paolo-tokyo-video]: https://www.youtube.com/watch?v=8m7dnI2nrU8&list=PLcpuu5BzmasBKAILAe6tAEg-EHKETJjU6
+[shibuya-map]: https://www.google.com/maps/d/viewer?mid=1BoYDd2FfMOrOUmzvdI4EoR8UKgw
+[shinjuku-gyoen-anime]: https://youtu.be/udDIkl6z8X0?feature=shared
+[shinjuku-map]: https://www.google.com/maps/d/viewer?mid=1ZyMErMGQEXy_ZJqEOfby67wv3No&ll=35.695782888967486%2C139.70420839999997&z=13
+[time-out-tokyo]: https://www.timeout.com/tokyo/neighborhoods
+[tokyo-best-areas]: https://www.google.com/maps/d/u/0/viewer?mid=1T2e130QaA1uguYbXkG6tERjfBaw&ll=35.66395604735201%2C139.73538670000005&z=12
+[ueno-map]: https://www.google.com/maps/d/viewer?mid=1L96cjjDn9x-kL9vrxvoNxD0i1sk&ll=35.71773282500521%2C139.77037254365234&z=14

@@ -64,6 +64,8 @@ end tell
 
 <!-- markdownlint-enable MD010 -->
 
+<!-- Links -->
+
 [chrome-adsettings]: https://support.google.com/chrome/answer/13355898
 [chrome-profiles]: https://support.google.com/chrome/answer/2364824
 [shortcut-link]: https://www.icloud.com/shortcuts/6b9aeae513534afb9745d57564d9931f

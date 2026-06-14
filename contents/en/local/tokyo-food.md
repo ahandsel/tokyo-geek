@@ -19,7 +19,7 @@ localization: sync
 
 Yasai no Ohsama
 
-* [やさいの王様 日比谷シャンテ店](https://maps.app.goo.gl/aMkjyWrsR3GhgMzz7)
+* [やさいの王様 日比谷シャンテ店][yasai-no-ohsama-map]
 * Healthy Japanese set-meals (Teishoku)
 * Location: Between Hibiya station & Ginza station
 
@@ -28,13 +28,13 @@ Yasai no Ohsama
 
 Okonomiyaki Kiji
 
-* [きじ 丸の内店](https://maps.app.goo.gl/RzgEUnEZVXCMAenc7)
+* [きじ 丸の内店][okonomiyaki-kiji-map]
 * Classic Okonomiyaki restaurant
 * Location: Tokyo Station, Marunouchi South Exit
 
 TSURUTONTAN BIS TOKYO
 
-* [おいしいおうどん つるとんたん BIS TOKYO](https://maps.app.goo.gl/hUhTrWCYeav5NXLL9)
+* [おいしいおうどん つるとんたん BIS TOKYO][tsurutontan-bis-map]
 * Popular Udon restaurant with large portions; nice view as well
 * Location: Between Yurakucho station & Tokyo station
 
@@ -43,6 +43,13 @@ TSURUTONTAN BIS TOKYO
 
 Gyukatsu Motomura Coredo Muromachi Branch
 
-* [牛かつもと村 コレド室町店](https://maps.app.goo.gl/bkXFwdMvPTjB3RzH7)
+* [牛かつもと村 コレド室町店][gyukatsu-motomura-map]
 * My favorite Gyukatsu (breaded deep-fried beef cutlet) restaurant
 * Location: Near Mitsukoshimae station
+
+<!-- Links -->
+
+[gyukatsu-motomura-map]: https://maps.app.goo.gl/bkXFwdMvPTjB3RzH7
+[okonomiyaki-kiji-map]: https://maps.app.goo.gl/RzgEUnEZVXCMAenc7
+[tsurutontan-bis-map]: https://maps.app.goo.gl/hUhTrWCYeav5NXLL9
+[yasai-no-ohsama-map]: https://maps.app.goo.gl/aMkjyWrsR3GhgMzz7
