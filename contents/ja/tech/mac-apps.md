@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: mac, apps, productivity, utilities, brew
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -101,5 +102,5 @@ head:
 Brewfile:
 
 ```txt
-<!--@include: ../../public/share/Brewfile-->
+<!--@include: ../../public/Brewfile-->
 ```

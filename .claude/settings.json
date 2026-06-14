@@ -15,7 +15,9 @@
       "Skill(gh-cli)",
       "Skill(git-pull-main)",
       "Skill(link-polisher)",
-      "Skill(sync-skill-allowlist)"
+      "Skill(sync-skill-allowlist)",
+      "WebFetch(domain:shinkansen.tabiris.com)",
+      "WebFetch(domain:vitepress.dev)"
     ]
   }
 }

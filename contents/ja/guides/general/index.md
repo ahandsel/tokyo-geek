@@ -6,6 +6,7 @@ head:
     - name: keywords
       content: japan, travel planning, itinerary, booking, transportation
 order: 0
+localization: sync
 ---
 
 # {{$frontmatter.title}}

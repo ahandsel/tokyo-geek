@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: hometown tax, one-stop, exception, japan, guide
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -26,9 +27,9 @@ You can use this system if you donate to five or fewer municipalities within a y
 Ordinarily, claiming donation deductions through the Hometown Tax program would require a tax return, but salaried employees who undergo year-end adjustments can still receive the deduction by utilizing the One-Stop Special Exception System.  
 To use the One-Stop Special Exception System, you must submit the required documents, including an application form, to each municipality you donated to within the specified application period. Once applied, the deduction will be automatically reflected in the residential tax from June of the following year, with no income tax deduction.
 
-| Example of donating to 5 or fewer municipalities                                             | Tax Deduction System                                                                                                                                           | Steps Translation                                                                                                                                                                                                                                  |
-| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Example of donating to 5 or fewer municipalities](/furusato-one-stop-exception/img-01.png) | ![Tax deduction mechanism: simple application enables deduction from individual residential tax without a tax return](/furusato-one-stop-exception/img-02.png) | [Donor] → <br> (1) Donation + Submission of One-Stop Special Application Form → <br> [Recipient Municipality] → <br> (2) Notification → <br> [Resident Municipality] → <br> (3) Deduction from the following year's residential tax → <br> [Donor] |
+| Example of donating to 5 or fewer municipalities                                                                            | Tax Deduction System                                                                                                                                                             | Steps Translation                                                                                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Example of donating to 5 or fewer municipalities](/furusato-one-stop-exception/donation-five-municipalities-example.png) | ![Tax deduction mechanism: simple application enables deduction from individual residential tax without a tax return](/furusato-one-stop-exception/tax-deduction-mechanism.png) | [Donor] → <br> (1) Donation + Submission of One-Stop Special Application Form → <br> [Recipient Municipality] → <br> (2) Notification → <br> [Resident Municipality] → <br> (3) Deduction from the following year's residential tax → <br> [Donor] |
 
 
 ### Benefits of the One-Stop Special Exception System
@@ -69,7 +70,7 @@ In simpler terms, this system is available to those with no other tax filings ou
 
 ### Timeline for the One-Stop Special Exception System
 
-![Timeline: donations made between 1/1 and 12/31; application must arrive by January 10th the following year; deduction from residential tax occurs from June to May of the subsequent year](/furusato-one-stop-exception/img-03.png)
+![Timeline: donations made between 1/1 and 12/31; application must arrive by January 10th the following year; deduction from residential tax occurs from June to May of the subsequent year](/furusato-one-stop-exception/donation-deduction-timeline.png)
 
 The application deadline for the One-Stop Special Exception System is January 10 of the following year after the donation was made.  
 For donations made between January 1 and December 31 of the current year, prepare an application form and required documents for each donation and send them to the municipality by the deadline.  
@@ -81,14 +82,14 @@ If you miss the deadline, you must file a tax return to claim the deduction.
 
 ## STEP 1
 
-![STEP1](/furusato-one-stop-exception/bar-step-01.png)
+![STEP1](/furusato-one-stop-exception/progress-bar-step-1.png)
 
 
 ### Gather the Required Documents
 
 To use the One-Stop Special Exception System, first gather the following documents.
 
-![Required items: One-Stop Special Application Form; A/B/C Identification Document Options](/furusato-one-stop-exception/img-04.png)
+![Required items: One-Stop Special Application Form; A/B/C Identification Document Options](/furusato-one-stop-exception/required-documents.png)
 
 It is essential to send a completed One-Stop Special Application Form (Application for Special Deduction for Donations) to each municipality you donated to.
 
@@ -108,7 +109,7 @@ Attach copies of both your My Number and an identity verification document.
 
 Please prepare the documents using one of the following methods:
 
-![Document Options for Identity Verification](/furusato-one-stop-exception/pattern-01.png)
+![Document Options for Identity Verification](/furusato-one-stop-exception/id-verification-pattern-a.png)
 
 1. **Option A**
    * Both sides of the My Number card (copy)
@@ -126,7 +127,7 @@ Please prepare the documents using one of the following methods:
 
 ## STEP 2
 
-![STEP2](/furusato-one-stop-exception/bar-step-02.png)
+![STEP2](/furusato-one-stop-exception/progress-bar-step-2.png)
 
 
 ### Complete the Application Form
@@ -134,12 +135,12 @@ Please prepare the documents using one of the following methods:
 Fill out the necessary information on the One-Stop Special Application Form (Application for Special Deduction for Donations).  
 Refer to the sample form for guidance.
 
-![Sample Form](/furusato-one-stop-exception/example.png)
+![Sample Form](/furusato-one-stop-exception/application-form-sample.png)
 
 
 ## STEP 3
 
-![STEP3](/furusato-one-stop-exception/bar-step-03.png)
+![STEP3](/furusato-one-stop-exception/progress-bar-step-3.png)
 
 
 ### Mail the Documents to Each Municipality by the Deadline

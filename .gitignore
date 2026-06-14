@@ -22,6 +22,7 @@ private.*
 
 # Temp files
 temp
+temp*.md
 temp.*
 temp-*
 .temp

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: kyoto, trip, itinerary, japan, travel
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -51,7 +52,7 @@ head:
 Higashiyama Streets
 
 * Winding streets lined with traditional shop houses
-* ![kyoto-trip-higashiyamastreets.png](/kyoto-trip-higashiyamastreets.png)
+* ![kyoto-trip-higashiyama-streets.png](/kyoto-trip-higashiyama-streets.png)
 
 Kodaiji Temple
 

@@ -20,6 +20,7 @@
     "MD032": false,
     "MD033": { "allowed_elements": ["br", "pre", "ul", "li", "ol"] },
     "MD036": false,
+    "MD060": false,
     "search-replace": {
       "rules": [
         {
@@ -45,6 +46,12 @@
           "message": "Do not use en dashes. Use a hyphen instead.",
           "searchPattern": "/\u2013/g",
           "replace": "-",
+        },
+        {
+          "name": "full-width-tilde",
+          "message": "Do not use the fullwidth tilde. Use a plain tilde instead.",
+          "searchPattern": "/\uff5e/g",
+          "replace": "~",
         },
       ],
     },

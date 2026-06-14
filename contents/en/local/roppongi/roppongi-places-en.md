@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: roppongi, azabu, food, cafes, tokyo
+localization: sync
 ---
 
 # {{$frontmatter.title}}

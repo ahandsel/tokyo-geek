@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: fonts, vscode, homebrew, monospace, fira code, hack nerd font, opendyslexic, hackgen, sarasa, ligatures, brewfile
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -16,8 +17,6 @@ head:
 The right monospaced font makes code easier to read: ligatures clean up operators, extra glyphs fill in icons, and a font with proper Japanese support keeps mixed English/Japanese tables lined up.
 
 Here are a few favorites, how to install them with [Homebrew][homebrew], and how to wire them into VS Code with a fallback order.
-
-[homebrew]: https://brew.sh/
 
 
 ## The fonts
@@ -55,8 +54,6 @@ Here are a few favorites, how to install them with [Homebrew][homebrew], and how
 
 * Same Japanese-alignment benefit as HackGen Console, with a slightly lighter, more delicate look.
 
-[nerd-fonts]: https://www.nerdfonts.com/
-
 
 ## Install with Homebrew
 
@@ -85,7 +82,7 @@ Save the Brewfile to your machine, then run:
 brew bundle install --file=./Brewfile
 ```
 
-See [Migrate macOS apps with Homebrew](homebrew-migrate.md) for more on Brewfile workflows.
+See [Migrate macOS apps with Homebrew][migrate-macos-apps-homebrew] for more on Brewfile workflows.
 
 
 ### Confirm what got installed
@@ -187,4 +184,7 @@ After changing fonts, reload VS Code (`Cmd+Shift+P` then **Developer: Reload Win
 * [Nerd Fonts][nerd-fonts]
 * [Homebrew Cask Fonts][homebrew]
 
+[homebrew]: https://brew.sh/
+[migrate-macos-apps-homebrew]: homebrew-migrate.md
+[nerd-fonts]: https://www.nerdfonts.com/
 [vscode-fonts]: https://code.visualstudio.com/docs/editor/settings

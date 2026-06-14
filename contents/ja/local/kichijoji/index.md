@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: kichijoji, neighborhood, local
+localization: sync
 ---
 
 # {{$frontmatter.title}}

@@ -1,6 +1,7 @@
 ---
 title: 'JPKI User Software Ver.3.5 Installation Guide'
 description: English machine translation of the JPKI User Software Ver.3.5 installation guide.
+localization: sync
 ---
 
 # {{$frontmatter.title}}

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: figma, plugins, ux writing, design, tips, ux-writing
+localization: sync
 ---
 
 # {{$frontmatter.title}}

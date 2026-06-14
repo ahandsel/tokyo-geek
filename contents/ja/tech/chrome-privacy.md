@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: chrome, privacy, ads, settings, shortcut
+localization: sync
 ---
 
 # {{$frontmatter.title}}

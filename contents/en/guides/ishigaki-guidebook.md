@@ -1,6 +1,7 @@
 ---
 title: 'Ishigaki guidebook'
 description: This guidebook is created by the hosts of Me-Fi-You Ishigaki Island
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -31,7 +32,7 @@ We hope you find this guidebook useful and enjoy your stay on Ishigaki Island!
   * [Akubi](#akubi)
   * [Galopin](#galopin)
   * [Tofu Higa](#tofu-higa)
-  * [ちねんや～新川店](#ちねんや新川店)
+  * [ちねんや~新川店](#ちねんや新川店)
   * [Azusamaru](#azusamaru)
   * [Koteppen](#koteppen)
   * [宮良農園](#宮良農園)
@@ -220,11 +221,11 @@ No shops nearby!
 * Phone: 0980824806
 
 
-### ちねんや～新川店
+### ちねんや~新川店
 
 * Type of meal: Dinner.
 * Izakaya from Miyazaki Prefecture in Kyushu. Enjoy a Yaeyama and Miyazaki collaboration of tuna and charcoal-grilled seafood. The unique dish "tuna cutlet nanban" prepares local tuna in the style of chicken nanban, and may not always be on the regular menu. Authentic charcoal-grilled local chicken is also available. Parking for two cars.
-* [ちねんや～新川店 - Google Maps](https://maps.app.goo.gl/MataN3o2ZPMeYdix9)
+* [ちねんや~新川店 - Google Maps](https://maps.app.goo.gl/MataN3o2ZPMeYdix9)
 * Phone: 0980-82-8880
 
 

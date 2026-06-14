@@ -1,6 +1,7 @@
 ---
 title: '新幹線ガイド 🚅'
 description: '日本の新幹線システム、きっぷの買い方、快適な旅のためのヒントをまとめたガイドです。'
+localization: sync
 ---
 
 # {{$frontmatter.title}}

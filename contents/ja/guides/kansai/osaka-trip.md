@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: osaka, trip, itinerary, japan, travel
+localization: sync
 ---
 
 # {{$frontmatter.title}}

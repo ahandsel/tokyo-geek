@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, shopping, home, appliances, laundry
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -37,12 +38,12 @@ Recommendation:
 * [Amazon listing][amazon-my-wave]
 * [Review analysis on sakura-checker.jp][sakura-my-wave]
 * [Price tracker on Keepa][keepa-my-wave]
-* ![Image of My Wave Warm Dryer 3.0][img-wave-dryer]{width=200 height=200}
+* ![Image of My Wave Warm Dryer 3.0][wave-dryer]{width=200 height=200}
 
 [amazon-my-wave]: https://www.amazon.co.jp/dp/B06XBBNMRX/
 [keepa-my-wave]: https://keepa.com/#!product/5-B06XBBNMRX
 [sakura-my-wave]: https://sakura-checker.jp/search/B06XBBNMRX
-[img-wave-dryer]: /img-wave-dryer.png
+[wave-dryer]: /wave-dryer.png
 
 
 ## Dehumidifier
@@ -60,9 +61,9 @@ Recommendation:
 * [Amazon listing][amazon-corona-dehumidifier]
 * [Review analysis on sakura-checker.jp][sakura-corona-dehumidifier]
 * [Price tracker on Keepa][keepa-corona-dehumidifier]
-* ![Image of CORONA Clothes-drying dehumidifier][img-corona-dehumidifier]{width=200 height=200}
+* ![Image of CORONA Clothes-drying dehumidifier][corona-dehumidifier]{width=200 height=200}
 
 [amazon-corona-dehumidifier]: https://amzn.asia/d/58wBDeI
 [keepa-corona-dehumidifier]: https://keepa.com/#!product/5-B0753ZVXHV
 [sakura-corona-dehumidifier]: https://sakura-checker.jp/search/B0753ZVXHV
-[img-corona-dehumidifier]: /img-corona-dehumidifier.png
+[corona-dehumidifier]: /corona-dehumidifier.png

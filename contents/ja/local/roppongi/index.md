@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: roppongi, neighborhood, local
+localization: sync
 ---
 
 # 六本木エリア

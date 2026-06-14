@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: australia travel, australia tips, travel guide, australia itinerary
+localization: sync
 ---
 
 # {{$frontmatter.title}}

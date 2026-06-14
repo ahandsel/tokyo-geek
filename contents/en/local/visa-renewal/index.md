@@ -6,6 +6,7 @@ head:
   - - meta
     - name: keywords
       content: visa-renewal, mac, windows-vm, my-number-card, jpki
+localization: sync
 ---
 
 # How to renew Japanese visa online with a Mac
@@ -208,7 +209,7 @@ After installing the JPKI app and Java, you can now proceed to the online visa r
 1. Open the Immigration Services Agency's [Online Residence Application Procedures](https://www.moj.go.jp/isa/applications/online/onlineshinsei.html?hl=en) webpage.
 2. Click the big green button labeled `在留申請オンラインシステムのご利用はこちらから。（在留申請オンラインシステムのトップページへリンクします。）`
    * `https://www.ras-immi.moj.go.jp/WC01/WCAAS010/`
-   * ![Screenshot of the visa homepage with the button highlighted](/visa-renewal/img-visa-website-button.png)
+   * ![Screenshot of the visa homepage with the button highlighted](/visa-renewal/visa-website-button.png)
 
 
 ## Troubleshooting
@@ -222,7 +223,7 @@ Here are some issues I encountered while trying to setup the Windows VM, install
   * Context: When starting the Windows VM for the first time, instead of the Windows installation wizard, you see a black screen with `UEFI Iterative Shell v2.2`.
   * Cause: You missed hitting `Enter` to boot from the attached Windows Boot ISO image file. Thus, you are seeing the VM's shell instead of the Windows installer.
   * Solution: Restart the Windows VM and hit `Enter` immediately after the VM starts.
-  * ![Screenshot of UEFI Iterative Shell v2.2 screen](/visa-renewal/img-windows-black-shell.png)
+  * ![Screenshot of UEFI Iterative Shell v2.2 screen](/visa-renewal/windows-black-shell.png)
 
 * Issue: VM crashes or freezes.
   * Cause: Not enough disk space or RAM.
@@ -233,7 +234,7 @@ Here are some issues I encountered while trying to setup the Windows VM, install
 
 Issue: When trying to run the JPKI installer, you may encounter a broken error message like this:
 
-* ![Broken error message when running JPKI 利用者ソフト](/visa-renewal/img-jpki-broken-error.png)
+* ![Broken error message when running JPKI 利用者ソフト](/visa-renewal/jpki-broken-error.png)
 
 Cause: JPKI app uses non-Unicode characters and the Windows's `Language for non-Unicode programs` is not set to Japanese. (Like even Japanese people may not have configured this setting...)
 
@@ -258,7 +259,7 @@ User Client Software Error
 Error code: EW000J0200
 ```
 
-* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](/visa-renewal/img-jpki-reader-error.png)
+* ![Screenshot of 利用者クライアントソフトエラー エラーコード：EW000J0200 error popup](/visa-renewal/jpki-reader-error.png)
 
 Possible causes:
 
@@ -296,7 +297,7 @@ Error code: EW104J1502
 Error details: 0x00000006
 ```
 
-* ![EW104J1502 error from JPKI 利用者ソフト](/visa-renewal/img-jpki-error-ew104j1502.png)
+* ![EW104J1502 error from JPKI 利用者ソフト](/visa-renewal/jpki-error-ew104j1502.png)
 
 Possible causes:
 

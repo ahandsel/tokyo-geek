@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: nagoya, trip, itinerary, transport, japan
+localization: sync
 ---
 
 # {{$frontmatter.title}}

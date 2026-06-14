@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, food, restaurants, cafes, recommendations
+localization: sync
 ---
 
 # {{$frontmatter.title}}

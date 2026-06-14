@@ -1,6 +1,7 @@
 ---
 title: Hakone weekend trip
 description: Enjoy a long weekend in Hakone with hiking, art museums, hot springs, and views of Mount Fuji.
+localization: sync
 ---
 
 # Weekend in Hakone

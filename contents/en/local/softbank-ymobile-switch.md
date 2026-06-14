@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: softbank, ymobile, transfer, number portability, mnp, esim, paypay card, ouchi wari, hikari
+localization: sync
 ---
 
 # {{$frontmatter.title}}

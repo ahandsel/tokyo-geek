@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, shows, movies, recommendations, list
+localization: sync
 ---
 
 # {{$frontmatter.title}}

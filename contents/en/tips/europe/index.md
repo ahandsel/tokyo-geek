@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: travel, europe, packing, eurostar, tips
+localization: sync
 ---
 
 # {{$frontmatter.title}}

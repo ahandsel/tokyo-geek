@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, booking, reservations, attractions, travel
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -48,7 +49,7 @@ head:
 
 1. ローソン WEB 会員アカウントを作成します：<https://l-tike.com/login/newcustomer/>
 2. [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)](https://l-tike.com/ghibli/) にアクセスします
-3. 行きたい月を選びます（例：`8/2(水)～8/31(木)入場分` は 8 月分）
+3. 行きたい月を選びます（例：`8/2(水)~8/31(木)入場分` は 8 月分）
 4. `詳細はこちら` をクリックします
 
 電子チケット vs 紙チケット

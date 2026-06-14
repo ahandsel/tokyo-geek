@@ -26,6 +26,10 @@ const vitePressOptions = {
   cleanUrls: true,
   metaChunk: true,
 
+  // Public assets (served from contents/public) are not page routes, so the dead-link checker flags Markdown links to them. 
+  // Allow-list those paths.
+  ignoreDeadLinks: ['/share/Brewfile'],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {

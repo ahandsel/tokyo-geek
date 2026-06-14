@@ -2,6 +2,7 @@
 title: 'Weekend Trips from Tokyo'
 description: Great weekend trip ideas from Tokyo to nearby destinations.
 order: 1
+localization: sync
 ---
 
 # {{$frontmatter.title}}

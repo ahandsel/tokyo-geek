@@ -1,6 +1,7 @@
 ---
 title: 'Shinkansen (bullet train) guide 🚅'
 description: "Guide on Japan's Shinkansen (bullet train) system, how to buy tickets, and tips for a smooth travel experience."
+localization: sync
 ---
 
 # {{$frontmatter.title}}

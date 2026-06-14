@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, facebook, used items, sayonara sales, second hand
+localization: sync
 ---
 
 # {{$frontmatter.title}}

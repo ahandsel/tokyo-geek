@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, kanazawa, shinkansen, tickets, travel
+localization: independent
 ---
 
 # {{$frontmatter.title}}

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: tokyo, hiking, trails, outdoors, japan
+localization: sync
 ---
 
 # {{$frontmatter.title}}

@@ -2,6 +2,7 @@
 title: コンテンツマップ
 description: 全ページの一覧
 excludeFromSidebar: true
+localization: sync
 ---
 
 # {{$frontmatter.title}}

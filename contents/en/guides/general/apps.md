@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, ios apps, travel, payments, tips
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -37,7 +38,7 @@ head:
 * 🇯🇵 [d ポイントクラブ（公式）](https://apps.apple.com/jp/app/id821434357?l=en) - D Point App
 * 🇯🇵 [d 払い－スマホ決済アプリ、キャッシュレスでお支払い](https://apps.apple.com/jp/app/id1328132872?l=en) - D Pay Payment App
 * 🇯🇵 [JRE POINT アプリ - Suica でポイントをためよう](https://apps.apple.com/jp/app/id1081293054?l=en) - JRE Point App
-* 🇯🇵 [majica～電子マネー公式アプリ～](https://apps.apple.com/jp/app/id1001883210?l=en) - Don Quijote's Majica App
+* 🇯🇵 [majica~電子マネー公式アプリ~](https://apps.apple.com/jp/app/id1001883210?l=en) - Don Quijote's Majica App
 * 🇯🇵 [Moneytree - Finance Made Easy](https://apps.apple.com/jp/app/id586847189?l=en)
 * 🇯🇵 [MUJI passport - 無印良品](https://apps.apple.com/jp/app/id631993791?l=en) - MUJI Point App
 * 🇯🇵 [nanaco（ポイントがお得・チャージも簡単な電子マネー）](https://apps.apple.com/jp/app/id1540014396?l=en) - nanaco payment and point app

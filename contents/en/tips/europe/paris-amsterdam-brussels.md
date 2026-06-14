@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: paris, amsterdam, brussels, travel, itinerary, europe
+localization: sync
 ---
 
 # {{$frontmatter.title}}

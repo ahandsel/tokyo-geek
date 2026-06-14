@@ -10,6 +10,7 @@
     "Airalo",
     "chichibu",
     "Craigslist",
+    "Diataxis",
     "Docomo",
     "enoshima",
     "fintech",
@@ -23,6 +24,7 @@
     "JPKI",
     "JPKIAppli",
     "kichijoji",
+    "Klook",
     "kodama",
     "kōjogaku",
     "Mitake",
@@ -48,7 +50,10 @@
   // flagWords - list of words to be always considered incorrect
   // "flagWords": [""],
   // ignorePaths - list of glob patterns to ignore file paths
-  "ignorePaths": ["node_modules/**", "bin"],
+  "ignorePaths": [
+    "node_modules/**",
+    "bin"
+  ],
   // allowCompoundWords - (default: false) allow compound words (e.g., arraylength)
   "allowCompoundWords": false,
   // ignoreRegExpList - list of regular expressions to ignore

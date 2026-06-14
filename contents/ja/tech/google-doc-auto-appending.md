@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: google docs, apps script, automation, template, weekly report
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -28,7 +29,7 @@ head:
 
 ## Google Apps Script コード
 
-<<< @/public/share/google-doc-auto-appending.js
+<<< @/public/google-doc-auto-appending.js
 
 
 ## セットアップ手順

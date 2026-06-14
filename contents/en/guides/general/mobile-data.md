@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, mobile, data, esim, router, carrier, wifi, wi-fi, sim, roaming, cell
+localization: sync
 ---
 
 # {{$frontmatter.title}}

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: softbank, ymobile, 番号移行，mnp, esim, sim, paypay カード，おうち割，光セット
+localization: sync
 ---
 
 # {{$frontmatter.title}}

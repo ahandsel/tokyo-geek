@@ -2,6 +2,7 @@
 title: Content map
 description: Overview of all pages
 excludeFromSidebar: true
+localization: sync
 ---
 
 # {{$frontmatter.title}}

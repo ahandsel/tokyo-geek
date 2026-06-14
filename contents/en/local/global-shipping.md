@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan post, international shipping, ead, my page, postal
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -34,11 +35,11 @@ head:
 * [Online Shipping Tool - JAPAN Post](https://www.post.japanpost.jp/intmypage/online_en.html)
 * Phone Support:
   * Japanese: 0120-5931-55
-  * English ： 0570-046-111
+  * English: 0570-046-111
     * English was faster
   * Service Hours
-    * Weekdays: 8:00～21:00
-    * Saturdays, Sundays, and holidays: 9:00～21:00
+    * Weekdays: 8:00~21:00
+    * Saturdays, Sundays, and holidays: 9:00~21:00
 * Upload contacts in bulk using [jp-post-contact-upload.csv](#jp-post-contact-upload-csv-file) as a template.
 * As of March 29, 2021, JAPAN POST is only sending [Small Packets](https://www.post.japanpost.jp/int/service/small_packing_en.html) to USA.
   * Although the default option for [International Mail My Page Service](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do) is the `International ePacket`, this is not available!
@@ -60,9 +61,9 @@ head:
 
 * Register the items to be shipped ahead of creating the label using [Contents List](https://www.post.japanpost.jp/intmypage/contents_en.html) tool.
 
-|     | Home                                                               | Address book                                                               | Data Import for Address book                                               |
-| --- | ------------------------------------------------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-|     | ![global-shipping-home](/global-shipping/global-shipping-home.png) | ![global-shipping-address1](/global-shipping/global-shipping-address1.png) | ![global-shipping-address2](/global-shipping/global-shipping-address2.png) |
+|     | Home                                                               | Address book                                                                 | Data Import for Address book                                                 |
+| --- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+|     | ![global-shipping-home](/global-shipping/global-shipping-home.png) | ![global-shipping-address-1](/global-shipping/global-shipping-address-1.png) | ![global-shipping-address-2](/global-shipping/global-shipping-address-2.png) |
 
 
 ### Demo

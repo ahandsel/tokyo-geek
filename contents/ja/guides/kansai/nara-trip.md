@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: nara, trip, kintetsu, kyoto, hotel
+localization: sync
 ---
 
 # {{$frontmatter.title}}

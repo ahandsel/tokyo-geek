@@ -1,6 +1,7 @@
 ---
 title: How to Check Visa Renewal Status
 description: Quick guide on how to check the status of your Japanese visa renewal application when you applied online.
+localization: sync
 ---
 
 # {{$frontmatter.title}}

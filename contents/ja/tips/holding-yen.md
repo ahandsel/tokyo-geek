@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: finance, japan, tips
+localization: sync
 ---
 
 # 日本を離れる際の円の保有方法

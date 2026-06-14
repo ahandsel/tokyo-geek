@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: wise, revolut, multi-currency, travel, money, tips
+localization: sync
 ---
 
 # {{$frontmatter.title}}

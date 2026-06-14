@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: 六本木，麻布，グルメ，ショッピング，カフェ
+localization: sync
 ---
 
 # {{$frontmatter.title}}

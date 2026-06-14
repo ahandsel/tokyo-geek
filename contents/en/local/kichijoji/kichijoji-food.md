@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: kichijoji, food, restaurants, lunch, dinner
+localization: sync
 ---
 
 # {{$frontmatter.title}}

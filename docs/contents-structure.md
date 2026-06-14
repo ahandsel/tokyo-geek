@@ -198,47 +198,40 @@
 │   └───📄 map.md
 ├───📁 public/
 │   ├───📁 furusato-one-stop-exception/
-│   │   ├───📄 bar-step-01.png
-│   │   ├───📄 bar-step-02.png
-│   │   ├───📄 bar-step-03.png
-│   │   ├───📄 example-02.png
-│   │   ├───📄 example.png
-│   │   ├───📄 img-01.png
-│   │   ├───📄 img-02.png
-│   │   ├───📄 img-03.png
-│   │   ├───📄 img-04.png
-│   │   ├───📄 img-06.png
-│   │   ├───📄 pattern-01.png
-│   │   ├───📄 pattern-02.png
-│   │   ├───📄 pattern-03.png
-│   │   ├───📄 step-01.png
-│   │   ├───📄 step-02.png
-│   │   └───📄 step-03.png
+│   │   ├───📄 application-form-sample.png
+│   │   ├───📄 change-notification-form.png
+│   │   ├───📄 donation-deduction-timeline.png
+│   │   ├───📄 donation-five-municipalities-example.png
+│   │   ├───📄 id-verification-pattern-a.png
+│   │   ├───📄 id-verification-pattern-b.png
+│   │   ├───📄 id-verification-pattern-c.png
+│   │   ├───📄 notification-card-name-address-match.png
+│   │   ├───📄 progress-bar-step-1.png
+│   │   ├───📄 progress-bar-step-2.png
+│   │   ├───📄 progress-bar-step-3.png
+│   │   ├───📄 required-documents.png
+│   │   ├───📄 step-banner-1-gather-items.png
+│   │   ├───📄 step-banner-2-fill-form.png
+│   │   ├───📄 step-banner-3-mail-documents.png
+│   │   └───📄 tax-deduction-mechanism.png
 │   ├───📁 global-shipping/
 │   │   ├───📄 global-shipping-250.png
-│   │   ├───📄 global-shipping-address1.png
-│   │   ├───📄 global-shipping-address2.png
+│   │   ├───📄 global-shipping-address-1.png
+│   │   ├───📄 global-shipping-address-2.png
 │   │   ├───📄 global-shipping-demo.gif
 │   │   ├───📄 global-shipping-demo.mp4
 │   │   ├───📄 global-shipping-home.png
 │   │   ├───📄 higashi-yama-streets.png
 │   │   └───📄 jp-post-contact-upload.csv
+│   ├───📁 nighttab/
+│   │   ├───📄 google-bookmarks.json
+│   │   ├───📄 streaming-bookmarks.json
+│   │   └───📄 travel-bookmarks.json
 │   ├───📁 share/
-│   │   ├───📁 nighttab/
-│   │   │   ├───📄 google-bookmarks.json
-│   │   │   ├───📄 streaming-bookmarks.json
-│   │   │   └───📄 travel-bookmarks.json
-│   │   ├───📄 Brewfile
-│   │   └───📄 google-doc-auto-appending.js
 │   ├───📁 shinkansen-discount-tokyo-osaka/
 │   │   ├───📄 branch-map.png
 │   │   ├───📄 kyoto-central.png
 │   │   ├───📄 kyoto.png
-│   │   ├───📄 method001.png
-│   │   ├───📄 method002.png
-│   │   ├───📄 method003.png
-│   │   ├───📄 method004.png
-│   │   ├───📄 method005.png
 │   │   ├───📄 nagoya.png
 │   │   ├───📄 shinagawa.png
 │   │   ├───📄 shinosaka.png
@@ -248,21 +241,27 @@
 │   │   ├───📄 ticket-details-2.png
 │   │   ├───📄 ticket-machine-correct.png
 │   │   ├───📄 ticket-machine-incorrect.png
+│   │   ├───📄 ticket-pickup-code-input.png
+│   │   ├───📄 ticket-pickup-collect-vouchers.png
+│   │   ├───📄 ticket-pickup-confirm-print.png
+│   │   ├───📄 ticket-pickup-qr-scan.png
+│   │   ├───📄 ticket-pickup-select-button.png
 │   │   └───📄 tokyo.png
 │   ├───📁 visa-renewal/
-│   │   ├───📄 img-jpki-broken-error.png
-│   │   ├───📄 img-jpki-error-ew104j1502.png
-│   │   ├───📄 img-jpki-reader-error.png
-│   │   ├───📄 img-visa-website-button.png
-│   │   └───📄 img-windows-black-shell.png
+│   │   ├───📄 jpki-broken-error.png
+│   │   ├───📄 jpki-error-ew104j1502.png
+│   │   ├───📄 jpki-reader-error.png
+│   │   ├───📄 visa-website-button.png
+│   │   └───📄 windows-black-shell.png
+│   ├───📄 Brewfile
 │   ├───📄 apple-touch-icon-180x180.png
 │   ├───📄 cat-icon-background.png
 │   ├───📄 cat-icon-clear.png
+│   ├───📄 corona-dehumidifier.png
 │   ├───📄 favicon.ico
-│   ├───📄 image.png
-│   ├───📄 img-corona-dehumidifier.png
-│   ├───📄 img-wave-dryer.png
-│   ├───📄 kyoto-trip-higashiyamastreets.png
+│   ├───📄 google-doc-auto-appending.js
+│   ├───📄 jr-reservation-systems-map.png
+│   ├───📄 kyoto-trip-higashiyama-streets.png
 │   ├───📄 macos-settings-smart-quotes.png
 │   ├───📄 maskable-icon-512x512.png
 │   ├───📄 passport-renewal-signature-sample.png
@@ -273,6 +272,7 @@
 │   ├───📄 sakura-path.png
 │   ├───📄 shinkansen-map.png
 │   ├───📄 tokaido-sanyo-shinkansen-route-map.png
+│   ├───📄 wave-dryer.png
 │   ├───📄 windows-language-settings.png
 │   ├───📄 windows-non-unicode-programs-settings.png
 │   └───📄 windows-run-as-admin-settings.png

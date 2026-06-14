@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan post, international shipping, ead, my page, postal
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -30,8 +31,8 @@ head:
   * 英語：0570-046-111
     * 英語の方がつながりが早かったです
   * 受付時間
-    * 平日：8:00～21:00
-    * 土日祝：9:00～21:00
+    * 平日：8:00~21:00
+    * 土日祝：9:00~21:00
 * [jp-post-contact-upload.csv](#jp-post-contact-upload-csv-file)をテンプレートにして、連絡先を一括アップロードできます。
 * 2021 年 3 月 29 日時点で、日本郵便はアメリカ宛には[小形包装物](https://www.post.japanpost.jp/int/service/small_packing_en.html)のみ送付可能です。
   * [国際郵便マイページサービス](https://www.int-mypage.post.japanpost.jp/mypage/M010000.do)のデフォルトオプションは`国際eパケット`ですが、これは利用できません！

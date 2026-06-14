@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: kyoto, trip, itinerary, japan, travel
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -51,7 +52,7 @@ head:
 東山の街並み
 
 * 伝統的な町家が並ぶ風情ある小道
-* ![kyoto-trip-higashiyamastreets.png](/kyoto-trip-higashiyamastreets.png)
+* ![kyoto-trip-higashiyama-streets.png](/kyoto-trip-higashiyama-streets.png)
 
 高台寺
 

@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: google docs, apps script, automation, template, weekly report
+localization: sync
 ---
 
 # {{$frontmatter.title}}
@@ -42,7 +43,7 @@ Google Apps Script automation that inserts content from a source Google Doc into
 
 ## Google Apps Script code
 
-<<< @/public/share/google-doc-auto-appending.js
+<<< @/public/google-doc-auto-appending.js
 
 
 ## Setup instructions

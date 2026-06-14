@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: homebrew, macos, apps, brewfile, migrate, export, import, backup
+localization: sync
 ---
 
 # {{$frontmatter.title}}

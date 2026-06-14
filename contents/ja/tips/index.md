@@ -6,6 +6,7 @@ head:
     - name: keywords
       content: tips, japan, travel, apps, advice
 order: 0
+localization: sync
 ---
 
 # {{$frontmatter.title}}

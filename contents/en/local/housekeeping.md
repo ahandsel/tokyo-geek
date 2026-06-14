@@ -5,6 +5,7 @@ head:
   - - meta
     - name: keywords
       content: japan, housekeeping, washing machines, dryers, tips
+localization: sync
 ---
 
 # {{$frontmatter.title}}

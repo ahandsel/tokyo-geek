@@ -11,6 +11,7 @@ tags:
   - japan
   - hiking
   - nature
+localization: sync
 ---
 
 # {{$frontmatter.title}}
