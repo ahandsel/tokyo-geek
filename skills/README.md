@@ -26,8 +26,10 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
 | [`ai-commit`][]           | Auto-gather git changes, confirm scope with the user, and draft a commit title and message following the project commit style guide.                                                                               | 2026-06-03 13:30   |
 | [`general-en-polisher`][] | Polishes Markdown files to enforce the repo core writing rules (straight quotes, no contractions, the Oxford comma, sentence case headings, plain hyphens, and more), then runs `link-polisher` on the same files. | 2026-06-03 09:37   |
+| [`blog-md-linter`][]      | Lints and polishes a Markdown file, or every Markdown file under a folder such as `contents/`: runs the repo auto-fixers, refreshes any table of contents, converts links to reference-style links per the repo convention, and checks style-guide compliance. | 2026-06-14 00:00   |
 
 [`ai-commit`]: ./ai-commit/SKILL.md
+[`blog-md-linter`]: ./blog-md-linter/SKILL.md
 [`general-en-polisher`]: ./general-en-polisher/SKILL.md
 
 
