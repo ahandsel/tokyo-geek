@@ -11,5 +11,5 @@ This folder holds working notes that are intentionally kept in the repo but excl
 
 ## Index
 
-* [`branch-chart.md`](./branch-chart.md) - salvage notes for the deleted `chart` branch (chartjs wiring + Mermaid/ImageViewer/VideoViewer theme work + Yokosuka content).
-* [`branch-feat-ai-search.md`](./branch-feat-ai-search.md) - salvage notes for the deleted `feat-ai-search` branch (`excludeFromSidebar` frontmatter sweep + `withBase` link fix on `nighttab.md`).
+* [`2026-06-11-branch-chart.md`](./2026-06-11-branch-chart.md) - salvage notes for the deleted `chart` branch (chartjs wiring + Mermaid/ImageViewer/VideoViewer theme work + Yokosuka content).
+* [`2026-06-11-branch-feat-ai-search.md`](./2026-06-11-branch-feat-ai-search.md) - salvage notes for the deleted `feat-ai-search` branch (`excludeFromSidebar` frontmatter sweep + `withBase` link fix on `nighttab.md`).

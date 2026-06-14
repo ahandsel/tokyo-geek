@@ -7,3 +7,13 @@
 # Vendored skills, dotfiles, and standard repo docs (README.md, AGENTS.md,
 # MEMORY.md, ONBOARDING.md, LICENSE, ...) are already ignored by default.
 # Add only project-specific exceptions below.
+
+# notes/ branch-salvage companion artifacts: genuine code, config, diff, and
+# data files (.vue/.css/.patch/.tsv) preserved verbatim from deleted branches.
+# Their extensions fall outside the notes/ allowed set (md and image only), so
+# they can never satisfy the date-prefixed-markdown rule; their names are kept
+# as their original upstream identities and are referenced as-is from the notes.
+notes/**/*.vue
+notes/**/*.css
+notes/**/*.patch
+notes/**/*.tsv

@@ -66,8 +66,8 @@ Plus `package.json` deps: `chart.js@^4.5.1`, `vitepress-plugin-chartjs@^1.2.1`.
 
 ### 3. Content additions (commit `93e1b62`)
 
-* [`branch-chart/yokosuka.md`](./branch-chart/yokosuka.md) - 3-day Yokosuka + Miura weekend itinerary, originally at `docs/en/guides/tokyo-weekend-trips/yokosuka.md`. Drop into `contents/en/guides/tokyo-weekend-trips/yokosuka.md` to publish.
-* [`branch-chart/jr-central-fuji-view.md`](./branch-chart/jr-central-fuji-view.md) - Shinkansen Mt. Fuji seating snippet (Tokaido E/D seat tip), originally at `docs/snippets/jr-central-fuji-view.md`. Contains a `mermaid xychart-beta` example, so it depends on the Mermaid renderer wiring above being in place. The body still has some draft duplication ("Get the / Get the left side...") that needs a cleanup pass before publishing.
+* [`branch-chart/2026-06-11-yokosuka.md`](./branch-chart/2026-06-11-yokosuka.md) - 3-day Yokosuka + Miura weekend itinerary, originally at `docs/en/guides/tokyo-weekend-trips/yokosuka.md`. Drop into `contents/en/guides/tokyo-weekend-trips/yokosuka.md` to publish.
+* [`branch-chart/2026-06-11-jr-central-fuji-view.md`](./branch-chart/2026-06-11-jr-central-fuji-view.md) - Shinkansen Mt. Fuji seating snippet (Tokaido E/D seat tip), originally at `docs/snippets/jr-central-fuji-view.md`. Contains a `mermaid xychart-beta` example, so it depends on the Mermaid renderer wiring above being in place. The body still has some draft duplication ("Get the / Get the left side...") that needs a cleanup pass before publishing.
 
 
 ### 4. Skipped on re-apply
@@ -79,7 +79,7 @@ Plus `package.json` deps: `chart.js@^4.5.1`, `vitepress-plugin-chartjs@^1.2.1`.
 ## Re-application checklist
 
 1. Open a fresh branch from current `main`.
-2. Drop [`branch-chart/yokosuka.md`](./branch-chart/yokosuka.md) into `contents/en/guides/tokyo-weekend-trips/`.
+2. Drop [`branch-chart/2026-06-11-yokosuka.md`](./branch-chart/2026-06-11-yokosuka.md) into `contents/en/guides/tokyo-weekend-trips/`.
 3. Decide if the Mermaid + ImageViewer + VideoViewer wiring is wanted - if so, port the theme/index.ts changes (see [`branch-chart/theme-index-diff.patch`](./branch-chart/theme-index-diff.patch)) and copy the two `.vue` components + the mermaid CSS into `contents/.vitepress/theme/components/` and `contents/.vitepress/theme/` respectively. Confirm the corresponding npm deps are installed.
 4. The fuji-view snippet depends on Mermaid being wired - port both together or rewrite the chart as a plain table.
 5. Re-run `pnpm tree && pnpm lint && pnpm build` before opening a PR.
