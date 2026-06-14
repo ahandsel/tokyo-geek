@@ -1,0 +1,11 @@
+// https://github.com/DavidAnson/markdownlint-cli2
+// Sub-config for Markdown under `.claude/` (including the `skills/` symlink).
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/schema/markdownlint-cli2-config-schema.json",
+
+  "config": {
+    // Inherit the base markdownlint rules, then override below.
+    "extends": "../.markdownlint-cli2.jsonc",
+    "relative-links": false,
+  },
+}

@@ -1,0 +1,12 @@
+// https://github.com/DavidAnson/markdownlint-cli2
+// Sub-config for Markdown under `.codex/` (including the `skills/` symlink).
+// Skill files often reference paths outside this folder, so disable the relative-links check here.
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/schema/markdownlint-cli2-config-schema.json",
+
+  "config": {
+    // Inherit the base markdownlint rules, then override below.
+    "extends": "../.markdownlint-cli2.jsonc",
+    "relative-links": false,
+  },
+}
