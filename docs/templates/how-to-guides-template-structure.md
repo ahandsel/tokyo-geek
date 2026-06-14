@@ -208,7 +208,7 @@ Here are some frequently asked questions about **[topic or task]**:
 
 <br>
 
-> [!TIP] Tips／ヒント：ベストプラクティスや推奨事項を記載します。
+> [!TIP] Tips/ヒント：ベストプラクティスや推奨事項を記載します。
 > 例：「〇〇に自分のアカウントを追加しておくと、変更があった場合に通知を受け取れます。」
 
 <br>

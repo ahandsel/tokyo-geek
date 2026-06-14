@@ -227,7 +227,6 @@
 │   │   ├───📄 google-bookmarks.json
 │   │   ├───📄 streaming-bookmarks.json
 │   │   └───📄 travel-bookmarks.json
-│   ├───📁 share/
 │   ├───📁 shinkansen-discount-tokyo-osaka/
 │   │   ├───📄 branch-map.png
 │   │   ├───📄 kyoto-central.png
