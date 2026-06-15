@@ -44,7 +44,7 @@
     "vitepress": "2.0.0-alpha.16",
     "vitepress-mermaid-renderer": "^1.1.26",
     "vitepress-sidebar": "^1.36.1",
-    "vue": "^3.5.35"
+    "vue": "^3.5.38"
   },
   "packageManager": "pnpm@11.6.0"
 }
