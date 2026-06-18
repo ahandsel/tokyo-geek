@@ -30,6 +30,11 @@ const vitePressOptions = {
   // Allow-list those paths.
   ignoreDeadLinks: ['/share/Brewfile'],
 
+  // The snippets README documents the literal `@include` directive syntax, which VitePress would
+  // otherwise try to process as a real include. It is contributor docs, not a site page, so
+  // exclude it from the build.
+  srcExclude: ['snippets/README.md'],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     footer: {

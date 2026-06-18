@@ -10,7 +10,7 @@ excludeFromSidebar: true
 /**
  * Generates a flat list of all markdown pages in the including file's folder (excludes subfolders and the current page).
  *
- * Usage: Add under a "## Related guides" heading via <!--@include: path/to/snippets/related-guides-list.md-->
+ * Usage: Add under a "## Related guides" heading via a VitePress @include directive pointing at this file.
  *
  * Output: Alphabetically sorted <ul> with page titles and descriptions.
  */

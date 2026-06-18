@@ -11,7 +11,7 @@ excludeFromSidebar: true
  * Generates a hierarchical page list from markdown files in the current folder and subfolders.
  * Pages are grouped by directory with headings derived from each folder's index.md frontmatter title.
  *
- * Usage: Include this snippet in an index.md file via <!--@include: ...-->
+ * Usage: Include this snippet in an index.md file via a VitePress @include directive pointing at this file.
  *
  * Output: Hierarchical sections with folder headings (h2-h6) from index.md frontmatter titles and alphabetically sorted page lists with titles and descriptions.
  */

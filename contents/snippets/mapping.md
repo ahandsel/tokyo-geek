@@ -11,7 +11,7 @@ excludeFromSidebar: true
  * Generates a full site map of markdown pages grouped by folder.
  * Each folder shows its description (from index.md) and a link to that index.
  *
- * Usage: Include this snippet in a map.md file via <!--@include: ...-->
+ * Usage: Include this snippet in a map.md file via a VitePress @include directive pointing at this file.
  *
  * Output: Hierarchical sections with folder headings (h2-h6), descriptions from index.md frontmatter, index page links, and alphabetically sorted page lists with titles and descriptions.
  */
