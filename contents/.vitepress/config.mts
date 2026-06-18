@@ -18,6 +18,19 @@ const vitePressOptions = {
       'link',
       { rel: 'icon', type: 'image/png', href: '/tokyo-geek/cat-icon-clear.png' },
     ],
+    // iOS "Add to Home Screen" bookmark icon. iOS fills transparent areas with
+    // black, so this points at the opaque 180x180 variant rather than the
+    // transparent cat-icon-clear.png.
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/tokyo-geek/apple-touch-icon-180x180.png',
+      },
+    ],
+    // Name shown under the icon on the iOS home screen.
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Tokyo Geek' }],
   ],
 
   rewrites: { 'en/:rest*': ':rest*' },
