@@ -1,15 +1,18 @@
 # Configure pnpm settings for the workspace
 
-# Delay installing published versions to reduce security risk
+# Delay installing published versions to reduce security risk.
 # Compromised packages are typically removed within a few hours.
 minimumReleaseAge: 4320 # Three-day buffer allows for security updates.
 
-ignoredBuiltDependencies:
-  - esbuild
-  - sharp
-
 verifyDepsBeforeRun: false
 
+# Build-script review (pnpm 11 `allowBuilds`). `false` = reviewed and intentionally
+# not built; `true` = allowed to run its postinstall. esbuild and sharp do not need
+# theirs: both ship native binaries as optional dependencies (@esbuild/*, @img/sharp-*)
+# that pnpm resolves at runtime, so the postinstall scripts are redundant. strictDepBuilds
+# is on by default in pnpm 11, so any NEW dependency that adds an unreviewed build script
+# still fails the install (ERR_PNPM_IGNORED_BUILDS) until it is reviewed here.
+# Verified: esbuild transforms and sharp encodes correctly with these builds skipped.
 allowBuilds:
-  esbuild: set this to true or false
-  sharp: set this to true or false
+  esbuild: false
+  sharp: false
