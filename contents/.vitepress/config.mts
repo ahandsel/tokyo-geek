@@ -26,7 +26,7 @@ const vitePressOptions = {
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/tokyo-geek/apple-touch-icon-180x180.png',
+        href: '/tokyo-geek/cat-icon-background.png',
       },
     ],
     // Name shown under the icon on the iOS home screen.
