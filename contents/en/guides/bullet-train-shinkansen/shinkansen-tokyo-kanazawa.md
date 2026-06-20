@@ -133,6 +133,27 @@ Note: All prices are for the regular season and may vary by travel season.
 * For Hakutaka, Tokyo and Kanazawa are starting and terminal stations - best chance to get a non-reserved seat if you board at either of these stations.
 
 
+## Navigating JR West's e5489
+
+[e5489][] is JR West's online reservation service. Many of the discounted tickets above (E-ticket Early Bird, Shinkansen e-ticket, and e-kippu) are booked through it.
+
+> [!TIP]
+> Create a free account on [e5489][] before you travel for a smoother booking experience.
+> ⚠️ Avoid using e5489 between 23:00 and 05:00 as it is undergoing maintenance during this time.
+
+
+### Sign in
+
+* Open the [e5489 top menu][e5489] and select the ログイン (Login) button to sign in.
+* You can sign in with your J-WEST or WESTER member ID and password.
+
+
+### Reservation list (`予約一覧`)
+
+* View and manage your bookings on the [e5489 reservation list][e5489-reservations].
+* If you are not signed in, opening the reservation list prompts you to sign in first.
+
+
 ## Reference
 
 * [東京・金沢のお得な利用法 - 新幹線旅行研究所][shinkansen-tabiris]
@@ -141,5 +162,6 @@ Note: All prices are for the regular season and may vary by travel season.
 
 [discount ticket shops]: https://guidable.co/shopping-service/3-big-discount-ticket-shops-in-japan/
 [e5489]: https://e5489.jr-odekake.net/e5489/cspc/CBTopMenuPC
+[e5489-reservations]: https://e5489.jr-odekake.net/e5489/cspc/CBNowRsvListFirstPC
 [eki-net]: https://www.eki-net.com/personal/top/index
 [shinkansen-tabiris]: https://shinkansen.tabiris.com/tokyo_kanazawa.html
