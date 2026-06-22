@@ -30,7 +30,7 @@
     "markdownlint-cli2": "^0.22.1",
     "markdownlint-rule-relative-links": "^5.1.0",
     "markdownlint-rule-search-replace": "^1.2.0",
-    "openai": "^6.42.0",
+    "openai": "^6.44.0",
     "prettier": "^3.8.4",
     "prettier-plugin-autocorrect": "^0.4.3",
     "prettier-plugin-packagejson": "^3.0.2",
