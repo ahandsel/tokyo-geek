@@ -15,6 +15,7 @@ This folder contains all the writing style guides relevant for this repository, 
 * [General style guides](#general-style-guides)
 * [Technical style guides](#technical-style-guides)
 * [Markdown style guide](#markdown-style-guide)
+* [Frontmatter style guide](#frontmatter-style-guide)
 * [Commit style guide](#commit-style-guide)
 * [Terminology and glossary](#terminology-and-glossary)
 * [Document templates](#document-templates)
@@ -42,6 +43,7 @@ docs/
 ├── technical-style-guide-english.md .... Documentation-specific rules (English)
 ├── technical-style-guide-japanese.md ... Documentation-specific rules (Japanese)
 ├── markdown-style-guide.md ............. Markdown formatting conventions (banners and links)
+├── frontmatter-style-guide.md .......... YAML frontmatter keys for content files
 ├── repo-commit-style-guide.md .......... Git commit title and body conventions
 ├── technical-doc-overview.md ........... Overview of help document types
 ├── glossary.yaml ....................... EN-JA translation glossary
@@ -74,6 +76,11 @@ Help documentation writing falls under the technical style guides. These contain
 ## Markdown style guide
 
 * [Markdown style guide](./markdown-style-guide.md) - How Markdown documents in this repository should be formatted, including banners that highlight important notes and link styling within documents.
+
+
+## Frontmatter style guide
+
+* [Frontmatter style guide](./frontmatter-style-guide.md) - The YAML frontmatter keys used in content files under `contents/`, covering the page title, search and social metadata, sidebar behavior, and bilingual localization state.
 
 
 ## Commit style guide

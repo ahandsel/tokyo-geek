@@ -74,6 +74,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 * [Technical style guide - English](./docs/technical-style-guide-english.md) / [Japanese](./docs/technical-style-guide-japanese.md) - documentation-specific rules (sentence structure, lists, procedural steps, alert banners).
 * [Help documentation overview](./docs/technical-doc-overview.md) - the four help document types and when to use each ([Diataxis](https://diataxis.fr/)).
 * [Markdown style guide](./docs/markdown-style-guide.md) - Markdown formatting (note banners, reference-style links).
+* [Frontmatter style guide](./docs/frontmatter-style-guide.md) - YAML frontmatter keys for content files (title, description, head, sidebar, localization).
 * [Git commit style guide](./docs/repo-commit-style-guide.md) - commit title, body, and emoji conventions.
 * [EN-JA translation glossary](./docs/glossary.yaml) and [words to avoid](./docs/words-to-avoid.txt) - terminology references.
 * [Document templates](./docs/templates/) - structure definitions and examples for how-to guides and reference documents.
