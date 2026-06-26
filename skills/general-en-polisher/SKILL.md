@@ -1,6 +1,6 @@
 ---
 name: general-en-polisher
-description: Polish one or more Markdown files so the repo core writing rules are enforced - straight quotes (not curly), no contractions, the Oxford comma, sentence case headings, plain hyphens (never en-dash or em-dash), consistent capitalization and punctuation, simple non-idiomatic wording, and no sentence split across a line break. After applying these fixes, also runs the link-polisher skill on the same files to format raw URLs. Use when a user asks to polish, clean up, style-check, or enforce writing rules on a Markdown file, or before committing prose changes to docs.
+description: Polish one or more Markdown files so the repo core writing rules are enforced - straight quotes (not curly), no contractions, the Oxford comma, sentence case headings, plain hyphens (never en-dash or em-dash), consistent capitalization and punctuation, simple non-idiomatic wording, no sentence split across a line break, and no slash standing in for "or" or "and". After applying these fixes, also runs the link-polisher skill on the same files to format raw URLs. Use when a user asks to polish, clean up, style-check, or enforce writing rules on a Markdown file, or before committing prose changes to docs.
 ---
 
 # Style polisher
@@ -26,6 +26,7 @@ Apply each of these rules to the prose in the target file(s):
 7. **Simple, clear wording.** Prefer short, common words so non-native English speakers can follow the text easily. Do not change technical terms that are required for accuracy.
 8. **Plain hyphens only.** Replace every en-dash (`-`) and em-dash (`-`) with a plain hyphen (`-`). Adjust surrounding spacing so the result reads naturally.
 9. **Do not split a sentence across a line break.** When prose wraps across lines, re-wrap so each line break falls on a sentence boundary and each line holds whole sentences. Do not merge separate paragraphs or change list structure.
+10. **No slash for "or" or "and".** Do not use a slash to join alternatives in prose (for example, `read/write` -> `read or write`, `coffee/tea` -> `coffee or tea`, `and/or` -> `or`). The slash is ambiguous about whether one, the other, or both is meant. Leave slashes in dates, file paths, URLs, and code untouched.
 
 
 ## What NOT to change

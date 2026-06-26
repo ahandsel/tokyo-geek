@@ -348,8 +348,12 @@ If the list is a complete sentence, use a period at the end.
 
 ### Slashes `/`
 
-* Use to signify alternatives. When at least one of the terms on either side of the slash is a multi-word phrase, consider adding a space before and after the slash to improve readability.
-  * Example: `and/or`, `Mr./Ms.`, `Genji/Gen-chan`, `San Francisco / Tokyo`
+* Do not use a slash to mean "or" or "and". A slash is ambiguous because the reader cannot tell whether you mean one option, the other, or both. Write the word out instead.
+  * OK: `coffee or tea`, `imported and exported goods`, `read or write access`
+  * NOT: `coffee/tea`, `imported/exported goods`, `read/write access`
+  * For the specific case of "and/or", state which you mean. Usually "or" already covers both, so prefer "or".
+    * OK: `Invite users by email or username.` (either or both work)
+    * NOT: `Invite users by email and/or username.`
 * Use for dates, file paths, and URLs.
   * Example: `2023/06/15`, `C:/example/example/example`, `https://example.example/`
 * Do not use for fractions because it can be interpreted in multiple ways.
