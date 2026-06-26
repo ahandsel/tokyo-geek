@@ -50,6 +50,16 @@ const vitePressOptions = {
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    // Display the git-based last-updated timestamp (enabled via `lastUpdated`
+    // above) as a date-only value in the page footer. `forceLocale` renders the
+    // date in the page's language rather than the visitor's browser locale.
+    lastUpdated: {
+      text: 'Last updated',
+      formatOptions: {
+        dateStyle: 'long',
+        forceLocale: true,
+      },
+    },
     footer: {
       message:
         'Found it helpful? <a href="https://ko-fi.com/ahandsel" target="_blank">Consider buying me coffee ☕</a>',
@@ -138,6 +148,13 @@ const vitePressOptions = {
       lang: 'ja-JP',
       dir: 'ltr',
       themeConfig: {
+        lastUpdated: {
+          text: '最終更新日',
+          formatOptions: {
+            dateStyle: 'long',
+            forceLocale: true,
+          },
+        },
         nav: [
           { text: 'ホーム', link: '/ja/' },
           { text: '旅行ガイド', link: '/ja/guides/' },
