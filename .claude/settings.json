@@ -2,6 +2,7 @@
   "permissions": {
     "allow": [
       "Skill(ai-commit)",
+      "Skill(blog-content-auditor)",
       "Skill(figma-code-connect)",
       "Skill(figma-create-new-file)",
       "Skill(figma-generate-design)",
