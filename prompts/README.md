@@ -22,6 +22,7 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 | [csv-to-md.prompt.md][]           | Convert CSV tables into Markdown tables.                                                         |
 | [md-en-review.prompt.md][]        | Proofread and edit English text for clarity, grammar, and style guide compliance.                |
 | [md-lint.prompt.md][]             | Scan Markdown files, update tables of contents, fix formatting, and enforce the style guide.     |
+| [md-map-link.prompt.md][]         | Link the first mention of every real-world location to a Google Maps search query.               |
 | [md-ref-link.prompt.md][]         | Convert inline Markdown links into reference-style links.                                        |
 | [md-to-csv.prompt.md][]           | Convert Markdown tables into CSV.                                                                |
 | [md-to-list.prompt.md][]          | Convert a Markdown table into a nested Markdown list without changing cell text or order.        |
@@ -38,6 +39,7 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 [csv-to-md.prompt.md]: csv-to-md.prompt.md
 [md-en-review.prompt.md]: md-en-review.prompt.md
 [md-lint.prompt.md]: md-lint.prompt.md
+[md-map-link.prompt.md]: md-map-link.prompt.md
 [md-ref-link.prompt.md]: md-ref-link.prompt.md
 [md-to-csv.prompt.md]: md-to-csv.prompt.md
 [md-to-list.prompt.md]: md-to-list.prompt.md
