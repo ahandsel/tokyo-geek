@@ -1,6 +1,6 @@
 ---
 title: Ajisai (Hydrangea) in Kamakura 💠
-description: Where and when to see ajisai (紫陽花, hydrangeas) in Kamakura during the June rainy season, plus tips to beat the crowds.
+description: Where and when to see ajisai (紫陽花，hydrangeas) in Kamakura during the June rainy season, plus tips to beat the crowds.
 head:
   - - meta
     - name: keywords
@@ -17,12 +17,18 @@ localization: sync
 
 ## When to go
 
-* Hydrangea season runs from late May to early July, with the peak around mid-June.
-* The season overlaps the tsuyu (梅雨) rainy season, so the flowers are often at their best in the rain.
-* The most famous temples are busiest in the morning. Visiting after 4:00 PM is a good way to avoid the worst crowds.
+* Hydrangea season runs from **late May to early July**, with the peak around mid-June.
+* The season overlaps the tsuyu (梅雨) rainy season, so **embracing the rain** is part of the experience.
+* Right after a rain shower is the best time to see the flowers at their most vibrant, with raindrops on the petals.
+* The most famous temples are busiest in the weekends, so consider visiting on a weekday.
+* Most places in this guide **close after 16:00**, so plan to arrive early or come later in the afternoon.
+* Check weather forecasts before heading out: [tenki.jp's Kita-Kamakura forecast][kita-kamakura-weather]
 
 
 ## Hydrangea spots
+
+> [!TIP] Tip: Google Maps list of hydrangea spots
+> All the spots mentioned below are pinned in [Ajisai hydrangea spots][ajisai-spots-map] Google Maps list.
 
 
 ### The three great hydrangea spots
@@ -30,12 +36,14 @@ localization: sync
 * [Meigetsu-in Temple / 明月院][meigetsu-in-temple-maps]
   * Known as the "Hydrangea Temple" for its roughly 2,500 himeajisai plants and the deep blue color nicknamed "Meigetsu-in Blue."
   * Look for the hydrangeas around the Hanaomoi Jizo statue in front of the Kaisan-do Hall.
-  * Best time: mid-June to late June. Admission: 500 yen (plus 500 yen for the rear garden).
+  * Best time: mid-June to late June.
+  * Admission: 500 yen (plus 500 yen for the rear garden).
   * Access: about a 10-minute walk from [JR Kita-Kamakura Station][kita-kamakura-station-maps].
 * [Hase-dera Temple / 長谷寺][hase-dera-temple-maps]
   * A "Flower Temple" with about 2,500 plants of around 40 varieties on the hillside walking path.
   * The upper path frames the hydrangeas against a view of [Yuigahama Beach][yuigahama-beach-maps].
-  * Best time: late May to late June. Admission: 400 yen, plus a separate hydrangea viewing ticket.
+  * Best time: late May to late June.
+  * Admission: 400 yen, plus a separate hydrangea viewing ticket.
   * Access: about a 5-minute walk from [Hase Station][hase-station-maps] on the Enoden line.
 * [Joju-in Temple / 成就院][joju-in-temple-maps]
   * A Shingon temple founded in 1219 and known as a power spot for romance and good relationships.
@@ -47,23 +55,28 @@ localization: sync
 
 * [Engaku-ji Temple / 円覚寺][engaku-ji-temple-maps]
   * The second of [Kamakura][kamakura-maps]'s Five Great Zen Temples, with mountain hydrangeas (yamaajisai) scattered across the grounds.
-  * Best time: early June to late June. Admission: 500 yen.
+  * Best time: early June to late June.
+  * Admission: 500 yen.
   * Access: about a 1-minute walk from JR Kita-Kamakura Station.
 * [Tokei-ji Temple / 東慶寺][tokei-ji-temple-maps]
   * The former "divorce temple," with mountain hydrangeas along the stone steps to the main gate.
-  * Best time: mid-June to early July. No admission fee.
+  * Best time: mid-June to early July.
+  * Admission: None.
   * Access: about a 4-minute walk from JR Kita-Kamakura Station.
 * [Jochi-ji Temple / 浄智寺][jochi-ji-temple-maps]
   * The fourth of the Five Great Zen Temples, quieter than the larger spots, with about 150 plants of around 40 varieties.
-  * Best time: early June to mid-July. Admission: 300 yen.
+  * Best time: early June to mid-July.
+  * Admission: 300 yen.
   * Access: about an 8-minute walk from JR Kita-Kamakura Station.
 * [Kencho-ji Temple / 建長寺][kencho-ji-temple-maps]
   * The first of the Five Great Zen Temples. Look for white Annabelle hydrangeas along the approach to [Hansobo Daigongen][hansobo-daigongen-maps], as well as at [Kaishun-in][kaishun-in-maps] and [Seirai-an][seirai-an-maps].
-  * Best time: early June to late June. Admission: 500 yen.
+  * Best time: early June to late June.
+  * Admission: 500 yen.
   * Access: about a 15-minute walk from JR Kita-Kamakura Station.
 * [Choju-ji Temple / 長寿寺][choju-ji-temple-maps]
   * Built on the former residence of Ashikaga Takauji and open only on select days. Enjoy the hydrangeas in the back garden from the veranda of the kohojo.
-  * Best time: early June to mid-June. Admission: 300 yen. Open Wednesday to Sunday in June.
+  * Best time: early June to mid-June.
+  * Admission: 300 yen. Open Wednesday to Sunday in June.
   * Access: about a 15-minute walk from JR Kita-Kamakura Station.
 * [Kamegayatsuzaka Pass / 亀ヶ谷坂][kamegayatsuzaka-pass-maps]
   * A slope next to Choju-ji, counted among the "Seven Entrances of Kamakura," lined with clusters of hydrangeas. Cars are barred partway up, so it is a calm walk.
@@ -75,7 +88,8 @@ localization: sync
 
 * [Kosoku-ji Temple / 光則寺][kosoku-ji-temple-maps]
   * A "Flower Temple" with about 200 hydrangea varieties from across Japan displayed in pots, plus blooms along the stone steps and beside the main hall.
-  * Best time: mid-May to early June. Admission: 100 yen.
+  * Best time: mid-May to early June.
+  * Admission: 100 yen.
   * Access: about a 6-minute walk from Hase Station on the Enoden line.
 * [Goryo Shrine / 御霊神社][goryo-shrine-maps]
   * Home to a "Hydrangea Path" behind the main hall and a classic spot for photographing the Enoden train passing the flowers.
@@ -99,7 +113,8 @@ localization: sync
   * Access: about a 9-minute walk from the East Exit of JR Kamakura Station.
 * [Jomyo-ji Temple / 浄妙寺][jomyo-ji-temple-maps]
   * The fifth of the Five Great Zen Temples, with an English garden, a cafe, mountain hydrangeas along the Yamaajisai Path, and white Annabelle hydrangeas by the [Ishigama Garden Terrace][ishigama-garden-terrace-maps].
-  * Best time: late May onward. Admission: 200 yen.
+  * Best time: late May onward.
+  * Admission: 200 yen.
   * Access: from the East Exit of JR Kamakura Station, take bus number 4 to the Jomyoji bus stop, then about a 5-minute walk.
 * [Genjiyama Park / 源氏山公園][genjiyama-park-maps]
   * Lacecap hydrangeas (gakuajisai) grow at the foot of the Minamoto no Yoritomo statue, with more in and around the adjacent [Kuzuharaoka Shrine][kuzuharaoka-shrine-maps].
@@ -109,15 +124,15 @@ localization: sync
 
 ## Getting there
 
-* From [Tokyo][tokyo-maps]: JR Yokosuka Line to Kamakura Station, or Kita-Kamakura Station for the northern temples.
-* Around town: the Enoden line (Enoshima Electric Railway), plus walking routes between the temples.
+* From Tokyo: JR Yokosuka Line to Kamakura Station, or Kita-Kamakura Station for the northern temples.
+* Around town: Enoden line (Enoshima Electric Railway), plus walking routes between the temples.
 * Passes: cross-link to the [Enoshima-Kamakura Freepass][enoshima-kamakura-freepass].
 
 
 ## Tips
 
-* Arrive early or come after 4:00 PM at the popular temples to avoid the heaviest crowds.
-* Bring an umbrella and footwear suited to wet stone paths and steps.
+* Arrive early or on weekdays to avoid the heaviest crowds.
+* Bring small umbrellas (avoid damaging flowers)and footwear suited to wet stone paths and steps.
 * Some temples sell a separate hydrangea viewing ticket during the season, so carry small change.
 * Be mindful of temple etiquette: keep quiet, follow photography rules, and offer a donation where there is no admission fee.
 
@@ -128,6 +143,8 @@ localization: sync
 
 <!-- Links -->
 
+[ajisai-spots-map]: https://maps.app.goo.gl/8LUQa2stjRZj8LiLA
+[kita-kamakura-weather]: https://tenki.jp/leisure/3/17/109/2838/
 [meigetsu-in-temple-maps]: https://www.google.com/maps/search/?api=1&query=Meigetsu-in%20Temple%20Kamakura
 [kita-kamakura-station-maps]: https://www.google.com/maps/search/?api=1&query=Kita-Kamakura%20Station
 [hase-dera-temple-maps]: https://www.google.com/maps/search/?api=1&query=Hase-dera%20Temple%20Kamakura
@@ -145,7 +162,7 @@ localization: sync
 [seirai-an-maps]: https://www.google.com/maps/search/?api=1&query=Seirai-an%20Kamakura
 [choju-ji-temple-maps]: https://www.google.com/maps/search/?api=1&query=Choju-ji%20Temple%20Kamakura
 [kamegayatsuzaka-pass-maps]: https://www.google.com/maps/search/?api=1&query=Kamegayatsuzaka%20Pass%20Kamakura
-[kosoku-ji-temple-maps]: https://www.google.com/maps/search/?api=1&query=Kosoku-ji%20Temple%20Kamakura
+[kosoku-ji-temple-maps]: https://maps.app.goo.gl/2zQE7qkraWCQDPdNA
 [goryo-shrine-maps]: https://www.google.com/maps/search/?api=1&query=Goryo%20Shrine%20Kamakura
 [inamuragasaki-seaside-park-maps]: https://www.google.com/maps/search/?api=1&query=Inamuragasaki%20Seaside%20Park
 [enoshima-island-maps]: https://www.google.com/maps/search/?api=1&query=Enoshima%20Island
@@ -158,7 +175,6 @@ localization: sync
 [ishigama-garden-terrace-maps]: https://www.google.com/maps/search/?api=1&query=Ishigama%20Garden%20Terrace%20Kamakura
 [genjiyama-park-maps]: https://www.google.com/maps/search/?api=1&query=Genjiyama%20Park%20Kamakura
 [kuzuharaoka-shrine-maps]: https://www.google.com/maps/search/?api=1&query=Kuzuharaoka%20Shrine
-[tokyo-maps]: https://www.google.com/maps/search/?api=1&query=Tokyo
 
 <!-- Internal links -->
 
