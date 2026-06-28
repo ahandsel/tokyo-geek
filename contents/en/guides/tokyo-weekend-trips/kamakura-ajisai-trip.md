@@ -24,6 +24,7 @@ localization: sync
 
 ## Hydrangea spots
 
+
 ### The three great hydrangea spots
 
 * [Meigetsu-in Temple / 明月院][meigetsu-in-temple-maps]
@@ -119,15 +120,6 @@ localization: sync
 * Bring an umbrella and footwear suited to wet stone paths and steps.
 * Some temples sell a separate hydrangea viewing ticket during the season, so carry small change.
 * Be mindful of temple etiquette: keep quiet, follow photography rules, and offer a donation where there is no admission fee.
-
-
-| Location | Google Maps | Description |
-| --- | --- | --- |
-| Kamakura (鎌倉) | [Maps](https://www.google.com/maps/search/?api=1&query=Kamakura) | The seaside city south of Tokyo that is the destination for the whole hydrangea-viewing day trip. |
-| Hasedera Temple (長谷寺) | [Maps](https://www.google.com/maps/search/?api=1&query=Hasedera+Temple+Kamakura) | One of Kamakura's most famous temples. The hill behind the main building fills with blooming hydrangeas; visited early on a weekday. Uses a group-numbering system to manage peak-season crowds. |
-| Hasedera Viewing Platform | [Maps](https://www.google.com/maps/search/?api=1&query=Hasedera+Temple+Kamakura) | A highlight within Hasedera offering panoramic views over Kamakura. |
-| Meigetsuin Temple (明月院) | [Maps](https://www.google.com/maps/search/?api=1&query=Meigetsuin+Temple+Kamakura) | Nicknamed "Ajisaidera" (the Hydrangea Temple). Paths throughout are lined with hydrangeas, mostly the Hime Ajisai (Princess Hydrangea) variety. Has a separate-admission inner garden with irises. |
-| Tokeiji Temple (東慶寺) | [Maps](https://www.google.com/maps/search/?api=1&query=Tokeiji+Temple+Kamakura) | A smaller, quieter temple with various beautiful flowers on the grounds. The author saw women in kimono, possibly from a tea ceremony club. |
 
 
 ## Related guides
