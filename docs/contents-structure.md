@@ -44,6 +44,7 @@
 │   │   │   ├───📄 hakone-trip.md
 │   │   │   ├───📄 index.md
 │   │   │   ├───📄 izu-hakone-trip.md
+│   │   │   ├───📄 kamakura-ajisai-trip.md
 │   │   │   └───📄 kamakura-enoshima-trip.md
 │   │   ├───📄 index.md
 │   │   ├───📄 ishigaki-guidebook.md
