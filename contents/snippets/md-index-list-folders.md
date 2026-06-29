@@ -15,7 +15,7 @@ excludeFromSidebar: true
  *
  * Output: Hierarchical sections with folder headings (h2-h6) from index.md frontmatter titles and alphabetically sorted page lists with titles and descriptions.
  */
-import yaml from 'js-yaml'
+import * as yaml from 'js-yaml'
 import { useData } from 'vitepress'
 
 // ---------------------------------------------------------------------------

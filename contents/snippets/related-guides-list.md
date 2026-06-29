@@ -14,7 +14,7 @@ excludeFromSidebar: true
  *
  * Output: Alphabetically sorted <ul> with page titles and descriptions.
  */
-import yaml from 'js-yaml'
+import * as yaml from 'js-yaml'
 import { useData } from 'vitepress'
 
 /** Load Markdown files in this folder only (no subfolders). */
