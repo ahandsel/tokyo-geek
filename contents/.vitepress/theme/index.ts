@@ -11,6 +11,9 @@ import {
 } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css';
 
+// Clicking the home page hero cat icon pops a "meow" / "ニャー" speech bubble.
+import { wireHeroSpeechBubble } from './hero-img-speech-bubble';
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -26,5 +29,7 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     });
   },
-  enhanceApp({ app, router, siteData }) {},
+  enhanceApp({ app, router, siteData }) {
+    wireHeroSpeechBubble();
+  },
 } satisfies Theme;
