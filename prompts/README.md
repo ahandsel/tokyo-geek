@@ -34,6 +34,7 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 | [script-version-sync.prompt.md][] | Auto-update changed scripts' version history and flag related documentation that is out of sync. |
 | [ux-check-csv.prompt.md][]        | Proofread and edit UX copy in a CSV file.                                                        |
 | [ux-check-md.prompt.md][]         | Proofread and edit UX copy in a Markdown table.                                                  |
+| [vitepress-show-translations.prompt.md][] | Keep the VitePress language switcher visible at all widths so it tracks the search button.   |
 
 [csv-lint.prompt.md]: csv-lint.prompt.md
 [csv-to-md.prompt.md]: csv-to-md.prompt.md
@@ -51,3 +52,4 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 [script-version-sync.prompt.md]: script-version-sync.prompt.md
 [ux-check-csv.prompt.md]: ux-check-csv.prompt.md
 [ux-check-md.prompt.md]: ux-check-md.prompt.md
+[vitepress-show-translations.prompt.md]: vitepress-show-translations.prompt.md

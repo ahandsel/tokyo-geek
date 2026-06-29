@@ -136,3 +136,26 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/**
+ * Component: Nav Bar Translations (language switcher)
+ *
+ * The default theme's scoped rule in VPNavBarTranslations.vue sets
+ * `.VPNavBarTranslations { display: none }` and only flips it to `display: flex`
+ * at `min-width: 1280px`, folding the switcher into the hamburger menu below
+ * that width. Because Vue compiles scoped styles to an attribute selector
+ * (`.VPNavBarTranslations[data-v-hash]`, specificity 0,2,0), a plain
+ * `.VPNavBarTranslations` override (0,1,0) loses below 1280px and the switcher
+ * stays hidden.
+ *
+ * The search button (`.VPNavBarSearch`) has no such hiding rule - it is
+ * `display: flex` at every width. To make the switcher track it, force the
+ * switcher visible at all widths with `!important` (matching the `.DocSearch`
+ * override above). The two controls now appear and disappear together: since
+ * neither is ever hidden, whenever search shows, the switcher shows.
+ * -------------------------------------------------------------------------- */
+
+.VPNavBarTranslations {
+  display: flex !important;
+  align-items: center;
+}
