@@ -35,7 +35,7 @@
     "prettier-plugin-autocorrect": "^0.4.3",
     "prettier-plugin-packagejson": "^3.0.2",
     "prettier-plugin-pkg": "^0.22.1",
-    "prettier-plugin-sh": "^0.18.1",
+    "prettier-plugin-sh": "^0.19.0",
     "prettier-plugin-toml": "^2.0.6",
     "sh-syntax": "^0.5.8",
     "tree-extended": "^4.6.0",
