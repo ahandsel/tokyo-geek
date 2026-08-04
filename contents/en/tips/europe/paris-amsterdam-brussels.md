@@ -26,17 +26,31 @@ Here are some notes for my trip to Paris, Amsterdam, and Brussels.
 * Beginning of May is a great time to visit. Weather was perfect, long daylight hours, and not too crowded. All the tulips were in bloom 🌷
 
 
+## YouTube channels to get in the mood 📺
+
+Here are some YouTube channels that got me excited for the trip and gave me ideas for places to visit.
+
+* [The Tim Traveller][the-tim-traveller] - Short videos about odd and interesting places around Europe.
+  * 🇫🇷 [TTT Does France][ttt-does-france] - Playlist about odd corners of France, from a village named "Y" to an abandoned hoverport.
+  * 🇳🇱 [TTT Does The Netherlands][ttt-does-the-netherlands] - Playlist about Dutch oddities, including the Baarle enclaves and the highest point in Flevoland.
+  * 🇧🇪 [TTT Does Belgium][ttt-does-belgium] - Playlist about strange borders, unopened metro lines, and other Belgian oddities.
+* [What On Earth Is This?][what-on-earth-is-this] - Travel videos about nerdy places, many of them in Europe.
+  * 🇫🇷 [Le Téléscaphe: France's Crazy Underwater Cable Car][telescaphe-cable-car] - The underwater cable car built near Marseille in the 1960s.
+  * 🇳🇱 [The Netherlands Has DIY Ferries - So I Gave Them a Go][dutch-diy-ferries] - Self-service pull ferries across the Dutch canals.
+  * 🇧🇪 [This Building Has Been Covered In Scaffolding For 42 Years][brussels-scaffolding] - The Brussels Palace of Justice, made with The Tim Traveller.
+
+
 ## Tickets to book in advance
 
-* [Anne Frank House][anne-frank-house] - Museum of Anne Frank's life in the building where she lived in hiding during WWII.
-* [Notre-Dame][notre-dame-reservation] - Free to enter, but you need a reservation to go inside the cathedral.
-* [Catacombs of Paris][catacombs-paris] - Underground ossuary in Paris.
-* [Palace of Versailles][palace-versailles] - Former royal residence and gardens.
-* [Seine river cruise][seine-river-cruise] - Cool boat tour of the Seine river - [video][seine-cruise-video]
-* [Eurostar][eurostar] - Train between Paris, Amsterdam, and Brussels. Book in advance for the best prices.
-* [Louvre Museum][louvre-museum] - Famous museum in Paris. Book in advance to go into a shorter line.
-* [Keukenhof][keukenhof] - Tulip garden in Lisse, Netherlands. Book in advance to go into a shorter line.
-* [Amsterdam canal cruise with Sebi Boat Tour][sebi-boat-tour] - Small group boat tour of the Amsterdam canals.
+* 🇫🇷 [Notre-Dame][notre-dame-reservation] - Free to enter, but you need a reservation to go inside the cathedral.
+* 🇫🇷 [Catacombs of Paris][catacombs-paris] - Underground ossuary in Paris.
+* 🇫🇷 [Palace of Versailles][palace-versailles] - Former royal residence and gardens.
+* 🇫🇷 [Seine river cruise][seine-river-cruise] - Cool boat tour of the Seine river - [video][seine-cruise-video]
+* 🇫🇷 [Louvre Museum][louvre-museum] - Famous museum in Paris. Book in advance to go into a shorter line.
+* 🇳🇱 [Anne Frank House][anne-frank-house] - Museum of Anne Frank's life in the building where she lived in hiding during WWII.
+* 🇳🇱 [Keukenhof][keukenhof] - Tulip garden in Lisse, Netherlands. Book in advance to go into a shorter line.
+* 🇳🇱 [Amsterdam canal cruise with Sebi Boat Tour][sebi-boat-tour] - Small group boat tour of the Amsterdam canals.
+* 🇫🇷🇳🇱🇧🇪 [Eurostar][eurostar] - Train between Paris, Amsterdam, and Brussels. Book in advance for the best prices.
 
 
 ## Dates 🗓️
@@ -223,8 +237,10 @@ To eat:
 <!-- Links -->
 
 [anne-frank-house]: https://www.annefrank.org/en/
+[brussels-scaffolding]: https://youtu.be/ONsQlxlEo4o
 [canauxrama]: https://www.canauxrama.com
 [catacombs-paris]: https://www.catacombes.paris.fr/en
+[dutch-diy-ferries]: https://youtu.be/WXX3uoIPjfU
 [eurostar]: https://www.eurostar.com/us-en
 [free-walking-tours]: https://freewalkingtoursamsterdam.com/
 [keukenhof]: https://keukenhof.nl/en/
@@ -286,3 +302,9 @@ To eat:
 [sebi-boat-tour]: https://sebiboattours.com/
 [seine-cruise-video]: https://youtu.be/8uFbPgFqeGI
 [seine-river-cruise]: https://www.bateauxparisiens.com/en/cruise.html
+[telescaphe-cable-car]: https://youtu.be/PGbzYqcl6OI
+[the-tim-traveller]: https://www.youtube.com/@TheTimTraveller
+[ttt-does-belgium]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NTEheWVzHfqfPuKdS62iAlG
+[ttt-does-france]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NQ8VZVo7qSSSxlbcZRf-evI
+[ttt-does-the-netherlands]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NSNAIF-GDtOL6tMdQ5mhgwd
+[what-on-earth-is-this]: https://www.youtube.com/@WhatOnEarthIsThisThing

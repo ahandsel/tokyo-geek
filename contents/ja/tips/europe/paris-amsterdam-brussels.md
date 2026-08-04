@@ -26,17 +26,31 @@ localization: sync
 * 5 月初旬は訪れるのに最適な時期です。天気が良く、日が長く、それほど混雑していません。チューリップも満開でした。
 
 
+## 旅行気分を高める YouTube チャンネル 📺
+
+旅行前に気分を高めてくれて、訪れる場所のアイデアももらえた YouTube チャンネルです。
+
+* [The Tim Traveller][the-tim-traveller] - ヨーロッパの変わった場所や興味深い場所を紹介する短編動画のチャンネル。
+  * 🇫🇷 [TTT Does France][ttt-does-france] - 「Y」という名前の村や使われなくなったホバークラフト港など、フランスの珍しいスポットを集めた再生リスト。
+  * 🇳🇱 [TTT Does The Netherlands][ttt-does-the-netherlands] - バールレの飛び地やフレヴォラント州の最高地点など、オランダの珍しいスポットを集めた再生リスト。
+  * 🇧🇪 [TTT Does Belgium][ttt-does-belgium] - 奇妙な国境や開業しなかった地下鉄路線など、ベルギーの珍しいスポットを集めた再生リスト。
+* [What On Earth Is This?][what-on-earth-is-this] - マニアックな場所を巡る旅行動画のチャンネル。ヨーロッパを扱った動画が多いです。
+  * 🇫🇷 [Le Téléscaphe: France's Crazy Underwater Cable Car][telescaphe-cable-car] - 1960 年代にマルセイユ近郊に造られた海中ロープウェイ。
+  * 🇳🇱 [The Netherlands Has DIY Ferries - So I Gave Them a Go][dutch-diy-ferries] - オランダの運河にある、自分で綱を引いて渡るセルフサービスの渡し船。
+  * 🇧🇪 [This Building Has Been Covered In Scaffolding For 42 Years][brussels-scaffolding] - ブリュッセルの司法宮を取り上げた、The Tim Traveller とのコラボ動画。
+
+
 ## 事前に予約すべきチケット
 
-* [Anne Frank House][anne-frank-house] - 第二次世界大戦中にアンネ・フランクが隠れ住んだ建物にある博物館。
-* [Notre-Dame][notre-dame] - 入場無料ですが、大聖堂の中に入るには予約が必要です。
-* [Catacombs of Paris][catacombs-of-paris] - パリの地下にある納骨堂。
-* [Palace of Versailles][palace-of-versailles] - かつての王宮と庭園。
-* [セーヌ川クルーズ][seine-river-cruise] - セーヌ川のボートツアー - [動画][seine-river-cruise-video]
-* [Eurostar][eurostar] - パリ、アムステルダム、ブリュッセル間の電車。早めの予約がお得です。
-* [Louvre Museum][louvre-museum] - パリの有名な美術館。事前予約でより短い列に並べます。
-* [Keukenhof][keukenhof] - オランダのリッセにあるチューリップ庭園。事前予約で短い列に並べます。
-* [Amsterdam canal cruise with Sebi Boat Tour][amsterdam-canal-cruise-sebi-boat-tour] - アムステルダム運河の少人数ボートツアー。
+* 🇫🇷 [Notre-Dame][notre-dame] - 入場無料ですが、大聖堂の中に入るには予約が必要です。
+* 🇫🇷 [Catacombs of Paris][catacombs-of-paris] - パリの地下にある納骨堂。
+* 🇫🇷 [Palace of Versailles][palace-of-versailles] - かつての王宮と庭園。
+* 🇫🇷 [セーヌ川クルーズ][seine-river-cruise] - セーヌ川のボートツアー - [動画][seine-river-cruise-video]
+* 🇫🇷 [Louvre Museum][louvre-museum] - パリの有名な美術館。事前予約でより短い列に並べます。
+* 🇳🇱 [Anne Frank House][anne-frank-house] - 第二次世界大戦中にアンネ・フランクが隠れ住んだ建物にある博物館。
+* 🇳🇱 [Keukenhof][keukenhof] - オランダのリッセにあるチューリップ庭園。事前予約で短い列に並べます。
+* 🇳🇱 [Amsterdam canal cruise with Sebi Boat Tour][amsterdam-canal-cruise-sebi-boat-tour] - アムステルダム運河の少人数ボートツアー。
+* 🇫🇷🇳🇱🇧🇪 [Eurostar][eurostar] - パリ、アムステルダム、ブリュッセル間の電車。早めの予約がお得です。
 
 
 ## 日程
@@ -228,6 +242,7 @@ localization: sync
 [anne-frank-house]: https://www.annefrank.org/en/
 [arc-de-triomphe]: https://maps.app.goo.gl/PSbMpYpzj8KRAcqd8
 [begijnhof]: https://maps.app.goo.gl/65JfrgDYdqG9WijL6
+[brussels-scaffolding]: https://youtu.be/ONsQlxlEo4o
 [canauxrama]: https://www.canauxrama.com
 [carette]: https://maps.app.goo.gl/3RkvUJ1NCwTbLce79
 [castle-of-the-counts]: https://maps.app.goo.gl/3jzAQCW5RBx1ECq89
@@ -239,6 +254,7 @@ localization: sync
 [coulee-verte-rene-dumont]: https://maps.app.goo.gl/pHuuHQ9mB4njpFMg8
 [creperie-le-goeland-daligre]: https://maps.app.goo.gl/jSrJjL62a9zr45mbA
 [dam-square]: https://maps.app.goo.gl/Ao2iNL1AhTrURfHv5
+[dutch-diy-ferries]: https://youtu.be/WXX3uoIPjfU
 [de-pijp]: https://maps.app.goo.gl/L2WuNNkjRyYBTbJEA
 [de-wallen]: https://maps.app.goo.gl/fEX4AP1MJSGLBYPH6
 [eiffel-tower]: https://maps.app.goo.gl/Cz3toeinEmhQbCnJA
@@ -283,6 +299,12 @@ localization: sync
 [seine-river-cruise]: https://www.bateauxparisiens.com/en/cruise.html
 [seine-river-cruise-video]: https://youtu.be/8uFbPgFqeGI
 [skinny-bridge]: https://maps.app.goo.gl/d4FjzW2KjU8YRRzD8
+[telescaphe-cable-car]: https://youtu.be/PGbzYqcl6OI
 [the-dancing-houses]: https://maps.app.goo.gl/bFv6pSFNj9BbfCCw6
 [the-nine-streets]: https://maps.app.goo.gl/tKUoM95pCMRJerkf7
+[the-tim-traveller]: https://www.youtube.com/@TheTimTraveller
+[ttt-does-belgium]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NTEheWVzHfqfPuKdS62iAlG
+[ttt-does-france]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NQ8VZVo7qSSSxlbcZRf-evI
+[ttt-does-the-netherlands]: https://www.youtube.com/playlist?list=PLeL-qrCp_9NSNAIF-GDtOL6tMdQ5mhgwd
 [tuileries-garden]: https://maps.app.goo.gl/7eDy7ndBmsvDMM8R9
+[what-on-earth-is-this]: https://www.youtube.com/@WhatOnEarthIsThisThing
