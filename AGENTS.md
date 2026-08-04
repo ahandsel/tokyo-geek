@@ -61,8 +61,17 @@ Rules when editing content:
 | `pnpm tree`    | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`. |
 | `pnpm test`    | `tree` + `lint` + `build` + `preview` (used as the pre-merge check).   |
 | `pnpm index`   | List pnpm scripts via `scripts/index.sh`.                              |
+| `pnpm nodenv`  | Install and pin `.node-version`, then enable pnpm via corepack.        |
 
 Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing.
+
+On a machine where the pinned Node version does not have pnpm yet, `pnpm run nodenv` cannot start, so run the same chain directly once:
+
+```zsh
+V="$(cat .node-version)" && nodenv install -s "$V" && nodenv local "$V" && NODENV_VERSION="$V" nodenv exec corepack enable pnpm && nodenv rehash
+```
+
+After that, `pnpm nodenv` handles later version bumps.
 
 
 ## Style guides
