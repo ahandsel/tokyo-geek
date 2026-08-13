@@ -19,35 +19,28 @@ jobs:
       pull-requests: write
 
     steps:
-      # Step 1: Checkout repository code
+      # Step 1: Checkout repository code (create-pull-request authenticates with its own token input)
       - name: Checkout repository
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # actions/checkout@v5.0.0, pinned
+        with:
+          persist-credentials: false
 
-      # Step 2: Detect pnpm version from package.json
-      - name: Detect pnpm version
-        id: pnpm-version
-        run: |
-          version="$(jq -r '.packageManager' package.json | cut -d'@' -f2)"
-          echo "version=${version}" >> "$GITHUB_OUTPUT"
-
-      # Step 3: Install pnpm package manager (use detected version)
+      # Step 2: Install pnpm (version is read from the packageManager field in package.json)
       - name: Install pnpm
         uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # pnpm/action-setup@v4.2.0, pinned
-        with:
-          version: ${{ steps.pnpm-version.outputs.version }}
 
-      # Step 4: Setup Node.js from the pinned .node-version
+      # Step 3: Setup Node.js from the pinned .node-version
       - name: Setup Node.js
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # actions/setup-node@v5.0.0, pinned
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # actions/setup-node@v6.0.0, pinned
         with:
           node-version-file: .node-version
           cache: pnpm
 
-      # Step 5: Bump vitepress to the `next` dist-tag, keeping the exact pin
+      # Step 4: Bump vitepress to the `next` dist-tag, keeping the exact pin
       - name: Update VitePress
         run: pnpm add --save-dev --save-exact vitepress@next
 
-      # Step 6: Open a pull request with the change (no-op when nothing changed)
+      # Step 5: Open a pull request with the change (no-op when nothing changed)
       - name: Create pull request
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # peter-evans/create-pull-request@v8.1.1, pinned
         with:
