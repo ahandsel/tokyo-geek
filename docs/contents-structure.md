@@ -223,7 +223,8 @@
 │   │   └───📄 tax-deduction-mechanism.png
 │   ├───📁 garoon-to-apple/
 │   │   ├───📄 garoon-to-apple-bookmarklet-demo.gif
-│   │   └───📄 garoon-to-apple-bookmarklet-v0.js
+│   │   ├───📄 garoon-to-apple-bookmarklet-v0.js
+│   │   └───📄 garoon-to-apple-bookmarklet-v1.js
 │   ├───📁 global-shipping/
 │   │   ├───📄 global-shipping-250.png
 │   │   ├───📄 global-shipping-address-1.png
