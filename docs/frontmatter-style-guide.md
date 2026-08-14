@@ -121,13 +121,18 @@ Optional. Set `externalPostUrl` when the page was first published somewhere else
 externalPostUrl: https://dev.to/ahandsel/import-a-garoon-event-to-apple-calendar-bookmarklet-cj0
 ```
 
+This key records provenance only.
+Nothing in `config.mts` or the theme reads it, so setting it does not change the rendered page, the head tags, or the sidebar.
+Credit the original in the page body when readers need to see it.
+
 Rules for this key:
 
 * Point it at the original post in the same language as the page. The English page links to the English original, and the Japanese page links to the Japanese original.
 * Use one URL per page. When a post was published on several sites, pick the one you treat as the original.
 * Omit the key on pages written for this site.
 
-Because the two language versions point at different originals, this key is exempt from `localization: sync` parity. The two values are expected to differ.
+Because the two language versions point at different originals, this key is exempt from `localization: sync` parity.
+The two values are expected to differ.
 
 
 ## Sidebar keys
@@ -137,7 +142,8 @@ These keys control how the `vitepress-sidebar` plugin places and orders a page i
 
 ### order
 
-Optional. The `order` key sets the sort position of a page or folder within its sidebar group. Lower numbers sort first. Pages without `order` default to `10`.
+Optional. The `order` key sets the sort position of a page or folder within its sidebar group.
+Lower numbers sort first. Pages without `order` default to `10`.
 
 In practice, `order` is set mainly on folder `index.md` files to control the order of top-level sections, for example `order: 0` on a section landing page so it sorts above its siblings.
 
