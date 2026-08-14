@@ -424,8 +424,8 @@ console.log({ event, ics });
 [rfc-5545]: https://datatracker.ietf.org/doc/html/rfc5545
 [rfc-5545-3-1]: https://datatracker.ietf.org/doc/html/rfc5545#section-3.1
 [rfc-5545-3-3-11]: https://datatracker.ietf.org/doc/html/rfc5545#section-3.3.11
-[source-code]: https://github.com/ahandsel/articles/blob/main/garoon-to-apple/garoon-to-apple-bookmarklet-v1.js
-[source-code-v0]: https://github.com/ahandsel/articles/blob/main/garoon-to-apple/garoon-to-apple-bookmarklet-v0.js
+[source-code]: https://github.com/ahandsel/tokyo-geek/blob/main/contents/public/garoon-to-apple/garoon-to-apple-bookmarklet-v1.js
+[source-code-v0]: https://github.com/ahandsel/tokyo-geek/blob/main/contents/public/garoon-to-apple/garoon-to-apple-bookmarklet-v0.js
 [text-encoder]: https://developer.mozilla.org/ja/docs/Web/API/TextEncoder
 [window-api]: https://developer.mozilla.org/ja/docs/Web/API/Window
 
