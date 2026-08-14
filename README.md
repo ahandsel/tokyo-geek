@@ -16,16 +16,12 @@ A revamp to my Japan_Guide blog using [VitePress static site generator](https://
 | [VitePress][]                                         | Static site generator                   | [.vitepress/config.mts][]     |
 | [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience             |                               |
 | [@nolebase/vitepress-plugin-meta][]                   | Meta tags management                    |                               |
-| [@vite-pwa/assets-generator][]                        | Generates PWA icons and splash screens  |                               |
-| [@vite-pwa/vitepress][]                               | PWA support for VitePress               |                               |
 | [markdownlint-cli2][]                                 | Markdown linting                        |                               |
 
 [.vitepress/config.mts]: ./contents/.vitepress/config.mts
 [.vitepress/theme/index.ts]: ./contents/.vitepress/theme/index.ts
 [@nolebase/vitepress-plugin-enhanced-readabilities]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-readabilities/
 [@nolebase/vitepress-plugin-meta]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-meta/
-[@vite-pwa/assets-generator]: https://vite-pwa-org.netlify.app/assets-generator/
-[@vite-pwa/vitepress]: https://vite-pwa-org.netlify.app/frameworks/vitepress.html
 [DavidingPlus/vitepress-image-viewer]: https://github.com/davidingplus/vitepress-image-viewer
 [markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
 [VitePress Mermaid Renderer]: https://vitepress-mermaid-renderer.sametcc.me/
@@ -51,6 +47,15 @@ pnpm build
 
 ```shell
 pnpm lint
+```
+
+
+### Site icons
+
+The icons in `contents/public/` are committed static files. The generator is not a dependency, so regenerate them on demand when the source icon changes:
+
+```shell
+pnpm dlx @vite-pwa/assets-generator --preset minimal-2023 contents/public/cat-icon-clear.png
 ```
 
 

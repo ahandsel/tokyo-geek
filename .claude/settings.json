@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
       "Skill(ai-commit)",
       "Skill(blog-content-auditor)",
       "Skill(figma-code-connect)",
@@ -20,6 +22,8 @@
       "Skill(sync-skill-allowlist)",
       "WebFetch(domain:shinkansen.tabiris.com)",
       "WebFetch(domain:vitepress.dev)"
-    ]
+    ],
+    "deny": ["Bash(git push *)", "Bash(git -C * push *)"],
+    "ask": ["Bash(gh pr create *)"]
   }
 }
