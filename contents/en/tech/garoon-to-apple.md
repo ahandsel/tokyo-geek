@@ -321,7 +321,7 @@ One more character would put it at 77.
 ### Give the event a stable UID
 
 `UID` is how a calendar app decides whether an imported event is a new event or a new copy of one it already has.
-With a stable `UID`, re-exporting an event after it is rescheduled updates the existing entry.
+With a stable `UID`, Apple Calendar can recognize a re-export as the same event and update the existing entry instead of adding a copy.
 Without one, every export adds another duplicate.
 
 ```javascript
