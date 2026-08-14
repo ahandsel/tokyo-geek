@@ -12,8 +12,14 @@ verifyDepsBeforeRun: false
 # It is worth keeping because a version bump cannot solve the problem: `@vite-pwa/assets-generator`
 # is still on 1.0.2 as its latest release and it declares `sharp: ^0.33.5`, which caps resolution
 # below 0.34.0. Re-adding that tool without this override would reintroduce the vulnerable version.
+# The range is `>=0.35.0`, the advisory boundary itself, and deliberately not a caret range: pnpm
+# overrides match by name and ignore the range the consumer declares, so `^0.35.x` would silently
+# pin a future sharp consumer below 0.36.0 long after the CVEs stopped mattering.
+# This guard covers sharp arriving as a declared dependency. It does NOT cover `pnpm dlx`, which
+# resolves in a throwaway project and ignores workspace overrides. See the icon-regeneration note
+# in AGENTS.md.
 overrides:
-  sharp: ^0.35.3
+  sharp: '>=0.35.0'
 
 # Build-script review (pnpm 11 `allowBuilds`). `false` = reviewed and intentionally
 # not built; `true` = allowed to run its postinstall. esbuild and sharp do not need
@@ -23,7 +29,8 @@ overrides:
 # still fails the install (ERR_PNPM_IGNORED_BUILDS) until it is reviewed here.
 # Verified: esbuild transforms and sharp encodes correctly with these builds skipped.
 # sharp is no longer installed, so its entry is kept, like the override above, purely to keep a
-# future reintroduction pre-reviewed.
+# future reintroduction pre-reviewed. That review was done against sharp 0.35.3, so re-confirm the
+# skipped postinstall if a later major line ever lands here.
 allowBuilds:
   esbuild: false
   sharp: false
