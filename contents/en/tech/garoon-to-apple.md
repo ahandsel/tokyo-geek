@@ -379,7 +379,7 @@ The whole script also runs inside a `try` block, so an unexpected event shape pr
 ```
 
 
-## Version history
+## v1 upgrade
 
 The first version of this bookmarklet built a query string and handed it to `calndr.link`, a free service that returned an iCal file.
 That service is gone: the endpoint now redirects to AddCal and responds with an HTML landing page rather than a calendar file, and the documented replacement requires a Dynamic Link Key on a paid plan.
@@ -389,9 +389,9 @@ Generating the file in the browser removes that dependency, and it also means th
 For a work calendar, where a memo can hold meeting notes, customer names, or a conference link, that is the more important half of the change.
 
 
-## Buy the author a coffee
+## Found this useful?
 
-If you found this article or the bookmarklet useful, please consider [buying me a coffee][coffee].
+If you found this article or the bookmarklet useful, please consider [buying me a coffee][coffee]. ☕
 
 
 ## References
