@@ -50,6 +50,15 @@ pnpm lint
 ```
 
 
+### Site icons
+
+The icons in `contents/public/` are committed static files. The generator is not a dependency, so regenerate them on demand when the source icon changes:
+
+```shell
+pnpm dlx @vite-pwa/assets-generator --preset minimal-2023 contents/public/cat-icon-clear.png
+```
+
+
 ### Image paths
 
 * The markdown link checker assumes image paths (for example `/images/foo.png` or `images/foo.png`) point into the repository `public/` folder.
