@@ -23,6 +23,9 @@ jobs:
     name: Build and upload VitePress site
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: read # actions/configure-pages reads the Pages site config via the REST API
 
     steps:
       # Step 1: Checkout repository code (full history so lastUpdated timestamps work)
