@@ -1,0 +1,65 @@
+# .github/workflows/codeql.yml
+# Run CodeQL code scanning against an explicit, pinned list of languages
+# Triggered on pushes to main, pull requests targeting main, every Monday, or the "Run workflow" button
+
+name: CodeQL
+
+on:
+  push:
+    branches: [main] # Keep the Security tab baseline for the default branch current
+  pull_request:
+    branches: [main] # Surface new alerts on the pull request before it merges
+  schedule:
+    - cron: '15 22 * * 1' # Runs every Monday at 22:15 UTC, the slot the default setup used
+  workflow_dispatch: {} # Allow manual execution from the GitHub Actions tab
+
+permissions:
+  contents: read
+
+# Supersede queued pull request runs, but let every push to main finish so the baseline stays complete
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  analyze:
+    name: Analyze ${{ matrix.language }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read # actions/checkout reads the repository
+      security-events: write # github/codeql-action/analyze uploads results to the Security tab
+
+    strategy:
+      fail-fast: false # A failure in one language must not discard the results of the other
+      matrix:
+        # This list is the whole point of the workflow: CodeQL analyzes exactly these two languages,
+        # so auto-detection can never add one that this repository does not contain.
+        # `actions` covers the workflow files, and `javascript-typescript` covers the .mjs, .ts, .mts,
+        # and .vue sources under contents/ and scripts/.
+        include:
+          - language: actions
+            build-mode: none
+          - language: javascript-typescript
+            build-mode: none
+
+    steps:
+      # Step 1: Checkout repository code (CodeQL only reads the source, so no credentials are needed)
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # actions/checkout@v5.0.0, pinned
+        with:
+          persist-credentials: false
+
+      # Step 2: Build the CodeQL database for this language
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@ff2f1c621b7f889edc0d3c761ac2e6a3f8cdb0dd # github/codeql-action@v4.37.7, pinned
+        with:
+          languages: ${{ matrix.language }}
+          build-mode: ${{ matrix.build-mode }}
+
+      # Step 3: Run the default query suite and upload the results
+      # The category must stay `/language:<name>` so alert history from the default setup carries over
+      - name: Perform CodeQL analysis
+        uses: github/codeql-action/analyze@ff2f1c621b7f889edc0d3c761ac2e6a3f8cdb0dd # github/codeql-action@v4.37.7, pinned
+        with:
+          category: '/language:${{ matrix.language }}'
