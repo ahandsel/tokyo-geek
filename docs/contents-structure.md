@@ -84,6 +84,7 @@
 │   │   ├───📄 chrome-privacy.md
 │   │   ├───📄 coding-fonts.md
 │   │   ├───📄 figma-plugins.md
+│   │   ├───📄 garoon-to-apple.md
 │   │   ├───📄 google-doc-auto-appending.md
 │   │   ├───📄 homebrew-migrate.md
 │   │   ├───📄 index.md
@@ -178,6 +179,7 @@
 │   │   ├───📄 ai-prompts-ja.md
 │   │   ├───📄 chrome-privacy.md
 │   │   ├───📄 figma-plugins.md
+│   │   ├───📄 garoon-to-apple.md
 │   │   ├───📄 google-doc-auto-appending.md
 │   │   ├───📄 homebrew-migrate.md
 │   │   ├───📄 index.md
@@ -219,6 +221,10 @@
 │   │   ├───📄 step-banner-2-fill-form.png
 │   │   ├───📄 step-banner-3-mail-documents.png
 │   │   └───📄 tax-deduction-mechanism.png
+│   ├───📁 garoon-to-apple/
+│   │   ├───📄 garoon-to-apple-bookmarklet-demo.gif
+│   │   ├───📄 garoon-to-apple-bookmarklet-v0.js
+│   │   └───📄 garoon-to-apple-bookmarklet-v1.js
 │   ├───📁 global-shipping/
 │   │   ├───📄 global-shipping-250.png
 │   │   ├───📄 global-shipping-address-1.png

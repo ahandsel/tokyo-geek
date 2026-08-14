@@ -1,48 +1,51 @@
+# .github/workflows/vitepress-auto-update.yml
+# Bump the `vitepress` devDependency to the `next` dist-tag and open a pull request
+# Triggered every Monday at midnight UTC or by the "Run workflow" button
+
 name: Auto-Update VitePress
 
 on:
   schedule:
     - cron: '0 0 * * 1' # Runs every Monday at midnight UTC
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: {} # Allow manual execution from the GitHub Actions tab
 
 jobs:
   update-vitepress:
+    name: Update VitePress and open a pull request
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
       pull-requests: write
-    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v6.0.1
+      # Step 1: Checkout repository code (create-pull-request authenticates with its own token input)
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # actions/checkout@v5.0.0, pinned
+        with:
+          persist-credentials: false
 
+      # Step 2: Install pnpm (version is read from the packageManager field in package.json)
+      - name: Install pnpm
+        uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # pnpm/action-setup@v4.2.0, pinned
+
+      # Step 3: Setup Node.js from the pinned .node-version
       - name: Setup Node.js
-        uses: actions/setup-node@v6.2.0
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # actions/setup-node@v6.0.0, pinned
         with:
-          node-version: '24'
-          cache: 'npm'
+          node-version-file: .node-version
+          cache: pnpm
 
-      - name: Install npm-check-updates
-        run: npm install -g npm-check-updates
-
+      # Step 4: Bump vitepress to the `next` dist-tag, keeping the exact pin
       - name: Update VitePress
-        run: |
-          ncu -u vitepress
-          npm install
+        run: pnpm add --save-dev --save-exact vitepress@next
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add package.json package-lock.json
-          git commit -m "chore: update VitePress to latest version" || exit 0
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+      # Step 5: Open a pull request with the change (no-op when nothing changed)
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # peter-evans/create-pull-request@v8.1.1, pinned
         with:
-          branch: 'update/vitepress'
-          title: 'Update VitePress to Latest Version'
-          body: 'This PR updates VitePress to the latest version.'
-          labels: 'dependencies'
+          branch: update/vitepress
+          title: '⬆️ Update VitePress to the latest prerelease'
+          commit-message: '⬆️ Update VitePress to the latest prerelease'
+          body: 'Automated bump of the `vitepress` devDependency to the `next` dist-tag.'
+          labels: dependencies

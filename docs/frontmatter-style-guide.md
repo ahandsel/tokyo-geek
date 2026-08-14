@@ -14,6 +14,7 @@ VitePress reads these keys when it builds the static site, and the `vitepress-si
   * [description](#description)
   * [head](#head)
   * [tags](#tags)
+  * [externalPostUrl](#externalposturl)
 * [Sidebar keys](#sidebar-keys)
   * [order](#order)
   * [excludeFromSidebar](#excludefromsidebar)
@@ -50,6 +51,7 @@ localization: sync
 | `order`              | No                 | number  | Sidebar sort position within a folder. Defaults to `10`.               |
 | `excludeFromSidebar` | No                 | boolean | When `true`, hides the page from the sidebar.                          |
 | `tags`               | No                 | array   | Topic tags for the page.                                               |
+| `externalPostUrl`    | No                 | string  | URL of the original post, when the page was first published elsewhere. |
 | `layout`             | No                 | enum    | Page layout. Set to `home` only on the locale landing pages.           |
 | `titleTemplate`      | No                 | string  | Overrides the global title template. Used on the home pages.           |
 | `hero`, `features`   | No                 | object  | Home page hero and feature-card content. Used only with `layout: home`.|
@@ -111,6 +113,28 @@ tags:
 Only add tags when they serve a clear purpose for the page. Most pages do not set this key.
 
 
+### externalPostUrl
+
+Optional. Set `externalPostUrl` when the page was first published somewhere else, such as DEV or Qiita, and this repository holds the imported copy:
+
+```yaml
+externalPostUrl: https://dev.to/ahandsel/import-a-garoon-event-to-apple-calendar-bookmarklet-cj0
+```
+
+This key records provenance only.
+Nothing in `config.mts` or the theme reads it, so setting it does not change the rendered page, the head tags, or the sidebar.
+Credit the original in the page body when readers need to see it.
+
+Rules for this key:
+
+* Point it at the original post in the same language as the page. The English page links to the English original, and the Japanese page links to the Japanese original.
+* Use one URL per page. When a post was published on several sites, pick the one you treat as the original.
+* Omit the key on pages written for this site.
+
+Because the two language versions point at different originals, this key is exempt from `localization: sync` parity.
+The two values are expected to differ.
+
+
 ## Sidebar keys
 
 These keys control how the `vitepress-sidebar` plugin places and orders a page in the navigation.
@@ -118,7 +142,8 @@ These keys control how the `vitepress-sidebar` plugin places and orders a page i
 
 ### order
 
-Optional. The `order` key sets the sort position of a page or folder within its sidebar group. Lower numbers sort first. Pages without `order` default to `10`.
+Optional. The `order` key sets the sort position of a page or folder within its sidebar group.
+Lower numbers sort first. Pages without `order` default to `10`.
 
 In practice, `order` is set mainly on folder `index.md` files to control the order of top-level sections, for example `order: 0` on a section landing page so it sorts above its siblings.
 
