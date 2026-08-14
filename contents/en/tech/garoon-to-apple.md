@@ -33,7 +33,8 @@ The file is built inside the browser, so the event subject and memo never leave 
 3. Click the `⋮` icon at the top-right corner.
 4. Click **Add new bookmark** and paste the code into the URL field.
 
-> [!NOTE] Note: The code uses block comments so that it still runs if the browser strips the line breaks while you paste it into the URL field.
+> [!NOTE] Note
+> The code uses block comments so that it still runs if the browser strips the line breaks while you paste it into the URL field.
 
 
 ### Export a Garoon event to Apple Calendar
@@ -240,7 +241,8 @@ Garoon reports an all-day event as starting at `00:00:00` in the local time zone
 Converting that midnight to UTC moves it to 15:00 on the previous day for a JST user, so any date arithmetic on the instant reintroduces the bug.
 Slicing the string takes the local date as written and avoids the conversion entirely.
 
-> [!NOTE] Note: The Garoon documentation implies that the JavaScript API reports the end of an all-day event as 00:00:00 on the last day, while the REST API returns 23:59:59, and this has not been confirmed for a multi-day all-day event.
+> [!NOTE] Note
+> The Garoon documentation implies that the JavaScript API reports the end of an all-day event as 00:00:00 on the last day, while the REST API returns 23:59:59, and this has not been confirmed for a multi-day all-day event.
 
 
 ### Escape the text values
