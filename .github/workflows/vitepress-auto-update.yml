@@ -45,7 +45,7 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # peter-evans/create-pull-request@v8.1.1, pinned
         with:
           branch: update/vitepress
-          title: '⬆️ Update VitePress to the latest alpha'
-          commit-message: '⬆️ Update VitePress to the latest alpha'
+          title: '⬆️ Update VitePress to the latest prerelease'
+          commit-message: '⬆️ Update VitePress to the latest prerelease'
           body: 'Automated bump of the `vitepress` devDependency to the `next` dist-tag.'
           labels: dependencies
