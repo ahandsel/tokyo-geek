@@ -6,6 +6,15 @@ minimumReleaseAge: 4320 # Three-day buffer allows for security updates.
 
 verifyDepsBeforeRun: false
 
+# Keep a vulnerable sharp out of the tree. sharp below 0.35.0 inherits four libvips CVEs
+# (GHSA-f88m-g3jw-g9cj, high). Nothing depends on sharp today, because the unused `@vite-pwa`
+# packages that pulled it in were removed, so this override is a guard rather than an active fix.
+# It is worth keeping because a version bump cannot solve the problem: `@vite-pwa/assets-generator`
+# is still on 1.0.2 as its latest release and it declares `sharp: ^0.33.5`, which caps resolution
+# below 0.34.0. Re-adding that tool without this override would reintroduce the vulnerable version.
+overrides:
+  sharp: ^0.35.3
+
 # Build-script review (pnpm 11 `allowBuilds`). `false` = reviewed and intentionally
 # not built; `true` = allowed to run its postinstall. esbuild and sharp do not need
 # theirs: both ship native binaries as optional dependencies (@esbuild/*, @img/sharp-*)
@@ -13,6 +22,8 @@ verifyDepsBeforeRun: false
 # is on by default in pnpm 11, so any NEW dependency that adds an unreviewed build script
 # still fails the install (ERR_PNPM_IGNORED_BUILDS) until it is reviewed here.
 # Verified: esbuild transforms and sharp encodes correctly with these builds skipped.
+# sharp is no longer installed, so its entry is kept, like the override above, purely to keep a
+# future reintroduction pre-reviewed.
 allowBuilds:
   esbuild: false
   sharp: false
