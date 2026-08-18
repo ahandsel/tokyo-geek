@@ -50,19 +50,21 @@ Rules when editing content:
 
 ## Common commands
 
-| Command        | What it does                                                           |
-| -------------- | ---------------------------------------------------------------------- |
-| `pnpm dev`     | `vitepress dev contents` - start the dev server.                       |
-| `pnpm build`   | `vitepress build contents`.                                            |
-| `pnpm preview` | `vitepress preview contents`.                                          |
-| `pnpm check`   | `lint` + dev server (sanity check while editing).                      |
-| `pnpm lint`    | Prettier (`lint-code`) then markdownlint-cli2 `--fix` (`lint-md`).     |
-| `pnpm tree`    | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`. |
-| `pnpm test`    | `tree` + `lint` + `build` + `preview` (used as the pre-merge check).   |
-| `pnpm index`   | List pnpm scripts via `scripts/index.sh`.                              |
-| `pnpm nodenv`  | Install and pin `.node-version`, then enable pnpm via corepack.        |
+| Command            | What it does                                                                    |
+| ------------------ | ------------------------------------------------------------------------------- |
+| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                |
+| `pnpm build`       | `vitepress build contents`.                                                     |
+| `pnpm preview`     | `vitepress preview contents`.                                                   |
+| `pnpm check`       | `lint` + dev server (sanity check while editing).                               |
+| `pnpm lint`        | Prettier (`lint-code`) then markdownlint-cli2 `--fix` (`lint-md`).              |
+| `pnpm lint-target` | The same pair, scoped to one file or folder, via `scripts/targeted-linting.sh`. |
+| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.               |
+| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.          |
+| `pnpm test`        | `tree` + `lint` + `build` + `preview` (used as the pre-merge check).            |
+| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                       |
+| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                 |
 
-Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing.
+Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing. When you touched only a file or two, `pnpm lint-target <path>` runs the same fixers without sweeping the repo.
 
 On a machine where the pinned Node version does not have pnpm yet, `pnpm run nodenv` cannot start, so run the same chain directly once:
 
@@ -118,6 +120,7 @@ Default to creating scripts as Node.js ES modules (`.mjs`) or zsh for any new sc
 * Do not use Python due to the overhead of managing Python environments and dependencies across different users' machines.
 * Default to Node.js for scripts that involve file system operations, string manipulation, or integration with JavaScript-based tools, as it provides a consistent runtime environment and leverages the strengths of the JavaScript ecosystem for build and automation tasks.
 * Use zsh for simple command sequences, environment setup, or when leveraging powerful shell features that would be more cumbersome to implement in Node.js.
+* Name shell scripts `<name>.sh` with a `#!/usr/bin/env zsh` shebang, and invoke them as `zsh scripts/<name>.sh`. The tooling that grants and audits scripts assumes that pairing.
 * Always include `--help` output for any script, and ensure it is clear and informative for users who may not be familiar with the script's functionality.
 * When writing scripts, always include a notes section near the top with:
   * General notes - a brief description of what the script does.
