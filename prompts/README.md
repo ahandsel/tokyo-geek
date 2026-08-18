@@ -32,6 +32,7 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 | [script-review-min.prompt.md][]   | Review and improve a script with minimal, surgical edits.                                        |
 | [script-review.prompt.md][]       | Review and improve a script for quality, readability, reusability, scalability, and security.    |
 | [script-version-sync.prompt.md][] | Auto-update changed scripts' version history and flag related documentation that is out of sync. |
+| [setup-ja-font.prompt.md][]       | Set up a Japanese-friendly editor font so Markdown tables mixing English and Japanese line up in VS Code. |
 | [ux-check-csv.prompt.md][]        | Proofread and edit UX copy in a CSV file.                                                        |
 | [ux-check-md.prompt.md][]         | Proofread and edit UX copy in a Markdown table.                                                  |
 | [vitepress-show-translations.prompt.md][] | Keep the VitePress language switcher visible at all widths so it tracks the search button.   |
@@ -50,6 +51,7 @@ To use a prompt, reference the prompt's file path in the AI interface (VS Code e
 [script-review-min.prompt.md]: script-review-min.prompt.md
 [script-review.prompt.md]: script-review.prompt.md
 [script-version-sync.prompt.md]: script-version-sync.prompt.md
+[setup-ja-font.prompt.md]: setup-ja-font.prompt.md
 [ux-check-csv.prompt.md]: ux-check-csv.prompt.md
 [ux-check-md.prompt.md]: ux-check-md.prompt.md
 [vitepress-show-translations.prompt.md]: vitepress-show-translations.prompt.md
