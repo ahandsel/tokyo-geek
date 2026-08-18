@@ -123,4 +123,5 @@ Default to creating scripts as Node.js ES modules (`.mjs`) or zsh for any new sc
   * General notes - a brief description of what the script does.
   * Usage - how to include or invoke the script.
   * Output - what the script generates or returns.
+  * Version history - a reverse-chronological list of versions, each in the form `vX.Y - YYYY-MM-DD - summary of the change`.
 * For script outputs that are expected to be read by a user, use emojis to clarify messages and statuses, e.g. ✅ for success, ⚠️ for warnings, and ❌ for errors.

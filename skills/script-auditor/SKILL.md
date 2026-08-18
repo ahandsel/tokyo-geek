@@ -108,7 +108,7 @@ function printUsage() {
 console.log('✅ Done.'); // use ✅ / ⚠️ / ❌ for status
 ```
 
-For zsh, put the same notes block in `#` comments near the top, handle `--help`/`-h` in argument parsing, and prefix status output with the same emojis. See `skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs` for a fully compliant example, and `scripts/generate-yaml.sh` for the version history format (a reverse-chronological `vX.Y - YYYY-MM-DD - summary` list).
+For zsh, put the same notes block in `#` comments near the top, handle `--help`/`-h` in argument parsing, and prefix status output with the same emojis. See `skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs` for a fully compliant example, including the version history format (a reverse-chronological `vX.Y - YYYY-MM-DD - summary` list).
 
 
 ## Bundled resources
