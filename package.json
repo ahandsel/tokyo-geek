@@ -11,6 +11,7 @@
     "lint": "pnpm run lint-code && pnpm run lint-md",
     "lint-code": "prettier --write .",
     "lint-md": "markdownlint-cli2 --fix",
+    "lint-naming": "node skills/file-folder-name-linter/scripts/lint-names.mjs",
     "lint-target": "zsh scripts/targeted-linting.sh",
     "nodenv": "V=\"$(cat .node-version)\" && nodenv install -s \"$V\" && nodenv local \"$V\" && NODENV_VERSION=\"$V\" nodenv exec corepack enable pnpm && nodenv rehash",
     "preview": "vitepress preview contents",
