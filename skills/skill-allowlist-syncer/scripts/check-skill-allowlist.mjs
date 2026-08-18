@@ -5,7 +5,9 @@
 //   against the repo's `skills/` folder:
 //     1. Skills  - one `Skill(<name>)` entry per `skills/*/SKILL.md`.
 //     2. Scripts - one `Bash(<runner> <path>:*)` entry per runnable script inside a skill folder.
-// * Runner map: `.mjs` -> `node`, `.zsh` -> `zsh`. Plain `.js` files are ignored on purpose: in this
+// * Runner map: `.mjs` -> `node`, `.sh` and `.zsh` -> `zsh`. Shell scripts run under `zsh` because
+//   AGENTS.md mandates zsh for shell tooling in this repo, and every shell script here is named
+//   `.sh` with a `#!/usr/bin/env zsh` shebang. Plain `.js` files are ignored on purpose: in this
 //   repo they are Figma Plugin API snippets passed to a tool, not commands executed via Bash.
 // * Entries in neither managed group (other `Bash(...)`, `Read(...)`, `WebFetch(...)`, etc.) are never
 //   reordered, rewritten, or removed.
@@ -16,16 +18,22 @@
 //   node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs
 //   node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs --write
 //   node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs --repo-root /path/to/repo
+//   node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs --repo-root=/path/to/repo
 //   node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs --help
 //
 // Output:
 // * A header, then a `== Skills ==` section and a `== Scripts ==` section. Each section lists the
-//   entries already in sync, the entries to add, and the stale entries to remove.
+//   entries already in sync, the entries to add, the stale entries to remove, and any duplicate
+//   entries to collapse.
 // * Final status line: `result:ok`, `result:drift`, or `result:written`.
 // * Exit codes: 0 = in sync (or successful write), 1 = drift detected in check mode,
 //   2 = configuration error.
 //
 // Version history:
+// * v2.1 - 2026-08-18 - Map `.sh` to `zsh` so shell scripts named the way this repo names them are
+//                       covered, derive the managed-entry pattern from the runner map instead of
+//                       hardcoding it, report duplicate managed entries as drift, and document the
+//                       `--repo-root=<dir>` form.
 // * v2.0 - 2026-08-18 - Also reconcile script `Bash(<runner> <path>:*)` entries for the runnable
 //                       scripts (`.mjs` -> node, `.zsh` -> zsh) stored inside skill folders, split
 //                       the report into `== Skills ==` and `== Scripts ==` sections, and expand
@@ -43,12 +51,16 @@ import {
 import { extname, isAbsolute, join, relative, resolve, sep } from 'node:path';
 
 const SKILL_ENTRY_RE = /^Skill\(([^)]+)\)$/;
-const SCRIPT_ENTRY_RE = /^Bash\((node|zsh) (\S.*):\*\)$/;
 const FRONTMATTER_NAME_RE = /^name:\s*(.+?)\s*$/m;
 
 // File extensions that count as runnable scripts, mapped to their Bash runner.
 // `.js` is deliberately absent - see the notes block above.
-const RUNNER_BY_EXT = { '.mjs': 'node', '.zsh': 'zsh' };
+const RUNNER_BY_EXT = { '.mjs': 'node', '.sh': 'zsh', '.zsh': 'zsh' };
+
+// Built from the runner map so a new runner cannot fall out of the managed group: an entry the
+// script generates but does not recognize would be re-appended on every write.
+const RUNNERS = [...new Set(Object.values(RUNNER_BY_EXT))].join('|');
+const SCRIPT_ENTRY_RE = new RegExp(`^Bash\\((${RUNNERS}) (\\S.*):\\*\\)$`);
 
 // Directories never scanned for scripts.
 const SKIP_DIRS = new Set(['node_modules', '.git']);
@@ -67,6 +79,7 @@ function printUsage() {
       'Options:',
       '  --write             Apply the reconciled allowlist to .claude/settings.json.',
       '  --repo-root <dir>   Override repo root detection (default: git rev-parse --show-toplevel).',
+      '                      The --repo-root=<dir> form is also accepted.',
       '  -h, --help          Show this message.',
       '',
       'Exit codes: 0 = in sync or written, 1 = drift detected, 2 = configuration error.',
@@ -252,14 +265,20 @@ function makeScriptEntryMatcher(skillsRelDir) {
   };
 }
 
-// Split the allowlist for one managed group into entries already in sync,
-// entries to add, and stale entries to remove.
+// Split the allowlist for one managed group into entries already in sync, entries to add, stale
+// entries to remove, and duplicate entries to collapse. Duplicates are counted as drift because
+// the writer rebuilds the group from a Set and would silently drop the extra copies otherwise.
 function bucketGroup(allowlist, desired, isManaged) {
   const inSync = [];
   const toRemove = [];
+  const duplicates = [];
   const seen = new Set();
   for (const entry of allowlist) {
     if (!isManaged(entry)) continue;
+    if (seen.has(entry)) {
+      duplicates.push(entry);
+      continue;
+    }
     seen.add(entry);
     if (desired.has(entry)) inSync.push(entry);
     else toRemove.push(entry);
@@ -268,7 +287,7 @@ function bucketGroup(allowlist, desired, isManaged) {
   for (const entry of desired) {
     if (!seen.has(entry)) toAdd.push(entry);
   }
-  return { inSync, toAdd, toRemove };
+  return { inSync, toAdd, toRemove, duplicates };
 }
 
 // Rebuild the allowlist: keep every unmanaged entry in its original position, then append
@@ -309,6 +328,7 @@ function printGroup(title, buckets, staleLabel) {
   printList('Already in sync', buckets.inSync, '✅');
   printList('To add', buckets.toAdd, '➕');
   printList(staleLabel, buckets.toRemove, '➖');
+  printList('To remove (duplicate entry)', buckets.duplicates, '➖');
 }
 
 function main() {
@@ -360,7 +380,11 @@ function main() {
   printGroup('Scripts', scripts, 'To remove (script no longer exists)');
 
   const toAddCount = skills.toAdd.length + scripts.toAdd.length;
-  const toRemoveCount = skills.toRemove.length + scripts.toRemove.length;
+  const toRemoveCount =
+    skills.toRemove.length +
+    skills.duplicates.length +
+    scripts.toRemove.length +
+    scripts.duplicates.length;
 
   if (toAddCount + toRemoveCount === 0) {
     console.log(
