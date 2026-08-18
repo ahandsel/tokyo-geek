@@ -43,7 +43,7 @@ To use a skill, enter the skill's name in the AI interface (VS Code extension, t
 | [`folder-readme-maintainer`][] | Audits the repository for missing or outdated folder `README.md` files and creates or updates them. Run after adding, moving, or renaming folder contents.                                     | 2026-06-09 00:00   |
 | [`readme-maintainer`][]        | Audits the repository for missing or outdated folder `README.md` files and creates or updates them.                                                                                            | 2026-06-03 04:16   |
 | [`script-auditor`][]           | Audits helper scripts in `scripts/` and `skills/*/scripts/` against the `AGENTS.md` script guidelines (no Python, prefer `.mjs` or zsh, require `--help`, a notes section, and status emojis). | 2026-06-04 01:36   |
-| [`skill-allowlist-syncer`][]   | Fully syncs the `Skill(<name>)` entries in `.claude/settings.json` under `permissions.allow` with the skills in the repo `skills/` folder, adding new skills and removing deleted ones.        | 2026-06-01 09:37   |
+| [`skill-allowlist-syncer`][]   | Fully syncs the managed `permissions.allow` entries in `.claude/settings.json` with the repo `skills/` folder: one `Skill(<name>)` entry per skill, and one `Bash(<runner> <path>:*)` entry per runnable script stored inside a skill. | 2026-08-18 00:00   |
 
 [`file-folder-name-linter`]: ./file-folder-name-linter/SKILL.md
 [`folder-readme-maintainer`]: ./folder-readme-maintainer/SKILL.md
