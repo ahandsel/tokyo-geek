@@ -1,6 +1,6 @@
 ---
 name: script-auditor
-description: Audit and enforce the AGENTS.md "Scripts" guidelines for helper scripts in this repo - banning Python, preferring Node.js `.mjs` modules or zsh, requiring `--help` output, a top-of-file notes section (general notes, usage, output), and status emojis. Use when adding or reviewing a helper script, or to sweep the repo for scripts that do not follow the guidelines.
+description: Audit and enforce the AGENTS.md "Scripts" guidelines for helper scripts in this repo - banning Python, preferring Node.js `.mjs` modules or zsh, requiring `--help` output, a top-of-file notes section (general notes, usage, output, and a version history in the mandated format), and status emojis. Use when adding or reviewing a helper script, or to sweep the repo for scripts that do not follow the guidelines.
 ---
 
 # Script auditor
@@ -11,7 +11,8 @@ The guidelines this skill enforces:
 
 * **Language.** Default to Node.js ES modules (`.mjs`) or zsh. Python is banned (the overhead of managing Python environments across machines is not worth it). Non-module JavaScript (`.js` / `.cjs`) and non-zsh shells are allowed but not the default.
 * **`--help`.** Every script must support `--help` and print clear, informative usage.
-* **Notes section.** Every script must carry a notes section near the top with general notes (what it does), usage (how to invoke it), output (what it generates or returns), and a version history (a reverse-chronological list of versions with date and a summary of changes).
+* **Notes section.** Every script must carry a notes section near the top with general notes (what it does), usage (how to invoke it), output (what it generates or returns), and a version history (a reverse-chronological list, each entry in the form `vX.Y - YYYY-MM-DD - summary of the change`).
+* **Version format.** Each version history entry must read `vX.Y - YYYY-MM-DD - summary of the change`, newest first. The auditor checks the form, not just that a version history exists.
 * **Status emojis.** Scripts should use emojis to clarify status, for example ✅ for success, ⚠️ for warnings, and ❌ for errors.
 
 
@@ -58,14 +59,14 @@ Exit codes:
    * For a repo-wide health check, run with no file arguments to audit every tracked helper script.
 
 2. **Audit.** Run the bundled script. Read the per-script report. Each script gets one of three verdicts:
-   * ✅ ok - all four checks pass.
+   * ✅ ok - all five checks pass.
    * ⚠️ warning - a soft signal only (for example, a `.js` file that should be `.mjs`, or a bash script where zsh is the default). Mention it, but do not block on it.
-   * ❌ failing - a hard guideline is broken (Python, missing `--help`, or an incomplete notes section).
+   * ❌ failing - a hard guideline is broken (Python, missing `--help`, an incomplete notes section, or a version history with no entries).
 
 3. **Report.** Summarize for the user: which scripts pass, which have warnings, and which fail and why. Group by guideline so the fix list is clear.
 
 4. **Fix (on request or when authoring).**
-   * **New script you are writing:** make it pass all four checks before finishing - use `.mjs` or zsh, add a notes section, wire up `--help`, and use status emojis. Use the template below.
+   * **New script you are writing:** make it pass all five checks before finishing - use `.mjs` or zsh, add a notes section, wire up `--help`, and use status emojis. Use the template below.
    * **Existing failing script:** apply the smallest change that satisfies the guideline. Add a notes section, add `--help` handling, or swap status messages for emoji-prefixed ones. Do not rewrite a working script wholesale.
    * **Python script:** flag it for a rewrite to `.mjs` or zsh. This is a larger change - confirm with the user before rewriting, and preserve the script's behavior and any `pnpm` script wiring.
 
@@ -81,12 +82,13 @@ The checks are heuristics that surface candidates for review, not a hard gate. C
 * **Language.** Reads the file extension and shebang. `.py` or a `python` shebang fails. `.mjs` and zsh pass. `.js` / `.cjs` and non-zsh shells warn.
 * **`--help`.** Looks for `--help` anywhere in the source. A script that parses `--help` but routes it elsewhere may need a manual check.
 * **Notes section.** Scans the first ~60 lines (the leading comment block) for the words that mark the four required parts: a general description (`general notes`, `description`, `purpose`, or `notes`), `usage`, `output`, and `version history`. A script that documents these with different wording may need the keywords added so the intent is explicit.
+* **Version format.** Finds the `Version history:` header on its own line, then validates every following line that opens with a version number against `vX.Y - YYYY-MM-DD - summary` (a three-part `vX.Y.Z` is accepted too). Indented continuation lines of a multi-line entry are ignored. A malformed entry warns; a header with no entries at all fails.
 * **Status emojis.** Looks for any status emoji (✅, ⚠️, ❌, and common siblings) in the source. A library-style script with no user-facing output is a reasonable exception - note it and move on.
 
 
 ## Script template
 
-A new Node.js helper that passes all four checks starts like this:
+A new Node.js helper that passes all five checks starts like this:
 
 ```javascript
 // my-tool.mjs notes
@@ -116,14 +118,14 @@ For zsh, put the same notes block in `#` comments near the top, handle `--help`/
 
 ### scripts/audit-helper-scripts.mjs
 
-Audits helper scripts against the four guidelines and prints a per-script verdict.
+Audits helper scripts against the five guidelines and prints a per-script verdict.
 
 Behavior:
 
-* Locates the repo root via `git rev-parse --show-toplevel` (override with `--repo-root <dir>`).
+* Locates the repo root via `git rev-parse --show-toplevel` (override with `--repo-root <dir>` or `--repo-root=<dir>`).
 * With no file arguments, discovers tracked scripts via `git ls-files`, keeping files under a `scripts/` path segment with a script extension, and skipping vendored `skills/figma-*/scripts/`.
 * With file arguments, audits exactly those paths, skipping anything that is not a recognized script.
-* Runs four checks per file (language, `--help`, notes section, status emojis) and rolls them up into one verdict, where `fail` beats `warn` beats `ok`.
+* Runs five checks per file (language, `--help`, notes section, version format, status emojis) and rolls them up into one verdict, where `fail` beats `warn` beats `ok`.
 * Prints a human-readable report by default, or a JSON array with `--json`.
 * Exits `0` when everything passes, `1` when any warning or failure is found, and `2` on a configuration error.
 

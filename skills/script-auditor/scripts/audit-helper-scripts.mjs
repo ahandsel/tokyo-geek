@@ -2,8 +2,8 @@
 // General notes:
 // * Purpose: Audit helper scripts in this repo against the "Scripts" guidelines in AGENTS.md.
 // * Checks each script for: allowed language (no Python; prefer `.mjs` or zsh), a `--help`
-//   flag, a top-of-file notes section (general notes, usage, output, version history), and
-//   status emojis.
+//   flag, a top-of-file notes section (general notes, usage, output, version history), the
+//   mandated `vX.Y - YYYY-MM-DD - summary` form for each version entry, and status emojis.
 // * The checks are heuristics meant to surface candidates for review, not a hard gate.
 //
 // Usage:
@@ -19,6 +19,9 @@
 // * Exit codes: 0 = all scripts pass, 1 = at least one warning or failure, 2 = configuration error.
 //
 // Version history:
+// * v1.2 - 2026-08-18 - Add a Version format check that validates each version entry against the
+//                       `vX.Y - YYYY-MM-DD - summary` form AGENTS.md mandates, instead of only
+//                       checking that a version history section exists.
 // * v1.1 - 2026-06-04 - Add a version history check to the notes section audit.
 // * v1.0 - 2026-06-04 - Initial release: language, --help, notes, and emoji checks.
 
@@ -45,6 +48,20 @@ const NOTES_GENERAL_RE = /\b(general notes|description|purpose|notes)\b/i;
 const NOTES_USAGE_RE = /\busage\b/i;
 const NOTES_OUTPUT_RE = /\boutput\b/i;
 const NOTES_VERSION_RE = /\bversion history\b/i;
+
+// A version history entry, once the comment marker and any bullet are stripped.
+// AGENTS.md mandates `vX.Y - YYYY-MM-DD - summary of the change`; a three-part
+// version is accepted too, since some scripts were already numbered that way.
+const VERSION_LINE_RE = /^v\d+(?:\.\d+){1,2} - \d{4}-\d{2}-\d{2} - \S/;
+
+// Anything that opens with a version number is treated as an entry, so a wrongly
+// formatted line is reported rather than skipped. Indented continuation lines of a
+// multi-line entry do not match, which is what we want.
+const VERSION_CANDIDATE_RE = /^v\d/i;
+
+// The section header itself, matched on its own line so a passing mention of the
+// words "version history" inside a general-notes bullet is not read as the header.
+const VERSION_HEADER_RE = /^version history:?$/i;
 
 // Status emojis the guidelines call for (plus a few common siblings).
 const STATUS_EMOJI_RE = /[✅⚠️❌🔍ℹ️🚀⛔️🟢🟡🔴]/u;
@@ -237,6 +254,58 @@ function checkNotes(source) {
   };
 }
 
+// Strip a leading comment marker and list bullet so version lines can be compared
+// across `// * v1.0 ...` (Node) and `- v1.0 ...` (zsh DOC block) styles.
+function stripNotesPrefix(line) {
+  return line
+    .replace(/^\s*(\/\/|#)?\s*/, '')
+    .replace(/^[*\-+]\s*/, '')
+    .trim();
+}
+
+// Every line under `Version history:` that opens with a version number must match
+// the form AGENTS.md mandates. Reported separately from the notes check so a
+// present-but-malformed history is not mistaken for a missing one.
+function checkVersionFormat(source) {
+  const lines = source.split('\n').slice(0, 60);
+  const start = lines.findIndex((line) =>
+    VERSION_HEADER_RE.test(stripNotesPrefix(line)),
+  );
+  if (start === -1) {
+    return {
+      status: 'fail',
+      note: 'No version history to check; see the Notes section finding.',
+    };
+  }
+
+  const entries = [];
+  for (const line of lines.slice(start + 1)) {
+    const stripped = stripNotesPrefix(line);
+    if (stripped === '' || stripped === 'DOC') break;
+    if (!VERSION_CANDIDATE_RE.test(stripped)) continue;
+    entries.push(stripped);
+  }
+
+  if (entries.length === 0) {
+    return {
+      status: 'fail',
+      note: 'Version history section has no version entries.',
+    };
+  }
+
+  const bad = entries.filter((entry) => !VERSION_LINE_RE.test(entry));
+  if (bad.length > 0) {
+    return {
+      status: 'warn',
+      note: `${bad.length} of ${entries.length} version entries deviate from "vX.Y - YYYY-MM-DD - summary": ${bad[0]}`,
+    };
+  }
+  return {
+    status: 'ok',
+    note: `${entries.length} version entries use the required format.`,
+  };
+}
+
 function checkEmoji(source) {
   if (STATUS_EMOJI_RE.test(source)) {
     return { status: 'ok', note: 'Uses status emojis.' };
@@ -254,6 +323,7 @@ function auditFile(absPath, repoRoot) {
     language: checkLanguage(absPath, firstLine),
     help: checkHelp(source),
     notes: checkNotes(source),
+    version: checkVersionFormat(source),
     emoji: checkEmoji(source),
   };
   const statuses = Object.values(checks).map((c) => c.status);
@@ -273,6 +343,7 @@ const CHECK_LABELS = {
   language: 'Language',
   help: '--help',
   notes: 'Notes section',
+  version: 'Version format',
   emoji: 'Status emojis',
 };
 
