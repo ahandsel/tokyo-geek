@@ -3,18 +3,27 @@
 #===============================================================================
 : << 'DOC'
 Name:     index.sh
-Usage:    index.sh [-h|--help] [-V|--version]
 Purpose:  List all pnpm scripts defined in package.json.
 
-Version history:
-- v1.3, 2026-03-24; Robust JSON parsing; add --version flag; dynamic column width.
-- v1.2, 2026-03-24; Fix find_package_json to check root directory.
-- v1.1, 2026-03-24; Remove jq dependency; parse JSON with pure zsh.
-- v1.0, 2026-03-24; Initial version.
-
-Notes:
+General notes:
 * Reads nearest package.json and prints each script name & its command.
-* Parses JSON with pure zsh pattern matching.
+* Parses JSON with pure zsh pattern matching, so jq is not required.
+
+Usage:
+* pnpm index
+* index.sh [-h|--help] [-V|--version]
+
+Output:
+* Prints an "Available scripts" list to stdout, one `pnpm <name> → <command>` row
+  per script, with the names padded to a common width.
+* Exit codes: 0 = listed, 1 = no package.json found, 2 = unknown option.
+
+Version history:
+- v1.4 - 2026-08-18 - Restate the notes block in the order AGENTS.md requires (general notes, usage, output, version history) and add status emojis to the failure paths.
+- v1.3 - 2026-03-24 - Robust JSON parsing; add --version flag; dynamic column width.
+- v1.2 - 2026-03-24 - Fix find_package_json to check root directory.
+- v1.1 - 2026-03-24 - Remove jq dependency; parse JSON with pure zsh.
+- v1.0 - 2026-03-24 - Initial version.
 DOC
 #===============================================================================
 
@@ -23,7 +32,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="index.sh"
-VERSION="1.3"
+VERSION="1.4"
 
 # ----------------------------
 # Utilities
@@ -33,7 +42,7 @@ err() { printf '%s\n' "$*" >&2; }
 
 _exit_status=0
 on_error() {
-  ((_exit_status)) && err "A failure occurred. Exiting."
+  ((_exit_status)) && err "❌ A failure occurred. Exiting."
 }
 trap '_exit_status=$?; on_error' EXIT
 
@@ -69,7 +78,7 @@ find_package_json() {
     [[ "$dir" == "/" ]] && break
     dir="${dir:h}"
   done
-  err "No package.json found."
+  err "❌ No package.json found."
   return 1
 }
 
@@ -153,7 +162,7 @@ main() {
         exit 0
         ;;
       *)
-        err "Unknown option: $1"
+        err "❌ Unknown option: $1"
         usage
         exit 2
         ;;

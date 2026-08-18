@@ -3,22 +3,9 @@
 #===============================================================================
 : << 'DOC'
 Name:     cleanup-temp-files.sh
-Usage:    cleanup-temp-files.sh [-y|--yes] [-h|--help]
 Purpose:  Find and list temporary files, delete empty ones automatically, then optionally delete all remaining matches after user confirmation.
 
-Version history:
-- v5.3, 2026-04-08; Fix: guard empty ADDITIONAL_DIRS; eliminate double-stat race in mod_date; surface find errors; clarify docs and prompts.
-- v5.2, 2026-04-08; Merge: incorporate 🗑️ icon for empty files from main.
-- v5.1, 2026-03-24; Refactor: idiomatic zsh (setopt, parameter expansion); remove unused cmd_exists and install_deps stubs; fix short_path HOME substitution to avoid regex bugs.
-- v5.0, 2026-03-24; Convert from bash to zsh; trap ERR->ZERR; remove unsupported set -E.
-- v4.5, 2026-03-24; Fix: missing brace in find_temp_targets; fix undeclared loop variables; remove redundant local declarations.
-- v4.4, 2026-01-26; UX copy polishing.
-- v4.3, 2025-12-23; Formatting.
-- v4.2, 2025-08-18; Change: list output switched to bullet point format with status icons; portability hardening; clearer errors; minor prompts and docs tweaks.
-- v4.1, 2025-08-18; Fix: include exact "temp.md" and other "temp.*" files in search.
-- v4.0, 2025-08-18; Major refactor; asks user for confirmation before deleting all matching files.
-
-Notes:
+General notes:
 * Files are considered temporary if they:
   + start with "temp-" (for example, "temp-draft.md", "temp-scratch"),
   + are exactly "temp" or match "temp.*" (for example, "temp.md"),
@@ -26,7 +13,30 @@ Notes:
   + and are not inside a "node_modules" directory.
 * Directories listed in ADDITIONAL_DIRS (for example, ".pnpm-store") are also removed.
 * Symlinks are not followed and not cleaned up.
-* Output paths are shown relative to the current working directory when possible, with $HOME abbreviated to ~.
+
+Usage:
+* cleanup-temp-files.sh [-y|--yes] [-h|--help]
+
+Output:
+* Prints a bullet list of every match with a status icon, then deletes the empty
+  ones and reports what is left.
+* Paths are shown relative to the current working directory when possible, with
+  $HOME abbreviated to ~.
+* Deletes files. Empty matches go without asking; the rest need a confirmation,
+  or -y to skip the prompt.
+
+Version history:
+- v5.4 - 2026-08-18 - Restate the notes block in the order AGENTS.md requires (general notes, usage, output, version history) and normalize the version history lines to the `vX.Y - YYYY-MM-DD - summary` form.
+- v5.3 - 2026-04-08 - Fix: guard empty ADDITIONAL_DIRS; eliminate double-stat race in mod_date; surface find errors; clarify docs and prompts.
+- v5.2 - 2026-04-08 - Merge: incorporate 🗑️ icon for empty files from main.
+- v5.1 - 2026-03-24 - Refactor: idiomatic zsh (setopt, parameter expansion); remove unused cmd_exists and install_deps stubs; fix short_path HOME substitution to avoid regex bugs.
+- v5.0 - 2026-03-24 - Convert from bash to zsh; trap ERR->ZERR; remove unsupported set -E.
+- v4.5 - 2026-03-24 - Fix: missing brace in find_temp_targets; fix undeclared loop variables; remove redundant local declarations.
+- v4.4 - 2026-01-26 - UX copy polishing.
+- v4.3 - 2025-12-23 - Formatting.
+- v4.2 - 2025-08-18 - Change: list output switched to bullet point format with status icons; portability hardening; clearer errors; minor prompts and docs tweaks.
+- v4.1 - 2025-08-18 - Fix: include exact "temp.md" and other "temp.*" files in search.
+- v4.0 - 2025-08-18 - Major refactor; asks user for confirmation before deleting all matching files.
 DOC
 #===============================================================================
 
@@ -35,7 +45,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="cleanup-temp-files.sh"
-VERSION="5.3"
+VERSION="5.4"
 
 # Files that deviate from "temp*" rules
 ADDITIONAL_FILES=("import.csv" "import.md" ".DS_Store")

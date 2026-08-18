@@ -3,13 +3,9 @@
 #===============================================================================
 : << 'DOC'
 Name:     targeted-linting.sh
-Usage:    targeted-linting.sh [-c|--check] [-h|--help] [-V|--version] <file-or-folder>
 Purpose:  Run Prettier and markdownlint-cli2 on a single file or folder, instead of the whole repo.
 
-Version history:
-- v1.0, 2026-06-12; Initial version.
-
-Notes:
+General notes:
 * Mirrors the repo-wide `pnpm lint` (prettier --write + markdownlint-cli2 --fix),
   but scoped to one target path so you can lint just the file or folder you touched.
 * Markdownlint only understands Markdown, so it is skipped for non-Markdown files
@@ -17,6 +13,20 @@ Notes:
 * Both tools auto-discover their config (.prettierrc.json5, .markdownlint-cli2.jsonc)
   from the repo root, so run this from anywhere inside the repo.
 * By default both tools fix in place; pass --check to report problems without writing.
+
+Usage:
+* pnpm lint-target <file-or-folder>
+* targeted-linting.sh [-c|--check] [-h|--help] [-V|--version] <file-or-folder>
+
+Output:
+* Streams each tool's own report to stdout under a ▶️ heading per tool, then a
+  final ✅ Done. line.
+* Rewrites the target files in place unless --check is passed.
+* Exit codes: 0 = clean (or fixed), 1 = a tool reported problems, 2 = bad arguments.
+
+Version history:
+- v1.1 - 2026-08-18 - Restate the notes block in the order AGENTS.md requires (general notes, usage, output, version history).
+- v1.0 - 2026-06-12 - Initial version.
 DOC
 #===============================================================================
 
@@ -25,7 +35,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="targeted-linting.sh"
-VERSION="1.0"
+VERSION="1.1"
 
 # ----------------------------
 # Utilities
@@ -93,7 +103,7 @@ main() {
         ;;
       -c | --check) check="yes" ;;
       -*)
-        err "Unknown option: $1"
+        err "❌ Unknown option: $1"
         usage
         exit 2
         ;;
