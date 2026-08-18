@@ -54,7 +54,7 @@ docs/
     ├── how-to-guides-example.md
     └── reference-document-template-structure.md
 ```
-  
+
 
 ## General style guides
 
