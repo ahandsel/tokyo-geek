@@ -42,7 +42,7 @@
     "vite": "^8.2.1",
     "vitepress": "2.0.0-alpha.17",
     "vitepress-mermaid-renderer": "^1.2.0",
-    "vitepress-sidebar": "^1.39.0",
+    "vitepress-sidebar": "^1.40.0",
     "vue": "^3.5.41"
   },
   "packageManager": "pnpm@11.6.0"
