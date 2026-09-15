@@ -21,7 +21,7 @@ Reference documents are **technical descriptions** of the software and how to op
 ## Structure for the reference document
 
 * Title (h1)
-* {Internal} Change log (h2)
+* Document change log (h2)
   * Date - Description of changes made to the document.
 * Overview (h2)
   * 3 to 4 bullet points introducing and summarizing the document.
@@ -30,7 +30,7 @@ Reference documents are **technical descriptions** of the software and how to op
   * Target audience: Specify who should read the document.
 * Table of contents (h2)
   * Lists h2 and h3 headings that follow.
-  * Do not include the "{Internal} Change log" or "Table of contents" sections.
+  * Do not include the "Document change log" or "Table of contents" sections.
 * Important notice (h2) (optional)
   * For warnings or crucial information.
   * Maximum of one to two sentences; include only critical restrictions.
@@ -69,7 +69,7 @@ Reference documents are **technical descriptions** of the software and how to op
 # Title - Reference Document Template
 
 
-## {Internal} Change log <!-- omit in toc -->
+## Document change log <!-- omit in toc -->
 
 * Date - Description of changes made to the document.
 

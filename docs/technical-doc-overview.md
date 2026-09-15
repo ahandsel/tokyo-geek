@@ -23,10 +23,10 @@ Here is a quick overview of the types of help documents:
 
 | Type                   | Goal               | Description                                  | Example                                                       |
 | ---------------------- | ------------------ | -------------------------------------------- | ------------------------------------------------------------- |
-| [Tutorials][]          | Gain a skill       | Teach a concept with a lesson                | Beginner's guide to user management                           |
-| [How-to guides][]      | Complete a task    | Step-by-step instructions to solve a problem | Microsoft Entra ID as a IdP for identity provider setup guide |
-| [Reference document][] | Required details   | Detailed information about the product       | API doc for Create User API                                   |
-| [Explanation][]        | Understand a topic | Provide context and understanding            | How IAM works in the admin portal                             |
+| [Tutorials][]          | Gain a skill       | Teach a concept with a lesson                | Beginner's guide to riding the Shinkansen                     |
+| [How-to guides][]      | Complete a task    | Step-by-step instructions to solve a problem | Renewing a residence card through the online system           |
+| [Reference document][] | Required details   | Detailed information about a topic           | Fare and seat-class table for the Tokyo to Osaka route        |
+| [Explanation][]        | Understand a topic | Provide context and understanding            | How the furusato nozei tax deduction works                    |
 
 ```mermaid
 %%{init: {

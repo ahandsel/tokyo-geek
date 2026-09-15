@@ -3,11 +3,6 @@
 This folder contains all the writing style guides relevant for this repository, including general writing rules, documentation-specific rules, and repository-specific conventions for formatting and style within documents.
 
 
-## Change log <!-- omit in toc -->
-
-* 2026-05-20 - Sanitized for public portfolio use; removed product-specific branding and internal references.
-
-
 ## Table of contents <!-- omit in toc -->
 
 * [Overview](#overview)

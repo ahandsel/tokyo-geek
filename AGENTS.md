@@ -37,10 +37,7 @@ Rules when editing content:
 * Content: Markdown in `contents/`, with frontmatter for metadata and localization state.
 * Site generator: [VitePress][] (static site), with these plugins:
   * `vitepress-sidebar` - automatic sidebar generation.
-  * `DavidingPlus/vitepress-image-viewer` - image zoom and captions.
-  * VitePress Mermaid Renderer - diagrams.
   * `@nolebase/vitepress-plugin-enhanced-readabilities` - readability controls.
-  * `@nolebase/vitepress-plugin-meta` - meta tags.
 * Customization: `.mts`, `.ts`, `.mjs`, and Vue.
 * Lint: Prettier + markdownlint-cli2.
 * Package manager: `pnpm@11.6.0`.
@@ -55,12 +52,13 @@ Rules when editing content:
 | `pnpm dev`         | `vitepress dev contents` - start the dev server.                                |
 | `pnpm build`       | `vitepress build contents`.                                                     |
 | `pnpm preview`     | `vitepress preview contents`.                                                   |
-| `pnpm check`       | `lint` + dev server (sanity check while editing).                               |
+| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                          |
 | `pnpm lint`        | Prettier (`lint-code`) then markdownlint-cli2 `--fix` (`lint-md`).              |
+| `pnpm lint-check`  | Prettier `--check` then markdownlint-cli2 without `--fix`.                      |
 | `pnpm lint-target` | The same pair, scoped to one file or folder, via `scripts/targeted-linting.sh`. |
 | `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.               |
 | `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.          |
-| `pnpm test`        | `tree` + `lint` + `build` + `preview` (used as the pre-merge check).            |
+| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.            |
 | `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                       |
 | `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                 |
 
@@ -93,6 +91,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 ## Conventions
 
 * Site config and theme tweaks live in `contents/.vitepress/config.mts` and `contents/.vitepress/theme/index.ts`. Plugins are wired there.
+* Do not delete `@davidingplus/vitepress-image-viewer`, `@nolebase/vitepress-plugin-meta`, or `vitepress-mermaid-renderer`. They are kept on purpose even when the theme does not import them yet. Wire them by following [notes/2026-08-22-wire-vitepress-plugins.md](./notes/2026-08-22-wire-vitepress-plugins.md).
 * PWA icons in `contents/public/` are committed static files. The generator is no longer a dependency, so regenerate them on demand when the source icon changes. There is no `pwa-assets.config.*` file, so the preset and the source image have to be passed on the command line:
 
   ```shell
@@ -110,7 +109,12 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 
 ## Git commits
 
-* Never add a `Co-Authored-By` trailer.
+* Never add a co-author or AI attribution trailer to a commit message. This applies to every agent and editor that touches this repo, including Claude Code, Cursor, Copilot, Codex, and any future tool, and it overrides that tool's own default behavior.
+  * Banned trailers include `Co-Authored-By:` and `Co-authored-by:` in any casing, for any AI agent identity, such as `Claude <noreply@anthropic.com>` and `Cursor <cursoragent@cursor.com>`.
+  * Banned lines also include marketing footers such as `Generated with Claude Code` or any other line crediting a tool for the change.
+  * The same ban applies to pull request bodies, issue bodies, and comments.
+  * A human `Co-Authored-By` trailer for a real person who worked on the change is still allowed.
+* When amending or rebasing, check the resulting message and strip any trailer a tool re-added. Verify with `git log -1 --format=%B` before pushing.
 * Use the `ai-commit` skill to draft messages.
 
 

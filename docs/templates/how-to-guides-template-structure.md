@@ -44,7 +44,7 @@ This document outlines how the "how-to guide" help documentation should be struc
 ```md
 # Title - How-to guide template
 
-## {Internal} Change log <!-- omit in toc -->
+## Document change log <!-- omit in toc -->
 
 * Date - Description of changes made to the document.
 
