@@ -54,6 +54,9 @@ jobs:
       - name: Build VitePress site
         run: pnpm build
 
+      - name: Check sitemap URLs
+        run: pnpm check-sitemap
+
       # Step 6: Prepare artifact for GitHub Pages
       - name: Setup GitHub Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # actions/configure-pages@v5.0.0, pinned
