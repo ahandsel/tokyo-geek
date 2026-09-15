@@ -72,7 +72,7 @@ $SCRIPT_NAME v$VERSION
 📂 Examples:
   $SCRIPT_NAME contents/en/tech/coding-fonts.md
   $SCRIPT_NAME contents/en/guides/bullet-train-shinkansen
-  $SCRIPT_NAME --check contents/public/share/Brewfile
+  $SCRIPT_NAME --check contents/public/Brewfile
 
 EOF
 }
