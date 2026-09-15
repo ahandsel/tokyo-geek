@@ -79,7 +79,7 @@ ChatGPT に JSON ファイルを編集してもらい、各ブックマークの
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a :href="withBase('/nighttab/google-bookmarks.json')">google-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/google-bookmarks.json
 
@@ -92,7 +92,7 @@ ChatGPT に JSON ファイルを編集してもらい、各ブックマークの
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a :href="withBase('/nighttab/travel-bookmarks.json')">travel-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/travel-bookmarks.json
 
@@ -105,7 +105,7 @@ ChatGPT に JSON ファイルを編集してもらい、各ブックマークの
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>クリックして展開 <a href="/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
+  <summary>クリックして展開 <a :href="withBase('/nighttab/streaming-bookmarks.json')">streaming-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/streaming-bookmarks.json
 
@@ -137,3 +137,10 @@ ChatGPT に JSON ファイルを編集してもらい、各ブックマークの
 [firefox-homepage]: https://github.com/zombieFox/nightTab/wiki/Setting-nightTab-as-your-Firefox-homepage
 [protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
 [no-image]: https://github.com/zombieFox/nightTab/wiki/Local-background-image
+
+<!-- markdownlint-disable MD033 -->
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+<!-- markdownlint-enable MD033 -->
+

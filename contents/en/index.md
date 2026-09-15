@@ -4,6 +4,8 @@ layout: home
 
 title: Tokyo Geek
 titleTemplate: Collection of my random notes about Japan
+description: Collection of my random notes about Japan.
+localization: sync
 
 hero:
   name: 'Tokyo Geek 🐾'

@@ -79,7 +79,7 @@ Here is a nightTab setup to quickly access various Google products.
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="/nighttab/google-bookmarks.json">google-bookmarks.json</a></summary>
+  <summary>Click to expand <a :href="withBase('/nighttab/google-bookmarks.json')">google-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/google-bookmarks.json
 
@@ -92,7 +92,7 @@ Here is a nightTab setup to quickly access travel-related bookmarks.
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="/nighttab/travel-bookmarks.json">travel-bookmarks.json</a></summary>
+  <summary>Click to expand <a :href="withBase('/nighttab/travel-bookmarks.json')">travel-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/travel-bookmarks.json
 
@@ -105,7 +105,7 @@ Here is a nightTab setup to quickly access various streaming services.
 
 <!-- markdownlint-disable MD033 -->
 <details>
-  <summary>Click to expand <a href="/nighttab/streaming-bookmarks.json">streaming-bookmarks.json</a></summary>
+  <summary>Click to expand <a :href="withBase('/nighttab/streaming-bookmarks.json')">streaming-bookmarks.json</a></summary>
 
 <<< @/public/nighttab/streaming-bookmarks.json
 
@@ -139,3 +139,10 @@ Here is a nightTab setup to quickly access various streaming services.
 [protected-urls]: https://github.com/zombieFox/nightTab/wiki/Protected-URLs
 [reddit]: https://www.reddit.com/r/nighttab/
 [zombiefox-coffee]: https://www.buymeacoffee.com/zombieFox/
+
+<!-- markdownlint-disable MD033 -->
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+<!-- markdownlint-enable MD033 -->
+

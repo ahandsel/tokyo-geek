@@ -4,6 +4,8 @@ layout: home
 
 title: Tokyo Geek
 titleTemplate: 日本についてのメモいろいろ
+description: 日本についてのメモいろいろ。
+localization: sync
 
 hero:
   name: 'Tokyo Geek 🐾'
@@ -47,5 +49,4 @@ features:
   - title: 🏙️ 東京エリアガイド
     details: 各エリアの特徴をさくっと紹介
     link: /ja/guides/tokyo/tokyo-neighborhoods
-localization: sync
 ---

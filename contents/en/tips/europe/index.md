@@ -122,6 +122,21 @@ Specific bags used:
 * **Lightweight power adapter** - the [Sanwa Supply TR-AD4W overseas power conversion adapter][sanwa-power-adapter] worked well for us.
 
 
+## Apps that help on the trip
+
+* [Timeshifter][timeshifter] - Builds a jet-lag sleep and light plan from your flight schedule.
+* [Visit Japan Web][visit-japan-web] - Pre-register quarantine and customs for arrival in Japan, which shortens airport queues.
+* [Elk Currency Converter][elk-currency-converter] - Converts euros quickly offline. Swipe to compare amounts.
+* [Flush Toilet Finder & Map][flush-toilet-finder-map] - Finds public and paid toilets nearby, including offline search.
+* [Stasher Luggage Storage][stasher-luggage-storage] - Book a luggage locker near the station before you start sightseeing.
+* [Google Translate][google-translate] - Download language packs ahead of time so menus and signs translate without data.
+  * [Download languages to translate offline][download-languages-to-translate-offline]
+* [Google Maps][google-maps] - Download offline maps so navigation works without a data connection.
+  * [Download offline maps][download-offline-maps]
+* [Perplexity - AI Search & Chat][perplexity-ai-search-chat] - Ask for current restaurant or transit info and get answers with links.
+* [ChatGPT][chatgpt] - An AI chat for longer questions and translations that need context.
+
+
 ## Using AI for translations
 
 * **Google Translate** is great for quick translations that can be done offline.
@@ -198,6 +213,17 @@ Thank you for your help!
 
 <!-- Links -->
 
+[chatgpt]: https://apps.apple.com/app/id6448311069
+[download-languages-to-translate-offline]: https://support.google.com/translate/answer/6142473
+[download-offline-maps]: https://support.google.com/maps/answer/6291838
+[elk-currency-converter]: https://apps.apple.com/app/id1189748820
+[flush-toilet-finder-map]: https://apps.apple.com/app/id955254528
+[google-maps]: https://apps.apple.com/app/id585027354
+[google-translate]: https://apps.apple.com/app/id414706506
+[perplexity-ai-search-chat]: https://apps.apple.com/app/id1668000334
+[stasher-luggage-storage]: https://apps.apple.com/app/id1467879761
+[timeshifter]: https://apps.apple.com/app/id1380684374
+[visit-japan-web]: https://www.vjw.digital.go.jp/main/
 [airalo-europe-esim]: https://www.airalo.com/europe-eSIM
 [airalo-referral]: https://ref.airalo.com/DB2m
 [brita-water-bottle]: https://www.amazon.com/dp/B07H17RM1B/

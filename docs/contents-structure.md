@@ -64,7 +64,7 @@
 │   │   │   └───📄 second-hand-shopping.md
 │   │   ├───📁 roppongi/
 │   │   │   ├───📄 index.md
-│   │   │   └───📄 roppongi-places-en.md
+│   │   │   └───📄 roppongi-places.md
 │   │   ├───📁 visa-renewal/
 │   │   │   ├───📄 index.md
 │   │   │   ├───📄 jpki-install-guide-v3-5.md
@@ -80,7 +80,7 @@
 │   │   ├───📄 tokyo-hiking.md
 │   │   └───📄 useful-websites-locals.md
 │   ├───📁 tech/
-│   │   ├───📄 ai-prompts-ja.md
+│   │   ├───📄 ai-prompts.md
 │   │   ├───📄 att-iphone-unlock.md
 │   │   ├───📄 chrome-privacy.md
 │   │   ├───📄 coding-fonts.md
@@ -106,6 +106,7 @@
 │   │   ├───📄 multi-currency-accounts.md
 │   │   ├───📄 taiwan-travel.md
 │   │   └───📄 us-trip-app.md
+│   ├───📄 index.md
 │   └───📄 map.md
 ├───📁 ja/
 │   ├───📁 guides/
@@ -141,6 +142,7 @@
 │   │   │   ├───📄 hakone-trip.md
 │   │   │   ├───📄 index.md
 │   │   │   ├───📄 izu-hakone-trip.md
+│   │   │   ├───📄 kamakura-ajisai-trip.md
 │   │   │   └───📄 kamakura-enoshima-trip.md
 │   │   ├───📄 index.md
 │   │   ├───📄 ishigaki-guidebook.md
@@ -160,8 +162,7 @@
 │   │   │   └───📄 second-hand-shopping.md
 │   │   ├───📁 roppongi/
 │   │   │   ├───📄 index.md
-│   │   │   ├───📄 roppongi-places-en.md
-│   │   │   └───📄 roppongi-places-jp.md
+│   │   │   └───📄 roppongi-places.md
 │   │   ├───📁 visa-renewal/
 │   │   │   ├───📄 index.md
 │   │   │   ├───📄 jpki-install-guide-v3-5.md
@@ -177,9 +178,10 @@
 │   │   ├───📄 tokyo-hiking.md
 │   │   └───📄 useful-websites-locals.md
 │   ├───📁 tech/
-│   │   ├───📄 ai-prompts-ja.md
+│   │   ├───📄 ai-prompts.md
 │   │   ├───📄 att-iphone-unlock.md
 │   │   ├───📄 chrome-privacy.md
+│   │   ├───📄 coding-fonts.md
 │   │   ├───📄 figma-plugins.md
 │   │   ├───📄 garoon-to-apple.md
 │   │   ├───📄 google-doc-auto-appending.md
@@ -191,7 +193,6 @@
 │   │   └───📄 writing-roles.md
 │   ├───📁 tips/
 │   │   ├───📁 europe/
-│   │   │   ├───📄 europe-travel-ja.md
 │   │   │   ├───📄 index.md
 │   │   │   └───📄 paris-amsterdam-brussels.md
 │   │   ├───📄 australia-travel.md
@@ -200,8 +201,8 @@
 │   │   ├───📄 holding-yen.md
 │   │   ├───📄 index.md
 │   │   ├───📄 japanese-shows.md
-│   │   ├───📄 multi-currency-accounts-ja.md
 │   │   ├───📄 multi-currency-accounts.md
+│   │   ├───📄 taiwan-travel.md
 │   │   └───📄 us-trip-app.md
 │   ├───📄 index.md
 │   └───📄 map.md
@@ -288,13 +289,11 @@
 │   ├───📄 windows-language-settings.png
 │   ├───📄 windows-non-unicode-programs-settings.png
 │   └───📄 windows-run-as-admin-settings.png
-├───📁 snippets/
-│   ├───📄 README.md
-│   ├───📄 doc-status-ai.md
-│   ├───📄 doc-status-wip.md
-│   ├───📄 mapping.md
-│   ├───📄 md-index-list-folders.md
-│   └───📄 related-guides-list.md
-├───📄 favicon.ico
-└───📄 index.md
+└───📁 snippets/
+    ├───📄 README.md
+    ├───📄 doc-status-ai.md
+    ├───📄 doc-status-wip.md
+    ├───📄 mapping.md
+    ├───📄 md-index-list-folders.md
+    └───📄 related-guides-list.md
 ```

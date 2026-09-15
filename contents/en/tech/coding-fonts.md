@@ -186,7 +186,7 @@ After changing fonts, reload VS Code (`Cmd+Shift+P` then **Developer: Reload Win
 
 <!-- Links -->
 
-[brewfile]: /share/Brewfile
+[brewfile]: /Brewfile
 [homebrew]: https://brew.sh/
 [migrate-macos-apps-homebrew]: homebrew-migrate.md
 [nerd-fonts]: https://www.nerdfonts.com/

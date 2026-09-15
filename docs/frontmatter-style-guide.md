@@ -186,7 +186,7 @@ The `blog-translator` skill reads and reconciles this key when it syncs a paired
 
 ## Home page keys
 
-The locale landing pages, [`contents/index.md`](../contents/index.md) (English) and [`contents/ja/index.md`](../contents/ja/index.md) (Japanese), use VitePress's home layout instead of a normal document. They set:
+The locale landing pages, [`contents/en/index.md`](../contents/en/index.md) (English) and [`contents/ja/index.md`](../contents/ja/index.md) (Japanese), use VitePress's home layout instead of a normal document. They set:
 
 * `layout: home` to switch to the home-page layout.
 * `titleTemplate` to override the global `:title - Tokyo Geek` template with a standalone tagline.

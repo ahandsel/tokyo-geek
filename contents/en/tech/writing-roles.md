@@ -1,12 +1,12 @@
 ---
+title: Writing roles
+description: Compare UX writing, technical writing, developer relations, and customer support in tech companies.
 localization: sync
 ---
 
-# Writing roles
+# {{$frontmatter.title}}
 
-Comparing different writing-heavy roles in tech companies: UX writing, technical writing, and developer relations.
-
-Customer support is added for context as a consumer of the writing content and overlap with developer relations.
+{{$frontmatter.description}}
 
 [[toc]]
 
