@@ -86,14 +86,14 @@ Write "None." when nothing is pending.
 
 ### Conditional sections
 
-| Section                    | Include it when                                                                                                       | Purpose                                                                                                                        |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Localization note          | The pull request touches pages under `contents/en/` or `contents/ja/`                                                 | Names whether each pair is still `sync`, was translated in the same branch, or is now flagged `TODO: drifted` for a follow-up. |
-| Files changed              | The pull request touches more than about three files, or a file's role is not obvious from its path                   | Explains what each file is for, not that it changed.                                                                           |
-| Why the diff looks unusual | The diff misrepresents the work, for example a formatting auto-commit or a regenerated `doc-structure.md` inflates it | Prevents a reviewer from misreading the change size.                                                                           |
-| What to look at            | The pull request wants review of specific decisions rather than a general pass                                        | Directs attention to the parts where the author is unsure.                                                                     |
-| Out of scope               | Related work was deliberately deferred, or a sibling pull request covers part of it                                   | Stops reviewers from filing what the author already knows.                                                                     |
-| Checks                     | Any validation ran                                                                                                    | Records what passed. Name the commands and their results.                                                                      |
+| Section                    | Include it when                                                                                                                 | Purpose                                                                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Localization note          | The pull request touches pages under `contents/en/` or `contents/ja/`                                                           | Names whether each pair is still `sync`, was translated in the same branch, or is now flagged `TODO: drifted` for a follow-up. |
+| Files changed              | The pull request touches more than about three files, or a file's role is not obvious from its path                             | Explains what each file is for, not that it changed.                                                                           |
+| Why the diff looks unusual | The diff misrepresents the work, for example a formatting auto-commit or a regenerated `docs/contents-structure.md` inflates it | Prevents a reviewer from misreading the change size.                                                                           |
+| What to look at            | The pull request wants review of specific decisions rather than a general pass                                                  | Directs attention to the parts where the author is unsure.                                                                     |
+| Out of scope               | Related work was deliberately deferred, or a sibling pull request covers part of it                                             | Stops reviewers from filing what the author already knows.                                                                     |
+| Checks                     | Any validation ran                                                                                                              | Records what passed. Name the commands and their results.                                                                      |
 
 Put "Files changed" and everything after it inside a collapsed block so the top of the body stays short:
 
@@ -156,7 +156,7 @@ Run these before drafting, and report the results in the "Checks" section of the
 * `pnpm lint` for every pull request. It writes its fixes, so commit what it changes with `ai-commit`.
 * `pnpm check-content` for a pull request that touches pages under `contents/`. It verifies the EN/JA pairing and the `title`, `description`, and `localization` frontmatter.
 * `pnpm test` for a pull request that touches scripts, skills, prompts, or configuration. It covers the doc tree, lint, content pairing, the VitePress build, and the sitemap.
-* `pnpm tree` when the pull request adds, removes, renames, or moves files. Commit the regenerated `doc-structure.md`.
+* `pnpm tree` when the pull request adds, removes, renames, or moves files. Commit the regenerated `docs/contents-structure.md`.
 * `node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs` when the pull request adds, renames, or removes a skill, plus a check that the skill's row in `skills/README.md` is current.
 
 Report a failure to the user with the command output.

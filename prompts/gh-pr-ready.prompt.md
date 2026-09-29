@@ -196,7 +196,7 @@ In this repository, the relevant checks are the `pnpm` scripts in `package.json`
 | `pnpm lint`          | The same pair with fixes written, so run it only on a clean tree                                 |
 | `pnpm check-content` | The EN/JA content pairing and the required frontmatter under `contents/`                         |
 | `pnpm lint-naming`   | File and folder name conventions                                                                 |
-| `pnpm tree`          | Regenerates `doc-structure.md`; a diff afterward means the tree was stale                        |
+| `pnpm tree`          | Regenerates `docs/contents-structure.md`; a diff afterward means the tree was stale              |
 | `pnpm test`          | The composite gate: tree, lint, content pairing, VitePress build, sitemap                        |
 
 Use `pnpm` only. Never `npm`, `npx`, or `yarn`.

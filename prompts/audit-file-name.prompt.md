@@ -87,7 +87,7 @@ Proceed using whatever inputs are available, and clearly state which mode you ar
 6. Update references (do not skip):
    * Search for links and paths to renamed items in:
      * All files under `TARGET`.
-     * Repository indexes that list files, such as `README.md` files and `doc-structure.md`.
+     * Repository indexes that list files, such as `README.md` files and `docs/contents-structure.md`.
      * Doc tooling files, but only those that exist in this repository. Check before citing one.
    * Cover common reference types:
      * Markdown links and image references.

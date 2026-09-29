@@ -122,5 +122,5 @@ Then report using this format:
 
 ## After syncing
 
-* Run `pnpm tree` and commit `doc-structure.md` if you added, removed, renamed, or moved any page.
+* Run `pnpm tree` and commit `docs/contents-structure.md` if you added, removed, renamed, or moved any page.
 * Run `pnpm check` before committing.
