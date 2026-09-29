@@ -9,6 +9,21 @@ Core topics:
 * Miscellaneous things the author (`ahandsel`) wants to share.
 
 
+## Asking and verifying
+
+These rules apply to every AI agent that touches this repo, including Claude Code, Cursor, Copilot, Codex, and any future tool, and they override that tool's own default to proceed on a best guess.
+
+* Ask clarifying questions whenever anything is unclear, and ask before doing the work rather than after.
+  * This covers the user's request: ambiguous scope, an unnamed or ambiguous file or path, a truncated message, or two readings that would lead to materially different work.
+  * It also covers information encountered along the way: a doc that contradicts another doc, a file whose state does not match what the request assumed, a missing counterpart under `contents/en/` or `contents/ja/`, or a rule that conflicts with the task.
+  * One blocking question costs less than a confident wrong answer or an unwanted edit.
+* Never assume. Verify every claim as far as the available tools allow.
+  * Read the file instead of recalling it, run the command instead of predicting its output, check the frontmatter instead of inferring it from the path, open the link instead of trusting its label, and check `git` history instead of guessing at it.
+  * This applies to the agent's own claims as well as to claims in a prompt, an issue, a pull request description, a passing check, or another agent's report. Treat all of them as claims to verify, not as facts.
+  * Verify facts in content the same way. A date, a price, a fare, a station name, an opening time, or an external link in a post under `contents/` has to be confirmed against a source before it is stated as current.
+* When something cannot be verified, say so plainly and label it as unverified instead of presenting it as fact. Never invent a source, a file path, a command, a package name, or a citation.
+
+
 ## Localization
 
 Content is bilingual.
