@@ -17,7 +17,7 @@ localization: sync
 台湾を 13 日間まわったときのメモです。 🇹🇼
 
 
-## 現金が基本
+## 現金が基本 💵
 
 台湾では現金が基本です。夜市、小さな店、屋台では特にそうです。
 
@@ -25,9 +25,10 @@ localization: sync
 * Apple Pay は大型店、チェーン、百貨店で使えました。
 * Apple Pay 非対応でもデジタル決済を受け付ける小さな店には [Line Pay][line-pay] と [EasyCard][easycard] が補完になりました。
 * クレジットカードは MRT の改札と都市間鉄道で使えるので、それらだけのために EasyCard をチャージする必要はありません。
+* [Wise][wise] と [Revolut][revolut] のデビットカードは海外取引手数料がかからないので、少額の買い物でも通常のクレジットカードのような為替上乗せが発生しません。
 
 
-## EasyCard を iPass より優先する
+## EasyCard を iPass より優先する 🚇
 
 * [EasyCard][easycard] は台湾でいちばん広く使える交通系 IC です。
 * バス、MRT、鉄道、コンビニや一部の小さな飲食店でも使えます。
@@ -36,7 +37,7 @@ localization: sync
 * チャージはどの MRT 駅でもコンビニでもできます。
 
 
-## Klook の eSIM
+## Klook の eSIM 📱
 
 eSIM で通信を確保します。 📶
 
@@ -52,12 +53,10 @@ eSIM で通信を確保します。 📶
 > プライバシーのため、Klook の eSIM 利用中は VPN を使いました。
 > Klook の eSIM は香港の携帯事業者経由でデータを流します。
 
----
-
-支払いとデータの準備をしておくと、旅がかなり楽になります。台湾を楽しんでください。
-
 <!-- Links -->
 
 [easycard]: https://www.easycard.com.tw/en
 [klook-esim]: https://s.klook.com/c/E3xdG5mE38
 [line-pay]: https://pay.line.me/tw/
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
+[wise]: https://wise.com/invite/ilpc/genjif1
