@@ -7,7 +7,7 @@ Shell and Node.js scripts that support repository tooling. Most are also exposed
 
 | Script                         | pnpm command         | Description                                                                                           | Last updated |
 | ------------------------------ | -------------------- | ----------------------------------------------------------------------------------------------------- | ------------ |
-| [check-content.mjs][]          | `pnpm check-content` | Enforce EN/JA pairing, required frontmatter, and no `-en`/`-ja` suffixes in locale folders.           | 2026-08-22   |
+| [check-content.mjs][]          | `pnpm check-content` | Enforce EN/JA pairing, required frontmatter, and no `-en`/`-ja` suffixes in locale folders.           | 2026-09-29   |
 | [check-sitemap.mjs][]          | `pnpm check-sitemap` | After a build, assert sitemap locs use the `/tokyo-geek/` GitHub Pages base.                          | 2026-08-22   |
 | [cleanup-temp-files.sh][]      | `pnpm run cleanup`   | Find and list temporary files, delete empty ones, then optionally delete the rest after confirmation. | 2026-08-18   |
 | [generate-doc-structure.mjs][] | `pnpm run tree`      | Generate a tree-view snapshot of the `contents/` folder into `docs/contents-structure.md`.            | 2026-08-18   |

@@ -16,12 +16,14 @@
 //   anything fails, 2 on bad arguments.
 //
 // Version history:
+// * v1.2 - 2026-09-29 - Parse frontmatter with js-yaml, report YAML errors, and reject blank or non-string values.
 // * v1.1 - 2026-08-22 - Ban -en/-ja suffixes inside locale folders.
 // * v1.0 - 2026-08-22 - Initial release.
 
 import { readdirSync, readFileSync } from 'node:fs';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { load as parseYaml } from 'js-yaml';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(__dirname, '..');
@@ -72,16 +74,21 @@ function walkMarkdown(dir, base = dir) {
   return out;
 }
 
+// Returns { data, error }. A YAML error is reported as a defect rather than
+// swallowed, because VitePress parses the same block and would fail the build.
 function parseFrontmatter(text) {
   const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match) return {};
-  const data = {};
-  for (const line of match[1].split(/\r?\n/)) {
-    const keyMatch = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
-    if (!keyMatch) continue;
-    data[keyMatch[1]] = keyMatch[2].replace(/^['"]|['"]$/g, '').trim();
+  if (!match) return { data: {}, error: null };
+  try {
+    const data = parseYaml(match[1]);
+    return { data: data && typeof data === 'object' ? data : {}, error: null };
+  } catch (err) {
+    return { data: {}, error: err.reason || err.message };
   }
-  return data;
+}
+
+function isNonBlankString(value) {
+  return typeof value === 'string' && value.trim().length > 0;
 }
 
 const enDir = join(repoRoot, 'contents/en');
@@ -108,13 +115,20 @@ for (const rel of paired) {
     ['ja', jaDir],
   ]) {
     const path = join(dir, rel);
-    const fm = parseFrontmatter(readFileSync(path, 'utf8'));
+    const { data: fm, error } = parseFrontmatter(readFileSync(path, 'utf8'));
+    if (error) {
+      errors.push(`Invalid frontmatter YAML (${error}): contents/${locale}/${rel}`);
+      continue;
+    }
     for (const key of REQUIRED_KEYS) {
-      if (!fm[key]) {
+      if (!isNonBlankString(fm[key])) {
         errors.push(`Missing ${key}: contents/${locale}/${rel}`);
       }
     }
-    if (fm.localization && !LOCALIZATION_VALUES.has(fm.localization)) {
+    if (
+      isNonBlankString(fm.localization) &&
+      !LOCALIZATION_VALUES.has(fm.localization.trim())
+    ) {
       errors.push(
         `Invalid localization "${fm.localization}": contents/${locale}/${rel}`,
       );
