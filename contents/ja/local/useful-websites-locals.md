@@ -42,13 +42,13 @@ localization: sync
 
 * サクラチェッカー - 商品レビューがやらせや有料レビューかどうかをチェック
 * 偽のレビューや詐欺を避けるのに便利です
-* ブラウザ拡張機能もあります：[Chrome 拡張機能][sakura-checker-chrome]
+* ブラウザ拡張機能もあります：[Chrome拡張機能][sakura-checker-chrome]
 
-[Keepa - Amazon 価格トラッカー][keepa]
+[Keepa - Amazon価格トラッカー][keepa]
 
-* Keepa - Amazon の価格推移を追跡
+* Keepa - Amazonの価格推移を追跡
 * 商品が買い時かどうかの判断に便利です
-* Amazon Japan と他の国（アメリカなど）の価格を比較するのにも最適です
+* Amazon Japanと他の国（アメリカなど）の価格を比較するのにも最適です
 
 
 ## グルメ・レストラン
@@ -88,11 +88,11 @@ localization: sync
 
 * 電車の乗り換えや運賃の詳しい案内があります
 
-JR East（JR 東日本）
+JR East（JR東日本）
 
-* JRE ポイント情報（JR 東日本のポイントサービス）- [JR 東日本のポイントサービス - JRE POINT][jre-point]
-* JR 東日本の列車予約
-  * 日本語版：[えきねっと（JR 東日本）｜トップ：新幹線・JR 特急列車の予約 東日本のツアー 駅レンタカー申込][ekinet-jp]
+* JREポイント情報（JR東日本のポイントサービス）- [JR東日本のポイントサービス - JRE POINT][jre-point]
+* JR東日本の列車予約
+  * 日本語版：[えきねっと（JR東日本）｜トップ：新幹線・JR特急列車の予約 東日本のツアー 駅レンタカー申込][ekinet-jp]
     * すべての割引、ポイント、検索機能は日本語版のみで利用できます。
   * 英語版：[JR-EAST Train Reservation | Top Page][ekinet-en]
     * 英語版は機能が限られていますが、[Japan Rail Pass][japan-rail-pass]などの外国人向けパスに対応しています。
@@ -109,20 +109,20 @@ Tokyo Metro（東京メトロ）
 * 日本の賃貸・売買物件の不動産サイト
 
 
-### UR 賃貸住宅 - 日本の公営住宅制度
+### UR賃貸住宅 - 日本の公営住宅制度
 
-[UR 賃貸住宅 - 賃貸マンション・大規模マンションの物件情報][ur-net]
+[UR賃貸住宅 - 賃貸マンション・大規模マンションの物件情報][ur-net]
 
-* UR 賃貸住宅の公式サイト（日本語のみ）
+* UR賃貸住宅の公式サイト（日本語のみ）
 
-[About UR Housing - UR/JKK CONCIERGE（UR 住宅の説明）][ur-jkk-concierge]
+[About UR Housing - UR/JKK CONCIERGE（UR住宅の説明）][ur-jkk-concierge]
 
-* Whitestone による UR 住宅情報
-* 英語で UR 住宅の物件を探せます
+* WhitestoneによるUR住宅情報
+* 英語でUR住宅の物件を探せます
 
-[UR Rental Housing - 東京の UR 賃貸ガイド - Tokyo Cheapo][ur-tokyo-cheapo]
+[UR Rental Housing - 東京のUR賃貸ガイド - Tokyo Cheapo][ur-tokyo-cheapo]
 
-* Tokyo Cheapo による UR 住宅のガイド
+* Tokyo CheapoによるUR住宅のガイド
 
 <!-- Links -->
 

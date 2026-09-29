@@ -1,6 +1,6 @@
 ---
 title: アメリカ旅行におすすめのアプリ
-description: アメリカ旅行前にダウンロードしておきたい iOS アプリのリストです。
+description: アメリカ旅行前にダウンロードしておきたいiOSアプリのリストです。
 head:
   - - meta
     - name: keywords
@@ -14,20 +14,20 @@ localization: sync
 
 [[toc]]
 
-アメリカ旅行におすすめの iOS アプリをまとめました。日本向けのアプリについては、[日本向けアプリ](../guides/general/apps.md)をご覧ください。
+アメリカ旅行におすすめのiOSアプリをまとめました。日本向けのアプリについては、[日本向けアプリ](../guides/general/apps.md)をご覧ください。
 
-| カテゴリ | アプリ | 説明 | メモ |
-| --- | --- | --- | --- |
-| 交通 | [Uber][] | ライドシェア | |
-| | [Lyft][] | ライドシェア | |
-| | [Bird][] | 電動キックボード | |
-| eSIM | [Airalo][] | eSIM | [Airalo 招待コード：AB6826][]で初回 eSIM が USD $3.00 オフ |
-| | [Nomad][] | eSIM | Nomad 招待コード：`KEITLQPQFA`で初回 eSIM が USD $5.00 オフ |
-| 通貨 | [Revolut][] | 外貨両替 | |
-| | [Wise][] | 外貨両替 | |
-| その他 | [Timeshifter][] | 時差ぼけ対策 | |
+| カテゴリ | アプリ          | 説明             | メモ                                                   |
+| -------- | --------------- | ---------------- | ------------------------------------------------------ |
+| 交通     | [Uber][]        | ライドシェア     |                                                        |
+|          | [Lyft][]        | ライドシェア     |                                                        |
+|          | [Bird][]        | 電動キックボード |                                                        |
+| eSIM     | [Airalo][]      | eSIM             | [Airalo招待コード：AB6826][]で初回eSIMがUSD $3.00オフ  |
+|          | [Nomad][]       | eSIM             | Nomad招待コード：`KEITLQPQFA`で初回eSIMがUSD $5.00オフ |
+| 通貨     | [Revolut][]     | 外貨両替         |                                                        |
+|          | [Wise][]        | 外貨両替         |                                                        |
+| その他   | [Timeshifter][] | 時差ぼけ対策     |                                                        |
 
-[Airalo 招待コード：AB6826]: https://ref.airalo.com/DB2m
+[Airalo招待コード：AB6826]: https://ref.airalo.com/DB2m
 [Airalo]: https://airalo.go.link/5ae47
 [Bird]: https://apps.apple.com/app/id1260842311
 [Lyft]: https://apps.apple.com/app/id529379082

@@ -15,9 +15,9 @@ localization: sync
 
 <!--@include: ../../../snippets/md-index-list-folders.md-->
 
-## ホームセンター - 日本の DIY 用品店
+## ホームセンター - 日本のDIY用品店
 
-ホームセンターは、Home Depot に一番近い存在です。
+ホームセンターは、Home Depotに一番近い存在です。
 
 都心に近い店舗
 

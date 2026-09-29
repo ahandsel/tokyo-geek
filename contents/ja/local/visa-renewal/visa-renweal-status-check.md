@@ -9,9 +9,9 @@ localization: sync
 {{$frontmatter.description}}
 
 
-## Windows を起動する
+## Windowsを起動する
 
-UTM を開き、Windows VM を起動します。
+UTMを開き、Windows VMを起動します。
 
 
 ## カードリーダーを接続する
@@ -30,7 +30,7 @@ UTM を開き、Windows VM を起動します。
 
 `パスワード`（Password）は、初めてオンラインで申請したときに設定したパスワードです。
 
-認証 ID は、オンラインで申請した際にメールでも送られています。
+認証IDは、オンラインで申請した際にメールでも送られています。
 
 <!-- Links -->
 

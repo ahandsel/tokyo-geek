@@ -13,7 +13,7 @@ localization: sync
 
 ## おすすめ記事
 
-[東京発のおすすめ 1 泊旅行 10 選 - Tokyo Cheapo][tokyo-cheapo-overnight-trips]
+[東京発のおすすめ1泊旅行10選 - Tokyo Cheapo][tokyo-cheapo-overnight-trips]
 
 <!-- Links -->
 

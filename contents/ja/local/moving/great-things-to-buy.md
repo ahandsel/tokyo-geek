@@ -19,7 +19,7 @@ localization: sync
 
 一般的に、ほとんどの人はバルコニーの物干しラックで洗濯物を乾かします。ですが、小型の乾燥機があるととても助かります。特に以下のような場合です。
 
-* 梅雨の時期（6 月〜7 月）は外干しが難しいです。
+* 梅雨の時期（6月〜7月）は外干しが難しいです。
 * 冬は外で乾かすのに時間がかかります。
 * タオルや厚手のものは乾くまで時間がかかります。
 * 小さなアパートにちょうどいいサイズ：3.0 kg〜4.0 kg
@@ -35,10 +35,10 @@ localization: sync
 おすすめ：
 
 * My Wave Warm Dryer 3.0 (`マイウェーブ ウォームドライヤー3.0`)
-* [Amazon の商品ページ][amazon-my-wave]
-* [sakura-checker.jp でのレビュー分析][sakura-my-wave]
-* [Keepa での価格推移][keepa-my-wave]
-* ![My Wave Warm Dryer 3.0 の画像][wave-dryer]{width=200 height=200}
+* [Amazonの商品ページ][amazon-my-wave]
+* [sakura-checker.jpでのレビュー分析][sakura-my-wave]
+* [Keepaでの価格推移][keepa-my-wave]
+* ![My Wave Warm Dryer 3.0の画像][wave-dryer]{width=200 height=200}
 
 [amazon-my-wave]: https://www.amazon.co.jp/dp/B06XBBNMRX/
 [keepa-my-wave]: https://keepa.com/#!product/5-B06XBBNMRX
@@ -57,11 +57,11 @@ localization: sync
 
 おすすめ：
 
-* CORONA 衣類乾燥除湿機 除湿量 6.3L CD-P63A(W) (`コロナ衣類乾燥除湿機 除湿量6.3L CD-P63A(W)`)
-* [Amazon の商品ページ][amazon-corona-dehumidifier]
-* [sakura-checker.jp でのレビュー分析][sakura-corona-dehumidifier]
-* [Keepa での価格推移][keepa-corona-dehumidifier]
-* ![CORONA 衣類乾燥除湿機の画像][corona-dehumidifier]{width=200 height=200}
+* CORONA衣類乾燥除湿機 除湿量6.3L CD-P63A(W) (`コロナ衣類乾燥除湿機 除湿量6.3L CD-P63A(W)`)
+* [Amazonの商品ページ][amazon-corona-dehumidifier]
+* [sakura-checker.jpでのレビュー分析][sakura-corona-dehumidifier]
+* [Keepaでの価格推移][keepa-corona-dehumidifier]
+* ![CORONA衣類乾燥除湿機の画像][corona-dehumidifier]{width=200 height=200}
 
 [amazon-corona-dehumidifier]: https://amzn.asia/d/58wBDeI
 [keepa-corona-dehumidifier]: https://keepa.com/#!product/5-B0753ZVXHV

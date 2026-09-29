@@ -17,48 +17,48 @@ localization: sync
 
 ## リーズナブル ($)
 
-| レストラン                                  | 説明                                 |
-| ------------------------------------------- | ------------------------------------ |
+| レストラン                                 | 説明                                 |
+| ------------------------------------------ | ------------------------------------ |
 | [Banh Mi☆Sandwich Kichijoji][banh-mi-sand] | ベトナム料理；バインミーサンドイッチ |
-| [Tsukiji Gindako][tsukiji-gindako]          | たこ焼き                             |
-| [Kanibaru Kichijojiten][kanibaru]           | Dei                                  |
+| [Tsukiji Gindako][tsukiji-gindako]         | たこ焼き                             |
+| [Kanibaru Kichijojiten][kanibaru]          | Dei                                  |
 
 
 ## お得 ($$)
 
-| レストラン                                | 説明           | タイプ                |
-| ----------------------------------------- | -------------- | --------------------- |
-| [Ootoya][ootoya]                          | 定食           | ランチ & ディナー     |
-| [Khuchai][khuchai]                        | タイ料理       | ランチ & ディナー     |
-| [Yume Taj Mahal][yume-taj-mahal]          | インド料理     | ランチ & ディナー     |
-| [Yappari Steak][yappari-steak]            | ステーキ       | ランチ & ディナー     |
-| [De Salita][de-salita]                    | ベトナム料理   | ランチ                |
-| [Monks Foods][monks-foods]                | 定食           | ランチ & ディナー     |
-| [La Cour Cafe][la-cour-cafe]              | カフェ         | ランチ、コーヒー      |
-| [with PADDY][with-paddy]                  | ブリトー       | 平日ランチ & ディナー |
-| [Mother Goose][mother-goose]              | パスタ         | ランチ & ディナー     |
-| [Tamjai SamGor Mixian][tamjai-samgor]     | 中華麺         | ランチ & ディナー     |
-| [Daipandang 105][daipandang-105]          | 台湾料理       | ランチ & ディナー     |
-| [Torikizoku][torikizoku]                  | 焼き鳥         | ランチ & ディナー     |
-| [the Passion][the-passion]                | イタリアン     | ランチ                |
-| [Toriyoshi][toriyoshi]                    | 定食           | ランチ                |
-| [BOB KITCHEN][bob-kitchen]                | 定食           | ランチ & ディナー     |
-| [Café Mimi][cafe-mimi]                    | フレンチカフェ | ランチ、コーヒー      |
-| [Rakeru Kichijoji][rakeru-kichijoji]      | オムライス     | ランチ & ディナー     |
-| [Garage 50][garage-50]                    | ピザ           | ランチ & ディナー     |
-| [029 Kichijoji Restaurant][029-kichijoji] | 定食           | ランチ                |
-| [Mogame Shokudo][mogame-shokudo]          | 定食           | ランチ & ディナー     |
-| [Sippo][sippo]                            | 定食           | ランチ & ディナー     |
+| レストラン                                | 説明           | タイプ               |
+| ----------------------------------------- | -------------- | -------------------- |
+| [Ootoya][ootoya]                          | 定食           | ランチとディナー     |
+| [Khuchai][khuchai]                        | タイ料理       | ランチとディナー     |
+| [Yume Taj Mahal][yume-taj-mahal]          | インド料理     | ランチとディナー     |
+| [Yappari Steak][yappari-steak]            | ステーキ       | ランチとディナー     |
+| [De Salita][de-salita]                    | ベトナム料理   | ランチ               |
+| [Monks Foods][monks-foods]                | 定食           | ランチとディナー     |
+| [La Cour Cafe][la-cour-cafe]              | カフェ         | ランチ、コーヒー     |
+| [with PADDY][with-paddy]                  | ブリトー       | 平日ランチとディナー |
+| [Mother Goose][mother-goose]              | パスタ         | ランチとディナー     |
+| [Tamjai SamGor Mixian][tamjai-samgor]     | 中華麺         | ランチとディナー     |
+| [Daipandang 105][daipandang-105]          | 台湾料理       | ランチとディナー     |
+| [Torikizoku][torikizoku]                  | 焼き鳥         | ランチとディナー     |
+| [the Passion][the-passion]                | イタリアン     | ランチ               |
+| [Toriyoshi][toriyoshi]                    | 定食           | ランチ               |
+| [BOB KITCHEN][bob-kitchen]                | 定食           | ランチとディナー     |
+| [Café Mimi][cafe-mimi]                    | フレンチカフェ | ランチ、コーヒー     |
+| [Rakeru Kichijoji][rakeru-kichijoji]      | オムライス     | ランチとディナー     |
+| [Garage 50][garage-50]                    | ピザ           | ランチとディナー     |
+| [029 Kichijoji Restaurant][029-kichijoji] | 定食           | ランチ               |
+| [Mogame Shokudo][mogame-shokudo]          | 定食           | ランチとディナー     |
+| [Sippo][sippo]                            | 定食           | ランチとディナー     |
 
 
 ## 少しお高め ($$$)
 
-| レストラン                                          | 説明                                 | タイプ                |
-| --------------------------------------------------- | ------------------------------------ | --------------------- |
-| [Rojiura Curry SAMURAI][rojiura-curry]              | スープカレー                         | ランチ & ディナー     |
-| [King of Kale Kichijoji Shop][king-of-kale]         | サラダ、ブリトー、ボウル             | ランチ & 早めディナー |
-| [Bánh mì Bà Ba Kichijoji][banh-mi-ba-ba]            | ベトナム料理；バインミーサンドイッチ | ランチ & ディナー     |
-| [Kichijoji TKG A Story of Eggs][kichijoji-tkg]      | 卵かけごはん                         | ランチ & ディナー     |
+| レストラン                                     | 説明                                 | タイプ               |
+| ---------------------------------------------- | ------------------------------------ | -------------------- |
+| [Rojiura Curry SAMURAI][rojiura-curry]         | スープカレー                         | ランチとディナー     |
+| [King of Kale Kichijoji Shop][king-of-kale]    | サラダ、ブリトー、ボウル             | ランチと早めディナー |
+| [Bánh mì Bà Ba Kichijoji][banh-mi-ba-ba]       | ベトナム料理；バインミーサンドイッチ | ランチとディナー     |
+| [Kichijoji TKG A Story of Eggs][kichijoji-tkg] | 卵かけごはん                         | ランチとディナー     |
 
 <!-- Links -->
 

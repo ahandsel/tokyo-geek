@@ -22,7 +22,7 @@ localization: sync
 
 ### 海がきこえる
 
-* 大学生の杜崎拓は、2 年前に転校してきた武藤里伽子のこと、そして友人・松野豊との絆が試されたあの夏のことを思い返す。
+* 大学生の杜崎拓は、2年前に転校してきた武藤里伽子のこと、そして友人・松野豊との絆が試されたあの夏のことを思い返す。
 * 舞台：高知と吉祥寺
 * ジャンル：ドラマ、恋愛
 * リンク：[StreamWithVPN.com][ocean-waves-vpn]、[Google][ocean-waves-google]、[Netflix][ocean-waves-netflix]
@@ -30,7 +30,7 @@ localization: sync
 
 ### アグレッシブ烈子
 
-* 一流商社で OL として働くレッサーパンダ・烈子の楽しみは、仕事帰りの一人カラオケ。デスボイスでメタルを歌って、仕事のストレスを思い切り発散するの！
+* 一流商社でOLとして働くレッサーパンダ・烈子の楽しみは、仕事帰りの一人カラオケ。デスボイスでメタルを歌って、仕事のストレスを思い切り発散するの。
 * 舞台：東京
 * ジャンル：コメディ、オフィスドラマ
 * リンク：[StreamWithVPN.com][aggretsuko-vpn]、[Google][aggretsuko-google]、[Netflix][aggretsuko-netflix]
@@ -38,7 +38,7 @@ localization: sync
 
 ### 僕だけがいない街
 
-* 藤沼悟は、人の命を救うために過去へ戻る力を持っている。18 年前で目を覚ました悟は、殺された同級生たちを救う機会を得る。
+* 藤沼悟は、人の命を救うために過去へ戻る力を持っている。18年前で目を覚ました悟は、殺された同級生たちを救う機会を得る。
 * 舞台：北海道
 * ジャンル：ミステリー、スリラー
 * リンク：[StreamWithVPN.com][erased-vpn]、[Google][erased-google]、[Netflix][erased-netflix]
@@ -54,7 +54,7 @@ localization: sync
 
 ### 東京ゴッドファーザーズ
 
-* クリスマスイブの夜、新宿のゴミ捨て場で赤ん坊を拾ったホームレス 3 人組。清子と名付けたその子の親を捜すことにした 3 人は、行く先々で変わり者に遭遇する。
+* クリスマスイブの夜、新宿のゴミ捨て場で赤ん坊を拾ったホームレス3人組。清子と名付けたその子の親を捜すことにした3人は、行く先々で変わり者に遭遇する。
 * 舞台：東京
 * ジャンル：コメディ、ドラマ
 * リンク：[StreamWithVPN.com][tokyo-godfathers-vpn]、[Google][tokyo-godfathers-google]、[Netflix][tokyo-godfathers-netflix]
@@ -62,7 +62,7 @@ localization: sync
 
 ### 天気の子
 
-* 高校 1 年の夏、帆高は雨の降り続くにぎやかな東京へ家出し、天気を操れるらしい少女・陽菜に恋をする。
+* 高校1年の夏、帆高は雨の降り続くにぎやかな東京へ家出し、天気を操れるらしい少女・陽菜に恋をする。
 * 舞台：東京
 * ジャンル：ファンタジー、恋愛
 * リンク：[StreamWithVPN.com][weathering-with-you-vpn]、[Google][weathering-with-you-google]、[Netflix][weathering-with-you-netflix]
@@ -95,7 +95,7 @@ localization: sync
 * リンク：[StreamWithVPN.com][naked-director-vpn]、[Google][naked-director-google]、[Netflix][naked-director-netflix]
 
 
-### 将軍 SHOGUN
+### 将軍SHOGUN
 
 * 日本の漁村に謎のヨーロッパ船が漂着したとき、吉井虎長は権力の均衡を覆し、敵を壊滅させる秘密を発見します。
 * 舞台：戦国時代の日本
@@ -114,7 +114,6 @@ localization: sync
 [shogun-google]: https://www.google.com/search?kgmid=/g/11f7r5ydnl&hl=ja-JP&q=%E5%B0%86%E8%BB%8D%20SHOGUN
 [tokyo-godfathers-google]: https://share.google/HxAJG0jtn7pedXAO4
 [weathering-with-you-google]: https://share.google/dDnlfBzFVs1Yee0TN
-
 [aggretsuko-netflix]: https://www.netflix.com/title/80198505
 [erased-netflix]: https://www.netflix.com/title/80114225
 [garden-of-words-netflix]: https://www.netflix.com/title/70291121
@@ -124,7 +123,6 @@ localization: sync
 [parasite-netflix]: https://www.netflix.com/title/80191008
 [tokyo-godfathers-netflix]: https://www.netflix.com/title/60034521
 [weathering-with-you-netflix]: https://www.netflix.com/title/81172898
-
 [aggretsuko-vpn]: https://www.StreamWithVPN.com/aggretsuko-2018
 [erased-vpn]: https://www.StreamWithVPN.com/erased-2016
 [garden-of-words-vpn]: https://www.StreamWithVPN.com/the-garden-of-words-2013

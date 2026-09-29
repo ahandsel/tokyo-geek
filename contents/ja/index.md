@@ -41,7 +41,7 @@ features:
     details: ヒントやいろいろなメモ
     link: /ja/tips/
   - title: 📲 出発前にダウンロードしたいアプリ
-    details: 日本で使える便利な iOS アプリを紹介します。
+    details: 日本で使える便利なiOSアプリを紹介します。
     link: /ja/guides/general/apps
   - title: 🔖 便利な日本のウェブサイト
     details: 役立つ日本のウェブサイトまとめ

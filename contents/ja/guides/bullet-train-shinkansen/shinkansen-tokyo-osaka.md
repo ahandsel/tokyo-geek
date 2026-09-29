@@ -14,7 +14,7 @@ localization: independent
 
 ぷらっとこだまの料金と予約方法については、以下の記事で詳しく解説されています。
 
-* [ぷらっとこだま【東京〜大阪】料金と予約方法を徹底解説【2026 年版】][umiraku-platto-kodama]
+* [ぷらっとこだま【東京〜大阪】料金と予約方法を徹底解説【2026年版】][umiraku-platto-kodama]
 
 <!-- Links -->
 

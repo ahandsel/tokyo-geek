@@ -31,7 +31,7 @@ localization: sync
 
 teamLab Planets
 
-* [teamLab Planets TOKYO 公式チケットサイト][teamlab-tickets]
+* [teamLab Planets TOKYO公式チケットサイト][teamlab-tickets]
 * Google Maps: [https://goo.gl/maps/4taBJBBULK5DvvhdA][teamlab-map]
 
 Pokémon Café / ポケモンカフェ
@@ -45,7 +45,7 @@ Ghibli Museum / 三鷹の森ジブリ美術館
 * Google Maps: [https://goo.gl/maps/pvcepRmjVT6Vs3PL9][ghibli-map]
 
 
-## Google Maps リスト
+## Google Mapsリスト
 
 * [東京のメキシコ料理 🇲🇽🌯🌮@🗼][list-mexican]
 * [東京の台湾料理 🇹🇼🗼][list-taiwanese]
@@ -56,7 +56,7 @@ Ghibli Museum / 三鷹の森ジブリ美術館
 ## 渋谷・原宿
 
 * [Meiji Jingu Gyoen / 明治神宮御苑][meiji-jingu-gyoen]
-* [Cat Cafe MOCHA Harajuku / 猫カフェ MOCHA（モカ）原宿店][cat-cafe-mocha-harajuku]
+* [Cat Cafe MOCHA Harajuku / 猫カフェMOCHA（モカ）原宿店][cat-cafe-mocha-harajuku]
 
 
 ## 新宿
@@ -65,7 +65,7 @@ Ghibli Museum / 三鷹の森ジブリ美術館
 ## 東京駅周辺・丸の内
 
 * [Tokyo Character Street / 東京キャラクターストリート][tokyo-character-street]
-* [Marunouchi Naka-Dori Ave 丸の内仲通り][marunouchi-naka-dori]
+* [Marunouchi Naka-Dori Ave丸の内仲通り][marunouchi-naka-dori]
 
 
 ## 東京タワー・港区
@@ -97,11 +97,11 @@ Ghibli Museum / 三鷹の森ジブリ美術館
 
 ## 東京で直前に予約できるホテル
 
-APA Hotel がおすすめです。24 時間対応の信頼できるビジネスホテルチェーンで、清潔でシンプル、英語にも対応しています。
+APA Hotelがおすすめです。24時間対応の信頼できるビジネスホテルチェーンで、清潔でシンプル、英語にも対応しています。
 
 最安ではありませんが、コスパがとても良いです。
 
-便利な場所にある APA Hotel はこちらです：
+便利な場所にあるAPA Hotelはこちらです：
 
 新橋駅：[APA Hotel Shimbashi Toranomon][apa-shimbashi]
 

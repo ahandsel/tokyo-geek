@@ -1,6 +1,6 @@
 ---
-title: Figma の Config カンファレンスのヒント
-description: Figma の Config カンファレンスに参加する際のヒントと提案です。
+title: FigmaのConfigカンファレンスのヒント
+description: FigmaのConfigカンファレンスに参加する際のヒントと提案です。
 head:
   - - meta
     - name: keywords
@@ -19,7 +19,7 @@ localization: sync
 
 ## カンファレンスの準備
 
-Config カンファレンスを最大限に活用するためのヒントです。
+Configカンファレンスを最大限に活用するためのヒントです。
 
 
 ### イベントを事前に探して参加登録する
@@ -27,27 +27,27 @@ Config カンファレンスを最大限に活用するためのヒントです�
 * カンファレンス前にイベントを検索・登録して、参加者とつながりましょう。
 * 以下のプラットフォームでイベントを探せます：
   * [Luma][luma]
-    * [San Francisco のイベント][san-francisco-events]
-    * [ADPList イベントカレンダー][adplist-event-calendar]
-    * [Config 2024 コミュニティイベント カレンダー][config-2024-community-events-calendar]
-  * Config の[コミュニティイベント][community-events]
+    * [San Franciscoのイベント][san-francisco-events]
+    * [ADPListイベントカレンダー][adplist-event-calendar]
+    * [Config 2024コミュニティイベント カレンダー][config-2024-community-events-calendar]
+  * Configの[コミュニティイベント][community-events]
   * [Meetup][meetup]
   * [Eventbrite][eventbrite]
-* Google で「Config Kickoff Happy Hour」や「Config After Party」と検索してみましょう。
+* Googleで「Config Kickoff Happy Hour」や「Config After Party」と検索してみましょう。
 * カンファレンス主催者が提供するリストもチェックしてください。
   * 例：[Config 2024 After Party and Meetups List][config-2024-after-party-and-meetups-list]
 * スポンサー企業がイベントを開催していることも多いので、そちらも確認しましょう。
-  * 例：[GitHub x Figma Dev Community Event][github-x-figma-dev-community-event] では、自社製品と Figma との連携をデモしていました。
-* Figma の競合企業もイベントを開催していることがあります。
+  * 例：[GitHub x Figma Dev Community Event][github-x-figma-dev-community-event] では、自社製品とFigmaとの連携をデモしていました。
+* Figmaの競合企業もイベントを開催していることがあります。
   * 例：[Config Meetup by Wix Studio][config-meetup-by-wix-studio]
-  * ネットワーキングに加えて、自社製品のデモや Figma との比較を行っていました。
+  * ネットワーキングに加えて、自社製品のデモやFigmaとの比較を行っていました。
 
 
-### Slack ワークスペースに参加して声をかける
+### Slackワークスペースに参加して声をかける
 
-* カンファレンスの Slack ワークスペースに参加して、他の参加者とつながりましょう。
-* これがきっかけで、カンファレンス中に UX ライターやデザイナーと出会うことができました。
-* UX ライターは普段あまり出会う機会がないので、貴重な場です。
+* カンファレンスのSlackワークスペースに参加して、他の参加者とつながりましょう。
+* これがきっかけで、カンファレンス中にUXライターやデザイナーと出会うことができました。
+* UXライターは普段あまり出会う機会がないので、貴重な場です。
 
 
 ## カンファレンス当日
@@ -62,7 +62,7 @@ Config カンファレンスを最大限に活用するためのヒントです�
 * [Starbucks - 789 Mission St][starbucks-789-mission-st] - モバイルオーダーを活用すると便利です。
 
 
-### Day 0 イベントは楽しいので参加する価値あり
+### Day 0イベントは楽しいので参加する価値あり
 
 * バッジは早めに受け取って行列を避けましょう。
 * キックオフハッピーアワーに参加して、他の参加者と交流しましょう。

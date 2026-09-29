@@ -17,37 +17,37 @@ localization: sync
 
 ## 吉祥寺のジム
 
-* 2023 年 5 月 31 日時点の情報
+* 2023年5月31日時点の情報
 * 月額会費順にリストしています
 
 TIPNESS
 
-* 評価：3.5（85 件）
-* 月額会費：6,710 円/月
-* 入会金：5,500 円
+* 評価：3.5（85件）
+* 月額会費：6,710円/月
+* 入会金：5,500円
 * Google Maps: [https://maps.app.goo.gl/jaCLDsTCRWubEwGe8][tipness-google]
 * ウェブサイト：[https://tip.tipness.co.jp/shop_info/SHP004/][tipness-website]
 
 Snap Fitness
 
-* 評価：4.5（48 件）
-* 月額会費：6,990 円/月
+* 評価：4.5（48件）
+* 月額会費：6,990円/月
 * Google Maps: [https://maps.app.goo.gl/P24rtyqGMerX2ysv5][snap-google]
 * ウェブサイト：[https://www.snapfitness.jp/locations/kichijoji/][snap-website]
 
-FASTGYM24 三鷹
+FASTGYM24三鷹
 
-* 評価：3.3（26 件）
-* 月額会費：7,370 円/月
-* 入会金：6,050 円
+* 評価：3.3（26件）
+* 月額会費：7,370円/月
+* 入会金：6,050円
 * Google Maps: [https://goo.gl/maps/GfmEPCVowFRFNdmN8][fastgym-google]
 * ウェブサイト：[https://fastgym24.jp/shop/303/][fastgym-website]
 
-Anytime Fitness 吉祥寺
+Anytime Fitness吉祥寺
 
-* 評価：3.2（51 件）
-* 月額会費：7,150 円/月
-* 入会金：6,050 円
+* 評価：3.2（51件）
+* 月額会費：7,150円/月
+* 入会金：6,050円
 * Google Maps: [https://goo.gl/maps/h9wgFgwWACsYKM4GA][anytime-google]
 * ウェブサイト：[https://www.anytimefitness.co.jp/kichijoji/][anytime-website]
 

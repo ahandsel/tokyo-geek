@@ -1,6 +1,6 @@
 ---
 title: 東京でサイクリング
-description: Docomo Cycle マップなど、東京のシェアサイクルスポットへのクイックリンクです。
+description: Docomo Cycleマップなど、東京のシェアサイクルスポットへのクイックリンクです。
 head:
   - - meta
     - name: keywords
@@ -15,9 +15,9 @@ localization: sync
 [[toc]]
 
 
-## Docomo の自転車をレンタルする
+## Docomoの自転車をレンタルする
 
-[Docomo Cycle スポットの Google Maps][docomo-cycle-map]
+[Docomo CycleスポットのGoogle Maps][docomo-cycle-map]
 
 注意：このマップはデスクトップ表示でのみ開けます。
 

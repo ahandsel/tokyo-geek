@@ -30,9 +30,9 @@ localization: sync
 
 ### 大阪のホテル
 
-* 日〜火、12 月 4 日〜12 月 6 日（2 泊）
-* 料金：2 泊で 10,979 円
-* Hotel Links Dobutsuenmae (（日本中から大阪いらっしゃい 2022）ホテルリンクス動物園前)
+* 日〜火、12月4日〜12月6日（2泊）
+* 料金：2泊で10,979円
+* Hotel Links Dobutsuenmae（（日本中から大阪いらっしゃい2022）ホテルリンクス動物園前）
 * [https://goo.gl/maps/uRJ32fxQrTjTk3qDA][hotel-links-dobutsuenmae-map]
 
 <!-- Links -->

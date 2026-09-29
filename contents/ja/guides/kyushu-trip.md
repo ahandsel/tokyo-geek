@@ -30,7 +30,7 @@ localization: sync
 ## 過去の旅程
 
 
-### 水曜日 - 3 月 29 日
+### 水曜日 - 3月29日
 
 Narita {NRT} -> Fukuoka {FUK}
 
@@ -47,7 +47,7 @@ Narita {NRT} -> Fukuoka {FUK}
 * 博多駅近くのしっかりしたホテル
 
 
-### 木曜日 - 3 月 30 日
+### 木曜日 - 3月30日
 
 * [太宰府天満宮][dazaifu-tenmangu]
 
@@ -61,7 +61,7 @@ Narita {NRT} -> Fukuoka {FUK}
 * [https://goo.gl/maps/3CF6bR6nJWxm6njD7][map-ooedo-onsen-monogatari-nagasaki-hotel-seifu]
 
 
-### 金曜日 - 3 月 31 日
+### 金曜日 - 3月31日
 
 * [軍艦島 - 長崎観光][gunkanjima-island]
 
@@ -79,7 +79,7 @@ Narita {NRT} -> Fukuoka {FUK}
 * 少し高めですが、無印良品スタイルが好きならここがおすすめです。
 
 
-### 土曜日 - 4 月 1 日
+### 土曜日 - 4月1日
 
 * [阿蘇山][map-mount-aso]
 * 高千穂峡
@@ -91,7 +91,7 @@ Narita {NRT} -> Fukuoka {FUK}
 * 屋上露天風呂 ♨️
 
 
-### 日曜日 - 4 月 2 日
+### 日曜日 - 4月2日
 
 * 旦過市場
 * 小倉城
@@ -105,7 +105,7 @@ Narita {NRT} -> Fukuoka {FUK}
 * 🧺 コインランドリーあり
 
 
-### 月曜日 - 4 月 3 日
+### 月曜日 - 4月3日
 
 お昼に福岡から東京へ飛行機で帰ります。
 

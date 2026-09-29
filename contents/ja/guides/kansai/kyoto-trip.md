@@ -112,7 +112,7 @@ localization: sync
 
 夕食：[Kobayashiya][map-kobayashiya]
 
-20:00 まで営業
+20:00まで営業
 
 [Kyoto Imperial Palace / 京都御所][map-kyoto-imperial-palace]
 
@@ -127,7 +127,7 @@ localization: sync
 
 ## 京都のホテル
 
-* [JP INN Kyoto Ekimae Izutsucho (JP INN 京都駅前 井筒町)][map-jp-inn-kyoto]
+* [JP INN Kyoto Ekimae Izutsucho（JP INN京都駅前 井筒町）][map-jp-inn-kyoto]
 
 <!-- Links -->
 

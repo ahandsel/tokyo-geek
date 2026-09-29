@@ -11,16 +11,16 @@ localization: sync
 
 # {{$frontmatter.title}}
 
-日本に行くことを決めたあなた、おめでとうございます！
+日本に行くことを決めたあなた、おめでとうございます。
 
 {{$frontmatter.description}}
 
 [[toc]]
 
 
-## 日本についてのおすすめ YouTube チャンネル
+## 日本についてのおすすめYouTubeチャンネル
 
-日本に住んでいる現地の方や海外出身の方が運営している YouTube チャンネルです。おすすめ順に並べています。日本の雰囲気を感じるのにぴったりです。
+日本に住んでいる現地の方や海外出身の方が運営しているYouTubeチャンネルです。おすすめ順に並べています。日本の雰囲気を感じるのにぴったりです。
 
 1. [Paolo from Tokyo][yt-paolo-from-tokyo]
 2. [Abroad in Japan][yt-abroad-in-japan]
@@ -78,7 +78,7 @@ localization: sync
 アイデアの参考に、おすすめの旅行プランはこちらです：
 
 * [秩父][trip-chichibu]
-* [伊豆/箱根][trip-izu-hakone]
+* [伊豆・箱根][trip-izu-hakone]
 * [京都][trip-kyoto]
 * [九州][trip-kyushu]
 * [名古屋][trip-nagoya]

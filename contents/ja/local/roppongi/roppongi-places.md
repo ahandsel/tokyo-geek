@@ -47,28 +47,28 @@ Soul Food House
 
 ### ランチ
 
-Hainanese Chicken Rice 麻布十番本店
+Hainanese Chicken Rice麻布十番本店
 
-* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-11-16 裏手 1F 中銀マンション
+* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-11-16裏手1F中銀マンション
 * [Google Maps][hainanese-chicken-rice]
-* ランチがお得です！
+* ランチがお得です。
 
 天ぷら 味覚
 
-* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-7-17 小俣ビル 1 階
+* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-7-17小俣ビル1階
 * [Google Maps][tempura-mikaku]
 * ランチメニューが充実しています
 * [youtu.be/1dJAIvCk0MA][tempura-mikaku-youtube]
 
-中国茶房 8 六本木店
+中国茶房8六本木店
 
 * Japan, 〒106-0031 Tokyo, Minato City, Nishiazabu, 3 Chome-2-13, Court Annex Roppongi, 2F
 * [Google Maps][chugoku-chabo-8]
-* 24 時間営業の安い中華料理店
+* 24時間営業の安い中華料理店
 
-ペルシャ料理 Cooche（キッチンカー / フードトラック）
+ペルシャ料理Cooche（キッチンカー / フードトラック）
 
-* Japan, 〒106-0031 Tokyo, Minato City, Nishiazabu, 3 Chome-5-5 ワールド東京店西麻布ビル
+* Japan, 〒106-0031 Tokyo, Minato City, Nishiazabu, 3 Chome-5-5ワールド東京店西麻布ビル
 * [Google Maps][persia-cooche]
 * 月曜日のランチにおすすめ
 
@@ -78,20 +78,20 @@ Sunrise Food Trucks
 * [Google Maps][sunrise-food-trucks]
 * ランチのフードトラック
 
-Frijoles 六本木店
+Frijoles六本木店
 
-* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-6-9 ピラミデビル 1F
+* Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome-6-9ピラミデビル1F
 * [Google Maps][frijoles-roppongi]
 * テラス席がいい感じです
 
-FALAFEL BROTHERS 六本木店
+FALAFEL BROTHERS六本木店
 
 * 5 Chome-1-11 Roppongi, Minato City, Tokyo 106-0032
 * [Google Maps][falafel-brothers-roppongi]
 
 Sukha Cafe Bar
 
-* Japan, 〒106-0046 Tokyo, Minato City, Motoazabu, 2 Chome-11-53 ゴメッツ元麻布
+* Japan, 〒106-0046 Tokyo, Minato City, Motoazabu, 2 Chome-11-53ゴメッツ元麻布
 * [Google Maps][sukha-cafe-bar]
 
 
@@ -105,11 +105,11 @@ Little Darling Coffee Roasters | リトル ダーリン コーヒー ロース�
 
 Les Grands Arbres
 
-* Japan, 〒106-0047 Tokyo, Minato City, Minamiazabu, 5 Chome-15-11 3 階・屋上
+* Japan, 〒106-0047 Tokyo, Minato City, Minamiazabu, 5 Chome-15-11 3階・屋上
 * [Google Maps][les-grands-arbres]
 * 隠れ家カフェ
 
-CAFFERA BAR & LOUNGE by 上島珈琲店
+CAFFERA BAR & LOUNGE by上島珈琲店
 
 * Japan, 〒106-0045 Tokyo, Minato City, Azabujuban, 1 Chome-5-23 HOTEL THE LIBELY 2F
 * [Google Maps][caffera-bar-lounge]
@@ -146,7 +146,7 @@ Bondi Cafe Hiroo
 
 貴美島デンタルオフィス
 
-* Japan, 〒106-0047 Tokyo, Minato City, Minamiazabu, 5 Chome-2-35 イシマルマンション 501 号
+* Japan, 〒106-0047 Tokyo, Minato City, Minamiazabu, 5 Chome-2-35イシマルマンション501号
 * [Google Maps][kimishima-dental]
 * 親切な歯医者さん
 

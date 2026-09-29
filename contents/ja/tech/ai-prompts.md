@@ -1,6 +1,6 @@
 ---
-title: AI プロンプト - 日本語ライティング
-description: 日本語の翻訳、編集、ライティングに使える ChatGPT プロンプト集です。
+title: AIプロンプト - 日本語ライティング
+description: 日本語の翻訳、編集、ライティングに使えるChatGPTプロンプト集です。
 head:
   - - meta
     - name: keywords
@@ -10,7 +10,7 @@ localization: sync
 
 # {{$frontmatter.title}}
 
-日本語関連のタスクで使っている ChatGPT プロンプトを紹介します。
+日本語関連のタスクで使っているChatGPTプロンプトを紹介します。
 
 
 ## ビジネス日本語のライティングチェック
