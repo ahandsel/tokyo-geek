@@ -25,7 +25,7 @@ localization: sync
 * Apple Pay は大型店、チェーン、百貨店で使えました。
 * Apple Pay 非対応でもデジタル決済を受け付ける小さな店には [Line Pay][line-pay] と [EasyCard][easycard] が補完になりました。
 * クレジットカードは MRT の改札と都市間鉄道で使えるので、それらだけのために EasyCard をチャージする必要はありません。
-* [Wise][wise] と [Revolut][revolut] のデビットカードは海外取引手数料がかからないので、少額の買い物でも通常のクレジットカードのような為替上乗せが発生しません。
+  * [Wise][wise] と [Revolut][revolut] のデビットカードは海外取引手数料がかからないので、MRT の乗車に最適です。
 
 
 ## EasyCard を iPass より優先する 🚇
@@ -37,9 +37,7 @@ localization: sync
 * チャージはどの MRT 駅でもコンビニでもできます。
 
 
-## Klook の eSIM 📱
-
-eSIM で通信を確保します。 📶
+## Klook の eSIM で安く通信を確保する 📶
 
 * 13 日間の通常利用（地図、写真、ストリーミング含む）なら 20 GB で足りました。
 * 公共 Wi-Fi は少なく、遅かったです。eSIM の方が快適でした。

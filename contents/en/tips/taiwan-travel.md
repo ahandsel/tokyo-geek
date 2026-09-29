@@ -25,7 +25,7 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
 * Apple Pay covered larger shops, chains, and department stores.
 * [Line Pay][line-pay] and [EasyCard][easycard] filled the gap for smaller shops that did not take Apple Pay but did want a digital option.
 * Credit cards work at the MRT gates and on intercity trains, so you do not need to top up an EasyCard for those.
-* [Wise][wise] and [Revolut][revolut] debit cards charge no foreign transaction fee, so small purchases do not pick up the exchange markup a regular credit card adds.
+  * [Wise][wise] and [Revolut][revolut] debit cards charge no foreign transaction fee, which makes them ideal for MRT rides.
 
 
 ## EasyCard over iPass 🚇
