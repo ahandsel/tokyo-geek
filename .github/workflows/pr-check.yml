@@ -44,6 +44,11 @@ jobs:
       - name: Check content pairing and frontmatter
         run: pnpm check-content
 
+      - name: Check that docs/contents-structure.md is current
+        run: |
+          pnpm tree
+          git diff --exit-code -- docs/contents-structure.md
+
       - name: Build VitePress site
         run: pnpm build
 
