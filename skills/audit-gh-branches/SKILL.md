@@ -51,8 +51,9 @@ Common flags:
 # Override the base branch or remote.
 node skills/audit-gh-branches/scripts/collect-branches.mjs --base-branch develop --remote upstream
 
-# Use a different staleness cutoff.
+# Use a different staleness cutoff (pass the same value to both helpers).
 node skills/audit-gh-branches/scripts/collect-branches.mjs --stale-days 90
+node skills/audit-gh-branches/scripts/extract-branch-notes.mjs BRANCH_NAME --output-dir "notes/$(date +%F)-branch-audit" --stale-days 90
 
 # Skip git fetch (use the current local snapshot).
 node skills/audit-gh-branches/scripts/collect-branches.mjs --no-fetch
@@ -89,7 +90,7 @@ Write all notes to the filesystem using this structure, where `<YYYY-MM-DD>` is 
   * `summary.md` - what the unique work does, key commit hashes, files of interest, link to the patch.
   * `unique-commits.patch` - `git log -p` of the unique commits in chronological order.
 
-`extract-branch-notes.mjs` sanitizes branch names by replacing `/` with `-` and reports the convention it used.
+`extract-branch-notes.mjs` sanitizes branch names by replacing `/` with `-`.
 
 
 ## Report contents (`branch-audit.md`)
@@ -111,7 +112,8 @@ Behavior:
 
 * Runs `git fetch --all --prune` first (skippable with `--no-fetch`).
 * Enumerates local refs and remote refs on the chosen remote (default `origin`).
-* For each branch computes: `lastCommitDate`, `lastCommitAuthor`, `ahead`, `behind`, `merged`, `cherryUnique`, `cherryDuplicated`, `location` (`local`, `remote`, `local-and-remote`, or `local-only-remote-gone`), and a proposed `disposition` plus `reason`.
+* For each branch computes: `lastDate`, `lastAuthor`, `ahead`, `behind`, `merged`, `cherryUnique`, `cherryDuplicated`, `location` (`local`, `remote`, `local-and-remote`, or `local-only-remote-gone`), and a proposed `disposition` plus `reason`. The governing `ref` is named in the record.
+* For a branch that exists both locally and on the remote, also records `localAhead`, `localBehind`, `localMerged`, `remoteAhead`, `remoteBehind`, `remoteMerged`, `localAheadOfRemote`, and `remoteAheadOfLocal`. The local ref governs the classification whenever `localAheadOfRemote` is above zero (unpushed work), so unpushed commits are never reported as merged or safe to delete; otherwise the remote ref governs. The Markdown table shows this as `Local + Remote (N unpushed)`.
 * Emits JSON (default) or a Markdown summary table (`--format markdown`).
 * Exits `0` on success, `1` on git failure, `2` on invalid arguments.
 
@@ -125,13 +127,14 @@ Behavior:
 * Computes the unique-commit range as `<base>..<branch>` and writes `<output-dir>/<sanitized-branch>/unique-commits.patch` (full `git log -p` in chronological order).
 * Writes `<output-dir>/<sanitized-branch>/summary.md` pre-filled with the branch's metadata (disposition, location, last commit, ahead/behind, unique commit list, files of interest).
 * Refuses to overwrite an existing `summary.md` unless `--force` is passed; always overwrites `unique-commits.patch` (it is regenerated from git).
-* Exits `0` on success, `1` on git failure, `2` on invalid arguments.
+* Accepts `--stale-days <n>` so its disposition line uses the same cutoff as `collect-branches.mjs` (default `60`).
+* Exits `0` on success, `1` on git failure, `2` on invalid arguments, `3` when `summary.md` already exists and `--force` was not passed.
 
 
 ## Constraints
 
 * Do not execute any destructive or history-rewriting command, and do not make network calls beyond `git fetch`.
-* Use the bundled helpers - do not reinvent the data-gathering with ad-hoc `git` calls. The helpers handle pagination, formatting, sanitization, and consistent output.
+* Use the bundled helpers - do not reinvent the data-gathering with ad-hoc `git` calls. The helpers handle formatting, sanitization, and consistent output.
 * If branch data is ambiguous or a classification is uncertain, say so in the report and explain what additional information would resolve it rather than guessing.
 * Keep reasoning concise; prefer the table and structured sections over long prose.
 

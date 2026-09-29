@@ -8,6 +8,11 @@
 //   needs-rebase, ice, keep-active). Drives the audit-gh-branches skill.
 // * Runs `git fetch --all --prune` first by default. Use --no-fetch to operate
 //   on the current local snapshot only.
+// * A branch that exists both locally and on the remote is classified on the
+//   local ref whenever the local ref holds commits the remote lacks (unpushed
+//   work); otherwise the remote ref governs. Both sets of numbers are kept in
+//   the record (localAhead, remoteAhead, localMerged, remoteMerged, and
+//   localAheadOfRemote).
 // * Never deletes, rebases, pushes, or modifies any branch. Only reads.
 // Usage:
 //   node skills/audit-gh-branches/scripts/collect-branches.mjs
@@ -24,11 +29,12 @@
 //   --no-fetch            Skip the initial `git fetch --all --prune`.
 //   --help, -h            Show this message.
 // Output:
-// * JSON array of branch records on stdout (default), or a Markdown summary
-//   table when --format markdown is given.
+// * JSON object on stdout (default) with a `branches` array of records, or a
+//   Markdown summary table when --format markdown is given.
 // * One status line on stderr summarizing counts per disposition.
 // * Exit codes: 0 success, 1 git failure, 2 invalid arguments.
 // Version history:
+// * v1.2 - 2026-09-29 - Make keep-active reachable (0 behind), classify local+remote branches on the local ref when it has unpushed commits, keep both local and remote stats, reject ref values starting with "-", and exit 1 on every git failure.
 // * v1.1 - 2026-09-06 - Import into tokyo-geek; drop the retired prompt-file reference from the notes.
 // * v1.0 - 2026-06-16 - Initial release. Replaces inline data-gathering steps.
 
@@ -50,7 +56,7 @@ Options:
 
 Exit codes:
   0  Success.
-  1  Git failure (missing repo, missing base branch, etc.).
+  1  Git failure (missing repo, missing base branch, failed git command, etc.).
   2  Invalid arguments.
 `);
 }
@@ -69,7 +75,7 @@ function git(args) {
 function gitOk(args, { allowEmpty = false } = {}) {
   const r = git(args);
   if (r.status !== 0) {
-    fail(r.status || 1, `git ${args.join(' ')} failed:\n${r.stderr.trim()}`);
+    fail(1, `git ${args.join(' ')} failed:\n${(r.stderr || '').trim()}`);
   }
   if (!allowEmpty && r.stdout == null) return '';
   return r.stdout;
@@ -78,6 +84,15 @@ function gitOk(args, { allowEmpty = false } = {}) {
 function gitTry(args) {
   const r = git(args);
   return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
+}
+
+// Values that reach git as ref names must not look like git options.
+function requireRefValue(flag, value) {
+  if (!value) fail(2, `${flag} requires a value.`);
+  if (value.startsWith('-')) {
+    fail(2, `${flag} value must not start with "-": ${value}`);
+  }
+  return value;
 }
 
 function parseArgs(argv) {
@@ -97,12 +112,10 @@ function parseArgs(argv) {
         process.exit(0);
         break;
       case '--base-branch':
-        opts.baseBranch = argv[++i];
-        if (!opts.baseBranch) fail(2, '--base-branch requires a value.');
+        opts.baseBranch = requireRefValue('--base-branch', argv[++i]);
         break;
       case '--remote':
-        opts.remote = argv[++i];
-        if (!opts.remote) fail(2, '--remote requires a value.');
+        opts.remote = requireRefValue('--remote', argv[++i]);
         break;
       case '--stale-days': {
         const v = Number(argv[++i]);
@@ -195,6 +208,7 @@ function listRemoteBranches(remote) {
     .filter(Boolean);
 }
 
+// Commits reachable from `ref` but not `baseRef` (ahead) and the reverse (behind).
 function aheadBehind(baseRef, ref) {
   const r = gitTry([
     'rev-list',
@@ -226,7 +240,19 @@ function cherryStats(baseRef, ref) {
   return { unique, duplicated };
 }
 
-function classify({ merged, ahead, lastDate, cherry, staleCutoffDate }) {
+// Everything classify() needs about one ref, measured against the base.
+function statsAgainstBase(baseRef, ref) {
+  const { ahead, behind } = aheadBehind(baseRef, ref);
+  return {
+    ref,
+    ahead,
+    behind,
+    merged: isMerged(baseRef, ref),
+    cherry: cherryStats(baseRef, ref),
+  };
+}
+
+function classify({ merged, ahead, behind, lastDate, cherry, staleCutoffDate }) {
   if (merged || ahead === 0) {
     return {
       disposition: 'safe-to-delete',
@@ -245,9 +271,18 @@ function classify({ merged, ahead, lastDate, cherry, staleCutoffDate }) {
       reason: `Stale: last commit ${lastDate} is before cutoff ${staleCutoffDate}`,
     };
   }
+  if (behind === 0) {
+    return {
+      disposition: 'keep-active',
+      reason: 'Up to date with base and recently active',
+    };
+  }
   return {
     disposition: 'needs-rebase',
-    reason: 'Has unique commits and is behind base',
+    reason:
+      behind == null
+        ? 'Has unique commits; behind count unknown'
+        : `Has unique commits and is ${behind} behind base`,
   };
 }
 
@@ -264,18 +299,15 @@ function buildIndex(opts) {
 
   const staleCutoffDate = computeStaleCutoff(opts.staleDays);
   const byName = new Map();
+  const localStatsByName = new Map();
 
   for (const local of locals) {
     if (local.name === opts.baseBranch) continue;
-    const ref = local.name;
-    const { ahead, behind } = aheadBehind(baseRef, ref);
-    const merged = isMerged(baseRef, ref);
-    const cherry = cherryStats(baseRef, ref);
+    const stats = statsAgainstBase(baseRef, local.name);
+    localStatsByName.set(local.name, stats);
     const cls = classify({
-      merged,
-      ahead,
+      ...stats,
       lastDate: local.lastDate,
-      cherry,
       staleCutoffDate,
     });
     byName.set(local.name, {
@@ -288,16 +320,24 @@ function buildIndex(opts) {
       lastAuthor: local.lastAuthor,
       upstream: local.upstream,
       upstreamGone: local.upstreamGone,
-      ahead,
-      behind,
-      merged,
-      cherryUnique: cherry.unique,
-      cherryDuplicated: cherry.duplicated,
-      duplicatedElsewhere: cherry.duplicated > 0,
+      ahead: stats.ahead,
+      behind: stats.behind,
+      merged: stats.merged,
+      localAhead: stats.ahead,
+      localBehind: stats.behind,
+      localMerged: stats.merged,
+      remoteAhead: null,
+      remoteBehind: null,
+      remoteMerged: null,
+      localAheadOfRemote: null,
+      remoteAheadOfLocal: null,
+      cherryUnique: stats.cherry.unique,
+      cherryDuplicated: stats.cherry.duplicated,
+      duplicatedElsewhere: stats.cherry.duplicated > 0,
       disposition: cls.disposition,
       reason: cls.reason,
       baseRef,
-      ref,
+      ref: stats.ref,
     });
   }
 
@@ -305,12 +345,19 @@ function buildIndex(opts) {
     if (remote.name === opts.baseBranch) continue;
     const ref = remote.fullName; // origin/<name>
     const existing = byName.get(remote.name);
+    const remoteStats = statsAgainstBase(baseRef, ref);
     if (existing) {
-      // Re-compute ahead/behind and cherry against the remote ref; prefer the
-      // newer of the two commit dates for the staleness check.
-      const { ahead, behind } = aheadBehind(baseRef, ref);
-      const merged = isMerged(baseRef, ref);
-      const cherry = cherryStats(baseRef, ref);
+      const localStats = localStatsByName.get(remote.name);
+      // Commits only on the local ref (unpushed) and only on the remote ref.
+      const divergence = aheadBehind(ref, localStats.ref);
+      const localAheadOfRemote = divergence.ahead;
+      const remoteAheadOfLocal = divergence.behind;
+      // The local ref governs when it holds commits the remote lacks, so
+      // unpushed work is never reported as merged or safe to delete. Otherwise
+      // the remote ref is a superset of the local one and governs.
+      const governLocal = (localAheadOfRemote ?? 0) > 0;
+      const governing = governLocal ? localStats : remoteStats;
+      // Prefer the newer of the two commit dates for the staleness check.
       const lastDate =
         remote.lastDate > existing.localLastDate
           ? remote.lastDate
@@ -320,12 +367,13 @@ function buildIndex(opts) {
           ? remote.lastAuthor
           : existing.localLastAuthor;
       const cls = classify({
-        merged,
-        ahead,
+        ...governing,
         lastDate,
-        cherry,
         staleCutoffDate,
       });
+      const reason = governLocal
+        ? `${cls.reason}; ${localAheadOfRemote} unpushed local commit(s)`
+        : cls.reason;
       byName.set(remote.name, {
         ...existing,
         location: 'local-and-remote',
@@ -333,25 +381,25 @@ function buildIndex(opts) {
         remoteLastAuthor: remote.lastAuthor,
         lastDate,
         lastAuthor,
-        ahead,
-        behind,
-        merged,
-        cherryUnique: cherry.unique,
-        cherryDuplicated: cherry.duplicated,
-        duplicatedElsewhere: cherry.duplicated > 0,
+        ahead: governing.ahead,
+        behind: governing.behind,
+        merged: governing.merged,
+        remoteAhead: remoteStats.ahead,
+        remoteBehind: remoteStats.behind,
+        remoteMerged: remoteStats.merged,
+        localAheadOfRemote,
+        remoteAheadOfLocal,
+        cherryUnique: governing.cherry.unique,
+        cherryDuplicated: governing.cherry.duplicated,
+        duplicatedElsewhere: governing.cherry.duplicated > 0,
         disposition: cls.disposition,
-        reason: cls.reason,
-        ref,
+        reason,
+        ref: governing.ref,
       });
     } else {
-      const { ahead, behind } = aheadBehind(baseRef, ref);
-      const merged = isMerged(baseRef, ref);
-      const cherry = cherryStats(baseRef, ref);
       const cls = classify({
-        merged,
-        ahead,
+        ...remoteStats,
         lastDate: remote.lastDate,
-        cherry,
         staleCutoffDate,
       });
       byName.set(remote.name, {
@@ -364,12 +412,20 @@ function buildIndex(opts) {
         lastAuthor: remote.lastAuthor,
         upstream: null,
         upstreamGone: false,
-        ahead,
-        behind,
-        merged,
-        cherryUnique: cherry.unique,
-        cherryDuplicated: cherry.duplicated,
-        duplicatedElsewhere: cherry.duplicated > 0,
+        ahead: remoteStats.ahead,
+        behind: remoteStats.behind,
+        merged: remoteStats.merged,
+        localAhead: null,
+        localBehind: null,
+        localMerged: null,
+        remoteAhead: remoteStats.ahead,
+        remoteBehind: remoteStats.behind,
+        remoteMerged: remoteStats.merged,
+        localAheadOfRemote: null,
+        remoteAheadOfLocal: null,
+        cherryUnique: remoteStats.cherry.unique,
+        cherryDuplicated: remoteStats.cherry.duplicated,
+        duplicatedElsewhere: remoteStats.cherry.duplicated > 0,
         disposition: cls.disposition,
         reason: cls.reason,
         baseRef,
@@ -415,6 +471,14 @@ const DISPOSITION_LABEL = {
   'keep-active': 'Keep active',
 };
 
+function locationLabel(b) {
+  const base = LOCATION_LABEL[b.location] || b.location;
+  if (b.localAheadOfRemote > 0) {
+    return `${base} (${b.localAheadOfRemote} unpushed)`;
+  }
+  return base;
+}
+
 function buildMarkdown(index) {
   const rows = index.branches.map((b) => {
     const dup =
@@ -425,7 +489,7 @@ function buildMarkdown(index) {
           : 'No';
     return [
       b.name,
-      LOCATION_LABEL[b.location] || b.location,
+      locationLabel(b),
       b.lastDate || '',
       `${b.ahead ?? '?'} / ${b.behind ?? '?'}`,
       b.merged ? 'Yes' : 'No',
@@ -479,8 +543,7 @@ function main() {
     const r = spawnSync('git', ['fetch', '--all', '--prune'], {
       stdio: 'inherit',
     });
-    if (r.status !== 0)
-      fail(r.status || 1, '`git fetch --all --prune` failed.');
+    if (r.status !== 0) fail(1, '`git fetch --all --prune` failed.');
   }
 
   const index = buildIndex(opts);

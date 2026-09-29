@@ -10,16 +10,21 @@
 //   branch.
 // * Handles both local and remote-only branches: if `<branch>` does not exist
 //   locally, the script falls back to `<remote>/<branch>`.
+// * The patch is streamed from git straight to disk, so its size is not
+//   limited by the child-process output buffer.
 // Usage:
 //   node skills/audit-gh-branches/scripts/extract-branch-notes.mjs <branch> --output-dir <dir>
 //   node skills/audit-gh-branches/scripts/extract-branch-notes.mjs <branch> --output-dir <dir> --base-branch main
 //   node skills/audit-gh-branches/scripts/extract-branch-notes.mjs <branch> --output-dir <dir> --remote origin
+//   node skills/audit-gh-branches/scripts/extract-branch-notes.mjs <branch> --output-dir <dir> --stale-days 90
 //   node skills/audit-gh-branches/scripts/extract-branch-notes.mjs <branch> --output-dir <dir> --force
 // Options:
 //   <branch>              Branch name (without remote prefix), e.g. feature-x.
 //   --output-dir <dir>    Audit folder root (e.g. notes/2026-06-16-branch-audit). Required.
 //   --base-branch <name>  Base branch. Defaults to main.
 //   --remote <name>       Remote used to resolve a remote-only branch. Defaults to origin.
+//   --stale-days <n>      Days after which a branch is considered stale. Defaults to 60.
+//                         Pass the same value given to collect-branches.mjs.
 //   --force               Overwrite an existing summary.md (the patch is always overwritten).
 //   --help, -h            Show this message.
 // Output:
@@ -31,11 +36,20 @@
 // * Exit codes: 0 success, 1 git failure, 2 invalid arguments,
 //   3 refused overwrite (summary.md exists; pass --force to overwrite).
 // Version history:
+// * v1.2 - 2026-09-29 - Stream the patch to disk (no 1 MiB buffer limit), add --stale-days, make keep-active reachable, reject ref values starting with "-", exit 1 on every git failure, and remove a partial patch on failure.
 // * v1.1 - 2026-09-06 - Import into tokyo-geek; drop the retired prompt-file reference from the notes.
 // * v1.0 - 2026-06-16 - Initial release. Extracted from inline data-gathering steps.
 
 import { spawnSync } from 'node:child_process';
-import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
+import {
+  closeSync,
+  existsSync,
+  mkdirSync,
+  openSync,
+  rmSync,
+  rmdirSync,
+  writeFileSync,
+} from 'node:fs';
 import { join } from 'node:path';
 
 function printUsage() {
@@ -54,13 +68,16 @@ Options:
   --base-branch <name>  Base branch. Defaults to main.
   --remote <name>       Remote for resolving remote-only branches. Defaults to
                         origin.
+  --stale-days <n>      Days after which a branch is stale. Defaults to 60.
+                        Pass the same value given to collect-branches.mjs.
   --force               Overwrite an existing summary.md (the patch is always
                         overwritten).
   --help, -h            Show this message.
 
 Exit codes:
   0  Success.
-  1  Git failure (missing branch, missing base, no unique commits, etc.).
+  1  Git failure (missing branch, missing base, no unique commits, failed git
+     command, etc.).
   2  Invalid arguments.
   3  Refused overwrite of an existing summary.md (pass --force).
 `);
@@ -80,10 +97,7 @@ function git(args) {
 function gitOk(args) {
   const r = git(args);
   if (r.status !== 0) {
-    fail(
-      r.status || 1,
-      `git ${args.join(' ')} failed:\n${(r.stderr || '').trim()}`,
-    );
+    fail(1, `git ${args.join(' ')} failed:\n${(r.stderr || '').trim()}`);
   }
   return r.stdout || '';
 }
@@ -93,12 +107,22 @@ function gitTry(args) {
   return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
+// Values that reach git as ref names must not look like git options.
+function requireRefValue(flag, value) {
+  if (!value) fail(2, `${flag} requires a value.`);
+  if (value.startsWith('-')) {
+    fail(2, `${flag} value must not start with "-": ${value}`);
+  }
+  return value;
+}
+
 function parseArgs(argv) {
   const opts = {
     branch: null,
     outputDir: null,
     baseBranch: 'main',
     remote: 'origin',
+    staleDays: 60,
     force: false,
   };
   for (let i = 0; i < argv.length; i++) {
@@ -114,13 +138,18 @@ function parseArgs(argv) {
         if (!opts.outputDir) fail(2, '--output-dir requires a value.');
         break;
       case '--base-branch':
-        opts.baseBranch = argv[++i];
-        if (!opts.baseBranch) fail(2, '--base-branch requires a value.');
+        opts.baseBranch = requireRefValue('--base-branch', argv[++i]);
         break;
       case '--remote':
-        opts.remote = argv[++i];
-        if (!opts.remote) fail(2, '--remote requires a value.');
+        opts.remote = requireRefValue('--remote', argv[++i]);
         break;
+      case '--stale-days': {
+        const v = Number(argv[++i]);
+        if (!Number.isFinite(v) || v < 0)
+          fail(2, '--stale-days requires a non-negative number.');
+        opts.staleDays = v;
+        break;
+      }
       case '--force':
         opts.force = true;
         break;
@@ -246,9 +275,11 @@ function describeLocation(branch, remote) {
   return 'Unknown';
 }
 
+// Mirrors classify() in collect-branches.mjs; keep the two in step.
 function classify({
   merged,
   ahead,
+  behind,
   lastDate,
   cherryUnique,
   cherryDuplicated,
@@ -265,7 +296,12 @@ function classify({
   if (lastDate && lastDate < staleCutoffDate) {
     return `Ice (stale: last commit ${lastDate} before cutoff ${staleCutoffDate})`;
   }
-  return 'Needs rebase (unique commits, behind base)';
+  if (behind === 0) {
+    return 'Keep active (up to date with base, recently active)';
+  }
+  return behind == null
+    ? 'Needs rebase (unique commits, behind count unknown)'
+    : `Needs rebase (unique commits, ${behind} behind base)`;
 }
 
 function buildSummaryMarkdown({
@@ -273,7 +309,6 @@ function buildSummaryMarkdown({
   branchRef,
   baseBranch,
   baseRef,
-  remote,
   commits,
   files,
   ahead,
@@ -288,6 +323,7 @@ function buildSummaryMarkdown({
   const disposition = classify({
     merged,
     ahead,
+    behind,
     lastDate: lastCommit ? lastCommit.date : null,
     cherryUnique,
     cherryDuplicated,
@@ -347,10 +383,39 @@ function buildSummaryMarkdown({
   return lines.join('\n');
 }
 
-function computeStaleCutoff(days = 60) {
+function computeStaleCutoff(days) {
   const now = new Date();
   const cutoff = new Date(now.getTime() - days * 24 * 60 * 60 * 1000);
   return cutoff.toISOString().slice(0, 10);
+}
+
+// Stream `git log -p` straight into the patch file. Piping through the child
+// process buffer would abort with ENOBUFS once the patch exceeds 1 MiB.
+function writePatch(baseRef, branchRef, patchPath, branchDir) {
+  const args = ['log', '-p', '--reverse', `${baseRef}..${branchRef}`];
+  const fd = openSync(patchPath, 'w');
+  let r;
+  try {
+    r = spawnSync('git', args, {
+      stdio: ['ignore', fd, 'pipe'],
+      encoding: 'utf8',
+    });
+  } finally {
+    closeSync(fd);
+  }
+  if (r.error || r.status !== 0) {
+    // Do not leave a partial patch or an empty folder behind.
+    rmSync(patchPath, { force: true });
+    try {
+      rmdirSync(branchDir);
+    } catch {
+      // Folder is not empty (pre-existing content); leave it alone.
+    }
+    const detail = r.error
+      ? r.error.message
+      : (r.stderr || '').trim() || `exit code ${r.status}`;
+    fail(1, `git ${args.join(' ')} failed:\n${detail}`);
+  }
 }
 
 function main() {
@@ -373,20 +438,14 @@ function main() {
   const merged = isMerged(baseRef, branchRef);
   const cherry = cherryStats(baseRef, branchRef);
   const location = describeLocation(opts.branch, opts.remote);
-  const staleCutoffDate = computeStaleCutoff(60);
+  const staleCutoffDate = computeStaleCutoff(opts.staleDays);
 
   const sanitized = sanitize(opts.branch);
   const branchDir = join(opts.outputDir, sanitized);
   mkdirSync(branchDir, { recursive: true });
 
   const patchPath = join(branchDir, 'unique-commits.patch');
-  const patchBody = gitOk([
-    'log',
-    '-p',
-    '--reverse',
-    `${baseRef}..${branchRef}`,
-  ]);
-  writeFileSync(patchPath, patchBody);
+  writePatch(baseRef, branchRef, patchPath, branchDir);
 
   const summaryPath = join(branchDir, 'summary.md');
   if (existsSync(summaryPath) && !opts.force) {
@@ -400,7 +459,6 @@ function main() {
     branchRef,
     baseBranch: opts.baseBranch,
     baseRef,
-    remote: opts.remote,
     commits,
     files,
     ahead,

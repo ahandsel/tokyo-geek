@@ -43,6 +43,7 @@
 //   it recommends), 1 refusal (on base branch, dirty tree, no branch),
 //   2 invalid arguments, or the failing git command's exit code.
 // Version history:
+// * v1.2 - 2026-09-29 - Fail on a rev-list error instead of reporting 0 behind, separate "git too old" from a merge-tree error in the conflict preview, and reject ref values starting with "-".
 // * v1.1 - 2026-07-14 - Add --verify read-only assessment mode (ahead and behind
 //   counts, merge-tree conflict preview, and a recommendation) with no changes.
 // * v1.0 - 2026-06-08 - Initial release. Port of update_branch_from_main.py to a Node.js ES module.
@@ -93,6 +94,15 @@ function git(args) {
   return result;
 }
 
+// Values that reach git as ref names must not look like git options.
+function requireRefValue(flag, value) {
+  if (!value) fail(2, `❌ ${flag} requires a value.`);
+  if (value.startsWith('-')) {
+    fail(2, `❌ ${flag} value must not start with "-": ${value}`);
+  }
+  return value;
+}
+
 function parseArgs(argv) {
   const options = {
     baseBranch: 'main',
@@ -111,12 +121,10 @@ function parseArgs(argv) {
         process.exit(0);
         break;
       case '--base-branch':
-        options.baseBranch = argv[++i];
-        if (!options.baseBranch) fail(2, '❌ --base-branch requires a value.');
+        options.baseBranch = requireRefValue('--base-branch', argv[++i]);
         break;
       case '--remote':
-        options.remote = argv[++i];
-        if (!options.remote) fail(2, '❌ --remote requires a value.');
+        options.remote = requireRefValue('--remote', argv[++i]);
         break;
       case '--strategy':
         options.strategy = argv[++i];
@@ -160,6 +168,25 @@ function printPlan(commands) {
   }
 }
 
+// Count the commits in a revision range, or exit with git's own status when
+// the count cannot be trusted (never report 0 for a failed command).
+function countCommits(range) {
+  const args = ['rev-list', '--count', range];
+  const result = git(args);
+  if (result.status !== 0) {
+    const code = result.status === null ? 1 : result.status;
+    fail(
+      code,
+      `❌ Command failed with exit code ${code}: git ${args.join(' ')}\n${(result.stderr || '').trim()}`,
+    );
+  }
+  const count = Number(result.stdout.trim());
+  if (!Number.isInteger(count)) {
+    fail(1, `❌ Unexpected output from git ${args.join(' ')}: ${result.stdout}`);
+  }
+  return count;
+}
+
 // Return true when the installed git is at least the given major.minor version.
 // Used to gate the merge-tree conflict preview, which requires git 2.38+.
 function gitVersionAtLeast(major, minor) {
@@ -167,6 +194,24 @@ function gitVersionAtLeast(major, minor) {
   if (!match) return false;
   const [, gotMajor, gotMinor] = match.map(Number);
   return gotMajor > major || (gotMajor === major && gotMinor >= minor);
+}
+
+// Preview whether merging baseRef into HEAD would conflict. The trial merge
+// touches no refs, index, or working tree; it may leave loose tree objects in
+// .git/objects that git gc reclaims. Returns { state, detail } where state is
+// "none", "likely", or "unknown".
+function previewConflicts(baseRef) {
+  if (!gitVersionAtLeast(2, 38)) {
+    return { state: 'unknown', detail: 'requires git 2.38+' };
+  }
+  const result = git(['merge-tree', '--write-tree', baseRef, 'HEAD']);
+  if (result.status === 0) return { state: 'none', detail: '' };
+  if (result.status === 1) return { state: 'likely', detail: '' };
+  const firstLine = (result.stderr || '').trim().split('\n')[0] || '';
+  return {
+    state: 'unknown',
+    detail: `git merge-tree exited ${result.status}${firstLine ? `: ${firstLine}` : ''}`,
+  };
 }
 
 // Read-only assessment: fetch the base branch, then report ahead and behind
@@ -202,27 +247,15 @@ function verify(options, branch) {
     );
   }
 
-  const ahead = Number(
-    git(['rev-list', '--count', `${baseRef}..HEAD`]).stdout.trim() || '0',
-  );
-  const behind = Number(
-    git(['rev-list', '--count', `HEAD..${baseRef}`]).stdout.trim() || '0',
-  );
+  const ahead = countCommits(`${baseRef}..HEAD`);
+  const behind = countCommits(`HEAD..${baseRef}`);
   const clean = isWorktreeClean();
-
-  // Preview conflicts with a trial merge that writes nothing. git merge-tree
-  // --write-tree exits 0 for a clean merge and 1 when it conflicts (git 2.38+).
-  let conflicts = 'unknown';
-  if (gitVersionAtLeast(2, 38)) {
-    const status = git(['merge-tree', '--write-tree', baseRef, 'HEAD']).status;
-    if (status === 0) conflicts = 'none';
-    else if (status === 1) conflicts = 'likely';
-  }
+  const conflicts = previewConflicts(baseRef);
 
   let recommendation;
   if (behind === 0) {
     recommendation = 'up to date';
-  } else if (conflicts === 'likely') {
+  } else if (conflicts.state === 'likely') {
     recommendation = `sync recommended (${options.strategy}), resolve conflicts manually`;
   } else {
     recommendation = `sync recommended (${options.strategy})`;
@@ -235,7 +268,7 @@ function verify(options, branch) {
   console.log(`Ahead of base: ${ahead} commit(s)`);
   console.log(`Behind base: ${behind} commit(s)`);
   console.log(
-    `Conflicts (merge preview): ${conflicts === 'unknown' ? 'unknown (requires git 2.38+)' : conflicts}`,
+    `Conflicts (merge preview): ${conflicts.state}${conflicts.detail ? ` (${conflicts.detail})` : ''}`,
   );
   console.log(`Recommendation: ${recommendation}`);
   console.log('');
