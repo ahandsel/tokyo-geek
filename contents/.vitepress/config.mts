@@ -1,7 +1,7 @@
 // Main vitepress configuration
 
 import { existsSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
+import { dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
@@ -20,7 +20,11 @@ function isPublicAssetLink(url) {
     .replace(/^\/tokyo-geek(?=\/|$)/, '')
     .replace(/^\//, '');
   if (!relative) return false;
-  return existsSync(resolve(publicDir, relative));
+  // Confine the lookup to contents/public. Without this, a link with enough
+  // ../ segments matches an unrelated repository file and the dead link ships.
+  const target = resolve(publicDir, relative);
+  if (!target.startsWith(publicDir + sep)) return false;
+  return existsSync(target);
 }
 
 // https://vitepress.dev/reference/site-config
