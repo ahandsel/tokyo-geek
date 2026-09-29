@@ -12,21 +12,7 @@ localization: sync
 
 {{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Summary](#summary)
-* [Packing and luggage tips](#packing-and-luggage-tips)
-* [Eurostar travel tips](#eurostar-travel-tips)
-* [Mobile data and eSIM](#mobile-data-and-esim)
-* [Currency and payments](#currency-and-payments)
-* [Environment and hygiene](#environment-and-hygiene)
-* [Tech and device tips](#tech-and-device-tips)
-* [Using AI for translations](#using-ai-for-translations)
-  * [Example AI prompt for French menu translation from an image](#example-ai-prompt-for-french-menu-translation-from-an-image)
-  * [Example AI prompt to translate German text from an image](#example-ai-prompt-to-translate-german-text-from-an-image)
-  * [Example AI prompt to review a French website and provide a summary](#example-ai-prompt-to-review-a-french-website-and-provide-a-summary)
-* [Final tips](#final-tips)
+[[toc]]
 
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable. Hopefully, they will help you too.
 
