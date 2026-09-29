@@ -17,7 +17,7 @@ localization: sync
 Notes from a 13-day trip across Taiwan. 🇹🇼
 
 
-## Cash is king 💵
+## 💵 Cash is king
 
 Cash is king in Taiwan - especially for night markets, small shops, and most local food stalls.
 
@@ -28,7 +28,7 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
   * [Wise][wise] and [Revolut][revolut] debit cards charge no foreign transaction fee, which makes them ideal for MRT rides.
 
 
-## EasyCard over iPass 🚇
+## 🚇 EasyCard over iPass
 
 * The [EasyCard][easycard] is the most widely accepted transit card in Taiwan.
 * It works on buses, the MRT, trains, and at many shops, including convenience stores and some small restaurants.
@@ -37,7 +37,7 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
 * Top up at any MRT station or convenience store.
 
 
-## Klook eSIM - stay connected with cheap eSIM 📶
+## 📶 Klook eSIM - stay connected with cheap eSIM
 
 * 20 GB lasted comfortably for 13 days of normal use, including maps, photos, and streaming.
 * Public Wi-Fi was limited and slow. The eSIM was a much better experience.
@@ -51,6 +51,13 @@ I recommend the [Klook eSIM][klook-esim] for Taiwan:
 > [!TIP]
 > I used a VPN while using the Klook eSIM for added privacy.
 > Klook's eSIM ran all data through a Hong Kong cellular provider.
+
+
+## 🌴 Highly recommend Kaohsiung
+
+* Kaohsiung is a major city with plenty to do, but I found it much less crowded and less expensive than Taipei.
+* I found plenty of night markets in both cities, but enjoyed Kaohsiung's more.
+* I enjoyed both cities, but I plan to return to Kaohsiung.
 
 <!-- Links -->
 
