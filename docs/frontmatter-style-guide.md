@@ -42,19 +42,19 @@ localization: sync
 
 ## Key reference
 
-| Key                  | Required           | Type    | Purpose                                                                |
-| -------------------- | ------------------ | ------- | ---------------------------------------------------------------------- |
-| `title`              | Yes                | string  | Page title, browser tab title, and sidebar label.                      |
-| `description`        | Yes                | string  | Search and social meta description for the page.                       |
-| `localization`       | Yes (paired pages) | enum    | Bilingual parity state: `sync`, `TODO: drifted`, or `independent`.     |
-| `head`               | Recommended        | array   | Extra `<head>` tags, most often the `keywords` meta tag.               |
-| `order`              | No                 | number  | Sidebar sort position within a folder. Defaults to `10`.               |
-| `excludeFromSidebar` | No                 | boolean | When `true`, hides the page from the sidebar.                          |
-| `tags`               | No                 | array   | Topic tags for the page.                                               |
-| `externalPostUrl`    | No                 | string  | URL of the original post, when the page was first published elsewhere. |
-| `layout`             | No                 | enum    | Page layout. Set to `home` only on the locale landing pages.           |
-| `titleTemplate`      | No                 | string  | Overrides the global title template. Used on the home pages.           |
-| `hero`, `features`   | No                 | object  | Home page hero and feature-card content. Used only with `layout: home`.|
+| Key                  | Required           | Type    | Purpose                                                                 |
+| -------------------- | ------------------ | ------- | ----------------------------------------------------------------------- |
+| `title`              | Yes                | string  | Page title, browser tab title, and sidebar label.                       |
+| `description`        | Yes                | string  | Search and social meta description for the page.                        |
+| `localization`       | Yes (paired pages) | enum    | Bilingual parity state: `sync`, `"TODO: drifted"`, or `independent`.    |
+| `head`               | Recommended        | array   | Extra `<head>` tags, most often the `keywords` meta tag.                |
+| `order`              | No                 | number  | Sidebar sort position within a folder. Defaults to `10`.                |
+| `excludeFromSidebar` | No                 | boolean | When `true`, hides the page from the sidebar.                           |
+| `tags`               | No                 | array   | Topic tags for the page.                                                |
+| `externalPostUrl`    | No                 | string  | URL of the original post, when the page was first published elsewhere.  |
+| `layout`             | No                 | enum    | Page layout. Set to `home` only on the locale landing pages.            |
+| `titleTemplate`      | No                 | string  | Overrides the global title template. Used on the home pages.            |
+| `hero`, `features`   | No                 | object  | Home page hero and feature-card content. Used only with `layout: home`. |
 
 
 ## Content keys
@@ -168,17 +168,17 @@ Setting `excludeFromSidebar: false` is equivalent to omitting the key; it is som
 
 Required on every paired content page. Every file under `contents/en/` has a 1-to-1 counterpart at the same path under `contents/ja/`. The `localization` key tracks whether the two language versions are in parity.
 
-| Value           | Meaning                                                                          |
-| --------------- | -------------------------------------------------------------------------------- |
-| `sync`          | Default. The two versions are kept in 1-to-1 parity and should match in content. |
-| `TODO: drifted` | The two versions have diverged and require updating.                             |
-| `independent`   | The two versions are intentionally different; do not sync them.                  |
+| Value             | Meaning                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| `sync`            | Default. The two versions are kept in 1-to-1 parity and should match in content.           |
+| `"TODO: drifted"` | The two versions have diverged and require updating. Quote the value; it contains a colon. |
+| `independent`     | The two versions are intentionally different; do not sync them.                            |
 
 Rules when editing content:
 
 * Default new and existing paired files to `localization: sync`.
-* When you edit a `sync` file, set its counterpart's `localization` to `TODO: drifted` so the drift is tracked until it is reconciled.
-* Once a `TODO: drifted` file has been brought back in line with its counterpart, set both back to `sync`.
+* When you edit a `sync` file, set its counterpart's `localization` to `"TODO: drifted"` so the drift is tracked until it is reconciled.
+* Once a `"TODO: drifted"` file has been brought back in line with its counterpart, set both back to `sync`.
 * When the two language versions should be intentionally different, set both to `localization: independent` and do not flag drift between them.
 
 The `blog-translator` skill reads and reconciles this key when it syncs a paired file.

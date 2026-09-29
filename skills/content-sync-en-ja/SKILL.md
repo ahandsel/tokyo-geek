@@ -1,6 +1,6 @@
 ---
 name: content-sync-en-ja
-description: Audit the `contents/en` and `contents/ja` trees for drift and bring them back to parity after content changes. Use when a user asks whether the English and Japanese pages are in sync, wants a repo-wide drift sweep, wants pages flagged `localization: TODO: drifted` reconciled, or after adding, editing, moving, renaming, or deleting files under `contents/`.
+description: Audit the `contents/en` and `contents/ja` trees for drift and bring them back to parity after content changes. Use when a user asks whether the English and Japanese pages are in sync, wants a repo-wide drift sweep, wants pages flagged `localization: "TODO: drifted"` reconciled, or after adding, editing, moving, renaming, or deleting files under `contents/`.
 ---
 
 # Sync EN and JA content
@@ -65,7 +65,7 @@ Completion criterion: every `.md` in both trees is sorted into exactly one bucke
 Skip pairs where either side declares `localization: independent`; they are at parity by definition.
 For the rest, check all three kinds of drift:
 
-* **Flagged drift**: either side carries `localization: TODO: drifted`. The flag names the pair, and the fresher side is usually the one whose flag is `sync`; confirm with the timestamps below.
+* **Flagged drift**: either side carries `localization: "TODO: drifted"`. The flag names the pair, and the fresher side is usually the one whose flag is `sync`; confirm with the timestamps below.
 
 * **Unflagged content drift**: a `sync` pair where one side changed after the other was last updated, meaning an edit landed without the counterpart being flagged. Compare last-modified commits:
 
