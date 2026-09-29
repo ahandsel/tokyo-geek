@@ -37,6 +37,17 @@ pnpm build
 ```
 
 
+### AI coding CLIs
+
+The Claude Code, Codex, and Cursor Agent CLIs are listed in [`contents/public/Brewfile`](./contents/public/Brewfile) (`claude-code`, `codex`, `cursor-cli`). After installing them, launch from the repo root:
+
+```shell
+pnpm claude   # Claude Code
+pnpm codex    # Codex
+pnpm cursor   # Cursor Agent (cursor-agent)
+```
+
+
 ### Linting
 
 ```shell

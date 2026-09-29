@@ -70,6 +70,8 @@ cask "codex"
 cask "codex-app"
 # Write, edit, and chat about your code with AI
 cask "cursor"
+# Command-line agent for Cursor
+cask "cursor-cli"
 # Voice and text chat software
 cask "discord"
 # Collaborative team software
