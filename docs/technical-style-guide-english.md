@@ -168,11 +168,11 @@ The reservation is saved and appears on the reservations page.
 
 Use the following formatting conventions to distinguish different types of content:
 
-| Format   | Use for                                                    | Example                                                                           |
-| -------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| **Bold** | UI elements (button names, field labels, menu items, etc.) | Click the **Save** button to save your reservation.                    |
-| `Code`   | User input, commands, or keyboard keys                     | Type `指定席` in the search field to find reserved seats.              |
-| "Quotes" | System messages (errors, confirmations, etc.)              | A "Seat not available" message appears if the train is fully booked.   |
+| Format   | Use for                                                    | Example                                                              |
+| -------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Bold** | UI elements (button names, field labels, menu items, etc.) | Click the **Save** button to save your reservation.                  |
+| `Code`   | User input, commands, or keyboard keys                     | Type `指定席` in the search field to find reserved seats.            |
+| "Quotes" | System messages (errors, confirmations, etc.)              | A "Seat not available" message appears if the train is fully booked. |
 
 > [!TIP]
 > Do not use italics for emphasis. Italic text cannot be rendered distinctly in Japanese, so it does not translate well.
