@@ -121,10 +121,10 @@ Wise も Revolut も、基本的な流れは同じです。
 
 <!-- Links -->
 
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [revolut-cards]: https://www.revolut.com/cards/
 [revolut-review-finder]: https://www.finder.com/banking/revolut-review
-[wise]: https://wise.com/invite/ihpn/genjif1
+[wise]: https://wise.com/invite/ilpc/genjif1
 [wise-card]: https://wise.com/gb/card/
 [wise-multi-currency-account]: https://wise.com/gb/account/
 [wise-review-finder]: https://www.finder.com/international-money-transfers/wise

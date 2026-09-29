@@ -120,7 +120,7 @@ localization: sync
 * [観光客向け Alipay ガイド][alipay-tourists]
 
 [alipay-tourists]: https://trevallog.com/alipay-for-tourist/
-[Wise]: https://wise.com/invite/ihpn/genjif1
+[Wise]: https://wise.com/invite/ilpc/genjif1
 
 
 ## ビザ要件

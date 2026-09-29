@@ -83,9 +83,9 @@ Helpful articles:
 [matcha-japan-post-bank]: https://matcha-jp.com/en/4496
 [paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
 [rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [time-out-phone-number]: https://www.timeout.com/tokyo/things-to-do/how-and-why-to-get-a-japanese-phone-number?package_page=112292
 [tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
-[wise]: https://wise.com/invite/ihpn/genjif1
+[wise]: https://wise.com/invite/ilpc/genjif1
 [yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
 [yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6

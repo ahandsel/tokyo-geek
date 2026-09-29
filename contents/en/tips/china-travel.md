@@ -218,4 +218,4 @@ A little preparation helps. Enjoy your transit in Beijing.
 [map-lanwan-hotel]: https://maps.app.goo.gl/W1DdYHRQHNEchZnJ6
 [palace-museum-tickets]: https://bookingticket.dpm.org.cn/detail?id=101
 [smartraveller-china]: https://www.smartraveller.gov.au/destinations/asia/china
-[wise]: https://wise.com/invite/ihpn/genjif1
+[wise]: https://wise.com/invite/ilpc/genjif1

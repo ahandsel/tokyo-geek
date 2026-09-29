@@ -216,7 +216,7 @@ Thank you for your help!
 [foldable-boston-bag]: https://www.amazon.co.jp/dp/B09L43MKDS
 [nomad-europe-esim]: https://www.getnomad.app/europe-eSIM
 [nomad-help-doc]: https://www.getnomad.app/help-center/articles/9886364
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [rocket-typist]: https://apps.apple.com/app/rocket-typist/id6463636684
 [sanwa-power-adapter]: https://www.amazon.co.jp/dp/B075CXDNW2
 [solo-tourist-backpack]: https://www.amazon.co.jp/dp/B001LGVW9K

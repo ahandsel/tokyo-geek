@@ -125,8 +125,8 @@ Roth IRA に入れて低コストのインデックスファンドに投資す�
 
 [everbank-foreign-currency-accounts]: https://www.everbank.com/diversified-investing/foreign-currencies/currency-access-account
 [hsbc-global-money-account]: https://www.us.hsbc.com/checking-accounts/products/global-money/
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [revolut-account-review-nerdwallet]: https://www.nerdwallet.com/reviews/banking/revolut
 [us-multi-currency-account-comparison-wise]: https://wise.com/us/blog/us-foreign-currency-account
-[wise]: https://wise.com/invite/ihpn/genjif1
+[wise]: https://wise.com/invite/ilpc/genjif1
 [wise-transfer-review-nerdwallet]: https://www.nerdwallet.com/article/banking/transferwise-review
