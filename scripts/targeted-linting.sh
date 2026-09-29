@@ -3,16 +3,20 @@
 #===============================================================================
 : << 'DOC'
 Name:     targeted-linting.sh
-Purpose:  Run Prettier and markdownlint-cli2 on a single file or folder, instead of the whole repo.
+Purpose:  Run Prettier, markdownlint-cli2, and AutoCorrect on a single file or folder, instead of the whole repo.
 
 General notes:
-* Mirrors the repo-wide `pnpm lint` (prettier --write + markdownlint-cli2 --fix),
-  but scoped to one target path so you can lint just the file or folder you touched.
+* Mirrors the repo-wide `pnpm lint` (prettier --write + markdownlint-cli2 --fix +
+  autocorrect --fix), but scoped to one target path so you can lint just the file
+  or folder you touched.
 * Markdownlint only understands Markdown, so it is skipped for non-Markdown files
   and, for folders, runs against the `<folder>/**/*.{md,markdown}` glob.
-* Both tools auto-discover their config (.prettierrc.json5, .markdownlint-cli2.jsonc)
-  from the repo root, so run this from anywhere inside the repo.
-* By default both tools fix in place; pass --check to report problems without writing.
+* AutoCorrect corrects spacing and punctuation around CJK text. It handles every
+  file type it recognizes, so it is not limited to Markdown.
+* All three tools auto-discover their config (.prettierrc.json5,
+  .markdownlint-cli2.jsonc, .autocorrectrc) from the repo root, so run this from
+  anywhere inside the repo.
+* By default the tools fix in place; pass --check to report problems without writing.
 
 Usage:
 * pnpm lint-target <file-or-folder>
@@ -25,6 +29,7 @@ Output:
 * Exit codes: 0 = clean (or fixed), 1 = a tool reported problems, 2 = bad arguments.
 
 Version history:
+- v1.2 - 2026-09-29 - Run AutoCorrect alongside Prettier and markdownlint-cli2.
 - v1.1 - 2026-08-18 - Restate the notes block in the order AGENTS.md requires (general notes, usage, output, version history).
 - v1.0 - 2026-06-12 - Initial version.
 DOC
@@ -35,7 +40,7 @@ setopt ERR_EXIT NO_UNSET PIPE_FAIL
 
 # Configuration
 SCRIPT_NAME="targeted-linting.sh"
-VERSION="1.1"
+VERSION="1.2"
 
 # ----------------------------
 # Utilities
@@ -60,14 +65,15 @@ $SCRIPT_NAME v$VERSION
   $SCRIPT_NAME [-c|--check] [-h|--help] [-V|--version] <file-or-folder>
 
 🧩 Options:
-  -c, --check    Report problems without writing changes (Prettier --check, no markdownlint --fix).
+  -c, --check    Report problems without writing changes (Prettier --check, no markdownlint --fix, AutoCorrect --lint).
   -h, --help     Show this help message and exit.
   -V, --version  Print version and exit.
 
 📝 Description:
-  + Runs Prettier and markdownlint-cli2 on a single file or folder.
+  + Runs Prettier, markdownlint-cli2, and AutoCorrect on a single file or folder.
   + Mirrors the repo-wide \`pnpm lint\`, but scoped to the target you pass.
   + Markdownlint is skipped for non-Markdown files; for folders it lints *.md and *.markdown.
+  + AutoCorrect runs on the target as given, for every file type it recognizes.
 
 📂 Examples:
   $SCRIPT_NAME contents/en/tech/coding-fonts.md
@@ -151,6 +157,11 @@ main() {
     [[ "$check" == "no" ]] && md_flags=(--fix)
     run_step "markdownlint-cli2 ${md_flags:-(check)}" markdownlint-cli2 "${md_flags[@]}" "${md_args[@]}"
   fi
+
+  # --- AutoCorrect ---
+  local -a ac_flags=(--fix)
+  [[ "$check" == "yes" ]] && ac_flags=(--lint --strict)
+  run_step "AutoCorrect ${ac_flags[*]}" autocorrect "${ac_flags[@]}" "$target"
 
   printf '\n✅ Done.\n'
 }

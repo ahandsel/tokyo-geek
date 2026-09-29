@@ -3,6 +3,7 @@
 `Tokyo Geek` is a personal website mainly focused on travel guides and tips for Japan.
 
 Core topics:
+
 * Traveling and living in Japan.
 * Tech and software development.
 * Traveling notes.
@@ -62,22 +63,25 @@ Rules when editing content:
 
 ## Common commands
 
-| Command            | What it does                                                                    |
-| ------------------ | ------------------------------------------------------------------------------- |
-| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                |
-| `pnpm build`       | `vitepress build contents`.                                                     |
-| `pnpm preview`     | `vitepress preview contents`.                                                   |
-| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                          |
-| `pnpm lint`        | Prettier (`lint-code`) then markdownlint-cli2 `--fix` (`lint-md`).              |
-| `pnpm lint-check`  | Prettier `--check` then markdownlint-cli2 without `--fix`.                      |
-| `pnpm lint-target` | The same pair, scoped to one file or folder, via `scripts/targeted-linting.sh`. |
-| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.               |
-| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.          |
-| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.            |
-| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                       |
-| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                 |
+| Command            | What it does                                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                                                 |
+| `pnpm build`       | `vitepress build contents`.                                                                                      |
+| `pnpm preview`     | `vitepress preview contents`.                                                                                    |
+| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                                                           |
+| `pnpm lint`        | Prettier (`lint-code`), markdownlint-cli2 `--fix` (`lint-md`), then AutoCorrect `--fix` (`lint-text`).           |
+| `pnpm lint-check`  | The same three in report-only mode: Prettier `--check`, markdownlint-cli2 without `--fix`, AutoCorrect `--lint`. |
+| `pnpm lint-text`   | AutoCorrect `--fix` - spacing and punctuation around CJK text, configured by `.autocorrectrc`.                   |
+| `pnpm lint-target` | The same three, scoped to one file or folder, via `scripts/targeted-linting.sh`.                                 |
+| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.                                                |
+| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.                                           |
+| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.                                             |
+| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                                                        |
+| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                                                  |
 
 Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing. When you touched only a file or two, `pnpm lint-target <path>` runs the same fixers without sweeping the repo.
+
+AutoCorrect is supplied by the `autocorrect-node` dev dependency, so `pnpm install` is all that is needed on a new machine or in CI. Its rules live in `.autocorrectrc`, which turns `space-word` off because the 和欧混植 rule in the Japanese style guide forbids a half-width space at a Japanese/Latin boundary. Keep that file committed: without it AutoCorrect falls back to its upstream defaults and reintroduces those spaces across the Japanese content.
 
 On a machine where the pinned Node version does not have pnpm yet, `pnpm run nodenv` cannot start, so run the same chain directly once:
 
@@ -114,6 +118,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
   ```
 
   The `minimal-2023` preset emits exactly the committed file set: `pwa-64x64.png`, `pwa-192x192.png`, `pwa-512x512.png`, `maskable-icon-512x512.png`, `apple-touch-icon-180x180.png`, and `favicon.ico`. Note that `pnpm dlx` resolves in a throwaway project and ignores the `sharp` override in `pnpm-workspace.yaml`, so the run pulls the vulnerable `sharp` 0.33.5 that the generator pins. That is acceptable for a one-off local run against a trusted image, but do not treat the override as covering it.
+
 * Never use en-dash or em-dash; always use a plain hyphen (`-`) instead.
 * Always use `pnpm` - never `npm`, `npx`, or `yarn`. The pnpm equivalents:
   * `npm install` / `yarn add` → `pnpm add` (or `pnpm install` for the whole lockfile)
@@ -136,6 +141,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 ## Scripts
 
 Default to creating scripts as Node.js ES modules (`.mjs`) or zsh for any new script tooling in this repo.
+
 * Do not use Python due to the overhead of managing Python environments and dependencies across different users' machines.
 * Default to Node.js for scripts that involve file system operations, string manipulation, or integration with JavaScript-based tools, as it provides a consistent runtime environment and leverages the strengths of the JavaScript ecosystem for build and automation tasks.
 * Use zsh for simple command sequences, environment setup, or when leveraging powerful shell features that would be more cumbersome to implement in Node.js.

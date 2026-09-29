@@ -9,7 +9,6 @@
     'prettier-plugin-packagejson',
     'prettier-plugin-sh',
     'prettier-plugin-toml',
-    'prettier-plugin-autocorrect', // must be last
   ],
   overrides: [
     { files: '**/*.svg', options: { parser: 'xml' } },
