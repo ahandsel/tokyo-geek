@@ -8,8 +8,12 @@
 //   capture branch content before a branch is retired.
 // * Read-only against git: never deletes, rebases, pushes, or modifies any
 //   branch.
-// * Handles both local and remote-only branches: if `<branch>` does not exist
-//   locally, the script falls back to `<remote>/<branch>`.
+// * Handles local-only, remote-only, and local+remote branches. When a branch
+//   exists on both sides, the governing ref is resolved with the same rule as
+//   collect-branches.mjs: the local ref governs when it holds commits the
+//   remote lacks, otherwise the remote ref does. A branch that has diverged in
+//   both directions is extracted from whichever ref is further ahead of base,
+//   and the divergence is called out in summary.md and on stderr.
 // * The patch is streamed from git straight to disk, so its size is not
 //   limited by the child-process output buffer.
 // Usage:
@@ -36,6 +40,7 @@
 // * Exit codes: 0 success, 1 git failure, 2 invalid arguments,
 //   3 refused overwrite (summary.md exists; pass --force to overwrite).
 // Version history:
+// * v1.3 - 2026-09-29 - Resolve the governing ref with the same rule as collect-branches.mjs v1.3 instead of always preferring the local ref, and report two-way divergence in summary.md and on stderr.
 // * v1.2 - 2026-09-29 - Stream the patch to disk (no 1 MiB buffer limit), add --stale-days, make keep-active reachable, reject ref values starting with "-", exit 1 on every git failure, and remove a partial patch on failure.
 // * v1.1 - 2026-09-06 - Import into tokyo-geek; drop the retired prompt-file reference from the notes.
 // * v1.0 - 2026-06-16 - Initial release. Extracted from inline data-gathering steps.
@@ -174,11 +179,45 @@ function refExists(ref) {
   return gitTry(['rev-parse', '--verify', '--quiet', ref]).ok;
 }
 
-function resolveBranchRef(branch, remote) {
-  if (refExists(branch)) return branch;
+// Mirrors the ref-governance rule in collect-branches.mjs; keep the two in step.
+// * Present on one side only: that ref governs.
+// * Present on both, local holds commits the remote lacks: the local ref
+//   governs, so unpushed work is never dropped from the extract.
+// * Present on both, remote is a superset: the remote ref governs.
+// * Diverged (both sides hold unique commits): the ref further ahead of base
+//   governs, and the divergence is reported in summary.md and on stderr so the
+//   commits left out of the patch are never silent.
+function resolveBranchRef(branch, remote, baseRef) {
+  const localExists = refExists(branch);
   const remoteRef = `${remote}/${branch}`;
-  if (refExists(remoteRef)) return remoteRef;
-  fail(1, `Branch not found locally or on ${remote}: "${branch}".`);
+  const remoteExists = refExists(remoteRef);
+  if (!localExists && !remoteExists) {
+    fail(1, `Branch not found locally or on ${remote}: "${branch}".`);
+  }
+  if (!remoteExists) return { ref: branch, divergence: null };
+  if (!localExists) return { ref: remoteRef, divergence: null };
+
+  // Commits only on the local ref (unpushed) and only on the remote ref.
+  const { ahead: localAheadOfRemote, behind: remoteAheadOfLocal } = aheadBehind(
+    remoteRef,
+    branch,
+  );
+  const localOnly = localAheadOfRemote ?? 0;
+  const remoteOnly = remoteAheadOfLocal ?? 0;
+  if (localOnly > 0 && remoteOnly > 0) {
+    const localAhead = aheadBehind(baseRef, branch).ahead ?? 0;
+    const remoteAhead = aheadBehind(baseRef, remoteRef).ahead ?? 0;
+    const ref = localAhead >= remoteAhead ? branch : remoteRef;
+    return {
+      ref,
+      divergence: {
+        localOnly,
+        remoteOnly,
+        otherRef: ref === branch ? remoteRef : branch,
+      },
+    };
+  }
+  return { ref: localOnly > 0 ? branch : remoteRef, divergence: null };
 }
 
 function resolveBaseRef(baseBranch, remote) {
@@ -318,6 +357,7 @@ function buildSummaryMarkdown({
   cherryDuplicated,
   location,
   staleCutoffDate,
+  divergence,
 }) {
   const lastCommit = commits[commits.length - 1] || null;
   const disposition = classify({
@@ -336,6 +376,11 @@ function buildSummaryMarkdown({
   lines.push(`* **Branch ref:** \`${branchRef}\``);
   lines.push(`* **Base:** \`${baseRef}\` (\`${baseBranch}\`)`);
   lines.push(`* **Location:** ${location}`);
+  if (divergence) {
+    lines.push(
+      `* **⚠️ Diverged:** ${divergence.localOnly} commit(s) only on the local ref, ${divergence.remoteOnly} only on the remote. This patch covers \`${branchRef}\` only; review \`${divergence.otherRef}\` separately before retiring the branch.`,
+    );
+  }
   if (lastCommit) {
     lines.push(`* **Last commit:** ${lastCommit.date} by ${lastCommit.author}`);
   }
@@ -422,8 +467,12 @@ function main() {
   const opts = parseArgs(process.argv.slice(2));
   ensureGitRepo();
 
-  const branchRef = resolveBranchRef(opts.branch, opts.remote);
   const baseRef = resolveBaseRef(opts.baseBranch, opts.remote);
+  const { ref: branchRef, divergence } = resolveBranchRef(
+    opts.branch,
+    opts.remote,
+    baseRef,
+  );
 
   const commits = listUniqueCommits(baseRef, branchRef);
   if (commits.length === 0) {
@@ -468,12 +517,18 @@ function main() {
     cherryDuplicated: cherry.duplicated,
     location,
     staleCutoffDate,
+    divergence,
   });
   writeFileSync(summaryPath, summary);
 
   console.error(
     `✅ Extracted ${commits.length} commit(s) from ${branchRef} into ${branchDir}/ (patch + summary.md scaffold).`,
   );
+  if (divergence) {
+    console.error(
+      `⚠️  ${opts.branch} has diverged: ${divergence.localOnly} commit(s) only on the local ref, ${divergence.remoteOnly} only on ${opts.remote}. Extracted from ${branchRef}; review \`${divergence.otherRef}\` separately.`,
+    );
+  }
 }
 
 main();
