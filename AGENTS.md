@@ -63,21 +63,21 @@ Rules when editing content:
 
 ## Common commands
 
-| Command            | What it does                                                                                                     |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                                                 |
-| `pnpm build`       | `vitepress build contents`.                                                                                      |
-| `pnpm preview`     | `vitepress preview contents`.                                                                                    |
-| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                                                           |
-| `pnpm lint`        | Prettier (`lint-code`), markdownlint-cli2 `--fix` (`lint-md`), then AutoCorrect `--fix` (`lint-text`).           |
-| `pnpm lint-check`  | The same three in report-only mode: Prettier `--check`, markdownlint-cli2 without `--fix`, AutoCorrect `--lint`. |
-| `pnpm lint-text`   | AutoCorrect `--fix` - spacing and punctuation around CJK text, configured by `.autocorrectrc`.                   |
-| `pnpm lint-target` | The same three, scoped to one file or folder, via `scripts/targeted-linting.sh`.                                 |
-| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.                                                |
-| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.                                           |
-| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.                                             |
-| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                                                        |
-| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                                                  |
+| Command            | What it does                                                                                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                                                                                                 |
+| `pnpm build`       | `vitepress build contents`.                                                                                                                                      |
+| `pnpm preview`     | `vitepress preview contents`.                                                                                                                                    |
+| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                                                                                                           |
+| `pnpm lint`        | Prettier (`lint-code`), markdownlint-cli2 `--fix` (`lint-md`), then AutoCorrect `--fix` (`lint-text`).                                                           |
+| `pnpm lint-check`  | The same three in report-only mode: Prettier `--check` (Markdown excluded via `.prettierignore-check`), markdownlint-cli2 without `--fix`, AutoCorrect `--lint`. |
+| `pnpm lint-text`   | AutoCorrect `--fix` - spacing and punctuation around CJK text, configured by `.autocorrectrc`.                                                                   |
+| `pnpm lint-target` | The same three, scoped to one file or folder, via `scripts/targeted-linting.sh`.                                                                                 |
+| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.                                                                                                |
+| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.                                                                                           |
+| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.                                                                                             |
+| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                                                                                                        |
+| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                                                                                                  |
 
 Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing. When you touched only a file or two, `pnpm lint-target <path>` runs the same fixers without sweeping the repo.
 

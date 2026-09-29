@@ -1,0 +1,6 @@
+# Extra ignores applied only by `pnpm lint-check`.
+# Markdown formatting is owned by markdownlint-cli2, so Prettier does not gate it.
+# Passed via `--ignore-path` alongside .gitignore and .prettierignore.
+
+**/*.md
+**/*.markdown

@@ -15,7 +15,7 @@
     "dev": "vitepress dev contents",
     "index": "zsh scripts/index.sh",
     "lint": "pnpm run lint-code && pnpm run lint-md && pnpm run lint-text",
-    "lint-check": "prettier --check . && markdownlint-cli2 && pnpm run lint-text-check",
+    "lint-check": "prettier --check . --ignore-path .gitignore --ignore-path .prettierignore --ignore-path .prettierignore-check && markdownlint-cli2 && pnpm run lint-text-check",
     "lint-code": "prettier --write .",
     "lint-md": "markdownlint-cli2 --fix",
     "lint-naming": "node skills/file-folder-name-linter/scripts/lint-names.mjs",
