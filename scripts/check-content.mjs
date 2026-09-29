@@ -16,6 +16,7 @@
 //   anything fails, 2 on bad arguments.
 //
 // Version history:
+// * v1.3 - 2026-09-29 - Validate the raw localization value instead of a trimmed copy, so a padded value is reported rather than accepted.
 // * v1.2 - 2026-09-29 - Parse frontmatter with js-yaml, report YAML errors, and reject blank or non-string values.
 // * v1.1 - 2026-08-22 - Ban -en/-ja suffixes inside locale folders.
 // * v1.0 - 2026-08-22 - Initial release.
@@ -127,9 +128,11 @@ for (const rel of paired) {
         errors.push(`Missing ${key}: contents/${locale}/${rel}`);
       }
     }
+    // Compare the raw string: the documented states are exact values, and the
+    // other localization workflows match them literally.
     if (
       isNonBlankString(fm.localization) &&
-      !LOCALIZATION_VALUES.has(fm.localization.trim())
+      !LOCALIZATION_VALUES.has(fm.localization)
     ) {
       errors.push(
         `Invalid localization "${fm.localization}": contents/${locale}/${rel}`,
