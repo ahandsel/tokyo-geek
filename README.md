@@ -8,12 +8,12 @@ A revamp to my Japan_Guide blog using [VitePress static site generator](https://
 
 ### Project tools and dependencies
 
-| Tool                                                  | Purpose                                 | Config file                   |
-| ----------------------------------------------------- | --------------------------------------- | ----------------------------- |
-| [VitePress][]                                         | Static site generator                   | [.vitepress/config.mts][]     |
-| [vitepress-sidebar][]                                 | Sidebar management for VitePress        | [.vitepress/config.mts][]     |
-| [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience             | [.vitepress/theme/index.ts][] |
-| [markdownlint-cli2][]                                 | Markdown linting                        |                               |
+| Tool                                                  | Purpose                          | Config file                   |
+| ----------------------------------------------------- | -------------------------------- | ----------------------------- |
+| [VitePress][]                                         | Static site generator            | [.vitepress/config.mts][]     |
+| [vitepress-sidebar][]                                 | Sidebar management for VitePress | [.vitepress/config.mts][]     |
+| [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience      | [.vitepress/theme/index.ts][] |
+| [markdownlint-cli2][]                                 | Markdown linting                 |                               |
 
 [.vitepress/config.mts]: ./contents/.vitepress/config.mts
 [.vitepress/theme/index.ts]: ./contents/.vitepress/theme/index.ts
@@ -42,9 +42,9 @@ pnpm build
 The Claude Code, Codex, and Cursor Agent CLIs are listed in [`contents/public/Brewfile`](./contents/public/Brewfile) (`claude-code`, `codex`, `cursor-cli`). After installing them, launch from the repo root:
 
 ```shell
-pnpm claude   # Claude Code
-pnpm codex    # Codex
-pnpm cursor   # Cursor Agent (cursor-agent)
+pnpm claude # Claude Code
+pnpm codex  # Codex
+pnpm cursor # Cursor Agent (cursor-agent)
 ```
 
 

@@ -86,14 +86,14 @@ Write "None." when nothing is pending.
 
 ### Conditional sections
 
-| Section                    | Include it when                                                                                                        | Purpose                                                                                             |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Localization note          | The pull request touches pages under `contents/en/` or `contents/ja/`                                                  | Names whether each pair is still `sync`, was translated in the same branch, or is now flagged `TODO: drifted` for a follow-up. |
-| Files changed              | The pull request touches more than about three files, or a file's role is not obvious from its path                    | Explains what each file is for, not that it changed.                                                |
-| Why the diff looks unusual | The diff misrepresents the work, for example a formatting auto-commit or a regenerated `doc-structure.md` inflates it  | Prevents a reviewer from misreading the change size.                                                |
-| What to look at            | The pull request wants review of specific decisions rather than a general pass                                         | Directs attention to the parts where the author is unsure.                                          |
-| Out of scope               | Related work was deliberately deferred, or a sibling pull request covers part of it                                    | Stops reviewers from filing what the author already knows.                                          |
-| Checks                     | Any validation ran                                                                                                     | Records what passed. Name the commands and their results.                                           |
+| Section                    | Include it when                                                                                                       | Purpose                                                                                                                        |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Localization note          | The pull request touches pages under `contents/en/` or `contents/ja/`                                                 | Names whether each pair is still `sync`, was translated in the same branch, or is now flagged `TODO: drifted` for a follow-up. |
+| Files changed              | The pull request touches more than about three files, or a file's role is not obvious from its path                   | Explains what each file is for, not that it changed.                                                                           |
+| Why the diff looks unusual | The diff misrepresents the work, for example a formatting auto-commit or a regenerated `doc-structure.md` inflates it | Prevents a reviewer from misreading the change size.                                                                           |
+| What to look at            | The pull request wants review of specific decisions rather than a general pass                                        | Directs attention to the parts where the author is unsure.                                                                     |
+| Out of scope               | Related work was deliberately deferred, or a sibling pull request covers part of it                                   | Stops reviewers from filing what the author already knows.                                                                     |
+| Checks                     | Any validation ran                                                                                                    | Records what passed. Name the commands and their results.                                                                      |
 
 Put "Files changed" and everything after it inside a collapsed block so the top of the body stays short:
 

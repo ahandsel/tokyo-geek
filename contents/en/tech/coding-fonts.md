@@ -21,13 +21,13 @@ Here are a few favorites, how to install them with [Homebrew][homebrew], and how
 
 ## The fonts
 
-| Font                   | Homebrew cask                   | Good for                                              |
-| ---------------------- | ------------------------------- | ----------------------------------------------------- |
-| Fira Code              | `font-fira-code`                | Programming ligatures for clearer code                |
-| Hack Nerd Font         | `font-hack-nerd-font`           | A patched font with extra developer glyphs and icons  |
-| OpenDyslexic Nerd Font | `font-open-dyslexic-nerd-font`  | Dyslexia-friendly reading, plus Nerd Font icons       |
-| HackGen Console        | `font-hackgen`                  | Mixed English/Japanese alignment - a little bolder    |
-| Sarasa Mono J          | `font-sarasa-gothic`            | Mixed English/Japanese alignment - a little lighter   |
+| Font                   | Homebrew cask                  | Good for                                             |
+| ---------------------- | ------------------------------ | ---------------------------------------------------- |
+| Fira Code              | `font-fira-code`               | Programming ligatures for clearer code               |
+| Hack Nerd Font         | `font-hack-nerd-font`          | A patched font with extra developer glyphs and icons |
+| OpenDyslexic Nerd Font | `font-open-dyslexic-nerd-font` | Dyslexia-friendly reading, plus Nerd Font icons      |
+| HackGen Console        | `font-hackgen`                 | Mixed English/Japanese alignment - a little bolder   |
+| Sarasa Mono J          | `font-sarasa-gothic`           | Mixed English/Japanese alignment - a little lighter  |
 
 
 ### Fira Code
@@ -130,7 +130,7 @@ To set your default editor font for all files, add this to your user `settings.j
 ```jsonc
 {
   "editor.fontFamily": "'Fira Code', monospace",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
 }
 ```
 
@@ -144,8 +144,8 @@ To use a font only inside one project, add it to that project's `.vscode/setting
 ```jsonc
 {
   "[markdown]": {
-    "editor.fontFamily": "'HackGen Console', 'Sarasa Mono J', monospace"
-  }
+    "editor.fontFamily": "'HackGen Console', 'Sarasa Mono J', monospace",
+  },
 }
 ```
 
@@ -158,7 +158,7 @@ The `"[markdown]"` block is a language-specific override; swap it for `"[python]
 
 ```jsonc
 {
-  "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'HackGen Console', monospace"
+  "editor.fontFamily": "'Fira Code', 'Hack Nerd Font', 'HackGen Console', monospace",
 }
 ```
 

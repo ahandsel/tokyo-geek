@@ -13,12 +13,12 @@ This note preserves the salvageable content. Companion files live in [`branch-ch
 
 ## Commits (oldest → newest)
 
-| Hash      | Date       | Subject                       |
-| --------- | ---------- | ----------------------------- |
-| `93e1b62` | 2026-02-16 | import                        |
-| `0656dda` | 2026-02-16 | add vitepress-plugin-chartjs  |
-| `034dc55` | 2026-02-16 | sync w/ help-docs             |
-| `95657e3` | 2026-02-16 | Update doc-structure.md       |
+| Hash      | Date       | Subject                      |
+| --------- | ---------- | ---------------------------- |
+| `93e1b62` | 2026-02-16 | import                       |
+| `0656dda` | 2026-02-16 | add vitepress-plugin-chartjs |
+| `034dc55` | 2026-02-16 | sync w/ help-docs            |
+| `95657e3` | 2026-02-16 | Update doc-structure.md      |
 
 Prior attempts to merge the Chart.js wiring in isolation (PRs #81 and #82, both Codex-generated) were **closed unmerged** - that direction had already been rejected once, so reconsider before re-introducing it.
 

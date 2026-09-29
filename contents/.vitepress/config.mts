@@ -40,7 +40,11 @@ const vitePressOptions = {
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/png', href: '/tokyo-geek/cat-icon-clear.png' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/tokyo-geek/cat-icon-clear.png',
+      },
     ],
     // iOS "Add to Home Screen" bookmark icon. iOS fills transparent areas with
     // black, so this points at the opaque 180x180 variant rather than the
@@ -75,20 +79,24 @@ const vitePressOptions = {
     config(md) {
       // Interpolate {{$frontmatter.title}} in headings before anchors and
       // aria-labels are generated, so permalinks do not leak the template.
-      md.core.ruler.before('inline', 'interpolate-frontmatter-title', (state) => {
-        const title = state.env?.frontmatter?.title;
-        if (typeof title !== 'string' || title.trim().length === 0) return;
-        for (const token of state.tokens) {
-          if (token.type !== 'inline' || typeof token.content !== 'string') {
-            continue;
+      md.core.ruler.before(
+        'inline',
+        'interpolate-frontmatter-title',
+        (state) => {
+          const title = state.env?.frontmatter?.title;
+          if (typeof title !== 'string' || title.trim().length === 0) return;
+          for (const token of state.tokens) {
+            if (token.type !== 'inline' || typeof token.content !== 'string') {
+              continue;
+            }
+            if (!token.content.includes('$frontmatter.title')) continue;
+            token.content = token.content.replace(
+              /\{\{\s*\$frontmatter\.title\s*\}\}/g,
+              title,
+            );
           }
-          if (!token.content.includes('$frontmatter.title')) continue;
-          token.content = token.content.replace(
-            /\{\{\s*\$frontmatter\.title\s*\}\}/g,
-            title,
-          );
-        }
-      });
+        },
+      );
     },
   },
 
@@ -162,7 +170,8 @@ const vitePressOptions = {
       },
     ],
     editLink: {
-      pattern: 'https://github.com/ahandsel/tokyo-geek/edit/main/contents/:path',
+      pattern:
+        'https://github.com/ahandsel/tokyo-geek/edit/main/contents/:path',
       text: 'Edit this page on GitHub',
     },
   },

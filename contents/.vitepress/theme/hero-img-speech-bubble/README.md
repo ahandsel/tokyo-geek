@@ -57,17 +57,17 @@ for fixed text, or a list of strings to pick one at random on each click:
 wireHeroSpeechBubble({
   en: ['meow', 'purr', 'mrrp', 'nya~'], // English: random pick per click
   ja: ['ニャー', 'にゃん', 'にゃ〜', 'ゴロゴロ'], // Japanese: random pick per click
-  visibleMs: 1800,                       // how long it stays up, in ms
+  visibleMs: 1800, // how long it stays up, in ms
   containerSelector: '.VPHero .image-container', // the clickable hero image
 });
 ```
 
-| Option              | Default                              | Description                                                              |
-| ------------------- | ------------------------------------ | ------------------------------------------------------------------------ |
-| `en`                | `['meow', 'purr', 'mrrp', 'nya~']`   | Text on English (default) pages. String, or a list for a random pick.    |
-| `ja`                | `['ニャー', 'にゃん', 'にゃ〜', 'ゴロゴロ']` | Text on Japanese pages. String, or a list for a random pick.             |
-| `visibleMs`         | `1800`                               | Time the bubble stays fully visible before fading out.                   |
-| `containerSelector` | `'.VPHero .image-container'`         | CSS selector for the clickable hero image element.                       |
+| Option              | Default                                      | Description                                                           |
+| ------------------- | -------------------------------------------- | --------------------------------------------------------------------- |
+| `en`                | `['meow', 'purr', 'mrrp', 'nya~']`           | Text on English (default) pages. String, or a list for a random pick. |
+| `ja`                | `['ニャー', 'にゃん', 'にゃ〜', 'ゴロゴロ']` | Text on Japanese pages. String, or a list for a random pick.          |
+| `visibleMs`         | `1800`                                       | Time the bubble stays fully visible before fading out.                |
+| `containerSelector` | `'.VPHero .image-container'`                 | CSS selector for the clickable hero image element.                    |
 
 
 ## Styling

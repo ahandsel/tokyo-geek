@@ -190,14 +190,14 @@ When appropriate, run:
 
 In this repository, the relevant checks are the `pnpm` scripts in `package.json`. Start with the narrowest, and read the script definition before assuming what it covers:
 
-| Command              | What it checks                                                              |
-| -------------------- | ---------------------------------------------------------------------------- |
+| Command              | What it checks                                                                                   |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
 | `pnpm lint-check`    | Prettier formatting plus markdownlint, including relative-link validation, without writing fixes |
-| `pnpm lint`          | The same pair with fixes written, so run it only on a clean tree            |
-| `pnpm check-content` | The EN/JA content pairing and the required frontmatter under `contents/`    |
-| `pnpm lint-naming`   | File and folder name conventions                                            |
-| `pnpm tree`          | Regenerates `doc-structure.md`; a diff afterward means the tree was stale   |
-| `pnpm test`          | The composite gate: tree, lint, content pairing, VitePress build, sitemap   |
+| `pnpm lint`          | The same pair with fixes written, so run it only on a clean tree                                 |
+| `pnpm check-content` | The EN/JA content pairing and the required frontmatter under `contents/`                         |
+| `pnpm lint-naming`   | File and folder name conventions                                                                 |
+| `pnpm tree`          | Regenerates `doc-structure.md`; a diff afterward means the tree was stale                        |
+| `pnpm test`          | The composite gate: tree, lint, content pairing, VitePress build, sitemap                        |
 
 Use `pnpm` only. Never `npm`, `npx`, or `yarn`.
 There is no type checker or unit test suite in this repository. The build gate is `pnpm build` (the VitePress build), which also runs inside `pnpm test`; state plainly when a listed check does not apply instead of reporting an unrun command.

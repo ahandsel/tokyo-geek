@@ -182,7 +182,10 @@ function countCommits(range) {
   }
   const count = Number(result.stdout.trim());
   if (!Number.isInteger(count)) {
-    fail(1, `❌ Unexpected output from git ${args.join(' ')}: ${result.stdout}`);
+    fail(
+      1,
+      `❌ Unexpected output from git ${args.join(' ')}: ${result.stdout}`,
+    );
   }
   return count;
 }

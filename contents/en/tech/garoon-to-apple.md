@@ -128,7 +128,7 @@ Use `location.origin` to get the [origin][origin] URL of the current page.
 The [client certificate authentication][client-cert-auth] feature modifies the URL by adding a `.s` between the subdomain and the domain, so remove it before exporting.
 
 ```javascript
-const origin = location.origin.replace(".s.", ".");
+const origin = location.origin.replace('.s.', '.');
 ```
 
 
@@ -150,11 +150,11 @@ A single event needs a `VCALENDAR` wrapper around one `VEVENT` block.
 
 ```javascript
 const lines = [
-  "BEGIN:VCALENDAR",
-  "VERSION:2.0",
-  "PRODID:-//tokyo-geek//garoon-to-apple//EN",
-  "CALSCALE:GREGORIAN",
-  "BEGIN:VEVENT",
+  'BEGIN:VCALENDAR',
+  'VERSION:2.0',
+  'PRODID:-//tokyo-geek//garoon-to-apple//EN',
+  'CALSCALE:GREGORIAN',
+  'BEGIN:VEVENT',
   `UID:garoon-${event.id}@${host}`,
   `DTSTAMP:${utcStamp(now)}`,
   `SEQUENCE:${Math.floor(now.getTime() / 60000)}`,
@@ -165,9 +165,9 @@ const lines = [
 ];
 if (event.notes) lines.push(`DESCRIPTION:${escapeText(event.notes)}`);
 if (rooms) lines.push(`LOCATION:${escapeText(rooms)}`);
-lines.push("END:VEVENT", "END:VCALENDAR");
+lines.push('END:VEVENT', 'END:VCALENDAR');
 
-return lines.map(foldLine).join("\r\n") + "\r\n";
+return lines.map(foldLine).join('\r\n') + '\r\n';
 ```
 
 Two details in that last line matter:
@@ -181,7 +181,9 @@ Keeping the link out of the description matters because `URL` is a URI value rat
 The room names come from the event's `facilities` array, and the array is missing on an event with no room, so it defaults to an empty array.
 
 ```javascript
-const rooms = (event.facilities ?? []).map((facility) => facility.name).join(", ");
+const rooms = (event.facilities ?? [])
+  .map((facility) => facility.name)
+  .join(', ');
 ```
 
 `DESCRIPTION` and `LOCATION` are pushed only when there is something to put in them, so an event with no memo and no room does not carry two empty properties.
@@ -194,7 +196,10 @@ Calling `toISOString()` converts it to the same instant in UTC, and stripping th
 
 ```javascript
 const utcStamp = (value) =>
-  new Date(value).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  new Date(value)
+    .toISOString()
+    .replace(/[-:]/g, '')
+    .replace(/\.\d{3}/, '');
 ```
 
 A 14:30 Asia/Tokyo start becomes `20260820T053000Z`.
@@ -234,7 +239,7 @@ Two rules apply here:
 The date itself comes from slicing the RFC 3339 string rather than from a `Date` object.
 
 ```javascript
-const dateStamp = (dateTime) => String(dateTime).slice(0, 10).replace(/-/g, "");
+const dateStamp = (dateTime) => String(dateTime).slice(0, 10).replace(/-/g, '');
 ```
 
 Garoon reports an all-day event as starting at `00:00:00` in the local time zone, per the [schedule object documentation][garoon-schedule-object].
@@ -252,11 +257,11 @@ Writing any of them literally corrupts the value, and an unescaped comma is the 
 
 ```javascript
 const escapeText = (input) =>
-  String(input ?? "")
-    .replace(/\\/g, "\\\\")
-    .replace(/;/g, "\\;")
-    .replace(/,/g, "\\,")
-    .replace(/\r\n|[\r\n]/g, "\\n");
+  String(input ?? '')
+    .replace(/\\/g, '\\\\')
+    .replace(/;/g, '\\;')
+    .replace(/,/g, '\\,')
+    .replace(/\r\n|[\r\n]/g, '\\n');
 ```
 
 The backslash is replaced first, so that the backslashes added by the later rules are not doubled again.
@@ -341,9 +346,9 @@ Using the current time in minutes guarantees that the second export carries a hi
 The finished text goes into a [`Blob`][blob], and [`URL.createObjectURL()`][create-object-url] turns that blob into a URL the page can link to.
 
 ```javascript
-const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
 const objectUrl = URL.createObjectURL(blob);
-const anchor = document.createElement("a");
+const anchor = document.createElement('a');
 anchor.href = objectUrl;
 anchor.download = fileName;
 document.body.append(anchor);

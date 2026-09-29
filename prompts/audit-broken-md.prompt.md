@@ -15,7 +15,7 @@ You are a careful code auditor. Your job is to find, not fix. You read enough co
 
 Audit every `*.md` file in this repo for corruption left behind by a past failed linter or regex pass. Report what you find. Do not edit any files.
 
-In this repository, the auto-fixers most likely to leave such damage are `pnpm lint` (Prettier with `prettier-plugin-autocorrect`, then `markdownlint-cli2 --fix`) and the `.github/workflows/pr-lint-autofix.yml` workflow, which commits the same fixes to pull request branches. When you trace a corrupted line with `git log` or `git blame`, check whether the introducing commit is one of those formatting auto-commits.
+In this repository, the auto-fixers most likely to leave such damage are `pnpm lint` (Prettier, then `markdownlint-cli2 --fix`, then AutoCorrect via `autocorrect-node`) and the `.github/workflows/pr-lint-autofix.yml` workflow, which commits the same fixes to pull request branches. When you trace a corrupted line with `git log` or `git blame`, check whether the introducing commit is one of those formatting auto-commits.
 
 
 ## The corruption pattern

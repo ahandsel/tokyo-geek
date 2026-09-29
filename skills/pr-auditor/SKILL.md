@@ -59,13 +59,13 @@ Done when every changed symbol has its callers enumerated, and you can name the 
 An unrun gate is not a pass, and a passing gate is not a correct change.
 Run each command from the repository root, or record the gate as unverified.
 
-| Gate                   | Catches                                                                                                                | Note                                                                          |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
-| `pnpm check-content`   | A content page missing its EN or JA counterpart, or missing the `title`, `description`, or `localization` frontmatter  | The bilingual pairing gate; run it after any change under `contents/`         |
-| `pnpm lint-check`      | A Prettier or markdownlint violation, reported without writing fixes                                                   | Iterate on one file or folder with `pnpm lint-target <path>`                  |
-| `pnpm lint-naming`     | A file or folder name that breaks the naming rules (kebab-case, `notes/` date prefix, `.yaml` not `.yml`)              | Runs `skills/file-folder-name-linter/scripts/lint-names.mjs`                  |
-| `pnpm test`            | Everything above, plus a stale `doc-structure.md`, a VitePress build break, and a sitemap defect                       | The composite gate; reach for it when the diff is wide                        |
-| `node <script> --help` | A helper script whose usage output drifted from its flags                                                              | Also confirms the notes section and version history that `AGENTS.md` requires |
+| Gate                   | Catches                                                                                                               | Note                                                                          |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| `pnpm check-content`   | A content page missing its EN or JA counterpart, or missing the `title`, `description`, or `localization` frontmatter | The bilingual pairing gate; run it after any change under `contents/`         |
+| `pnpm lint-check`      | A Prettier or markdownlint violation, reported without writing fixes                                                  | Iterate on one file or folder with `pnpm lint-target <path>`                  |
+| `pnpm lint-naming`     | A file or folder name that breaks the naming rules (kebab-case, `notes/` date prefix, `.yaml` not `.yml`)             | Runs `skills/file-folder-name-linter/scripts/lint-names.mjs`                  |
+| `pnpm test`            | Everything above, plus a stale `doc-structure.md`, a VitePress build break, and a sitemap defect                      | The composite gate; reach for it when the diff is wide                        |
+| `node <script> --help` | A helper script whose usage output drifted from its flags                                                             | Also confirms the notes section and version history that `AGENTS.md` requires |
 
 `pnpm lint` and `pnpm tree` write files, so run them only on a clean tree, read the resulting diff as the finding, and restore the tree with `git restore .` afterward.
 There is no type checker and no unit test suite in this repository: the scripts are plain Node.js ES modules, so the composite `pnpm test` run and the `--help` runs are the closest behavioral gates.

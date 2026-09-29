@@ -79,11 +79,11 @@ localization: sync
 
 Counters open **3 hours before departure and close 1 hour before**. Checked baggage must be accepted by the same 1-hour deadline.
 
-| Airport | Check-in counter                                          | Notes                                                    |
-| ------- | --------------------------------------------------------- | -------------------------------------------------------- |
-| NRT     | Terminal 1, North Wing, 4F ([map][NRT check-in])          | The counter island varies; check the departure displays. |
-| SFO     | International Terminal A, Level 3 ([map][SFO check-in])   | Closest parking is International Garage A.               |
-| SJC     | Terminal B, ground floor ([map][SJC check-in])            | ⚠️ Flights depart from Terminal A.                        |
+| Airport | Check-in counter                                        | Notes                                                    |
+| ------- | ------------------------------------------------------- | -------------------------------------------------------- |
+| NRT     | Terminal 1, North Wing, 4F ([map][NRT check-in])        | The counter island varies; check the departure displays. |
+| SFO     | International Terminal A, Level 3 ([map][SFO check-in]) | Closest parking is International Garage A.               |
+| SJC     | Terminal B, ground floor ([map][SJC check-in])          | ⚠️ Flights depart from Terminal A.                       |
 
 Mobile check-in is available on the Narita-San Francisco and Narita-San Jose routes.
 
@@ -94,11 +94,11 @@ Mobile check-in is available on the Narita-San Francisco and Narita-San Jose rou
 * **Flex Biz is the only flexibility** - Add it when you make the original booking. It cannot be added later, and it is not sold on Seoul routes.
 * **How it works** - Cancel the booking, receive the eligible amount as a ZIPAIR voucher, book the new flight separately, and pay with the voucher. ZIPAIR never moves the original ticket.
 
-| Cancel before departure | Refunded as a voucher                      |
-| ----------------------- | ------------------------------------------ |
-| 30 days or more         | Fare, taxes, and eligible service fees     |
-| 7 to 29 days            | 80% of the fare, taxes, and eligible fees  |
-| 0 to 6 days             | Applicable taxes only, and no voucher      |
+| Cancel before departure | Refunded as a voucher                     |
+| ----------------------- | ----------------------------------------- |
+| 30 days or more         | Fare, taxes, and eligible service fees    |
+| 7 to 29 days            | 80% of the fare, taxes, and eligible fees |
+| 0 to 6 days             | Applicable taxes only, and no voucher     |
 
 * The clock runs from the **scheduled departure time**, not midnight, so 7 days means 168 hours.
 * A **3% issuance fee** is taken from the voucher amount.

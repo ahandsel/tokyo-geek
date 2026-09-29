@@ -17,46 +17,46 @@ localization: sync
 
 ## Cheap ($)
 
-| Restaurant                                                              | Description                    |
-| ----------------------------------------------------------------------- | ------------------------------ |
+| Restaurant                                     | Description                    |
+| ---------------------------------------------- | ------------------------------ |
 | [Banh Mi☆Sandwich Kichijoji][banh-mi-sandwich] | Vietnamese; Bamh Mi Sandwiches |
-| [Tsukiji Gindako][tsukiji-gindako]            | Takoyaki                       |
-| [Kanibaru Kichijojiten][kanibaru]      | Dei                            |
+| [Tsukiji Gindako][tsukiji-gindako]             | Takoyaki                       |
+| [Kanibaru Kichijojiten][kanibaru]              | Dei                            |
 
 
 ## Good deal ($$)
 
-| Restaurant                                                            | Description    | Type                   |
-| --------------------------------------------------------------------- | -------------- | ---------------------- |
-| [Ootoya][ootoya]                   | Teishoku       | Lunch & dinner         |
-| [Khuchai][khuchai]                  | Thai           | Lunch & dinner         |
-| [Yume Taj Mahal][yume-taj-mahal]           | Indian         | Lunch & dinner         |
+| Restaurant                                | Description    | Type                   |
+| ----------------------------------------- | -------------- | ---------------------- |
+| [Ootoya][ootoya]                          | Teishoku       | Lunch & dinner         |
+| [Khuchai][khuchai]                        | Thai           | Lunch & dinner         |
+| [Yume Taj Mahal][yume-taj-mahal]          | Indian         | Lunch & dinner         |
 | [Yappari Steak][yappari-steak]            | Steak          | Lunch & dinner         |
-| [De Salita][de-salita]                | Vietnamese     | Lunch                  |
-| [Monks Foods][monks-foods]              | Teshioku       | Lunch & dinner         |
-| [La Cour Cafe][la-cour-cafe]             | Cafe           | Lunch, coffee          |
-| [with PADDY][with-paddy]               | Burrito        | Weekday lunch & dinner |
-| [Mother Goose][mother-goose]             | Pasta          | Lunch & dinner         |
+| [De Salita][de-salita]                    | Vietnamese     | Lunch                  |
+| [Monks Foods][monks-foods]                | Teshioku       | Lunch & dinner         |
+| [La Cour Cafe][la-cour-cafe]              | Cafe           | Lunch, coffee          |
+| [with PADDY][with-paddy]                  | Burrito        | Weekday lunch & dinner |
+| [Mother Goose][mother-goose]              | Pasta          | Lunch & dinner         |
 | [Tamjai SamGor Mixian][tamjai-samgor]     | Chinese noodle | Lunch & dinner         |
-| [Daipandang 105][daipandang-105]           | Taiwanese      | Lunch & dinner         |
-| [Torikizoku][torikizoku]               | Yakitori       | Lunch & dinner         |
-| [the Passion][the-passion]              | Italian        | Lunch                  |
-| [Toriyoshi][toriyoshi]                | Teshoku        | Lunch                  |
-| [BOB KITCHEN][bob-kitchen]              | Teishoku       | Lunch & dinner         |
-| [Café Mimi][cafe-mimi]                | french cafe    | Lunch, coffee          |
-| [Rakeru Kichijoji][rakeru]         | omurice        | Lunch & dinner         |
-| [Garage 50][garage-50]                | Pizza          | Lunch & dinner         |
+| [Daipandang 105][daipandang-105]          | Taiwanese      | Lunch & dinner         |
+| [Torikizoku][torikizoku]                  | Yakitori       | Lunch & dinner         |
+| [the Passion][the-passion]                | Italian        | Lunch                  |
+| [Toriyoshi][toriyoshi]                    | Teshoku        | Lunch                  |
+| [BOB KITCHEN][bob-kitchen]                | Teishoku       | Lunch & dinner         |
+| [Café Mimi][cafe-mimi]                    | french cafe    | Lunch, coffee          |
+| [Rakeru Kichijoji][rakeru]                | omurice        | Lunch & dinner         |
+| [Garage 50][garage-50]                    | Pizza          | Lunch & dinner         |
 | [029 Kichijoji Restaurant][kichijoji-029] | Teishoku       | Lunch                  |
-| [Mogame Shokudo][mogame-shokudo]           | Teishoku       | Lunch & dinner         |
-| [Sippo][sippo]                    | Teishoku       | Lunch & dinner         |
+| [Mogame Shokudo][mogame-shokudo]          | Teishoku       | Lunch & dinner         |
+| [Sippo][sippo]                            | Teishoku       | Lunch & dinner         |
 
 
 ## Slightly more expensive ($$$)
 
-| Restaurant                                                                 | Description                    | Type                 |
-| -------------------------------------------------------------------------- | ------------------------------ | -------------------- |
+| Restaurant                                     | Description                    | Type                 |
+| ---------------------------------------------- | ------------------------------ | -------------------- |
 | [Rojiura Curry SAMURAI][rojiura-curry]         | Soup Curry                     | Lunch & dinner       |
-| [King of Kale Kichijoji Shop][king-of-kale]   | Salad, burritos, and bowls     | Lunch & early dinner |
+| [King of Kale Kichijoji Shop][king-of-kale]    | Salad, burritos, and bowls     | Lunch & early dinner |
 | [Bánh mì Bà Ba Kichijoji][banh-mi-ba-ba]       | Vietnamese; Banh Mi Sandwiches | Lunch & dinner       |
 | [Kichijoji TKG A Story of Eggs][kichijoji-tkg] | Egg over rice                  | Lunch & dinner       |
 

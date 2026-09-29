@@ -118,11 +118,7 @@ const sections = [];
 for (const folder of foldersToScan) {
   const folderPath = resolve(repoRoot, folder.path);
   if (!existsSync(folderPath)) {
-    console.warn(
-      '⚠️  %s not found at %s - skipping.',
-      folder.path,
-      folderPath,
-    );
+    console.warn('⚠️  %s not found at %s - skipping.', folder.path, folderPath);
     continue;
   }
 

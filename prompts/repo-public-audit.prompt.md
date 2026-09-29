@@ -158,9 +158,9 @@ For each finding, record:
 Present the findings as a single Markdown table the owner can edit in place:
 
 ```markdown
-| ID | Path | Line | Snippet | Category | Reason | Severity | Suggested action | Decision |
-| -- | ---- | ---- | ------- | -------- | ------ | -------- | ---------------- | -------- |
-| 1  |      |      |         |          |        |          |                  |          |
+| ID  | Path | Line | Snippet | Category | Reason | Severity | Suggested action | Decision |
+| --- | ---- | ---- | ------- | -------- | ------ | -------- | ---------------- | -------- |
+| 1   |      |      |         |          |        |          |                  |          |
 ```
 
 Below the table, tell the owner exactly how to edit it:

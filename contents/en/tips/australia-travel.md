@@ -38,4 +38,4 @@ Jetstar Airways was nice for both domestic and international flights.
 
 [anker-power-adapter]: https://a.co/d/bv6FRql
 [optus-esim]: https://www.optus.com.au/prepaid/sim-plans
-[type-i-plug]: <https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#Australasian_AS/NZS_3112_and_compatible_plugs_(Type_I)>
+[type-i-plug]: https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#Australasian_AS/NZS_3112_and_compatible_plugs_(Type_I)

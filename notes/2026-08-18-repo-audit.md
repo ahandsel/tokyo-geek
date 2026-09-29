@@ -21,17 +21,17 @@ Commits in scope:
 
 Everything below was run, not assumed:
 
-| Check                                                                | Result                                                        |
-| -------------------------------------------------------------------- | ------------------------------------------------------------- |
-| `pnpm build`                                                         | ✅ build complete in 7.53s                                    |
-| `pnpm tree`                                                          | ✅ regenerated, no diff (`docs/contents-structure.md` current) |
-| `pnpm audit`                                                         | ✅ no known vulnerabilities                                   |
-| `prettier --check` on all changed files                               | ✅ clean                                                      |
-| `markdownlint-cli2` on all changed Markdown                          | ✅ clean                                                      |
-| `lint-names.mjs` (whole repo)                                        | ✅ no violations                                              |
-| `check-skill-allowlist.mjs`                                          | ✅ `result:ok`, 14 skills and 5 scripts in sync               |
+| Check                                                                                   | Result                                                                                            |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `pnpm build`                                                                            | ✅ build complete in 7.53s                                                                        |
+| `pnpm tree`                                                                             | ✅ regenerated, no diff (`docs/contents-structure.md` current)                                    |
+| `pnpm audit`                                                                            | ✅ no known vulnerabilities                                                                       |
+| `prettier --check` on all changed files                                                 | ✅ clean                                                                                          |
+| `markdownlint-cli2` on all changed Markdown                                             | ✅ clean                                                                                          |
+| `lint-names.mjs` (whole repo)                                                           | ✅ no violations                                                                                  |
+| `check-skill-allowlist.mjs`                                                             | ✅ `result:ok`, 14 skills and 5 scripts in sync                                                   |
 | Commit style vs [`docs/repo-commit-style-guide.md`](../docs/repo-commit-style-guide.md) | ✅ titles 43, 46, and 46 characters; 1 valid emoji each; bullet bodies; no hard-wrapped sentences |
-| `Co-Authored-By` trailers                                            | ✅ none in the last 10 commits                                |
+| `Co-Authored-By` trailers                                                               | ✅ none in the last 10 commits                                                                    |
 
 The v2.0 syncer itself scores 4 of 4 on `script-auditor`, and the `AGENTS.md` links to `docs/` all resolve.
 
@@ -79,11 +79,11 @@ Fix: delete one folder (`readme-maintainer` looks like the superseded name, give
 
 `node skills/script-auditor/scripts/audit-helper-scripts.mjs` exits 1 with 3 failures out of 9 scripts:
 
-| Script                            | Failure                                                              |
-| --------------------------------- | -------------------------------------------------------------------- |
-| `scripts/generate-doc-structure.mjs` | ❌ no `--help` handling; ⚠️ no status emojis                        |
-| `scripts/index.sh`                | ❌ notes section missing `Output`; ⚠️ no status emojis              |
-| `scripts/targeted-linting.sh`     | ❌ notes section missing `Output`                                    |
+| Script                               | Failure                                                |
+| ------------------------------------ | ------------------------------------------------------ |
+| `scripts/generate-doc-structure.mjs` | ❌ no `--help` handling; ⚠️ no status emojis           |
+| `scripts/index.sh`                   | ❌ notes section missing `Output`; ⚠️ no status emojis |
+| `scripts/targeted-linting.sh`        | ❌ notes section missing `Output`                      |
 
 All three predate the 24-hour window, but `a04e113` just tightened the same `AGENTS.md` section they violate, so the gap is now louder. `generate-doc-structure.mjs` is the one users actually invoke (`pnpm tree`), and it is the only script in the repo with no `--help` at all.
 
@@ -96,12 +96,12 @@ All three predate the 24-hour window, but `a04e113` just tightened the same `AGE
 
 Four of the nine scripts in the repo use a different form:
 
-| Script                              | Actual format                        |
-| ----------------------------------- | ------------------------------------ |
-| `scripts/cleanup-temp-files.sh`     | `- v5.3, 2026-04-08; Fix: ...`       |
-| `scripts/index.sh`                  | `- v1.3, 2026-03-24; Robust ...`     |
-| `scripts/targeted-linting.sh`       | `- v1.0, 2026-06-12; Initial ...`    |
-| `scripts/generate-doc-structure.mjs` | `v2.0.1 (2026-03-23): Enabled ...`   |
+| Script                               | Actual format                      |
+| ------------------------------------ | ---------------------------------- |
+| `scripts/cleanup-temp-files.sh`      | `- v5.3, 2026-04-08; Fix: ...`     |
+| `scripts/index.sh`                   | `- v1.3, 2026-03-24; Robust ...`   |
+| `scripts/targeted-linting.sh`        | `- v1.0, 2026-06-12; Initial ...`  |
+| `scripts/generate-doc-structure.mjs` | `v2.0.1 (2026-03-23): Enabled ...` |
 
 The five skill scripts all use the mandated `* vX.Y - YYYY-MM-DD - summary` form, so the split falls exactly along the `scripts/` versus `skills/` line. `script-auditor` cannot catch the difference: `NOTES_VERSION_RE` is `/\bversion history\b/i`, which only checks that the phrase is present, so all four non-conforming files pass that check today.
 
@@ -124,10 +124,8 @@ Fix: add `'.sh': 'zsh'` to the runner map (and probably `.bash`), or state in `S
 Fix: build the alternation from `RUNNER_BY_EXT` at module load instead of repeating it, so the regex and the map can never disagree:
 
 ```js
-const RUNNERS = [...new Set(Object.values(RUNNER_BY_EXT))].join("|");
-const SCRIPT_ENTRY_RE = new RegExp(
-  '^Bash\\((' + RUNNERS + ') (\\S.*):\\*\\)$',
-);
+const RUNNERS = [...new Set(Object.values(RUNNER_BY_EXT))].join('|');
+const SCRIPT_ENTRY_RE = new RegExp('^Bash\\((' + RUNNERS + ') (\\S.*):\\*\\)$');
 ```
 
 
@@ -174,19 +172,19 @@ Checked and cleared, recorded so the next audit does not re-litigate them:
 
 All 11 findings were fixed on 2026-08-18, in the order suggested below. What changed:
 
-| Finding                              | Fix                                                                                                                                                                              |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. `pnpm lint-naming` missing         | Added the script to `package.json`, so every command documented in `skills/file-folder-name-linter/SKILL.md` now runs.                                                             |
-| 2. Duplicate README maintainer       | Deleted `skills/readme-maintainer/`, keeping `folder-readme-maintainer`, and reran the syncer with `--write` to retire `Skill(readme-maintainer)`.                                 |
+| Finding                              | Fix                                                                                                                                                                                 |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. `pnpm lint-naming` missing        | Added the script to `package.json`, so every command documented in `skills/file-folder-name-linter/SKILL.md` now runs.                                                              |
+| 2. Duplicate README maintainer       | Deleted `skills/readme-maintainer/`, keeping `folder-readme-maintainer`, and reran the syncer with `--write` to retire `Skill(readme-maintainer)`.                                  |
 | 3. Three scripts failing the auditor | `generate-doc-structure.mjs` gained `--help` (plus argument rejection) and status emojis; `index.sh` and `targeted-linting.sh` gained real Output sections. All 9 scripts now pass. |
-| 4. Version-history format            | Normalized the four non-conforming headers to `vX.Y - YYYY-MM-DD - summary`, and added a Version format check to `script-auditor` v1.2 so the rule is enforced, not just stated.  |
-| 5. `.sh` missing from the runner map | `check-skill-allowlist.mjs` v2.1 maps `.sh` to `zsh`. `AGENTS.md` now states the `.sh` + zsh shebang pairing the tooling assumes.                                                 |
-| 6. Hardcoded runner alternation      | The managed-entry pattern is now built from `RUNNER_BY_EXT` at load time, so adding a runner cannot desynchronize the two.                                                         |
-| 7. Invisible duplicate entries       | `bucketGroup` reports repeats under `To remove (duplicate entry)` and counts them as drift, so check mode and write mode now agree.                                                |
-| 8. Undocumented `--repo-root=`       | Documented in the script `--help`, the notes block, and `SKILL.md`.                                                                                                               |
-| 9. Missing `blog-translator` row     | Added to the Daily utility table; `skills/README.md` now lists all 13 skills.                                                                                                     |
-| 10. `skills/README.md` nits          | Dropped "Codex" from the opening line, and replaced the `Last updated (UTC)` column with a date-only `Last updated`, which removes the 6 placeholder `00:00` times.                |
-| 11. `pnpm lint-target` undocumented  | Added to the `AGENTS.md` commands table alongside the new `pnpm lint-naming`.                                                                                                      |
+| 4. Version-history format            | Normalized the four non-conforming headers to `vX.Y - YYYY-MM-DD - summary`, and added a Version format check to `script-auditor` v1.2 so the rule is enforced, not just stated.    |
+| 5. `.sh` missing from the runner map | `check-skill-allowlist.mjs` v2.1 maps `.sh` to `zsh`. `AGENTS.md` now states the `.sh` + zsh shebang pairing the tooling assumes.                                                   |
+| 6. Hardcoded runner alternation      | The managed-entry pattern is now built from `RUNNER_BY_EXT` at load time, so adding a runner cannot desynchronize the two.                                                          |
+| 7. Invisible duplicate entries       | `bucketGroup` reports repeats under `To remove (duplicate entry)` and counts them as drift, so check mode and write mode now agree.                                                 |
+| 8. Undocumented `--repo-root=`       | Documented in the script `--help`, the notes block, and `SKILL.md`.                                                                                                                 |
+| 9. Missing `blog-translator` row     | Added to the Daily utility table; `skills/README.md` now lists all 13 skills.                                                                                                       |
+| 10. `skills/README.md` nits          | Dropped "Codex" from the opening line, and replaced the `Last updated (UTC)` column with a date-only `Last updated`, which removes the 6 placeholder `00:00` times.                 |
+| 11. `pnpm lint-target` undocumented  | Added to the `AGENTS.md` commands table alongside the new `pnpm lint-naming`.                                                                                                       |
 
 Version bumps: `check-skill-allowlist.mjs` v2.1, `audit-helper-scripts.mjs` v1.2, `generate-doc-structure.mjs` v2.1, `cleanup-temp-files.sh` v5.4, `index.sh` v1.4, `targeted-linting.sh` v1.1.
 

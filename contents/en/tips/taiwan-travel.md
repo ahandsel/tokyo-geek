@@ -43,6 +43,7 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
 * Public Wi-Fi was limited and slow. The eSIM was a much better experience.
 
 I recommend the [Klook eSIM][klook-esim] for Taiwan:
+
 * Buy and install the eSIM before arriving in Taiwan.
 * By far the cheapest data option I found (2026-06-14).
 * Speed and coverage were great across cities, smaller towns, and mountain areas.
@@ -50,7 +51,6 @@ I recommend the [Klook eSIM][klook-esim] for Taiwan:
 > [!TIP]
 > I used a VPN while using the Klook eSIM for added privacy.
 > Klook's eSIM ran all data through a Hong Kong cellular provider.
-
 
 <!-- Links -->
 

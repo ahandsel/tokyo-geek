@@ -117,7 +117,9 @@ for (const rel of paired) {
     const path = join(dir, rel);
     const { data: fm, error } = parseFrontmatter(readFileSync(path, 'utf8'));
     if (error) {
-      errors.push(`Invalid frontmatter YAML (${error}): contents/${locale}/${rel}`);
+      errors.push(
+        `Invalid frontmatter YAML (${error}): contents/${locale}/${rel}`,
+      );
       continue;
     }
     for (const key of REQUIRED_KEYS) {

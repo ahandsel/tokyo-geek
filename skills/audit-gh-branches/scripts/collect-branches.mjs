@@ -252,7 +252,14 @@ function statsAgainstBase(baseRef, ref) {
   };
 }
 
-function classify({ merged, ahead, behind, lastDate, cherry, staleCutoffDate }) {
+function classify({
+  merged,
+  ahead,
+  behind,
+  lastDate,
+  cherry,
+  staleCutoffDate,
+}) {
   if (merged || ahead === 0) {
     return {
       disposition: 'safe-to-delete',

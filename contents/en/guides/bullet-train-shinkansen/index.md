@@ -87,11 +87,11 @@ There are three websites that you can use to buy Shinkansen tickets:
 
 How do these three websites compare?
 
-| Website                                                                  | Coverage                                        | Pros                                            | Cons                                        | Who should use it?                                                                       |
-| ------------------------------------------------------------------------ | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Website            | Coverage                                        | Pros                                            | Cons                                        | Who should use it?                                                                       |
+| ------------------ | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | [SmartEX][smartex] | All Shinkansen stations south of Tokyo          | Fully supports English                          | Account setup required (30 minutes)         | Anyone buying tickets for the Tokaido, Sanyo, and Kyushu Shinkansen lines                |
 | [Eki-net][eki-net] | All Shinkansen stations west and north of Tokyo | Allows seat reservations for JR Rail Pass users | Limited English support                     | JR Rail Pass users traveling on the Joetsu, Hokuriku, Tohoku, and Hokkaido lines         |
-| [Klook][klook]                    | All Shinkansen stations                         | Easiest to use                                  | Additional fees; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
+| [Klook][klook]     | All Shinkansen stations                         | Easiest to use                                  | Additional fees; cannot specify exact seats | Casual travelers who want a hassle-free experience; modifying tickets could be difficult |
 
 
 ## SmartEX - Tokaido, Sanyo, and Kyushu Shinkansen lines

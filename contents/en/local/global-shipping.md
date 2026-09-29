@@ -61,8 +61,8 @@ localization: sync
 
 * Register the items to be shipped ahead of creating the label using [Contents List][contents-list] tool.
 
-|     | Home                                                               | Address book                                                                 | Data Import for Address book                                                 |
-| --- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+|     | Home                                              | Address book                                                | Data Import for Address book                                |
+| --- | ------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
 |     | ![global-shipping-home][img-global-shipping-home] | ![global-shipping-address-1][img-global-shipping-address-1] | ![global-shipping-address-2][img-global-shipping-address-2] |
 
 
@@ -85,7 +85,6 @@ Pages went over by the demo videos:
   <source src="/global-shipping/global-shipping-demo.mp4" type="video/mp4">
 </video>
 <!-- markdownlint-enable MD033 -->
-
 
 ### jp-post-contact-upload csv file
 
