@@ -16,14 +16,14 @@ localization: sync
 
 While Figma is not the ideal tool for writing, it is now the industry standard for design. Here are some Figma plugins that are helpful for UX writers.
 
-| Plugins                          | Description                                                            |
-| -------------------------------- | ---------------------------------------------------------------------- |
+| Plugins                                                      | Description                                                            |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | [Find and Replace Layer Names][find-and-replace-layer-names] | Simple tool for you to find and replace layer names in just one click. |
-| [Select Layers][select-layers]                | Select layers based on name, type, or similarity.                      |
-| [Phrase Strings][phrase-strings]               | Pull UX copy from Phrase Strings into Figma, tied by layer name.       |
-| [Change Text][change-text]                  | Bulk edit the text contents of multiple layers, groups, and frames.    |
-| [Rename It][rename-it]                    | Batch rename layers and frames.                                        |
-| [Reset Text Layer Name][reset-text-layer-name]        | Reset text layer name to match the content.                            |
+| [Select Layers][select-layers]                               | Select layers based on name, type, or similarity.                      |
+| [Phrase Strings][phrase-strings]                             | Pull UX copy from Phrase Strings into Figma, tied by layer name.       |
+| [Change Text][change-text]                                   | Bulk edit the text contents of multiple layers, groups, and frames.    |
+| [Rename It][rename-it]                                       | Batch rename layers and frames.                                        |
+| [Reset Text Layer Name][reset-text-layer-name]               | Reset text layer name to match the content.                            |
 
 
 ## Examples and best practices
@@ -69,4 +69,3 @@ The [Reset Text Layer Name][reset-text-layer-name] plugin allows you to reset th
 [rename-it]: https://www.figma.com/community/plugin/738454987945972471/Rename-It
 [reset-text-layer-name]: https://www.figma.com/community/plugin/738454987945972471/Reset-Text-Layer-Name
 [select-layers]: https://www.figma.com/community/plugin/738454987945972471/Select-Layers
-

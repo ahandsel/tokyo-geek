@@ -12,21 +12,7 @@ localization: sync
 
 {{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Summary](#summary)
-* [Packing and luggage tips](#packing-and-luggage-tips)
-* [Eurostar travel tips](#eurostar-travel-tips)
-* [Mobile data and eSIM](#mobile-data-and-esim)
-* [Currency and payments](#currency-and-payments)
-* [Environment and hygiene](#environment-and-hygiene)
-* [Tech and device tips](#tech-and-device-tips)
-* [Using AI for translations](#using-ai-for-translations)
-  * [Example AI prompt for French menu translation from an image](#example-ai-prompt-for-french-menu-translation-from-an-image)
-  * [Example AI prompt to translate German text from an image](#example-ai-prompt-to-translate-german-text-from-an-image)
-  * [Example AI prompt to review a French website and provide a summary](#example-ai-prompt-to-review-a-french-website-and-provide-a-summary)
-* [Final tips](#final-tips)
+[[toc]]
 
 Here are a few things that made my trip between Paris, Amsterdam, and Brussels easier and more enjoyable. Hopefully, they will help you too.
 
@@ -122,6 +108,21 @@ Specific bags used:
 * **Lightweight power adapter** - the [Sanwa Supply TR-AD4W overseas power conversion adapter][sanwa-power-adapter] worked well for us.
 
 
+## Apps that help on the trip
+
+* [Timeshifter][timeshifter] - Builds a jet-lag sleep and light plan from your flight schedule.
+* [Visit Japan Web][visit-japan-web] - Pre-register quarantine and customs for arrival in Japan, which shortens airport queues.
+* [Elk Currency Converter][elk-currency-converter] - Converts euros quickly offline. Swipe to compare amounts.
+* [Flush Toilet Finder & Map][flush-toilet-finder-map] - Finds public and paid toilets nearby, including offline search.
+* [Stasher Luggage Storage][stasher-luggage-storage] - Book a luggage locker near the station before you start sightseeing.
+* [Google Translate][google-translate] - Download language packs ahead of time so menus and signs translate without data.
+  * [Download languages to translate offline][download-languages-to-translate-offline]
+* [Google Maps][google-maps] - Download offline maps so navigation works without a data connection.
+  * [Download offline maps][download-offline-maps]
+* [Perplexity - AI Search & Chat][perplexity-ai-search-chat] - Ask for current restaurant or transit info and get answers with links.
+* [ChatGPT][chatgpt] - An AI chat for longer questions and translations that need context.
+
+
 ## Using AI for translations
 
 * **Google Translate** is great for quick translations that can be done offline.
@@ -198,13 +199,24 @@ Thank you for your help!
 
 <!-- Links -->
 
+[chatgpt]: https://apps.apple.com/app/id6448311069
+[download-languages-to-translate-offline]: https://support.google.com/translate/answer/6142473
+[download-offline-maps]: https://support.google.com/maps/answer/6291838
+[elk-currency-converter]: https://apps.apple.com/app/id1189748820
+[flush-toilet-finder-map]: https://apps.apple.com/app/id955254528
+[google-maps]: https://apps.apple.com/app/id585027354
+[google-translate]: https://apps.apple.com/app/id414706506
+[perplexity-ai-search-chat]: https://apps.apple.com/app/id1668000334
+[stasher-luggage-storage]: https://apps.apple.com/app/id1467879761
+[timeshifter]: https://apps.apple.com/app/id1380684374
+[visit-japan-web]: https://www.vjw.digital.go.jp/main/
 [airalo-europe-esim]: https://www.airalo.com/europe-eSIM
 [airalo-referral]: https://ref.airalo.com/DB2m
 [brita-water-bottle]: https://www.amazon.com/dp/B07H17RM1B/
 [foldable-boston-bag]: https://www.amazon.co.jp/dp/B09L43MKDS
 [nomad-europe-esim]: https://www.getnomad.app/europe-eSIM
 [nomad-help-doc]: https://www.getnomad.app/help-center/articles/9886364
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [rocket-typist]: https://apps.apple.com/app/rocket-typist/id6463636684
 [sanwa-power-adapter]: https://www.amazon.co.jp/dp/B075CXDNW2
 [solo-tourist-backpack]: https://www.amazon.co.jp/dp/B001LGVW9K

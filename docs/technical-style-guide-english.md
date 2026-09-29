@@ -33,24 +33,24 @@ If a sentence contains multiple ideas, split it into separate sentences or claus
 **Do ✅:**
 
 ```md
-All published announcements are shown on the announcements feed page and can be viewed by all users within the workspace.
+All published guides are shown on the guides index page and can be read in English or Japanese.
 ```
 
 ```md
-This guide provides step-by-step instructions for managing announcements.
-Use announcements to communicate important updates with users in your workspace.
+This guide provides step-by-step instructions for renewing a visa online.
+Use the online system to submit an application without visiting an immigration office.
 ```
 
 **Do not ❌:**
 
 ```md
-All published announcements are visible on the announcements feed page to all users in the workspace.
+All published guides are readable on the guides index page in English or Japanese.
 ```
 
-This sentence bundles two points (where announcements appear and who can see them) into one clause, which reduces focus.
+This sentence bundles two points (where the guides appear and which languages they are available in) into one clause, which reduces focus.
 
 ```md
-This guide provides step-by-step instructions for managing announcements and communicating important updates with users in the workspace using the announcements feature.
+This guide provides step-by-step instructions for renewing a visa online and submitting an application through the online system without visiting an immigration office.
 ```
 
 
@@ -58,8 +58,8 @@ This guide provides step-by-step instructions for managing announcements and com
 
 When using "the following" to introduce a list, include a noun that describes the items. Do not use "the following" on its own before a colon.
 
-* **Do ✅:** `To create an announcement, you need the following permissions:`
-* **Do not ❌:** `To create an announcement, you need the following:`
+* **Do ✅:** `To renew a visa online, you need the following documents:`
+* **Do not ❌:** `To renew a visa online, you need the following:`
 
 
 ### Do not end an introductory line with a dangling preposition
@@ -70,28 +70,28 @@ Rewrite the sentence to eliminate the dangling preposition.
 **Do ✅:**
 
 ```md
-Access the slash menu using one of these methods:
+Collect a reserved ticket using one of these methods:
 
-- Type `/` in the content field.
-- Click the **+** button on the left side of the content field when hovering over it.
+- Scan the pickup QR code at a reserved-seat ticket machine.
+- Enter the 16-digit pickup code at a reserved-seat ticket machine.
 ```
 
 Or use an imperative lead-in:
 
 ```md
-To access the slash menu:
+To collect a reserved ticket:
 
-- Type `/` in the content field.
-- Click the **+** button on the left side of the content field when hovering over it.
+- Scan the pickup QR code at a reserved-seat ticket machine.
+- Enter the 16-digit pickup code at a reserved-seat ticket machine.
 ```
 
 **Do not ❌:**
 
 ```md
-Access the slash menu by:
+Collect a reserved ticket by:
 
-- Type `/` in the content field.
-- Click the **+** button on the left side of the content field when hovering over it.
+- Scan the pickup QR code at a reserved-seat ticket machine.
+- Enter the 16-digit pickup code at a reserved-seat ticket machine.
 ```
 
 
@@ -106,22 +106,22 @@ Do not place a bulleted list immediately after a paragraph with no lead-in.
 **Do ✅:**
 
 ```md
-Announcements are messages sent to users in the workspace to share important updates, alerts, or information.
-Key features of announcements:
+Furusato nozei is a tax program that redirects part of your residence tax to a municipality of your choice.
+Key features of furusato nozei:
 
-- Each announcement consists of a title and rich text content.
-- All published announcements are shown on the announcements feed page and can be viewed by all users within the workspace.
-- Notifications can be sent to all users or specific groups of users.
+- Each donation consists of a payment and a choice of local gift.
+- All completed donations are listed on the donation portal and can be applied to the following year's residence tax.
+- Receipts can be filed through the one-stop exception or a full tax return.
 ```
 
 **Do not ❌:**
 
 ```md
-Announcements are messages sent to users in the workspace to share important updates, alerts, or information.
+Furusato nozei is a tax program that redirects part of your residence tax to a municipality of your choice.
 
-- Each announcement consists of a title and rich text content.
-- All published announcements are visible on the announcements feed page to all users in the workspace.
-- Notifications can be sent to all users or specific groups of users.
+- Each donation consists of a payment and a choice of local gift.
+- All completed donations are applicable to the following year's residence tax from the donation portal.
+- Receipts can be filed through the one-stop exception or a full tax return.
 ```
 
 The list appears disconnected from the paragraph because it lacks a lead-in.
@@ -131,8 +131,8 @@ The list appears disconnected from the paragraph because it lacks a lead-in.
 
 All h3 headings within an h2 "Preparations" section should be action-oriented, using a verb phrase rather than a noun phrase. This helps users understand what they need to do at a glance.
 
-* OK: `### Check admin access`
-* NOT: `### Admin access`
+* OK: `### Check your residence status`
+* NOT: `### Residence status`
 
 Preparations section refers to `* Preparations (h2) (optional)` as defined in the [How-to guides style guide](./templates/how-to-guides-template-structure.md).
 
@@ -152,7 +152,7 @@ After a user-action step, describe the system response as a regular paragraph or
 ```md
 4. Click **Save**.
 
-The announcement is saved and appears on the announcements feed page.
+The reservation is saved and appears on the reservations page.
 ```
 
 **Do not ❌:**
@@ -160,7 +160,7 @@ The announcement is saved and appears on the announcements feed page.
 ```md
 4. Click **Save**.
 
-5. The announcement is saved and can be viewed on the announcement feed page.
+5. The reservation is saved and can be viewed on the reservations page.
 ```
 
 
@@ -168,11 +168,11 @@ The announcement is saved and appears on the announcements feed page.
 
 Use the following formatting conventions to distinguish different types of content:
 
-| Format   | Use for                                                    | Example                                                                           |
-| -------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| **Bold** | UI elements (button names, field labels, menu items, etc.) | Click the **Save** button to save your announcement.                              |
-| `Code`   | User input, commands, or keyboard keys                     | Type `/` in the content field to open the slash menu.                             |
-| "Quotes" | System messages (errors, confirmations, etc.)              | A "Permission denied" error message appears if you lack the required permissions. |
+| Format   | Use for                                                    | Example                                                              |
+| -------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Bold** | UI elements (button names, field labels, menu items, etc.) | Click the **Save** button to save your reservation.                  |
+| `Code`   | User input, commands, or keyboard keys                     | Type `指定席` in the search field to find reserved seats.            |
+| "Quotes" | System messages (errors, confirmations, etc.)              | A "Seat not available" message appears if the train is fully booked. |
 
 > [!TIP]
 > Do not use italics for emphasis. Italic text cannot be rendered distinctly in Japanese, so it does not translate well.
@@ -191,7 +191,7 @@ This format is specific to glossary sections of the document. In other contexts,
 ```md
 ## Glossary
 
-- **Portal** - A customizable homepage for users.
+- **Furusato nozei** - A tax program that redirects part of your residence tax to a municipality of your choice.
 ```
 
 **Do not ❌:**
@@ -199,7 +199,7 @@ This format is specific to glossary sections of the document. In other contexts,
 ```md
 ## Glossary
 
-- **Portal**: A customizable homepage for users.
+- **Furusato nozei**: A tax program that redirects part of your residence tax to a municipality of your choice.
 ```
 
 For other cases, refer to the [Colons `:` section](./general-style-guide-english.md#colons-) of the general style guide for rules on using colons.
@@ -235,7 +235,7 @@ Do not use `[!WARNING]` to avoid confusion with `[!CAUTION]` and `[!IMPORTANT]`.
 Use the one-line format when the message is a single sentence with no links or formatted text. Write a complete sentence with punctuation.
 
 ```md
-> [!NOTE] Note: A title is required to save or publish an announcement as a draft.
+> [!NOTE] Note: A reservation number is required to collect a ticket at the station.
 ```
 
 **Constraint:** One-line banners support plaintext only. If you need links or formatted text, use the multi-line format.
@@ -246,8 +246,8 @@ Use the one-line format when the message is a single sentence with no links or f
 Use the multi-line format when the banner needs links, formatted text, or additional detail. Place a short title (in title case, without terminal punctuation) on the first line, and write the body on subsequent lines.
 
 ```md
-> [!NOTE] Note: Admin roles and permissions
-> You can assign admin roles and permissions from the [Admin roles][id-admin-roles-url] page in the admin portal.
+> [!NOTE] Note: Residence card requirements
+> You can check the current requirements on the [Residence card][id-residence-card-url] page of the Immigration Services Agency site.
 ```
 
 The title and body **must** be on separate lines. VitePress does not render inline links or formatting on the title line.

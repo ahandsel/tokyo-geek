@@ -49,9 +49,14 @@ You will find a **scoped** rule of this shape (the breakpoint may differ by
 VitePress version, commonly `min-width: 1280px`):
 
 ```css
-.VPNavBarTranslations { display: none; }
+.VPNavBarTranslations {
+  display: none;
+}
 @media (min-width: 1280px) {
-  .VPNavBarTranslations { display: flex; align-items: center; }
+  .VPNavBarTranslations {
+    display: flex;
+    align-items: center;
+  }
 }
 ```
 

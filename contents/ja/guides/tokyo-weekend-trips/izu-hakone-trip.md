@@ -22,16 +22,16 @@ localization: sync
 
 * [品川駅][shinagawa-station] → [三島駅][mishima-station]（新幹線）
   * **電車：** 東海道新幹線
-  * **所要時間：** 50 分
-  * **料金：** 1 人 4,400 円
+  * **所要時間：** 50分
+  * **料金：** 1人4,400円
 * [三島駅][mishima-station] → [修善寺駅][shuzenji-station]（電車）
   * **電車：** 伊豆箱根鉄道駿豆線
-  * **所要時間：** 40 分
-  * **料金：** 1 人 550 円
-* [修善寺駅][shuzenji-station] → [修善寺温泉バス停][shuzenji-onsen-bus-stop]（C10 バス）
+  * **所要時間：** 40分
+  * **料金：** 1人550円
+* [修善寺駅][shuzenji-station] → [修善寺温泉バス停][shuzenji-onsen-bus-stop]（C10バス）
   * **バス：** `Ｃ１０：修善寺駅~修善寺温泉修善寺温泉行`
-  * **所要時間：** 10 分
-  * **料金：** 1 人 260 円
+  * **所要時間：** 10分
+  * **料金：** 1人260円
 
 
 ### 午後
@@ -56,18 +56,18 @@ localization: sync
   * [三島駅][mishima-station] → [三島スカイウォーク][mishima-skywalk-map]（`Ｎ６５：三島駅~ＦＰ~元箱根港` バス）
 * [三島スカイウォーク][mishima-sky-walk]
   * 追加情報：[箱根ナビ][hakone-navi]
-  * [EMot][emot-app]アプリで[三島 1 日乗車券][mishima-1-day-ticket]を購入すると割引になります。
+  * [EMot][emot-app]アプリで[三島1日乗車券][mishima-1-day-ticket]を購入すると割引になります。
 
 
 ### 午後
 
 * **箱根へ向かう**
   * [三島スカイウォーク][mishima-skywalk-map] → [箱根東海道関所][hakone-tokaido-checkpoint]（`Ｎ６５：三島駅~ＦＰ~元箱根港` バス）
-  * ⚠️ [N65 三島駅→FP→スカイウォーク→元箱根港 (8650011) - バスルート][n65-bus-route]バスは 1 日数本しかありません。事前に計画しましょう。
+  * ⚠️ [N65三島駅→FP→スカイウォーク→元箱根港 (8650011) - バスルート][n65-bus-route]バスは1日数本しかありません。事前に計画しましょう。
 * [恩賜箱根公園 / 神奈川県立恩賜箱根公園][onshi-hakone-park]
 * 旧街道ハイキング
-  * [権現坂 祠][gongenzaka-shrine]から[畑宿一里塚（箱根旧街道） / 畑宿一里塚（箱根旧街道）][hata-juku-ichirizuka]まで
-  * YAMAP ルートの例：[箱根旧街道 ~芦ノ湖から奥湯本 / あにーさんの箱根山・神山の活動データ][yamap-route]
+  * [権現坂 祠][gongenzaka-shrine]から[畑宿一里塚（箱根旧街道）/ 畑宿一里塚（箱根旧街道）][hata-juku-ichirizuka]まで
+  * YAMAPルートの例：[箱根旧街道 ~芦ノ湖から奥湯本 / あにーさんの箱根山・神山の活動データ][yamap-route]
 
 
 ### 夕方

@@ -1,7 +1,31 @@
 // Main vitepress configuration
 
+import { existsSync } from 'node:fs';
+import { dirname, resolve, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitepress';
 import { withSidebar } from 'vitepress-sidebar';
+
+const contentsRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const publicDir = resolve(contentsRoot, 'public');
+
+// Ignore dead-link errors for files that actually exist under contents/public.
+// VitePress page routes do not include public assets, so those links otherwise fail.
+function isPublicAssetLink(url) {
+  if (typeof url !== 'string' || url.includes('://') || url.startsWith('#')) {
+    return false;
+  }
+  const pathname = url.split('?')[0].split('#')[0];
+  const relative = pathname
+    .replace(/^\/tokyo-geek(?=\/|$)/, '')
+    .replace(/^\//, '');
+  if (!relative) return false;
+  // Confine the lookup to contents/public. Without this, a link with enough
+  // ../ segments matches an unrelated repository file and the dead link ships.
+  const target = resolve(publicDir, relative);
+  if (!target.startsWith(publicDir + sep)) return false;
+  return existsSync(target);
+}
 
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
@@ -16,7 +40,11 @@ const vitePressOptions = {
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/png', href: '/tokyo-geek/cat-icon-clear.png' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/tokyo-geek/cat-icon-clear.png',
+      },
     ],
     // iOS "Add to Home Screen" bookmark icon. iOS fills transparent areas with
     // black, so this points at the opaque 180x180 variant rather than the
@@ -26,7 +54,7 @@ const vitePressOptions = {
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/tokyo-geek/cat-icon-background.png',
+        href: '/tokyo-geek/apple-touch-icon-180x180.png',
       },
     ],
     // Name shown under the icon on the iOS home screen.
@@ -39,14 +67,38 @@ const vitePressOptions = {
   cleanUrls: true,
   metaChunk: true,
 
-  // Public assets (served from contents/public) are not page routes, so the dead-link checker flags Markdown links to them. 
-  // Allow-list those paths.
-  ignoreDeadLinks: ['/share/Brewfile'],
+  // Public assets are not page routes. Ignore a link only when the file exists
+  // under contents/public, so typos like /share/Brewfile still fail the build.
+  ignoreDeadLinks: [isPublicAssetLink],
 
-  // The snippets README documents the literal `@include` directive syntax, which VitePress would
-  // otherwise try to process as a real include. It is contributor docs, not a site page, so
-  // exclude it from the build.
-  srcExclude: ['snippets/README.md'],
+  // Snippets are contributor include templates, not site pages.
+  // temp.md is gitignored as a local draft stub; never publish it.
+  srcExclude: ['snippets/**', '**/temp.md'],
+
+  markdown: {
+    config(md) {
+      // Interpolate {{$frontmatter.title}} in headings before anchors and
+      // aria-labels are generated, so permalinks do not leak the template.
+      md.core.ruler.before(
+        'inline',
+        'interpolate-frontmatter-title',
+        (state) => {
+          const title = state.env?.frontmatter?.title;
+          if (typeof title !== 'string' || title.trim().length === 0) return;
+          for (const token of state.tokens) {
+            if (token.type !== 'inline' || typeof token.content !== 'string') {
+              continue;
+            }
+            if (!token.content.includes('$frontmatter.title')) continue;
+            token.content = token.content.replace(
+              /\{\{\s*\$frontmatter\.title\s*\}\}/g,
+              title,
+            );
+          }
+        },
+      );
+    },
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -118,13 +170,16 @@ const vitePressOptions = {
       },
     ],
     editLink: {
-      pattern: 'https://github.com/ahandsel/tokyo-geek/edit/main/contents/:path',
+      pattern:
+        'https://github.com/ahandsel/tokyo-geek/edit/main/contents/:path',
       text: 'Edit this page on GitHub',
     },
   },
   base: '/tokyo-geek/',
   sitemap: {
-    hostname: 'https://ahandsel.github.io',
+    // Trailing slash is required so page paths append to /tokyo-geek/ instead
+    // of replacing that segment (URL resolution rule).
+    hostname: 'https://ahandsel.github.io/tokyo-geek/',
   },
 
   // https://vitepress.dev/guide/internationalization
@@ -153,6 +208,44 @@ const vitePressOptions = {
           formatOptions: {
             dateStyle: 'long',
             forceLocale: true,
+          },
+        },
+        outline: { level: [2, 3], label: '目次' },
+        editLink: {
+          pattern:
+            'https://github.com/ahandsel/tokyo-geek/edit/main/contents/:path',
+          text: 'GitHub でこのページを編集',
+        },
+        footer: {
+          message:
+            '役に立った？ <a href="https://ko-fi.com/ahandsel" target="_blank">コーヒーをおごってください ☕</a>',
+        },
+        darkModeSwitchLabel: '外観',
+        lightModeSwitchTitle: 'ライトモードに切り替え',
+        darkModeSwitchTitle: 'ダークモードに切り替え',
+        sidebarMenuLabel: 'メニュー',
+        returnToTopLabel: '先頭に戻る',
+        langMenuLabel: '言語を切り替え',
+        skipToContentLabel: '本文へスキップ',
+        search: {
+          options: {
+            translations: {
+              button: {
+                buttonText: '検索',
+                buttonAriaLabel: '検索',
+              },
+              modal: {
+                displayDetails: '詳細を表示',
+                resetButtonTitle: 'リセット',
+                backButtonTitle: '戻る',
+                noResultsText: '結果がありません',
+                footer: {
+                  selectText: '選択',
+                  navigateText: '移動',
+                  closeText: '閉じる',
+                },
+              },
+            },
           },
         },
         nav: [

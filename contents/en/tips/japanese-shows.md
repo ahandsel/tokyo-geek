@@ -124,7 +124,6 @@ Here are Japanese shows and movies that I have watched and enjoyed. Hopefully, y
 [shogun-google]: https://g.co/kgs/dR13mhy
 [tokyo-godfathers-google]: https://g.co/kgs/EfVy59C
 [weathering-with-you-google]: https://share.google/YJoanobWWOxDGyrtg
-
 [aggretsuko-netflix]: https://www.netflix.com/title/80198505
 [erased-netflix]: https://www.netflix.com/title/80114225
 [garden-of-words-netflix]: https://www.netflix.com/title/70291121
@@ -134,7 +133,6 @@ Here are Japanese shows and movies that I have watched and enjoyed. Hopefully, y
 [parasite-netflix]: https://www.netflix.com/title/80191008
 [tokyo-godfathers-netflix]: https://www.netflix.com/title/60034521
 [weathering-with-you-netflix]: https://www.netflix.com/title/81172898
-
 [aggretsuko-vpn]: https://www.StreamWithVPN.com/aggretsuko-2018
 [erased-vpn]: https://www.StreamWithVPN.com/erased-2016
 [garden-of-words-vpn]: https://www.StreamWithVPN.com/the-garden-of-words-2013

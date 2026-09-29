@@ -1,6 +1,6 @@
 ---
-title: Google Doc 自動化 - テンプレートで週次レポートを追記する
-description: 指定されたスケジュールで Google Doc にテンプレートを追記する Google Apps Script の自動化の例です。
+title: Google Doc自動化 - テンプレートで週次レポートを追記する
+description: 指定されたスケジュールでGoogle Docにテンプレートを追記するGoogle Apps Scriptの自動化の例です。
 head:
   - - meta
     - name: keywords
@@ -12,40 +12,40 @@ localization: sync
 
 {{$frontmatter.description}}
 
-ソースの Google Doc のコンテンツを、指定されたフレーズの後に別の Google Doc に挿入する Google Apps Script の自動化です。
+ソースのGoogle Docのコンテンツを、指定されたフレーズの後に別のGoogle Docに挿入するGoogle Apps Scriptの自動化です。
 
-* テンプレートが入っている Google Doc を「ソース」Google Doc と呼びます。
-* テンプレートを受け取る Google Doc を「ターゲット」Google Doc と呼びます。
+* テンプレートが入っているGoogle Docを「ソース」Google Docと呼びます。
+* テンプレートを受け取るGoogle Docを「ターゲット」Google Docと呼びます。
 
 [[toc]]
 
 
 ## この自動化でできること
 
-* このスクリプトは、1 つの Google Doc（ソース）のコンテンツを、特定のフレーズの後に別の Google Doc（ターゲット）に挿入します。
-  * Google Apps Script の DocumentApp サービスを使って Google Docs を操作します。
+* このスクリプトは、1つのGoogle Doc（ソース）のコンテンツを、特定のフレーズの後に別のGoogle Doc（ターゲット）に挿入します。
+  * Google Apps ScriptのDocumentAppサービスを使ってGoogle Docsを操作します。
 * スクリプトを毎週実行するように設定できます。
 
 
-## Google Apps Script コード
+## Google Apps Scriptコード
 
 <<< @/public/google-doc-auto-appending.js
 
 
 ## セットアップ手順
 
-1. **Google Apps Script プロジェクトを作成する**
-   * Google Drive を開く → **+ 新規** → その他 → Google Apps Script をクリックします。
+1. **Google Apps Scriptプロジェクトを作成する**
+   * Google Driveを開く → **+ 新規** → その他 → Google Apps Scriptをクリックします。
 2. **上記のスクリプトを貼り付けます。**
-3. **Google Doc ID を追加する**
-   * プレースホルダーの`SOURCE_GOOGLE_DOC_ID`と`TARGET_GOOGLE_DOC_ID`を実際の Google Doc ID に置き換えます。
-   * Google Doc ID はドキュメントの URL に含まれる一意の識別子です。例えば、`https://docs.google.com/document/d/1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU/edit`の場合、ID は`1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU`です。
+3. **Google Doc IDを追加する**
+   * プレースホルダーの`SOURCE_GOOGLE_DOC_ID`と`TARGET_GOOGLE_DOC_ID`を実際のGoogle Doc IDに置き換えます。
+   * Google Doc IDはドキュメントのURLに含まれる一意の識別子です。例えば、`https://docs.google.com/document/d/1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU/edit`の場合、IDは`1_h0aQdM1mBSZawk2stu9Ng_TCZm4UvsFJ9y5prYuCtU`です。
 4. **ターゲットフレーズを置き換える**
-   * `Insert Below:`を、テンプレートを挿入したいターゲット Google Doc 内のフレーズに置き換えます。
+   * `Insert Below:`を、テンプレートを挿入したいターゲットGoogle Doc内のフレーズに置き換えます。
 5. **スクリプトを保存する**
    * **ファイル** → **保存**をクリックします。
 6. **毎週実行するトリガーを設定する**
-   * Apps Script の**トリガー**（時計アイコン）をクリックします。
+   * Apps Scriptの**トリガー**（時計アイコン）をクリックします。
    * **+ トリガーを追加**をクリックします。
    * 関数を選択：`insertDocContentAfterPhrase`
    * イベントのソースを選択：**時間主導型**
@@ -53,7 +53,7 @@ localization: sync
    * 実行する曜日と時間を選択します。
 
 > [!IMPORTANT]
-> Google Doc の権限：スクリプトがソースとターゲットの両方のドキュメントにアクセス・変更できる権限があることを確認してください。スクリプトを実行する前に、共有権限を適切に設定してください。
+> Google Docの権限：スクリプトがソースとターゲットの両方のドキュメントにアクセス・変更できる権限があることを確認してください。スクリプトを実行する前に、共有権限を適切に設定してください。
 
 
 ## コードの説明
@@ -61,21 +61,21 @@ localization: sync
 
 ### 変数
 
-* `srcDocId`：ソース Google Doc の一意の識別子です。
-* `targetDocId`：ターゲット Google Doc の一意の識別子です。
+* `srcDocId`：ソースGoogle Docの一意の識別子です。
+* `targetDocId`：ターゲットGoogle Docの一意の識別子です。
 * `insertLocation`：ターゲットドキュメント内の大文字小文字を区別する文字列で、この文字列の下に新しいコンテンツが挿入されます。このフレーズが複数ある場合、最初の出現箇所の後にコンテンツが挿入されます。
 * `separator`：視覚的な区切り線として使用されるハードコードされた値です（オプション）。コードは分かりやすさのため、区切りテキストの代わりに空の段落を挿入します。
 
 
-### ソースとターゲットの Google Doc からコンテンツを取得する
+### ソースとターゲットのGoogle Docからコンテンツを取得する
 
 ```javascript
 const srcDoc = DocumentApp.openById(srcDocId).getBody();
 const targetBody = DocumentApp.openById(targetDocId).getBody();
 ```
 
-* `srcDocId`と`targetDocId`変数で指定された識別子を使って、これらの Google Docs ファイルを特定します。
-* `DocumentApp`サービスを使って、ソースとターゲットの両方の Google Docs を開きます。
+* `srcDocId`と`targetDocId`変数で指定された識別子を使って、これらのGoogle Docsファイルを特定します。
+* `DocumentApp`サービスを使って、ソースとターゲットの両方のGoogle Docsを開きます。
 * `getBody()`メソッドで各ドキュメントのメインコンテンツ（本文）を取得します。本文にはドキュメントを構成するすべての段落、テーブル、その他の要素が含まれています。
 
 

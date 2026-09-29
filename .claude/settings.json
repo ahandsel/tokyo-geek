@@ -5,31 +5,37 @@
       "Bash(git commit *)",
       "WebFetch(domain:shinkansen.tabiris.com)",
       "WebFetch(domain:vitepress.dev)",
+      "Bash(node skills/audit-gh-branches/scripts/collect-branches.mjs:*)",
+      "Bash(node skills/audit-gh-branches/scripts/extract-branch-notes.mjs:*)",
       "Bash(node skills/file-folder-name-linter/scripts/lint-names.mjs:*)",
-      "Bash(node skills/gh-issue-to-task/scripts/fetch-issue.mjs:*)",
       "Bash(node skills/gh-pr-reporter/scripts/get-pr-comments.mjs:*)",
+      "Bash(node skills/gh-sync-with-main/scripts/update-branch-from-main.mjs:*)",
       "Bash(node skills/script-auditor/scripts/audit-helper-scripts.mjs:*)",
       "Bash(node skills/skill-allowlist-syncer/scripts/check-skill-allowlist.mjs:*)",
       "Skill(ai-commit)",
+      "Skill(audit-gh-branches)",
+      "Skill(audit-pr-comments)",
       "Skill(blog-content-auditor)",
       "Skill(blog-md-linter)",
       "Skill(blog-translator)",
+      "Skill(content-sync-en-ja)",
       "Skill(file-folder-name-linter)",
       "Skill(folder-readme-maintainer)",
       "Skill(general-en-polisher)",
       "Skill(gh-cli)",
-      "Skill(gh-issue-to-task)",
+      "Skill(gh-pr-generator)",
       "Skill(gh-pr-reporter)",
+      "Skill(gh-sync-with-main)",
+      "Skill(grill-me)",
+      "Skill(grilling)",
+      "Skill(handoff)",
       "Skill(link-polisher)",
+      "Skill(pr-auditor)",
       "Skill(script-auditor)",
-      "Skill(skill-allowlist-syncer)"
+      "Skill(skill-allowlist-syncer)",
+      "Skill(writing-great-skills)"
     ],
-    "deny": [
-      "Bash(git push *)",
-      "Bash(git -C * push *)"
-    ],
-    "ask": [
-      "Bash(gh pr create *)"
-    ]
+    "deny": ["Bash(git push *)", "Bash(git -C * push *)"],
+    "ask": ["Bash(gh pr create *)"]
   }
 }

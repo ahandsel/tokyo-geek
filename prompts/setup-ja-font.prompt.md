@@ -126,6 +126,6 @@ Tell the user, in plain language:
 
 * Which font you set and where (their personal VS Code settings, Markdown files only).
 * That they should close and reopen VS Code, then open a file with a Japanese table to see the columns line up.
-* That this only changes how tables look while editing; the published result on GitHub or in Phrase is unchanged.
+* That this only changes how tables look while editing; the published result on GitHub is unchanged.
 
 Do not edit the repo workspace settings (`.vscode/settings.json`) or commit anything. This setup is personal to the user's machine.

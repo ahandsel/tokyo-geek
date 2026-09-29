@@ -29,17 +29,17 @@ localization: sync
 個人的なおすすめ：
 
 * 店舗：[ヨドバシカメラ 新宿西口本店（ヨドバシカメラ 新宿西口本店）][yodobashi-shinjuku-west]
-* プラン：SoftBank 光 + YMobile のセットプラン
-  * 高速な SoftBank 光の光回線で、在宅勤務にも安定しています。
+* プラン：SoftBank光 + YMobileのセットプラン
+  * 高速なSoftBank光の光回線で、在宅勤務にも安定しています。
   * 初期費用と月額料金が割引になるため、別々に契約するよりお得です。
   * [PayPay][paypay-english]との連携もスムーズです。
 
-2025 年 11 月時点の情報：
+2025年11月時点の情報：
 
-* SoftBank 光は少し高めですが、東京で最も速いインターネットプランです。
-* YMobile は SoftBank と同じカバレッジを持つ、お手頃な携帯電話プランです。
-  * YMobile は地方（山、ビーチ、その他の遠隔地）でも電波が入りやすいです。
-* Rakuten Mobile は最も安い携帯電話プランですが、カバレッジが限定的です。
+* SoftBank光は少し高めですが、東京で最も速いインターネットプランです。
+* YMobileはSoftBankと同じカバレッジを持つ、お手頃な携帯電話プランです。
+  * YMobileは地方（山、ビーチ、その他の遠隔地）でも電波が入りやすいです。
+* Rakuten Mobileは最も安い携帯電話プランですが、カバレッジが限定的です。
 
 
 ## 支払い方法
@@ -61,10 +61,10 @@ localization: sync
 * Rakuten Mobile
 
 
-### データ + 音声プラン vs データのみプラン
+### データ + 音声プランvsデータのみプラン
 
-* データのみのプランにして、LINE や WhatsApp などの VoIP アプリで通話する方が安上がりです。
-* 一般的に、データのみのプランでは電話や SMS（テキストメッセージ）は使えません。
+* データのみのプランにして、LINEやWhatsAppなどのVoIPアプリで通話する方が安上がりです。
+* 一般的に、データのみのプランでは電話やSMS（テキストメッセージ）は使えません。
   * 会社の携帯電話を持っている方には向いています。
   * オンラインサービスの二段階認証（セキュリティや新規登録）を利用したい場合には不向きです。
 
@@ -83,9 +83,9 @@ localization: sync
 [matcha-japan-post-bank]: https://matcha-jp.com/en/4496
 [paypay-english]: https://blog.paypay.ne.jp/en/english-language-on-paypay/
 [rakuten-credit-card]: https://www.rakuten-card.co.jp/
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
 [time-out-phone-number]: https://www.timeout.com/tokyo/things-to-do/how-and-why-to-get-a-japanese-phone-number?package_page=112292
 [tokyo-cheapo-cheapest]: https://tokyocheapo.com/business/japan-sim-card-options-data-voice/
-[wise]: https://wise.com/invite/ihpn/genjif1
+[wise]: https://wise.com/invite/ilpc/genjif1
 [yodobashi-camera]: https://www.google.com/maps/search/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E3%82%AB%E3%83%A1%E3%83%A9/
 [yodobashi-shinjuku-west]: https://goo.gl/maps/A6AnJRYfraKQURZk6

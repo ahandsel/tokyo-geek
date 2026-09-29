@@ -2,4 +2,10 @@
 pnpm-lock.yaml
 
 # Ignore generated documentation structure file
-contents/structure.md
+docs/contents-structure.md
+
+# Symlinked directories - format the real files at their source path instead.
+# `.claude/commands` -> `prompts/`, `.claude/skills` and `.codex/skills` -> `skills/`.
+.claude/commands
+.claude/skills
+.codex/skills

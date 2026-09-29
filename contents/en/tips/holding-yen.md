@@ -127,6 +127,6 @@ A note from an economics enthusiast: locking in market returns can outpace infla
 [hsbc-global-money]: https://www.us.hsbc.com/checking-accounts/products/global-money/
 [nerdwallet-revolut-review]: https://www.nerdwallet.com/reviews/banking/revolut
 [nerdwallet-wise-review]: https://www.nerdwallet.com/article/banking/transferwise-review
-[revolut]: https://revolut.com/referral/?referral-code=genjikw45!JAN1-26-AR-JP-H2&geo-redirect
-[wise]: https://wise.com/invite/ihpn/genjif1
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
+[wise]: https://wise.com/invite/ilpc/genjif1
 [wise-us-foreign-currency]: https://wise.com/us/blog/us-foreign-currency-account

@@ -21,6 +21,7 @@ Platt Kodama (`ぷらっとこだま`) is a discount plan for the Tokaido Shinka
 In exchange for taking the "local" Kodama Shinkansen, you can get a discount.
 
 Seating options under the Platt Kodama plan:
+
 * Ordinary car; reserved seat
 * Green car; reserved seat
 
@@ -212,7 +213,7 @@ Two steps:
 
 ⚠️ Navigate to the **Correct** Ticket Machine
 
-| ✅ Correct Ticket Machines                                | ❌ Incorrect Ticket Machines                                  |
+| ✅ Correct Ticket Machines                               | ❌ Incorrect Ticket Machines                                 |
 | -------------------------------------------------------- | ------------------------------------------------------------ |
 | ![TicketMachine-Correct.png][img-ticket-machine-correct] | ![TicketMachine-Incorrect.png][img-ticket-machine-incorrect] |
 

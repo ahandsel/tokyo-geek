@@ -23,21 +23,21 @@ localization: sync
 * ブリュッセルは少し期待外れでした。パリやアムステルダムとの比較としては面白かったですが、スキップしてもよかったかもしれません。
 * パリはもちろん素晴らしい街で、やることもたくさんありますが、アムステルダムほど楽しくはなかったです。
 * パリ行きのフライトはアムステルダム行きよりもかなり安いです。
-* 5 月初旬は訪れるのに最適な時期です。天気が良く、日が長く、それほど混雑していません。チューリップも満開でした。
+* 5月初旬は訪れるのに最適な時期です。天気が良く、日が長く、それほど混雑していません。チューリップも満開でした。
 
 
-## 旅行気分を高める YouTube チャンネル 📺
+## 旅行気分を高めるYouTubeチャンネル 📺
 
-旅行前に気分を高めてくれて、訪れる場所のアイデアももらえた YouTube チャンネルです。
+旅行前に気分を高めてくれて、訪れる場所のアイデアももらえたYouTubeチャンネルです。
 
 * [The Tim Traveller][the-tim-traveller] - ヨーロッパの変わった場所や興味深い場所を紹介する短編動画のチャンネル。
   * 🇫🇷 [TTT Does France][ttt-does-france] - 「Y」という名前の村や使われなくなったホバークラフト港など、フランスの珍しいスポットを集めた再生リスト。
   * 🇳🇱 [TTT Does The Netherlands][ttt-does-the-netherlands] - バールレの飛び地やフレヴォラント州の最高地点など、オランダの珍しいスポットを集めた再生リスト。
   * 🇧🇪 [TTT Does Belgium][ttt-does-belgium] - 奇妙な国境や開業しなかった地下鉄路線など、ベルギーの珍しいスポットを集めた再生リスト。
 * [What On Earth Is This?][what-on-earth-is-this] - マニアックな場所を巡る旅行動画のチャンネル。ヨーロッパを扱った動画が多いです。
-  * 🇫🇷 [Le Téléscaphe: France's Crazy Underwater Cable Car][telescaphe-cable-car] - 1960 年代にマルセイユ近郊に造られた海中ロープウェイ。
+  * 🇫🇷 [Le Téléscaphe: France's Crazy Underwater Cable Car][telescaphe-cable-car] - 1960年代にマルセイユ近郊に造られた海中ロープウェイ。
   * 🇳🇱 [The Netherlands Has DIY Ferries - So I Gave Them a Go][dutch-diy-ferries] - オランダの運河にある、自分で綱を引いて渡るセルフサービスの渡し船。
-  * 🇧🇪 [This Building Has Been Covered In Scaffolding For 42 Years][brussels-scaffolding] - ブリュッセルの司法宮を取り上げた、The Tim Traveller とのコラボ動画。
+  * 🇧🇪 [This Building Has Been Covered In Scaffolding For 42 Years][brussels-scaffolding] - ブリュッセルの司法宮を取り上げた、The Tim Travellerとのコラボ動画。
 
 
 ## 事前に予約すべきチケット
@@ -55,24 +55,24 @@ localization: sync
 
 ## 日程
 
-| | 都市 | メモ |
-| --- | --- | --- |
-| 1 日目 | パリ | パリに到着 |
-| 2 日目 | パリ | カタコンブ |
-| 3 日目 | パリ | オルセー美術館 |
-| 4 日目 | パリ → アムステルダム | |
-| 5 日目 | アムステルダム | |
-| 6 日目 | アムステルダム | |
-| 7 日目 | アムステルダム | |
-| 8 日目 | アムステルダム → ブリュッセル | |
-| 9 日目 | ブリュッセル | |
-| 10 日目 | ブリュッセル | |
-| 11 日目 | ブリュッセル → パリ | |
-| 12 日目 | パリ | ヴェルサイユ宮殿 |
-| 13 日目 | パリ | ルーヴル美術館 |
-| 14 日目 | パリ | エッフェル塔 |
-| 15 日目 | パリ | リバークルーズ |
-| 16 日目 | パリ | パリから出発 |
+|        | 都市                          | メモ             |
+| ------ | ----------------------------- | ---------------- |
+| 1日目  | パリ                          | パリに到着       |
+| 2日目  | パリ                          | カタコンブ       |
+| 3日目  | パリ                          | オルセー美術館   |
+| 4日目  | パリ → アムステルダム         |                  |
+| 5日目  | アムステルダム                |                  |
+| 6日目  | アムステルダム                |                  |
+| 7日目  | アムステルダム                |                  |
+| 8日目  | アムステルダム → ブリュッセル |                  |
+| 9日目  | ブリュッセル                  |                  |
+| 10日目 | ブリュッセル                  |                  |
+| 11日目 | ブリュッセル → パリ           |                  |
+| 12日目 | パリ                          | ヴェルサイユ宮殿 |
+| 13日目 | パリ                          | ルーヴル美術館   |
+| 14日目 | パリ                          | エッフェル塔     |
+| 15日目 | パリ                          | リバークルーズ   |
+| 16日目 | パリ                          | パリから出発     |
 
 
 ## パリ
@@ -120,10 +120,10 @@ localization: sync
 
 セーヌ川クルーズ（地下区間あり）
 
-* 選択肢 1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal][guided-cruise-seine-saint-martin-canal]
+* 選択肢1: [Guided Cruise on the Seine and the Saint Martin Canal \- Paris Canal][guided-cruise-seine-saint-martin-canal]
   * オルセー美術館までのセーヌ川を含む
-* 選択肢 2: [wcanauxrama.com][canauxrama]
-  * Bassin de l'Arsenal でクルーズ終了
+* 選択肢2: [wcanauxrama.com][canauxrama]
+  * Bassin de l'Arsenalでクルーズ終了
 
 セーヌ川沿いを歩いて訪れる場所：
 
@@ -156,14 +156,14 @@ localization: sync
 ## アムステルダム
 
 
-### Keukenhof の日
+### Keukenhofの日
 
 * [Keukenhof][keukenhof-map]（たくさんのチューリップがある植物園）
 
 
 ### ダウンタウンの日
 
-[Google Maps リスト][amsterdam-google-maps-list]
+[Google Mapsリスト][amsterdam-google-maps-list]
 
 * [Houseboat Museum][houseboat-museum]（とても小さい）
 * [Albert Cuyp Market][albert-cuyp-market]（月〜土、9:30-17:00）

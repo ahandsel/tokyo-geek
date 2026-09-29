@@ -17,7 +17,7 @@ localization: sync
 Notes from a 13-day trip across Taiwan. 🇹🇼
 
 
-## Cash is king
+## 💵 Cash is king
 
 Cash is king in Taiwan - especially for night markets, small shops, and most local food stalls.
 
@@ -25,9 +25,10 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
 * Apple Pay covered larger shops, chains, and department stores.
 * [Line Pay][line-pay] and [EasyCard][easycard] filled the gap for smaller shops that did not take Apple Pay but did want a digital option.
 * Credit cards work at the MRT gates and on intercity trains, so you do not need to top up an EasyCard for those.
+  * [Wise][wise] and [Revolut][revolut] debit cards charge no foreign transaction fee, which makes them ideal for MRT rides.
 
 
-## EasyCard over iPass
+## 🚇 EasyCard over iPass
 
 * The [EasyCard][easycard] is the most widely accepted transit card in Taiwan.
 * It works on buses, the MRT, trains, and at many shops, including convenience stores and some small restaurants.
@@ -36,14 +37,13 @@ Cash is king in Taiwan - especially for night markets, small shops, and most loc
 * Top up at any MRT station or convenience store.
 
 
-## Klook eSIM
-
-Stay connected with an eSIM. 📶
+## 📶 Klook eSIM - stay connected with cheap eSIM
 
 * 20 GB lasted comfortably for 13 days of normal use, including maps, photos, and streaming.
 * Public Wi-Fi was limited and slow. The eSIM was a much better experience.
 
 I recommend the [Klook eSIM][klook-esim] for Taiwan:
+
 * Buy and install the eSIM before arriving in Taiwan.
 * By far the cheapest data option I found (2026-06-14).
 * Speed and coverage were great across cities, smaller towns, and mountain areas.
@@ -52,12 +52,17 @@ I recommend the [Klook eSIM][klook-esim] for Taiwan:
 > I used a VPN while using the Klook eSIM for added privacy.
 > Klook's eSIM ran all data through a Hong Kong cellular provider.
 
----
 
-A little prep on payments and data goes a long way. Enjoy Taiwan.
+## 🌴 Highly recommend Kaohsiung
+
+* Kaohsiung is a major city with plenty to do, but I found it much less crowded and less expensive than Taipei.
+* I found plenty of night markets in both cities, but enjoyed Kaohsiung's more.
+* I enjoyed both cities, but I plan to return to Kaohsiung.
 
 <!-- Links -->
 
 [easycard]: https://www.easycard.com.tw/en
 [klook-esim]: https://s.klook.com/c/E3xdG5mE38
 [line-pay]: https://pay.line.me/tw/
+[revolut]: https://revolut.com/referral/?referral-code=genjikw45!SEP2-26-AR-JP-H4&geo-redirect
+[wise]: https://wise.com/invite/ilpc/genjif1

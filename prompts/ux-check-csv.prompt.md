@@ -42,7 +42,7 @@ Specific instructions for the `key_name` column:
 * Template
 * Check if the keys are descriptive and accurately represent the content of the copy.
 * Check for spelling mistakes or typos in the keys.
-* Example: `poll_createPollModal_errorMsg_errorFound` is a key for an error message that appears at the bottom of the modal when an error is detected when creating a poll.
+* Example: `booking_createBookingModal_errorMsg_errorFound` is a key for an error message that appears at the bottom of the modal when an error is detected when creating a booking.
 
 Specific instructions for the `comment` column:
 

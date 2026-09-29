@@ -65,8 +65,12 @@
   "gitignore": true,
   "globs": ["**/*.md"],
 
+  // Skip symlinked directories so every file is linted and fixed once, at its
+  // real path. `.claude/commands` points at `prompts/`, and `.claude/skills`
+  // and `.codex/skills` both point at `skills/`.
+  "ignores": [".claude/commands/**", ".claude/skills/**", ".codex/skills/**"],
+
   // Optional CLI behavior
-  "fix": true,
   "noProgress": true,
   "showFound": true,
 }

@@ -3,10 +3,26 @@
 `Tokyo Geek` is a personal website mainly focused on travel guides and tips for Japan.
 
 Core topics:
+
 * Traveling and living in Japan.
 * Tech and software development.
 * Traveling notes.
 * Miscellaneous things the author (`ahandsel`) wants to share.
+
+
+## Asking and verifying
+
+These rules apply to every AI agent that touches this repo, including Claude Code, Cursor, Copilot, Codex, and any future tool, and they override that tool's own default to proceed on a best guess.
+
+* Ask clarifying questions whenever anything is unclear, and ask before doing the work rather than after.
+  * This covers the user's request: ambiguous scope, an unnamed or ambiguous file or path, a truncated message, or two readings that would lead to materially different work.
+  * It also covers information encountered along the way: a doc that contradicts another doc, a file whose state does not match what the request assumed, a missing counterpart under `contents/en/` or `contents/ja/`, or a rule that conflicts with the task.
+  * One blocking question costs less than a confident wrong answer or an unwanted edit.
+* Never assume. Verify every claim as far as the available tools allow.
+  * Read the file instead of recalling it, run the command instead of predicting its output, check the frontmatter instead of inferring it from the path, open the link instead of trusting its label, and check `git` history instead of guessing at it.
+  * This applies to the agent's own claims as well as to claims in a prompt, an issue, a pull request description, a passing check, or another agent's report. Treat all of them as claims to verify, not as facts.
+  * Verify facts in content the same way. A date, a price, a fare, a station name, an opening time, or an external link in a post under `contents/` has to be confirmed against a source before it is stated as current.
+* When something cannot be verified, say so plainly and label it as unverified instead of presenting it as fact. Never invent a source, a file path, a command, a package name, or a citation.
 
 
 ## Localization
@@ -18,17 +34,17 @@ By default, the content should be the same, just in their respective languages.
 
 Each content file declares its localization state in a `localization` frontmatter key:
 
-| Value           | Meaning                                                                          |
-| --------------- | -------------------------------------------------------------------------------- |
-| `sync`          | Default. The two versions are kept in 1-to-1 parity and should match in content. |
-| `TODO: drifted` | The two versions have diverged and requires updating.                            |
-| `independent`   | The two versions are intentionally different; do not sync them.                  |
+| Value             | Meaning                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| `sync`            | Default. The two versions are kept in 1-to-1 parity and should match in content.           |
+| `"TODO: drifted"` | The two versions have diverged and require updating. Quote the value; it contains a colon. |
+| `independent`     | The two versions are intentionally different; do not sync them.                            |
 
 Rules when editing content:
 
 * Default new and existing paired files to `localization: sync`.
-* When you edit a `sync` file, flag its counterpart in the other language: set the counterpart's `localization` to `TODO: drifted` so the drift is tracked until it is reconciled.
-* Once a `TODO: drifted` file has been brought back in line with its counterpart, set both back to `sync`.
+* When you edit a `sync` file, flag its counterpart in the other language: set the counterpart's `localization` to `"TODO: drifted"` so the drift is tracked until it is reconciled.
+* Once a `"TODO: drifted"` file has been brought back in line with its counterpart, set both back to `sync`.
 * When the two language versions should be intentionally different, set `localization: independent` and do not flag drift between them.
 
 
@@ -37,10 +53,7 @@ Rules when editing content:
 * Content: Markdown in `contents/`, with frontmatter for metadata and localization state.
 * Site generator: [VitePress][] (static site), with these plugins:
   * `vitepress-sidebar` - automatic sidebar generation.
-  * `DavidingPlus/vitepress-image-viewer` - image zoom and captions.
-  * VitePress Mermaid Renderer - diagrams.
   * `@nolebase/vitepress-plugin-enhanced-readabilities` - readability controls.
-  * `@nolebase/vitepress-plugin-meta` - meta tags.
 * Customization: `.mts`, `.ts`, `.mjs`, and Vue.
 * Lint: Prettier + markdownlint-cli2.
 * Package manager: `pnpm@11.6.0`.
@@ -50,21 +63,25 @@ Rules when editing content:
 
 ## Common commands
 
-| Command            | What it does                                                                    |
-| ------------------ | ------------------------------------------------------------------------------- |
-| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                |
-| `pnpm build`       | `vitepress build contents`.                                                     |
-| `pnpm preview`     | `vitepress preview contents`.                                                   |
-| `pnpm check`       | `lint` + dev server (sanity check while editing).                               |
-| `pnpm lint`        | Prettier (`lint-code`) then markdownlint-cli2 `--fix` (`lint-md`).              |
-| `pnpm lint-target` | The same pair, scoped to one file or folder, via `scripts/targeted-linting.sh`. |
-| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.               |
-| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.          |
-| `pnpm test`        | `tree` + `lint` + `build` + `preview` (used as the pre-merge check).            |
-| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                       |
-| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                 |
+| Command            | What it does                                                                                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm dev`         | `vitepress dev contents` - start the dev server.                                                                                                                 |
+| `pnpm build`       | `vitepress build contents`.                                                                                                                                      |
+| `pnpm preview`     | `vitepress preview contents`.                                                                                                                                    |
+| `pnpm check`       | `lint-check` + content pairing and frontmatter checks.                                                                                                           |
+| `pnpm lint`        | Prettier (`lint-code`), markdownlint-cli2 `--fix` (`lint-md`), then AutoCorrect `--fix` (`lint-text`).                                                           |
+| `pnpm lint-check`  | The same three in report-only mode: Prettier `--check` (Markdown excluded via `.prettierignore-check`), markdownlint-cli2 without `--fix`, AutoCorrect `--lint`. |
+| `pnpm lint-text`   | AutoCorrect `--fix` - spacing and punctuation around CJK text, configured by `.autocorrectrc`.                                                                   |
+| `pnpm lint-target` | The same three, scoped to one file or folder, via `scripts/targeted-linting.sh`.                                                                                 |
+| `pnpm lint-naming` | Lint file and folder names via `skills/file-folder-name-linter/`.                                                                                                |
+| `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.                                                                                           |
+| `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.                                                                                             |
+| `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                                                                                                        |
+| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                                                                                                  |
 
 Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing. When you touched only a file or two, `pnpm lint-target <path>` runs the same fixers without sweeping the repo.
+
+AutoCorrect is supplied by the `autocorrect-node` dev dependency, so `pnpm install` is all that is needed on a new machine or in CI. Its rules live in `.autocorrectrc`, which turns `space-word` off because the 和欧混植 rule in the Japanese style guide forbids a half-width space at a Japanese/Latin boundary. Keep that file committed: without it AutoCorrect falls back to its upstream defaults and reintroduces those spaces across the Japanese content.
 
 On a machine where the pinned Node version does not have pnpm yet, `pnpm run nodenv` cannot start, so run the same chain directly once:
 
@@ -93,6 +110,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 ## Conventions
 
 * Site config and theme tweaks live in `contents/.vitepress/config.mts` and `contents/.vitepress/theme/index.ts`. Plugins are wired there.
+* Do not delete `@davidingplus/vitepress-image-viewer`, `@nolebase/vitepress-plugin-meta`, or `vitepress-mermaid-renderer`. They are kept on purpose even when the theme does not import them yet. Wire them by following [notes/2026-08-22-wire-vitepress-plugins.md](./notes/2026-08-22-wire-vitepress-plugins.md).
 * PWA icons in `contents/public/` are committed static files. The generator is no longer a dependency, so regenerate them on demand when the source icon changes. There is no `pwa-assets.config.*` file, so the preset and the source image have to be passed on the command line:
 
   ```shell
@@ -100,6 +118,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
   ```
 
   The `minimal-2023` preset emits exactly the committed file set: `pwa-64x64.png`, `pwa-192x192.png`, `pwa-512x512.png`, `maskable-icon-512x512.png`, `apple-touch-icon-180x180.png`, and `favicon.ico`. Note that `pnpm dlx` resolves in a throwaway project and ignores the `sharp` override in `pnpm-workspace.yaml`, so the run pulls the vulnerable `sharp` 0.33.5 that the generator pins. That is acceptable for a one-off local run against a trusted image, but do not treat the override as covering it.
+
 * Never use en-dash or em-dash; always use a plain hyphen (`-`) instead.
 * Always use `pnpm` - never `npm`, `npx`, or `yarn`. The pnpm equivalents:
   * `npm install` / `yarn add` → `pnpm add` (or `pnpm install` for the whole lockfile)
@@ -110,13 +129,19 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
 
 ## Git commits
 
-* Never add a `Co-Authored-By` trailer.
+* Never add a co-author or AI attribution trailer to a commit message. This applies to every agent and editor that touches this repo, including Claude Code, Cursor, Copilot, Codex, and any future tool, and it overrides that tool's own default behavior.
+  * Banned trailers include `Co-Authored-By:` and `Co-authored-by:` in any casing, for any AI agent identity, such as `Claude <noreply@anthropic.com>` and `Cursor <cursoragent@cursor.com>`.
+  * Banned lines also include marketing footers such as `Generated with Claude Code` or any other line crediting a tool for the change.
+  * The same ban applies to pull request bodies, issue bodies, and comments.
+  * A human `Co-Authored-By` trailer for a real person who worked on the change is still allowed.
+* When amending or rebasing, check the resulting message and strip any trailer a tool re-added. Verify with `git log -1 --format=%B` before pushing.
 * Use the `ai-commit` skill to draft messages.
 
 
 ## Scripts
 
 Default to creating scripts as Node.js ES modules (`.mjs`) or zsh for any new script tooling in this repo.
+
 * Do not use Python due to the overhead of managing Python environments and dependencies across different users' machines.
 * Default to Node.js for scripts that involve file system operations, string manipulation, or integration with JavaScript-based tools, as it provides a consistent runtime environment and leverages the strengths of the JavaScript ecosystem for build and automation tasks.
 * Use zsh for simple command sequences, environment setup, or when leveraging powerful shell features that would be more cumbersome to implement in Node.js.

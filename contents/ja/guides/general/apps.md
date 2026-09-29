@@ -1,6 +1,6 @@
 ---
 title: 日本で使えるアプリ
-description: 旅行、決済、日常生活に便利な iOS アプリのまとめです。
+description: 旅行、決済、日常生活に便利なiOSアプリのまとめです。
 head:
   - - meta
     - name: keywords
@@ -14,10 +14,10 @@ localization: sync
 
 [[toc]]
 
-⚠️ 一部のアプリは日本の App Store 限定です
+⚠️ 一部のアプリは日本のApp Store限定です
 
-* 🇯🇵 のアプリは日本の App Store 限定です
-* 🌎 のアプリはすべての App Store で利用できます
+* 🇯🇵 のアプリは日本のApp Store限定です
+* 🌎 のアプリはすべてのApp Storeで利用できます
 
 ---
 
@@ -31,18 +31,18 @@ localization: sync
 
 ## 決済・ポイント
 
-* 🌎 [PASMO][app-pasmo] - PASMO IC 決済アプリ（東京メトロ管理）
-* 🌎 [Suica][app-suica] - Suica IC 決済アプリ（JR 管理）
-* 🌎 [セゾン Portal/クレジット管理][app-saison-portal] - セゾンクレジットカード管理アプリ
-* 🌎 [三井住友カード V ポイントアプリ バーチャルプリペイド][app-smbc-vpoint] - SMBC V ポイントプリペイドカードアプリ
-* 🇯🇵 [d ポイントクラブ（公式）][app-d-point-club] - d ポイントアプリ
-* 🇯🇵 [d 払い－スマホ決済アプリ、キャッシュレスでお支払い][app-d-barai] - d 払い決済アプリ
-* 🇯🇵 [JRE POINT アプリ - Suica でポイントをためよう][app-jre-point] - JRE Point アプリ
-* 🇯🇵 [majica~電子マネー公式アプリ~][app-majica] - ドン・キホーテの majica アプリ
+* 🌎 [PASMO][app-pasmo] - PASMO IC決済アプリ（東京メトロ管理）
+* 🌎 [Suica][app-suica] - Suica IC決済アプリ（JR管理）
+* 🌎 [セゾンPortal/クレジット管理][app-saison-portal] - セゾンクレジットカード管理アプリ
+* 🌎 [三井住友カードVポイントアプリ バーチャルプリペイド][app-smbc-vpoint] - SMBC Vポイントプリペイドカードアプリ
+* 🇯🇵 [dポイントクラブ（公式）][app-d-point-club] - dポイントアプリ
+* 🇯🇵 [d払い－スマホ決済アプリ、キャッシュレスでお支払い][app-d-barai] - d払い決済アプリ
+* 🇯🇵 [JRE POINTアプリ - Suicaでポイントをためよう][app-jre-point] - JRE Pointアプリ
+* 🇯🇵 [majica~電子マネー公式アプリ~][app-majica] - ドン・キホーテのmajicaアプリ
 * 🇯🇵 [Moneytree - Finance Made Easy][app-moneytree]
 * 🇯🇵 [MUJI passport - 無印良品][app-muji-passport] - 無印良品ポイントアプリ
-* 🇯🇵 [nanaco（ポイントがお得・チャージも簡単な電子マネー）][app-nanaco] - nanaco 決済・ポイントアプリ
-* 🇯🇵 [PayPay-ペイペイ (電子マネーでスマートにお支払い)][app-paypay] - PayPay 決済アプリ
+* 🇯🇵 [nanaco（ポイントがお得・チャージも簡単な電子マネー）][app-nanaco] - nanaco決済・ポイントアプリ
+* 🇯🇵 [PayPay-ペイペイ（電子マネーでスマートにお支払い）][app-paypay] - PayPay決済アプリ
 * 🇯🇵 [楽天カード][app-rakuten-card] - 楽天クレジットカードアプリ
 * 🇯🇵 [楽天ペイ - かんたん、お得なスマホ決済アプリ！][app-rakuten-pay] - 楽天ペイ決済アプリ
 
@@ -72,18 +72,18 @@ localization: sync
 
 * 🌎 [HELLO CYCLING - シェアサイクル][app-hello-cycling] - シェアサイクルアプリ
 * 🌎 [LUUP/ループ：シェアサイクル ＆電動キックボードシェア][app-luup]
-* 🌎 [RYDE CYCLE (ライドサイクル) シェアサイクル検索][app-ryde-cycle]
+* 🌎 [RYDE CYCLE（ライドサイクル）シェアサイクル検索][app-ryde-cycle]
 * 🌎 [チャリチャリ - シェアサイクル][app-charichari]
-* 🌎 [どこでもサイクル by NAVITIME(ナビタイム)][app-dokodemo-cycle]
+* 🌎 [どこでもサイクルby NAVITIME（ナビタイム）][app-dokodemo-cycle]
 * 🌎 [ドコモ・バイクシェア - バイクシェアサービス][app-docomo-bikeshare]
 
 
 ### 電車 🚂
 
-* 🌎 [JR 東日本アプリ 電車：乗り換え案内・電車の乗換案内][app-jr-east]
-  * JR 東日本の電車アプリ - 乗り換え案内
+* 🌎 [JR東日本アプリ 電車：乗り換え案内・電車の乗換案内][app-jr-east]
+  * JR東日本の電車アプリ - 乗り換え案内
 * 🌎 [Norikae Annai -Japan Transit-][app-norikae-annai]
-  * 乗り換えに便利。Japan Rail Pass フィルター対応
+  * 乗り換えに便利。Japan Rail Passフィルター対応
 * 🇯🇵 [えきねっとアプリ 新幹線・特急列車の予約][app-ekinet]
 * 🇯🇵 [EMot（エモット）特急券購入や旅行チケット予 約・購入][app-emot] - 箱根、浜松、江の島、鎌倉エリアのお得なチケットを購入できます
 
@@ -101,13 +101,13 @@ localization: sync
 
 ## エンターテインメント
 
-* 🇯🇵 [d アニメストア アニメ動画見放題アプリ/マルチデバイス対応][app-danime-store] アニメストリーミングサービス
+* 🇯🇵 [dアニメストア アニメ動画見放題アプリ/マルチデバイス対応][app-danime-store] アニメストリーミングサービス
 
 
 ## 登山マップ
 
 * 🌎 [YAMAP][app-yamap] - 日本の山に最適なハイキングアプリ。ほぼ英語対応
-* 🌎 [ヤマレコ 登山・ハイキング地図＆GPS ナビ][app-yamareco] - 優れたハイキングアプリですが、日本語のみです
+* 🌎 [ヤマレコ 登山・ハイキング地図＆GPSナビ][app-yamareco] - 優れたハイキングアプリですが、日本語のみです
 
 
 ## コンビニ

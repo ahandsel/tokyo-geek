@@ -15,7 +15,7 @@ localization: sync
 [[toc]]
 
 
-## 2〜3 か月前
+## 2〜3か月前
 
 
 ### Ghibli Park
@@ -28,7 +28,7 @@ localization: sync
 * 英語チケットサイト：[klook.com/en-US/activity/132673-ghibli-park-ticket/][klook-ghibli-park]
 
 
-## 1 か月前
+## 1か月前
 
 
 ### Ghibli Museum
@@ -37,32 +37,32 @@ localization: sync
 * エリア：三鷹
 * 都道府県：東京都
 * 最寄り駅：[吉祥寺駅][map-kichijoji-station]
-* 料金（大人）：1000 円
+* 料金（大人）：1000円
 
 🗓️ いつ予約すればいいですか？
 
-* 1 か月前からチケットを購入できます。
-* 毎月 10 日の 10:00（日本時間）にチケットが発売されます。
-* 例：10 月のチケットは 9 月 10 日の 10:00（日本時間）に発売されます。
+* 1か月前からチケットを購入できます。
+* 毎月10日の10:00（日本時間）にチケットが発売されます。
+* 例：10月のチケットは9月10日の10:00（日本時間）に発売されます。
 
 ⚙️ チケットの購入方法
 
-1. ローソン WEB 会員アカウントを作成します：[https://l-tike.com/login/newcustomer/][lawson-newcustomer]
-2. [三鷹の森ジブリ美術館 - ローチケ (ローソンチケット)][lawson-ghibli] にアクセスします
-3. 行きたい月を選びます（例：`8/2(水)~8/31(木)入場分` は 8 月分）
+1. ローソンWEB会員アカウントを作成します：[https://l-tike.com/login/newcustomer/][lawson-newcustomer]
+2. [三鷹の森ジブリ美術館 - ローチケ（ローソンチケット）][lawson-ghibli] にアクセスします
+3. 行きたい月を選びます（例：`8/2(水)~8/31(木)入場分` は8月分）
 4. `詳細はこちら` をクリックします
 
-電子チケット vs 紙チケット
+電子チケットvs紙チケット
 
 * 電子チケット：[ローチケ電子チケット][lawson-etike]アプリで予約する必要があります
-  * iOS: [ローチケ電子チケット on the App Store][lawson-etike-ios]
+  * iOS: [ローチケ電子チケットon the App Store][lawson-etike-ios]
   * Google Play: [ローチケ電子チケット - Apps on Google Play][lawson-etike-android]
 * 紙チケット：オンラインで予約して、ローソン店舗でチケットを印刷します
 
 訪問当日
 
 * 指定された時間に美術館へ行きましょう（例：`10:00 ~ 10:30`）。
-  * 指定時間から 1 時間以内に入場する必要があります。
+  * 指定時間から1時間以内に入場する必要があります。
   * 空きがあれば、指定時間より早く入場できる場合があります。
 
 
@@ -75,14 +75,14 @@ localization: sync
 
 🗓️ いつ予約すればいいですか？
 
-* ちょうど 1 か月前から予約できます。（例：8 月 1 日の場合、7 月 1 日から予約可能）
+* ちょうど1か月前から予約できます。（例：8月1日の場合、7月1日から予約可能）
 
 ⚙️ 予約方法
 
 * [https://reserve.pokemon-cafe.jp/][pokemon-cafe-reserve] にアクセスします
 * `同意する` にチェックを入れて `同意して進む` ボタンをクリックします
 * `選択してください` のドロップダウンから人数を選びます
-  * 例：`1名` は 1 人
+  * 例：`1名` は1人
 * カレンダーが表示されます。
   * 日付がグレーの場合、その日は利用できません（満席または予約未開放）
   * `満席` は予約がいっぱいです
@@ -104,7 +104,7 @@ localization: sync
 * 最寄り駅：[豊島園駅][map-toshimaen-station]
 
 
-## 2〜4 週間前
+## 2〜4週間前
 
 
 ### teamLab Planets TOKYO
@@ -116,8 +116,8 @@ localization: sync
 
 🗓️ いつ予約すればいいですか？
 
-* チケットはおよそ 3 か月前から発売されます。
-  * 例：10 月のチケットは 7 月下旬から購入できます。
+* チケットはおよそ3か月前から発売されます。
+  * 例：10月のチケットは7月下旬から購入できます。
 
 ⚙️ 予約方法
 
@@ -132,7 +132,7 @@ localization: sync
 * 最寄り駅：[原宿駅][map-harajuku-station]
 
 
-## 1〜2 週間前
+## 1〜2週間前
 
 
 ### Tokyo Skytree
@@ -141,7 +141,7 @@ localization: sync
 * エリア：墨田区
 * 都道府県：東京都
 * 最寄り駅：
-  * [押上駅 (スカイツリー前)][map-oshiage-station]
+  * [押上駅（スカイツリー前）][map-oshiage-station]
   * [とうきょうスカイツリー駅][map-tokyo-skytree-station]
 * オンライン予約：[https://www.tokyo-skytree.jp/en/ticket/individual/reservation/online.html][tokyo-skytree-reserve]
 

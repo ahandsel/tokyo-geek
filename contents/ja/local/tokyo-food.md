@@ -32,9 +32,9 @@ localization: sync
 * 定番のお好み焼きレストラン
 * 場所：東京駅 丸の内南口
 
-つるとんたん BIS TOKYO
+つるとんたんBIS TOKYO
 
-* [おいしいおうどん つるとんたん BIS TOKYO][tsurutontan-bis-tokyo]
+* [おいしいおうどん つるとんたんBIS TOKYO][tsurutontan-bis-tokyo]
 * 大盛りが人気のうどんレストラン。眺めもいいです
 * 場所：有楽町駅と東京駅の間
 

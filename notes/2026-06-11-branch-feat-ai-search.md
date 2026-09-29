@@ -13,10 +13,10 @@ This note preserves the salvageable changes. Companion files live in [`branch-fe
 
 ## Commits (oldest → newest)
 
-| Hash      | Date       | Subject                                       |
-| --------- | ---------- | --------------------------------------------- |
-| `5cfb109` | 2026-02-20 | Add excludeFromSidebar  to frontmatter        |
-| `3449445` | 2026-02-20 | import and use withBase to fix link           |
+| Hash      | Date       | Subject                               |
+| --------- | ---------- | ------------------------------------- |
+| `5cfb109` | 2026-02-20 | Add excludeFromSidebar to frontmatter |
+| `3449445` | 2026-02-20 | import and use withBase to fix link   |
 
 
 ## What was added
@@ -56,7 +56,12 @@ The full path list with values is in [`branch-feat-ai-search/excludeFromSidebar-
 Both `docs/en/tech/nighttab.md` and `docs/ja/tech/nighttab.md` had hard-coded paths in `<a href="/public/share/nighttab/...">` `<details>` summaries, which broke when the site is hosted under a non-root base path. The fix replaces them with VitePress's `withBase` helper:
 
 ```html
-<summary>Click to expand <a :href="withBase('/public/share/nighttab/google-bookmarks.json')">google-bookmarks.json</a></summary>
+<summary>
+  Click to expand
+  <a :href="withBase('/public/share/nighttab/google-bookmarks.json')"
+    >google-bookmarks.json</a
+  >
+</summary>
 ```
 
 …and appends a `<script setup>` block at the end of each file:
@@ -64,7 +69,7 @@ Both `docs/en/tech/nighttab.md` and `docs/ja/tech/nighttab.md` had hard-coded pa
 ```html
 <!-- markdownlint-disable MD033 -->
 <script setup>
-import { withBase } from 'vitepress'
+  import { withBase } from 'vitepress';
 </script>
 <!-- markdownlint-enable MD033 -->
 ```

@@ -8,23 +8,17 @@ A revamp to my Japan_Guide blog using [VitePress static site generator](https://
 
 ### Project tools and dependencies
 
-| Tool                                                  | Purpose                                 | Config file                   |
-| ----------------------------------------------------- | --------------------------------------- | ----------------------------- |
-| [DavidingPlus/vitepress-image-viewer][]               | Image viewer with zoom and captions     | [.vitepress/theme/index.ts][] |
-| [VitePress Mermaid Renderer][]                        | Mermaid diagram rendering for VitePress | [.vitepress/theme/index.ts][] |
-| [vitepress-sidebar][]                                 | Sidebar management for VitePress        | [.vitepress/config.mts][]     |
-| [VitePress][]                                         | Static site generator                   | [.vitepress/config.mts][]     |
-| [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience             |                               |
-| [@nolebase/vitepress-plugin-meta][]                   | Meta tags management                    |                               |
-| [markdownlint-cli2][]                                 | Markdown linting                        |                               |
+| Tool                                                  | Purpose                          | Config file                   |
+| ----------------------------------------------------- | -------------------------------- | ----------------------------- |
+| [VitePress][]                                         | Static site generator            | [.vitepress/config.mts][]     |
+| [vitepress-sidebar][]                                 | Sidebar management for VitePress | [.vitepress/config.mts][]     |
+| [@nolebase/vitepress-plugin-enhanced-readabilities][] | Enhanced reading experience      | [.vitepress/theme/index.ts][] |
+| [markdownlint-cli2][]                                 | Markdown linting                 |                               |
 
 [.vitepress/config.mts]: ./contents/.vitepress/config.mts
 [.vitepress/theme/index.ts]: ./contents/.vitepress/theme/index.ts
 [@nolebase/vitepress-plugin-enhanced-readabilities]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-enhanced-readabilities/
-[@nolebase/vitepress-plugin-meta]: https://nolebase-integrations.ayaka.io/pages/en/integrations/vitepress-plugin-meta/
-[DavidingPlus/vitepress-image-viewer]: https://github.com/davidingplus/vitepress-image-viewer
 [markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
-[VitePress Mermaid Renderer]: https://vitepress-mermaid-renderer.sametcc.me/
 [vitepress-sidebar]: https://vitepress-sidebar.cdget.com/
 [VitePress]: https://vitepress.dev/guide/what-is-vitepress
 
@@ -43,6 +37,17 @@ pnpm build
 ```
 
 
+### AI coding CLIs
+
+The Claude Code, Codex, and Cursor Agent CLIs are listed in [`contents/public/Brewfile`](./contents/public/Brewfile) (`claude-code`, `codex`, `cursor-cli`). After installing them, launch from the repo root:
+
+```shell
+pnpm claude # Claude Code
+pnpm codex  # Codex
+pnpm cursor # Cursor Agent (cursor-agent)
+```
+
+
 ### Linting
 
 ```shell
@@ -57,9 +62,3 @@ The icons in `contents/public/` are committed static files. The generator is not
 ```shell
 pnpm dlx @vite-pwa/assets-generator --preset minimal-2023 contents/public/cat-icon-clear.png
 ```
-
-
-### Image paths
-
-* The markdown link checker assumes image paths (for example `/images/foo.png` or `images/foo.png`) point into the repository `public/` folder.
-* A config file `.markdown-link-check.json` is provided which rewrites common image path patterns to `public/...` before checking.

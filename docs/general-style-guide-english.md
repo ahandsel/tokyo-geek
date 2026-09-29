@@ -60,7 +60,6 @@ This guide defines the baseline English writing rules that apply across all cont
     * [Date and time together](#date-and-time-together)
   * [Time format](#time-format)
   * [Supplementary information: Implementation](#supplementary-information-implementation)
-* [App types](#app-types)
 * [Word list](#word-list)
   * [sign-in (noun or adjective), sign in (verb)](#sign-in-noun-or-adjective-sign-in-verb)
   * [single sign-on (noun), single sign-on (adjective), SSO (abbreviation)](#single-sign-on-noun-single-sign-on-adjective-sso-abbreviation)
@@ -616,17 +615,6 @@ console.log(
   }).format(date),
 );
 ```
-
-
-## App types
-
-| Internal term          | External term | Notes                   |
-| ---------------------- | ------------- | ----------------------- |
-| All apps               | apps          | Titles; default wording |
-| 1st party              | native apps   | Identifying badge       |
-| 3rd party              | other apps    | Section title           |
-| 3rd party & verified   | verified apps | Identifying badge       |
-| 3rd party & unverified | other apps    |                         |
 
 
 ## Word list
