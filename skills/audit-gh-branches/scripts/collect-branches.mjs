@@ -10,8 +10,10 @@
 //   on the current local snapshot only.
 // * A branch that exists both locally and on the remote is classified on the
 //   local ref whenever the local ref holds commits the remote lacks (unpushed
-//   work); otherwise the remote ref governs. Both sets of numbers are kept in
-//   the record (localAhead, remoteAhead, localMerged, remoteMerged, and
+//   work) and the remote is not ahead of local; otherwise the remote ref
+//   governs. When both sides have unique commits (diverged), delete
+//   dispositions are refused. Both sets of numbers are kept in the record
+//   (localAhead, remoteAhead, localMerged, remoteMerged, and
 //   localAheadOfRemote).
 // * Never deletes, rebases, pushes, or modifies any branch. Only reads.
 // Usage:
@@ -34,6 +36,7 @@
 // * One status line on stderr summarizing counts per disposition.
 // * Exit codes: 0 success, 1 git failure, 2 invalid arguments.
 // Version history:
+// * v1.3 - 2026-09-29 - Refuse safe-to-delete and deletion-candidate when local and remote have diverged (both sides have unique commits).
 // * v1.2 - 2026-09-29 - Make keep-active reachable (0 behind), classify local+remote branches on the local ref when it has unpushed commits, keep both local and remote stats, reject ref values starting with "-", and exit 1 on every git failure.
 // * v1.1 - 2026-09-06 - Import into tokyo-geek; drop the retired prompt-file reference from the notes.
 // * v1.0 - 2026-06-16 - Initial release. Replaces inline data-gathering steps.
@@ -359,11 +362,23 @@ function buildIndex(opts) {
       const divergence = aheadBehind(ref, localStats.ref);
       const localAheadOfRemote = divergence.ahead;
       const remoteAheadOfLocal = divergence.behind;
-      // The local ref governs when it holds commits the remote lacks, so
-      // unpushed work is never reported as merged or safe to delete. Otherwise
-      // the remote ref is a superset of the local one and governs.
-      const governLocal = (localAheadOfRemote ?? 0) > 0;
-      const governing = governLocal ? localStats : remoteStats;
+      const diverged =
+        (localAheadOfRemote ?? 0) > 0 && (remoteAheadOfLocal ?? 0) > 0;
+      // The local ref governs when it holds commits the remote lacks and the
+      // remote is not ahead of local, so unpushed work is never reported as
+      // merged or safe to delete. When both sides have unique commits, pick
+      // the ref with more commits ahead of base, then refuse delete
+      // dispositions. Otherwise the remote ref is a superset of the local one
+      // and governs.
+      let governLocal;
+      let governing;
+      if (diverged) {
+        governLocal = (localStats.ahead ?? 0) >= (remoteStats.ahead ?? 0);
+        governing = governLocal ? localStats : remoteStats;
+      } else {
+        governLocal = (localAheadOfRemote ?? 0) > 0;
+        governing = governLocal ? localStats : remoteStats;
+      }
       // Prefer the newer of the two commit dates for the staleness check.
       const lastDate =
         remote.lastDate > existing.localLastDate
@@ -373,14 +388,31 @@ function buildIndex(opts) {
         remote.lastDate > existing.localLastDate
           ? remote.lastAuthor
           : existing.localLastAuthor;
-      const cls = classify({
+      let cls = classify({
         ...governing,
         lastDate,
         staleCutoffDate,
       });
-      const reason = governLocal
-        ? `${cls.reason}; ${localAheadOfRemote} unpushed local commit(s)`
-        : cls.reason;
+      if (
+        diverged &&
+        (cls.disposition === 'safe-to-delete' ||
+          cls.disposition === 'deletion-candidate')
+      ) {
+        cls = {
+          disposition: 'needs-rebase',
+          reason: `Diverged from remote (${localAheadOfRemote} unpushed, ${remoteAheadOfLocal} remote-only); not safe to delete`,
+        };
+      } else if (governLocal && !diverged) {
+        cls = {
+          ...cls,
+          reason: `${cls.reason}; ${localAheadOfRemote} unpushed local commit(s)`,
+        };
+      } else if (diverged) {
+        cls = {
+          ...cls,
+          reason: `${cls.reason}; diverged (${localAheadOfRemote} unpushed, ${remoteAheadOfLocal} remote-only)`,
+        };
+      }
       byName.set(remote.name, {
         ...existing,
         location: 'local-and-remote',
@@ -400,7 +432,7 @@ function buildIndex(opts) {
         cherryDuplicated: governing.cherry.duplicated,
         duplicatedElsewhere: governing.cherry.duplicated > 0,
         disposition: cls.disposition,
-        reason,
+        reason: cls.reason,
         ref: governing.ref,
       });
     } else {
