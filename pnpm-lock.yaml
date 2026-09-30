@@ -286,8 +286,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/carbon@1.2.27':
-    resolution: {integrity: sha512-tufpkYXBDlXqczQEZo6QgvfwBd5aIK36gt+pHOI66eK4KOO8oh7CIHDZ4JsiSnOyjqRbApVHzXv4Nz8NO0GPFQ==}
+  '@iconify-json/carbon@1.2.28':
+    resolution: {integrity: sha512-dog92E0fGszJSrmeikPQmFrd4ptbdapogEhtZ9MCA9KiCNacYb2/nDi0euwsK0kTevsFiTy7Mte6QvRq3LDyHQ==}
 
   '@iconify-json/icon-park-outline@1.2.4':
     resolution: {integrity: sha512-NyZxXe2gD2TbTOyoRRMdtEJhr6i2KQCdDlYYoOn5oZLndQjwpIhw79hzeFhXvP38/o40D3gQ+l+IaSJgbB+0TQ==}
@@ -2353,7 +2353,7 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
-  '@iconify-json/carbon@1.2.27':
+  '@iconify-json/carbon@1.2.28':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2430,7 +2430,7 @@ snapshots:
 
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.18.2(vitepress@2.0.0-alpha.17(jiti@2.7.0)(less@4.9.1)(lightningcss@1.33.0)(postcss@8.5.28)(terser@5.49.2))(vue@3.5.43)':
     dependencies:
-      '@iconify-json/carbon': 1.2.27
+      '@iconify-json/carbon': 1.2.28
       '@iconify-json/icon-park-outline': 1.2.4
       '@nolebase/ui': 2.18.2(vitepress@2.0.0-alpha.17(jiti@2.7.0)(less@4.9.1)(lightningcss@1.33.0)(postcss@8.5.28)(terser@5.49.2))(vue@3.5.43)
       less: 4.9.1
