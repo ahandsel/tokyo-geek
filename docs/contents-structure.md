@@ -89,6 +89,7 @@
 │   │   ├───📄 google-doc-auto-appending.md
 │   │   ├───📄 homebrew-migrate.md
 │   │   ├───📄 index.md
+│   │   ├───📄 ipad-big-shortcut-icons.md
 │   │   ├───📄 mac-apps.md
 │   │   ├───📄 mac-audio-share.md
 │   │   ├───📄 nighttab.md
@@ -187,6 +188,7 @@
 │   │   ├───📄 google-doc-auto-appending.md
 │   │   ├───📄 homebrew-migrate.md
 │   │   ├───📄 index.md
+│   │   ├───📄 ipad-big-shortcut-icons.md
 │   │   ├───📄 mac-apps.md
 │   │   ├───📄 mac-audio-share.md
 │   │   ├───📄 nighttab.md
@@ -237,6 +239,8 @@
 │   │   ├───📄 global-shipping-home.png
 │   │   ├───📄 higashi-yama-streets.png
 │   │   └───📄 jp-post-contact-upload.csv
+│   ├───📁 ipad-big-shortcut-icons/
+│   │   └───📄 shortcut-widget.js
 │   ├───📁 nighttab/
 │   │   ├───📄 google-bookmarks.json
 │   │   ├───📄 streaming-bookmarks.json
