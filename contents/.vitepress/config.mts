@@ -27,6 +27,54 @@ function isPublicAssetLink(url) {
   return existsSync(target);
 }
 
+const siteUrl = 'https://ahandsel.github.io/tokyo-geek/';
+const siteTitle = 'Tokyo Geek';
+// Square 1024x1024 icon with an opaque background, so the `summary` card fits.
+const ogImageUrl = new URL('cat-icon-background.png', siteUrl).href;
+
+// Build the absolute page URL the same way cleanUrls and the sitemap do:
+// "guides/index.md" -> "guides/", "guides/yakushima.md" -> "guides/yakushima".
+function pageUrl(relativePath) {
+  const path = relativePath
+    .replace(/(^|\/)index\.md$/, '$1')
+    .replace(/\.md$/, '');
+  return new URL(path, siteUrl).href;
+}
+
+// Add canonical, Open Graph, and Twitter card tags to every page from its
+// existing frontmatter, so shared links render a preview card.
+function addSeoHead(pageData) {
+  if (pageData.isNotFound || pageData.relativePath === '404.md') return;
+  const fm = pageData.frontmatter;
+  const isJa = pageData.relativePath.startsWith('ja/');
+  const isHome = fm.layout === 'home';
+  const url = pageUrl(pageData.relativePath);
+  const title = isHome ? siteTitle : `${pageData.title} - ${siteTitle}`;
+  const description = pageData.description || fm.description;
+
+  const tags = [
+    ['link', { rel: 'canonical', href: url }],
+    ['meta', { property: 'og:type', content: isHome ? 'website' : 'article' }],
+    ['meta', { property: 'og:site_name', content: siteTitle }],
+    ['meta', { property: 'og:locale', content: isJa ? 'ja_JP' : 'en_US' }],
+    ['meta', { property: 'og:url', content: url }],
+    ['meta', { property: 'og:title', content: title }],
+    ['meta', { property: 'og:image', content: ogImageUrl }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:title', content: title }],
+    ['meta', { name: 'twitter:image', content: ogImageUrl }],
+  ];
+  if (description) {
+    tags.push(
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { name: 'twitter:description', content: description }],
+    );
+  }
+
+  fm.head ??= [];
+  fm.head.push(...tags);
+}
+
 // https://vitepress.dev/reference/site-config
 const vitePressOptions = {
   vite: {
@@ -34,9 +82,11 @@ const vitePressOptions = {
       noExternal: ['@nolebase/*'],
     },
   },
-  title: 'Tokyo Geek',
+  title: siteTitle,
   titleTemplate: ':title - Tokyo Geek',
-  description: "Let's go to Japan!",
+  description:
+    'Practical guides to traveling and living in Japan, from Shinkansen tickets and visas to everyday tips and tech notes.',
+  transformPageData: addSeoHead,
   head: [
     [
       'link',
@@ -179,7 +229,7 @@ const vitePressOptions = {
   sitemap: {
     // Trailing slash is required so page paths append to /tokyo-geek/ instead
     // of replacing that segment (URL resolution rule).
-    hostname: 'https://ahandsel.github.io/tokyo-geek/',
+    hostname: siteUrl,
   },
 
   // https://vitepress.dev/guide/internationalization
