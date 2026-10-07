@@ -4,7 +4,7 @@ layout: home
 
 title: Tokyo Geek
 titleTemplate: 日本についてのメモいろいろ
-description: 日本についてのメモいろいろ。
+description: 新幹線のきっぷやビザの手続きから日々のヒントやテックメモまで、日本での旅行と生活に役立つ実用ガイド。
 localization: sync
 
 hero:

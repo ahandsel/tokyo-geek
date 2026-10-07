@@ -4,7 +4,7 @@ layout: home
 
 title: Tokyo Geek
 titleTemplate: Collection of my random notes about Japan
-description: Collection of my random notes about Japan.
+description: Practical guides to traveling and living in Japan, from Shinkansen tickets and visas to everyday tips and tech notes.
 localization: sync
 
 hero:
