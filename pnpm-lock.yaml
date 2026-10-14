@@ -22,7 +22,7 @@ importers:
         version: 2.18.2(vitepress@2.0.0-alpha.20(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1)(postcss@8.5.28)(terser@5.49.2))
       '@prettier/plugin-xml':
         specifier: ^3.4.2
-        version: 3.4.2(prettier@3.9.9)
+        version: 3.4.2(prettier@3.9.10)
       autocorrect-node:
         specifier: ^2.14.0
         version: 2.14.0
@@ -39,20 +39,20 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       prettier:
-        specifier: ^3.9.9
-        version: 3.9.9
+        specifier: ^3.9.10
+        version: 3.9.10
       prettier-plugin-packagejson:
         specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.9)
+        version: 3.0.2(prettier@3.9.10)
       prettier-plugin-pkg:
         specifier: ^0.22.1
-        version: 0.22.1(prettier@3.9.9)
+        version: 0.22.1(prettier@3.9.10)
       prettier-plugin-sh:
         specifier: ^0.20.2
-        version: 0.20.2(prettier@3.9.9)
+        version: 0.20.2(prettier@3.9.10)
       prettier-plugin-toml:
         specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.9)
+        version: 3.0.2(prettier@3.9.10)
       sh-syntax:
         specifier: ^0.7.0
         version: 0.7.0
@@ -111,6 +111,9 @@ packages:
 
   '@chevrotain/types@11.1.2':
     resolution: {integrity: sha512-U+HFai5+zmJCkK86QsaJtoITlboZHBqrVketcO2ROv865xfCMSFpELQoz1GkX5GzME8pTa+3kbKrZHQtI0gdbw==}
+
+  '@chevrotain/types@13.2.0':
+    resolution: {integrity: sha512-7qrYHRlKfWf2AvBfJi5eVOrKAkbxvMFsy/iIHTGIiApNcEecCaVIdR+mIQhyCBsTDJxBz4JWXHMo6krbhR9hVg==}
 
   '@chevrotain/utils@11.1.2':
     resolution: {integrity: sha512-4mudFAQ6H+MqBTfqLmU7G1ZwRzCLfJEooL/fsF6rCX5eePMbGhoy5n4g+G4vlh2muDcsCTJtL+uKbOzWxs5LHA==}
@@ -320,8 +323,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@mermaid-js/parser@2.0.0':
-    resolution: {integrity: sha512-K8BeapFUfrfxbRAUQAG5oBOCwo1+bNWzaVnPxTCutkfrTBn6T/j91FIhqxWJ32SUeQ9T3iy1zcmPZ5ROZEvDrg==}
+  '@mermaid-js/parser@2.0.1':
+    resolution: {integrity: sha512-j37dj/h6p6pots1L7pLPPNuABEEu9WP4OYg9pW1g+nYG331j0+3canE9OagtYdytYvdSAMG+2fKU5cxep6LgjA==}
     engines: {node: '>=22.12.0'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -613,8 +616,8 @@ packages:
   '@types/d3-transition@3.0.9':
     resolution: {integrity: sha512-uZS5shfxzO3rGlu0cC3bjmMFKsXv+SmZZcgp0KD22ts4uGXp5EVYGzu/0YdwZeKmddhcAccYtREJKkPfXkZuCg==}
 
-  '@types/d3-zoom@3.0.8':
-    resolution: {integrity: sha512-iqMC4/YlFCSlO8+2Ii1GGGliCAY4XdeG748w5vQUbevlbDu0zSjH/+jojorQVBK/se0j6DUFNPBGSqD3YWYnDw==}
+  '@types/d3-zoom@3.0.9':
+    resolution: {integrity: sha512-0sE1406XBYJGiqD3AusTl9ZqC//2mIXix51tbom25gDCA8ri4xnSZg28CaSE8Srl6FClqABUKfsn0qghgdepMA==}
 
   '@types/d3@7.4.3':
     resolution: {integrity: sha512-lZXZ9ckh5R8uiFVt8ogUNf+pIrK4EsWrx2Np75WvF/eTpJ0FMHNhjXk8CKEx/+gpHbNQyJWehbFaTvqmHWB3ww==}
@@ -768,8 +771,8 @@ packages:
   '@xml-tools/parser@1.0.11':
     resolution: {integrity: sha512-aKqQ077XnR+oQtHJlrAflaZaL7qZsulWc/i/ZEooar5JiWj1eLt0+Wg28cpa+XLney107wXqneC+oG1IZvxkTA==}
 
-  acorn@8.18.0:
-    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
+  acorn@8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1655,8 +1658,8 @@ packages:
   oniguruma-to-es@4.3.6:
     resolution: {integrity: sha512-csuQ9x3Yr0cEIs/Zgx/OEt9iBw9vqIunAPQkx19R/fiMq2oGVTgcMqO/V3Ybqefr1TBvosI6jU539ksaBULJyA==}
 
-  package-manager-detector@1.8.0:
-    resolution: {integrity: sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==}
+  package-manager-detector@1.9.0:
+    resolution: {integrity: sha512-zAMfbta9nPA8AKkA4WdmNAT8R8s6Dk0/xwPsqNnRidMFcLo1YkLuPDTgs2f64XdzS8vbLNnoJ+uUIkgbz7oRHA==}
 
   parse-entities@4.0.2:
     resolution: {integrity: sha512-GG2AQYWoLgL877gQIKeRPGO1xF9+eG1ujIb5soS5gPvLQ1y2o8FL90w2QWNdf9I361Mpp7726c+lj3U0qK1uGw==}
@@ -1725,8 +1728,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.9.9:
-    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
+  prettier@3.9.10:
+    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1945,8 +1948,8 @@ packages:
   unist-util-visit@5.1.0:
     resolution: {integrity: sha512-m+vIdyeCOpdr/QeQCu2EzxX/ohgS8KbnPDgFni4dQsfSCtpz8UqDyY5GjRru8PDKuYn7Fq19j1CQ+nJSsGKOzg==}
 
-  uuid@14.0.2:
-    resolution: {integrity: sha512-xZe/16rV4aa+HGSOCiY2YeLT1OybRLrrkL/Rqaq7p7GMVXjFh+6wN4oMYgjFmnSnhY8t6Xpdl2l9qmnHYuMHwQ==}
+  uuid@14.0.3:
+    resolution: {integrity: sha512-Sc5u1VVln93y1Xnz4R+CunOZc7R9LUcTmhj7Rc7Eg3HVcf7rVn2FOoa812fe0W8p3jD7xeoGSYbfqCGGH2B6xw==}
     hasBin: true
 
   vfile-location@5.0.3:
@@ -2046,7 +2049,7 @@ snapshots:
 
   '@antfu/install-pkg@2.1.0':
     dependencies:
-      package-manager-detector: 1.8.0
+      package-manager-detector: 1.9.0
       tinyexec: 1.3.1
 
   '@babel/helper-string-parser@7.29.7': {}
@@ -2078,6 +2081,8 @@ snapshots:
   '@chevrotain/regexp-to-ast@11.1.2': {}
 
   '@chevrotain/types@11.1.2': {}
+
+  '@chevrotain/types@13.2.0': {}
 
   '@chevrotain/utils@11.1.2': {}
 
@@ -2216,9 +2221,9 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.6.0
     optional: true
 
-  '@mermaid-js/parser@2.0.0':
+  '@mermaid-js/parser@2.0.1':
     dependencies:
-      '@chevrotain/types': 11.1.2
+      '@chevrotain/types': 13.2.0
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2267,10 +2272,10 @@ snapshots:
 
   '@oxc-project/types@0.151.0': {}
 
-  '@prettier/plugin-xml@3.4.2(prettier@3.9.9)':
+  '@prettier/plugin-xml@3.4.2(prettier@3.9.10)':
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.9.9
+      prettier: 3.9.10
 
   '@reteps/dockerfmt-darwin-arm64@0.5.4':
     optional: true
@@ -2466,7 +2471,7 @@ snapshots:
     dependencies:
       '@types/d3-selection': 3.0.12
 
-  '@types/d3-zoom@3.0.8':
+  '@types/d3-zoom@3.0.9':
     dependencies:
       '@types/d3-interpolate': 3.0.4
       '@types/d3-selection': 3.0.12
@@ -2502,7 +2507,7 @@ snapshots:
       '@types/d3-time-format': 4.0.3
       '@types/d3-timer': 3.0.2
       '@types/d3-transition': 3.0.9
-      '@types/d3-zoom': 3.0.8
+      '@types/d3-zoom': 3.0.9
 
   '@types/debug@4.1.13':
     dependencies:
@@ -2649,7 +2654,7 @@ snapshots:
     dependencies:
       chevrotain: 7.1.1
 
-  acorn@8.18.0:
+  acorn@8.19.0:
     optional: true
 
   ansi-regex@6.3.0: {}
@@ -3433,7 +3438,7 @@ snapshots:
     dependencies:
       '@braintree/sanitize-url': 7.1.2
       '@iconify/utils': 3.1.7
-      '@mermaid-js/parser': 2.0.0
+      '@mermaid-js/parser': 2.0.1
       '@types/d3': 7.4.3
       '@upsetjs/venn.js': 2.0.0
       chevrotain: 11.1.2
@@ -3453,7 +3458,7 @@ snapshots:
       roughjs: 4.6.6
       stylis: 4.4.0
       ts-dedent: 2.3.0
-      uuid: 14.0.2
+      uuid: 14.0.3
 
   micromark-core-commonmark@2.0.3:
     dependencies:
@@ -3683,7 +3688,7 @@ snapshots:
       regex: 6.1.0
       regex-recursion: 6.0.2
 
-  package-manager-detector@1.8.0: {}
+  package-manager-detector@1.9.0: {}
 
   parse-entities@4.0.2:
     dependencies:
@@ -3729,30 +3734,30 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.9):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.10):
     dependencies:
       sort-package-json: 3.7.1
     optionalDependencies:
-      prettier: 3.9.9
+      prettier: 3.9.10
 
-  prettier-plugin-pkg@0.22.1(prettier@3.9.9):
+  prettier-plugin-pkg@0.22.1(prettier@3.9.10):
     dependencies:
-      prettier: 3.9.9
+      prettier: 3.9.10
 
-  prettier-plugin-sh@0.20.2(prettier@3.9.9):
+  prettier-plugin-sh@0.20.2(prettier@3.9.10):
     dependencies:
       '@reteps/dockerfmt': 0.5.4
-      prettier: 3.9.9
+      prettier: 3.9.10
       sh-syntax: 0.7.0
 
-  prettier-plugin-toml@3.0.2(prettier@3.9.9):
+  prettier-plugin-toml@3.0.2(prettier@3.9.10):
     dependencies:
       '@dual-bundle/import-meta-resolve': 4.2.1
       '@tombi-toml/wasm-lib': 1.5.5
-      prettier: 3.9.9
+      prettier: 3.9.10
       smol-toml: 1.9.0
 
-  prettier@3.9.9: {}
+  prettier@3.9.10: {}
 
   probe-image-size@7.4.0:
     dependencies:
@@ -3937,7 +3942,7 @@ snapshots:
   terser@5.49.2:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.18.0
+      acorn: 8.19.0
       commander: 2.20.3
       source-map-support: 0.5.21
     optional: true
@@ -4016,7 +4021,7 @@ snapshots:
       unist-util-is: 6.0.1
       unist-util-visit-parents: 6.0.2
 
-  uuid@14.0.2: {}
+  uuid@14.0.3: {}
 
   vfile-location@5.0.3:
     dependencies:
