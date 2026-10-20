@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@davidingplus/vitepress-image-viewer": "^1.1.5",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.21.1",
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
     "@prettier/plugin-xml": "^3.4.2",
     "autocorrect-node": "^2.14.0",
