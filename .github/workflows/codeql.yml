@@ -52,7 +52,7 @@ jobs:
 
       # Step 2: Build the CodeQL database for this language
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2 # github/codeql-action@v4.38.2, pinned
+        uses: github/codeql-action/init@9b3254085494b55a0f7c4c2b3d2d52cc712ce370 # github/codeql-action@v4.38.2, pinned
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
