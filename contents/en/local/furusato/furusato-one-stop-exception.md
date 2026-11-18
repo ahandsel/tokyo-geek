@@ -5,16 +5,18 @@ head:
   - - meta
     - name: keywords
       content: hometown tax, one-stop, exception, japan, guide
-localization: independent
+localization: sync
 ---
 
 # {{$frontmatter.title}}
 
 {{$frontmatter.description}}
 
-[[toc]]
-
+* Supervised by セブンセンス税理士法人
+* Certified public accountant and tax accountant: 大野 修平
 * Hometown tax payment site: [さとふる / Satofull][satofull]
+
+[[toc]]
 
 
 ## Introduction to the Hometown Tax One-Stop Special Exception System & Special Application Form
@@ -184,6 +186,49 @@ Eligible Taxes and Deduction Amounts
 * For deductions near the maximum limit, both methods yield nearly identical results in deduction amounts.
 
 
+### Housing loan deduction
+
+The deduction amount is usually the same whether you use the One-Stop Special Exception System or file a tax return. A housing loan deduction is the exception, because it applies to income tax.
+
+If you claim the hometown tax donation on a tax return, the income-tax portion of that donation deduction can reduce the housing loan deduction. The One-Stop Special Exception System deducts the donation from resident tax only, so it does not reduce the housing loan deduction.
+
+The first year of a housing loan deduction requires a tax return, so you cannot use the One-Stop Special Exception System in that year. From the second year, year-end adjustment handles the housing loan deduction, and you can use the One-Stop Special Exception System if you meet its other conditions.
+
+
+## Cautions for the one-stop special exception system
+
+A few limits are easy to miss after you send the application.
+
+
+### Filing a tax return voids the one-stop application
+
+If you file a tax return, the one-stop application does not apply, including applications you already submitted. Claim the hometown tax donation on the tax return.
+
+A medical expense deduction is one case that requires a tax return. When you claim that deduction, the one-stop resident-tax deduction no longer applies, so claim the donation deduction on the same tax return.
+
+
+### Send the application form by the deadline
+
+The application form (寄附金税額控除に係る申告特例申請書) has to arrive at each municipality by January 10 of the year after the donation. If it misses that date, file a tax return instead. The tax-return window, February 16 to March 15 of the following year, is later, so prepare the one-stop documents before the end of the donation year.
+
+
+### Prepare one application for each donation
+
+The one-stop system covers at most five municipalities. Donations to the same municipality count as one municipality, and each donation still needs its own application. One donation requires one application form.
+
+
+### The deduction applies to resident tax only
+
+The one-stop deduction comes out of resident tax. The total is usually the same as filing a tax return, because the income-tax portion is included in the resident-tax deduction. There is no separate income-tax refund.
+
+
+### Submit a change notice if your details change
+
+![Application item change notice][img-change-notification-form]
+
+If you already submitted the application, and any detail other than your phone number changes on or before January 1 of the year after the donation, submit a change notice (申請事項変更届出書). The notice has to arrive by January 10 of that year at each municipality you donated to. Include copies of documents that show the new name or address.
+
+
 ## FAQ for the One-Stop Special Exception System
 
 * **When can I apply?**  
@@ -195,6 +240,9 @@ Eligible Taxes and Deduction Amounts
 * **When will I receive the application form?**  
   Some municipalities do not mail the form. In that case, download the form for submission.
 
+* **What if I want to file a tax return after I apply?**  
+  You can file a tax return after you send the one-stop application. If you do both, the tax return takes priority, and every one-stop application for that year is void. Include those donations on the tax return.
+
 <!-- Links -->
 
 [satofull]: https://www.satofull.jp/miniapp/pages/static_onestop/static_onestop.html
@@ -202,6 +250,7 @@ Eligible Taxes and Deduction Amounts
 <!-- Image links -->
 
 [img-application-form-sample]: /furusato-one-stop-exception/application-form-sample.png
+[img-change-notification-form]: /furusato-one-stop-exception/change-notification-form.png
 [img-donation-deduction-timeline]: /furusato-one-stop-exception/donation-deduction-timeline.png
 [img-donation-five-municipalities]: /furusato-one-stop-exception/donation-five-municipalities-example.png
 [img-id-verification-pattern-a]: /furusato-one-stop-exception/id-verification-pattern-a.png
