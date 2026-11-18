@@ -130,10 +130,10 @@ Allow Photos access when prompted. The in-app run uses `Photos.fromLibrary()` to
 
 * [Scriptable][scriptable]
 * [Scriptable on the App Store][scriptable-app-store]
-* [Create a shortcut on iPhone or iPad - Apple Support][apple-create-shortcut]
+* [Create a custom shortcut on iPhone or iPad - Apple Support][apple-create-shortcut]
 
 <!-- Links -->
 
-[apple-create-shortcut]: https://support.apple.com/guide/shortcuts/create-a-shortcut-apd9b06193df/ios
+[apple-create-shortcut]: https://support.apple.com/guide/shortcuts/create-a-custom-shortcut-apd84c576f8c/ios
 [scriptable]: https://scriptable.app/
 [scriptable-app-store]: https://apps.apple.com/app/scriptable/id1405459188
