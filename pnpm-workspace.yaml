@@ -21,11 +21,11 @@ verifyDepsBeforeRun: false
 overrides:
   sharp: '>=0.35.0'
 
-# Build-script review (pnpm 11 `allowBuilds`). `false` = reviewed and intentionally
+# Build-script review (pnpm 11+ `allowBuilds`). `false` = reviewed and intentionally
 # not built; `true` = allowed to run its postinstall. esbuild and sharp do not need
 # theirs: both ship native binaries as optional dependencies (@esbuild/*, @img/sharp-*)
 # that pnpm resolves at runtime, so the postinstall scripts are redundant. strictDepBuilds
-# is on by default in pnpm 11, so any NEW dependency that adds an unreviewed build script
+# is on by default since pnpm 11, so any NEW dependency that adds an unreviewed build script
 # still fails the install (ERR_PNPM_IGNORED_BUILDS) until it is reviewed here.
 # Verified: esbuild transforms and sharp encodes correctly with these builds skipped.
 # sharp is no longer installed, so its entry is kept, like the override above, purely to keep a

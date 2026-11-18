@@ -56,7 +56,7 @@ Rules when editing content:
   * `@nolebase/vitepress-plugin-enhanced-readabilities` - readability controls.
 * Customization: `.mts`, `.ts`, `.mjs`, and Vue.
 * Lint: Prettier + markdownlint-cli2.
-* Package manager: `pnpm@11.6.0`.
+* Package manager: `pnpm@12.21.0`.
 
 [VitePress]: https://vitepress.dev/
 
@@ -77,7 +77,7 @@ Rules when editing content:
 | `pnpm tree`        | Regenerate the doc structure via `scripts/generate-doc-structure.mjs`.                                                                                           |
 | `pnpm test`        | `tree` + `lint-check` + `check-content` + `build` + `check-sitemap`.                                                                                             |
 | `pnpm index`       | List pnpm scripts via `scripts/index.sh`.                                                                                                                        |
-| `pnpm nodenv`      | Install and pin `.node-version`, then enable pnpm via corepack.                                                                                                  |
+| `pnpm nodenv`      | Install and pin `.node-version`, then install pnpm into that Node version.                                                                                       |
 
 Run `pnpm tree` after adding or moving content so the generated structure stays in sync, then `pnpm lint` before finishing. When you touched only a file or two, `pnpm lint-target <path>` runs the same fixers without sweeping the repo.
 
@@ -86,10 +86,10 @@ AutoCorrect is supplied by the `autocorrect-node` dev dependency, so `pnpm insta
 On a machine where the pinned Node version does not have pnpm yet, `pnpm run nodenv` cannot start, so run the same chain directly once:
 
 ```zsh
-V="$(cat .node-version)" && nodenv install -s "$V" && nodenv local "$V" && NODENV_VERSION="$V" nodenv exec corepack enable pnpm && nodenv rehash
+V="$(cat .node-version)" && nodenv install -s "$V" && nodenv local "$V" && NODENV_VERSION="$V" nodenv exec npm install -g pnpm && nodenv rehash
 ```
 
-After that, `pnpm nodenv` handles later version bumps.
+After that, `pnpm nodenv` handles later version bumps. Node.js 25 and later no longer bundle corepack, so the chain installs pnpm with the `npm` that ships with Node. The globally installed pnpm then switches itself to the version pinned in the `packageManager` field of `package.json`.
 
 
 ## Style guides
@@ -125,6 +125,7 @@ Consult them before authoring or editing content. See [docs/README.md](./docs/RE
   * `npm run <script>` / `yarn <script>` → `pnpm run <script>` (or `pnpm <script>`)
   * `npm exec <bin>` → `pnpm exec <bin>`
   * `npx <pkg>` → `pnpm dlx <pkg>`
+  * The one exception is `pnpm nodenv`, which runs `npm install -g pnpm` to bootstrap pnpm into a Node version that does not have it yet.
 
 
 ## Git commits
