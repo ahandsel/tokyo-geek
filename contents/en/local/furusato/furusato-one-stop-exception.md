@@ -5,7 +5,7 @@ head:
   - - meta
     - name: keywords
       content: hometown tax, one-stop, exception, japan, guide
-localization: sync
+localization: independent
 ---
 
 # {{$frontmatter.title}}

@@ -1,7 +1,7 @@
 ---
 title: 'JPKI利用者ソフトVer3.5インストール手順書'
 description: Original version of the JPKI User Software Ver.3.5 installation guide.
-localization: sync
+localization: independent
 ---
 
 # {{$frontmatter.title}}
