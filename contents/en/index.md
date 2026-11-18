@@ -3,14 +3,14 @@
 layout: home
 
 title: Tokyo Geek
-titleTemplate: Collection of my random notes about Japan
+titleTemplate: Practical guides to traveling and living in Japan, from Shinkansen tickets and visas to everyday tips and tech notes.
 description: Practical guides to traveling and living in Japan, from Shinkansen tickets and visas to everyday tips and tech notes.
 localization: sync
 
 hero:
   name: 'Tokyo Geek 🐾'
   # text: "Collection of my random notes about Japan"
-  tagline: Collection of my random notes about Japan
+  tagline: Practical guides to traveling and living in Japan, from Shinkansen tickets and visas to everyday tips and tech notes.
   image:
     src: /cat-icon-clear.png
     alt: ahandsel Cat, white cat coding on a laptop

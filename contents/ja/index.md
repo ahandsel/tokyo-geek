@@ -3,14 +3,14 @@
 layout: home
 
 title: Tokyo Geek
-titleTemplate: 日本についてのメモいろいろ
+titleTemplate: 新幹線のきっぷやビザの手続きから日々のヒントやテックメモまで、日本での旅行と生活に役立つ実用ガイド。
 description: 新幹線のきっぷやビザの手続きから日々のヒントやテックメモまで、日本での旅行と生活に役立つ実用ガイド。
 localization: sync
 
 hero:
   name: 'Tokyo Geek 🐾'
   # text: "Collection of my random notes about Japan"
-  tagline: 日本についてのメモいろいろ
+  tagline: 新幹線のきっぷやビザの手続きから日々のヒントやテックメモまで、日本での旅行と生活に役立つ実用ガイド。
   image:
     src: /cat-icon-clear.png
     alt: ahandsel Cat、ノートパソコンでコーディングしている白猫
