@@ -1,6 +1,6 @@
 ---
 name: pr-auditor
-description: Blunt merge audit of a code branch or pull request written by an AI coding agent, treating its description, comments, and green checks as claims to verify, and reporting severity-ranked findings without editing anything. Use when the user asks to audit, review, or gate a code diff, wants a merge-readiness verdict, or suspects AI-generated defects such as an invented API, a silent fallback, or a test that only confirms a mock.
+description: Blunt merge audit of a code branch or pull request written by an AI coding agent, treating its description, comments, and green checks as claims to verify, and reporting severity-ranked findings without editing anything beyond flagging drifted EN-JA pages. Use when the user asks to audit, review, or gate a code diff, wants a merge-readiness verdict, or suspects AI-generated defects such as an invented API, a silent fallback, or a test that only confirms a mock.
 ---
 
 # PR auditor
@@ -15,7 +15,7 @@ Three rules hold for the whole run.
 
 * **Blunt.** State each defect plainly, at its real severity, with no hedge and no cushion. Praise only what is technically load-bearing. A softened finding is a finding nobody fixes.
 * **Reproduce.** Prefer reproducing a defect over reasoning about it: run the test, run the script, revert the hunk, grep for the caller. What you observed is `Confirmed`, what you only traced is `Suspected`, and the report says which.
-* **Report only.** Never edit the branch, commit, push, or post a PR comment unless the user asks for it. Never make a defect go away by weakening a test, widening an exception, or adding a fallback.
+* **Report only.** Never edit the branch, commit, push, or post a PR comment unless the user asks for it. The one exception is the `"TODO: drifted"` flag that the parity check in Step 3 sets. Never make a defect go away by weakening a test, widening an exception, or adding a fallback.
 
 
 ## Step 1: Establish the target and the intended behavior
@@ -81,7 +81,31 @@ git switch -
 
 A failure that reproduces on the base is pre-existing; say so, and keep it out of the verdict.
 
-Done when every gate above has either run or been recorded as unverified, and every failure has been classified as introduced or pre-existing.
+
+### EN and JA parity
+
+When the diff adds, edits, moves, renames, or deletes any file under `contents/`, load and follow `skills/content-sync-en-ja/SKILL.md` with `--check-only`.
+That mode reports every orphan and every drifted pair, and its only edit is changing the stale side's `localization` to `"TODO: drifted"`.
+Never run the full sync during an audit: translating, creating, or deleting pages is the author's fix.
+
+Run the check last, after every other gate and base-ref reproduction, because it leaves edits in the working tree.
+Run it only with the branch under audit checked out, so the flags land on that branch; otherwise record the check as unverified.
+
+The check sweeps the whole tree, so classify each out-of-sync pair it reports.
+
+* **Introduced.** The branch touched either side of the pair. Report it as a finding.
+* **Pre-existing.** The branch touched neither side. Say so, and keep it out of the verdict.
+
+Grade each introduced gap by what it breaks, and report it once even when `pnpm check-content` failed on the same page.
+
+* **High.** An orphan: a page whose counterpart is missing, which fails `pnpm check-content`.
+* **Medium.** Unflagged or structural drift: one side of a `sync` pair changed while the branch neither updated nor flagged the counterpart, which breaks the localization rule in `AGENTS.md`. The check has now flagged it in the working tree; the fix is to commit that flag or update the counterpart.
+* **Low.** Flagged drift: the branch flagged the counterpart as the rule requires, but the pair still ships out of parity.
+
+List every file the check flagged, split into introduced and pre-existing pairs, so the author can commit or restore each flag.
+Never commit the flags yourself.
+
+Done when every gate above has either run or been recorded as unverified, every failure has been classified as introduced or pre-existing, and, for a diff that touches `contents/`, every pair the parity check reported has been classified the same way and every flag it set is listed.
 
 
 ## Step 4: Audit the change
@@ -120,6 +144,7 @@ Hunt each of these by name.
 * Validation the caller already performed, layered on again.
 * A test that asserts what a mock returned, or that would still pass with the change reverted. Revert the hunk, rerun the test, and see whether it fails.
 * A change made to turn a test green rather than to fix the behavior the test names.
+* A `localization` value set to `sync` or `independent` to silence the parity check instead of updating the counterpart.
 * An abstraction, refactor, or rename the task did not require.
 * A partial migration: the new path added, the old path left live, and callers split between the two.
 * An assumption inferred from a filename, a comment, or a function name rather than from the body it describes.
