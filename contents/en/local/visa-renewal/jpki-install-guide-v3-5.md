@@ -8,21 +8,7 @@ localization: sync
 
 This is a English machine translation of the [JPKI User Software Ver.3.5 installation guide][ja-install-guide]. <!-- markdownlint-disable-line -->
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Chapter 2 Overview of steps](#chapter-2-overview-of-steps)
-  * [Requirements](#requirements)
-* [Chapter 3 Installing JPKI User Software](#chapter-3-installing-jpki-user-software)
-* [Chapter 4 Starting JPKI User Software](#chapter-4-starting-jpki-user-software)
-* [Chapter 5 Uninstalling JPKI User Software](#chapter-5-uninstalling-jpki-user-software)
-* [Chapter 6 Pairing with Android devices](#chapter-6-pairing-with-android-devices)
-* [Appendix 1 System environment variable "Path" length limitation](#appendix-1-system-environment-variable-path-length-limitation)
-* [Appendix 2 About updates](#appendix-2-about-updates)
-* [Appendix 3 IC card reader/writer settings](#appendix-3-ic-card-readerwriter-settings)
-* [Appendix 4 Changing update notification settings](#appendix-4-changing-update-notification-settings)
-
----
+[[toc]]
 
 
 ## Chapter 2 Overview of steps

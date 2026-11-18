@@ -12,20 +12,7 @@ localization: sync
 
 Here are some of my favorite apps for Mac users. Hopefully, you find them useful too!
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Brewlist - Breakdown of my favorite Mac apps](#brewlist---breakdown-of-my-favorite-mac-apps)
-  * [Productivity \& Utilities](#productivity--utilities)
-  * [AI Tools](#ai-tools)
-  * [Web Browsers](#web-browsers)
-  * [Communication \& Collaboration](#communication--collaboration)
-  * [Design \& Media](#design--media)
-  * [Entertainment](#entertainment)
-  * [Development Tools](#development-tools)
-    * [Markdown and docs tools](#markdown-and-docs-tools)
-  * [Fonts](#fonts)
-* [Brewfile - Quick installation](#brewfile---quick-installation)
+[[toc]]
 
 
 ## Brewlist - Breakdown of my favorite Mac apps

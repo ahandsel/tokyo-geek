@@ -13,12 +13,7 @@ localization: sync
 
 {{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Food options in Kichijoji](#food-options-in-kichijoji)
-* [Kichijoji gyms](#kichijoji-gyms)
-* [Flu vaccination clinics in Kichijoji](#flu-vaccination-clinics-in-kichijoji)
+[[toc]]
 
 
 ## Food options in Kichijoji

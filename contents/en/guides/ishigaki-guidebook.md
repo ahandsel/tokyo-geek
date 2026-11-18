@@ -13,48 +13,7 @@ This guidebook is created by the hosts of Me-Fi-You Ishigaki Island, an Airbnb a
 We have compiled our recommendations for restaurants, cafes, convenience stores, activities, and more to help you make the most of your trip.  
 We hope you find this guidebook useful and enjoy your stay on Ishigaki Island!
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Getting to Airbnb](#getting-to-airbnb)
-* [Restaurants and cafes](#restaurants-and-cafes)
-  * [Mirumiru Hompo Honten](#mirumiru-hompo-honten)
-  * [ひとし 本店](#ひとし-本店)
-  * [Eiko Seafood Izakaya](#eiko-seafood-izakaya)
-  * [Morinokenja](#morinokenja)
-  * [Yafa-yafa](#yafa-yafa)
-  * [島そば一番地](#島そば一番地)
-  * [Yakiniku Kingyu](#yakiniku-kingyu)
-  * [島イタリアンいゆ](#島イタリアンいゆ)
-  * [Sunny cafe + Stay](#sunny-cafe--stay)
-  * [石垣島のカフェ＆カレー トラベラーズカフェ朔](#石垣島のカフェカレー-トラベラーズカフェ朔)
-  * [Galopine et Galopin](#galopine-et-galopin)
-  * [Akubi](#akubi)
-  * [Galopin](#galopin)
-  * [Tofu Higa](#tofu-higa)
-  * [ちねんや~新川店](#ちねんや新川店)
-  * [Azusamaru](#azusamaru)
-  * [Koteppen](#koteppen)
-  * [宮良農園](#宮良農園)
-  * [KLATCH COFFEE](#klatch-coffee)
-  * [Marusa](#marusa)
-* [Convenience stores](#convenience-stores)
-  * [JA Okinawa Farmers Market Yaeyama Yuratiku Market](#ja-okinawa-farmers-market-yaeyama-yuratiku-market)
-  * [Chinen Shokai](#chinen-shokai)
-  * [MaxValu Arakawa](#maxvalu-arakawa)
-* [Anything else](#anything-else)
-  * [ネイミュージアムオブアート 八重山友禅染め 石垣島](#ネイミュージアムオブアート-八重山友禅染め-石垣島)
-  * [観音崎駐車場](#観音崎駐車場)
-  * [Nosokodake (Mape)](#nosokodake-mape)
-  * [KLATCH Coworking Space](#klatch-coworking-space)
-* [Activities](#activities)
-  * [コバラム真栄里店](#コバラム真栄里店)
-  * [Yellow Submarine](#yellow-submarine)
-  * [石垣島セルフィッシュ](#石垣島セルフィッシュ)
-  * [Jogging courses around Me-fi-You Ishigaki Island](#jogging-courses-around-me-fi-you-ishigaki-island)
-  * [西表島ガイド UMICO Iriomote Guide UMICO カヌー/カヤック＆トレッキング](#西表島ガイド-umico-iriomote-guide-umico-カヌーカヤックトレッキング)
-  * [Yaeyama Kanko Ferry](#yaeyama-kanko-ferry)
-* [Traveler advice](#traveler-advice)
+[[toc]]
 
 
 ## Getting to Airbnb

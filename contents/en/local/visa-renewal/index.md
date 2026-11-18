@@ -19,28 +19,7 @@ This is a quick write-up of how I did it, in case it helps someone else.
 > [!WARNING]  
 > JPKI app does not work on macOS for visa renewal! A Windows VM is required!
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Preparations](#preparations)
-  * [My Number card](#my-number-card)
-  * [Get a compatible IC card reader](#get-a-compatible-ic-card-reader)
-  * [Prepare Windows virtual machine (VM)](#prepare-windows-virtual-machine-vm)
-    * [Method 1: UTM - free and open source](#method-1-utm---free-and-open-source)
-    * [Method 2: Parallels Desktop - paid but easier](#method-2-parallels-desktop---paid-but-easier)
-    * [Windows 11 license key is not required](#windows-11-license-key-is-not-required)
-    * [Optional: set up Windows without a Microsoft account](#optional-set-up-windows-without-a-microsoft-account)
-    * [Change language and region settings to Japanese](#change-language-and-region-settings-to-japanese)
-  * [Watch this video tutorial](#watch-this-video-tutorial)
-  * [Install JPKI app and Java on Windows](#install-jpki-app-and-java-on-windows)
-    * [Verify JPKI app installation](#verify-jpki-app-installation)
-  * [Online visa renewal](#online-visa-renewal)
-* [Troubleshooting](#troubleshooting)
-  * [Windows VM issues](#windows-vm-issues)
-  * [Broken error message when running JPKI 利用者ソフト](#broken-error-message-when-running-jpki-利用者ソフト)
-  * [EW000J0200 error from JPKI 利用者ソフト](#ew000j0200-error-from-jpki-利用者ソフト)
-  * [EW104J1502 error from JPKI 利用者ソフト](#ew104j1502-error-from-jpki-利用者ソフト)
-* [References](#references)
+[[toc]]
 
 
 ## Preparations
