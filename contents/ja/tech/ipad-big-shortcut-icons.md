@@ -13,4 +13,8 @@ localization: 'TODO: drifted'
 {{$frontmatter.description}}
 
 > [!NOTE] 補足：日本語版は未翻訳です。
-> 手順は英語版を参照してください。
+> 手順は[英語版][ipad-big-shortcut-icons-en]を参照してください。
+
+<!-- Links -->
+
+[ipad-big-shortcut-icons-en]: /tech/ipad-big-shortcut-icons
