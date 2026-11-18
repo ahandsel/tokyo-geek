@@ -12,14 +12,7 @@ localization: sync
 
 {{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Japan Post - international mail](#japan-post---international-mail)
-* [International Mail My Page Service](#international-mail-my-page-service)
-  * [Tips for using Japan Post](#tips-for-using-japan-post)
-  * [Demo](#demo)
-  * [jp-post-contact-upload csv file](#jp-post-contact-upload-csv-file)
+[[toc]]
 
 
 ## Japan Post - international mail

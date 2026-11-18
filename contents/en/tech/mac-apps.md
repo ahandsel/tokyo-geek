@@ -12,20 +12,7 @@ localization: sync
 
 Here are some of my favorite apps for Mac users. Hopefully, you find them useful too!
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Brewlist - Breakdown of my favorite Mac apps](#brewlist---breakdown-of-my-favorite-mac-apps)
-  * [Productivity \& Utilities](#productivity--utilities)
-  * [AI Tools](#ai-tools)
-  * [Web Browsers](#web-browsers)
-  * [Communication \& Collaboration](#communication--collaboration)
-  * [Design \& Media](#design--media)
-  * [Entertainment](#entertainment)
-  * [Development Tools](#development-tools)
-    * [Markdown and docs tools](#markdown-and-docs-tools)
-  * [Fonts](#fonts)
-* [Brewfile - Quick installation](#brewfile---quick-installation)
+[[toc]]
 
 
 ## Brewlist - Breakdown of my favorite Mac apps
@@ -134,11 +121,11 @@ See my [Brewfile][brewfile] to install these apps using Homebrew.
 * `font-fira-code` - **Fira Code** - Monospaced font with programming ligatures for clearer code.
 * `font-fira-code-nerd-font` - **Fira Code Nerd Font** - Fira Code patched with Nerd Font glyphs and icons.
 * `font-hack-nerd-font` - **Hack Nerd Font** - Patched font with additional glyphs for development.
-* `font-hackgen` - **HackGen** - Japanese programming font combining Hack and Genshin Gothic.
+* `font-hackgen` - **HackGen** - Japanese programming font combining Hack and Gen Jyuu Gothic.
 * `font-opendyslexic-nerd-font` - **OpenDyslexic Nerd Font** - Dyslexia-friendly font with Nerd Font icons.
 
 
-## Brewfile - Quick installation
+## Brewfile - Quick installation {#brewfile-quick-installation}
 
 > [!TIP] Import Brewfile to your Mac with bundle command
 > Save the following content into a file named `Brewfile`, then run the command below to install all listed apps.
@@ -152,4 +139,4 @@ My Brewfile:
 
 <!-- Internal links -->
 
-[brewfile]: #brewfile---quick-installation
+[brewfile]: #brewfile-quick-installation

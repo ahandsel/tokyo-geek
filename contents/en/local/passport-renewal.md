@@ -12,23 +12,9 @@ localization: sync
 
 {{$frontmatter.description}}
 
-[[toc]]
-
 You can renew your Japanese passport online through the [My Number Card portal][my-number-card-portal] operated by the Digital Agency of Japan.
 
-
-## Table of contents <!-- omit in toc -->
-
-* [About passport renewal applications](#about-passport-renewal-applications)
-* [Eligible applicants](#eligible-applicants)
-* [Required items for application](#required-items-for-application)
-  * [Preparing for photo and signature capture](#preparing-for-photo-and-signature-capture)
-* [Application process](#application-process)
-* [Confirm your digital certificate for signatures](#confirm-your-digital-certificate-for-signatures)
-* [Signature image requirements](#signature-image-requirements)
-* [Wait for processing](#wait-for-processing)
-* [Pick up your passport](#pick-up-your-passport)
-* [Official FAQ resource](#official-faq-resource)
+[[toc]]
 
 
 ## About passport renewal applications

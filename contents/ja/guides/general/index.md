@@ -73,7 +73,7 @@ localization: sync
 * [モバイルデータの選び方を確認][mobile-data-guide] - `eSIM` と `pocket Wi-Fi` の比較
 
 
-## 旅のアイデア
+## 旅のアイデア 🧠
 
 アイデアの参考に、おすすめの旅行プランはこちらです：
 

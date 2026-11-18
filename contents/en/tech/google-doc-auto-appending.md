@@ -17,21 +17,7 @@ Google Apps Script automation that inserts content from a source Google Doc into
 * The Google Doc with the template will be referred to as the "source" Google Doc.
 * The Google Doc that will receive the template will be referred to as the "target" Google Doc.
 
-
-## Table of contents <!-- omit in toc -->
-
-* [What this automation does](#what-this-automation-does)
-* [Google Apps Script code](#google-apps-script-code)
-* [Setup instructions](#setup-instructions)
-* [Code explanation](#code-explanation)
-  * [Variables](#variables)
-  * [Extract content from the source and target Google Docs](#extract-content-from-the-source-and-target-google-docs)
-  * [Verify and find the insertion point](#verify-and-find-the-insertion-point)
-  * [Inserting a separator and building the source elements array](#inserting-a-separator-and-building-the-source-elements-array)
-  * [Insert copied content into the target document](#insert-copied-content-into-the-target-document)
-  * [Inserting each element into the target document](#inserting-each-element-into-the-target-document)
-  * [Log a success message](#log-a-success-message)
-* [References](#references)
+[[toc]]
 
 
 ## What this automation does

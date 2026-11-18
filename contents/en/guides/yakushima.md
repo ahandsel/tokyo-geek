@@ -1,6 +1,6 @@
 ---
 title: Yakushima guide
-description: Yakushima is a lush, subtropical island located off the southern coast of Kyushu, Japan. Covered in ancient cedar forests, Yakushima is a UNESCO World Heritage site and is known for its stunning natural beauty, diverse ecosystems, and unique wildlife.
+description: A subtropical island off southern Kyushu with ancient cedar forests, a UNESCO World Heritage site known for its natural beauty and unique wildlife.
 head:
   - - meta
     - name: keywords

@@ -50,6 +50,7 @@ For the full list of places to book ahead, review the [Places to book ahead for 
 The Shinkansen is a high-speed train service in Japan that connects major cities and provides a convenient way to travel.
 
 * [Shinkansen tickets - Klook][shinkansen-tickets-klook] - Tourist-friendly booking option
+* If you live in Japan or are staying long term, also see the following guides.
 * [Tokyo to Nagoya Shinkansen Options][tokyo-to-nagoya-shinkansen-options]
 * [Tokyo to Kyoto & Osaka Shinkansen Options][tokyo-to-kyoto-osaka-shinkansen-options]
 * [Tokyo to Kanazawa Shinkansen Options][tokyo-to-kanazawa-shinkansen-options]

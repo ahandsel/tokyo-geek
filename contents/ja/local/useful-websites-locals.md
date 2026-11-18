@@ -84,6 +84,12 @@ localization: sync
 
 ## 交通
 
+[ジョルダン 乗換案内][jorudan]
+
+* 日本全国の電車の乗り換え、経路、運賃を検索できます。英語UIにも対応しています
+* iOSアプリ：[Japan Transit Planner][jorudan-app-ios]
+  * 在日外国人に人気です
+
 [Yahoo! マップ][yahoo-map]
 
 * 電車の乗り換えや運賃の詳しい案内があります
@@ -130,6 +136,8 @@ Tokyo Metro（東京メトロ）
 [ekinet-jp]: https://www.eki-net.com/Personal/Top/Index
 [japan-guide-living]: https://www.japan-guide.com/e/e625.html
 [japan-rail-pass]: https://www.japan-guide.com/e/e2361.html
+[jorudan]: https://www.jorudan.co.jp/
+[jorudan-app-ios]: https://apps.apple.com/us/app/id299490481?l=en
 [jre-point]: https://www.jrepoint.jp/
 [kakaku-com]: https://kakaku.com/
 [keepa]: https://keepa.com/#!

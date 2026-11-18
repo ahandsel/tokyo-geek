@@ -1,12 +1,13 @@
 ---
 name: content-sync-en-ja
-description: Audit the `contents/en` and `contents/ja` trees for drift and bring them back to parity after content changes. Use when a user asks whether the English and Japanese pages are in sync, wants a repo-wide drift sweep, wants pages flagged `localization: "TODO: drifted"` reconciled, or after adding, editing, moving, renaming, or deleting files under `contents/`.
+description: Audit the `contents/en` and `contents/ja` trees for drift and bring them back to parity after content changes, or with `--check-only`, flag the out-of-sync pages without fixing them. Use when a user asks whether the English and Japanese pages are in sync, wants a repo-wide drift sweep, wants pages flagged `localization: "TODO: drifted"` reconciled, or after adding, editing, moving, renaming, or deleting files under `contents/`.
 ---
 
 # Sync EN and JA content
 
 Keep the `contents/en` and `contents/ja` trees at **parity**: every content page has a counterpart in the other language at the mirrored path, aligned in structure and meaning unless the pair is intentionally `independent`.
 This skill audits both trees for **drift**, then closes each gap.
+Pass `--check-only` to flag the gaps without closing them; see [Check-only mode](#check-only-mode).
 
 For the translation itself, this skill delegates to `skills/blog-translator/SKILL.md`, the single source of truth for translation mechanics in either direction.
 Do not restate its rules here; load and follow it when you translate.
@@ -118,6 +119,41 @@ Then report using this format:
 
 - [orphans or ambiguities left for the user, with the question]
 ```
+
+
+## Check-only mode
+
+Pass `--check-only` when the user, or a calling skill such as `pr-auditor`, wants the out-of-sync pages flagged without fixing them.
+Its only edit is the drift flag from `AGENTS.md`: it changes the stale side's `localization` from `sync` to `"TODO: drifted"`.
+It never translates, creates, deletes, or moves a page, never touches any other frontmatter key or the body, and never commits.
+
+* Run step 1 and step 2 as written.
+* Flag the stale side of every drifted pair that step 2 recorded.
+  Leave a side that already carries `"TODO: drifted"` as it is.
+  When you cannot tell which side is stale, do not guess: leave both sides unflagged and ask the user.
+* Orphans have no counterpart to flag, so only report them.
+* Skip step 3 and the [After syncing](#after-syncing) steps.
+* Skip the re-run in step 4, and report with this format instead of the sync report:
+
+```md
+## Sync check report
+
+### Pairs at parity
+
+- [count, or notable pairs]
+
+### Out of sync
+
+- [file pair -> EN orphan, JA orphan, flagged drift, unflagged drift, or structural drift -> stale side -> suggested fix]
+
+### Flags set by this run
+
+- [file whose `localization` changed to "TODO: drifted", or "None"]
+```
+
+When you cannot tell whether an orphan is a deletion or a missing translation, name both fixes instead of picking one.
+End by offering to run the full sync to close the gaps.
+When a calling skill runs this mode, return the report to that skill and leave the offer to it.
 
 
 ## After syncing

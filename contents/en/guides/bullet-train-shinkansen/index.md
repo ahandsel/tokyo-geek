@@ -8,19 +8,7 @@ localization: sync
 
 {{$frontmatter.description}}
 
-
-## Table of contents <!-- omit in toc -->
-
-* [Main Shinkansen lines](#main-shinkansen-lines)
-* [How to buy Shinkansen tickets](#how-to-buy-shinkansen-tickets)
-* [SmartEX - Tokaido, Sanyo, and Kyushu Shinkansen lines](#smartex---tokaido-sanyo-and-kyushu-shinkansen-lines)
-  * [Which train stations are covered by the Tokaido, Sanyo, and Kyushu Shinkansen lines?](#which-train-stations-are-covered-by-the-tokaido-sanyo-and-kyushu-shinkansen-lines)
-  * [How to use SmartEX](#how-to-use-smartex)
-  * [Confirm, change, and refund reservations](#confirm-change-and-refund-reservations)
-  * [Important notes about SmartEX](#important-notes-about-smartex)
-  * [Additional notes on using SmartEX](#additional-notes-on-using-smartex)
-  * [Quick breakdown of Tokaido, Sanyo, and Kyushu Shinkansen lines](#quick-breakdown-of-tokaido-sanyo-and-kyushu-shinkansen-lines)
-* [More information](#more-information)
+[[toc]]
 
 
 ## Main Shinkansen lines

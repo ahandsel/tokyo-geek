@@ -20,7 +20,7 @@ localization: sync
 The move from SoftBank to Y!mobile is handled not as a general "MNP to another carrier" (`他社MNP`), but as a "number transfer" (`番号移行`) within the SoftBank group.
 You do not need to obtain an MNP reservation number (`MNP予約番号`).
 Y!mobile's official guidance states that, for number transfers from SoftBank or LINEMO, issuance of an MNP reservation number is not required.
-After the application is completed with Y!mobile, SoftBank automatically cancels the old line.
+When line switching to Y!mobile completes, SoftBank automatically cancels the old line.
 
 With eSIM, the overall online flow is:
 
@@ -45,10 +45,10 @@ Before applying, confirm three things:
 * **Contract information** (remaining device balance, proration, discount end, etc.)
 
 **Confirm device compatibility**
-Check the [Y!mobile supported devices page][ymobile-sim-esim] (`動作確認端末`) to see whether the device you plan to keep using supports Y!mobile eSIM. The device must support eSIM, and you need a Wi-Fi connection during initial setup.
+Check the [Y!mobile supported devices page][ymobile-devices] (`SIM動作確認済み機種検索`) to see whether the device you plan to keep using supports Y!mobile eSIM. The device must support eSIM, and you need a Wi-Fi connection during initial setup.
 
 **Confirm SIM lock status**
-Many recent devices do not have a SIM lock. For an older SoftBank device, confirm just in case. Y!mobile provides guidance for SIM unlock (`SIMロック解除`) when using a device from another carrier.
+If the device was bought from SoftBank, Y!mobile asks you to remove the SIM lock (`SIMロック解除`) in `My SoftBank` before you set up the Y!mobile eSIM. SoftBank devices released in or before April 2015 cannot be unlocked, so they cannot be used with Y!mobile. Y!mobile's [SIM unlock page][ymobile-unlock] links to each carrier's procedure.
 
 **Confirm contract information**
 On the SoftBank side, confirm any remaining installment balance, whether there is proration, and the impact of ending discounts. SoftBank officially states that device installment balances continue after cancellation, that the cancellation month is generally not prorated, and that discounts may end.
@@ -56,53 +56,54 @@ On the SoftBank side, confirm any remaining installment balance, whether there i
 
 ### MNP reservation number
 
-For SoftBank to Y!mobile transfers, because it is a number transfer (`番号移行`), an MNP reservation number is not necessary. Y!mobile's [application procedure page][ymobile-portability] confirms this. The online application guide also indicates that identity verification documents (`本人確認書類`) may be unnecessary for number transfers from SoftBank.
+For SoftBank to Y!mobile transfers, because it is a number transfer (`番号移行`), an MNP reservation number is not necessary. Y!mobile's [application procedure page][ymobile-portability] confirms this. The [online application guide][ymobile-necessaries] also states that identity verification documents (`本人確認書類`) are not needed for a number transfer from SoftBank when you log in with your `My SoftBank` account.
 
-If there is a mismatch in contract holder name, unpaid amounts, a special contract, a corporate contract, or certain device conditions, the process may not proceed as usual. Y!mobile states that the procedure cannot be completed if payment confirmation cannot be made.
+According to Y!mobile's [eSIM flow page][ymobile-flow-esim], the application is canceled if the name or address registered with SoftBank is out of date, for example an old address, an address without the prefecture, or a former surname. Update them in `My SoftBank` by the day before you apply. Contracts that use a 3G-only plan or a 3G-only device cannot be transferred in the online store.
 
 
 ### Y!mobile online application
 
-To learn about Y!mobile's eSIM offerings, start with the [Y!mobile SIM card / eSIM page][ymobile-sim-esim], which explains how eSIM works, the application entry point, and which devices are supported.
+To learn about Y!mobile's eSIM offerings, start with the [Y!mobile SIM card / eSIM page][ymobile-sim-esim], which explains how eSIM works, the application entry point, and links to the supported devices page.
 
-1. Go to the [Y!mobile official online store][ymobile-simulation].
-2. Select `今の電話番号をそのまま使用` then `SoftBank/LINEMOからのりかえ` then `SIMのみ申し込む`, and choose eSIM. The basic flow is: plan and option selection, identity verification, information entry, confirmation of agreement, and application completion.
+1. On the smartphone that currently uses your SoftBank line, open the [Y!mobile SIM card / eSIM page][ymobile-sim-esim] and start the application. Y!mobile asks you to apply from that smartphone because the application requires a `My SoftBank` login.
+2. Select `今の電話番号をそのまま使用する`, then `ワイモバイル以外`, then `はい` for `ソフトバンクやLINEMOからののりかえですか？`, then `いいえ（SIMのみ申し込む）`, and choose eSIM. For a transfer from SoftBank, the flow is: plan and option selection, customer information entry, confirmation of agreement and application completion, and the application-complete email. You log in with `My SoftBank` instead of uploading identity documents.
 
 **Set the payment method**
-If you set PayPay Card Gold as the payment method, you become eligible for Y!mobile's `PayPayカード割` (PayPay Card Discount). Under `シンプル3` (Simple 3) from September 25, 2025 onward, PayPay Card receives JPY 330 off per month, and PayPay Card Gold receives JPY 550 off per month.
+If you set PayPay Card Gold as the payment method, you become eligible for Y!mobile's `PayPayカード割` (PayPay Card Discount). According to Y!mobile's [rate plan page][ymobile-plan], under `シンプル3` (Simple 3), PayPay Card receives JPY 330 off per month. Since June 2, 2026, PayPay Card Gold receives JPY 770 off per month: JPY 550 from `PayPayカード割` plus JPY 220 from `PayPayカード割 増額特典（ゴールド）`. PayPay Card Gold has an annual fee of JPY 11,000.
 
 
 ### Activation and initial setup
 
 **eSIM activation**
-According to Y!mobile's [eSIM flow page][ymobile-flow-esim], switching completes in about 15 minutes after the procedure. Line switching reception hours are 9:00-21:00. Wi-Fi is required during setup.
+According to Y!mobile's [eSIM flow page][ymobile-flow-esim], you start the eSIM from the URL in the `eSIMご利用手続きのお知らせ` email, and line switching completes about 15 minutes after the procedure. In the SoftBank and LINEMO section of that page, the reception hours are 4:00-23:15, every day, on the path for buying a new phone. The eSIM-only path does not list hours. The 9:00-21:00 hours on the same page apply to transfers from other carriers. Wi-Fi is required during setup.
 
 **APN and profile settings**
-On iPhone, the process is likely to proceed automatically, but depending on the device, you may need to download a profile or set the APN. Y!mobile also provides a communications settings page for SIM-free iPhone and iPad devices.
+On an iPhone with the latest iOS, Y!mobile states that communications settings are in principle not needed. Depending on the device, you may need to download a profile or set the APN. Y!mobile also provides a [communications settings page for SIM-free iPhone and iPad devices][ymobile-simfree-apn].
 
 
 ### After switching
 
 **Confirm and apply for `おうち割 光セット（A）`**
-If you will continue SoftBank Hikari, switch on the Y!mobile side to **`おうち割 光セット（A）`**. Y!mobile states that there is a monthly discount when Y!mobile lines are contracted together with [SoftBank Hikari, SoftBank Air, and similar services][ymobile-hikari-set]. The [online store guide][ymobile-ouchiwari] also explains the application method for those already under contract for SoftBank Hikari.
+If you will continue SoftBank Hikari, switch on the Y!mobile side to **`おうち割 光セット（A）`**. Y!mobile states that there is a monthly discount when Y!mobile lines are contracted together with [SoftBank Hikari, SoftBank Air, and similar services][ymobile-hikari-set]. The [online store guide][ymobile-ouchiwari] states that people switching from SoftBank cannot add this discount during the online store application. Apply from `My Y!mobile` after your Y!mobile line is active, using the S-ID and password of your SoftBank Hikari account.
 
 **Reconfirm PayPay and PayPay Card linkage**
-According to [PayPay Card's benefit page][paypay-benefit], to receive benefits you need to confirm SoftBank linkage settings, set PayPay Card as the payment method for smartphone charges, and if necessary, set up combined billing for Hikari and electricity.
+According to [PayPay Card's benefit page][paypay-benefit], to receive benefits you need to confirm SoftBank linkage settings, set PayPay Card as the payment method for smartphone charges, and if necessary, set up combined billing for Hikari and electricity. Points are granted as SoftBank points, so also set up automatic exchange into PayPay points in `My SoftBank` or `My Y!mobile`.
 
 
 ## Cost breakdown
 
 * **SoftBank MNP transfer-out fee**: JPY 0. Clearly stated in [SoftBank's official FAQ][softbank-mnp-fee].
-* **SoftBank contract cancellation fee**: In principle, JPY 0. Since February 1, 2022, many consumer rate plans are exempt even outside the renewal month. There are exceptions for some corporate plans and fixed communications services. See [SoftBank's cancellation fee FAQ][softbank-cancel-fee].
+* **SoftBank contract cancellation fee**: JPY 0. [SoftBank's cancellation fee FAQ][softbank-cancel-fee] states that no cancellation fee is charged when you switch from SoftBank to Y!mobile or LINEMO by number transfer (`番号移行`). This also covers the fee of up to JPY 1,100 for lines opened on or after July 1, 2026, and canceled within 12 months. Corporate contracts and fixed communications services can still incur separate fees.
 * **Y!mobile online contract administrative fee**: JPY 3,850 (tax included). In-store is JPY 4,950; online is JPY 3,850.
 * **eSIM reissuance fee**: If eSIM is reissued after contract, eSIM reissuance from `My Y!mobile` is free. For in-store procedures, an administrative fee may be required.
 * **Remaining device balance**: If installment payments for the device remain, payment continues even after SoftBank cancellation.
 * **SoftBank charges for the cancellation month**: Except in some cases, the full amount is billed with no proration.
+* **Y!mobile cancellation fee within 12 months**: According to Y!mobile's [application procedure page][ymobile-portability], if you cancel the Y!mobile line within 12 months of the month it starts, a cancellation fee of JPY 858 (`シンプル3 S/M`) or JPY 1,100 (`シンプル3 L`) applies.
 
 
 ### Estimated total cost
 
-Assuming there is no remaining device balance or exceptional cancellation fee, the effective initial cost is mainly the Y!mobile online contract administrative fee of JPY 3,850 (tax included). If cancellation is made mid-month, SoftBank's final month is billed in full, and Y!mobile's monthly service charge is added.
+Assuming there is no remaining device balance, the effective initial cost is mainly the Y!mobile online contract administrative fee of JPY 3,850 (tax included). SoftBank bills the final month in full. On the Y!mobile side, [`基本料初月0円特典（ワイモバイル）`][ymobile-first-month-free] makes the basic fee and eligible option fees JPY 0 for the first month when you switch from SoftBank by number transfer, so you do not pay both carriers' basic fees for the switching month. Call charges and some other charges are not covered. The benefit does not apply if `基本料初月0円特典（ソフトバンク）` is still applied to the old SoftBank line when it ends.
 
 
 ## Impact on existing services
@@ -110,10 +111,10 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 
 ### Changes to PayPay Card Gold benefits
 
-* The card itself can continue to be used. Canceling SoftBank does not make the card invalid.
+* Canceling SoftBank ends the SoftBank-line benefits. [PayPay Card's benefit page][paypay-benefit] lists this as a condition for losing the benefits, not for canceling the card itself.
 * The benefits change from SoftBank-oriented to Y!mobile-oriented. [PayPay Card's official information][paypay-benefit] confirms benefits with Y!mobile when set as the payment method for communications charges.
-* Under Y!mobile `シンプル3` (Simple 3) from September 25, 2025 onward, `PayPayカード割` is JPY 330/month for PayPay Card and JPY 550/month for PayPay Card Gold.
-* According to [PayPay Card's benefit explanation][paypay-benefit], the point grant rate for smartphone communication charges under `シンプル3` appears to be up to 1% even for PayPay Card Gold. Do not assume a "10%" figure from past promotions applies to `シンプル3`.
+* Under Y!mobile `シンプル3` (Simple 3), `PayPayカード割` is JPY 330/month for PayPay Card and JPY 770/month for PayPay Card Gold, including the JPY 220 `PayPayカード割 増額特典（ゴールド）` added on June 2, 2026.
+* According to [PayPay Card's benefit explanation][paypay-benefit], the point grant rate for smartphone communication charges under `シンプル3` is up to 1% (`最大1%`) for both PayPay Card and PayPay Card Gold. Do not assume a "10%" figure from past promotions applies to `シンプル3`.
 
 
 ### Impact on SoftBank Hikari bundle discount
@@ -121,7 +122,7 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 * SoftBank Hikari itself is not automatically canceled when the mobile line moves.
 * The `おうち割 光セット` on the SoftBank mobile side ends when the mobile contract is canceled. [SoftBank's cancellation notes page][softbank-cancel-notes] states that discounts may end with cancellation or number transfer.
 * You can switch on the Y!mobile side to **`おうち割 光セット（A）`**. [Y!mobile's bundle discount page][ymobile-hikari-set] confirms that Y!mobile lines receive discounts when bundled with SoftBank Hikari, SoftBank Air, and similar services.
-* For `シンプル3 S`, official pages show a JPY 1,100/month discount (tax included), while another simulation shows JPY 1,650/month (tax included) for `おうち割 光セット（A）`. Because the display context differs, confirm the final amount on the application screen or fee simulation. At minimum, you can replace the SoftBank-side bundle discount with the Y!mobile-side bundle discount while maintaining SoftBank Hikari.
+* For `シンプル3` S, M, and L, Y!mobile's [rate plan page][ymobile-plan] shows a JPY 1,650/month discount (tax included) per line for `おうち割 光セット（A）`. You can replace the SoftBank-side bundle discount with the Y!mobile-side bundle discount while keeping SoftBank Hikari.
 
 
 ### Alternative discounts with Y!mobile
@@ -129,8 +130,9 @@ Assuming there is no remaining device balance or exceptional cancellation fee, t
 * `おうち割 光セット（A）`
 * `PayPayカード割`
 * `家族割引サービス` (Family Discount Service), depending on conditions
+* [`超！おトク割`][ymobile-cho-otokuwari]: JPY 1,100/month off for 12 months from the month after you join, for `シンプル3 M/L`. Whether it applies to number transfers from SoftBank is unverified.
 
-Y!mobile officially states that `家族割引サービス` and `おうち割 光セット（A）` cannot be combined.
+Y!mobile officially states that `家族割引サービス` and `おうち割 光セット（A）` cannot be combined. `超！おトク割` cannot be combined with `おうち割 光セット（A）`, `家族割引サービス`, or `おうち割 でんきセット（E）`, and those discounts take priority. If you keep SoftBank Hikari and receive `おうち割 光セット（A）`, `超！おトク割` does not apply.
 
 
 ## Campaigns and discounts (online)
@@ -138,16 +140,15 @@ Y!mobile officially states that `家族割引サービス` and `おうち割 光
 
 ### Confirmed benefits currently available
 
-* **eSIM contract benefit on Y!mobile official online store**: In the [official campaign list][ymobile-campaign], up to the equivalent of JPY 15,000 in PayPay points may be presented for eSIM contracts.
-* **PayPay point benefit at the time of eSIM contract**: The [official SIM page][ymobile-simulation] also indicates a PayPay point code present as an eSIM contract benefit.
-* **`PayPayカード割`**: Under `シンプル3` from September 25, 2025 onward, JPY 330/month off for PayPay Card and JPY 550/month off for PayPay Card Gold. This is a standing discount, not a campaign.
-* **Benefits related to `おうち割 光セット（A）`**: Y!mobile has pages for campaigns related to joining `おうち割 光セット（A）`, and under certain conditions benefits are granted. Some pages include conditions that require in-store application, so the same conditions may not apply for online-only applications. Confirm eligibility for each application route.
+* **Basic fee free for the first month**: Under [`基本料初月0円特典（ワイモバイル）`][ymobile-first-month-free], a number transfer from SoftBank makes the Y!mobile basic fee and eligible option fees JPY 0 for the first month. Contracts without a phone purchase, such as eSIM only, are included.
+* **The eSIM PayPay point offer does not apply**: The [SIM card / eSIM page][ymobile-sim-esim] advertises up to JPY 15,000 in PayPay points for SIM and eSIM contracts, but transfers from SoftBank, LINEMO, and LINE Mobile (SoftBank line) are excluded. The offer also requires the `データ増量オプション` (JPY 550/month).
+* **`PayPayカード割`**: Under `シンプル3`, JPY 330/month off for PayPay Card and JPY 770/month off for PayPay Card Gold, including the JPY 220 Gold bonus. This is a standing discount, not a campaign.
 
 
 ### What is realistically achievable
 
-1. Online application benefit for eSIM
-2. JPY 550 monthly discount for PayPay Card Gold
+1. Basic fee free for the first month (`基本料初月0円特典（ワイモバイル）`)
+2. JPY 770 monthly discount for PayPay Card Gold
 3. Y!mobile-side `おうち割 光セット（A）` by continuing SoftBank Hikari
 
 Layering these three is realistic in an online transfer.
@@ -156,24 +157,24 @@ Layering these three is realistic in an online transfer.
 ## Recommendations and advice
 
 
-### Timing to minimize cost
+### Timing and cost
 
-Switching near the end of the month tends to be advantageous. SoftBank charges the full amount for the cancellation month with no proration in most cases. On the Y!mobile side, there is guidance on prorated discounts for the contract month, and the eSIM activation timing is easy to adjust yourself. As a general rule, aim for several days before month-end through month-end. This recommendation is based on official proration rules.
+SoftBank bills the cancellation month in full, with no proration in most cases. On the Y!mobile side, `基本料初月0円特典（ワイモバイル）` makes the basic fee JPY 0 for the first month after a transfer from SoftBank. In the switching month, you pay one full SoftBank month and no Y!mobile basic fee, whichever day you switch, so the day you choose within the month has little effect on monthly fees. This conclusion is based on the official proration rules and the first-month benefit.
 
 
 ### How to preserve bundle discounts
 
-There is no need to stop SoftBank Hikari. Leave SoftBank Hikari as it is, move only the mobile line to Y!mobile, and apply for `おうち割 光セット（A）` on the Y!mobile side. This lets you continue receiving the bundle discount without any switching construction work for the fixed line.
+There is no need to stop SoftBank Hikari. Leave SoftBank Hikari as it is, move only the mobile line to Y!mobile, and apply for `おうち割 光セット（A）` from `My Y!mobile` after the line is active. This lets you continue receiving the bundle discount without any switching construction work for the fixed line.
 
 
 ### Important checks at the time of application
 
-* Select number transfer from SoftBank
+* Select number transfer from SoftBank, and apply on the smartphone that uses your SoftBank line
+* Make sure your name and address in `My SoftBank` are current
 * Set PayPay Card Gold as the payment method
-* Keep SoftBank Hikari contract information at hand
-* Apply from the campaign-eligible page
+* Keep the S-ID and password of your SoftBank Hikari account at hand for the `My Y!mobile` application after activation
 
-The last point is important because Y!mobile's applicable conditions differ by campaign page. If you enter from the normal application route, you may become ineligible for the benefit.
+Y!mobile cancels the application if your name or address registered with SoftBank is out of date, so update them by the day before you apply.
 
 
 ### Confirmed information vs. items requiring confirmation
@@ -182,8 +183,9 @@ The last point is important because Y!mobile's applicable conditions differ by c
 
 * MNP reservation number is unnecessary
 * SoftBank transfer-out fee is JPY 0
-* Cancellation fee is generally JPY 0
+* SoftBank cancellation fee is JPY 0 for a number transfer to Y!mobile
 * Y!mobile online administrative fee is JPY 3,850
+* Y!mobile basic fee is JPY 0 for the first month after a transfer from SoftBank
 * eSIM can start as early as the same day
 * SoftBank cancellation month is generally not prorated
 
@@ -191,8 +193,8 @@ The last point is important because Y!mobile's applicable conditions differ by c
 
 * The final billed amount under your current SoftBank plan
 * Whether there is any remaining device balance
-* The final discount amount for Y!mobile-side `おうち割 光セット（A）`
-* The campaign amount at the time of application
+* Whether your device is SIM-unlocked
+* The campaign conditions at the time of application
 
 These require individual confirmation on the application screen or in `My SoftBank`.
 
@@ -200,22 +202,40 @@ These require individual confirmation on the application screen or in `My SoftBa
 ## Reference information
 
 * [Y!mobile - Application procedure by MNP / number transfer][ymobile-portability]
-  Official page confirming that, for number transfers from SoftBank or LINEMO, an MNP reservation number is unnecessary.
+  Official page confirming that, for number transfers from SoftBank or LINEMO, an MNP reservation number is unnecessary. It also lists the Y!mobile cancellation fee within 12 months.
 
 * [Y!mobile - Items to prepare][ymobile-necessaries]
-  Page for confirming what is needed before online application. Includes guidance that identity verification documents may be unnecessary for number transfers from SoftBank.
+  Page for confirming what is needed before online application. Includes guidance that identity verification documents are not needed for a number transfer from SoftBank when you log in with your `My SoftBank` account.
 
 * [Y!mobile - Flow from application to start of use (eSIM)][ymobile-flow-esim]
-  Page for confirming eSIM activation time, line switching reception hours, and the initial setup flow.
+  Page for confirming eSIM activation time, reception hours, and the initial setup flow for transfers from SoftBank.
 
 * [Y!mobile - SIM card / eSIM][ymobile-sim-esim]
-  Official page explaining how eSIM works, the application entry point, and a link to the supported device page.
+  Official page explaining how eSIM works and the application entry point. It also shows the conditions of the eSIM PayPay point offer, which excludes transfers from SoftBank.
+
+* [Y!mobile - SIM-compatible device search][ymobile-devices]
+  Official search for devices confirmed to work with Y!mobile SIM and eSIM.
+
+* [Y!mobile - SIM unlock][ymobile-unlock]
+  Official guidance, by carrier, on removing the SIM lock before eSIM setup, including SoftBank devices.
+
+* [Y!mobile - Communications settings for SIM-free iPhone][ymobile-simfree-apn]
+  Official settings page for SIM-free or unlocked iPhone and iPad devices.
+
+* [Y!mobile - Rate plans][ymobile-plan]
+  Official plan page showing the amounts of `PayPayカード割` and `おうち割 光セット（A）` under `シンプル3`.
+
+* [Y!mobile - `基本料初月0円特典（ワイモバイル）`][ymobile-first-month-free]
+  Official terms of the first-month basic fee benefit for transfers from SoftBank, LINEMO, or LINE Mobile.
+
+* [Y!mobile - `超！おトク割`][ymobile-cho-otokuwari]
+  Official page for the 12-month discount on `シンプル3 M/L` and the discounts it cannot be combined with.
 
 * [SoftBank FAQ - Is there an MNP transfer-out fee?][softbank-mnp-fee]
   Official FAQ confirming transfer-out fee JPY 0, remaining device balance, proration, and points to note regarding the end of discounts.
 
 * [SoftBank FAQ - Contract cancellation fee at cancellation][softbank-cancel-fee]
-  Official FAQ confirming that contract cancellation fees are waived for consumer plans in principle.
+  Official FAQ confirming that no cancellation fee applies to a number transfer from SoftBank to Y!mobile or LINEMO.
 
 * [SoftBank - Notes regarding switching and cancellation][softbank-cancel-notes]
   Official page for checking points to note before switching, such as no proration in the cancellation month and continuation of remaining installment payments.
@@ -224,16 +244,16 @@ These require individual confirmation on the application screen or in `My SoftBa
   Official guidance on the Y!mobile-side bundle discount when using SoftBank Hikari or SoftBank Air.
 
 * [Y!mobile - How to apply online for `おうち割 光セット（A）`][ymobile-ouchiwari]
-  Official guide for people already under contract for SoftBank Hikari who want to proceed with the bundle discount during online application.
+  Official guide for adding the bundle discount during an online store application. It notes that people switching from SoftBank must apply from `My Y!mobile` after the line is active.
 
 * [PayPay Card - Benefits for use of SoftBank / Y!mobile services][paypay-benefit]
-  Official page for confirming mobile benefits, linkage methods, and point grant rates for PayPay Card Gold use.
+  Official page for confirming mobile benefits, linkage steps including automatic point exchange, and point grant rates.
 
 * [PayPay Card - Notice of partial change to Y!mobile benefits][paypay-notice]
-  Official notice for confirming the changed contents of `PayPayカード割` after the start of `シンプル3`.
+  Official notice for confirming the changed contents of `PayPayカード割` after the start of `シンプル3`. It does not cover the JPY 220 Gold bonus added in June 2026.
 
 * [Y!mobile - Campaign information][ymobile-campaign]
-  Official campaign portal for confirming PayPay point benefits for eSIM.
+  Official campaign portal. It lists the first-month basic fee benefit for transfers from SoftBank. The eSIM PayPay point offer listed there excludes transfers from SoftBank.
 
 * [mybest - Explanation of Y!mobile campaigns][mybest-ymobile]
   Third-party article useful for interpreting official conditions. Final judgment should always be made together with the official terms and conditions.
@@ -247,10 +267,15 @@ These require individual confirmation on the application screen or in `My SoftBa
 [softbank-cancel-notes]: https://www.softbank.jp/mobile/support/cancellation/mnp/notification/
 [softbank-mnp-fee]: https://www.softbank.jp/support/faq/view/11028
 [ymobile-campaign]: https://www.ymobile.jp/cp/
+[ymobile-cho-otokuwari]: https://www.ymobile.jp/cp/cho-otokuwari/
+[ymobile-devices]: https://www.ymobile.jp/store/lineup/sim_devices/
+[ymobile-first-month-free]: https://www.ymobile.jp/cp/sblm_tesuryomuryo/
 [ymobile-flow-esim]: https://www.ymobile.jp/store/to_beginner/flow_esim/
 [ymobile-hikari-set]: https://www.ymobile.jp/plan/discount/hikarisetwari/
 [ymobile-necessaries]: https://www.ymobile.jp/store/to_beginner/necessaries/
 [ymobile-ouchiwari]: https://www.ymobile.jp/store/to_beginner/ouchiwari/
+[ymobile-plan]: https://www.ymobile.jp/plan/
 [ymobile-portability]: https://www.ymobile.jp/support/process/portability/
 [ymobile-sim-esim]: https://www.ymobile.jp/store/sp/sim/
-[ymobile-simulation]: https://www.ymobile.jp/sp/simulation/
+[ymobile-simfree-apn]: https://www.ymobile.jp/yservice/howto/simfree_iphone/apn/
+[ymobile-unlock]: https://www.ymobile.jp/store/to_beginner/esim_app/unlock/

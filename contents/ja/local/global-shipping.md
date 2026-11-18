@@ -53,7 +53,10 @@ localization: sync
   * 最終行は空にしてください。
 
 * ラベル作成の前に、[内容品リスト][contents-list]ツールで発送する品物を事前に登録しておきましょう。
-* ホーム、アドレス帳、アドレス帳のデータインポート画面は、下のデモ動画で確認できます。
+
+|     | ホーム                                            | アドレス帳                                                  | アドレス帳のデータインポート                                |
+| --- | ------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+|     | ![global-shipping-home][img-global-shipping-home] | ![global-shipping-address-1][img-global-shipping-address-1] | ![global-shipping-address-2][img-global-shipping-address-2] |
 
 
 ### デモ
@@ -69,8 +72,6 @@ localization: sync
 7. 荷物の詳細
 8. 確認
 9. ラベルの保存と印刷
-
-* デモ動画（MP4）：
 
 <!-- markdownlint-disable MD033 -->
 <video controls>
@@ -89,6 +90,9 @@ localization: sync
 [address-book]: https://www.post.japanpost.jp/intmypage/address_en.html
 [contents-list]: https://www.post.japanpost.jp/intmypage/contents_en.html
 [ead]: https://www.post.japanpost.jp/int/ead/index_en.html
+[img-global-shipping-address-1]: /global-shipping/global-shipping-address-1.png
+[img-global-shipping-address-2]: /global-shipping/global-shipping-address-2.png
+[img-global-shipping-home]: /global-shipping/global-shipping-home.png
 [mypage-about]: https://www.post.japanpost.jp/intmypage/whatsmypage_en.html
 [mypage-login]: https://www.int-mypage.post.japanpost.jp/mypage/M010000.do
 [mypage-login-en]: https://www.int-mypage.post.japanpost.jp/mypage/M010000.do?request_locale=en

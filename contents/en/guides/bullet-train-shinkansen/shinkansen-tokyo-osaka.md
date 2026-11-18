@@ -1,6 +1,6 @@
 ---
 title: Platt Kodama - discount Shinkansen tickets between Tokyo, Kyoto, and Osaka 🚅
-description: Guide on using Platt Kodama plan for discounted travel on the Tokaido Shinkansen, including booking, pickup, and free drink perks. Stations include Tokyo, Shinagawa, Shin-Yokohama, Nagoya, Kyoto, and Shin-Osaka.
+description: How to use the Platt Kodama plan for discounted Tokaido Shinkansen travel between Tokyo and Shin-Osaka, including booking, pickup, and the drink coupon.
 head:
   - - meta
     - name: keywords

@@ -84,6 +84,12 @@ Find events this week in Tokyo:
 
 ## Transportation
 
+[Jorudan - Japan Transit Planner][jorudan-world]
+
+* Train route, transfer, and fare search for all of Japan, with an English UI
+* iOS app: [Japan Transit Planner][jorudan-app-ios]
+  * Popular among expats in Japan
+
 [Yahoo! マップ][yahoo-map]
 
 * Provides detailed instructions for train transfers and fares
@@ -130,6 +136,8 @@ Tokyo Metro
 [ekinet-jp]: https://www.eki-net.com/Personal/Top/Index
 [japan-guide]: https://www.japan-guide.com/e/e625.html
 [japan-rail-pass]: https://www.japan-guide.com/e/e2361.html
+[jorudan-app-ios]: https://apps.apple.com/us/app/id299490481?l=en
+[jorudan-world]: https://world.jorudan.co.jp/mln/en/
 [jre-point]: https://www.jrepoint.jp/
 [kakaku]: https://kakaku.com/
 [keepa]: https://keepa.com/#!
