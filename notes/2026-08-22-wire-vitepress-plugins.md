@@ -16,9 +16,9 @@ Keep these three packages in the project and **wire them into the published Vite
 Do **not** remove these packages because they look unused. They are intentional. They were briefly dropped during the 2026-08-22 production audit (finding F8: declared in `package.json` and docs, never imported). That deletion was the wrong call. The correct follow-up is to wire them.
 
 
-## Current state (2026-08-22)
+## Current state (2026-11-19)
 
-* Site generator: VitePress `2.0.0-alpha.17`, source in `contents/`, theme in [`contents/.vitepress/theme/index.ts`][theme-index].
+* Site generator: VitePress `2.0.0-alpha.21`, source in `contents/`, theme in [`contents/.vitepress/theme/index.ts`][theme-index].
 * Wired today: `vitepress-sidebar`, `@nolebase/vitepress-plugin-enhanced-readabilities`, and the local hero speech-bubble.
 * **Not wired:** image viewer, Nolebase meta, Mermaid renderer.
 * There are **no** ` ```mermaid ` fences under `contents/`. One draft chart lives in [`notes/branch-chart/2026-06-11-jr-central-fuji-view.md`][fuji-view].
@@ -30,7 +30,7 @@ Do **not** remove these packages because they look unused. They are intentional.
 Use `pnpm`. Never `npm`, `npx`, or `yarn`.
 
 ```shell
-pnpm add -D @davidingplus/vitepress-image-viewer@^1.1.5 @nolebase/vitepress-plugin-meta@^2.18.2 vitepress-mermaid-renderer@^1.2.0
+pnpm add -D @davidingplus/vitepress-image-viewer@^1.1.5 @nolebase/vitepress-plugin-meta@^2.21.1 vitepress-mermaid-renderer@^1.2.3
 ```
 
 Those versions match what this repo last shipped. Bump only if the plugin docs require it for VitePress 2 alpha, and re-run `pnpm build` after the bump.
@@ -88,7 +88,7 @@ This plugin writes extra `<meta>` tags (Open Graph, excerpt, author) for SEO and
 The public Nolebase page is still marked constructing. After `pnpm add`, read the package itself:
 
 * `node_modules/@nolebase/vitepress-plugin-meta/` README and exported `transformHead` helper.
-* Peer range already includes `vitepress` `^2.0.0-alpha.1`.
+* Peer range is `vitepress` `^2.0.0-alpha.20`, which already covers the pinned `2.0.0-alpha.21`.
 
 Wire it in [`contents/.vitepress/config.mts`][config], not the theme. Typical shape is an async `transformHead(context)` that calls the helper and returns the extra head tuples. Keep the existing `head` entries for favicon, apple-touch-icon, and `apple-mobile-web-app-title`.
 
